@@ -21,4 +21,4 @@ xsl
 
 Test Stuff Added from Windows
 ------------------------
-* just added from Windows client to see how this workss
+* just added from Windows client to see how this works

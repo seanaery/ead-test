@@ -1,0 +1,2895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead> 
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Wolfgang F. Stolper Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/stolper/">stolper</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Wolfgang F. Stolper
+			 Papers, 
+			 <date normal="1892/2001" type="inclusive" era="ce" calendar="gregorian">1892-2001</date> (bulk
+			 <date normal="1930/1999" type="bulk" era="ce" calendar="gregorian">[1930s-1990s]</date></titleproper>
+        <author>Processed by Joanna Vinluan</author>
+      </titlestmt>
+      <publicationstmt>
+        
+        <p>(C) 
+			 <date era="ce" calendar="gregorian"> 2002</date> Duke University. All Rights
+			 Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">002067260</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from
+		  electronic text (word processor) file. <lb/>Date of source:
+		  1997. <lb/>Processed by Joanna Vinluan, July 31 1997;
+		  Finding aid encoded by Robin LaPasha, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+		  University 
+		  <date calendar="gregorian" era="ce">August 20, 1997</date></creation>
+      <langusage>Description is in
+		  <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Wolfgang F. Stolper Papers)//EN" "stolper.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce">September 24, 2002</date>
+        <item>Addition (2002-0207) made to electronic
+			 finding aid. Materials received as a gift, 2002. Minimally
+			 processed by Joshua Kaiser, August 23, 2002. Encoded by
+			 Joshua Kaiser and Ruth E. Bryan, September 24, 2002. Date
+			 span changed from 1947-1988 to 1892-2001. Linear feet
+			 changed from 15 to 29. Item count changed from 9900 to
+			 18,525.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce">June 29, 1998</date>
+        <item>Updated to EAD Version 1.0 from EAD Beta by
+			 Stephen Miller</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the Wolfgang F. Stolper
+			 Papers, 
+			 <date calendar="gregorian" era="ce">1892-2001</date> (bulk
+			 [1930s-1990s]</titleproper>
+      <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham,
+		  North Carolina</publisher>
+      
+      <p>(C) 2002 Duke University. All Rights Reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Wolfgang F. Stolper
+		  papers, 
+		  <unitdate calendar="gregorian" era="ce" normal="1892/2001" type="inclusive">1892-2001</unitdate>
+            <unitdate calendar="gregorian" era="ce" normal="1930/1999" type="bulk">(bulk [1930s-1990s])</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Stolper, Wolfgang
+			 F.</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>29 Linear Feet</extent>
+		  <extent>18,525 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+      </repository>
+      <physloc label="Location">For current information on
+		  the location of these materials, please consult the
+		  Library's online catalog.</physloc>
+      <langmaterial label="Languages">
+        <language langcode="eng">English, </language>
+        <language langcode="ger">German, </language>
+        <language langcode="fre">and French.</language>
+      </langmaterial>
+
+<abstract encodinganalog="545" label="Abstract">Professor emeritus of economics, University of Michigan. Stolper died in 2002.</abstract>
+<abstract encodinganalog="520">The papers of Wolfgang F. Stolper (ca. 9900 items) span the period from 1947-1988, with the bulk of the materials dated between 1960 and the mid 1970s. Most of the collection is comprised of Professor Stolper's files and notes from his work in Nigeria, Tunisia, and other missions to Africa. These work files document his career as a practitioner--literally working "in the field"--of development economics.</abstract>
+
+
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Collection is open for research.</p>
+        <p>However, some of the materials in the additions
+			 to this collection are not immediately accessible, because
+			 they require further processing before use.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p> 
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>   
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p> 
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in this collection have
+			 not been transferred to Duke University. For more
+			 information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Prefered Citation</head>
+        <p>[Identification of item], The Wolfgang F.
+			 Stolper Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The papers of Wolfgang F. Stolper were donated
+			 to the David M. Rubenstein Rare Book &amp; Manuscript Library in 1993, 1995, and 2002.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by: Joanna Vinluan</p>
+        <p>Completed July 31, 1997</p>
+        <p>Additions minimally processed by: Joshua
+			 Kaiser</p>
+        <p>Last updated September 24, 2002</p>
+	  <p>Encoded by Robin LaPasha; Joshua Kaiser; Ruth E.
+				Bryan</p>
+        <p>This finding aid is NCEAD compliant.</p>
+      </processinfo>
+    </descgrp>
+    <bioghist>
+      <head>Biographical Note</head>
+      <chronlist>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1912</date>
+          <event>Born in 
+				<geogname>Vienna, Austria </geogname>on May
+				13</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1930-34</date>
+          <event>Attended the Universities of Berlin, Bonn,
+				and Zurich</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1935</date>
+          <event>M.A., Economics, 
+				<corpname>Harvard University</corpname></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1936-41</date>
+          <event>Instructor and Tutor, Economics, 
+				<corpname>Harvard University</corpname></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1938</date>
+          <event>Ph.D., Economics, 
+				<corpname>Harvard University</corpname></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1941</date>
+          <event>Publication (with 
+				<persname>Paul A. Samuelson): </persname><bibref linktype="simple"><title linktype="simple" render="doublequote">Protection and Real
+					 Wages,</title><title linktype="simple" render="italic">Review of Economic
+					 Studies,</title><imprint><date calendar="gregorian" era="ce">November 9,
+					 1941</date></imprint></bibref></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1941-49</date>
+          <event>Assistant Professor (1941-48), Associate
+				Professor (1948-49), 
+				<corpname>Swarthmore College</corpname></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1947-48</date>
+          <event>Guggenheim Foundation Fellowship, 
+				<corpname>University of
+				  Zurich</corpname></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1949-date</date>
+          <event>Associate Professor (1949-53), Professor
+				(1953-82), Director of 
+				<corpname>Center for Research on Economic
+				  Development </corpname>(1963-70), Professor Emeritus (1982
+				- ), 
+				<corpname>University of
+				  Michigan</corpname></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1960</date>
+          <event>Publication: 
+				<bibref linktype="simple"><title linktype="simple" render="italic">Germany Between East
+					 and West</title><imprint><publisher>(National Planning Association),
+					 </publisher></imprint></bibref>and 
+				<bibref linktype="simple"><title linktype="simple" render="italic">The Structure of the
+					 East German Economy</title><imprint><publisher>(Harvard University
+					 Press)</publisher></imprint></bibref></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1961-1962</date>
+          <event>Head, 
+				<corpname>Economic Planning Unit, </corpname><corpname>Federal Ministry of Economic
+				  Development, </corpname>in 
+				<geogname>Lagos, Nigeria</geogname></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1963-1964, 1964-1965</date>
+          <event>Chief, 
+				<corpname>USAID </corpname>economic mission to 
+				<geogname>Tunisia</geogname></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1966</date>
+          <event>Publication: 
+				<bibref linktype="simple"><title linktype="simple" render="italic">Planning Without
+					 Facts: Lessons in Resource Allocation from Nigeria's
+					 Development</title><imprint><publisher>(Harvard University
+					 Press)</publisher></imprint></bibref></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1966</date>
+          <event>Fulbright Professor, 
+				<corpname>University of
+				  Heidelberg</corpname></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1967</date>
+          <event>Member, Economic Section, 
+				<corpname>International Bank for Reconstruction
+				  and Development </corpname>(IBRD)</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1967</date>
+          <event>Head, 
+				<corpname>IBRD </corpname>Mission to 
+				<geogname>Togo </geogname>and 
+				<geogname>Dahomey</geogname><note><p>Dahomey is now called Benin (name changed
+					 in 1975).</p></note></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1970</date>
+          <event>Member, 
+				<corpname>USAID </corpname>Mission to 
+				<geogname>Nigeria</geogname></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1981</date>
+          <event>Member, 
+				<corpname>UN </corpname>Mission to 
+				<geogname>Malawi</geogname></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1983</date>
+          <event>Chief, 
+				<corpname>IBRD </corpname>Mission to 
+				<geogname>Benin</geogname></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1994</date>
+          <event>Publication of 
+				<bibref linktype="simple"><title linktype="simple" render="italic">Joseph Alois
+					 Schumpeter: The Public Life of a Private Man</title><imprint><publisher>(Princeton University
+					 Press)</publisher></imprint></bibref></event>
+        </chronitem>
+      </chronlist>
+      <p>In addition to the places listed above, Professor
+		  Stolper participated in economic missions to 
+		  <geogname>Malta </geogname>(1963), 
+		  <geogname>Liberia </geogname>(1963), and 
+		  <geogname>Turkey </geogname>(1968), and worked as a
+		  consultant to the 
+		  <corpname>Ford Foundation, </corpname><corpname>USAID, </corpname>the 
+		  <corpname>United Nations, </corpname>and the 
+		  <corpname>IBRD </corpname>(the 
+		  <corpname>World Bank). </corpname>He also held
+		  various visiting professorships/lecturing posts at the
+		  Universities of Zurich, Heidelberg, and Munster.</p>
+      <p>His professional affiliations include membership
+		  in the 
+		  <corpname>American Economic Association,
+			 </corpname>the 
+		  <corpname>Nigerian Economic Association,
+			 </corpname>the 
+		  <corpname>International Instititute of Public
+			 Finance, </corpname>and the 
+		  <corpname>International Schumpeter Society
+			 </corpname>(founding president).</p>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The papers of Wolfgang F. Stolper span the period
+		  from 1947-1988, with the bulk of the material dated between
+		  1960 and the mid 1970s. Most of the collection is comprised
+		  of Professor Stolper's files and notes from his work in 
+		  <geogname>Nigeria, </geogname><geogname>Tunisia, </geogname>and other missions to
+		  
+		  <geogname>Africa. </geogname>These work files
+		  document his career as a practitioner--literally working
+		  <emph render="doublequote">in the field</emph>--of development
+		  economics. The papers are organized into eight series:
+		  Nigeria; Tunisia; Other Missions; Writings; Speeches,
+		  Lectures, and Conferences; Schumpeter; University of
+		  Michigan and Teaching Material; and General Correspondence.
+		  The Nigeria Series, the first and largest, contains his
+		  work files from his job as head of the 
+		  <corpname>Economic Planning Unit </corpname>(EPU)
+		  in the 
+		  <corpname>Federal Ministry of Economic Development
+			 </corpname>in 
+		  <geogname>Lagos, Nigeria </geogname>from 
+		  <unitdate calendar="gregorian" era="ce" normal="1961/1962" type="inclusive">1961-62</unitdate>(sent there under the
+		  auspices of the 
+		  <corpname>Ford Foundation). </corpname>As head of
+		  the EPU, Stolper co-authored the first ever 
+		<title linktype="simple" render="italic">National Development
+		  Plan,</title><unitdate calendar="gregorian" era="ce" normal="1962/1968" type="inclusive">1962-68</unitdate>for the 
+		<corpname>Federation of Nigeria. </corpname>As such,
+		his papers present an extensive and thorough picture of the
+		Nigerian economy at that time. Once top secret files, they
+		include detailed statistical data on each industry,
+		industrialization plans, reports on marketing board
+		policies, maps, and demographics data. Of great interest to
+		researchers on the Nigerian economy might be Stolper's
+		personal diary, a 393-page typewritten account of his two
+		years in 
+		<geogname>Nigeria. </geogname>The next two series
+		pertain to his work in 
+		<geogname>Tunisia </geogname><unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">(1972),</unitdate>and other economic
+		missions to Africa including 
+		<geogname>Dahomey </geogname>(now 
+		<geogname>Benin) </geogname>and 
+		<geogname>Togo </geogname><unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">(1967),</unitdate>
+            <geogname>Benin </geogname><unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">(1983)</unitdate>and 
+		<geogname>Malawi </geogname><unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">(1981).</unitdate>He was sent to these
+		countries under the auspices of 
+		<corpname>USAID, </corpname>the 
+		<corpname>UN </corpname>and the 
+		<corpname>International Bank for Reconstruction and
+		  Development </corpname><abbr>(IBRD, </abbr>also known as
+		the 
+		<corpname>World Bank). </corpname>The files from
+		these three series alone make up eight of the fourteen
+		storage boxes that house the entire collection. Also in the
+		collection are some notes, papers and drafts of Professor
+		Stolper's work pertaining to 
+		<persname>Joseph Schumpeter. </persname>The
+		collection as a whole is restricted, so that persons
+		interested in viewing the papers during Professor Stolper's
+		lifetime must first obtain his permission.</p>
+      <p>Stolper's name is perhaps most recognizable for
+		  the theoretical piece written with 
+		  <persname>Paul A. Samuelson </persname>on what has
+		  come to be known as the 
+		  <subject>Stolper-Samuelson Theorem </subject>(see 
+		<title linktype="simple" render="doublequote">Protection and Real
+		  Wages,</title><title linktype="simple" render="italic">Review of Economic
+		  Studies,</title> Nov. 1941). This theorem, one of the core
+		results of the Hecksher-Ohlin model of international trade,
+		essentially states that an increase in the relative
+		domestic price of a good (for example, via the imposition
+		of a tariff) unambiguously raises the real return to the
+		factor of production used intensively in producing that
+		good (and lowers the real return to the other factor). This
+		paper analyzed precisely for the first time the effect of
+		trade or protection on real wages. At present, there is
+		nothing (aside from reprints of the article) in this
+		collection of papers dealing with the Stolper-Samuelson
+		Theorem.</p>
+      <p>The fourth series, Writings, contains notes,
+		  drafts, manuscripts and reprints of any articles found in
+		  the collection but excluding those related to Joseph
+		  Schumpeter. Some highlights include drafts of 
+		<title linktype="simple" render="doublequote">Investments in Africa South of
+		  the Sahara,</title> notes and drafts of his book 
+		<title linktype="simple" render="italic">Planning Without Facts:
+		  Lessons in Resource Allocation from Nigeria's
+		  Development,</title> and articles on smuggling in
+		Africa.</p>
+      <p>The fifth series, Speeches, Lectures and
+		  Conferences, contains material (excluding those pertaining
+		  to Schumpeter) from public speaking engagements and
+		  conferences attended by Professor Stolper. One item that
+		  might be of interest is a speech recorded on magnetic tape
+		  titled 
+		<title linktype="simple" render="doublequote">Problems of our Foreign Aid
+		  Program</title> that dates from around the 1950's.</p>
+      <p>Another of Professor Stolper's research interests
+		  is the history of economic thought, and this collection's
+		  Schumpeter Series contains some notes, papers and drafts of
+		  Professor Stolper's work pertaining to 
+		  <persname>Joseph Alois Schumpeter.
+			 </persname>Stolper was afforded a unique and personal
+		  relationship with Schumpeter, studying under him first at
+		  the 
+		  <corpname>University of Bonn </corpname>and then at
+		  
+		  <corpname>Harvard, </corpname>and also through
+		  Schumpeter's position as a close friend of 
+		  <persname>Gustav and Toni Stolper
+			 </persname>(Wolfgang's father and stepmother,
+		  respectively). Included in this series is a book (in
+		  German) that Professor Stolper co-wrote with 
+		  <persname>Horst Claus Recktenwald </persname>and 
+		  <persname>Frederic M. Scherer </persname>titled 
+		<title linktype="simple" render="italic">Uber Schumpeters »Theorie der
+		  wirtschaftlichen Entwicklung«,</title> 1988.</p>
+      <p>The addition (02-0207) (8625 items, 14 linear
+		  feet; dated 1892-2001) contains correspondence with
+		  colleagues, including Paul Samuelson, Gottfried Haberler,
+		  and other prominent economists; class lectures (1930s); as
+		  well as writings about J. A. Schumpeter, economic
+		  development, and other topics. Also writings, reports,
+		  diaries, and other documents (mainly 1960s) about the
+		  economies of Nigeria, Tunisia, Liberia, Togo, and the Ivory
+		  Coast. In addition, there are 12 black-and-white and 18
+		  color photographs; one x-ray; and 16 electronic documents
+		  on 3 floppy disks. This addition is unprocessed.</p>
+    </scopecontent>
+    <arrangement>
+      <head>Processing Note</head>
+      <p>A side note on the processing of this collection
+		  is that the folders were labeled with Professor Stolper's
+		  original titles, and items were very rarely moved to
+		  different folders. Consequently, rather than consolidating
+		  all the pieces of correspondence into one folder, they were
+		  left dispersed throughout the collection in the same files
+		  they came in. Some of the papers are written in German and
+		  French, but the bulk is in English.</p>
+    </arrangement>
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p> 
+      <list type="simple">
+        <item>
+          <persname>Stolper, Wolfgang F.</persname>
+        </item>
+        <item>
+          <persname>Samuelson, Paul Anthony, 1915-
+				.</persname>
+        </item>
+        <item>
+          <persname>Haberler, Gottfried, 1900-
+				.</persname>
+        </item>
+        <item>
+          <corpname>World Bank -- Africa.</corpname>
+        </item>
+        <item>
+          <corpname>Nigeria. Federal Ministry of Economic
+				Development.</corpname>
+        </item>
+        <item>
+          <corpname>University of Michigan. Dept. of
+				Economics. </corpname>
+        </item>
+        <item>
+          <subject>Economists -- United States.
+				</subject>
+        </item>
+        <item>
+          <subject>Economics -- History.</subject>
+        </item>
+        <item>
+          <subject>Economics -- Study and teaching
+				(Higher).</subject>
+        </item>
+        <item>
+          <subject>Economics -- Study and teaching
+				(Higher)--Michigan -- Ann Arbor.</subject>
+        </item>
+        <item>
+          <subject>Finance,
+				Public -- Nigeria.</subject>
+        </item>
+        <item>
+          <subject>Economic development.</subject>
+        </item>
+        <item>
+          <subject>Developing countries -- Economic
+				conditions.</subject>
+        </item>
+        <item>
+          <geogname>Nigeria -- Economic
+				policy.</geogname>
+        </item>
+        <item>
+          <geogname>Benin -- Economic policy.</geogname>
+        </item>
+        <item>
+          <geogname>Togo -- Economic policy.</geogname>
+        </item>
+        <item>
+          <geogname>Malawi -- Economic
+				policy.</geogname>
+        </item>
+        <item>
+          <geogname>Tunisia -- Economic
+				policy.</geogname>
+        </item>
+        <item>
+          <geogname>Côte d'Ivoire -- Economic
+				policy.</geogname>
+        </item>
+        <item>
+          <geogname>Liberia -- Economic
+				policy.</geogname>
+        </item>
+        <item>
+          <geogname>Nigeria -- Economic conditions -- 1960-
+				.</geogname>
+        </item>
+        <item>
+          <geogname>Africa -- Economic conditions -- 1960-
+				.</geogname>
+        </item>
+        <item>
+          <genreform>Diaries.</genreform>
+        </item>
+        <item>
+          <genreform>Color photographs. </genreform>
+        </item>
+        <item>
+          <genreform>Black-and-white
+				photographs.</genreform>
+        </item>
+        <item>
+          <genreform>Machine-readable records.</genreform>
+        </item>
+      </list>
+    </controlaccess>
+  
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle>Nigeria Series, 
+				<unitdate calendar="gregorian" era="ce" normal="1961/1962" type="inclusive">1961-62</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Comprised of Professor Stolper's work files
+				from his job as head of the 
+				<corpname>Economic Planning Unit </corpname>for
+				
+				<corpname>the Federal Ministry of Economic
+				  Development </corpname>in Lagos. Sent there under the
+				auspices of the 
+				<corpname>Ford Foundation, </corpname>one of
+				Professor Stolper's accomplishments was to help coordinate
+				and write the first-ever 
+			 <title linktype="simple" render="italic">National Development
+				Plan</title> for 
+			 <geogname>Nigeria. </geogname>The files, after
+			 the diary, are arranged in alphabetical order. Highlights
+			 include Dr. Stolper's personal diary; drafts of an article
+			 titled 
+			 <title linktype="simple" render="doublequote">The Development of
+				Nigeria</title> commissioned and published by 
+			 <title linktype="simple" render="italic">Scientific
+				American;</title> detailed information and data on all
+			 aspects of the Nigerian economy; and various letters which
+			 are dispersed throughout the series.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">1 </container>
+            <unittitle>Diary, 
+				  <unitdate calendar="gregorian" era="ce" normal="1961/1962" type="inclusive">1961-62</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Agricultural Development Plans in
+				  East Nigeria</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>American Mission 
+				  <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">(May - June 1961</unitdate>visit)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Capital -- Regional
+				  Breakdown</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Council of Ministers
+					 </corpname>paper</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Development
+					 Corporation</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Education </subject>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Food and Agriculture Organization
+					 </corpname><abbr>(FAO) </abbr>Mission</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Federal Grants to the
+				  Regions</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Financial Resources
+				  (Federal)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Ford Foundation
+					 </corpname>Correspondence</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>General Agreement on Tariffs and
+					 Trade </corpname><abbr>(GATT): </abbr>Coffee, Tea, Cocoa,
+				  etc.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Ibadan/Chicago conference,
+				  etc.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>International Labor Organization
+					 </corpname><abbr>(I.L.O.) </abbr>National Provident
+				  Fund</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>International Monetary Fund
+					 </corpname><abbr>(IMF) </abbr>Background
+				  Material</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Incentive Legislation
+				  etc.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Industrialization</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Institute of Commonwealth
+					 Studies</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Interviews</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Joint Planning Committee
+					 </corpname><abbr> (JPC) </abbr> papers </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Land Settlement and Farm
+				  Institutes</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Lefeber,
+					 Louis</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Lewis Report</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2 </container>
+            <unittitle>Manpower Planning Eastern
+				  Region</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Manuwa Report</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Maps: Misc.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Marketing Board
+					 </corpname>Accounts: Western Region</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Marketing Board:
+					 </corpname>Northern Region</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Marketing Board
+					 </corpname>Reports</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Ministry Programs</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Misc. 
+				  <corpname>Economic Planning Unit
+					 </corpname><abbr>(EPU) </abbr>Memoranda</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Misc. Statistics and Papers Northern
+				  Nigeria</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>National Economic Council
+					 </corpname><abbr>(NEC): </abbr>Memoranda and
+				  Comments</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>National Economic Council:
+					 </corpname>JPC Memoranda and Comments</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>National Plan </unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>National Plan:
+				  Appendices</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>National Plan: Chapters 1 -
+				  10</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>National Plan: Draft</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>National Plan: October Revision,
+				  Northern Nigeria</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>National Plan Original</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Original of First National Plan,
+				  Stage A</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3 </container>
+            <unittitle>National Plan: Preliminary
+				  Versions</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>National Plan: Resources</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>National Plan, Stage Intermediate
+				  A</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>NEC and JPC Reports</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>NEC documents</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>NEC papers: II</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Newspaper Clippings on the
+				  Plan</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Niger dams</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><geogname>Nigeria: </geogname>First
+				  Visit</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><geogname>Nigeria:
+					 </geogname>General</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Nigerian Institute of Social and
+					 Economic Research: </corpname>
+              <title linktype="simple"> Info. Bulletin</title>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Oils and Fats</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4 </container>
+            <unittitle>Past Capital Programs</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Petroleum</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Plan Annexures</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Press Clippings: Misc.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Production Estimates
+				  Nigeria</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Resource Mobilization</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Revenue Projections: Eastern
+				  Region</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Revenue Projections: Northern
+				  Region</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Revenue Projections: Western
+				  Region</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Rivkin Testimony</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Scientific
+					 American</title>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Standing Committee on Statistics:
+					 </corpname>Census, Balance of Payments, Gov.
+				  Accounts</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Standing Committee on Statistics:
+					 </corpname>Econ Report, Stock Exchange, Labor Statistics,
+				  Price Data</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Standing Committee on Statistics:
+					 </corpname>Marketing Board</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Standing Committee on Statistics:
+					 </corpname>Minutes and Agenda</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">5 </container>
+            <unittitle><corpname>Standing Committee on Statistics:
+					 </corpname>Papers</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Sterling Assets: Northern
+				  Region</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Telecommunication
+				  Program</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Timber</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Tin</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Transport Coordination</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Vasey, Sir
+					 Ernest</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Wels, Jerome:
+					 </persname>paper</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Western Housing
+					 Corporation</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Western Nigeria Development
+				  Plan</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Western Region Misc.
+				  Documents</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Work Sheets Expenditures
+				  Programs</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>World Bank </corpname>Material and
+				  First Draft Development Material: Eastern
+				  Region</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>World Bank </corpname>Mission: 
+				  <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">July -Aug 1961</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Tunisia Series, 
+				<unitdate calendar="gregorian" era="ce" normal="1963/1979" type="inclusive">1963-65, 1970s</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>The bulk of this series is made up of work
+				files from Professor Stolper's 1963-65 economic mission in 
+				<geogname>Tunis, </geogname>but it also
+				contains material (notes, data, and drafts) for a paper he
+				co-wrote with 
+				<persname>Jacob G. Kleve </persname>in 1973
+				titled 
+			 <title linktype="simple" render="doublequote">Investments, Employment
+				and Productivity in the Tunisian Economy,
+				1961-1971,</title> and a book titled 
+			 <bibref linktype="simple"><title linktype="simple" render="italic">Investments, Employment
+				  and Output Per Man in the Tunisian Economy,
+				  1961-1971</title><imprint><publisher>(University of Michigan Center for
+				  Research on Economic Development)
+				  </publisher></imprint></bibref>written in 1974. The files
+			 are arranged in alphabetical order; the book is located at
+			 the end of the series.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">6 </container>
+            <unittitle>AMS</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Checking</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Chemicals Final Tables</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Chemicals Final Tables:
+				  Text</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Chemicals Recalculation Fertilizer:
+				  Other Subsectors</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>CPB CAT</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Draft from Notebook</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Energy Draft</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Etude Sur l'Analyse des Ecarts entre
+				  les Previsions et les Realisations du Budget Economique 
+				  <unitdate calendar="gregorian" era="ce" normal="1965/1968" type="inclusive">1965-68</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Government of Tunisia
+					 </corpname>Report</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>I.A.A.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>IBRD
+					 </corpname>Correspondence</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>IBRD </corpname>Report: Current
+				  Economic Position and Prospects</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Economic Development of
+				  Tunisia</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>IBRD International Development
+					 Association</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><abbr>IME </abbr><corpname>(Industries Mecaniques et
+					 Electriques) </corpname>Final Text and Annex</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Industry Breakdown</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Investissements, Emploi et
+				  Productivite dans L'economie Tunesienne, 
+				  <unitdate calendar="gregorian" era="ce" normal="1961/1971" type="inclusive">1961-1971</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Investments</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">7 </container>
+            <unittitle><persname>Kleve, J.G.: </persname>Various
+				  Papers</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Kleve, M. </persname>International
+				  Comparison Project</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Le Budget de Fonctionnement (Titre
+				  I)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Le Financement des Investissment en
+				  Tunisie, 
+				  <unitdate calendar="gregorian" era="ce" normal="1961/1971" type="inclusive">1961-1971</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>L'industrie diverses</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>MCCV (Materiaux Construction
+				  Ceramique Verre) Final</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Metal Working</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Investments and Employment and
+				  Productivity in the Tunisian Economy, 
+				  <unitdate calendar="gregorian" era="ce" normal="1961/1971" type="inclusive">1961-1971,</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(folders 1 and 2 out of
+				  three)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Investments and Employment and
+				  Productivity in the Tunisian Economy, 
+				  <unitdate calendar="gregorian" era="ce" normal="1961/1971" type="inclusive">1961-1971</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(folder
+				  3)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Ministre du Plan: Notes Concernnant
+				  Le Projet Emploi</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous Loose Material
+				  </unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Notes Sur L'emploi</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>NUP SIAPE</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>P.J.B. 68-76</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Secteur Chimie</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Note sur l'evolution des
+				  Revenus</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Steel Mill</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Technical Notes</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Transport and Communications
+				  Sectors</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Tunisia </unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Tunisia: Draft</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Tunisia Tables</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Unlabeled Folder</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Unlabeled Folder</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">8 </container>
+            <unittitle><title linktype="simple" render="italic">Investments,
+					 Employment and Output per Man in the Tunisian Economy,
+					 1961-1971,</title> published by the University of Michigan
+				  Center for Research on Economic Development, 
+				  <unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">Sept. 1974</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Other Missions Series, 
+				<unitdate calendar="gregorian" era="ce" normal="1967/1983" type="inclusive">1967-83</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Comprised of files from economic missions to 
+				<geogname>Togo </geogname>and 
+				<geogname>Dahomey </geogname><unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">(1967),</unitdate>
+                  <geogname>Nigeria </geogname><unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">(1970),</unitdate>
+                  <geogname>Malawi </geogname><unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">(1981),</unitdate>and 
+				<geogname>Benin </geogname><unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">(1983).</unitdate> Included are
+				correspondence with the missions' sponsoring organizations,
+				memoranda, and background reading (economic briefing
+				reports, maps, etc.) on each country. The files are
+				arranged chronologically.</p>
+          <note>
+            <p>Dahomey is now called Benin (name changed in
+				  1975).</p>
+          </note>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">8 </container>
+            <unittitle><geogname>Togo </geogname>and 
+				  <geogname>Dahomey </geogname><unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">(1967)</unitdate>Memoranda
+				  </unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>USAID </corpname>Mission to Nigeria
+				  
+				  <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">(1970)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Nigeria Review Team 
+				  <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">(1970)</unitdate>Draft Final
+				  Report </unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><geogname>Malawi </geogname>mission 
+				  <unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">(May-June 1981)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><geogname>Benin </geogname>Mission 
+				  <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">(1983)</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Planning and the Plan in Benin:
+				  Mission Report 
+				  <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">(1983)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Writings Series (Articles, Drafts and
+				Notes), 
+				<unitdate calendar="gregorian" era="ce" normal="1947/1988" type="inclusive">1947-1988</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes notes, drafts, manuscripts, and
+				reprints of articles, excluding those pertaining to 
+				<persname>Joseph A. Schumpeter. </persname> The
+				files cover the period from 1947 to 1988, and are arranged
+				in alphabetical order.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">9 </container>
+            <unittitle>American Balance of Payments 
+				  <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">(ca. late 1950s)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Appendix Tables which were redone 
+				  <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">(ca. late 1950s)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Bhagwati: Readings in International
+				  Trade 
+				  <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">(1969)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Budget Probleme des Zaire 
+				  <unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">(1975)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Bulletin: Presse und Informationsant
+				  der Bundesregierung 
+				  <unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">(1972)</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Common Market Input-Output Tables 
+				  <unitdate calendar="gregorian" era="ce" normal="1959/1965" type="inclusive">(ca. 1959-65)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Construction Tables, Transport and
+				  Communications Tables 
+				  <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">(ca. late 1950s)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>European Economic Problems 
+				  <unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">(1947)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Exchange Controls and Parallel
+				  Market Economics 
+				  <unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">(ca. 1985)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Germany (West): Production 
+				  <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">(ca. 1960)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>International Food Organization
+					 </corpname>(IFO) Research 
+				  <unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">(1980)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>International Monetary Fund
+					 </corpname>(IMF) and 
+				  <corpname>World Bank </corpname>(IBRD)
+				  Reports 
+				  <unitdate calendar="gregorian" era="ce" normal="1972/1974" type="inclusive">(1972-74)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Industrial Court Cause 77/66:
+				  Memorandum to the Kenyan Oil Industry</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Industrial Production of Soviet
+				  Germany 
+				  <unitdate calendar="gregorian" era="ce" normal="1956" type="inclusive">(1956)</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>International Trade Text, MS
+				  Revision 
+				  <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">(ca. late 1950's)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">10 </container>
+            <unittitle>Investments in Africa South of the
+				  Sahara, Part II 
+				  <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">(1959)</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Investments in Africa South of the
+				  Sahara: Tables 
+				  <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">(1959)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Investments in Africa South of the
+				  Sahara: Text 
+				  <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">(1959)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Leff, Nathaniel: </persname>paper 
+				  <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">(1986)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Mailing Lists 
+				  <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">(ca. late 1950s)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Misc. Articles on Africa 
+				  <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">(ca. late 1950's)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Misc. Articles, Notes and Clippings 
+				  <unitdate calendar="gregorian" era="ce" normal="1980/1989" type="inclusive">(late 1980's)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Misc. Loose Items 
+				  <unitdate calendar="gregorian" era="ce" normal="1950/1979" type="inclusive">(late 1950's - 1970's)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>National Accounting in East Germany 
+				  <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">(1959)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>New Palgrave: 
+				  <persname>August Losch </persname>entry 
+				  <unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">(1985)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Planning Without Facts, Chapters I -
+				  IV 
+				  <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">(1964)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Planning Without Facts, Chapters V -
+				  VII 
+				  <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">(1964)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Planning Without Facts, Chapters I -
+				  VII 
+				  <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">(1964)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>R-General (contains copy of
+				  "National Accounting in E. Germany" ), 
+				  <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Reconstruction and Development in
+				  Nigeria 
+				  <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">(1971)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <container type="box">11 </container>
+            <unittitle><subject>Smuggling
+					 </subject>Subseries</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Effects of Smuggling Under African
+					 Conditions 
+					 <unitdate calendar="gregorian" era="ce" normal="1980/1989" type="inclusive">(ca. early 1980s)</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Smuggling Study, Early Version
+					 (before co-authorship with 
+					 <persname>Alan Deardorff), </persname><unitdate calendar="gregorian" era="ce" normal="1980/1989" type="inclusive">1980s</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Smuggling - Draft 
+					 <unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">(1985)</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Smuggling and Unrestricted Trade
+					 -Berg Manuscript 
+					 <unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">(1985)</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Smuggling in Africa: Berg Study,
+					 etc. 
+					 <unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">(1985)</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Effects of Smuggling Under West
+					 African Conditions 
+					 <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">(1988)</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Stock Exchange 
+				  <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">(late 1950's)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Unlabeled Notebook 
+				  <unitdate calendar="gregorian" era="ce" normal="1980/1989" type="inclusive">(ca. mid 1980s)</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Speeches, Lectures and Conferences
+				Series, 
+				<unitdate calendar="gregorian" era="ce" normal="1950/1969" type="inclusive">late 1950s - 1969</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Documents Professor Stolper's public speaking
+				engagements and activities at conferences, excluding those
+				pertaining to Joseph Schumpter. The files are arranged in
+				chronological order.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">12 </container>
+            <unittitle>Speech on magnetic tape: "Problems
+				  of Our Foreign Aid Program" 
+				  <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">(ca. 1950's?)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Prospects for East German Economic
+				  Expansion 
+				  <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">(1959)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>National Council of Churches
+					 </corpname>Conference 
+				  <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">(Nov. 8-11, 1962)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Economic Development Institute
+					 </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">(1964)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Luxembourg Lectures 
+				  <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">(Sept. 1965)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Luxembourg Lectures: Five Lectures
+				  on the Movement of Goods and the Equalization of Factor
+				  Prices 
+				  <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">(1965)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Luxembourg Lectures 
+				  <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">(1965)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Agricultural Development Council
+				  Conference 
+				  <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">(Nov 1965)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Economic Development Institute
+					 </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">(March 1966)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Talk given at 
+				  <corpname>First Presbyterian Church,
+					 </corpname><geogname>East Aurora, NY </geogname><unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">(Dec. 12, 1967)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Budget as an Allocation Device and
+				  Economic Growth 
+				  <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">(March 29, 1968)</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Glasgow Conference Summary 
+				  <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">(1969)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Schumpeter Series, 
+				<unitdate calendar="gregorian" era="ce" normal="1966/1988" type="inclusive">1966-1988</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Contains Professor Stolper's drafts,
+				manuscripts, and notes for articles and books pertaining to
+				the eminent Austrian economist, 
+				<persname>Joseph Schumpeter. </persname>The
+				files are arranged in alphabetical order.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">13 </container>
+            <unittitle>Fiscal and Monetary Policy in the
+				  Context of Development: A Schumpeterian Approach 
+				  <unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">(1981)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Joseph Alois Schumpeter </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">(ca. 1966)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Manuskript: 
+				  <title linktype="simple" render="doublequote">Schumpeter</title><unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">(1983)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Paris Paper -- 
+				  <title linktype="simple" render="doublequote">J.A. Schumpeter: the
+					 Role of Government</title><unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">(Sept. 1983)</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent> (3
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Schumpeter and the German and
+				  Austrian Socialization Attempts of 1918-1919 
+				  <unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">(1985)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Schumpeter Policy Long Draft:
+				  Correspondence Relating to Son 
+				  <unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">(1984)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Schumpeter -- The
+					 Political Economist for the Nineties?</title>
+              <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">(1986)</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Schumpeter -- Stolper book draft 
+				  <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">(ca. 1983)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Schumpeter's Theorie der
+				  Wirtschaftlichen Entwicklung, 
+				  <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Stopler-Seidl Drafts 
+				  <unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">(ca. 1985)</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Uber Schumpeters
+					 <emph render="doublequote">Theorie der Wirtschaftlichen
+					 Entwicklung</emph></title> (published 
+				  <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>University of Michigan and Teaching
+				Material Series, 
+				<unitdate calendar="gregorian" era="ce" normal="1959/1975" type="inclusive">1959-1975</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>The file titled "Course Outlines on Economic
+				Development" contains different syllabi and reading lists
+				compiled by a friend of Professor Stolper's. The "Doctoral
+				Committees" file contains paperwork pertaining to Ph.D.
+				committees that he sat on at the 
+				<corpname>University of Michigan. </corpname>
+				Finally, the "Workload Records" folder contains paperwork
+				listing the classes that Professor Stolper taught each
+				semester at Michigan. Files are arranged in chronological
+				order.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">14 </container>
+            <unittitle>Course Outlines on Economic
+				  Development 
+				  <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">(1959)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>ECO 141 Reading List 
+				  <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">(Fall 1959)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Doctoral Committees 
+				  <unitdate calendar="gregorian" era="ce" normal="1950/1960" type="inclusive">(1950-1960)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Workload Records 
+				  <unitdate calendar="gregorian" era="ce" normal="1950/1960" type="inclusive">(1950-1960)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>ECO 460 Economic Development for
+				  Non-Economic Majors 
+				  <unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">(Fall 1974)</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>ECO 441 Lectures, 
+				  <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970</unitdate>and 
+				  <unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>General Correspondence Series, 
+				<unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate>and 
+				<unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">1974</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>This series is presently sparse, containing
+				only a couple of letters that were found loose among the
+				folders.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">14 </container>
+            <unittitle>Miscellaneous
+				  Correspondence</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Accession 2002-0207</unittitle>
+        </did>
+        <processinfo>
+          <p>Some of the materials in this accession are
+				  not immediately accessible, because they require further
+				  processing before use. Please contact Research Services
+				  staff before visiting the Rubenstein Library to use this collection.</p>
+        </processinfo>
+        <!--Begin c02 levels here-->
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <unittitle>Contents of Box 1:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1941/1999" type="inclusive">1941-1999</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Lectures</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Nigerian Material</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>Contents of Box 2:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains pictorial materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1928/1996" type="inclusive">1928-1996</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <unittitle>Contents of Box 3:</unittitle>
+          </did>
+          <processinfo>
+            <p>Technical Services staff may need to
+					 reformat coated fax paper before use.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1930/1998" type="inclusive">1930-1998</unitdate> ( 
+					 <unitdate calendar="gregorian" era="ce" normal="1980/1999" type="bulk">bulk 1980s-1990s</unitdate>)</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <unittitle>Contents of Box 4:</unittitle>
+          </did>
+          <processinfo>
+            <p>Technical Services staff may need to
+					 reformat coated fax paper before use.</p>
+            <p>Attention: Contains pictorial materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1981/1998" type="inclusive">1981-1998</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">5</container>
+            <unittitle>Contents of Box 5:</unittitle>
+          </did>
+          <processinfo>
+            <p>Technical Services staff may need to
+					 reformat coated fax paper and newsprint before use.</p>
+            <p>Attention: Contains pictorial materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1968/1998" type="inclusive">1968-1998</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">6</container>
+            <unittitle>Contents of Box 6:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1960/1987" type="inclusive">1960-1987</unitdate> ( 
+					 <unitdate calendar="gregorian" era="ce" normal="1960/1964" type="bulk">bulk 1960-1964</unitdate>)</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Nigerian Material</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Diaries, 
+						<unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate> and 
+						<unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">7</container>
+            <unittitle>Contents of Box 7:</unittitle>
+          </did>
+          <processinfo>
+            <p>Technical Services staff may need to
+					 reformat newsprint before use.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1960/1998" type="inclusive">1960-1998</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Diaries</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">8</container>
+            <unittitle>Contents of Box 8:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1960/1994" type="inclusive">1960-1994</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Nigerian Material</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Diaries</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">9</container>
+            <unittitle>Contents of Box 9:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1944/1989" type="inclusive">1944-1989</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">10</container>
+            <unittitle>Contents of Box 10:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1958/1992" type="inclusive">1958-1992</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Liberian Material</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">11</container>
+            <unittitle>Contents of Box 11:</unittitle>
+          </did>
+          <processinfo>           
+            <p>Attention: Contains rusty fastners.</p>
+            <p>Disks 001, 002 and 003 removed and their
+					 contents migrated to the electronic records server. A disk
+					 directories log exists. Contact a Reference Archivist.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1959/1995" type="inclusive">1959-1995</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Diaries</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Handwritten Notes</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Nigerian Material</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">12</container>
+            <unittitle>Contents of Box 12:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1955/1997" type="inclusive">1955-1997</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Diaries</unittitle>
+              </did>
+              <scopecontent>
+                <p>These diaries correspond to Stolper's
+						time in Nigeria</p>
+              </scopecontent>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Lecture Notes</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Printed Material</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">13</container>
+            <unittitle>Contents of Box 13:</unittitle>
+          </did>
+          <processinfo>
+            <p>Technical Services staff need to process
+					 materials in envelopes and reformat newsprint before
+					 use.</p>
+            <p>Attention: Contains pictorial materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1960/1995" type="inclusive">1960-1995</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Diaries</unittitle>
+              </did>
+              <scopecontent>
+                <p>Included are three diaries th at
+						correspond to Stolper's time in Nigeria</p>
+              </scopecontent>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">14</container>
+            <unittitle>Contents of Box 14:</unittitle>
+          </did>
+          <processinfo>
+            <p>Technical Services staff need to process
+					 materials in envelopes before use.</p>
+            <p>Attention: Contains pictorial materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1928/1988" type="inclusive">1928-1988</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Diaries</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Travel Material</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Shumpeter Letters</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">15</container>
+            <unittitle>Contents of Box 15:</unittitle>
+          </did>
+          <processinfo>
+            <p>Technical Services staff need to process
+					 materials in envelopes and reformat newsprint before
+					 use.</p>
+            <p>Attention: Contains rusty fasteners.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1940/1996" type="inclusive">1940-1996</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">16</container>
+            <unittitle>Contents of Box 16:</unittitle>
+          </did>
+          <processinfo>
+            <p>Technical Services staff need to format
+					 newsprint and coated fax paper before use.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1973/2001" type="inclusive">1973-2001</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Handwritten Notes</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">17</container>
+            <unittitle>Contents of Box 17:</unittitle>
+          </did>          
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1959/2001" type="inclusive">1959-2001</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Diaries</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Federation of Nigeria National
+						Development Plan 
+						<unitdate calendar="gregorian" era="ce" normal="1962/1968" type="inclusive">1962-1968</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">18</container>
+            <unittitle>Contents of Box 18:</unittitle>
+          </did>
+          <processinfo>
+            <p>Technical Services staff may need to
+					 reformat newsprint before use.</p>
+            <p>Attention: Contains pictorial materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1919/1990" type="inclusive">1919-1990</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Printed Material</unittitle>
+              </did>
+              <scopecontent>
+                <p>Includes some Printed Material related
+						to Nigeria</p>
+              </scopecontent>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">19</container>
+            <unittitle>Contents of Box 19:</unittitle>
+          </did>
+          <processinfo>
+            <p>Technical Services staff may need to
+					 reformat newsprint before use.</p>
+            <p>Attention: Contains pictorial materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1892/1999" type="inclusive">1892-1999</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Handwritten Notes</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Scumpeter Society
+						Information</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">20</container>
+            <unittitle>Contents of Box 20:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains pictorial materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1945/1987" type="inclusive">1945-1987</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Nigerian Material</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">21</container>
+            <unittitle>Contents of Box 21:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1947/1987" type="inclusive">1947-1987</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Diaries</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Doctoral Committee and Thesis
+						Comments</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">22</container>
+            <unittitle>Contents of Box 22:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains rusty fastners.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1931/1985" type="inclusive">1931-1985</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional
+						Writings</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Handwritten notes</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Teaching Materials</unittitle>
+              </did>
+              <scopecontent>
+                <p>Includes test copies, lectures and
+						syllabi</p>
+              </scopecontent>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">23</container>
+            <unittitle>Contents of Box 23</unittitle>
+          </did>
+          <processinfo>
+            <p>Technical Services staff may need to
+					 reformat newsprint before use.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1936/1988" type="inclusive">1936-1988</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">24</container>
+            <unittitle>Contents of Box 24:</unittitle>
+          </did>
+          <processinfo>
+            <p>Technical Services staff may need to
+					 reformat newsprint before use.</p>
+            <p>Attention: Contains pictorial materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1953/1972" type="inclusive">1953-1972</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Travel Material</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

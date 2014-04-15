@@ -8,7 +8,7 @@ Directories:
 
 2_schema_valid_EADs
 -------------------
-* XML files after running through dtd2schema.xsl to convert from DTD to schema
+* XML files after running through dtd2schema.xsl to convert from 2002 EAD DTD to W3C schema
 
 3_processed_EADs
 ----------------

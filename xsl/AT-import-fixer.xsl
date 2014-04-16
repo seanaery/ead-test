@@ -31,7 +31,7 @@
   
   <!-- normalizes eadheader attributes and adds revisiondesc to record processing by dtd2schema dn AT-import-fixer.xsl -->
   <xsl:template match="ead:eadheader">
-    <xsl:element name="eadheader">
+    <xsl:element name="ZZZeadheaderZZZ">
       <xsl:attribute name="findaidstatus">published</xsl:attribute>
       <xsl:attribute name="repositoryencoding">iso15511</xsl:attribute>
       <xsl:attribute name="countryencoding">iso3166-1</xsl:attribute>

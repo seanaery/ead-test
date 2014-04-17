@@ -428,7 +428,16 @@
   </xsl:template>
   
   
-  
+<!-- Replaces old catalog URLs with current convention -->
+  <xsl:template match="@xlink:href">
+    <xsl:attribute name="xlink:href">
+      <xsl:call-template name="string-replace-all">
+        <xsl:with-param name="text" select="."/>
+        <xsl:with-param name="replace" select="'http://library.duke.edu/catalog/search/sys/'"/>
+        <xsl:with-param name="by" select="'http://search.library.duke.edu/search?id=DUKE'"/>
+      </xsl:call-template>
+    </xsl:attribute>
+  </xsl:template>
   
   
 <!-- Assign container element for every lowest level component based on immediate preceding container assigned (not always a sibling)
@@ -454,5 +463,29 @@ Use this Logic:
 
 -->
 
+  <!-- GENERAL UTILITIES -->
+  
+  <!-- String replace template; see https://gist.github.com/ijy/6572481  -->
+  <xsl:template name="string-replace-all">
+    <xsl:param name="text" />
+    <xsl:param name="replace" />
+    <xsl:param name="by" />
+    <xsl:choose>
+      <xsl:when test="contains($text, $replace)">
+        <xsl:value-of select="substring-before($text,$replace)" />
+        <xsl:value-of select="$by" />
+        <xsl:call-template name="string-replace-all">
+          <xsl:with-param name="text"
+            select="substring-after($text,$replace)" />
+          <xsl:with-param name="replace" select="$replace" />
+          <xsl:with-param name="by" select="$by" />
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$text" />
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
 
 </xsl:stylesheet>

@@ -19,10 +19,13 @@
   </xsl:template>
 
   <!-- ArchivesSpace seems to have trouble with empty anythings.  Borrowed this code from UVA_as_munger.xsl  -->
+  
   <xsl:template match="@*[normalize-space()='']"/>
   <!-- don't copy null attributes -->
-  <xsl:template match="ead:unitdate[normalize-space()='']"/>
+  
+  <!-- <xsl:template match="ead:unitdate[normalize-space()='']"/> -->
   <!-- don't copy empty unitdates -->
+  
   <xsl:template match="ead:physloc[normalize-space()='']"/>
   <!-- don't copy empty physloc -->
 

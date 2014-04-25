@@ -318,7 +318,7 @@
   </xsl:when>
   <xsl:otherwise>
     <xsl:element name="extent">
-      <xsl:text>Extent: </xsl:text><xsl:comment>Do something here</xsl:comment><xsl:value-of select="normalize-space(.)"/>
+      <xsl:text>Extent: </xsl:text><xsl:value-of select="normalize-space(.)"/>
     </xsl:element>
   </xsl:otherwise>
 </xsl:choose>

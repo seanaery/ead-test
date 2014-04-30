@@ -1,0 +1,2235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Gerald M. Meier)//EN" url="http://library.duke.edu/rubenstein/findingaids/meier/">meier</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Gerald M. Meier Papers,
+		 <date normal="1928/2003" type="inclusive" era="ce" calendar="gregorian">1928-2003</date></titleproper>
+        <author>Processed by: John Bauman; machine-readable
+			 finding aid created by: Michael Shumate</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <p><date era="ce" calendar="gregorian"> 2010</date> Duke University. All Rights
+			 Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">002683869</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from
+		  automated markup system. <lb/>Date of source: July 27, 2001
+		  <lb/>Processed by John Bauman July 27, 2001; Finding Aid
+		  encoded by Michael Shumate, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University,
+		  <date calendar="gregorian" era="ce">November 14, 2002</date></creation>
+      <langusage>Description is in
+		  <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Gerald M. Meier)//EN" "meier.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+	<change><date calendar="gregorian" era="ce" normal="2005">11-17-2010</date>
+	<item>Accession 2010-0211 added to the finding aid. Item counts and lin. ft. adjusted.</item>
+	</change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the Gerald M. Meier Papers,
+		<date calendar="gregorian" era="ce">1928-2003</date></titleproper>
+      <publisher><lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke
+		  University <lb/> Durham, North Carolina 27708-0185 USA
+		  </publisher>
+
+      <p><date era="ce" calendar="gregorian">(C) 2010</date> Duke University. All Rights
+		  Reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Gerald M. Meier papers 		  <unitdate calendar="gregorian" era="ce" normal="1928/1998" type="inclusive">1928-2003</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Meier, Gerald M.</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>7.75 Linear		  Feet</extent>
+        <extent>5400 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+      </repository>
+      <physloc label="Location">For current information on
+		  the location of these materials, please consult the
+		  Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Collection is open for research.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in this collection have
+			 not been transferred to Duke University. For more
+			 information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Gerald M. Meier
+			 Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The Gerald M. Meier Papers were received by the
+			 David M. Rubenstein Rare Book &amp; Manuscript Library as a
+			 gift in 1999 and 2010.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by John Bauman</p>
+        <p>Completed July 27, 2001</p>
+	  <p>Encoded by Michael Shumate</p>
+        <p>The vast majority of Gerald M. Meier's papers
+			 came to the library in their original labeled folders.
+			 These labels, however, were often informal in their syntax.
+			 In order to file folders in an orderly manner, some labels
+			 were altered, but with the topical sense retained. In a few
+			 cases, folder titles were supplied, because no title
+			 existed or else the notations were insufficient.</p>
+        <p>The order of the folders was random throughout
+			 the cartons. While folders were rearranged, original order
+			 was preserved within each folder. Thus, the inter-relations
+			 between items within individual folders may be tenuous
+			 (e.g., Harvard University syllabi concerning a course on
+			 International Economics in a folder titled "Wesleyan
+			 Courses" which has lecture notes on International
+			 Economics).</p>
+        <p>This finding aid is NCEAD compliant.</p>
+
+      </processinfo>
+    </descgrp>
+    <!-- End of finding aid header --><!-- End of Finding Aid Header -->
+    <bioghist>
+      <head>Biographical Note</head>
+      <chronlist>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1923, Feb. 9</date>
+          <event>Born, Tacoma, Wash.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1947</date>
+          <eventgrp>
+            <event>Reed College: B.A. (Social
+				  Science)</event>
+            <event>Phi Beta Kappa</event>
+          </eventgrp>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1948-1950, 1951-1952</date>
+          <event>Rhodes Scholar</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1952</date>
+          <event>University of Oxford: B. Litt.
+				(Economics)</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1953</date>
+          <event>Harvard University: Ph.D.
+				(Economics)</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1954, Oct. 23</date>
+          <event>Married Gilda Slote; four children (David,
+				Daniel, Jeremy, and Andrew)</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1954-1959</date>
+          <event>Wesleyan University (Middletown, Conn.),
+				Assistant Professor and Professor of Economics</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1955-1956</date>
+          <event>Yale University, Visiting Lecturer</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1957</date>
+          <event>Published
+				<title linktype="simple" render="italic">Economic
+				  Development</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1956-1957, 1958-1959</date>
+          <event>Yale University, Visiting Associate
+				Professor</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1957-1958</date>
+          <event>Guggenheim Fellow</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1959</date>
+          <event>Wesleyan University: M.A. (Honoris
+				Causa)</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1959-1963</date>
+          <event>Wesleyan University (Middletown, Conn.),
+				Chester D. Hubbard Professor of Economics</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1959-1961</date>
+          <event>Yale University, Visiting Professor
+				</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1961-1962</date>
+          <event>Brookings National Research
+				Professorship</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1963</date>
+          <event>Published
+				<title linktype="simple" render="italic">International Trade and
+				  Development</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1963-1992</date>
+          <event>Stanford University, Konosuke Matsushita
+				Professor of International Economics and Policy Analysis,
+				1963-92, </event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1964</date>
+          <event>Published
+				<title linktype="simple" render="italic">Leading Issues in
+				  Development Economics</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1968</date>
+          <event>Published
+				<title linktype="simple" render="italic">The International
+				  Economics of Development</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1970, 1976</date>
+          <event>Published
+				<title linktype="simple" render="italic">Leading Issues In
+				  Economic Development; Studies In International
+				  Poverty</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1973</date>
+          <event>Published
+				<title linktype="simple" render="italic">Problems of a Trade
+				  Policy</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1974</date>
+          <event>Published
+				<title linktype="simple" render="italic">Problems of Cooperation
+				  for Development</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1974, 1982</date>
+          <event>Published
+				<title linktype="simple" render="italic">Problems of a World
+				  Monetary Order</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1974-1975</date>
+          <event>Rockefeller Foundation Research
+				Grant</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1977</date>
+          <event>Published
+				<title linktype="simple" render="italic">Employment, Trade, and
+				  Development</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1980</date>
+          <event>Published
+				<title linktype="simple" render="italic">International Economics:
+				  Theory of Policy</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1983</date>
+          <event>Published
+				<title linktype="simple" render="italic">Pricing Policy for
+				  Development Management</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1984</date>
+          <event>Published
+				<title linktype="simple" render="italic">Emerging from Poverty:
+				  The Economics that Really Matters</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1985</date>
+          <event>Co-editor,
+				<title linktype="simple" render="italic">Pioneers in
+				  Development</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1986</date>
+          <event>Published
+				<title linktype="simple" render="italic">Financing Asian
+				  Development: Performance and Prospects</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1989</date>
+          <event>Published
+				<title linktype="simple" render="italic">Asian Development :
+				  Economic Success And Policy Lessons</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1992</date>
+          <event>Stanford University, Professor
+				Emeritus</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1998</date>
+          <event>Published <title linktype="simple" render="italic">The International Environment Of Business: Competition And Governance In The Global Economy</title></event>
+        </chronitem>
+      </chronlist>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The papers of Gerald M. Meier span the years
+		  1928-2003, with the bulk of the materials from 1941-2001. These materials document the growth of Meier's
+		  career from a student of economics to an academic
+		  economist. This collection includes personal and
+		  professional correspondence; lectures; course notes taken
+		  as a student or developed for his lectures on international
+		  economic relations; syllabi, reading lists, exams, and
+		  other course materials; materials relating to conferences
+		  attended; published writings; and audiotapes of interviews
+		  relating to the evolution of development economics. The
+		  <emph render="bold">Correspondence Series</emph> is largely
+		  of a professional nature, and is chiefly concerned with
+		  international and development economics. Prominent among
+		  Meier's correspondents were
+		  <persname>Peter Bauer,</persname><persname> Gottfried Haberler,</persname><persname> W.A. Lewis,</persname><persname> Hla Myint,</persname><persname> Paul Rosenstein-Rodan,</persname><persname> W.W. Rostow,</persname><persname> Dudley Seers,</persname><persname> H.W. Singer,</persname> and
+		  <persname>Paul Streeten.</persname></p>
+      <p>Many of Meier's major publications are represented
+		  in the <emph render="bold">Writings and Speeches
+		  Series.</emph> These include
+		<title linktype="simple" render="italic">Economic Development,</title><title linktype="simple" render="italic">Emerging from Poverty,</title><title linktype="simple" render="italic">The International Economics of
+		  Development,</title><title linktype="simple" render="italic">International Trade and
+		  Development,</title><title linktype="simple" render="italic">Leading Issues in Development
+		  Economics,</title><title linktype="simple" render="italic">Pioneers in
+		  Development,</title> and the
+		<title linktype="simple" render="italic">Problems</title> series of
+		books. Though there are more than a few folders containing
+		materials on conferences attended by Meier, by and large
+		the <emph render="bold">Subject Series</emph> contains a
+		great deal of course materials. From his days as a student,
+		there are notes, exams, syllabi, reading lists, and
+		bibliographies from
+		<corpname>Reed College, </corpname><corpname>Harvard University,</corpname> and
+		<corpname>University of Oxford</corpname> concerning
+		courses taken under
+		<persname>Edward Chamberlin, </persname><persname>Gottfried Haberler, </persname><persname>John Hicks, </persname><persname>Wassily Leontief, </persname> and others.
+		Also, there is material representing the several law
+		courses Meier enrolled in at
+		<corpname>Yale University</corpname> and
+		<corpname>Stanford University.</corpname> Among the
+		lecture notes from
+		<corpname>Williams College, </corpname><corpname>Wesleyan University,</corpname> Yale
+		University, and Stanford University, there are also
+		syllabi, exams, and reading lists representing his tenure
+		as a professor. Of particular note are the several folders
+		concerning Meier's role in the genesis and growth of the
+		College of Social Studies at Wesleyan University.</p>
+
+	<p><emph render="bold">Accession (2010-0211)</emph> also contains work from Meier's career, including reprints of his articles (dated 1949-1984) and materials from his lectures and presentations on development economics (dated 1986-2002). Also included are some miscellaneous correspondence, grant proposals, and book reviews. A large portion of the accession relates to Meier's writings, including his drafts and correspondence from several books, especially <title render="italic" linktype="simple">Frontiers of Development Economics</title> (published 2001) and <title render="italic" linktype="simple">Development: Biography of a Subject</title> (published 2004). Another section of interest is Meier's collection of materials on the career of John Hicks, a 1972 Nobel prize-winning economist. The collection includes article reprints written by Hicks, some clippings about his life, and an undated, unpublished manuscript titled <title render="doublequote" linktype="simple">The Theory of Demand and the Theory of Welfare.</title></p>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <item>
+          <persname>Hla Myint, U.</persname>
+        </item>
+        <item>
+          <persname>Meier, Gerald M.</persname>
+        </item>
+        
+        <item><persname>Chamberlin, Edward,</persname>
+			 1899-1967.</item>
+        <item><persname>Haberler, Gottfried,</persname>
+			 1900-</item>
+        <item><persname>Hicks, John Richard, Sir,</persname>
+			 1904-1989</item>
+        <item><persname>Leontief, Wassily W.,</persname>
+			 1906-</item>
+        <item><persname>Lewis, W. Arthur (William
+				Arthur),</persname> 1915-</item>
+        <item><persname>Rostow, W. W. (Walt
+				Whitman),</persname> 1916-</item>
+        <item>
+          <persname>Seers, Dudley</persname>
+        </item>
+        <item><persname>Singer, Hans Wolfgang,</persname>
+			 1910-</item>
+        <item>
+          <persname>Streeten, Paul</persname>
+        </item>
+        <item>
+          <persname>Bauer, P. T. (Péter
+				Tamás)</persname>
+        </item>
+        <item>
+          <persname>Rosenstein-Rodan, P.
+				N.</persname>
+        </item>
+        <item><corpname>Stanford
+				University</corpname>--Faculty.</item>
+        <item><corpname>Williams
+				College</corpname>--Faculty.</item>
+        <item><corpname>Wesleyan University (Middletown,
+				Conn.)</corpname>--Faculty.</item>
+        <item><corpname>Wesleyan University (Middletown,
+			 Conn.)--History</corpname></item>
+        <item><corpname>Yale
+				University</corpname>--Faculty.</item>
+        <item>
+          <subject>International economic
+				relations</subject>
+        </item>
+        <item>
+          <subject>Development economics</subject>
+        </item>
+        <item>
+          <subject>Development
+				economics -- History</subject>
+        </item>
+        <item>
+          <subject>Economic development</subject>
+        </item>
+        <item>
+          <subject>Economists -- United
+				States</subject>
+        </item>
+        <item>
+          <subject>Economists -- United
+				States -- Correspondence</subject>
+        </item>
+        <item>
+          <subject>Economics -- History -- 20th
+				century</subject>
+        </item>
+        <item>
+          <subject>Economics -- Study and
+				teaching</subject>
+        </item>
+        <item>
+          <subject>Economics -- Study and teaching -- United
+				States</subject>
+        </item>
+        <item>
+          <subject>Economics -- Study and
+				teaching -- England -- Oxford</subject>
+        </item>
+        <item>
+          <subject>Developing countries -- Economic
+				conditions</subject>
+        </item>
+        <item>
+          <genreform>Audio cassettes</genreform>
+        </item>
+      </list>
+    </controlaccess>
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence Series,
+				<unitdate calendar="gregorian" era="ce" normal="1949/1988" type="inclusive">1949-1988</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Consists of letters written to Meier by
+				economists, educators, businessmen, and officials of
+				governments and organizations. The collection is primarily
+				professional, with few instances of communications with
+				personal friends and family. Arranged into alphabetical and
+				chronological groups.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <container type="box">C1</container>
+            <unittitle>Alphabetical</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Asian Development Bank,
+						</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Bauer, Peter,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1983/1984" type="inclusive">1983-1984</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Hirschman, Albert,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Law and Economics,
+					 <unitdate calendar="gregorian" era="ce" normal="1964/1975" type="inclusive">1964-1975</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Lewis, W.A.,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Myint, Hla,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1967/1971" type="inclusive">1967-1971</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Myrdal, Gunnar,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1983/1988" type="inclusive">1983-1988</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Overseas Development Council,
+						</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Rosenstein-Rodan, Paul,
+						</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1982/1983" type="inclusive">1982-1983</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Rostow, W.W.,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1982/1983" type="inclusive">1982-1983</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Shaw-McKinnon,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1970/1971" type="inclusive">1970-1971</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Singer, H.W.,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Streeten, Paul,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Tinbergen, Jan,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1982/1983" type="inclusive">1982-1983</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Wesleyan Appointment,
+					 <unitdate calendar="gregorian" era="ce" normal="1953/1955" type="inclusive">1953-1955</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Yale Law,
+					 <unitdate calendar="gregorian" era="ce" normal="1963/1975" type="inclusive">1963-1975</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Chronological</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1949/1954" type="inclusive">1949-1954</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1954/1959" type="inclusive">1954-1959</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1955/1959" type="inclusive">1955-1959</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1958/1979" type="inclusive">1958, 1977-1979</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1960/1962" type="inclusive">1960-1962</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1960/1963" type="inclusive">1960-1963</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1963/1964" type="inclusive">1963-1964</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1967/1969" type="inclusive">1967-1969</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1970/1972" type="inclusive">1970-1972</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1971/1983" type="inclusive">1971-1983</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1973/1975" type="inclusive">1973-1975</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1976/1979" type="inclusive">1976-1979</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1980/1982" type="inclusive">1980-1982</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1983/1985" type="inclusive">1983-1985</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Writings and Speeches Series,
+				1949-1987</unittitle>
+        </did>
+        <scopecontent>
+          <p>Meier's writings and speeches focus on
+				international economics and the economics of development.
+				The materials, consisting mainly of offprints and reprints,
+				are arranged into alphabetical groups by title of
+				publication. There is also supporting material
+				(correspondence, notes, drafts,
+				<genreform>referee letters,</genreform>
+				reviews, and
+				<genreform>audiotapes)</genreform> concerning
+				several of his major publications.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">WS1</container>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Accelerating
+					 Development in Poor Countries,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1956" type="inclusive">1956</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">La aceleración del
+					 desarrollo en los países pobres,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Analyzing the Risk of
+					 Lending to Developing Countries,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">On 'Appropriate'
+					 Policy Technology for Development,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1977" type="inclusive">1977</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <genreform>Book Reviews,</genreform>
+              <unitdate calendar="gregorian" era="ce" normal="1953/1980" type="inclusive">1953-1980</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Book Reviews,
+				  <title linktype="simple" render="italic">Pioneers in
+					 Development,</title><title linktype="simple" render="italic">Emerging from
+					 Poverty,</title><title linktype="simple" render="italic">Leading Issues in
+					 Development Economics,</title><unitdate calendar="gregorian" era="ce" normal="1982/1987" type="inclusive">1982-1987</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">The Bretton Woods
+					 Agreement: Twenty-Five Years After,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Comment on the Terms
+					 of Trade and Economic Development, </title>
+              <unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">La crisi della
+					 programmazione nei paesi in via di sviluppo,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">La crisis de la
+					 planeación en los países en desarrollo,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">A Critique of the New
+					 British Monopoly Act,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1950" type="inclusive">1950</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Development Decade in
+					 Perspective,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Development Without
+					 Employment,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Economic
+					 Development,</title> Reviews,
+				  <unitdate calendar="gregorian" era="ce" normal="1957" type="inclusive">1957</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Economic Development
+					 of Export Economics,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Economic Development
+					 and the Transfer Mechanism: Canada, 1895-1913,</title>
+				  undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Emerging from
+					 Poverty</title>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Bretton Woods History for
+					 Introduction,
+					 <unitdate calendar="gregorian" era="ce" normal="1981/1983" type="inclusive">1981-1983</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Letters,
+					 <unitdate calendar="gregorian" era="ce" normal="1980/1983" type="inclusive">1980-1983</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous,
+					 <unitdate calendar="gregorian" era="ce" normal="1979/1983" type="inclusive">1979-1983</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Externality Law and
+					 Market Safeguards: Applications in the GATT Multilateral
+					 Trade Negotiations,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1977" type="inclusive">1977</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Export Stimulation,
+					 Import Substitution and Latin American Development,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Foreign Aid: Economic
+					 Aspects,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Free Trade and
+					 Development Economics,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">International Economic
+					 Reform: Collected Papers of Emile Despres,</title>
+				  Correspondence and Reviews,
+				  <unitdate calendar="gregorian" era="ce" normal="1974/1975" type="inclusive">1974-1975</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">International
+					 Economics of Development,</title> Correspondence and
+				  Reviews,
+				  <unitdate calendar="gregorian" era="ce" normal="1966/1970" type="inclusive">1966-1970</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">International
+					 Economics Law and Development,</title> Chapter 1,
+				  miscellaneous notes, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">International Trade
+					 and Development,</title> Correspondence and Reviews,
+				  <unitdate calendar="gregorian" era="ce" normal="1961/1963" type="inclusive">1961-1963</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">International Trade
+					 and International Inequality,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">The 'Jamaica
+					 Agreement,' International Monetary Reform, and the
+					 Developing Countries,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Leading Issues in
+					 Economic Development</title>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence and Reviews,
+					 <unitdate calendar="gregorian" era="ce" normal="1970/1976" type="inclusive">1970-1976</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Referee Letters,
+					 <unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Reviews,
+					 <unitdate calendar="gregorian" era="ce" normal="1964/1966" type="inclusive">1964-1966</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Oxford University Press,
+					 <unitdate calendar="gregorian" era="ce" normal="1962/1965" type="inclusive">1962-1965</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Legal-Economic
+					 Problems of Private Foreign Investment in Developing
+					 Countries,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Long Period
+					 Determinants of Britain's Terms of Trade,
+					 1880-1913,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1952/1953" type="inclusive">1952-1953</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Myrdal on Commercial
+					 Policy of Underdeveloped Countries,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">A Note on the Theory
+					 of Comparative Costs and Long Period Developments,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Pioneers in
+					 Development</title>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence,
+					 <unitdate calendar="gregorian" era="ce" normal="1982/1986" type="inclusive">1982-1986</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence on early courses in
+					 Development Economics for Introduction,
+					 <unitdate calendar="gregorian" era="ce" normal="1983/1984" type="inclusive">1983-1984</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Dudley Seers,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1982/1983" type="inclusive">1982-1983</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Audiotapes of seminars at World
+					 Bank,
+					 <unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">The Poverty of
+					 Nations,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1957" type="inclusive">1957</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">The Problem of Limited
+					 Economic Development,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">El Problema del
+					 desarrollo económico limitado,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Problems</title>
+				  Series, Correspondence and Reviews,
+				  <unitdate calendar="gregorian" era="ce" normal="1970/1976" type="inclusive">1970-1976</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Progress and Problems
+					 of the Development Decade,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">The Role of an Expert
+					 Advisory Group in a Young Government,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Some Questions about
+					 Growth Economics: Comment,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1954" type="inclusive">1954</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Sviluppo senza
+					 occupazione,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Symposium on the
+					 Report of the Trade and Tariffs Commission,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">The Theory of
+					 Comparative Costs Reconsidered,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">The Tokyo Round of
+					 Multilateral Trade Negotiations and the Developing
+					 Countries,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">The Trade Matrix:
+					 Comment,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1948" type="inclusive">1948</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">UNCTAD Proposals for
+					 International Economic Reform,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">U.S. Foreign Economic
+					 Policies,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Subject Series, 1941-1998</unittitle>
+        </did>
+        <scopecontent>
+          <p>The bulk of this series consists of files
+				relating to conferences attended and to course materials.
+				The latter files contain bibliographies, syllabi, reading
+				lists, exams, and notes, both for undergraduate and
+				graduate courses and, likewise, for both courses attended
+				as a student and courses taught as a professor. The schools
+				represented in the collection are Harvard, Oxford, Reed,
+				Stanford, Wesleyan, Williams, and Yale. Arranged
+				alphabetically.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">S1</container>
+            <unittitle>IV World Congress, Budapest,
+				  <unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">1974</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>American Council of Learned
+					 Societies</corpname> Annual Meeting,
+				  <unitdate calendar="gregorian" era="ce" normal="1957" type="inclusive">1957</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Africa Trip,
+				  <unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Agricultural Development Council
+				  (ADC) Conference,
+				  <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Bellagio Study and Conference
+					 Center,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <geogname>Cairo,</geogname>
+              <unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Cambridge Conference</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">1972</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Center for Economic Policy
+					 Research,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>China Lecture for World Bank,
+				  <unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Committee for the Study of Mankind,
+					 </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Conference on the International
+				  Economic and Financial Systems,
+				  <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Conference on International
+				  Economics,
+				  <unitdate calendar="gregorian" era="ce" normal="1956" type="inclusive">1956</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Conselho Administrativo de Defesa
+					 Econômica (Brazil) CADE,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">1972</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>The Content of Education for
+				  Accelerated Agricultural Development,
+				  <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Development: International Law and
+				  Economics Symposium,
+				  <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Economic Development and World Debt,
+
+				  <unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Ethics and International Relations,
+				  <unitdate calendar="gregorian" era="ce" normal="1973" type="inclusive">1973</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>European Logistics Management
+					 Program,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Globalization, Development or
+				  Underdevelopment,
+				  <unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Goodyear International Management
+					 Seminar,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1973" type="inclusive">1973</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Hicks Fechtschrift - Free Trade and
+				  Development Economics,
+				  <unitdate calendar="gregorian" era="ce" normal="1966/1967" type="inclusive">1966-1967</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Institute of Development
+					 Studies</corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1966/1968" type="inclusive">1966-1968, n.d</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1968/1971" type="inclusive">1968, 1971</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Instituto Peruano de Administración
+					 de Empresas (IPAE),</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1973" type="inclusive">1973</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>International Center for Economic
+					 Growth (ICEG),</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>International Conference on
+					 Economic History,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>International Symposium of Nihon
+					 University,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1996" type="inclusive">1996</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><geogname>Jamaica</geogname> Trip,
+				  <unitdate calendar="gregorian" era="ce" normal="1970/1983" type="inclusive">1970, 1983</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Korea Institute for International
+					 Economic Policy (KIEP), Korea,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Latin-American - U.S. Economic
+				  Interactions, Texas,
+				  <unitdate calendar="gregorian" era="ce" normal="1973" type="inclusive">1973</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Law and Development Conference,
+					 University of Wisconsin,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Law and Economics Committee,
+					 </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1968/1971" type="inclusive">1968-1971</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><geogname>Malawi</geogname> -
+				  Underdevelopment and Economics, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Merrill Center for Economics,
+					 </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1955" type="inclusive">1955</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous Conferences,
+				  <unitdate calendar="gregorian" era="ce" normal="1956/1986" type="inclusive">1956-1986 and undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Moral Aspects of War, Power, and
+				  Economic Involvement, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><geogname>Moscow</geogname> Meeting,
+				  <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Nyasaland Conference</unittitle>
+          </did>
+          <processinfo>
+            <p>See also under this entry in
+					 <emph render="bold">Oversize Materials Series, Subject
+					 Subseries</emph></p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1961/1997" type="inclusive">1961-1997 and undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(4
+					 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983 and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <geogname>Pakistan,</geogname>
+              <unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <geogname>Peru,</geogname>
+              <unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">1972</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Rome/Vatican,
+				  <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Schools</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Harvard
+						University</corpname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Course Notes,
+						<unitdate calendar="gregorian" era="ce" normal="1947/1948" type="inclusive">1947-1948</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>International Economics,
+						Bibliographies,
+						<unitdate calendar="gregorian" era="ce" normal="1951/1952" type="inclusive">1951-1952</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">S2</container>
+                <unittitle>International Economics,
+						Haberler,
+						<unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(3
+						folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>International Economics,
+						Haberler and Balogh,
+						<unitdate calendar="gregorian" era="ce" normal="1947/1948" type="inclusive">1947-1948</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(3
+						folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>International Economics,
+						Miscellaneous Seminars and Lectures,
+						<unitdate calendar="gregorian" era="ce" normal="1948" type="inclusive">1948</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(4
+						folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>International Economics, Notes,
+						<unitdate calendar="gregorian" era="ce" normal="1947/1948" type="inclusive">1947-1948</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2
+						folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Lectures,
+						<unitdate calendar="gregorian" era="ce" normal="1948/1951" type="inclusive">1948, 1950-1951</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Attendance at Miscellaneous
+						Lectures,
+						<unitdate calendar="gregorian" era="ce" normal="1960/1987" type="inclusive">1960-1987 and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Course Reading Lists,
+						<unitdate calendar="gregorian" era="ce" normal="1947/1955" type="inclusive">1947-1955 and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Exams,
+						<unitdate calendar="gregorian" era="ce" normal="1947/1952" type="inclusive">1947-1952</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Exams,
+						<unitdate calendar="gregorian" era="ce" normal="1948/1965" type="inclusive">1948-1965 and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>J.M. Finnis - Jurisprudence,
+						<unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">1974</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Law and Economics Lectures,
+						<unitdate calendar="gregorian" era="ce" normal="1958/1978" type="inclusive">1958-1978</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Lectures (Hicks, Haberler,
+						Chamberlin, Leontief) and Exams,
+						<unitdate calendar="gregorian" era="ce" normal="1947/1951" type="inclusive">1947-1951 and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Lectures, Oxford
+						<unitdate calendar="gregorian" era="ce" normal="1948/1949" type="inclusive">1948-1949,</unitdate> Harvard
+						<unitdate calendar="gregorian" era="ce" normal="1947/1950" type="inclusive">1947, 1950</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous Lectures Attended,
+
+						<unitdate calendar="gregorian" era="ce" normal="1946/1994" type="inclusive">1946-1994 and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous Syllabi and Exams,
+
+						<unitdate calendar="gregorian" era="ce" normal="1971/1982" type="inclusive">1971-1982 and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous Syllabi and
+						Handouts,
+						<unitdate calendar="gregorian" era="ce" normal="1952/1968" type="inclusive">1952-1968</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Syllabi for Various Economics
+						Courses,
+						<unitdate calendar="gregorian" era="ce" normal="1953/1972" type="inclusive">1953-1972 and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">S3</container>
+              <unittitle>
+                <corpname>Reed College (Portland, Or.),
+						</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1941/1942" type="inclusive">1941-1942</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Stanford
+						University</corpname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Courses Materials, International
+						Law and Development,
+						<unitdate calendar="gregorian" era="ce" normal="1964/1972" type="inclusive">1964-1972</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Course Notes,
+						<unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964 and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Courses,
+						<unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Econ 216 Despres and Meier,
+						<unitdate calendar="gregorian" era="ce" normal="1963/1964" type="inclusive">1963-1964</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>International Economics Exams,
+						<unitdate calendar="gregorian" era="ce" normal="1963/1968" type="inclusive">1963-1968</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Price Analysis,
+						<unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Price System,
+						<unitdate calendar="gregorian" era="ce" normal="1969/1970" type="inclusive">1969-1970</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2
+						folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Tort Law,
+						<unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2
+						folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>University of
+						Oxford</corpname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Lectures,
+						<unitdate calendar="gregorian" era="ce" normal="1948/1949" type="inclusive">1948-1949</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Lectures and Journals,
+						<unitdate calendar="gregorian" era="ce" normal="1948/1985" type="inclusive">1948-1985</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Lectures and Journals,
+						<unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Wesleyan University (Middletown,
+						Conn.)</corpname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>College of Social
+						Studies</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1958/1994" type="inclusive">1958-1994, undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971, undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1994/1998" type="inclusive">1994-1998</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Econ Tutorials,
+						  <unitdate calendar="gregorian" era="ce" normal="1960/1961" type="inclusive">1960-1961</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Courses,
+						<unitdate calendar="gregorian" era="ce" normal="1953/1963" type="inclusive">1953-1963 and undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2
+						folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Courses,
+						<unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959 and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Econ 2 Lectures,
+						<unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Econ 31-32 Lecture Notes,
+						<unitdate calendar="gregorian" era="ce" normal="1958/1959" type="inclusive">1958-1959</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Economic Theory Reading Lists,
+						<unitdate calendar="gregorian" era="ce" normal="1954/1959" type="inclusive">1954-1959</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Williams
+						College</corpname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">1985</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Courses,
+						<unitdate calendar="gregorian" era="ce" normal="1952/1954" type="inclusive">1952-1954</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Econ 1, 1952 and Econ 3-4,
+						<unitdate calendar="gregorian" era="ce" normal="1953/1954" type="inclusive">1953-1954</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Yale
+						University</corpname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Constitution Law,
+						<unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Contracts and Torts, Leff and
+						Calabresi,
+						<unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Course Notes,
+						<unitdate calendar="gregorian" era="ce" normal="1953/1956" type="inclusive">1953-1956 and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Courses,
+						<unitdate calendar="gregorian" era="ce" normal="1955/1957" type="inclusive">1955-1957</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>International Welfare Economics
+						and International Law,
+						<unitdate calendar="gregorian" era="ce" normal="1973/1986" type="inclusive">1973-1986</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2
+						folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Law and Economics,
+						<unitdate calendar="gregorian" era="ce" normal="1956/1957" type="inclusive">1956-1957</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Tacoma Sunday Times,
+					 </title>undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Top Executive Seminar on
+					 International Economic Problems, Tel Aviv,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1974/1975" type="inclusive">1974-1975</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>U.S. - Mexican Financial Relations
+					 Conference,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">1974</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>University of Texas –
+					 Latin-American Conference,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1973" type="inclusive">1973</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <geogname>Zagreb,</geogname>
+              <unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Oversize Materials Series</unittitle>
+        </did>
+        <c02>
+          <did>
+            <unittitle>Subject Subseries</unittitle>
+          </did>
+          <c03>
+            <did><container type="opaperfolder">1</container>
+              <unittitle><geogname>Nyasaland</geogname> Conference,
+					 <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962</unitdate>
+                     </unittitle>
+            </did>
+            <processinfo>
+              <p>See also under this entry in
+						<emph render="bold">Subject Series</emph></p>
+            </processinfo>
+          </c03>
+        </c02>
+      </c01>
+
+<c01 level="series"><did>
+<unittitle>Accession (2010-0211), <unitdate type="inclusive" normal="1928/2003" era="ce" calendar="gregorian">1928-2003</unitdate></unittitle>
+<physdesc><extent>(2 boxes)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Accession (2010-0211) (900 items; 1.5 lin. ft.) also contains work from Meier's career, including reprints of his articles (dated 1949-1984) and materials from his lectures and presentations on development economics (dated 1986-2002). Also included are some miscellaneous correspondence, grant proposals, and book reviews. A large portion of the accession relates to Meier's writings, including his drafts and correspondence from several books, especially <title render="italic" linktype="simple">Frontiers of Development Economics</title> (published 2001) and <title render="italic" linktype="simple">Development: Biography of a Subject</title> (published 2004). Another section of interest is Meier's collection of materials on the career of John Hicks, a 1972 Nobel prize-winning economist. The collection includes article reprints written by Hicks, some clippings about his life, and an undated, unpublished manuscript titled "The Theory of Demand and the Theory of Welfare." </p>
+</scopecontent>
+<c02 level="file"><did><container type="box">A1</container><unittitle>Public speaking, <unitdate type="inclusive" era="ce" calendar="gregorian">1986-2002 and undated</unitdate> </unittitle><physdesc><extent>(3 folders)</extent></physdesc></did>
+	<scopecontent>
+	<p>Materials from Meier's talks, lectures, and presentations throughout the world on social capital, developing countries, and development economics.</p>
+	</scopecontent>
+</c02>
+<c02 level="file"><did><container type="box">A1</container><unittitle>Miscellaneous publications by Meier, 1949-1984 and undated</unittitle><physdesc><extent>(6 folders)</extent></physdesc></did>
+	<scopecontent>
+	<p>Arranged chronologically by year. Includes offprint journal articles and book reviews. Several have duplicates.</p>
+	</scopecontent>
+</c02>
+<c02 level="file"><did><container type="box">A1</container><unittitle>Book manuscripts</unittitle></did>
+	<c03 level="file"><did><container type="box">A1</container><unittitle><title render="italic" linktype="simple">Pioneers in Development</title>, vols. 1 and 2, 1982-1985</unittitle></did></c03>
+	<c03 level="file"><did><container type="box">A1</container><unittitle><title render="italic" linktype="simple">The World Beyond the Firm</title>, 1992-1996</unittitle></did></c03>
+	<c03 level="file"><did><container type="box">A1</container><unittitle><title render="italic" linktype="simple">Frontiers of Development Economics</title>, 1999-2001</unittitle><physdesc><extent>(3 folders)</extent></physdesc></did>
+		<scopecontent>
+		<p>Correspondence, notes, and chapter drafts.</p>
+		</scopecontent>
+	</c03>
+	<c03 level="file"><did><container type="box">A1</container><unittitle><title render="italic" linktype="simple">Leading Issues in Economic Development</title>, 1996-1998</unittitle></did></c03>
+	<c03 level="file"><did><container type="box">A1</container><unittitle><title render="italic" linktype="simple">Development: Biography of a Subject</title>, 2001 and undated</unittitle><physdesc><extent>(6 folders)</extent></physdesc></did>
+		<scopecontent>
+		<p>Proposals, pre-reviews, notes, drafts of chapters.</p>
+		</scopecontent>
+	</c03>
+	<c03 level="file"><did><container type="box">A1</container><unittitle>Unknown titles, undated</unittitle></did></c03>
+</c02>
+<c02 level="file"><did><container type="box">A1</container><unittitle>Correspondence, 1947-2003 and undated</unittitle><physdesc><extent>(2 folders)</extent></physdesc></did></c02>
+<c02 level="file"><did><container type="box">A1</container><unittitle>Book reviews and Grants, 1978-1989 and undated</unittitle></did></c02>
+<c02 level="file"><did><container type="box">A1</container><unittitle>John Hicks materials</unittitle></did>
+	<c03 level="file"><did><container type="box">A1</container><unittitle>Article reprints, 1928-1974</unittitle><physdesc><extent>(2 folders)</extent></physdesc></did></c03>
+	<c03 level="file"><did><container type="box">A1</container><unittitle>Unpublished manuscript: "The Theory of Demand and the Theory of Welfare," undated</unittitle></did></c03>
+	<c03 level="file"><did><container type="box">A1</container><unittitle>Clippings, 1950s-1989</unittitle></did></c03>
+</c02>
+<c02><did><container type="box">A2</container><unittitle>Correspondence, 1944-1992</unittitle></did></c02>
+<c02><did><container type="box">A2</container><unittitle>Writings by others</unittitle></did></c02>
+<c02><did><container type="box">A2</container><unittitle>Sir Arthur Lewis lecture, 2002</unittitle></did></c02>
+<c02><did><container type="box">A2</container><unittitle>Memorial clippings</unittitle></did></c02>
+</c01>
+    </dsc>
+  </archdesc>
+</ead>

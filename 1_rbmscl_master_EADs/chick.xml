@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+   <eadheader audience="internal" langencoding="iso639-2b" findaidstatus="unverified-full-draft" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid publicid="-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Jesse Chickering Papers)//EN" countrycode="us" mainagencycode="ndd" url="http://library.duke.edu/rubenstein/findingaids/chick/">chick</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Jesse Chickering Papers, <date normal="1805/1919" type="inclusive" era="ce" calendar="gregorian">1805-1919</date>
+            </titleproper>
+            <author>Machine-readable finding aid created by
+Alvin Pollock<lb/>Electronic Text Unit<lb/>UC Berkeley Library</author>
+         </titlestmt>
+         <publicationstmt>
+            
+            <date era="ce" calendar="gregorian"> 1997</date>
+            <p>Duke University. All rights reserved.</p>
+         </publicationstmt>
+         <notestmt>
+         <note><p>Aleph Number: <num type="aleph">001582406</num></p></note></notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from MS Word.
+Date of source: <date era="ce" calendar="gregorian">Unknown.</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005" era="ce" calendar="gregorian">08-11-2005</date>
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Jesse Chickering Papers)//EN" "chick.sgm" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+		<item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date era="ce" calendar="gregorian">June 29, 1998</date>
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Jesse Chickering Papers, <date era="ce" calendar="gregorian">1805-1919</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>
+            
+            <lb/>Duke University<lb/>Durham, North Carolina 27708-0185</publisher>
+         
+         <p> 1997 Duke University. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">Jesse Chickering papers <unitdate normal="1805/1919" type="inclusive" era="ce" calendar="gregorian">1805-1919</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Chickering, Jesse, 1797-1855.</persname>
+         </origination>
+         <repository label="Repository">
+            <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+            <address>
+               <addressline>Durham, North Carolina 27708-0185</addressline>
+            </address>
+         </repository>
+         <physloc label="Location">For current information on the location of these
+materials, please consult the library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+
+<descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+		<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p> 
+		<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>   
+		<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p> 
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>For more information on the copyright interests pertaining to this collection, please consult Research Services staff.</p>
+         </userestrict>
+      <prefercite>
+         <head>Preferred Citation</head>
+         <p>[Identification of item], Papers of Jesse Chickering,
+David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+	<processinfo>
+	<head>Processing Information</head>
+		<p>Encoded by Alvin Pollock, Electronic Text Unit, UC Berkeley Library</p>
+		<p>This finding aid is NCEAD compliant.</p>
+	</processinfo>
+	</descgrp>
+      <bioghist>
+         <head>Biographical Note</head>
+         <p>Jesse Chickering, 1797-1855, was an author and political economist.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Contains journals, correspondence, financial papers, writings and speeches, and printed materials. Most material concerns Chickering's career as author and political economist. The Writings and Speeches Series contains the manuscript drafts of Chickering's writings, including his <title render="doublequote" linktype="simple">Statistical View of the Population of Massachusetts from 1765 to 1840</title> (1846); <title render="doublequote" linktype="simple">Emigration into the United States</title> (1848); <title render="doublequote" linktype="simple">Reports on the Census of Boston</title> (1851); and <title render="doublequote" linktype="simple">Letter addressed to the President of the United States on Slavery, considered in Relation to the Principles of Constitutional Government in Great Britain and in the United States</title> (1855). Other subjects in this series include constellations, bank reports from several Boston banks, Harvard alumni, and publication of Chickering's work.</p>
+         <p>The Correspondence Series includes personal letters and letters pertaining to research on Massachusetts population growth. Correspondents include: Levi Woodbury, George Ticknor, John Langdon Sibley, David Henshaw, George Bancroft, Henry I. Bowditch, Horace Mann, Daniel Webster, and James Buchanan (Harvard Librarian). Immigration, slavery, and Harvard University are also mentioned in the correspondence. The Journals Series contains statistical information on immigration into the United States between 1819 and 1855, with emphasis on Massachusetts. The Miscellaneous Series includes information pertaining to astronomy, including cloth maps with astronomical models and planetaria.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p> 
+         <list type="simple">
+            <item>
+               <persname>Woodbury, Levi, 1789-1851</persname>
+            </item>
+            <item>
+               <persname>Ticknor, George, 1791-1871</persname>
+            </item>
+            <item>
+               <persname>Sibley, John Langdon, 1804-1885</persname>
+            </item>
+            <item>
+               <persname>Henshaw, David, 1791-1852</persname>
+            </item>
+            <item>
+               <persname>Bancroft, George, 1800-1891</persname>
+            </item>
+            <item>
+               <persname>Bowditch, Henry I (Henry Ingersoll), 1808-1892</persname>
+            </item>
+            <item>
+               <persname>Webster, Daniel, 1782-1852</persname>
+            </item>
+            <item>
+               <persname>Mann, Horace, 1796-1859</persname>
+            </item>
+            <item>
+               <subject>Astronomical models</subject>
+            </item>
+            <item>
+               <subject>Planetaria</subject>
+            </item>
+            <item>
+               <subject>Slavery -- Law and legislation</subject>
+            </item>
+            <item>
+               <subject>Constellations</subject>
+            </item>
+            <item>
+               <corpname>Harvard University -- Alumni</corpname>
+            </item>
+            <item>
+               <subject>Immigrants -- United States -- Massachusetts</subject>
+            </item>
+            <item>
+               <geogname>Massachusetts -- Population</geogname>
+            </item>
+            <item>
+               <subject>Banks and banking, American -- Massachusetts -- Boston</subject>
+            </item>
+           
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle>Journal Series</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1819-1871 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Correspondence Series</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1821-1858 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(8 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Financial Papers Series</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1859, undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Writings and Speeches Series</unittitle>
+            </did>
+            <c02>
+               <did><container type="box">3</container>
+                  <unittitle>Astronomical, 
+<unitdate era="ce" calendar="gregorian">1827-1828, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Banks, 
+<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bank Dividend Report, 
+<unitdate era="ce" calendar="gregorian">1841, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Constitution and Government, 
+<unitdate era="ce" calendar="gregorian">1758-1780, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Convents and Catholicism, 
+<unitdate era="ce" calendar="gregorian">1794-1835, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Harvard Alumni, 
+<unitdate era="ce" calendar="gregorian">1852, undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <emph render="doublequote">Immigration into the United States,</emph>
+                     <unitdate era="ce" calendar="gregorian">1847-1851, undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Legislative Representation, 
+<unitdate era="ce" calendar="gregorian">1853, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Market Bank Report, 
+<unitdate era="ce" calendar="gregorian">1835-1841, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Medical, 
+<unitdate era="ce" calendar="gregorian">1835, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>North and City Bank Reports, 
+<unitdate era="ce" calendar="gregorian">1841-1845, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>On the Declaration of Independence, 
+<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Population, 
+<unitdate era="ce" calendar="gregorian">1830, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <emph render="doublequote">Reports on the Census of Boston, 1851</emph>,
+<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Slavery:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <emph render="doublequote">Nebraska Question,</emph>
+                        <unitdate era="ce" calendar="gregorian">1854</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <emph render="doublequote">North American Review, Slavery and the Missouri Question,</emph>
+                        <unitdate era="ce" calendar="gregorian">1820</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <emph render="doublequote">Slavery in the United States Constitutionally Considered,</emph>
+                        <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <emph render="doublequote">Statistical View of the Population of Massachusetts from 1765-1840</emph>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wealth in Mass., 
+<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous, 
+<unitdate era="ce" calendar="gregorian">1821-1851, undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Printed Materials Series, 1826-1855 and undated</unittitle>
+             <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc></did>
+           
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">Constitution and by-laws of the American Statistical Association</title></unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">Influence of slavery upon the white population</title></unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">The United States Constitution.</title></unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">Letter addressed to the President of the United States on slavery</title></unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">Nouvelles idées sur la population</title></unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">Address of the Hon. Edward Everett, at the anniversary of the American Colonization Society, January</title></unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">Colonization.</title></unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">The history of Charlestown, Massachusetts</title></unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">Does slavery Christianize the negro?</title></unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">The "ruin" of Jamaica</title></unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">The inter-state slave trade.</title></unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">American steam navigation.</title></unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">White slavery in the United States.</title></unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">Tables showing the number of emigrants and recaptured Africans sent to the colony of Liberia</title></unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle><title render="italic" linktype="simple">Anti-slavery tracts</title></unittitle></did></c02>
+
+          
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Miscellaneous Series</unittitle>
+            </did>
+            <c02>
+               <did><container type="box">5</container>
+                  <unittitle>General, 
+<unitdate era="ce" calendar="gregorian">1821-1864, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Astronomical studies, 
+<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Clippings, 
+<unitdate era="ce" calendar="gregorian">1854-1851, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Legal papers, 
+<unitdate era="ce" calendar="gregorian">1805-1860, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Railroads, 
+<unitdate era="ce" calendar="gregorian">1836-1843, undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Oversize Materials</unittitle>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Writings and Speeches Series</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle>
+                        <emph render="doublequote">Statistical View of the Population of Massachusetts from 1765-1840.</emph>
+                        <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Printed Material Series</unittitle>
+               </did>
+               <c03>
+                  <did>                <container type="box">7</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1838-1918, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Miscellaneous Series</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle>Astronomical studies, 
+<unitdate era="ce" calendar="gregorian">undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="opaperfolder">1</container>
+                     <unittitle>General, <unitdate era="ce" calendar="gregorian">undated</unitdate>                    </unittitle>
+                  </did>
+               </c03>
+		<c03><did><container type="opaperfolder">2</container><unittitle>Miscellaneous, 1821-1864 and undated</unittitle></did></c03>
+
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

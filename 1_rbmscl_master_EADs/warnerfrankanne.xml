@@ -1,0 +1,4962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+	 <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Frank and Anne Warner Papers, 1857-[ongoing])//EN" url="http://library.duke.edu/rubenstein/findingaids/warnerfrankanne.xml/">warnerfrankanne</eadid>
+
+	 <filedesc>
+		<titlestmt>
+		  <titleproper>Guide to the Frank and Anne Warner Papers,
+			 <date normal="1899/2000" era="ce" calendar="gregorian">1899-2000 and undated, bulk
+				1933-1985</date> </titleproper>
+		  <author>Processed by: Schuy Weishaar and Karen Glynn; machine-readable
+			 finding aid created by: Chris Black and Paula Jeannet Mangiafico</author>
+		</titlestmt>
+		<publicationstmt>
+		  <publisher><lb/>David M. Rubenstein Rare Book &amp; Manuscript Library
+			 <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+		  <p>
+			 <date normal="2006" encodinganalog="date" era="ce" calendar="gregorian"> 2006</date> Duke
+			 University. All Rights Reserved.</p>
+		</publicationstmt>
+		<notestmt>
+		  <note><p>Aleph Number: <num type="aleph">002613688</num></p></note></notestmt>
+	 </filedesc>
+	 <profiledesc>
+		<creation>Machine-readable finding aid derived from XML authoring
+		  program.<lb/>
+		  <date era="ce" calendar="gregorian">Date of source: June 2004</date><lb/>Processed by Schuy Weishaar,
+		  Karen Glynn, Paula Jeannet Mangiafico, March 2004; Finding Aid encoded by Chris
+		  Black, Paula Jeannet Mangiafico, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University,
+		  <date era="ce" calendar="gregorian">June 2004</date> </creation>
+		<langusage>Description is in <language langcode="eng">English</language>
+		  </langusage>
+		<descrules>Finding aid was prepared using
+		  <title linktype="simple">DACS</title> and local
+		  <title linktype="simple">Style Guide</title></descrules>
+	 </profiledesc>
+<!-- Location of <revisiondesc> if needed -->
+  </eadheader>
+  <frontmatter>
+	 <titlepage>
+		<titleproper>Guide to the Frank and Anne Warner Papers,
+		  <date type="span" era="ce" calendar="gregorian">1899-2000 and undated, bulk 1933-1985</date>
+		  </titleproper>
+		<publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/>
+		   <lb/>Duke University <lb/> Durham,
+		  North Carolina 27708-0185 USA </publisher>
+		<p>
+		  <date normal="2006" era="ce" calendar="gregorian"> 2006</date> Duke University. All Rights
+		  Reserved.</p>
+	 </titlepage>
+  </frontmatter>
+  <archdesc level="collection" relatedencoding="MARC">
+	 <did>
+		<head>Descriptive Summary</head>
+		<repository label="Repository">
+		  <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname></repository>
+		<origination label="Creator">
+		  <persname encodinganalog="100">Warner, Frank</persname></origination>
+		<unittitle label="Title" encodinganalog="245">Frank and Anne Warner
+		  papers 		  <unitdate normal="1899/2000" type="inclusive" era="ce" calendar="gregorian">1899-2000 and undated 			 bulk 1933-1985</unitdate> </unittitle>
+		<langmaterial label="Language of Material" encodinganalog="546">Material
+		  in <language langcode="eng">English</language> </langmaterial>
+		<physdesc label="Extent"> <extent unit="linear feet" encodinganalog="300">12 Linear Feet</extent><lb/> <extent unit="items">4934		  Items</extent> </physdesc>
+		<physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+		<abstract label="Abstract" encodinganalog="545">Anne and Frank Warner
+		  were folklorists and folk song musicians.</abstract>
+		<abstract encodinganalog="520">The Anne and Frank Warner Collection, with
+		  materials from as early as 1899 to as late as 2000, documents the Warners'
+		  active life of collecting, recording, and producing music and publications
+		  associated with traditional American folk song culture, primarily from along
+		  the eastern seaboard areas, in the Appalachian Mountains of western North
+		  Carolina, and as far as New Hampshire to the north.</abstract>
+	 </did>
+	 <descgrp type="admininfo">
+		<head>Administrative Information</head>
+		<accessrestrict encodinganalog="506">
+		  <head>Access Restrictions</head>
+		  <p>Collection is open for research.</p>
+		  <p>Original negatives are closed to use.</p>
+		  <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+		  <p>All or portions of this collection may be housed off-site in
+			 Duke University's Library Service Center. There may be a 48-hour
+			 delay in obtaining these materials.</p>
+		  <p>Some of the materials in this collection are not immediately
+			 accessible, because they require further processing before use.</p>
+		  <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+		</accessrestrict>
+		<userestrict encodinganalog="540">
+		  <head>Copyright Notice</head>
+		  <p>The copyright interests in this collection have not been transferred
+			 to Duke University. For more information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+		</userestrict>
+		<prefercite>
+		  <head>Preferred Citation</head>
+		  <p>[Identification of item], Frank and Anne Warner Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</p>
+		</prefercite>
+		<acqinfo encodinganalog="541">
+		  <head>Provenance</head>
+		  <p>The Frank and Anne Warner Papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a gift from 1985-2000. </p>
+		</acqinfo>
+		<processinfo>
+		  <head>Processing Information</head>
+		  <p>Processed by Karen Glynn and Schuy Weishaar, March 2004</p>
+		  <p>Encoded by Chris Black and Paula Jeannet Mangiafico</p>
+		  <p>Completed June 2004</p>
+		  <p>Accessions November 22 1985, November 22 1985, June 10 1985, 90-046,
+			 and 2000-0168 were merged into one collection, described in this finding
+			 aid.</p>
+		  <p>Descriptive sources and standards used to create this inventory:
+		  <title render="italic" linktype="simple">DACS,</title> EAD, NCEAD guidelines, and local
+		  <title render="italic" linktype="simple">Style Guide.</title></p>
+
+		</processinfo>
+	 </descgrp>
+
+<!--end of finding aid header-->
+	 <bioghist>
+		<head>Biographical Note</head>
+		<chronlist>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1903</date>
+			 <event>Frank Warner born, Selma, Ala.</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1921-1925</date>
+			 <event>Frank Warner attended Duke University</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1931</date>
+			 <event> Frank Warner moved to
+				<geogname>New York City</geogname> to direct programs for the Grand
+				Central
+				<corpname>YMCA</corpname></event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1933</date>
+			 <event>Met
+				<persname>Sue Thomas</persname> in
+				<geogname>Nag's Head, N.C.</geogname>: the two traded songs
+				informally, a precursor to the Warners' later song collecting</event>
+		  </chronitem>
+		  <chronitem>
+		  <date era="ce" calendar="gregorian">1935</date>
+		  <event>Frank Warner and Anne Locher married</event>
+		  </chronitem>
+
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1938</date>
+			 <event>Song collecting trip to
+				<geogname>Boone, N.C.</geogname> and to
+				<geogname>Beech Mountain, N.C.</geogname>; here the Warners met the
+
+				<famname>Hicks</famname> family and
+				<persname>Frank Proffitt</persname>, who taught them the song, "Tom
+				Dooley"</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1939</date>
+			 <event>The Warners met <emph render="doublequote">Yankee</emph> John
+				<famname>Galusha</famname> in
+				<geogname>Minerva, N.Y.</geogname>, and
+				<persname>Rebecca King Jones</persname>,
+				<geogname>Crab Tree Creek, N.C.</geogname></event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1940</date>
+			 <event>The Warners acquired a Wilcox Gay Recordio (a pre-tape
+				recording device), which they used when they returned to
+				<geogname>Beech Mountain, N.C.</geogname>, to record songs at a
+				<emph render="doublequote">porch gathering</emph> at Rena and Nathan Hicks's
+				house. In July, the Warners met
+				<persname>Lena Bourne Fish</persname> in
+				<geogname>Jaffrey, N.H.</geogname> Other acquaintances the Warners
+				made this year include: John and Alwilda
+				<famname>Culpeper</famname>,
+				<geogname>Outer Banks, N.C.</geogname>; C.K. (<emph render="doublequote">Tink</emph>)
+				<famname>Tillett</famname> and his family,
+				<geogname>Wanchese, N.C.</geogname>;
+				<persname>Steve Meekins</persname>,
+				<geogname>Kitty Hawk, N.C.</geogname>; and Joseph Henry (<emph render="doublequote">Uncle Joe</emph>)
+				<famname>Johnson</famname>,
+				<geogname>Suffolk, Va.</geogname></event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1941, Summer</date>
+			 <event>The Warners traveled to see
+				<persname>Frank Proffitt</persname> and family. Also met
+				<persname>Curt Mann</persname> at
+				<geogname>Mann's Harbor, N.C.</geogname> Struck up a friendship
+				with
+				<persname>Alan Lomax</persname>, head of Folk Archives in the
+				<corpname>Library of Congress</corpname>. </event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1945</date>
+			 <event> Death of
+				<persname>Nathan Hicks</persname>.</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1946</date>
+			 <event>Joint meeting of the
+				<corpname>New York State Historical Association</corpname> and the
+				<corpname>New York Folklore Society</corpname>: Frank Warner
+				presented ballads along with
+				<persname>Alan Lomax</persname> and
+				<persname>Huddie Ledbetter</persname> (
+				<persname>Leadbelly</persname>). Frank Warner's first
+				<genreform>album</genreform>, <emph render="italic">Hudson Valley
+				Songs,</emph> also issued this year on the
+				<corpname>Disc</corpname> label.
+				<persname>Pete Seeger</persname> played banjo on the album. The
+				Warners visited <emph render="doublequote">Yankee</emph> John Galusha again in
+				<geogname>Minerva, N.Y.</geogname></event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1948</date>
+			 <event>Dr.
+				<persname>Louis C. Jones</persname>, Director of the
+				<corpname>New York State Historical Association</corpname> in
+				<geogname>Cooperstown, N.Y.</geogname>, established the
+				<emph render="doublequote">Seminars on American Culture</emph>:
+				<persname>Frank Warner</persname> appointed as faculty and
+				performed songs at the seminars</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1949</date>
+			 <event> Death of
+				<persname>Leadbelly</persname>. Warners met
+				<emph render="doublequote">Colonel</emph>
+				<persname> Tom P. Smith</persname> in
+				<geogname>Greenwich Village, New York City</geogname></event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1950</date>
+			 <event>The Warners again visited <emph render="doublequote">Yankee</emph> John
+				<famname>Galusha</famname> in
+				<geogname>Minerva, N.Y.</geogname>; later, Galusha died at 91.
+				<persname>Carl Sandburg</persname> made the first of many visits
+				with the Warners</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1951</date>
+			 <event>Warners met Captain
+				<persname>Billy Payne</persname> in
+				<geogname>Nebraska, N.C.</geogname> The Warners again visited the
+				Hickses on
+				<geogname>Beech Mountain, N.C.</geogname></event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1952</date>
+			 <event> <emph render="italic">Frank Warner Sings Folk Songs and
+				Ballads,</emph> issued on
+				<corpname>Elektra</corpname> Records</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1954</date>
+			 <event> Frank Warner's album, <emph render="italic">Songs of
+				America's Wars,</emph> issued on
+				<corpname>Elektra</corpname> Records</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1956</date>
+			 <event>The Warners began an association with the
+				<corpname>Pinewoods Camp</corpname>, near Cape Cod, devoted to
+				traditional American folk music. Also,
+				<persname>Sam Fuller</persname> directed the Radio Keith Orpheum
+				(RKO) Radio Pictures film, <emph render="italic">Run of the Arrow</emph>; Frank
+				Warner had a small part in the movie</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1958</date>
+			 <event> Frank Warner's album, <emph render="italic">America’s Singing
+				Heritage,</emph> issued on
+				<corpname>Elektra</corpname></event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1961</date>
+			 <event>
+				<persname>Frank Proffitt</persname> joined the Warners at the
+				<corpname>Pinewoods Camp</corpname> and again the following year.
+				Proffitt and Frank Warner performed at the first
+				<corpname>University of Chicago</corpname> Folk Festival</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1963</date>
+			 <event> Frank Proffitt performed at the Newport Folk Festival.
+				Warners again visited the Proffitts at their home in
+				<geogname>Pick Britches Valley, N.C.</geogname></event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1965</date>
+			 <event>The Warners visited the Proffitts at their home in
+				<geogname>Pick Britches Valley, N.C.</geogname> Later this year,
+				<persname>Frank Proffitt</persname> died in his sleep</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1978 Feb. 27</date>
+			 <event>Death of Frank Warner</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1984</date>
+			 <event> Publication of Anne Warner's book, <emph render="italic">Traditional American Folk Songs</emph></event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1991 Apr. 26</date>
+			 <event> Death of Anne Warner</event>
+		  </chronitem>
+		</chronlist>
+
+
+	 </bioghist>
+<!--End of biohistory-->
+<!--Begin scopecontent-->
+	 <scopecontent>
+		<head>Collection Overview</head>
+		<p>The Anne and Frank Warner Collection, with materials dating from 1899
+		  to 2000, is a record of the Warners' active life of collecting, recording, and
+		  producing music and publications associated with traditional American folk song
+		  culture and African-American music traditions, primarily from along the eastern
+		  seaboard areas, in the
+		  <geogname>Appalachian Mountains</geogname> of western
+		  <geogname>North Carolina</geogname>, and as far as
+		  <geogname>New Hampshire</geogname> to the north. The bulk of the materials
+		  date from the 1930s through the 1980s, and are organized into six series:
+		  <emph render="bold">Correspondence</emph>; <emph render="bold">Subject
+		  Files</emph>; <emph render="bold">Folk Materials</emph>; <emph render="bold">Writings</emph>; <emph render="bold">Audiovisual
+		  Materials</emph>; and <emph render="bold">Prints and Negatives</emph>. Through
+		  handwritten correspondence with a wide variety of folk singers and musicians,
+		  subject files, printed materials, film, video, photographs, and the Warners'
+		  own studio albums of folk songs, these materials document early methods for
+		  recording and collecting songs - the 20th century development of American
+		  ethnomusicology. Moreover, as an invaluable resource for studies in traditional
+		  American folk life, the collection also includes field audio recordings and
+		  photographs of folk singers, songwriters, and musicians in their element, at
+		  home with their families, singing and playing their instruments. Notable
+		  individuals referred to in the Warner Collection include:
+		  <persname>William Rose Benet</persname>,
+		  <persname>Carl Carmer</persname>,
+		  <persname>Bill Doerflinger</persname>,
+		  <persname>Lena Bourne Fish</persname>, (<emph render="doublequote">Yankee</emph>)
+		  <persname>John Galusha</persname>,
+		  <persname>David Grimes</persname> (of the
+		  <corpname>Philco Corporation</corpname>),
+		  <persname>Wayland Hand</persname>, Rena and
+		  <persname>Nathan Hicks</persname>, Buna Vista and
+		  <persname>Roby Monroe Hicks</persname>,
+		  <persname>Ray Hicks</persname>, Peter and Beryl
+		  <famname>Kennedy</famname>,
+		  <persname>Alan Lomax</persname>, Bessie and
+		  <persname>Frank Proffitt</persname>,
+		  <persname>Carolyn Rabson</persname>,
+		  <persname>Carl Sandburg</persname>,
+		  <persname>Pete Seeger</persname>, Charles K. (<emph render="doublequote">Tink</emph>)
+		  <famname>Tillett</famname> and family, and
+		  <persname>Charles L. Todd</persname>. The Warners were actively
+		  involved with a number of organizations, among them: the
+		  <corpname>American Folklore Society</corpname>, the
+		  <corpname>Country Dance and Song Society of America</corpname>,
+		  <corpname>Duke University</corpname>, the
+		  <corpname>Library of Congress</corpname>, the
+		  <corpname>Newport Folk Foundation</corpname>, the
+		  <corpname>New York State Historical Association</corpname>, and the
+		  <corpname>YMCA</corpname>. The Warners published a number of essays
+		  concerning traditional American folk culture and music in <emph render="italic">Think Weekly</emph>, the <emph render="italic">Appalachian
+		  Journal</emph>, <emph render="italic">Country Dance and Song</emph>, the
+		  <emph render="italic">Long Island Forum</emph>, <emph render="italic">A
+		  Celebration of American Family Folklore</emph>, and <emph render="italic">Come
+		  for to Sing</emph>. In addition to these, Ann Warner's book,
+		  <emph render="italic">Traditional American Folk Songs in the Frank and Anne
+		  Warner Collection</emph>, 1984, remains the authoritative compendium of the
+		  Warners' research in and collection of traditional American folk music.</p>
+		<p>The Warners' personal and professional relationships with various
+		  people and organizations can be traced through materials in the
+		  <emph render="bold">Correspondence Series</emph>, 1934-1985. Significant
+		  exchanges with the
+		  <corpname>American Folklore Society</corpname>, the
+		  <corpname>Library of Congress</corpname>, with
+		  <persname>William Rose Benet</persname>,
+		  <persname>Carl Carmer</persname>,
+		  <persname>Wayland Hand</persname>,
+		  <persname>Alan Lomax</persname>,
+		  <persname>Carl Sandburg</persname>, and
+		  <persname>Pete Seeger</persname> are extensively documented in the
+		  files. More correspondence can be found elsewhere in the collection - organized
+		  topically in the Subject Series, and according to correspondents' names in the
+		  Folk Materials Series. </p>
+		<p>The <emph render="bold">Subject Files Series</emph>, 1899-1984, houses
+		  documentary materials that give a wider context to the Warners' life and work.
+		  This series includes information about the Warners' genealogies, Frank Warner's
+		  work with youth and his career in the
+		  <corpname>YMCA</corpname>, material germane to the lawsuit that
+		  developed over the song <emph render="doublequote">Tom Dooley,</emph>
+		  information on and clips about various performances and recordings, and other
+		  materials. </p>
+		<p>The <emph render="bold">Folk Materials Series</emph>, 1938-1982,
+		  contains correspondence between the Warners and many of the traditional
+		  American
+		  <genreform>folk</genreform> singers and musicians that they visited;
+		  for some of the individuals there is more information than correspondence
+		  alone. This series is organized by state, city or region, and then individual
+		  or family, for example: North Carolina, Appalachia, Rena and Nathan Hicks. The
+		  states represented are:
+		  <geogname>North Carolina</geogname>,
+		  <geogname>New Hampshire</geogname>,
+		  <geogname>New York</geogname>,
+		  <geogname>Virginia</geogname>, and
+		  <geogname>West Virginia</geogname>. The Warners' correspondence with
+		  both Rena and
+		  <persname>Nathan Hicks</persname> and Bessie and
+		  <persname>Frank Proffitt</persname> comprise the most extensive files.
+		  The series materials provide essential documentation for understanding the
+		  communities and the world views of the musicians. </p>
+		<p>The <emph render="bold">Writings Series</emph>, 1938-1985, contains a
+		  variety of materials, including documents that the Warners published in
+		  journals dedicated to
+		  <genreform>folk</genreform> life; grant applications; materials germane
+		  to the production and publication of Anne Warner's book, <emph render="italic">Traditional American Folk Songs</emph>; words to recorded and
+		  unrecorded
+		  <genreform>folk</genreform> songs in the collection, including some
+		  songs by Frank Warner; and Anne Warner's hand-written field research journals
+		  and notebooks.</p>
+		<p>An extensive collection of songs, interviews, and other recordings on
+		  <genreform>audio tape reels</genreform>,
+		  <genreform>cassette tapes</genreform>,
+		  <genreform>phonograph albums</genreform>, and
+		  <genreform>compact discs</genreform> are housed in the
+		  <emph render="bold">Audiovisual Materials Series</emph>, 1940-2000. Several
+		  <genreform>motion picture films</genreform> and
+		  <genreform>video tape</genreform> recordings also document the Warners'
+		  work and performances. Many of the items in the Audiovisual Materials Series
+		  are documented in written form in the Writings Series, including the sound
+		  recordings of
+		  <genreform>folk</genreform> songs and interviews collected in the
+		  <corpname>Library of Congress</corpname> master tapes, and which are
+		  not included in Anne Warner's book, <emph render="italic">Traditional American
+		  Folk Songs</emph>.</p>
+		<p>The <emph render="bold">Prints and Negatives Series</emph>, 1933-1969,
+		  extends the Warner collection's scope to include photographic images as well.
+		  There are 239 black and white prints, which are arranged alpha-numerically into
+		  lots from Lot 1 through Lot 9E. Within the lots, the prints are identified by
+		  number. In the pictures, the Warners have captured images of many traditional
+		  American folk musicians and singers. The Warners themselves appear frequently
+		  throughout the collection. The photographic documentation of the Warners'
+		  travels contains pictures of
+		  <genreform>folk</genreform> singers and their homes and families,
+		  including: Nathan, Roby Monroe, Buna Vista, Ray and Linzy
+		  <famname>Hicks</famname>;
+		  <persname>Lena Bourne Fish</persname>; Bessie and
+		  <persname>Frank Proffitt</persname>; the
+		  <famname>Tillett</famname> family;
+		  <persname>Louis Solomon</persname>; and
+		  <persname>Carl Sandburg</persname>. </p>
+	 </scopecontent>
+<!--End scopecontent-->
+<!--Begin controlaccess-->
+	 <controlaccess>
+		<head>Subject Headings</head>
+		<p>These are searchable subject entries for this collection. Performing a
+		  search on these subjects in the Duke University Libraries online catalog will
+		  bring up other related research materials.</p>
+		<list type="simple">
+<!-- Note:  <subject encodinganalog="650" source="lcsh">, <persname encodinganalog="600" source="lcnaf">, <corpname encodinganalog="610">, <geogname encodinganalog="651" source="lcsh">, <famname encodinganalog="600" source="lcnaf">, <genreform encodinganalog="655" source="aat"> or <genreform encodinganalog="655" source="gmgpc">, <title encodinganalog="630" source="lcsh"> used where applicable -->
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Ethnomusicology</subject></item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Folk music -- Southern
+				states</subject></item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Southern
+				states -- Music</subject></item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Folk music -- United
+				States</subject></item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">African Americans -- United
+				States -- Music</subject></item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Benet, William Rose,
+				1886-1950</persname></item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Carmer, Carl Lamson,
+				1893-1976</persname></item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Doerflinger,
+				Bill</persname></item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Fish, Lena
+				Bourne</persname></item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Galusha, John "Yankee"</persname></item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Hand, Wayland Debs,
+				1907- </persname></item>
+		  <item>
+			 <famname encodinganalog="600" source="lcnaf">Hicks
+				family</famname></item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Hicks, Ray, 1922-
+				</persname></item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Kennedy, Peter,
+				1922-2006</persname></item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Lomax, Alan,
+				1915-2002</persname></item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Proffitt,
+				Frank</persname></item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Rabson,
+				Carolyn</persname></item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Sandburg, Carl,
+				1878-1967</persname></item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Seeger, Pete, 1919-
+				</persname></item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Tillett, Charles K. "Tink"</persname></item>
+			<item><persname encodinganalog="700">Warner, Anne</persname></item>
+		  <item>
+			 <corpname encodinganalog="610">American Folklore
+				Society</corpname></item>
+		  <item>
+			 <corpname encodinganalog="610">Country Dance and Song Society of
+				America</corpname></item>
+		  <item>
+			 <corpname encodinganalog="610">Duke University</corpname></item>
+		  <item>
+			 <corpname encodinganalog="610">Library of Congress</corpname></item>
+
+		  <item>
+			 <corpname encodinganalog="610">Newport Folk
+				Foundation</corpname></item>
+		  <item>
+			 <corpname encodinganalog="610">New York State Historical
+				Association</corpname></item>
+		  <item>
+			 <corpname encodinganalog="610">YMCA</corpname></item>
+		  <item>
+			 <geogname encodinganalog="655" source="lcsh">North
+				Carolina -- History</geogname></item>
+		  <item>
+			 <geogname encodinganalog="655" source="lcsh">North
+				Carolina -- Music</geogname></item>
+		  <item>
+			 <geogname encodinganalog="655" source="lcsh">Appalachia -- Music</geogname></item>
+		  <item>
+			 <geogname encodinganalog="655" source="lcsh">New
+				England -- Music</geogname></item>
+		  <item>
+			 <title encodinganalog="630" source="lcsh" linktype="simple">A Celebration of American
+				Family Folklore.</title></item>
+		  <item>
+			 <title encodinganalog="630" source="lcsh" linktype="simple">Appalachian Journal
+				(serial).</title></item>
+		  <item>
+			 <title encodinganalog="630" source="lcsh" linktype="simple">Come for to Sing
+				(serial).</title></item>
+		  <item>
+			 <title encodinganalog="630" source="lcsh" linktype="simple">Country Dance and Song
+				(serial).</title></item>
+		  <item>
+			 <title encodinganalog="630" source="lcsh" linktype="simple">Long Island Forum
+				(serial).</title></item>
+		  <item>
+			 <title encodinganalog="630" source="lcsh" linktype="simple">Think
+				(serial).</title></item>
+		  <item>
+			 <title encodinganalog="630" source="lcsh" linktype="simple">Traditional American Folk
+				Songs from the Frank and Anne Warner Collection.</title></item>
+		  <item>
+			 <genreform encodinganalog="655" source="aat">Audio
+				tapes</genreform></item>
+		  <item>
+			 <genreform encodinganalog="655" source="aat">Compact
+				discs</genreform></item>
+		  <item>
+			 <genreform encodinganalog="655" source="aat">Sound
+				recordings</genreform></item>
+		  <item>
+			 <genreform encodinganalog="655" source="aat">Videotapes</genreform></item>
+		  <item>
+			 <genreform encodinganalog="655" source="aat">Audiocassettes</genreform></item>
+		  <item>
+			 <genreform encodinganalog="655" source="aat">Photographs</genreform></item>
+		  <item>
+			 <genreform encodinganalog="655" source="aat">Negatives</genreform></item>
+		</list>
+	 </controlaccess>
+
+	 <dsc type="combined">
+		<head>Contents of Collection</head>
+		<c01>
+		  <did>
+			 <unittitle>Correspondence Series,
+				<unitdate normal="1934/1985" type="inclusive" era="ce" calendar="gregorian">1934-1985</unitdate></unittitle>
+ <physdesc><extent>(2 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Contains correspondence with many people and institutions over the
+				course of the Warner's involvement with American folk music. Organized
+				alphabetically according to the last name of the correspondent. There is also a
+				miscellaneous file for extra correspondence attached to the end of the list
+				that is not appropriated under a name category.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">1</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1983-1984</unitdate>:
+				  <corpname>American Folklore Society</corpname></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1953-1957</unitdate>:
+				  <famname>Armstrong</famname>, Hamilton Fish</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1958-1960</unitdate>:
+				  <famname>Bartholomew</famname>, Marshall</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1941-1950</unitdate>:
+				  <famname>Benet</famname>, William Rose</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1954-1968</unitdate>:
+				  <famname>Beston</famname>, Henry</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1948-1955</unitdate>:
+				  <famname>Bowman</famname>, Lloyd R.</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1959-1976</unitdate>:
+				  <famname>Carmer</famname>, Carl</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1946</unitdate>:
+				  <famname>Carmer</famname>, Carl, and
+				  <persname>Alan Lomax</persname></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1984</unitdate>:
+				  <famname>Copper</famname>, Bob</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1984</unitdate>:
+				  <famname>Doerflinger</famname>, Bill</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1973</unitdate>:
+				  <famname>Emrich</famname>, Duncan</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1941-1943</unitdate>:
+				  <famname>Grimes</famname>, David</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1980-1983</unitdate>:
+				  <famname>Hand</famname>, Wayland</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1968</unitdate>:
+				  <famname>Hudson</famname>, Arthur P.</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1946-1951</unitdate>:
+				  <famname>Jones</famname>, Louis</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1963</unitdate>:
+				  <famname>Kaplan</famname>, Bruce</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974-1981</unitdate>:
+				  <famname>Kennedy</famname>, Peter and Beryl</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1978</unitdate>:
+				  <corpname>Library of Congress</corpname></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1941</unitdate>:
+				  <famname>Locher</famname>, Mrs. W. H.</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">2</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1941-1984</unitdate>:
+				  <famname>Lomax</famname>, Alan</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1983</unitdate>:
+				  <famname>McDade</famname>, Scott</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1977-1981</unitdate>:
+				  <famname>Patterson</famname>, Dan</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1971</unitdate>:
+				  <famname>Preyer</famname>, William Y.</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1983</unitdate>:
+				  <famname>Rabson</famname>, Carolyn</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1950-1985</unitdate>:
+				  <famname>Sandburg</famname>, Carl</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1967</unitdate>:
+				  <famname>Seeger</famname>, Pete</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1941</unitdate>:
+				  <famname>Solomon</famname>, Louis</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1985</unitdate>:
+				  <famname>Todd</famname>, Charles L. (Lafe)</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1934-1982</unitdate>:
+				  Miscellaneous</unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01>
+		  <did>
+			 <unittitle>Subject Files Series,
+				<unitdate normal="1899/1984" type="inclusive" era="ce" calendar="gregorian">1899-1984 and
+				  undated</unitdate></unittitle>
+<physdesc><extent>(5 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Contains documentary materials that give wider context to the
+				Warners' life and work, and includes: Warner family genealogies; materials on
+				Frank Warner's work with the
+				<persname>YMCA</persname>; legal papers concerning the lawsuit over
+				the song <emph render="doublequote">Tom Dooley</emph>; documents about
+				performances and recordings; information about Frank Warner's banjo; materials
+				concerning the
+				<corpname>New York Folklore Society</corpname> and the
+				<corpname>Newport Folk Foundation</corpname>; and items pertaining
+				to the Warners' research trips to
+				<geogname>Britain</geogname>. </p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">2</container>
+				<unittitle>Genealogical and biographical materials</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <persname>Frank Warner</persname></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle><emph render="doublequote">The Indian Captives: Abby
+					 Byram and Her Father,</emph> 1899, by Rev. John M, McElroy</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <persname>Anne Warner</persname></unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">3</container>
+				<unittitle>
+				  <corpname>Duke University</corpname></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1942</unitdate> Army
+				  commission</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>YMCA</corpname> and other youth work</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Lists of appearances and other materials</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Material regarding Frank Warner's banjo</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle><emph render="doublequote">Tom Dooley</emph>
+				  lawsuit</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Correspondence</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Clippings and articles</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Recordings</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Sheet music</unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>New York Folklore Society</corpname>:
+				  <corpname>New York State Historical
+					 Association</corpname></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">4</container>
+				<unittitle>
+				  <corpname>Newport Folk Foundation</corpname></unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959-1968</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>1969-1973</unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Recordings</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Various</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle><emph render="doublequote">Come All You Good
+					 People</emph></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Elektra</corpname></unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Performances</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1940-1959</unitdate>:
+					 Correspondence, etc.</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1977</unitdate>:
+					 Correspondence, etc.</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">5</container>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1954</unitdate>: Abraham and Straus
+					 Evening</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1956</unitdate>:
+					 <emph render="italic">Run of the Arrow</emph>, 1957 (a
+					 <persname>Samuel Fuller</persname> film in which Frank Warner
+					 appears and sings <emph render="doublequote">The Unreconstructed
+					 Rebel</emph>)</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959</unitdate>:
+					 <corpname>Cultural Exchange Service</corpname></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959</unitdate>:
+					 <corpname>Hofstra Folksong Seminar</corpname></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1963</unitdate>:
+					 <corpname>Wesleyan College</corpname> lectures</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1971</unitdate>: WLIW-TV</unittitle>
+
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate>:
+					 <corpname>University of California</corpname></unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Programs, announcements, etc.</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1940-1965</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1984</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Jeff and
+					 <persname>Gerret Warner</persname> [sons of the
+					 Warners]</unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Public relations materials</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Awards and diplomas</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Trips to
+				  <geogname>Britain</geogname></unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1969</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1973</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">6</container>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1976</unitdate></unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Clippings</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Contents of scrapbook</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle><emph render="doublequote">The Ideal
+					 Scrapbook</emph></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1968</unitdate>:
+					 <emph render="doublequote">In Honor of Your Retirement</emph></unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Obituaries, condolences, etc.</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1978</unitdate>: Memorial
+				  Concert</unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01>
+		  <did>
+			 <unittitle>Folk Materials Series,
+				<unitdate normal="1938/1982" type="inclusive" era="ce" calendar="gregorian">1938-1982</unitdate></unittitle>
+			 <physdesc><extent>(4 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Files contain information on traditional American
+				<emph render="doublequote">folk</emph> singers and musicians from
+				<geogname>North Carolina</geogname>,
+				<geogname>New Hampshire</geogname>,
+				<geogname>New York</geogname>,
+				<geogname>Virginia</geogname>, and
+				<geogname>West Virginia</geogname>. Materials include
+				correspondence in which the Warners engaged with many of the musicians that
+				they visited; for some of the individuals, there is more information than
+				correspondence alone. Organized hierarchically by state, then city or region,
+				then individual or family.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">7</container>
+				<unittitle>
+				  <geogname>North Carolina</geogname>.</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Appalachia (Western N.C.).</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Rena and
+						<persname>Nathan Hicks</persname>.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence.
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1938-1977</unitdate></unittitle>
+
+						<physdesc><extent>(8 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">8</container>
+						<unittitle>Sale of hooked rugs.</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Buna Vista and
+						<persname>Roby Monroe Hicks</persname>.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence.</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1941-1979</unitdate></unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Bessie and
+						<persname>Frank Proffitt</persname>.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence.</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>1940-1958</unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>1960-1963</unittitle>
+						  <physdesc><extent>(4 folders)</extent></physdesc>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <container type="box">9</container>
+						  <unittitle>1964-1979</unittitle>
+						  <physdesc><extent>(5 folders)</extent></physdesc>
+						</did>
+					 </c06>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Commercial recordings.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Morse Sewing Machine</corpname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1965</unitdate>: Frank
+						  Proffitt's death.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">10</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname> Memorial
+						  Concert.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Frank Proffitt's headstone.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Frank Proffitt's writings,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1941-1962</unitdate>: verses and
+						  stories.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Clippings, articles, miscellany.</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <geogname>Crab Tree Creek</geogname>.</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<persname>Rebecca King Jones</persname>.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence.</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1940</unitdate></unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Coast and
+					 <geogname>Outer Banks</geogname>.</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>John and Alwilda
+						<famname>Culpeper</famname>.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence.</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1940-1945</unitdate></unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<persname>Steve Meekins</persname>.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence.</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1940</unitdate></unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<persname>Sue Thomas</persname> and J. B. Sutton.</unittitle>
+
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence.</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1952-1964</unitdate></unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Charles K. (<emph render="doublequote">Tink</emph>)
+						<famname>Tillett</famname> and family.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence.</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>1940-1981</unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>New Hampshire</corpname>.</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <geogname>East Jaffrey</geogname>.</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<persname>Lena Bourne Fish</persname>.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence (with Fish and her
+						  family).</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>1940-1982</unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1941</unitdate>:
+						  Notebook.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle><emph render="doublequote">Old Songs of
+						  Erin</emph> and others.</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <geogname>New York</geogname>.</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <geogname>Adirondacks</geogname>.</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>(<emph render="doublequote">Yankee</emph>) John
+						<famname>Galusha</famname>.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence.</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1940-1950</unitdate></unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <geogname>Virginia</geogname>.</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <geogname>Suffolk</geogname>.</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Joseph Henry (<emph render="doublequote">Uncle
+						Joe</emph>) Johnson.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence.</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>1941</unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <geogname>West Virginia</geogname>.</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <geogname>Guyandotte Valley</geogname>.</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>(<emph render="doublequote">Colonel</emph>) Tom P.
+						<famname>Smith</famname>.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence.</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1949-1959</unitdate></unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				</c04>
+			 </c03>
+		  </c02>
+        <c02>
+          <did>
+            <container label="Oversize Box" type="Oversize-Box">31</container>
+            <unittitle>Oversize Posters</unittitle>
+          </did>
+        </c02>
+		</c01>
+		<c01>
+		  <did>
+			 <unittitle>Writings Series,
+				<unitdate normal="1938/1985" type="inclusive" era="ce" calendar="gregorian">1938-1985 and
+				  undated</unitdate></unittitle>
+			 <physdesc><extent>(6 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Comprises a variety of materials connected with the Warners'
+				efforts to document American folk traditions. Includes journal articles and
+				essays, grant applications; materials related to the production of Anne
+				Warner's book, <emph render="italic">Traditional American Folk Songs</emph>,
+				1984; folk song lyrics, published and unpublished; and Anne Warner's
+				hand-written field research journals and notebooks. Some of the material in the
+				Audio-visual Materials Series can be found in this series in written form,
+				including transcribed sound recordings of <emph render="doublequote">folk</emph> songs and some interviews collected in the
+				<corpname>Library of Congress</corpname> master tapes, which are
+				not included in Anne Warner's book. Organized according to the subject matter
+				of each particular writing.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">11</container>
+				<unittitle><emph render="doublequote">America's Song</emph> (<emph render="italic">Think Magazine</emph>, 1948 Apr.)</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle><emph render="doublequote">Frank Noah Proffitt</emph>
+				  (<emph render="italic">Appalachian Journal</emph>, 1973 Autumn)</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle><emph render="doublequote">Lena Bourne Fish</emph>
+				  (<emph render="italic">Country Dance and Song</emph>, 1979)</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle><emph render="doublequote">Eastern Long Island
+				  Folknotes</emph> (<emph render="italic">Long Island Forum</emph>, 1982
+				  Oct.)</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle><emph render="doublequote">How Many Are On Our
+				  Side?</emph> (<emph render="italic">A Celebration of American Family
+				  Folklore</emph>, 1982)</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle><emph render="doublequote">The Musical
+				  Life-Odyssey...</emph> (<emph render="italic">Come for to Sing</emph>, 1984
+				  Summer)</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle><emph render="doublequote">Frank Proffitt: From Watauga
+				  County...</emph> (<emph render="italic">Country Dance and Song</emph>, 1985
+				  Mar.)</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>NEH</corpname> Grant / Applications</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>NEH</corpname> Grant / Operations</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">12</container>
+				<unittitle><emph render="italic">Traditional American Folk
+				  Songs</emph>, 1984</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Original manuscript (parts 1-7)</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">13</container>
+				  <unittitle>Original manuscript (part 8)</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Intermediate manuscript (parts 1-7)</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Publishers' replies</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Pantheon Books</corpname></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Duke University</corpname> Press</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">14</container>
+				  <unittitle>Editing and publication</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1982-1985 and
+						  undated</unitdate></unittitle>
+					 <physdesc><extent>(4 folders)</extent></physdesc>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Miscellaneous correspondence</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Prepublication</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Postpublication</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Lyrics to songs not in Anne Warner's book,
+				  <emph render="italic">Traditional American Folk Songs</emph></unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Library of Congress</corpname> tape transcripts (see
+					 cassette tapes, boxes 22-23, for listening copies)</unittitle>
+				</did>
+				<c04>
+				  <did><container type="box">14</container>
+					 <unittitle> Reels 1-5</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">15</container>
+					 <unittitle> Reels 6-28</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <geogname>Outer Banks, N.C.</geogname> (The Tillett
+					 family)</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>1951</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>1971</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <persname>Steve Wadsworth</persname>(
+					 <geogname>Northville, N.Y.</geogname>)</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Unrecorded songs</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>South.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Northeast.</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <persname>Frank Warner</persname> songs in other
+				  books.</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Correspondence</unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Miscellany</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Journals and notes of folk music research trips
+				  (transcripts)</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">16</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1938-1960</unitdate>: Notebooks of
+				  folk music research</unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01>
+		  <did>
+			 <unittitle>Audiovisual Materials Series,
+				<unitdate normal="1920/2000" type="inclusive" era="ce" calendar="gregorian">circa 1920-2000 and
+				  undated</unitdate></unittitle>
+			 <physdesc><extent>(14 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Houses an extensive collection of songs, interviews,
+				presentations, and other recordings on
+				<genreform>reel-to-reel tapes</genreform>,
+				<genreform>cassette tapes</genreform>,
+				<genreform>phonograph albums</genreform>,
+				<genreform>compact discs</genreform> (CDs),
+				<genreform>video cassettes</genreform>, and
+				<genreform>film</genreform> reels of various sizes. The series is
+				organized into sound recordings and video recordings, and, within this, items
+				are roughly specified according to the medium by which information is conveyed:
+
+				<genreform>reel-to-reel tapes</genreform>,
+				<genreform>cassette tapes</genreform>,
+				<genreform>discs (record albums)</genreform>,
+				<genreform>compact discs (CDs)</genreform>.</p>
+			 <p>Some of the material is documented in written form in the Writings
+				Series, including transcribed sound recordings of folk songs and some
+				interviews. </p>
+		  </scopecontent>
+		  <accessrestrict>
+			 <p>[Originals closed to use. Some use copies available in the
+				collection. Otherwise, Technical Services staff need to produce use copies
+				before contents can be accessed. Please contact Research Services staff before
+				coming to use the collection.]</p>
+		  </accessrestrict>
+		  <c02 level="subseries">
+			 <did>
+
+				<unittitle>Sound Recordings</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Library of Congress</corpname> master
+					 <genreform>reel-to-reel tapes</genreform></unittitle>
+				</did>
+				<c04>
+				  <did><container type="box">17</container>
+					 <unittitle> Reels 1-14</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">18</container>
+					 <unittitle> Reels 15-30</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">19</container>
+					 <unittitle> Reel 31</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Volume (description of Library of Congress
+						tapes)</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Other
+					 <genreform>reel-to-reel tapes (not from Library of
+						Congress)</genreform></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1940</unitdate>: G.
+						<persname>Frank Warner</persname> and Mabel Preston Warner.
+						Songs and interview</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1951</unitdate>: Songs and
+						interviews.
+						<geogname>Outer Banks, N.C.</geogname></unittitle>
+					 <physdesc><extent>(2 items)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1956</unitdate>:
+						<persname>Frank Warner</persname>. At Bonyuns,
+						Bellport</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1959</unitdate>: WRCA-TV.
+						<emph render="doublequote">Sunday Special.</emph> Year of History,
+						<geogname>New York</geogname> State. </unittitle>
+					 <physdesc><extent>(2 items)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">20</container>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1961</unitdate>: Douglas
+						<famname>Kennedy</famname>,
+						<persname>Frank Warner</persname>, and
+						<persname>Frank Proffitt</persname>,
+						<geogname>Pinewoods Camp</geogname></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1962</unitdate>:
+						<persname>Frank Warner</persname> and Sons. Recorded by E.H.
+						Swanson.
+						<geogname>Upper Brookville, N.Y.</geogname></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1962</unitdate>:
+						<persname>Billy Fair</persname> interview of Frank and
+						<persname>Anne Warner</persname> for
+						<corpname>WBAI radio</corpname>, memories of collecting. Two
+						7.5 inch reels (Use copies on cassette: WC-55 and WC-56).</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1966</unitdate>:
+						<persname>Bernie Klay</persname> Interviews
+						<persname>Frank Warner</persname>.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1969</unitdate>:
+						<persname>Frank Warner</persname>. Wesleyan Notebook.
+						<geogname>Macon, Ga.</geogname></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1969</unitdate>: Frank, John, and
+						<persname>Gerret Warner</persname> performing at the Evening
+						Program for the Seminars in American Culture,
+						<geogname>Cooperstown, N.Y.</geogname> One
+						<genreform>7.5 inch reel</genreform> (Use copies on cassette
+						WC-48).</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1970</unitdate>: Frank, Jeff, and
+						<persname>Gerret Warner</persname>.
+						<geogname>Blue Mountain Lake, N.Y. </geogname>
+						<corpname>Center for the Arts</corpname>.</unittitle>
+					 <physdesc><extent>(2 items)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">21</container>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1951</unitdate>: Songs and
+						Interviews.
+						<geogname>Outer Banks, N.C.</geogname>. Two
+						<genreform>reel-to-reel tape</genreform> duplicates of
+						masters.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate>:
+						<persname>Frank Warner</persname>, Guitar Workshop Concert at
+						My Father's Place,
+						<geogname>Roslyn, N.Y.</geogname> Two
+						<genreform>7.5 inch reels</genreform> (Use copies on
+						cassettes WC-53 and WC-54).</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate>: Tape sent to the
+						Warners by
+						<persname>Buna Hicks</persname>; recorded on
+						<geogname>Beech Mountain, N.C.</geogname> by
+						<persname>Buna Hicks</persname>. One
+						<genreform>five inch reel</genreform> (Use copy on cassette
+						WC-44).</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>(Also housed here: WF-3: Frank Warner singing
+						<emph render="doublequote">Blue Mountain Lake.</emph> This
+						<genreform>motion picture Film</genreform> was used at the
+						Adirondack Museum at
+						<geogname>Blue Mountain Lake, N.Y.</geogname>; exibit began
+						in 1974. 3.5 minute,
+						<genreform>Super 8 film</genreform>. See
+						<genreform>Films</genreform>, WF-3.)</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Cassette Tapes</genreform> (WC-1 to
+					 WC-59)</unittitle>
+				  <container type="box">22 (WC-1 to WC-17) and Box 23
+					 (WC-18 to WC-32)</container>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>WC1 - WC32:
+						<corpname>Library of Congress</corpname> listening copies (L
+						of C Tapes 1 of 31 - L of C Tapes 31 of 31).</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>There is a one-to-one correspondence between the
+						  <corpname>Library of Congress</corpname> Masters (
+						  <genreform>reel</genreform>s) and the
+						  <corpname>Library of Congress</corpname> Copies (
+						  <genreform>cassette tape</genreform>s) until cassette 15.
+						  Here, the correspondence becomes divergent with
+						  <genreform>cassette tape</genreform> WC-14 (L of C Tapes 14
+						  of 31 #1) and WC-15 (L of C Tapes 14 of 31 #2). Listening copies from 15
+						  through 32 are numbered accordingly with a <emph render="doublequote">WC</emph>
+						  number one unit greater than the <emph render="doublequote">L of C Tapes</emph>
+						  number, for example, WC-16 (L of C Tapes 15 of 31).</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">24</container>
+					 <unittitle>WC-33 - WC-35:
+						<persname>Steve Wadsworth</persname>: Interview and
+						Songs</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>WC-36 - WC-42: <emph render="doublequote">Unique</emph> Tapes</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>WC-36:
+						  <persname>Frank Warner</persname>,
+						  <emph render="doublequote">Songs of the Erie Canal</emph>, undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-37:
+						  <persname>Frank Proffitt</persname> and
+						  <persname>Frank Proffitt</persname>, Jr.,
+						  <geogname>Vilas, N.C.</geogname>: 1965</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-38:
+						  <persname>Frank Warner</persname> and family.
+						  <emph render="doublequote">Listen to America.</emph> (1975:
+						  <corpname>Folktracks Recordings</corpname>, FSV-901)
+						  [currently missing]</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-39:
+						  <persname>Helen Kennedy</persname> Memorial Folk Concert. (
+
+						  <persname>Cecil Sharp</persname> House: 1976 June 19)
+						  [currently missing]</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-40:
+						  <persname>Gerret Warner</persname> Interviews
+						  <persname>Frank Warner</persname> on <emph render="italic">Run of the Arrow</emph>. (1976 Dec. 4) [currently
+						  missing]</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-41 and WC-42:
+						  <persname>Frank Warner</persname> Memorial Concert. Two
+						  items. (1978 Dec. 2)</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>WC-43 - WC-59: Miscellaneous
+						<genreform>Cassette Tapes</genreform></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>WC-43: An unrehearsed evening with
+						  <persname>Carl Sandburg</persname> at the
+						  <famname>Warner</famname>s' apartment at
+						  <geogname>144 W. 12th Street, New York City,
+							 N.Y.</geogname> Present:
+						  <persname>Carl Sandburg</persname>, Frank and
+						  <persname>Anne Warner</persname>,
+						  <persname>Mari Jinishian</persname>, and
+						  <persname>Jean Ritchie</persname>, and
+						  <persname>Gregory d'Allessio</persname>. Includes
+						  conversation, vending cries, stories, songs, etc. (Autumn 1950).</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-44: Tape sent to the Warners in September of
+						  1974 by
+						  <persname>Buna Hicks</persname>; recorded on
+						  <geogname>Beech Mountain, N.C.</geogname>, by
+						  <persname>Buna Hicks</persname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-45: The
+						  <famname>Warner</famname>s interveiw Charles Horace Fish
+						  (son of
+						  <persname>Lena Bourne Fish</persname>),
+						  <geogname>Temple, N.H.</geogname> (1976 Aug.
+						  18)</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-46: A visit with
+						  <persname>Buna Hicks</persname> in 1971 of
+						  <geogname>Beech Mountain, N.C.</geogname> Present: Frank,
+						  Anne, Jeff, and Susan
+						  <famname>Warner</famname>;
+						  <persname>Frank Proffitt, Jr.</persname>; and
+						  <persname>Buna Hicks</persname>. Side B: Four songs by
+						  <emph render="doublequote">Yankee</emph> John
+						  <famname>Galusha</famname> from 1941</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-47: Interview with Cliff and Marie
+						  <famname>Tillett</famname>,
+						  <geogname>Wanchese, N.C.</geogname> (1971 Feb.). Side B:
+						  Dick
+						  <famname>Tillett</famname> sings ten songs
+						  (1971)</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-48: Frank, Jeff, and
+						  <persname>Gerret Warner</persname> perform at the Evening
+						  Program for the Seminars in American Culture,
+						  <geogname>Cooperstown, N.Y.</geogname> (1969 July
+						  10)</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-49: Frank Warner : <emph render="doublequote">Uncle Remus</emph> Stories (circa 1975): A:
+						  <emph render="doublequote">Squirrels,</emph> <emph render="doublequote">Specie,</emph> and <emph render="doublequote">The
+						  Lion.</emph> B: <emph render="doublequote">Heyo House</emph> and
+						  <emph render="doublequote">Terrifying Racket</emph></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-50: <emph render="doublequote">A Tribute to
+						  Frank Warner,</emph> Lee Knight program, S.C. Educational Radio. Program I,
+						  broadast 1978 Apr. 15; program II, broadcast 1978 Apr. 22</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-51: A
+						  <persname>Frank Warner</persname> Concert, 1 of 2: Concert
+						  at Elizabethtown School Auditorium,
+						  <geogname>Elizabethtowm, N.Y.</geogname> (1973 Apr. 21).
+						  Recorded by Lee Knight</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">25</container>
+						<unittitle>WC-52:
+						  <persname>Frank Warner</persname> Concert, 2 of 2: Concert
+						  at Elizabethtown School Auditorium,
+						  <geogname>Elizabethtown, N.Y.</geogname> (1973 Apr. 21).
+						  Recorded by Lee Knight</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-53:
+						  <persname>Frank Warner</persname>, Guitar Workshop Concert
+						  at My Father's Place,
+						  <geogname>Roslyn, N.Y.</geogname> (1972 Feb. 6). 1 of
+						  2</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-54: Frank Warner, Guitar Workshop Concert at My
+						  Father's Place,
+						  <geogname>Roslyn, N.Y.</geogname> (1972 Feb. 6). 2 of
+						  2</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-55:
+						  <persname>Billy Fair</persname> interviews Frank and
+						  <persname>Anne Warner</persname> for
+						  <corpname>WBAI radio</corpname>; memories of collecting
+						  (1962). 1 of 2</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-56:
+						  <persname>Billy Fair</persname> interviews Frank and
+						  <persname>Anne Warner</persname> for
+						  <corpname>WBAI radio</corpname>; memories of collecting
+						  (1962). 2 of 2</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-57: Warner Recollections: Frank, Anne, Gerret,
+						  and
+						  <persname>Jeff Warner</persname>; interviewer is
+						  Gerret Warner (1971 Dec. 27). 1 of 3</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-58: Warner Recollections: Frank, Anne, Gerret,
+						  and
+						  <persname>Jeff Warner</persname>; interviewer is
+						  Gerret Warner (1971 Dec. 27). 2 of 3</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>WC-59: Warner Recollections: Frank, Anne, Gerret,
+						  and
+						  <persname>Jeff Warner</persname>; interviewer is
+						  Gerret Warner (1971 Dec. 27). 3 of 3</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">26</container>
+				  <unittitle>
+					 <genreform>Phonograph albums</genreform></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">American Traditional Folk
+						Songs by Frank Warner.</emph> Reissue of
+						<corpname>Elektra</corpname> 153. EKS-7153. 1
+						<genreform>disc</genreform>.
+						<genreform>12 in</genreform>.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">The Civil War Through Its
+						Songs and Ballads. With Frank Warner, Bill Bonyun and Others. </emph>
+						<corpname>Heirloom Records</corpname> HL 503. 1961. 1
+						<genreform>disc</genreform> with notes.
+						<genreform>12 in</genreform>.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">Come All You Good People.
+						Frank Warner; with Jeff and Gerret Warner. </emph>
+						<corpname>Minstrel</corpname> JD 204. 1979. 1
+						<genreform>disc</genreform>.
+						<genreform>12 in</genreform>.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">Darlin' Sportin' Jenny /
+						Theme from 'La Fayette' - Slowly, Slowly.</emph> The Brothers Four.
+						<corpname>Columbia</corpname> 4-42391. 1
+						<genreform>disc</genreform>.
+						<genreform>7 in</genreform>.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">The Folk Music of the
+						Newport Folk Festival: Volume 2: 1959-60.</emph>
+						<corpname>Folkways Records</corpname> FA 2432. 1961. 1
+						<genreform>disc</genreform> with notes.
+						<genreform>12 in</genreform>.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">Frank Proffitt Sings Folk
+						Songs. Recorded by Sandy Paton; edited by Frank Warner.</emph>
+						<corpname>Folkways Records</corpname> FA 2360. 1962. 1
+						<genreform>disc</genreform> with notes.
+						<genreform>12 in</genreform>.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">Frank Warner Sings
+						American Folk Songs and Ballads.</emph>
+						<corpname>Elektra</corpname> EKL3. 1952. 1
+						<genreform>disc</genreform>.
+						<genreform>10 in</genreform>.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">Hudson Valley
+						Songs.</emph>
+						<corpname>Disc Company of America</corpname> 611 (5022-5024).
+						3
+						<genreform>disc</genreform>s.
+						<genreform>10 in</genreform>.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">I'm on My Way / Whiskey
+						in the Jar.</emph> The Highwaymen.
+						<corpname>United Artists</corpname> UA 439. 1
+						<genreform>disc</genreform>.
+						<genreform>7 in</genreform>.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">Our Singing Heritage:
+						Volume 3: Folk Songs Collected and Sung by Frank Warner. Additional
+						Accompaniments by Billy Faier.</emph>
+						<corpname>Elektra</corpname> 153. 1958. 1
+						<genreform>disc</genreform>.
+						<genreform>12 in</genreform>.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">Songs and Ballads of
+						America's Wars: From the French and Indian War to the Civil War. Sung by Frank
+						Warner.</emph>
+						<corpname>Elektra</corpname> EKL13. 1954. 1
+						<genreform>disc</genreform>.
+						<genreform>10 in</genreform>.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">Songs of the Civil War,
+						North and South. Sung by Frank Warner; with Jeff and Gerret Warner.</emph>
+						<corpname>Prestige International</corpname> 13012. 1
+						<genreform>disc</genreform>.
+						<genreform>12 in</genreform>.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">A Treasury of Folk Songs
+						for Children, with 'Color me' Pictures Inside.</emph>
+						<corpname>Elektra</corpname> EKL-223. 2
+						<genreform>disc</genreform>s.
+						<genreform>12 in</genreform>.</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+
+				  <unittitle>
+					 <genreform>Compact Discs</genreform> (CDs)</unittitle>
+				</did>
+				<c04>
+				  <did><container type="box">27</container>
+					 <unittitle><emph render="doublequote">Her Bright Smile Haunts
+						Me Still: The Warner Collection, Volume 1.</emph>
+						<corpname>Appleseed Recordings</corpname> (11587-1035-2),
+						2000</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">Nothing Seems Better to Me: The Music of Ranks Proffitt and NC. The Warner Collection, Volume II.</emph>
+						<corpname>Appleseed Recordings</corpname> (11587-1035-2),
+						2000</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">Jolly Tinker,</emph> Jeff Warner. <corpname>Gumstump Records</corpname> 101 (83707-18830),
+						2005</unittitle>
+
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>
+				  <genreform>Video</genreform> Recordings</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Video cassettes</genreform></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<persname>Frank Warner</persname>, film footage of
+						<geogname>Greensboro, N.C.</geogname>, circa 1920. See
+						original
+						<genreform>16mm film</genreform> at
+						<genreform>Films</genreform>, WF-1</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">Lyrics and
+						Legends,</emph>
+						<corpname>National Educational Television</corpname>,
+						produced and directed by John Twaddle. Performers include:
+						<persname>E. G. Huntington</persname>,
+						<persname>Sam Eskin</persname>,
+						<persname>Frank Warner</persname>,
+						<persname>Phillip Merrill</persname>, Anne, Jeff, and
+						<persname>Gerret Warner</persname>, and others. Shot at
+						<geogname>Old Mystic Seaport</geogname>,
+						<geogname>Mystic, Conn.</geogname>, circa 1961</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<persname>Frank Proffitt</persname> at
+						<geogname>Newport</geogname>. Introduction by
+						<persname>Pete Seeger</persname> (1963 July). See
+						<genreform>Films</genreform>, WF-2</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">Rainbow Quest--Pete
+						Seeger.</emph> TV 26.
+						<persname>Frank Warner</persname></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle><emph render="doublequote">Music of Frank
+						Warner.</emph>
+						<corpname>WLIW</corpname>/Channel 21. See original
+						<genreform>16mm film</genreform> at
+						<genreform>Films</genreform>, WF-5</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Films</genreform></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>WF-1:
+						<persname>Frank Warner</persname>,
+						<genreform>film</genreform> footage of
+						<geogname>Greensboro, N.C.</geogname>, circa 1920.
+						<genreform>16mm film</genreform>. See VHS use
+						copy</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>WF-2:
+						<persname>Frank Proffitt</persname> at
+						<geogname>Newport</geogname>. Introduction by
+						<persname>Pete Seeger</persname> (1963 July).
+						<genreform>16mm film</genreform></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>WF-3:
+						<persname>Frank Warner</persname> singing
+						<emph render="doublequote">Blue Mountain Lake.</emph> 3.5 minute,
+						<genreform>Super 8 film</genreform> (see Box 21)</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>WF-4 and WF-4a: <emph render="doublequote">Music of
+						Frank Warner.</emph>
+						<corpname>WLIX</corpname>/Channel 21. Two items (WF-4 and
+						WF-4a): 2 /
+						<genreform>16mm film</genreform>. See VHS use
+						copy</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Prints and Negatives Series,
+				<unitdate normal="1933/1969" type="inclusive" era="ce" calendar="gregorian">1933-1969</unitdate></unittitle>
+			 <physdesc><extent>(2 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Contains 239
+				<genreform>black and white 4x5 prints</genreform>, which are
+				arranged alpha-numerically into lots from Lot 1 through Lot 9E. Within the
+				lots, the prints are identified by number, for example, Lot 2A: 1, Lot 2A: 2.
+				Through the photographs, the Warners captured images of many traditional
+				American folk musicians and singers and often their families and homes as well.
+				The Warners themselves appear frequently throughout the collection. There are
+				several photographs in which Frank Warner is pictured playing and singing along
+				with various musicians, among them: Nathan, Roby Monroe, Buna Vista, Ray, and
+				Linzy
+				<famname>Hicks</famname> and their families;
+				<persname>Frank Proffitt</persname>; <emph render="doublequote">Yankee</emph> John
+				<famname>Galusha</famname>;
+				<persname>Lena Bourne Fish</persname>; the
+				<famname>Tillett</famname> family;
+				<persname>Louis Solomon</persname> and others from the Mohawk tribe
+				at the
+				<geogname>St. Regis reservation (N.Y.)</geogname>; and
+				<persname>Carl Sandburg</persname>. There are also interesting
+				images that capture the
+				<famname>Warner</famname>s engaged in recording these sessions. The
+				photographic documentation of the
+				<famname>Warner</famname>s' travels contains images from as far
+				North as
+				<geogname>Vermont</geogname>, as far East as the
+				<geogname>Outer Banks, N.C.</geogname>, and as far West as the
+				western edge of
+				<geogname>North Carolina</geogname>.</p>
+		  </scopecontent>
+		  <c02 level="subseries">
+			 <did>
+				
+				<unittitle>Prints Subseries,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1933-1969</unitdate></unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle><emph render="bold">Lot 1</emph>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">: <emph render="bold">1933</emph></unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>1A (1)
+						<geogname>Nag's Head, N.C.</geogname></unittitle>
+				  </did>
+				  <c05>
+					 <did><container type="box">28</container>
+						<container label="Print" type="print">1A: 1</container>
+						<unittitle>
+						  <persname>Sue Thomas</persname> and
+						  <persname>Frank Warner</persname>.</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle><emph render="bold">Lot 2,</emph>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"><emph render="bold">1938</emph></unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>2A (6) County Sing,
+						<geogname>Boone, N.C.</geogname></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2A: 1</container>
+						<unittitle>
+						  <persname>Nathan Hicks</persname>;
+						  <persname>Lewis Hicks</persname>;
+						  <persname>Mary Hicks</persname>;
+						  <persname>Bessie Proffitt</persname>; Unidentified (small
+						  boy);
+						  <persname>Rosa Hicks</persname> (wearing white dress);
+						  Unidentified taller boy;
+						  <persname>Rena Hicks</persname>, holding baby Roger Hicks;
+						  Nell Hicks (small girl in front of Rena);
+						  <persname>Anna Hicks</persname> (in front); Willis Hicks;
+						  Unidentified (boy with hat).</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2A: 2</container>
+						<unittitle>
+						  <persname>Bessie Proffitt</persname> (on porch),
+						  <persname>Rena Hicks</persname>,
+						  <persname>Anne Warner</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2A: 3</container>
+						<unittitle>
+						  <geogname>Boone</geogname> Court house. </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2A: 4</container>
+						<unittitle>
+						  <persname>Rena Hicks</persname> (left, in back), holding
+						  baby Roger Hicks; Oliver
+						  <famname>Proffitt</famname> (standing in front of girl in
+						  chair); Others unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2A: 5</container>
+						<unittitle>Mary and
+						  <persname>Lewis Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2A: 6</container>
+						<unittitle>
+						  <geogname>Boone</geogname> County Court house.</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>2B (14)
+						<famname>Hicks</famname> porch gathering,
+						<geogname>Beech Mountain, N.C.</geogname></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2B: 1</container>
+						<unittitle>
+						  <persname>Rena Hicks</persname> (left, in back), holding
+						  baby Roger
+						  <famname>Hicks</famname>); Oliver
+						  <famname>Proffitt</famname> (standing in front of girl in
+						  chair); others unidentified. </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2B: 2</container>
+						<unittitle>Ben
+						  <famname>Hicks</famname>,
+						  <persname>Frank Warner</persname>,
+						  <persname>Frank Proffitt</persname>,
+						  <persname>Nathan Hicks</persname>,
+						  <persname>Roby Monroe Hicks</persname> (crouching, wearing
+						  hat).</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2B: 3</container>
+						<unittitle>
+						  <famname>Hicks</famname> family (and others):
+						  <persname>Rena Hicks</persname> (far left), holding baby
+						  Roger Hicks; Lewis and
+						  <persname>Mary Hicks</persname> (standing together, right
+						  of center, Mary wearing white shirt over dress); others
+						  unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2B: 4</container>
+						<unittitle>Ben
+						  <famname>Hicks</famname>,
+						  <persname>Frank Warner</persname>,
+						  <persname>Nathan Hicks</persname>,
+						  <persname>Roby Monroe Hicks</persname> (crouching, wearing
+						  hat).</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2B: 5</container>
+						<unittitle>Ben
+						  <famname>Hicks</famname>,
+						  <persname>Frank Warner</persname>,
+						  <persname>Nathan Hicks</persname>,
+						  <persname>Roby Monroe Hicks</persname> (crouching, wearing
+						  hat.)</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2B: 6</container>
+						<unittitle>Ben
+						  <famname>Hicks</famname> with two unidentified
+						  girls.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2B: 7</container>
+						<unittitle>(A long distance photo; none really
+						  identifiable.)</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2B: 8</container>
+						<unittitle>Four unidentified singing girls. Behind them:
+						  Frank and
+						  <persname>Bessie Proffitt</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2B: 9</container>
+						<unittitle>
+						  <persname>Roby Monroe Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2B: 10</container>
+						<unittitle>Ben
+						  <famname>Hicks</famname>, four unidentified singing girls.
+						  Behind them: Frank and
+						  <persname>Bessie Proffitt</persname>, and unidentified
+						  woman.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2B: 11</container>
+						<unittitle>Several unidentified children,
+						  <persname>Anne Warner</persname> (standing off of the
+						  porch, right of center). In back:
+						  <persname>Bessie Proffitt</persname>;
+						  <persname>Rosa Hicks</persname> (standing in doorway);
+						  <persname>Rena Hicks</persname>, holding baby Roger Hicks;
+						  Unidentified (woman wearing white dress);
+						  <persname>Ray Hicks</persname>;
+						  <persname>Lewis Hicks</persname>; Unidentified (man in
+						  overalls, far right).</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2B: 12</container>
+						<unittitle>Lewis and
+						  <persname>Mary Hicks</persname> with baby Roger
+						  Hicks.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2B: 13</container>
+						<unittitle>Home of Nathan and
+						  <persname>Rena Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">2B: 14</container>
+						<unittitle>In back:
+						  <persname>Anna Hicks</persname>, holding Jack Hicks; Willis
+						  Hicks (in front), holding unidentified child; Nell Hicks (just right of center,
+						  hands over mouth), two unidentified girls (flanking either side).</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle><emph render="bold">Lot 3</emph>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">: <emph render="bold">1939</emph></unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>3A (12)
+						<geogname>Adirondacks, N.Y.</geogname>.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3A: 1</container>
+						<unittitle>
+						  <persname>Anne Warner</persname> with unidentified woman
+						  and dog at Log House. </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3A: 2</container>
+						<unittitle>
+						  <persname>Anne Warner</persname> (wearing stripe Jacket)
+						  with Morris and Irene
+						  <famname>Bennett</famname> (other adults). The three
+						  Bennett children pictured here are otherwise unidentifiable.
+						  <geogname>Rome, N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3A: 3</container>
+						<unittitle>
+						  <persname>Frank Warner</persname> with a group of
+						  unidentified people.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3A: 4</container>
+						<unittitle>Aiden Lair, a country inn, northwest of
+						  <geogname>Minerva, N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3A: 5</container>
+						<unittitle>
+						  <famname>Bennett</famname> cottage, unidentified
+						  man.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3A: 6</container>
+						<unittitle>
+						  <geogname>Silver Bay, N.Y.</geogname> (a
+						  <corpname>YMCA</corpname> resort and a favorite retreat of
+						  the Warners).</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3A: 7</container>
+						<unittitle>Aiden Lair.
+						  <persname>Anne Warner</persname> (wearing stripe jacket)
+						  with unidentified woman and dogs.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3A: 8</container>
+						<unittitle>
+						  <persname>Frank Warner</persname> and (<emph render="doublequote">Yankee</emph>) John
+						  <famname>Galusha</famname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3A: 9</container>
+						<unittitle>Unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3A: 10</container>
+						<unittitle>Aiden Lair.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3A: 11</container>
+						<unittitle>(<emph render="doublequote">Yankee</emph>) John
+						  <famname>Galusha</famname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3A: 12</container>
+						<unittitle>Anne and
+						  <persname>Frank Warner</persname> (standing in back),
+						  (<emph render="doublequote">Yankee</emph>) John
+						  <famname>Galusha</famname> (seated).</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>3B (13)
+						<geogname>Beech Mountain, N.C.</geogname></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3B: 1</container>
+						<unittitle>Rena, Nathan, and Nell (little girl in front)
+						  <famname>Hicks</famname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3B: 2</container>
+						<unittitle>
+						  <persname>Ray Hicks</persname> with groundhog.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3B: 3</container>
+						<unittitle>Buna and
+						  <persname>Roby Monroe Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3B: 4</container>
+						<unittitle>Some of the
+						  <famname>Hicks</famname> family: Ray; Willis, holding Jack;
+						  Mary, holding Roger; Nathan; Rena; Nell; Anna; N.A.; Lewis.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3B: 5</container>
+						<unittitle>Two unidentified boys,
+						  <persname>Frank Proffitt</persname>,
+						  <persname>Roby Monroe Hicks</persname> (back to camera),
+						  <persname>Frank Warner</persname>,
+						  <persname>Nathan Hicks</persname>, Sam
+						  <famname>Hicks</famname>, Vance
+						  <famname>Presnell</famname> (leaning forward, legs
+						  crossed),
+						  <persname>Linzy Hicks</persname> (wearing hat), and
+						  <persname>Ray Hicks</persname> (lying down).</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3B: 6</container>
+						<unittitle>Home of Nathan and Rena
+						  <famname>Hicks</famname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3B: 7</container>
+						<unittitle>
+						  <persname>Anna Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3B: 8</container>
+						<unittitle>Buna and
+						  <persname>Roby Monroe Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3B: 9</container>
+						<unittitle>Willis Hicks and baby Roger
+						  <famname>Hicks</famname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3B: 10</container>
+						<unittitle>
+						  <persname>Nathan Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3B: 11</container>
+						<unittitle>
+						  <persname>Nathan Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3B: 12</container>
+						<unittitle>Buna and
+						  <persname>Roby Monroe Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">3B: 13</container>
+						<unittitle>Home of
+						  <persname>Roby Monroe Hicks</persname> and
+						  <persname>Buna Hicks</persname> at
+						  <geogname>Beech Creek, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle><emph render="bold">Lot 4</emph>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">: <emph render="bold">1940</emph></unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>4A (15)
+						<geogname>Beech Mountain, N.C.</geogname>,
+						<famname>Hicks</famname> porch gathering.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 1</container>
+						<unittitle>
+						  <persname>Nathan Hicks</persname>,
+						  <persname>Roby Monroe Hicks</persname> (in back, head
+						  down),
+						  <persname>Ray Hicks</persname> (in back),
+						  <persname>Frank Proffitt</persname>,
+						  <persname>Linzy Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 2</container>
+						<unittitle>Back: Willis
+						  <famname>Hicks</famname>, holding unidentified child;
+						  <persname>Nathan Hicks</persname>;
+						  <persname>Roby Monroe Hicks</persname>;
+						  <persname>Ray Hicks</persname>;
+						  <persname>Frank Proffitt</persname>;
+						  <persname>Linzy Hicks</persname>. Front: Oliver
+						  <famname>Proffitt</famname>; Nell
+						  <famname>Hicks</famname>;
+						  <persname>Bessie Proffitt</persname>;
+						  <persname>Rena Hicks</persname>;
+						  <persname>Rosa Hicks</persname>;
+						  <persname>Anna Hicks</persname>, holding unidentified
+						  infant; and
+						  <persname>Mary Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 3</container>
+						<unittitle>Back: Willis
+						  <famname>Hicks</famname>, holding unidentified child;
+						  <persname>Nathan Hicks</persname>;
+						  <persname>Roby Monroe Hicks</persname>;
+						  <persname>Ray Hicks</persname>;
+						  <persname>Frank Proffitt</persname>;
+						  <persname>Linzy Hicks</persname>. Front: Oliver
+						  <famname>Proffitt</famname>; Nell
+						  <famname>Hicks</famname>;
+						  <persname>Bessie Proffitt</persname>;
+						  <persname>Rena Hicks</persname>;
+						  <persname>Rosa Hicks</persname>;
+						  <persname>Anna Hicks</persname>, holding unidentified
+						  infant; and
+						  <persname>Mary Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 4</container>
+						<unittitle>Unidentified child,
+						  <persname>Nathan Hicks</persname>, and
+						  <persname>Roby Monroe Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 5</container>
+						<unittitle>Nell
+						  <famname>Hicks</famname> (seated bottom left),
+						  <persname>Anne Warner</persname> (seated, next to Nell),
+						  Unidentified man (leaning on post),
+						  <persname>Anna Hicks</persname> (standing behind
+						  <persname>Anne Warner</persname>), Unidentified man (seated
+						  in chair on porch), Oliver
+						  <famname>Proffitt</famname> (older boy, seated on porch,
+						  center), Unidentified (smaller boy),
+						  <persname>Ray Hicks</persname> (seated, right of center,
+						  next to post), N.A.
+						  <famname>Hicks</famname>,
+						  <persname>Linzy Hicks</persname>, and two unidentified men
+						  (bottom right, crouching).</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 6</container>
+						<unittitle>Back: all unidentified. Front:
+						  <persname>Frank Proffitt</persname>,
+						  <persname>Nathan Hicks</persname>, Unidentified,
+						  Unidentified,
+						  <persname>Rena Hicks</persname>,
+						  <persname>Linzy Hicks</persname>, Unidentified, N.A.
+						  <famname>Hicks</famname>,
+						  <persname>Ray Hicks</persname>, and
+						  <persname>Lewis Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 7</container>
+						<unittitle>Unidentified child,
+						  <persname>Nathan Hicks</persname>, and
+						  <persname>Roby Monroe Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 8</container>
+						<unittitle>
+						  <persname>Nathan Hicks</persname>,
+						  <persname>Roby Monroe Hicks</persname>,
+						  <persname>Frank Proffitt</persname>,
+						  <persname>Ray Hicks</persname>, and
+						  <persname>Linzy Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 9</container>
+						<unittitle>Willis
+						  <famname>Hicks</famname> (in back), Unidentified child,
+						  <persname>Nathan Hicks</persname>,
+						  <persname>Roby Monroe Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 10</container>
+						<unittitle>
+						  <persname>Bessie Hicks</persname>,
+						  <persname>Rosa Hicks</persname>, Nell
+						  <famname>Hicks</famname> (seated on porch), both men
+						  unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 11</container>
+						<unittitle>
+						  <persname>Anna Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 12</container>
+						<unittitle>N.A.
+						  <famname>Hicks</famname>, Willis
+						  <famname>Hicks</famname>,
+						  <persname>Roby Monroe Hicks</persname>,
+						  <persname>Ray Hicks</persname> (in back, next to Roby),
+						  <persname>Frank Proffitt</persname>,
+						  <persname>Linzy Hicks</persname>,
+						  <persname>Frank Warner</persname>, Oliver
+						  <famname>Proffitt</famname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 13</container>
+						<unittitle>
+						  <persname>Rosa Hicks</persname>,
+						  <persname>Anna Hicks</persname>,
+						  <persname>Anne Warner</persname>,
+						  <persname>Rena Hicks</persname>,
+						  <persname>Bessie Proffitt</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 14</container>
+						<unittitle>
+						  <persname>Ray Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4A: 15</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname>,
+						  <persname>Nathan Hicks</persname>, N.A.
+						  <famname>Hicks</famname>,
+						  <persname>Linzy Hicks</persname>, Nell
+						  <famname>Hicks</famname>,
+						  <persname>Anne Warner</persname> (in back, stripe jacket),
+						  <persname>Rena Hicks</persname>, and
+						  <persname>Anna Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>4B (21) Northern Trip.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 1</container>
+						<unittitle>
+						  <persname>Louis Solomon</persname> (
+						  <geogname>St. Regis Reservation,
+							 N.Y.</geogname>)</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 2</container>
+						<unittitle>Walter
+						  <famname>Mallory</famname>’s house in
+						  <geogname>Dorset, V.T.</geogname> Unidentified,
+						  <persname>Anne Warner</persname>, Unidentified.</unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 3</container>
+						<unittitle>
+						  <persname>Happy Lynch</persname> and
+						  <persname>Anne Warner</persname> at Walter
+						  <famname>Mallory</famname>'s House in
+						  <geogname>Dorset, V.T.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 4</container>
+						<unittitle>St. Mary's Church in
+						  <geogname>Irishtown, N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 5</container>
+						<unittitle>Two Mohawk women and
+						  <persname>Louis Solomon</persname> at the
+						  <geogname>St. Regis Indian Reservation,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 6</container>
+						<unittitle>Stone House Inn in N.H.
+						  <persname>Anne Warner</persname> in car.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 7</container>
+						<unittitle>
+						  <persname>Happy Lynch</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 8</container>
+						<unittitle>Log House, all unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 9</container>
+						<unittitle>
+						  <persname>Anne Warner</persname> at a cottage in which the
+						  <famname>Warner</famname>s stayed at Saranac Lake in the
+						  <geogname>Adirondacks, N.Y.</geogname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 10</container>
+						<unittitle>At Log House, all unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 11</container>
+						<unittitle>
+						  <geogname>St. Regis Indian Reservation, N.Y.</geogname>:
+						  <persname>Anne Warner</persname> (second from left, wearing
+						  stripe jacket) and
+						  <persname>Louis Solomon</persname> (man seated between
+						  other two, wearing suspenders), others unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 12</container>
+						<unittitle>
+						  <persname>Frank Warner</persname> with
+						  <persname>Happy Lynch</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 13</container>
+						<unittitle>Mrs.
+						  <famname>Murphy</famname> (
+						  <geogname>Hogansberg, N.Y.</geogname>).</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 14</container>
+						<unittitle>
+						  <persname>Louis Solomon</persname> and
+						  <persname>Frank Warner</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 15</container>
+						<unittitle>
+						  <persname>Louis Solomon</persname> (center) and two young
+						  Mohawk men at the
+						  <geogname>St. Regis Reservation,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 16</container>
+						<unittitle>
+						  <persname>Anne Warner</persname> (front left) and
+						  unidentified woman (behind
+						  <famname>Warner</famname>) with
+						  <persname>Louis Solomon</persname> (center, wearing
+						  suspenders) and two Mohawk men (otherwise unidentified) at
+						  <geogname>St. Regis Reservation,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 17</container>
+						<unittitle>
+						  <geogname>MacDowell Colony</geogname> in N.H.:
+						  Unidentified, Betty and Carl
+						  <famname>Carmer</famname>, Marjorie
+						  <famname>Flock</famname>, Bill
+						  <famname>Benet</famname>,
+						  <persname>Anne Warner</persname>, and Dorothy
+						  <famname>Heywood</famname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 18</container>
+						<unittitle>
+						  <persname>Happy Lynch</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 19</container>
+						<unittitle>A sailing trip from Marblehead.
+						  Unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 20</container>
+						<unittitle>
+						  <persname>Frank Warner</persname> at cottage on
+						  <geogname>Lake Saranac</geogname> in the
+						  <geogname>Adirondacks, N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4B: 21</container>
+						<unittitle>
+						  <persname>Anne Warner</persname> and unidentified woman
+						  with
+						  <persname>Louis Solomon</persname> and two otherwise
+						  unidentified Mohawk men at the
+						  <geogname>St. Regis Mohawk Indian Reservation,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>4C (6) Northeast.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4C: 1</container>
+						<unittitle>
+						  <persname>Lena Bourne Fish</persname> using the
+						  <famname>Warner</famname>s’
+						  <corpname>Wilcox</corpname> Gay Recordio in her home in
+						  <geogname>East Jaffrey, N.H.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4C: 2</container>
+						<unittitle>
+						  <persname>Lena Bourne Fish</persname> at her home in
+						  <geogname>East Jaffrey, N.H.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4C: 3</container>
+						<unittitle>(<emph render="doublequote">Yankee</emph>) John
+						  <famname>Galusha</famname> at his home in
+						  <geogname>Minerva, N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4C: 4</container>
+						<unittitle>
+						  <persname>Lena Bourne Fish</persname> in her home in
+						  <geogname>East Jaffrey, N.H.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4C: 5</container>
+						<unittitle>
+						  <persname>Lena Bourne Fish</persname> with kitten at her
+						  home in
+						  <geogname>East Jaffrey, N.H.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4C: 6</container>
+						<unittitle>(<emph render="doublequote">Yankee</emph>) John
+						  <famname>Galusha</famname> and
+						  <persname>Anne Warner</persname> at a distance at
+						  <famname>Galusha</famname>'s home in
+						  <geogname>Minerva, N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>4D (10) Southeastern Trip.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4D: 1</container>
+						<unittitle>
+						  <persname>Rebecca King Jones</persname>' home in
+						  <geogname>Crab Tree Creek, N.C.</geogname>: Unidentified,
+						  <persname>Anne Warner</persname>, and
+						  <persname>Rebecca King Jones</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4D: 2</container>
+						<unittitle>Charles K. (<emph render="doublequote">Tink</emph>), Cliff, Eleazar, and Hub
+						  <famname>Tillett</famname> with dog in
+						  <geogname>Wanchese, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4D: 3</container>
+						<unittitle>
+						  <persname>Rebecca King Jones</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4D: 4</container>
+						<unittitle>Bill Moss and Jesse McDonald in
+						  <geogname>Suffolk, Va.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4D: 5</container>
+						<unittitle>Home of Captain John and Alwilda
+						  <famname>Culpeper</famname> at
+						  <geogname>Nag's Head, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4D: 6</container>
+						<unittitle>Unidentified and
+						  <persname>Steve Meekins</persname>.
+						  <geogname>Kitty Hawk, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4D: 7</container>
+						<unittitle>Aunt Armise Spruille (standing), Bill Moss
+						  (holding microphone), Joseph Henry (<emph render="doublequote">Uncle
+						  Joe</emph>)
+						  <famname>Johnson</famname>, and Jesse McDonald.
+						  <geogname>Suffolk, Va.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4D: 8</container>
+						<unittitle>
+						  <persname>Frank Warner</persname>,
+						  <persname>Rebecca King Jones</persname>, and
+						  <persname>Anne Warner</persname> at the
+						  Warners’ house in
+						  <geogname>Durham, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4D: 9</container>
+						<unittitle>
+						  <persname>Rebecca King Jones</persname>' home in
+						  <geogname>Crab Tree Creek, N.C.</geogname>: Unidentified,
+						  <persname>Anne Warner</persname> (seated on floor),
+						  <persname>Rebecca King Jones</persname>, unidentified, and
+						  the otherwise unidentified soldiers.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4D: 10</container>
+						<unittitle>
+						  <persname>Anne Warner</persname> and Charles K. (<emph render="doublequote">Tink</emph>)
+						  <famname>Tillett</famname> with Lemon (pony).
+						  <geogname>Roanoke Island, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">4D: 11</container>
+						<unittitle>
+						  Mr. and Mrs. Tillett with son and nephew.
+						  <geogname>Wanchese, N.C.</geogname>, 1940</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle><emph render="bold">Lot 5</emph>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">: <emph render="bold">1941-1942</emph></unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>5A (4) Southeast.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5A: 1</container>
+						<unittitle>
+						  <persname>Anne Warner</persname>, Verdon Thomas (standing),
+
+						  <persname>Sue Thomas</persname>, J.B. Sutton.
+						  <geogname>Elizabeth City, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5A: 2</container>
+						<unittitle>
+						  <persname>Anne Warner</persname>, Verdon Thomas (standing),
+
+						  <persname>Sue Thomas</persname>, J.B. Sutton.
+						  <geogname>Elizabeth City, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5A: 3</container>
+						<unittitle>Captain John and Alwilda
+						  <famname>Culpeper</famname>.
+						  <geogname>Nag's Head, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5A: 4</container>
+						<unittitle>
+						  <persname>Frank Warner</persname> with Alwilda and Captain
+						  John
+						  <famname>Culpeper</famname> on the porch of the
+						  <famname>Culpeper</famname>'s home at
+						  <geogname>Nag's Head, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>5B (17)
+						<geogname>Beech Mountain, N.C.</geogname></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 1</container>
+						<unittitle>Frank, Bessie, and Oliver
+						  <famname>Proffitt</famname> on the steps of their first
+						  house in
+						  <geogname>Pick Britches Valley</geogname>,
+						  <geogname>Watuga County, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 2</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname> (back, standing), Nancy
+
+						  <famname>Prather</famname> (in front of Frank),
+						  <persname>Bessie Proffitt</persname> (next to Nancy),
+						  Oliver
+						  <famname>Proffitt</famname> (front row, middle), and 8
+						  otherwise unidentified
+						  <famname>Proffitt</famname> relations.
+						  <geogname>Pick Britches Valley, N.C.</geogname></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 3</container>
+						<unittitle>
+						  <persname>Mary Hicks</persname> (in back),
+						  <persname>Rena Hicks</persname>, and
+						  <persname>Anne Warner</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 4</container>
+						<unittitle>
+						  <persname>Anne Warner</persname>,
+						  <persname>Frank Proffitt</persname>, and three unidentified
+						  children.
+						  <geogname>Pick Britches Valley, N.C.</geogname></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 5</container>
+						<unittitle>Nell and
+						  <persname>Rena Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 6</container>
+						<unittitle>Dewey, Linzy, Buna, Roby Monroe, and
+						  <persname>Rosa Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 7</container>
+						<unittitle>The
+						  <famname>Hicks</famname>' wintergreen still. Linzy (with
+						  guitar), Nathan, two unidentified (with hats, right of center), and
+						  <persname>Lewis Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 8</container>
+						<unittitle>The Proffitts' first house in
+						  <geogname>Pick Britches Valley, N.C.</geogname>
+						  <persname>Anne Warner</persname> and
+						  <persname>Frank Proffitt</persname> (in front). Others
+						  unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 9</container>
+						<unittitle>Unidentified child,
+						  <persname>Frank Proffitt</persname>, and
+						  <persname>Nathan Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 10</container>
+						<unittitle>Two unidentified boys.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 11</container>
+						<unittitle>
+						  <persname>Bessie Proffitt</persname>,
+						  <persname>Rosa Hicks</persname>, and Mae
+						  <famname>Hicks</famname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 12</container>
+						<unittitle>Frank, Oliver, and
+						  <persname>Bessie Proffitt</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 13</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname>,
+						  <persname>Roby Monroe Hicks</persname> (back to camera),
+						  <persname>Frank Warner</persname>,
+						  <persname>Nathan Hicks</persname>, Sam
+						  <famname>Hicks</famname> (with white hat, next to Nathan),
+						  <persname>Ray Hicks</persname> (front center, in front of
+						  Sam), Vance
+						  <famname>Presnell</famname> (legs crossed),
+						  <persname>Linzy Hicks</persname> (behind Vance), and
+						  <persname>Lewis Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 14</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 15</container>
+						<unittitle>
+						  <persname>Anne Warner</persname> at a tobacco
+						  farm.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 16</container>
+						<unittitle>
+						  <persname>Linzy Hicks</persname>,
+						  <persname>Lewis Hicks</persname>,
+						  <persname>Frank Proffitt</persname>, and
+						  <persname>Nathan Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5B: 17</container>
+						<unittitle>The
+						  <famname>Proffitt</famname>s' first house in
+						  <geogname>Pick Britches Valley, N.C.</geogname>:
+						  <persname>Anne Warner</persname> and
+						  <persname>Frank Proffitt</persname> in front. Others
+						  unidentified</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>5C (8)
+						<geogname>New York</geogname>.</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5C: 1</container>
+						<unittitle>
+						  <persname>Anne Warner</persname> and a Mohawk woman at the
+						  <famname>Warner</famname>s' initiation into the Mohawk
+						  tribe at the
+						  <geogname>St. Regis Indian Reservation,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5C: 2</container>
+						<unittitle>(<emph render="doublequote">Yankee</emph>) John
+						  <famname>Galusha</famname> and
+						  <persname>Frank Warner</persname> at
+						  <famname>Galusha</famname>’s home in
+						  <geogname>Minerva, N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5C: 3</container>
+						<unittitle>
+						  <persname>Anne Warner</persname> (forth from left, wearing
+						  head-dress and stripe jacket) and
+						  <persname>Louis Solomon</persname> (far right) with
+						  unidentified others at the
+						  <famname>Warners</famname>' initiation into the Mohawk
+						  tribe at the
+						  <geogname>St. Regis Indian Reservation,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5C: 4</container>
+						<unittitle>
+						  <persname>Frank Warner</persname> and
+						  <persname>Carl Carmer</persname> at apartment at
+						  <geogname>144 W. 12th Street New York City,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5C: 5</container>
+						<unittitle>Richard O.
+						  <famname>Hamilton</famname> at apartment at
+						  <geogname>144 W. 12th Street, New York City,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5C: 6</container>
+						<unittitle>(<emph render="doublequote">Yankee</emph>) John
+						  <famname>Galusha</famname> and his dog Flash.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5C: 7</container>
+						<unittitle>
+						  <persname>Frank Warner</persname> and
+						  <persname>Louis Solomon</persname> at the Warners'
+						  initiation into the Mohawk tribe at the
+						  <geogname>St. Regis Indian Reservation,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">5C: 8</container>
+						<unittitle>
+						  <persname>Louis Solomon</persname>'s daughter at in
+						  <famname>Warner</famname>s' apartment at
+						  <geogname>144 W. 12th Street, New York City,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle><emph render="bold">Lot 6</emph>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">: <emph render="bold">1943-1949</emph></unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>6A (1)
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1924</unitdate></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">6A: 1</container>
+						<unittitle>
+						  <persname>Jonathan (Jeff) Warner</persname>.</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>6B (2)
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1944</unitdate></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">6B: 1</container>
+						<unittitle> Mae
+						  <famname>Hicks</famname> and
+						  <persname>Anne Warner</persname> in front of the
+						  <famname>Warner</famname>s' apartment building at
+						  <geogname>144 W. 12th Street, New York City,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">6B: 2</container>
+						<unittitle> Mae
+						  <famname>Hicks</famname> in front of the
+						  <famname>Warner</famname>s' apartment building at
+						  <geogname>144 W. 12th Street, New York City,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>6C (3)
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1946</unitdate></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">6C: 1</container>
+						<unittitle>
+						  <persname>Jonathan (Jeff) Warner</persname>, (<emph render="doublequote">Yankee</emph>) John
+						  <famname>Galusha</famname>, and Flash at the
+						  <famname>Galusha</famname>s' home in
+						  <geogname>Minerva, N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">6C: 2</container>
+						<unittitle>(<emph render="doublequote">Yankee</emph>) John
+						  <famname>Galusha</famname>,
+						  <persname>Jonathan (Jeff) Warner</persname>, and Lizzie
+						  <famname>Galusha</famname> at the
+						  <famname>Galusha</famname>s' home in
+						  <geogname>Minerva, N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">6C: 3</container>
+						<unittitle>(<emph render="doublequote">Yankee</emph>) John
+						  <famname>Galusha</famname>.</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>6D (2)
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1949</unitdate></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">6D: 1</container>
+						<unittitle>Gerret, Jonathan (Jeff), and
+						  <persname>Frank Warner</persname> at
+						  <corpname>New York Times</corpname> Children's Book
+						  Fair.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">6D: 2</container>
+						<unittitle>
+						  <persname>Huddie Ledbetter</persname> (<emph render="doublequote">Ledbelly</emph>).</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle><emph render="bold">Lot 7</emph>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">: <emph render="bold">1951</emph></unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>7A (10)
+						<persname>Carl Sandburg</persname>. </unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7A: 1</container>
+						<unittitle>Jonathan (Jeff) and
+						  <persname>Gerret Warner</persname> with two of
+						  <persname>Carl Sandburg</persname>'s grandchildren at
+						  Connemara in N.C.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7A: 2</container>
+						<unittitle>
+						  <persname>Frank Warner</persname>,
+						  <persname>Carl Sandburg</persname>, and Jean
+						  <famname>Ritchie</famname> in the
+						  <famname>Warner</famname>s' apartment at
+						  <geogname>144 W. 12th Street, New York City,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7A: 3</container>
+						<unittitle>
+						  <persname>Gregory d'Allesio</persname>, Unidentified, Jean
+						  <famname>Ritchie</famname>,
+						  <persname>Frank Warner</persname>,
+						  <persname>Carl Sandburg</persname>,
+						  <persname>Anne Warner</persname>, and Mari Jinishian at the
+
+						  <famname>Warner</famname>s' apartment at
+						  <geogname>144 W. 12th Street, New York City,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7A: 4</container>
+						<unittitle>
+						  <persname>Frank Warner</persname>,
+						  <persname>Carl Sandburg</persname>, and Jean
+						  <famname>Ritchie</famname> at the
+						  <famname>Warner</famname>s' apartment at
+						  <geogname>144 W. 12th Street, New York City,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7A: 5</container>
+						<unittitle>
+						  <persname>Frank Warner</persname>,
+						  <persname>Carl Sandburg</persname>, and Jean
+						  <famname>Ritchie</famname> at the
+						  <famname>Warner</famname>s' apartment at
+						  <geogname>144 W. 12th Street, New York City,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7A: 6</container>
+						<unittitle>Frank and
+						  <persname>Anne Warner</persname> with
+						  <persname>Carl Sandburg</persname> in the
+						  <famname>Warner</famname>s' apartment at
+						  <geogname>144 W. 12th Street, New York City,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7A: 7</container>
+						<unittitle>
+						  <persname>Carl Sandburg</persname> and Jean
+						  <famname>Ritchie</famname> at the
+						  <famname>Warner</famname>s' apartment at
+						  <geogname>144 W. 12th Street, New York City,
+							 N.Y.</geogname> [with duplicate].</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7A: 8</container>
+						<unittitle>
+						  <persname>Gregory d'Allesio</persname>, Unidentified, Jean
+						  <famname>Ritchie</famname> (behind Frank),
+						  <persname>Frank Warner</persname>,
+						  <persname>Carl Sandburg</persname>,
+						  <persname>Anne Warner</persname>, and Mari Jinishian at the
+
+						  <famname>Warner</famname>s' apartment at
+						  <geogname>144 W. 12th Street, New York City,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7A: 9</container>
+						<unittitle>
+						  <persname>Carl Sandburg</persname> (back, seated on couch),
+
+						  <persname>Anne Warner</persname> (just in front of
+						  <famname>Sandburg</famname>), Mari Jinishian (seated in
+						  chair, back right), and others Unidentified at the
+						  <famname>Warner</famname>s' apartment at
+						  <geogname>144 W. 12th Street, New York City,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7A: 10</container>
+						<unittitle>Mari Jinishian (on couch),
+						  <persname>Anne Warner</persname>, and
+						  <persname>Carl Sandburg</persname> at the
+						  <famname>Warner</famname>s' apartment at
+						  <geogname>144 W. 12th Street, New York City,
+							 N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>7B (24)
+						<geogname>Beech Mountain, N.C.</geogname> </unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 1</container>
+						<unittitle>
+						  <persname>Jonathan (Jeff) Warner</persname>, Ronald
+						  <famname>Proffitt</famname>,
+						  <persname>Gerret Warner</persname>, and Franklin
+						  <famname>Proffitt</famname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 2</container>
+						<unittitle>Rosa, holding Jean; Ray, holding Leonard, and
+						  <persname>Rena Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 3</container>
+						<unittitle>Lee Monroe
+						  <famname>Presnell</famname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 4</container>
+						<unittitle>Lee Monroe
+						  <famname>Presnell</famname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 5</container>
+						<unittitle>Unidentified, two unidentified children (on
+						  porch), Jack
+						  <famname>Hicks</famname>, Gerret and
+						  <persname>Jonathan (Jeff) Warner</persname> (backs to
+						  camera),
+						  <persname>Lewis Hicks</persname> (sitting against post),
+						  <persname>Nathan Hicks</persname> (in chair), and
+						  <persname>Linzy Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 6</container>
+						<unittitle>Unidentified,
+						  <persname>Buna Hicks</persname>, Unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 7</container>
+						<unittitle>Lee Monroe
+						  <famname>Presnell</famname>, Unidentified,
+						  <persname>Buna Hicks</persname>, Unidentified (boy in
+						  chair), Unidentified child,
+						  <persname>Bessie Proffitt</persname>,
+						  <persname>Mary Hicks</persname>, and three unidentified
+						  men.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 8</container>
+						<unittitle>A church on
+						  <geogname>Beech Mountain, N.C.</geogname>: back:
+						  <persname>Jonathan (Jeff) Warner</persname>,
+						  <persname>Linzy Hicks</persname>. Front: Anne and
+						  <persname>Gerret Warner</persname>, Mae
+						  <famname>Hicks</famname>, and
+						  <persname>Rena Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 9</container>
+						<unittitle>Lee Monroe
+						  <famname>Presnell</famname> and
+						  <persname>Jonathan (Jeff) Warner</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 10</container>
+						<unittitle>
+						  <persname>Roby Monroe Hicks</persname>, Lee Monroe
+						  <famname>Presnell</famname>, Unidentified Child, and
+						  <persname>Buna Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 11</container>
+						<unittitle>Rosa and Leonard
+						  <famname>Hicks</famname> at their home.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 12</container>
+						<unittitle>Front:
+						  <persname>Gerret Warner</persname>, Ronald
+						  <famname>Proffitt</famname>, Phyllis
+						  <famname>Proffitt</famname>, Franklin
+						  <famname>Proffitt</famname>, and
+						  <persname>Jonathan (Jeff) Warner</persname>. Back:
+						  <persname>Bessie Proffitt</persname> (holding Eddie
+						  <famname>Proffitt</famname>), and unidentified.</unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 13</container>
+						<unittitle>Home of Buna and
+						  <persname>Roby Monroe Hicks</persname> at
+						  <geogname>Beech Creek, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 14</container>
+						<unittitle>Buna and
+						  <persname>Roby Monroe Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 15</container>
+						<unittitle>Unidentified, Jack
+						  <famname>Hicks</famname>,
+						  <persname>Lewis Hicks</persname>,
+						  <persname>Jonathan (Jeff) Warner</persname> (partially
+						  blocked by Ray),
+						  <persname>Ray Hicks</persname>,
+						  <persname>Linzy Hicks</persname> and two unidentified
+						  children.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 16</container>
+						<unittitle>
+						  <persname>Roby Monroe Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 17</container>
+						<unittitle>Unidentified, Jack
+						  <famname>Hicks</famname>,
+						  <persname>Lewis Hicks</persname>,
+						  <persname>Linzy Hicks</persname>, Unidentified, and
+						  <persname>Ray Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 18</container>
+						<unittitle>J.C.
+						  <famname>Hicks</famname> and
+						  <persname>Gerret Warner</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 19</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname>’s father's house (1941)
+						  at
+						  <geogname>Pick Britches Valley, N.C.</geogname>
+						  <persname>Frank Proffitt</persname> (back, left) Nancy
+						  <famname>Prather</famname> (in front of Frank), Bessie
+						  (next to Nancy), and Oliver
+						  <famname>Proffitt</famname> (in front of
+						  Bessie).</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 20</container>
+						<unittitle>Buna and
+						  <persname>Roby Monroe Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 21</container>
+						<unittitle>The
+						  <famname>Proffitt</famname>s' House (1951). Anne and
+						  <persname>Jonathan (Jeff) Warner</persname> (left), others
+						  unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 22</container>
+						<unittitle>Home of Buna and
+						  <persname>Roby Monroe Hicks</persname> at
+						  <geogname>Beech Creek, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 23</container>
+						<unittitle>All Unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">7B: 24</container>
+						<unittitle>
+						  <persname>Roby Monroe Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle><emph render="bold">Lot 8</emph>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">: <emph render="bold">1952, 1959,
+						1960</emph></unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>8A (5)
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1952</unitdate></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8A: 1</container>
+						<unittitle>Unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8A: 2</container>
+						<unittitle>
+						  <persname>Jonathan (Jeff) Warner</persname> (far left) and
+						  <persname>Anne Warner</persname> (center, wearing dark
+						  jacket). Others unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8A: 3</container>
+						<unittitle>
+						  <geogname>Orient Point, N.Y.</geogname>: both
+						  unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8A: 4</container>
+						<unittitle>
+						  <persname>Anne Warner</persname> (wearing white shirt) and
+						  Jonathan (Jeff) and
+						  <persname>Gerret Warner</persname> (back, visible between
+						  Anne and the man standing with her).</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8A: 5</container>
+						<unittitle>
+						  <persname>Anne Warner</persname> and (<emph render="doublequote">Colonel</emph>) Tom P.
+						  <famname>Smith</famname> in
+						  <persname>Carl Carmer's</persname> living room in his
+						  apartment at
+						  <geogname>144 W. 12th Street New York City, N.Y.</geogname>
+						  (upstairs from the Warners' own apartment at the same address).</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>8B (21)
+						<geogname>Beech Mountain, N.C.</geogname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1959-1960</unitdate></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 1</container>
+						<unittitle>The
+						  <famname>Proffitt</famname> family: Bessie (wearing white
+						  dress, left side) and Frank (lower right). Warners: Anne (seated on stairs),
+						  Jonathan (Jeff) (top of stairs, left), and Gerret (top of stairs, right).
+						  Others unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 2</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname> and
+						  <persname>Frank Warner</persname> at the
+						  <geogname>Boone</geogname> Hotel in
+						  <geogname>Boone, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 3</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname> and
+						  <persname>Frank Warner</persname> at the
+						  <geogname>Boone</geogname> Hotel in
+						  <geogname>Boone, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 4</container>
+						<unittitle>
+						  <persname>Ray Hicks</persname> (next to two small boys,
+						  left),
+						  <persname>Frank Proffitt</persname> (next to man wearing
+						  hat),
+						  <persname>Lewis Hicks</persname> (right, front row). Others
+						  unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 5</container>
+						<unittitle>A crowd of
+						  <persname>Nathan Hicks'</persname> descendants and other
+						  relatives at the
+						  <famname>Hicks</famname> house, including:
+						  <persname>Frank Proffitt</persname> (far left),
+						  <persname>Ray Hicks</persname> (next to Frank),
+						  <persname>Linzy Hicks</persname> (next to Ray), and Lewis
+						  (next to Linzy),
+						  <persname>Mary Hicks</persname> (to right of and behind
+						  Lewis). Others unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 6</container>
+						<unittitle>A crowd of
+						  <persname>Nathan Hicks'</persname> descendants and other
+						  relatives at the
+						  <famname>Hicks</famname> house listening to a recording of
+						  <persname>Nathan Hicks</persname>’s story of the bear hunt
+						  recorded in 1940.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 7</container>
+						<unittitle>A crowd of
+						  <persname>Nathan Hicks'</persname> descendants and other
+						  relatives at the
+						  <famname>Hicks</famname> house.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 8</container>
+						<unittitle>Frank and
+						  <persname>Bessie Proffitt</persname> at their
+						  home.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 9</container>
+						<unittitle>
+						  <persname>Rena Hicks</persname>,
+						  <persname>Anne Warner</persname>, and
+						  <persname>Bessie Proffitt</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 10</container>
+						<unittitle>
+						  <persname>Ray Hicks</persname>,
+						  <persname>Rena Hicks</persname>,
+						  <persname>Frank Proffitt</persname>, and
+						  <persname>Buna Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 11</container>
+						<unittitle>The
+						  <famname>Proffitt</famname>s' house.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 12</container>
+						<unittitle>The
+						  <famname>Proffitt</famname>s' house.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 13</container>
+						<unittitle>At the
+						  <famname>Hicks</famname> house:
+						  <persname>Rena Hicks</persname> (left, wearing sweater),
+						  <persname>Frank Proffitt</persname> (sitting on porch with
+						  guitar),
+						  <persname>Frank Warner</persname> (sitting in chair with
+						  guitar),
+						  <persname>Lewis Hicks</persname> (next to Frank Warner),
+						  <persname>Jonathan (Jeff) Warner</persname> (sitting on
+						  porch with guitar),
+						  <persname>Ray Hicks</persname> (back to camera, wearing
+						  black hat). Others unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 14</container>
+						<unittitle>
+						  <persname>Rena Hicks</persname>,
+						  <persname>Buna Hicks</persname>,
+						  <persname>Anne Warner</persname>,
+						  <persname>Bessie Proffitt</persname>, Mae
+						  <famname>Hicks</famname>,
+						  <persname>Anna Hicks</persname>,
+						  <persname>Mary Hicks</persname>, and an unidentified woman
+						  (in front).</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 15</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname> with
+						  <corpname>TRO</corpname> lawyer in front of the
+						  <geogname>Boone</geogname> Hotel in
+						  <geogname>Boone, N.C.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 16</container>
+						<unittitle>Rena and
+						  <persname>Buna Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 17</container>
+						<unittitle>Franklin
+						  <famname>Proffitt</famname> with Gerret and
+						  <persname>Jonathan (Jeff) Warner</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 18</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname> and
+						  <persname>Buna Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 19</container>
+						<unittitle>
+						  <persname>Jonathan (Jeff) Warner</persname>,
+						  <persname>Linzy Hicks</persname>, and
+						  <persname>Gerret Warner</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 20</container>
+						<unittitle>
+						  <corpname>TRO</corpname> lawyer and
+						  <persname>Frank Proffitt</persname> (on the porch) at the
+						  Proffitts' house.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8B: 21</container>
+						<unittitle>Jonathan (Jeff), Frank, and
+						  <persname>Gerret Warner</persname> with
+						  <persname>Frank Proffitt</persname>.</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>8C (5)
+						<geogname>Beech Mountain, N.C.</geogname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1960</unitdate></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8C: 1</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname> recording in banjo
+						  studio.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8C: 2</container>
+						<unittitle>George's Gap.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8C: 3</container>
+						<unittitle>
+						  <famname>Proffitt</famname> Children.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8C: 4</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname> in front of the second
+						  house he built--his tobacco crop in the background.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">8C: 5</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname> recording in banjo
+						  studio.</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle><emph render="bold">Lot 9</emph>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">: <emph render="bold">1961; 1963;
+						1966; 1969</emph></unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>9A (7)
+						<persname>Frank Proffitt</persname> at
+						<geogname>Port Washington</geogname> (
+						<geogname>Long Island, N.Y.</geogname>) on the
+						<famname>Whitney</famname>s' <emph render="doublequote">Little Yankee</emph>. This is
+						<famname>Proffitt</famname>'s first trip north to N.Y. and to
+						the sea.
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1961</unitdate></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9A: 1</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9A: 2</container>
+						<unittitle>
+						  <persname>Frank Warner</persname>,
+						  <persname>Frank Proffitt</persname>, and Douglas
+						  <famname>Kennedy</famname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9A: 3</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9A: 4</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname> and Douglas
+						  <famname>Kennedy</famname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9A: 5</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9A: 6</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname> working on a banjo in
+						  yard at
+						  <geogname>Farmingdale</geogname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9A: 7</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname> in
+						  <geogname>New York City, N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>9B (9) Proffitts.
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1963</unitdate></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9B: 1</container>
+						<unittitle> Proffitts working on new house at
+						  <geogname>Pick Britches Valley, N.C.</geogname></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9B: 2</container>
+						<unittitle>
+						  <persname>Buna Hicks</persname> (front left) with two
+						  unidentified women.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9B: 3</container>
+						<unittitle>
+						  <famname>Proffitt</famname>s working on new house at
+						  <geogname>Pick Britches Valley, N.C.</geogname>: far left,
+						  Frank.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9B: 4</container>
+						<unittitle>Frank and
+						  <persname>Bessie Proffitt</persname> in
+						  <geogname>Asheville, N.C.</geogname> for the
+						  <geogname>Asheville</geogname> Folk Festival.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9B: 5</container>
+						<unittitle>Picnic at the
+						  <famname>Hicks</famname> house on
+						  <geogname>Beech Mountain, N.C.</geogname>
+						  <persname>Frank Proffitt</persname> (just left of center,
+						  between a bearded man and a small boy).</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9B: 6</container>
+						<unittitle>Frank and
+						  <persname>Bessie Proffitt</persname> in
+						  <geogname>Asheville, N.C.</geogname>, for the
+						  <geogname>Asheville</geogname> Folk Festival.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9B: 7</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname>,
+						  <persname>Alan Lomax</persname>,
+						  <persname>Anne Warner</persname>, And
+						  <persname>Bessie Proffitt</persname> in
+						  <geogname>Asheville, N.C.</geogname>, for the
+						  <geogname>Asheville</geogname> Folk Festival.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9B: 8</container>
+						<unittitle>
+						  <persname>Frank Proffitt</persname> (holding ladder) and
+						  others working on the Proffitts' new house at
+						  <geogname>Pick Britches Valley, N.C.</geogname></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9B: 9</container>
+						<unittitle>Phyllis
+						  <famname>Proffitt</famname>.</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>9C (4).
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1964</unitdate></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9C: 1</container>
+						<unittitle>
+						  <famname>Proffitt</famname> family on the porch of their
+						  new house: Phyllis, Frank, and three unidentified others.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9C: 2</container>
+						<unittitle>
+						  <persname>Anne Warner</persname> (far right) and three of
+						  the
+						  <famname>Tillett</famname> family.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9C: 3</container>
+						<unittitle>At the Hicks house. Front:
+						  <persname>Ray Hicks</persname>,
+						  <persname>Frank Proffitt</persname>, Phyllis
+						  <famname>Proffitt</famname>, and 5 unidentified others.
+						  Back:
+						  <persname>Frank Warner</persname>, Mae
+						  <famname>Hicks</famname>,
+						  <persname>Rosa Hicks</persname>, and
+						  unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9C: 4</container>
+						<unittitle>At the Hicks house: Front:
+						  <persname>Ray Hicks</persname>,
+						  <persname>Frank Proffitt</persname>, Phyllis
+						  <famname>Proffitt</famname>, and 5 unidentified others.
+						  Back: Mae
+						  <famname>Hicks</famname>,
+						  <persname>Rosa Hicks</persname>, unidentified, and
+						  <persname>Anne Warner</persname>.</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>9D (8)
+						<geogname>Beech Mountain, N.C.</geogname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1966</unitdate></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9D: 1</container>
+						<unittitle>At Frank Proffitt's grave: two unidentified boys,
+						  <persname>Bessie Proffitt</persname>,
+						  <persname>Rena Hicks</persname>, Phyllis
+						  <famname>Proffitt</famname> (holding Charlie),
+						  <persname>Anne Warner</persname>, Nancy Wadsworth
+						  <famname>Warner</famname> (holding infant), and
+						  <persname>Gerret Warner</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9D: 2</container>
+						<unittitle> Hickses, Proffitts, and Warners:
+						  <persname>Ray Hicks</persname> (back left),
+						  <persname>Rosa Hicks</persname> (middle, in front of and to
+						  right of man wearing cowboy hat),
+						  <persname>Anna Hicks</persname> (next to Rosa, on right),
+						  <persname>Gerrett Warner</persname> and Nancy (holding
+						  infant, on left) Wadsworth Warner,
+						  <persname>Anne Warner</persname> (just behind Nancy),
+						  Phyllis
+						  <famname>Proffitt</famname> (holding Charlie, just right
+						  and in front of
+						  <persname>Anna Hicks</persname>),
+						  <persname>Rena Hicks</persname> (next to Phyllis
+						  <famname>Proffitt</famname>),
+						  <persname>Linzy Hicks</persname> (sitting with guitar),
+						  <persname>Buna Hicks</persname> (sitting with fiddle),
+						  Hattie
+						  <famname>Hicks</famname> (next to Buna), others
+						  unidentified. </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9D: 3</container>
+						<unittitle>Back: Anne and
+						  <persname>Frank Warner</persname>. Front: Linzy and
+						  <persname>Buna Hicks</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9D: 1</container>
+						<unittitle>Phyllis Proffitt's son Charlie at Proffitts'
+						  house.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9D: 5</container>
+						<unittitle>Buna and Hattie
+						  <famname>Hicks</famname> at the Proffitts'
+						  house.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9D: 6</container>
+						<unittitle>Bethel Baptist Church. Phyllis
+						  <famname>Proffitt</famname>,
+						  <persname>Rena Hicks</persname>, and
+						  <persname>Anne Warner</persname> (far right), others
+						  unidentified.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9D: 7</container>
+						<unittitle>Front: Linzy and
+						  <persname>Buna Hicks</persname>. Back: Nancy Wadsworth
+						  <famname>Warner</famname> and
+						  <persname>Gerret Warner</persname>.</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9D: 8</container>
+						<unittitle>Frank Proffit's grave.</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>9E (2).
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1969</unitdate></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9E: 1</container>
+						<unittitle>
+						  <persname>Steve Wadsworth</persname>, in the home of
+						  Charles and Margaret
+						  <famname>Coffin</famname> in
+						  <geogname>Northville, N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container label="Print" type="print">9E: 2</container>
+						<unittitle>
+						  <persname>Anne Warner</persname> (behind chair), others
+						  unidentified in the home of Charles and Margaret
+						  <famname>Coffin</famname> in
+						  <geogname>Northville, N.Y.</geogname></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+<c03><did><container type="box">29</container><unittitle>Negatives</unittitle></did>
+<accessrestrict>
+<p>CLOSED: Original negatives are closed to use.</p>
+</accessrestrict></c03>
+
+			 <c03>
+				<did>
+				  <container type="box">30</container>
+				  <unittitle>Miscellaneous Photographs: This box contains
+					 photographs that have been reorganized into a separate storage unit from other
+					 places in the Warner Collection. A photocopy of each photograph retains the
+					 original's position in Anne Warner's own organizational structure of the
+					 papers, and notes on the photocopies will direct researchers to Box 30,
+					 Miscellaneous Photographs, if viewing the originals is necessary. </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		</c01>
+	 </dsc>
+  </archdesc>
+</ead>

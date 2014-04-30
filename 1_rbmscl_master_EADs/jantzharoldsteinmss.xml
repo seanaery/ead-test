@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Harold Jantz collection of early manuscripts)//EN" url="http://library.duke.edu/rubenstein/findingaids/jantzharoldsteinmss/">jantzharoldsteinmss</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Harold Jantz collection
+			 of early manuscripts, music manuscripts, and autograph albums,
+			 <date normal="1477/1905" type="inclusive" era="ce" calendar="gregorian">1477-1905 and undated</date></titleproper>
+        <author>Machine-readable finding aid created by:
+			 Joshua Kaiser and Ruth E. Bryan</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <p><date era="ce" calendar="gregorian"> 2002</date> Duke University. All Rights
+			 Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">003121547</num></p><p>Aleph Number: <num type="aleph">003140718</num></p><p>Aleph Number: <num type="aleph">003118375</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from
+		  automated markup system and XMetaL software. <lb/>Date of
+		  source: <lb/>Finding Aid encoded by Joshua Kaiser and Ruth
+		  E. Bryan, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University,
+		  <date calendar="gregorian" era="ce">September 23, 2002</date></creation>
+      <langusage>Description is in
+		  <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Harold Jantz collection of early manuscripts)//EN" "jantzharoldsteinmss.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the Harold Jantz collection
+			 of early manuscripts, music manuscripts, and autograph albums,
+			 <date calendar="gregorian" era="ce">1477-1905 and undated</date></titleproper>
+      <publisher><lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke
+		  University <lb/> Durham, North Carolina 27708-0185 USA
+		  </publisher>
+
+      <p><date era="ce" calendar="gregorian">(C) 2002</date> Duke University. All Rights
+		  Reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Harold Jantz collection of
+		  early manuscripts, music manuscripts, and autograph albums 		  <unitdate calendar="gregorian" era="ce" normal="1477/1905" type="inclusive">1477-1905 and undated</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Jantz, Harold Stein, 1907-
+			 (collector)</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>170		  Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+      </repository>
+      <physloc label="Location">For current information on
+		  the location of these materials, please consult the
+		  Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Collection is open for research.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in this collection have
+			 not been transferred to Duke University. For more
+			 information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Harold Jantz
+			 Collection of early manuscripts, music manuscripts, and autograph albums, David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The Harold Jantz collection of early manuscripts, music manuscripts, and autograph albums, was received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a gift in 1996.</p>
+      </acqinfo>
+	<processinfo>
+      <p>Encoded by Joshua Kaiser and Ruth E. Bryan</p>
+	<p>This finding aid is NCEAD compliant.</p>
+	</processinfo>
+    </descgrp>
+    <!-- End of finding aid header -->
+    <bioghist>
+      <head>Biographical Note</head>
+      <p>Harold Jantz was a Professor of German literature at Northwestern, Johns
+Hopkins, and Duke Universities, and a collector of German baroque literature
+and German Americana. </p>
+    </bioghist>
+    <!--End of biohistory--><!--Begin scopecontent-->
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The Harold Jantz collection of early manuscripts, music manuscripts, and autograph albums,
+		  1477-1905 and undated, is arranged by size (each item
+		  numbered) and includes the following noncontiguous
+		  subgroups: <emph render="bold">Autograph Albums</emph>
+		  (1633-1857 and undated), <emph render="bold">Early Music
+		  Manuscripts </emph>(1818-1874 and undated),
+		  <emph render="bold">Early Manuscript Prayerbooks</emph>
+		  (1744-1801 and undated), and <emph render="bold">Early
+		  Manuscript Songbooks</emph> (1712-1896 and undated). These
+		  subgroups are described more fully below.</p>
+      <p>The collection consists primarily of bound
+		  manuscripts, many illustrated, from the 15th through the
+		  early 20th centuries. Most materials are in German or
+		  English, with some materials in French, Hebrew, Italian,
+		  Spanish, Swedish, Greek, or Latin. In addition to the above
+		  noted subgroups, the collection includes medical texts
+		  (nos. 28, 47, 77); historical chronicles, mostly German
+		  (nos. 25, 58, 59, 84, 127); and
+		  alchemical/astrological/occult treatises (nos. 9, 20, 53,
+		  74, 114, 120, 122, 129, 148, 161, 165). Among the
+		  identified authors are Georg Fabricius (22), Edward Young
+		  (29), Sebastian Chiesa (33), Henry Marchant (49), Jacob
+		  Böhme (67), J.M. Firmenich (156), and Carl and Julius
+		  Dresel (117-119). Printed books, most with manuscript
+		  addenda, comprise approximately 10% of the collection.</p>
+      <p>The subgroup <emph render="bold">Autograph
+		  Albums</emph> (1633-1857 and undated) chiefly comprises bound
+		  volumes (guestbooks, Stammbücher) of 18th-and 19th-century
+		  German, English, and American provenance. These typically
+		  contain poems (many original), quotations, and maxims, as
+		  well as signatures. Many are illustrated and have laid-in
+		  mementoes. This group contains the following numbers from
+		  the main collection: 3 (J.C.Waechtler), 4 (Caspari), 5 and
+		  6 (C.F.M. Timaus), 8 (a freemason), 11 (
+		<title linktype="simple" render="italic">E.D.</title>), 60, 61, and 62
+		(Elizabeth J. Noble), 63 (
+		<title linktype="simple" render="italic">Miss Kate</title>), 65 (Sarah
+		T. Hopkins), 68 (Ebr. Denison), 69 (
+		<title linktype="simple" render="italic">Cornelia</title>), 72 and 104
+		(Annie Mckay), 106 (Lucinda Olcott), 107 (Eliza Sabin), 108
+		(Emeline Ronnsville), 117 (Carl Dresel von Geisenheim) and
+		134.</p>
+      <p>The subgroup <emph render="bold">Early Music
+		  Manuscripts</emph> (1818-1874 and n.d) includes fife music,
+		  Spanish songs, a 19th century English tune book, and a
+		  vocal dialogue with text entitled
+		<title linktype="simple" render="italic">Das Bauern Mädchen und der
+		  Stadt Junge,</title> as well as works by Harriette Gould
+		Bark, Johann Adolf Hasse, Georg Philipp Telemann, and Isaac
+		C. Day. It comprises numbers 1, 7, 10, 48, 71, 116, 126,
+		136, and 141 of the main collection.</p>
+      <p>The subgroup <emph render="bold">Early Manuscript
+		  Prayerbooks</emph> (1744-1801 and undated) consists chiefly of
+		  18th-century Roman Catholic prayerbooks and devotional
+		  exercises (including 3 copies of Crönung Mariae) in German
+		  and Latin. Many are illustrated. It includes numbers 17,
+		  27, 30, 31, 34, 66, 81, 94, 101, and 131-133 of the main
+		  collection.</p>
+      <p>The subroup <emph render="bold">Early Manuscript
+		  Songbooks,</emph> (1712-1896 and undated) includes both sacred
+		  (chiefly Roman Catholic) and secular song texts without
+		  music. The collection contains some German hymns. Items 13,
+		  24, 36, 73, 86, 87, and 139 of the main collection comprise
+		  this group. Numbers 86 and 87 are 19th-century
+		  transcriptions from the 16th-century Heidelberger
+		  Liederhandschrift (Cod. Pal. 343) and Wernigerode
+		  Liederhandschrift Zy 15.</p>
+    </scopecontent>
+    <!--End scopecontent--><!--Begin controlaccess-->
+    <controlaccess>
+      <head>Subject Headings</head>
+      <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <item>
+          <subject>Alchemy -- Manuscripts</subject>
+        </item>
+        <item>
+          <subject>Astrology -- Manuscripts</subject>
+        </item>
+        <item>
+          <subject>Medicine -- Manuscripts</subject>
+        </item>
+        <item>
+          <subject>Occultism -- Manuscripts</subject>
+        </item>
+        <item>
+          <subject>Prayer-books</subject>
+        </item>
+        <item>
+          <subject>Autograph albums</subject>
+        </item>
+        <item>
+          <subject>Music -- Manuscripts</subject>
+        </item>
+        <item>
+          <persname>Chiesa, Sebastiano, d.
+				1678</persname>
+        </item>
+        <item>
+          <persname>Marchant, Henry,
+				1741-1796</persname>
+        </item>
+        <item>
+          <persname>Bèohme, Jakob,
+				1575-1624</persname>
+        </item>
+        <item>
+          <persname>Fabricius, Georg,
+				1516-1571</persname>
+        </item>
+        <item>
+          <persname>Young, Edward,
+				1683-1765</persname>
+        </item>
+        <item>
+          <persname>Firmenich-Richartz, Johannes Matthias,
+				1808-1889</persname>
+        </item>
+      </list>
+    </controlaccess>
+    <!--End controlaccess--><!--Begin container list--><!-- Sample of possible container list structure, actual markup depends upon the materials being described. --><!-- Use <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent>, <admininfo><processinfo>, and <admininfo><accessrestrict> if needed. -->
+    <dsc type="combined">
+	<head>Contents of Collection</head>
+      <c01>
+        <did>
+          <unittitle>List of Bound Manuscripts</unittitle>
+        </did>
+        <c02>
+          <did>
+            <unitid label="No.">1</unitid>
+            <unittitle>English (1818?): Jacob Burditt, ed.:
+				  Music Book, manuscript; The Fifers Companion... (see
+				  Jantz's note concerning Issac Day contained in
+				  book)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">2</unitid>
+            <unittitle>German/Latin (undated): Anon.:
+				  German/Latin Grammer/Style(?), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">3</unitid>
+            <unittitle>German (1695ff.): J. C. Waechtler: A
+				  Guestbook [Stammbuch], various languages (German, French,
+				  Latin), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">4</unitid>
+            <unittitle>German (1802ff.): Poems to a certain
+				  Herrn Caspari by his friends, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">5</unitid>
+            <unittitle>German (1755ff., with insert from
+				  1633): Anon.: A Guestbook [Stammbuch],
+				  Manuscript-softbound, drawings and watercolors</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">6</unitid>
+            <unittitle>German (1778ff.): C. F. M. Timaus
+				  (?) [Hannover]: Album, a Guestbook [Stammbuch] with
+				  entries, 1778-1783, various langagues (French, German,
+				  Latin, Greek), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">7</unitid>
+            <unittitle>Spanish (undated): Anon.: Music Book,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">8</unitid>
+            <unittitle>German (1789): Anon. (?-see 6th
+				  entry): A Guestbook [Stammbuch] (Freemasonry),
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">9</unitid>
+            <unittitle>German (1610): Anon.: Elucidatio
+				  Secretorum, (Alchemy), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">10</unitid>
+            <unittitle>English (1874): Harriette Gould
+				  Bark: Music Book, (drawn lines, notes inserted), [note
+				  popular: "Jesus Loves Me"]</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">11</unitid>
+            <unittitle>English (1832): Album, belonging to
+				  <emph render="doublequote">E.D.,</emph> [Almira?]</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">12</unitid>
+            <unittitle>German (1836): Lembert: Almanach
+				  dramatischer Spiele für das Jahr 1836, Wien: Franz Tendser,
+				  Printed book with manuscript emendations inserted by
+				  author(?)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">13</unitid>
+            <unittitle>German (1844): Turn=Leider, Book:
+				  Munich: Franz Wild, 1844, Printed book with manuscript text
+				  and music notes</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">14</unitid>
+            <unittitle>German (1850-1880?): L.G.
+				  Silbercleit, ed./trans.: Robert Burns' Lieder und Balladen,
+				  Leipzig: Reclam, undated, Printed book</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">15</unitid>
+            <unittitle>French (undated): Anon.: Histoire du
+				  Palais Royal, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">16</unitid>
+            <unittitle>German (1733ff.): Anon.(?): Louisel:
+				  Abschieds=Lieder, [Hernnhut poems],
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">17</unitid>
+            <unittitle>German (undated) and Latin (18th c.?):
+				  Anon.: Weis, die H.-Schütz-Engel zu Verehren (Ways to Honor
+				  the Guardian Angel), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">18</unitid>
+            <unittitle>German (1790): L.F. Heuser:
+				  Gedichte: Erster Theil, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">19</unitid>
+            <unittitle>Italian (1549-1550): Pietro D'Abano:
+				  Della Geomantia, First Part-Completely Manuscript; Second
+				  Part-Partially Printed (incl. Title Page), Partially
+				  ms.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">20</unitid>
+            <unittitle>German (1685): Eireneo Philaletha
+				  [George Starkey, 1628-1665], Johann Lange, trans.: Kern der
+				  Alchemie (Leipzig: Valentin Adler, 1685), (The Prince
+				  Lichtenstein copy), Manuscript-bound, typed information
+				  sheet inside cover. </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">21</unitid>
+            <unittitle>German (1696): Johann Georg Graberr:
+				  Eine kürtze Eröffung und Anweisung der 3 Principien und
+				  Welten im Menschen, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">22</unitid>
+            <unittitle>German (16th or 17th C.): G.
+				  Fabricius (1516-1571): German translation of his Latin:
+				  Historia von den Leiden und Sterben unsers Herren Jhesu
+				  Christi, Wie Man solches betrachten und bedencken soll...
+				  (To be sung both at night and during the day),
+				  Manuscript-bound </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">23</unitid>
+            <unittitle>German (1684): P. Joachim
+				  Stegbuecher: Geistliche Ubungen,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">24</unitid>
+            <unittitle>German (1712): Gesänge (Religious
+				  Songs), Manuscript-bound (illustrated)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">25</unitid>
+            <unittitle>German (1896 Nov.): Karl Scheffer:
+				  Inschriften und Legenden Halberstädter Bauten (1864),
+				  Manuscript copy (bound) by J. Schule</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">26</unitid>
+            <unittitle>German (1775?): Anon.: Sammlung
+				  einiger vermischten Nachrichten und Urkunden, Maurerey
+				  betreffend (also some English text),
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">27</unitid>
+            <unittitle>German (18th c. [1791??]): Anon.:
+				  Prayer Book, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">28</unitid>
+            <unittitle>English (184?): Anon.: Notes on
+				  Menstruation, Pregnancy, Abortion, etc., (Prof. Gilman,
+				  lectures), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">29</unitid>
+            <unittitle>English (1884): Edward Young,
+				  [Samuel and Bernice Allinson]: Beauties of the Night
+				  Thoughts, at end of vol.: 1819 Burlington City, N.J.
+				  Prospectus (Allinson), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">30</unitid>
+            <unittitle>German (undated): Elisebeta (Hardegg):
+				  Gebettbuch, illustrated, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">31</unitid>
+            <unittitle>German (1791): Anon.: Gebettbuch,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">32</unitid>
+            <unittitle>English (1840): Chales Cole:
+				  Thoughts in Verse, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">33</unitid>
+            <unittitle>Italian (1720): Sebastiano Chiesa:
+				  Il Capitolo de Frati: Poema Eroico, Comico e Prurito
+				  Geniale Auttunale di Frá Tesabisano Sechia,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">34</unitid>
+            <unittitle>German (1767): Anon.: Bett Buch
+				  (Prayer Book), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">35</unitid>
+            <unittitle>German (1755): S.C.v.Z.: Historische
+				  Einleitung in die Kenntniß der Reiche und Staaten...,
+				  Breslaau: Johann Jacob Korn, 1755, mostly printed text,
+				  quite a few ms. leaves at end</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">36</unitid>
+            <unittitle>German (19th c., see p. 119):
+				  Algovia's Lieder, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">37</unitid>
+            <unittitle>German (1852): Ihtak Kenhelsemib
+				  (?): Momus. zur Erheiterung: Scherz, Witz und Picanterien
+				  (some French text), Manuscript-softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">38</unitid>
+            <unittitle>German (1725-1727): Einleitung zur
+				  neuesten Historie der Welt..., 3 volumes: Jena: Joh.
+				  Volckmar Marggrafen, 1725(1723?)-1727, Printed
+				  books</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">39</unitid>
+            <unittitle>German (1803): Die kleine geistliche
+				  Harfe der Kinder Zions...(Song Book), Germantaun: Michael
+				  Billmeyer, 1803, 1st ed. (authorized by Mennonite
+				  communities), Printed book</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">40</unitid>
+            <unittitle>English (undated): Anon.: Elucidation
+				  of Biblical Texts (?), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">41</unitid>
+            <unittitle>German (19th c.): August Klingemann
+				  (1777-1831): Faust, Book with inserted emendations by
+				  author over a number of years</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">42</unitid>
+            <unittitle>English (1750-1759): Thomas Wright
+				  (Durham): Pansophia or a General Regulation of Universal
+				  Knowledge, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">43</unitid>
+            <unittitle>English (undated): Anon.: Elucidation
+				  of Biblical Texts, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">44</unitid>
+            <unittitle>German (19th c.?): Anon.: Short
+				  Treatises and Poems, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">45</unitid>
+            <unittitle>English (1834): Charles Cole:
+				  Political and Other Poems, Second Ed., London: W.C. Mantz,
+				  1834, Printed book</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">46</unitid>
+            <unittitle>German (c. 1716-1720): Grüber (?),
+				  Manuscript-bound containing religious poems, parts of New
+				  Testament, etc., see Jantz's notes inside cover</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">47</unitid>
+            <unittitle>German (1651-1654): [Leip,
+				  Friedrich?]: Medical Manuscript, Partially
+				  bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">48</unitid>
+            <unittitle>German (1826): Anon.: Feurige Kohlen
+				  der aufsteigenden Liebesflammen..., Book and Manuscript
+				  (text and notes)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">49</unitid>
+            <unittitle>English (1771ff.): Letters, etc. of
+				  Henry Marchant, Letters of Ezra Stiles to Benj. Franklin,
+				  Prof. Hahn (Utrecht), etc., copied by D. King 1864,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">50</unitid>
+            <unittitle>German (ca. 1700): Anon.: Maria eine
+				  Zuflucht der Sinder und Trösterin der Betriebt
+				  (Volksschauspiel), Manuscript-bound (see description by
+				  Antiquariat Heinrich Hinterberger inside cover)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">51</unitid>
+            <unittitle>German (1861??): ?: Abendteuer des
+				  Entspekter Dräßig...Book with many emendations by
+				  author</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">52</unitid>
+            <unittitle>German (undated): Anon.: Der getreue
+				  Ehegatte, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">53</unitid>
+            <unittitle>German (undated): Anon.: Beschreibung
+				  der wahren göttlichen Magia, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">54</unitid>
+            <unittitle>German (1801): F.P.(?): Die Seele
+				  vor ihrem Schöpfer, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">55</unitid>
+            <unittitle>German (1764): Anon.: Auser-Lessenes
+				  Exempel Buech..., Manuscript-bound (see enclosed catalog
+				  description)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">56</unitid>
+            <unittitle>English (ca. 1850): Anon.: Ledger
+				  with printed poems pasted in (and written poem on Comm.
+				  Perry), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">57</unitid>
+            <unittitle>German (1839): Karl von Holtei:
+				  Almanach für Privat-Bühnen, Riga/Leipzig: Verlavgon Eduard
+				  Frantzen, mostly printed text, Manuscript emendations (by
+				  author?) to Dreiunddreißig Minuten in Grüneberg</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">58</unitid>
+            <unittitle>German/Latin (1477): Johan Carion:
+				  Chronica durch Magistrum Johan Carion..., mostly printed
+				  book but Latin/German Ms. from 1477 bound in at
+				  end</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">59</unitid>
+            <unittitle>German (1717?): Hans George Mokren
+				  (see 2nd Leaf: Schotte): Thüringischer und Mühlhausischer
+				  Chronicken Extract..., Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">60</unitid>
+            <unittitle>English (undated; 1845-one poem): The
+				  Scriptural Album with Floral Illustrations, a few poems,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">61</unitid>
+            <unittitle>English (1834-1836): Album,
+				  Collection of Poems, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">62</unitid>
+            <unittitle>English (1841ff.): Album belonging
+				  to Elizabeth J. Noble, Collection of poems (also later
+				  entries to others?), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">63</unitid>
+            <unittitle>English (1841ff.): Album belonging
+				  to "Miss Kate," Collection of poems,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">64</unitid>
+            <unittitle>English (ca. 1863ff.): [M.A.
+				  Jennings?]: A Few Thoughts in Verse,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">65</unitid>
+            <unittitle>English (1826-1827): [Sarah T.
+				  Hopkins?]: Collection of poems by friends and relatives,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">66</unitid>
+            <unittitle>German (1763): Anon.: Prayer Book,
+				  Printed illustrations, Manuscript (text)-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">67</unitid>
+            <unittitle>English (1710): John Holborn:
+				  Various (copied) texts of Jacob Boehme, etc.,
+				  Manuscript-bound, see Jantz's notes inside
+				  cover</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">68</unitid>
+            <unittitle>English (May 1821ff.): Ebr.
+				  Denison's Collection of poems (by friends?),
+				  Manuscript-partially bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">69</unitid>
+            <unittitle>English (1836ff.): Album belonging
+				  to "Cornelia," Collection of poems by friends,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">70</unitid>
+            <unittitle>English (1844ff.): Poems by Jonathan
+				  Tilson (see Jantz's note inside cover),
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">71</unitid>
+            <unittitle>English (undated [19th c.?]): Anon.:
+				  Music notebook, several texts, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">72</unitid>
+            <unittitle>English (undated [19th c.]): Anon.:
+				  Collection of poems, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">73</unitid>
+            <unittitle>English (undated [18th c.]): Anon.:
+				  Copies of poems, sayings, etc.,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">74</unitid>
+            <unittitle>Latin (1665): [Maurizio Fieschi:
+				  Comitis de Flisco Decas de Facto...astrological treatise,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">75</unitid>
+            <unittitle>German (1905): Rudolf Réer: Die
+				  Vergangenheit der Rosenau, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">76</unitid>
+            <unittitle>German (1800): Anon.: Wilhelm Brau,
+				  oder die Folgen des Franzosischen Kriegs, Erster Theil,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">77</unitid>
+            <unittitle>German (ca. 1701): Anon.(?):
+				  Probier: Küntz: und Schmeltz Büches(?), (Apothecary
+				  Matters), Manuscript-bound </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">78</unitid>
+            <unittitle>German (1748): Johann Christian
+				  Edelmann: Die andere Epistel St. Harenbergs an Johann
+				  Christian Edelmann, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">79</unitid>
+            <unittitle>German (1776): Das gelehrte
+				  Teutschland oder Lexikon der jeztlebenden Teutschen
+				  Schriftsteller angefangen von Georg Christoph Hamberger,
+				  fortgesetzt von Johann Georg Meusel, Lemgo: Meyersche
+				  Buchhandlung, 1776, 3rd ed., Printed book with some
+				  manuscript augmentations/emendations</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">80</unitid>
+            <unittitle>German (1831): Einschreibebuch für
+				  H. H. Graue, Ledger-wts./measures,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">81</unitid>
+            <unittitle>German (1789): Tobias Oßwald: Der
+				  wohlriechende Blumen-Garten...(Prayer Book),
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">82</unitid>
+            <unittitle>German (1576?-see p. 301): Anon.:
+				  Lebensbeschreibung des Ritters Görz von Berlichingen,
+				  manuscript bound, (see letter from Dr. Helgard Ulmschneider
+				  and pp. 42-43 of Ulmschneider's Book: Götz von
+				  Berlichingen: Mein Fehd und Handlungen, Sigmaringen,
+				  1981)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">83</unitid>
+            <unittitle>German (undated): Der ächte Eidsgenoß:
+				  Eine wöchentliche Sittenschrift: Dritten Jahrgang,
+				  Manuscript-bound (with printed t.p.) (from Friedrich
+				  Gundolf's library with his signature Basel
+				  1930)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">84</unitid>
+            <unittitle>German (1796): Joh. Dan. Pohle:
+				  Allerleÿ merkwürdige Sachen welche seit dem Anfange des
+				  1793 sten Jahres in der Gegend des Erfurthischen Gebieths
+				  vorgefallen sind, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">85</unitid>
+            <unittitle>German (1852): Anon.: Seereise eines
+				  fahrenden Malers von Amsterdam nach Constantinopel,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">86</unitid>
+            <unittitle>German (1895): R. Wolfgang: Auszüge
+				  Aus dem Cod. Pal. 343 (Liederhandschrift d. XVI Jhhs.),
+				  Copiert 12-I-95 - 14-III-95 (see Deutsche Texte des
+				  Mittelalters, Bd. V Berlin, 1905),
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">87</unitid>
+            <unittitle>German (1896): R. Wolfgang:
+				  Abschrift der Wernigeroder Liederhandschrift Zg 15, Saec.
+				  XVI-XVII, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">88</unitid>
+            <unittitle>German (undated [19th c.?]): Johann
+				  Polischanzky: Vergies mein nicht,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">89</unitid>
+            <unittitle>Latin (with some German)(undated [18th
+				  c.]): Anon.: A Deo sit felicis anni avspicivm,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">90</unitid>
+            <unittitle>French (1815ff.): Lettres de Madame
+				  Bertrand (References to Napoleon),
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">91</unitid>
+            <unittitle>Italian (1555): G. Postello (?): Le
+				  Prime Nove del Altro Mondo...La Vergine Venetiana,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">92</unitid>
+            <unittitle>German (1778): Anon.: Geschichte des
+				  berühmten Portugisischen Juden Duliz,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">93</unitid>
+            <unittitle>German (1830): Anon.: Biblische
+				  Archäologie, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">94</unitid>
+            <unittitle>German (undated): Anon.: Himmlische
+				  Herzenshoffnung, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">95</unitid>
+            <unittitle>German (ca. 1720): Collection of six
+				  copies of original manuscripts, Manuscript-bound (see
+				  description of ms. inside cover)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">96</unitid>
+            <unittitle>English (mid 18th c.): Manuscripts
+				  of the late Richard Gouch, esq., Partially
+				  bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">97</unitid>
+            <unittitle>German (1780-1794): Abbe Andreas
+				  Stütz: 108 poems and plays, Manuscript-bound, see
+				  description enclosed</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">98</unitid>
+            <unittitle>German (1835): Ferdinand v. d. Golz:
+				  Sketches, maps, etc., Christmas gift for his parents,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">99</unitid>
+            <unittitle>English (1836): William Potter(?):
+				  Journal: Chemistry, botany, recipes, etc.,
+				  Manuscript-bound, 2 vols.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">100</unitid>
+            <unittitle>German (1719): Anon.: Travel journal
+				  (1719-1724), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">101</unitid>
+            <unittitle>German (undated): Anon.: Kurtze
+				  Andachtsübungen...(Prayer Book),
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">102</unitid>
+            <unittitle>English (before 1806): T. Wright: Maxims, Queries, and Apophthegms, Manuscript-bound. From the library of Sir W. Betham with his ownership mark. Recorded in the auction of by R H Evans, London, 1830 as lot 402; and subsequently in Thorpe's Catalogue of Manuscripts 1830, as item 14761.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">103</unitid>
+            <unittitle>German (1844?-see p. 297; 1863?-see
+				  title page): ?: Hamlet: Prinz von Dänemark (Play),
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">104</unitid>
+            <unittitle>English (1857): M.L. King (Montreal)
+				  to Annie Mackay: Poems to A. Mackay from friends,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">105</unitid>
+            <unittitle>English (1830's and 1840's): Ruth
+				  Schuyler (?): Poems, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">106</unitid>
+            <unittitle>English (1826ff.): Poems written for
+				  Lucinda Olcott, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">107</unitid>
+            <unittitle>English (1826ff.): Poems written for
+				  Eliza Sabin, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">108</unitid>
+            <unittitle>English (1827ff.): Poems for Emeline
+				  Ronnsville, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">109</unitid>
+            <unittitle>English (? [19th c.]): Diary of
+				  William Whiteway from December, 1618 to March, 1634 (copied
+				  by J.B. Baxter?), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">110</unitid>
+            <unittitle>German (1800): Wenzl Benedikt Sack:
+				  Sammlung verschiedener poetischer Werke,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">111</unitid>
+            <unittitle>English (?[19th c.?; one poem
+				  1819]): John Brown: Fantasies in Rhyme,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">112</unitid>
+            <unittitle>English (1851): Augustus Griffin:
+				  Rhymes (written down for his grandson), dating back to
+				  1795, Manuscrip- bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">113</unitid>
+            <unittitle>German/Latin (undated): Anon.: vom
+				  Ursprung der Brüder Vom Teutschen
+				  Hauß...Manuscript-beautifully bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">114</unitid>
+            <unittitle>English (undated): Anon.: A novel on
+				  spiritualism, Manuscript-softbound (typed)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">115</unitid>
+            <unittitle> Hebrew (undated): ?: Manuscript-bound,
+				  11 leaves</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">116</unitid>
+            <unittitle>Latin (undated [19th c.?]): I.A. Hasse:
+				  Puer Natus (musical composition),
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">117</unitid>
+            <unittitle>German (1844ff.): Carl Dresel von
+				  Geisenheim: Album with poems, sayings, etc. (note Hoffmann
+				  von Fallersleben), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">118</unitid>
+            <unittitle>German (1841ff.): Gedichte von
+				  Julius Dresel, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">119</unitid>
+            <unittitle>German (1849ff.), Letters of Carl
+				  Dresel-Tenge, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">120</unitid>
+            <unittitle>English (c. 1903): A.E.F. Horniman,
+				  trans.: Trans. of G.F. Borri's, The Key of the Cabinet of
+				  the Cavaliere G.F. Borri, typewritten, bound manuscript
+				  (see description inside cover)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">121</unitid>
+            <unittitle>English (20th c.): ?: Forty-nine
+				  holograph letters of together eighty-one pages written by
+				  John Quincy Adams and one letter written by his secretary
+				  T. Welsh between 1797 April 2 and 1801 July 5, typed, Bound
+				  Manuscript</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">122</unitid>
+            <unittitle>Latin (undated): Anon.: Martinitz,
+				  Bernard von.: Quadratsra Circuli Stegano Graphici,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">123</unitid>
+            <unittitle>Latin (1611?): Anon.: Primi et
+				  Primigenii/Germanicae Gentis Maiores et Progenitores
+				  Eiusdem..., Manuscipt-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">124</unitid>
+            <unittitle>Latin (undated [late 18th-early
+				  19th?]): ?: Astrological/Biblical Treatises, 2 volumes
+				  (some Hebrew), Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">125</unitid>
+            <unittitle>English (1820s-1830s): Anon.:
+				  Ledger, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">126</unitid>
+            <unittitle>English (18th c.): Copy of
+				  Telemann's Concerto in C Major for recorder and strings,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">127</unitid>
+            <unittitle>German (Late 16th c.): Anon.:
+				  Chronicle of Germany dating back to 5th C.,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">128</unitid>
+            <unittitle>English (1859?): Anon.:
+				  Recollections and Reminiscences (On Board a Clipper Ship
+				  Headed for China), Manuscript-bound and unbound earlier
+				  [first?] draft</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">129</unitid>
+            <unittitle>Latin (1701): Jacob Utecht: Opus
+				  Naturae et Artis..., (Alchemy),
+				  Manuscript-softbound,</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">130</unitid>
+            <unittitle>German (17th c.): Matthias Abele
+				  (1616 or 18-1677): Metamorphosis Telae Judiciariae
+				  (Seltzame Gerichts-Händel), Manuscript-fragment</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">131</unitid>
+            <unittitle>German (1744): Anon.: Krönung Mariae
+				  der 12 Sternen genannt, Manuscript-softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">132</unitid>
+            <unittitle>German (1744): Anon.: Krönung Mariae
+				  der 12 Sternen genannt (Copy 2),
+				  Manuscript-softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">133</unitid>
+            <unittitle>German (1744?): Anon.: Krönung
+				  Mariae der 12 Sternen genant (Copy 3),
+				  Manuscript-softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">134</unitid>
+            <unittitle>English (1833): [Elizabeth]:
+				  Friendship, Poems by friend(s?) to Owner, fragmented,
+				  Manuscript-softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">135</unitid>
+            <unittitle>English (185?): [Dalston?]:
+				  Anecdotes and jokes, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">136</unitid>
+            <unittitle>English (undated): Isaac C. Day: Music
+				  book, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">137</unitid>
+            <unittitle>English (1847): Anon.: Classroom
+				  lecture notes of Profs. Silliman's and Olmsted's
+				  classes</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">138</unitid>
+            <unittitle>German (1788): Zimmermännische
+				  Schrift über Friedr[ich] des Großen, Unbound Manuscript
+				  (Göttingen)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">139</unitid>
+            <unittitle>German (undated [18th c.?]): Anon.: 77
+				  pages of <emph render="doublequote">Lieder</emph> and index,
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">140</unitid>
+            <unittitle>German (undated): Pepi Raics's(?)
+				  Ausgewählte Gedichte, Manuscript-softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">141</unitid>
+            <unittitle>German (undated): Anon.: Das
+				  Bauern-Mädchen und der Stadt Junge, Unbound manuscript,
+				  music and text</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">142</unitid>
+            <unittitle>German (Swiss?)(undated): Leopold
+				  Koppelhuber et al.: Der Budl-Haubn-Teufel, et al., Unbound
+				  Manuscript</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">143</unitid>
+            <unittitle>German (undated): <emph render="doublequote">Einblattdrucke,</emph> mss. and
+				  fragments</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">144</unitid>
+            <unittitle>German (1823?): T.F. Castellÿ:
+				  Gabriele, Partial manuscript (first 3 leaves), bound,
+				  mostly printed text</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">145</unitid>
+            <unittitle>German (31. VIII. 1838): Friedrich
+				  Halm: Der Adept: Trauerspiel in 5 Aufzügen,
+				  Manuscript-softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">146</unitid>
+            <unittitle>German (1820): Adolf Bäuerle: Die
+				  Falsche Prima Donna, Pesth: Hartlebens Verlag, with
+				  emendations (by author?), Printed</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">147</unitid>
+            <unittitle>Kaiser: Die Schule des Armen,
+				  printed</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">148</unitid>
+            <unittitle>German (1631): Abraham von
+				  Franc...?: Saephiriel (himmlisches Licht und magischer
+				  Bericht: die Geheimnisse der Zahlen),
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">149</unitid>
+            <unittitle>German (1672): Anon.: Dienstbarkeit
+				  zwischen denen Lieben Abent Music...(A Play),
+				  Manuscript-softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">150</unitid>
+            <unittitle>German (undated): Anon.: Poem: So geht
+				  der Feldzug wieder An, Unbound manuscript</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">151</unitid>
+            <unittitle>German (1681): Anon.: Tragico
+				  Comoedia genant, Die siegende Unschuldt (play), Unbound
+				  manuscript</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">152</unitid>
+            <unittitle>German (Swiss?)(undated): [Leopold
+				  Koppelhuber?]: Der Budelhaubn-Toifl, Unbound
+				  Manuscript</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">153</unitid>
+            <unittitle>English (1829): Compositions read
+				  before The Society of Mutual Instruction: by Ebr. Denison,
+				  Manuscript-Partially softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">154</unitid>
+            <unittitle>English (1829): Lectures in Science
+				  by Ebr. Denison, Manuscript-softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">155</unitid>
+            <unittitle>English (1821-1823): Journal
+				  (Anon.), Jantz's note: <emph render="doublequote">by an
+				  apprentice of Middletown, Conn.,</emph>
+				  Manuscript-softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">156</unitid>
+            <unittitle>German (pre-1840): J.M. Firmenich
+				  (1808-1884): Clotilda Montalvi, (published 1840),
+				  Manuscript-softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">157</unitid>
+            <unittitle>German (18th c./19th c.): Goethe and
+				  Falk autographs and a 19th c. Goethe Apocryphal
+				  poem</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">158</unitid>
+            <unittitle>English (1802): Joseph Strong:
+				  Sermon...General Election, 1802, printed</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">159</unitid>
+            <unittitle>German (1858): Knut Jungbohn
+				  Clement: Die Bekehrung Englands...,
+				  Manuscript-softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">160</unitid>
+            <unittitle>Spanish (undated): Anon.: Religious
+				  treatise, Softbound manuscript (Vellun)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">161</unitid>
+            <unittitle>German (1790): [Georgius
+				  Clottus(?)]: Von des Goldes Anfang...Unbound
+				  manuscript</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">162</unitid>
+            <unittitle>English (1851): Ebr. Denison Jr.
+				  (?): Philosopy, Manuscript-softbound,</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">163</unitid>
+            <unittitle>English (undated, 19th c.): Anon.:
+				  Notes on Goethe, Unbound manuscript</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">164</unitid>
+            <unittitle>German (ca. 1810): Andegar Grundfest
+				  von Braunschweig: Geschichte der Fürstlichen Aebte zu
+				  Kempten, Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">165</unitid>
+            <unittitle>German (undated, [18th c.?]): Anon.:
+				  Citation derer sieben Planeten und anderer Geister durch
+				  die magischen Bilder (Astrological),
+				  Manuscript-bound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">166</unitid>
+            <unittitle>German (1851): Copy of Goethe's
+				  Faust, Manuscript-softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">167</unitid>
+            <unittitle>Swedish (1747): Johan Goransson: Is
+				  Atlinga, Stockholm: Lars Salvius, 1747, Printed
+				  book</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">168</unitid>
+            <unittitle>English (1833-1834): Charles G.
+				  Bush: Seaman's journal, Manuscript-softbound</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">169</unitid>
+            <unittitle>German (16th c.-19th c.): A
+				  Collection of mostly unbound manuscripts from the 16th
+				  through 19th c.: Letters, documents, etc.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unitid label="No.">170</unitid>
+            <unittitle>English (17th c.): 3 sheets vellum
+				  ms. (shelved in Jantz B. Broadside box) </unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  <!--Begin c02 levels here-->
+   </archdesc>
+</ead>

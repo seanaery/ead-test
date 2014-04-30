@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead><eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+
+<eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::African American Miscellany, 1757-1983)//EN" url="http://library.duke.edu/rubenstein/findingaids/africanamericanmisc/">africanamericanmisc</eadid>
+<filedesc>
+	<titlestmt>
+		<titleproper>Guide to the African American Miscellany,
+			<date normal="1757/1983" era="ce" calendar="gregorian">1757-1983 and undated</date>
+		</titleproper>
+		<author>Processed by: Rubenstein Library Staff; machine-readable finding aid created by: Tanner Capps, Paula Jeannet Mangiafico, Kevin Modestino, Chloe Rockow</author>
+	</titlestmt>
+
+	<publicationstmt>
+	<publisher><lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+		<p><date normal="2010" encodinganalog="date" era="ce" calendar="gregorian"> 2010</date> Duke University. All Rights Reserved.</p>
+	</publicationstmt>
+
+	<notestmt>
+	<note><p>Aleph Number: <num type="aleph">002779193</num></p></note></notestmt>
+</filedesc>
+
+<profiledesc>
+	<creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+		<date era="ce" calendar="gregorian">Date of source: March 2010</date><lb/>Processed by Rubenstein Library Staff, December 1980; finding aid encoded by Tanner Capps, Paula Jeannet Mangiafico, Kevin Modestino, and Chloe Rockow, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, <date era="ce" calendar="gregorian">June 2010</date>
+
+
+	</creation>
+	<langusage>Description is in
+		<language langcode="eng">English</language>
+	</langusage>
+
+	<descrules>Finding aid was prepared using
+		  <title linktype="simple">DACS</title> and local
+		  <title linktype="simple">Style Guide</title></descrules>
+
+</profiledesc>
+<!-- Location of <revisiondesc> if needed -->
+</eadheader>
+<frontmatter>
+<titlepage>
+<titleproper>Guide to the African American Miscellany, <date type="span" era="ce" calendar="gregorian">1757-1983 and undated</date>
+</titleproper>
+<publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+<p><date normal="2010" era="ce" calendar="gregorian">(C) 2010</date> Duke University. All Rights Reserved.</p>
+</titlepage>
+</frontmatter>
+
+<archdesc level="collection" relatedencoding="MARC">
+<did>
+<head>Descriptive Summary</head>
+<repository label="Repository">
+<corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname></repository>
+<origination label="Creator"><corpname encodinganalog="110">Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library.</corpname></origination>
+<unittitle label="Title" encodinganalog="245">African American Miscellany <unitdate normal="1757/1983" type="inclusive" era="ce" calendar="gregorian">1757-1983 and undated</unitdate>
+</unittitle>
+
+<langmaterial label="Language of Material" encodinganalog="546">Material in <language langcode="eng"> English</language>
+</langmaterial>
+
+<physdesc label="Extent">
+
+<extent unit="linear feet" encodinganalog="300">0.6 Linear Feet</extent><lb/>
+<extent unit="items">419 Items</extent>
+</physdesc>
+
+<physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+
+
+<abstract encodinganalog="520" label="Abstract">Collection of print and manuscript items relating to African and African American history assembled over a number of decades by the staff of the David M. Rubenstein Rare Book &amp; Manuscript Library at Duke University. Collection contains approximately 400 items documenting the sales, escapes, and emancipations of slaves from colonial times through the Civil War, the civil rights era from 1950-1970, and to a lesser extent, the period in between the 1870s and the 1950s. The documents bring to light details of the lives and deaths of enslaved and free Africans and African Americans in the Southern United States, especially in North Carolina and Virginia, and of economic factors in the trade, sale, and exchange of slaves and other individuals. There are also six albumen studio portrait photographs, mounted on card stock, dating from the second half of the 19th century, along with a copper token from the American Colonization Society, dated 1833.</abstract>
+</did>
+
+<descgrp type="admininfo">
+<head>Administrative Information</head>
+
+<accessrestrict encodinganalog="506">
+<head>Access Restrictions</head><p>Collection is open for research.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p><p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+</accessrestrict>
+
+<userestrict encodinganalog="540">
+<head>Copyright Notice</head>
+<p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+</userestrict>
+
+<prefercite>
+		  <head>Preferred Citation</head>
+		  <p>[Identification of item], African American Miscellany, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</p>
+		</prefercite>
+<acqinfo encodinganalog="541">
+<head>Provenance</head>
+<p>The items in the African American Miscellany were acquired by the David M. Rubenstein Rare Book &amp; Manuscript Library and assembled as an artificial collection from the 1940s to the 1980s.</p>
+</acqinfo>
+
+<processinfo>
+<head>Processing Information</head>
+<p>Processed by Rubenstein Library staff, December 1980</p>
+<p>Initial inventory created by Robert Carlson, Jonathan Grilli. Encoded by Tanner Capps, Paula Jeannet Mangiafico, Kevin Modestino, and Chloe Rockow, June 2010.</p>
+<p>Multiple accessions were merged into one collection, described in this finding aid.</p>
+<p>Guide updated to include accessions 2012-0194, 2013-0028, 2013-0176 by Alice L. Poffinberger, February 2014, and 2014-0048 in March 2014.</p>
+<p>Descriptive sources and standards used to create this inventory: <title render="italic" linktype="simple">DACS,</title> EAD, NCEAD guidelines, and local <title render="italic" linktype="simple">Style Guide.</title></p>
+<p>This finding aid is NCEAD compliant.</p>
+</processinfo>
+</descgrp>
+
+<!--end of finding aid header-->
+
+
+<scopecontent>
+<head>Collection Overview</head>
+
+<p>Collection of manuscript and print items relating to African and African American history assembled over a number of decades by the staff of the David M. Rubenstein Rare Book &amp; Manuscript Library at Duke University. Collection contains approximately 400 items dating from 1757-1983 documenting the sales, escapes, and emancipations of slaves from colonial times through the Civil War, the civil rights era from 1950-1970, and to a lesser extent, the period in between the 1870s and the 1950s. Formats include bills of sale and other financial transations; receipts; notes; lists of slaves by names, ages, and sex; wills; insurance policies; emancipation papers; letters; advertisements; clipppings; pamphlets; a few books and serials, and a copybook dating from 1812 with a handwritten poem voicing the support of abolitionism. Among the earliest documents are bills of sale from the 1700s. There are also ships' slave manifests from the "DeKalb" and "Hercules," and one list of slaves and free people in Virginia, 1801-1850. The collection brings to light details of the lives and deaths of enslaved and free Africans and African Americans in the southern United States, primarily in North Carolina, Virginia, and Kentucky, but also in Alabama, Georgia, Louisiana, Maryland, Mississippi, New York, South Carolina, and Tennessee. The collection also contains a series of various items related to the civil rights movement, covering such events as the 1968 Orangeburg Massacre in South Carolina; various readings and speeches from that time; letters from individuals such as Julian Bond and a relative of Medgar Evers; and materials on education in the Southern States, race relations in various states, and on the activities of associations such as the NAACP, with material on Ann Atwater, an activist from Durham, North Carolina. Also includes two letters from NAACP branch offices in 1960, discussing possible support for the lunch counter sit-ins in Greensboro, N.C. There are six albumen studio portrait photographs, mounted on card stock, dating from the second half of the 19th century, along with a copper token from the American Colonization Society, dated 1833.</p>
+
+<arrangement>
+<head>Collection Arrangement</head>
+
+<p>Collection is arranged into the following series: <ref linktype="simple" target="s1" show="replace" actuate="onrequest">Slavery</ref>, <ref linktype="simple" target="s2" show="replace" actuate="onrequest">Civil Rights</ref>,  <ref linktype="simple" target="s3" show="replace" actuate="onrequest">Other Printed Material</ref>, and <ref linktype="simple" target="s4" show="replace" actuate="onrequest">Artifacts and photographs</ref>.The items in each series are arranged in date order, with undated items last.</p>
+
+</arrangement>
+</scopecontent>
+
+<!-- Use "Controlaccess Tags" clip here for control access information. -->
+
+
+<controlaccess>
+<head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+<list type="simple">
+<item><subject source="lcsh" encodinganalog="650">African Americans -- History -- 1863-1877</subject></item>
+<item><subject source="lcsh" encodinganalog="650">African Americans -- Legal status, laws, etc.--North Carolina</subject></item>
+<item><subject source="lcsh" encodinganalog="650">African Americans -- North Carolina -- History -- 18th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">African Americans -- Civil Rights -- North Carolina -- Greensboro</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Civil Rights demonstrations -- North Carolina -- Greensboro</subject></item>
+<item><subject source="lcsh" encodinganalog="650">African Americans -- North Carolina -- Greensboro</subject></item>
+<item><subject source="lcsh" encodinganalog="650">African Americans -- North Carolina -- Greensboro</subject></item>
+<item><subject source="lcsh" encodinganalog="650">African Americans -- North Carolina -- History -- 17th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">African Americans -- Social conditions -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">African American women -- North Carolina -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">African American women -- United States -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">African American women -- United States -- Social conditions -- 19th century</subject></item>
+<item><genreform>Albumen photographs</genreform></item>
+<item><subject source="lcsh" encodinganalog="650">Antislavery movements -- United States -- History -- 19th century</subject></item>
+<item><persname source="lcsh" encodinganalog="600">Atwater, Ann, 1935-.</persname></item>
+<item><persname source="lcsh" encodinganalog="600">Bond, Julian</persname></item>
+<item><genreform source="aat" encodinganalog="655">Broadsides</genreform></item>
+<item><subject source="lcsh" encodinganalog="650">Civil rights movements -- Southern States</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Civil rights movements -- United States</subject></item>
+<item><genreform source="aat" encodinganalog="655">Copybooks</genreform></item>
+<item><persname source="lcsh" encodinganalog="600">Evers, Medgar</persname></item>
+<item><subject source="lcsh" encodinganalog="650"> Free African Americans -- United States -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Free African Americans -- United States -- Social conditions -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Freedmen</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Fugitive slaves -- United States</subject></item>
+<item><corpname source="lcsh" encodinganalog="610">National Association for the Advancement of Colored People</corpname></item>
+<item><subject source="lcsh" encodinganalog="650">Slave trade -- Africa</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slave trade -- United States</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- Alabama -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- Economic aspects -- United States -- History</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- Georgia -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- Kentucky -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- Louisiana -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- Maryland -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- Mississippi -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- New York -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- North Carolina -- History -- 18th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- North Carolina -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- South Carolina -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- Tennessee -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- Virginia -- History -- 18th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- Virginia -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slavery -- United States -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slaves -- Emancipation -- United States -- History -- 18th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slaves -- Emancipation -- United States -- History -- 19th century</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Slaves -- Legal status, laws, etc.--United States</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Southern States -- History -- 19th century -- African Americans</subject></item>
+<item><genreform>Tokens. </genreform></item>
+<item><subject source="lcsh" encodinganalog="650">United States -- History -- Civil War, 1861-1865 -- African Americans</subject></item>
+</list>
+</controlaccess>
+
+
+<relatedmaterial>
+<head>Related Material</head>
+
+<archref linktype="simple">
+<unittitle label="Collection">Broadside Collections</unittitle>
+<repository label="Repository">David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</repository>
+</archref>
+
+</relatedmaterial>
+
+
+
+<dsc type="combined">
+<head>Contents of Collection</head>
+
+<c01 level="series">
+<did>
+<unittitle id="s1">Slavery Series, <unitdate type="inclusive" normal="1757/1867" era="ce" calendar="gregorian">1757-1867 and undated</unitdate></unittitle>
+<physdesc><extent>(1 box, 2 folders)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Series of documents arranged in chronological order by date from 1757 to 1867 detail the sale of slaves, individuals and groups; prices of slaves; lists of names; runaway slaves; court cases; and many other transactions and events involving enslaved Africans or African Americans. In addition, there are many manuscripts concerning the emancipation or status of free persons of color. Although bills of sale predominate, document formats and genres also include letters, receipts, notes, indentures, deeds, wills or inheritances, ship's manifests, court documents, life insurance policies, information on auctions and markets, bonds, and other financial transactions. There is a copybook dating from 1812 that contains a handwritten poem, <title render="doublequote" linktype="simple">The Blood Brother,</title> voicing support for abolitionism.  Documents primarily originate from North Carolina, Virginia, and Kentucky, but items from Alabama, Georgia, Louisiana, Maryland, Mississippi, New York, South Carolina, and Tennessee are also present. Details in entries taken directly from documents; in some cases dates and place names were not present or legible. Undated items are found at the end of the series.</p>
+</scopecontent>
+
+<c02><did><container type="box">1</container><unittitle>1757 Apr.-Nov., Bill of sale, Court of Common Plea, Court at Camden</unittitle></did></c02>
+
+<c02><did><unittitle>1757 Mar. 18, Bill of sale for one slave: Beth, 8 year old girl; sold by Lawrence Lancaster to Thomas Cook for £32, 10 shillings</unittitle></did></c02>
+
+<c02><did><unittitle>1757 Apr. 17, Bill of sale for one slave boy: Leander, 13 y.o., $1700, to E.H. Simmons</unittitle></did></c02>
+
+<c02><did><unittitle>1760 Sept. 1, Bill of sale for one slave girl: 11 y.o., 32 pounds and 10 shillings, from Absalom Lancaster to Thomas Cook</unittitle></did></c02>
+
+<c02><did><unittitle>1771 Apr. 17, Bill of sale for one slave, from Aroh Currison to Thomas Cook, N.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1779 Feb. 11, Bill of sale for three slaves: Toby, James, and Jacob, from Zachariah Flurry to James Prown, S.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1779 Apr. 14, Bill of sale for multiple slaves,, from Dan Heyer,  S.C. </unittitle></did></c02>
+
+<c02><did><unittitle>1780 Mar. 1, Bill of sale for one slave: Hal, from William Merrit to Rob Long, Chatham County N.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1787 Apr. 2, Bill of sale for one slave woman: Catey, 60 pounds and 18 shillings, from Abiyah Holbrook to Samuel Boykin</unittitle></did></c02>
+
+<c02><did><unittitle>1794 Apr. 7, Bill of sale for one slave: Glasgow, 48 pounds currency</unittitle></did></c02>
+
+<c02><did><unittitle>1794 Oct. 14, Import/Export document for two bales of blankets, imported by Thomas Shaw, New Orleans</unittitle></did></c02>
+
+<c02><did><unittitle>1794 Oct. 21, Bond payment slip for 325 pounds to Robert Pasley</unittitle></did></c02>
+
+<c02><did><unittitle>1794 Dec. 9, Import document for 50 casks of claret, imported by John Vaughn from Bourdenaux, bound for Port au Prince</unittitle></did></c02>
+
+<c02><did><unittitle>1796 Mar. 30, Bill of sale for one slave boy, 70 pounds currency, from William Plummer to Robert Jones of Warren County, Franklin County N.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1796 Apr. 5, Emancipation of Edmund, son of Page, a mulatto woman, former property of deceased, Peter Marks, Albemarle County, Va.</unittitle></did></c02>
+
+<c02><did><unittitle>1796 Apr. 5, Emancipation of Evelin[e?] Lewis, daughter of Jenny, a mulatto woman, former property of deceased, Peter Marks, Albemarle County, Va.</unittitle></did></c02>
+
+<c02><did><unittitle>1798 May 31, John C. Town of Fredrickburg: Neptune York certified born free (about 37 years old, 5 ft. 11 inches); recorded with court September, 1803, Albemarle County, Va.</unittitle></did></c02>
+
+<c02><did><unittitle>1799 Aug. 20, Bill of sale for three slaves: one woman, Vilet; one girl, two years, Cheney; one boy, four years, [G?]ack, Cumberland County, N.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1800 Apr. 6, Emancipation of two women: Cato (about 65 years old) and Cloe (about 65 years old) freed by John Hudson's will and testament, John Nicholas, Albemarle Co., Va.</unittitle></did></c02>
+
+<c02><did><unittitle>1800 Apr. 24, Bond/Account information sheet, owner received a sum of 1000 pounds from W. Fitzpatrick</unittitle></did></c02>
+
+<c02><did><unittitle>1801-1850, <title render="doublequote" linktype="simple">Register of Negroes and Free People of Color,</title> Rustburg, Va. (oversize) </unittitle></did></c02>
+
+<c02><did><unittitle>1801 July 6, Record of emancipation of female, Frankey, by John Nicholas, Albemarle Co., Va.</unittitle></did></c02>
+
+<c02><did><unittitle>1802 Feb. 2, Bill of sale for two slaves: Mary and her daughter Eliza, to Henry Dana Ward, S.C., Northern Circuit</unittitle></did></c02>
+
+<c02><did><unittitle>1805 Mar. 5, Bill of sale for one slave boy, $350, to James Parrant</unittitle></did></c02>
+
+<c02><did><unittitle>1805 June 24, Bill of sale for two slave boys, $520</unittitle></did></c02>
+
+<c02><did><unittitle>1805 Oct 11, Two bills of sale transactions on one leaf, for Harriet, aged 20, and her daughter Elizabeth, aged 6 months, $280; and Delilah, $213, to George Legg., Baltimore, Md.</unittitle></did></c02>
+
+
+<c02><did><unittitle>1806 Nov. 20, A note proclaiming freedom, John Walker: Nancy Gardiner, a mulatto girl, age 20, born free to a free mother, Albamarle Co., Ala.</unittitle></did></c02>
+
+<c02><did><unittitle>1807 Feb. 17, Account balancing slip of paper</unittitle></did></c02>
+
+<c02><did><unittitle>1808 Dec. 27, Decree of gift of five slaves: Phill, woman, Luckey, young woman, Nanny, young woman, Allen, small boy, and Harry, small boy, from Col. John Hamilton of Norfolk, Va. to Mrs. Patey Brickall and her three children</unittitle></did></c02>
+
+<c02><did><unittitle>1809 Apr., Bill of sale for one slave woman, $400, Tenn.</unittitle></did></c02>
+
+<c02><did><unittitle>1809 May 6, Bill of sale for one slave boy: Abraham, 90 pounds, from Daniel Jackson Manea to John Kelly, Granville County, N.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1810 June 4, Bill of sale for one slave girl, $287, from David Hensler and William Maxwell of Rockingham District N.C. to Hardy Clemmond of Pendleton District, S.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1810 Nov. 1, Bill of sale for one slave woman: Serena, and her child, $440, from M. Stokes to Samuel Guy</unittitle></did></c02>
+
+<c02><did><unittitle>1811 Mar. 1, Bill of sale for one slave girl, $350, to Samuel Grey</unittitle></did></c02>
+
+<c02><did><unittitle>1811-1814, certifications of the freedom of seven men: Thomas Pritchard, Scipio Melden, William Anthony, James De Hart, Henry Tafe, Joshua Bornish, John Roberts, Court of Common Plea, 5th Ward, New York, NY </unittitle><physdesc><extent>(7 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1811 May 2, Slip of paper: "Thomas Thomson"</unittitle></did></c02>
+
+<c02><did><unittitle>1812 Jan. 23, Bill of sale for one slave man: Dave, 27 y.o., $400, to William Sutton</unittitle></did></c02>
+
+<c02><did><unittitle>1812 Nov. 18, Bill of sale for one slave: Hannah, from William Brumfield to Richard Jones</unittitle></did></c02>
+
+<c02><did><unittitle>1812 Dec. 9, Bill of sale for tract of land and two slaves: Harriet, girl, and Tanney, woman, from Mr. Maybanch, Liberty County, Ga.</unittitle></did></c02>
+
+<c02><did><unittitle>1812-1817, copybook belonging to Mary Hamlins of Salem, Ohio; includes practice scripts, arithmetic, and a poem, <title render="doublequote" linktype="simple">The Blood Brother,</title> in support of abolition</unittitle><physdesc><extent>(17 pages)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1813 Aug. 6, Bill of sale for one slave boy: Henry, 14 y.o., $300, from William Bennett to Richard Jones, Pittsylvania County, Va. </unittitle></did></c02>
+
+<c02><did><unittitle>1813 Dec. 9, Bill of sale for one slave woman: Sue, $300, to Mr. Ballins</unittitle></did></c02>
+
+<c02><did><unittitle>1815 Sept. 27, Empancipation of slave woman and daughter: Sue and Margaret, from Elizabeth Graham, Georgetown District, S.C.; also gives the former slaves $50 from her estate</unittitle></did></c02>
+
+<c02><did><unittitle>1817 May 12, Bill of sale for two slaves: woman Amy, 27 y.o. and her child Sidney, 8 m.o., $400, from Joseph and Margaret Lawrence to Samuel Guy</unittitle></did></c02>
+
+<c02><did><unittitle>1818 Feb. 18, Bill of sale for one slave girl: Esther, 20 y.o., $1500, from William Astin of Va. to Samuel Grey</unittitle></did></c02>
+
+<c02><did><unittitle>1818 Nov. 8, Bill of sale for one slave: Daniel, from Millie Allen to Robert Park</unittitle></did></c02>
+
+<c02><did><unittitle>1821 Oct. 4, List of assets, including slaves, of Adam Corraths</unittitle></did></c02>
+
+<c02><did><unittitle>1822 Jan. 14, Paper certifying that the children of Moses and Marian, named Susan, Israel and Rachel, were free</unittitle></did></c02>
+
+<c02><did><unittitle>1822 June 1, Bill of sale for one slave woman: Bell, 24 y.o., $550, from Kenneth Clarke to John Bethan, Moore County, Md.</unittitle></did></c02>
+
+<c02><did><unittitle>1822 Oct. 17, Bill of sale for one slave boy: Bedford, $309, from Mark Weatherly to Martin Weatherly, N.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1823 Apr. 12, Bill of sale for slaves, $597.92, from John Cawley, S.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1823 Apr. 29, Bill of sale for one slave woman: Jenny, $300, from Edmund Hoskins to Joseph Blount, N.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1824 Mar. 31, Bill of sale for four slaves: Milly, 2 y.o., Ann, 5 y.o., Jack, 2 y.o., and Mary, 8 m.o., $777, from James and Josiah Huie to Samuel Guy</unittitle></did></c02>
+
+<c02><did><unittitle>1824 Oct. 23, Bill of sale for one slave, $251, to Sam Woods</unittitle></did></c02>
+
+<c02><did><unittitle>1824 Nov., Bill of sale for one slave man: Dave, 35 y.o., $325, to Samuel Guy</unittitle></did></c02>
+
+<c02><did><unittitle>1824 Nov. 15, Bill of sale for one slave girl: Beck, 14 y.o., $300, to Samuel Guy</unittitle></did></c02>
+
+<c02><did><unittitle>1825 June 14, Letter discussing the author's a visit from the author's brother, Richard, and the freeing slaves to Martha Moore of N.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1827 June 1, Trust deed between William Scott, Richard Wallace, and John Pilson in which Scott gives Wallace slaves as collateral: Phyllis, woman, her child Robert Wilson, and two slave men, Jesse and Ben</unittitle></did></c02>
+
+<c02><did><unittitle>1827 Dec. 22, Bill of sale for one slave: Ben, 9 y.o., $200</unittitle></did></c02>
+
+<c02><did><unittitle>1827 Dec. 22, Bill of sale for three slaves: Jimmy, Milton, and Carter, from Peter Winn to William Ryan of Guilford County, N.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1828 Feb. 9, Bill of sale for one slave girl: 19 y.o., from Alexander Hogan to Samuel Guy</unittitle></did></c02>
+
+<c02><did><unittitle>1828 July, Bill of sale for two slave boys: Richard and Benjamin, $1200</unittitle></did></c02>
+
+<c02><did><unittitle>1828 Sept. 27, Bill of sale for one slave woman, $550, from J.K. Shelton to Richard Jones, Pittslyvania County</unittitle></did></c02>
+
+<c02><did><unittitle>1829 Jan. 16, Emancipation note of slave John Brown, from Isaac Bett, Md.</unittitle></did></c02>
+
+<c02><did><unittitle>1829 Apr. 25, Document certifying the freedom of Elias, Frederick County, Md.</unittitle></did></c02>
+
+<c02><did><unittitle>1829 May 14, Bill of sale for one slave boy: Adam, $200, from John Mae Bullers of Johnston County to Gilbert Multon, Richmond County, N.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1829 July 16 - 1830 Jan. 4, Notes to the Caroline County Jailer asking him to take slaves into custody, slaves named: Adam, Randal, Walker, Jim, and Eldrid </unittitle><physdesc><extent>(6 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1829 Aug. 21, Bill of sale for four slaves: Milly, Jim, 7 y.o., Eliza, 4 y.o., and Isaac, 18 m.o., to Gilbert Mae Millan, Richmond County, Fayetteville, N.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1830 Jan. 18, Notice announcing a slave sale to be held at Pittsylvania Courthouse [Va.?]</unittitle></did></c02>
+
+<c02><did><unittitle>1830 Apr. 16, Document certifying the freedom of Matthew Scroggins, 28 y.o., 5 ft. 5 in., Frederick County, Md.</unittitle></did></c02>
+
+<c02><did><unittitle>1830 Sept. 2, Document certifying the freedom of Solomon, Frederick County, Md.</unittitle></did></c02>
+
+<c02><did><unittitle>1831 Feb. 28, Paper from Thomas Berry detailing two bills of sale proclaiming that "William Williams, a colored man," wanted to purchase his wife and child from Berry </unittitle></did></c02>
+
+<c02><did><unittitle>1831 Apr. 19, Bill of sale for one slave: Dianah, $250, from Benjamin Grandstaff to Mr. Rice, Shenandoah County, Va.</unittitle></did></c02>
+
+<c02><did><unittitle>1832 Jan. 4, Bill of sale for one slave: Henry, 18 y.o., $450, from Morgan Davis to James Bistand of Adam County, Miss.</unittitle></did></c02>
+
+<c02><did><unittitle>1832 May 7, Document certifying the freedom of Betsy, Frederick County, Md.</unittitle></did></c02>
+
+<c02><did><unittitle>1832 Sept. 24, Court proceedings from Nelson County [Va.? Ky.?]</unittitle></did></c02>
+
+<c02><did><unittitle>1832 Dec. 8, Bond of indemnity to the Captain of the barque "Hercules," a ship that took S.C. and Ga. "colored persons" from Savannah to Liberia.</unittitle></did></c02>
+
+<c02><did><unittitle>1835 June 29, Ship manifest for the schooner "Dekalb" of "Negroes, Mulattoes, and Persons of Color," District of Baltimore, Port of Baltimore</unittitle></did></c02>
+
+<c02><did><unittitle>1835 Sept. 1, Response to John Hunt about his notice of selling 60 slaves, New Orleans</unittitle></did></c02>
+
+<c02><did><unittitle>1836 Nov. 1, Bill of sale for two slaves: James Ross's document notarized by Maria Cohen; free black woman sells Eve's children; sale of two slaves for $500 to Levi S. D'tyon - slaves: Nancy, age 8, and John, age 6</unittitle></did></c02>
+
+<c02><did><unittitle>1838 Apr. 23, Statement of the slaves belonging to heirs of John L. Ward, Richard Ward to Martha A. Power, an heir</unittitle></did></c02>
+
+<c02><did><unittitle>1838, Dec. 18, Bill of sale for two slave women, $1200, from Cole to Farmer, Halifax County [N.C.? Va.?]</unittitle></did></c02>
+
+<c02><did><unittitle>1839 June 13, Bill of sale for one slave man: Philip, $400, S.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1840 Jan. 10, Note for rental of slave man for one year from S. and N. Buck: Bill, including furnishing with winter clothing, shoes, stockings and blanket, $97.50, to Joseph Snapp, Front Royal area, Va.</unittitle></did></c02>
+
+<c02><did><unittitle>1840 Feb. 8, Bill of sale for one slave boy: Ralph, 16 y.o., $650, to Nancy Robards, N.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1840 Nov. 2, Bill of sale for one slave: Sheriff's Bill of Sale - sale of Warren, negro boy, about seven years of age for $202; buyer: Mrs. Hannah L., [B], South Carolina</unittitle></did></c02>
+
+<c02><did><unittitle>1841 Nov. 1, Bill of sale for one mulatto man: Lewis, $800, from public auction to Franklin Mores, Sheriff's Office, Sumter District, S.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1843 July 7, Bill of sale for one slave man: Jim, 26 y.o., $500, to William Mitchell, Ga.</unittitle></did></c02>
+
+<c02><did><unittitle>1844, Return of property notice for six slaves: Mariah, Hester, Adam, Sarah, Sigga, and Jane, to Paul H. Allen</unittitle></did></c02>
+
+<c02><did><unittitle>1844 Oct., Bill of sale for one slave man: Jacob, $187.50, to Richard Jones</unittitle></did></c02>
+
+<c02><did><unittitle>1844 Dec. 27, Note for rental of a slave woman from James R. Richards (executor? of the will of William Hopewells) for one year: Henrietta, including furnishing with winter clothing, shoes, and blanket, $27.50, to [J. &amp; I] Trout, Front Royal area, Va.</unittitle></did></c02>
+
+<c02><did><unittitle>1845 Mar. 12, Bill of sale for one slave and blacksmith tools: Ben, blacksmith, from John Ing to Bryant Young</unittitle></did></c02>
+
+<c02><did><unittitle>1846 Dec. 1, Bill of sale for one slave girl: Caroline, 22 y.o., $401, from public auction to Richard R. Winfrey, Hall County, Ga.</unittitle></did></c02>
+
+<c02><did><unittitle>1847 Dec. 8, Bill of sale for one slave woman: Matilda, and her two children, $550, from Peter Griggs</unittitle></did></c02>
+
+<c02><did><unittitle>1848 Feb. 29-Oct. 29, Payments, Mr. C. Pettejohn</unittitle></did></c02>
+
+<c02><did><unittitle>1843-1849, Paper detailing four bills of sale </unittitle></did></c02>
+
+<c02><did><unittitle>1849, Bill of sale for one slave boy: George, 11 y.o., $450, to Emmanuel George</unittitle></did></c02>
+
+<c02><did><unittitle>1849 Jan. 15, Affidavit certifying the freedom of a mulatto woman, 42 y.o., saying the woman was born free, written by M. Hugh Owens, Frederick County, Md.</unittitle></did></c02>
+
+<c02><did><unittitle>1849 May 11, Bill of sale for one slave woman and her two children, $812, to William B. Enecks, Barnwell District, S.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1849 July 5, Check for one slave: Davy, $485, written by C.H. Simmons</unittitle></did></c02>
+
+<c02><did><unittitle>1849 Oct. 3, Bill of sale for one slave woman, $600, from Richard Jones to Janus Pointer, Pittsylvania County, Va.</unittitle></did></c02>
+
+<c02><did><unittitle>1849 Dec. 21, Bill of sale for one slave: Susan, $575, from E. Bellin to E.H. Simmons</unittitle></did></c02>
+
+<c02><did><unittitle>1849 Dec. 22, Bill of sale for four slaves: George, Lucy, Louisa, and Piemus, $1600, from Freeman Hoyt to E.H. Simmons, Charleston, S.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1850 Mar. 4, Documents pertaining to the sale of one slave: Jenny, $618, from James M. Fitts to Henry E. Solomons, Beaufort District, Charleston, S.C. </unittitle><physdesc><extent>(2 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1850 Apr. 1, Documents pertaining to the Will of Martin Weatherly: heirs deciding his estate, mentions slaves, Francis, Viney and her son Aaron </unittitle><physdesc><extent>(2 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1850 Sept. 28, Bill of sale for one slave boy: Aron, 10 y.o., $457.50, from Erwin Hurmer to Jacob Coble</unittitle></did></c02>
+
+<c02><did><unittitle>1850 Oct. 3, Bill of sale for one slave girl: Sally, 11 y.o., $450, from Hall and Johnson to Richard Jones</unittitle></did></c02>
+
+<c02><did><unittitle>1851 Mar. 14, Auction notes and prizes, New Orleans</unittitle></did></c02>
+
+<c02><did><unittitle>1851 July 25, Arrest warrant for slave Isaac for actions on board steamboat Mary Washington, including assaults and threats made against Warren Moudowney, Corporation of Fredericksburg</unittitle></did></c02>
+
+<c02><did><unittitle>1852 Aug. 14, Bill of sale for one slave woman and her two children: Sally: 24 y.o., Lear, 2 y. and 10 m.o., and Deanah, 9 m.o., $1005, to Paul D. Felder, Orangeburgh District, S.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1853 June 29, transfer of slaves Viney and her daughter of 18 mos., Adelia, from Hezakiah and Sarah Thompson to their daughter, Adelaide Kemp, St. Helen's Parish, La.</unittitle></did></c02>
+
+<c02><did><unittitle>1853 Aug. 6, Bill of sale for one slave girl: Mariah, 14 y.o., $200, from Emanuel Geiger to Alexander Forsyth, selling because of "falling fits"</unittitle></did></c02>
+
+<c02><did><unittitle>1853 Dec. 27, Note for rental of slave woman for one year from [Schew's] &amp; McKay: Maria, including furnishing with winter clothing, shoes, stockings, bonnet, and blanket, $36, to [name excised], Front Royal area, Va.</unittitle></did></c02>
+
+<c02><did><unittitle>1855 Jan. 1, Details of will of Thomas John, deceased on 1849 May 3, Warren County, Ky. Owned slaves: George, Richard, Catherine, Louisa, and Martha, states that they should be freed 15 yr. after his death. Includes a purchase agreement for Martha, $350, for sale to Matthew Smith</unittitle></did></c02>
+
+<c02><did><unittitle>1855 Dec. 13, Bills of sale from the executor's sale of the estate of Charles E. Clark: Clarissa and her two children, Eliza and unamed infant; Matilda and her child, Fanny </unittitle><physdesc><extent>(2 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1856 Feb. 15, Bill of sale for one slave girl: Jenny, 12 y.o., $700, to Alfred Carson</unittitle></did></c02>
+
+<c02><did><unittitle>1856 Aug. 2, Bill of sale for two slaves: Emilie, 18 y.o., and Eve, 3 y.o., $1000, from Lucien Monteguet to Nathaniel Williamson, New Orleans</unittitle></did></c02>
+
+<c02><did><unittitle>1857 Jan. 25, Bill of sale for three slaves: Kitty, woman, 22 y.o., Kirt, boy, 3 y.o., and Burt, boy, 10 m.o., $1600, from Mahala F. Bowie to Hugh McDonald, Miss.</unittitle></did></c02>
+
+<c02><did><unittitle>1857 Feb. 2, Bill of sale for one slave woman: Sukey, 45 y.o., $400, from Thomas Bradshaw, Alamance County, N.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1857 Feb. 2. Bill of sale for one slave boy: Mel, $730, from Sheriff's Office to G.M. Tusen, Beaufort District, S.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1857 Feb. 12, Notes on slaves received from A. Bland's will by his two heirs, George and Albert: Young Peter, Butter, Jo, Rose, Charlotte, Young Isaac, Irvin, Harriet, Amy, Pink Jerry, Mary, Old Peter, Augusta, Isaac, Sneky, Victoria, Anderson, Charles, Pliant, Bill, Henry, Betsy, Sabra, Perry, Prince, Emily, Melissa, Gracy, Dick, Eliza, Edmond, Claire, and Jim </unittitle><physdesc><extent>(2 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1857 Apr. 30, Bill of sale for one slave boy, Henry, 9 years, $400, from Jacob Semly to G. Davidson</unittitle></did></c02>
+
+<c02><did><unittitle>1857 Aug. 8, Bill of sale for one slave boy, Grandison, from M.C. Manning</unittitle></did></c02>
+
+<c02><did><unittitle>1857 Dec. 26, Indenture to hire man, Peter, for year 1858, from Samuel Williams to J. White</unittitle></did></c02>
+
+<c02><did><unittitle>1857 Dec. 28, Note for rental of slave woman for one year from Ann H. Millar: Lucinda, including furnishing with shirts, dresses, petticoats, stockings, aprons, shoes, and blanket, $50, to Isaac Trout, Front Royal area, Va.</unittitle></did></c02>
+
+<c02><did><unittitle>1858 Feb. 8, Bill of sale for two slave women, from John Hunter to J. E. Calhoun, Grand Gulf</unittitle></did></c02>
+
+<c02><did><unittitle>1858 Mar. 2, Bill of sale for two slave women: Jane and her child, from Smith Hubbard to John Hunter</unittitle></did></c02>
+
+<c02><did><unittitle>1858 Dec. 30, Bill of sale for one slave girl: Mary, from James S. Miller to John M. Carson, Alexander County, N.C.</unittitle></did></c02>
+
+<c02><did><unittitle>1859 Mar. 11, Bill of sale for one slave woman and her four children: Susan, 30 y.o., Mary, 10 y.o., Vivey, 6 y.o., and Julia, 3 y.o., from S.S. Tompkins to John S. Smyley</unittitle></did></c02>
+
+<c02><did><unittitle>1859 June 7, Life insurance policies for two slaves: Nancy and Margaret, taken out by E.L. McNair of S.C., Chesterfield County, S.C. </unittitle><physdesc><extent>(2 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1859 Oct. 13, Bill of sale for three slaves: Mary, 28 y.o., and two children, from D.G. Crawford</unittitle></did></c02>
+
+<c02><did><unittitle>1859 Nov. 29, Letter from John Brown, prison inmate, to Mrs. George L. Strens of Boss [Boston?], Mass.</unittitle></did></c02>
+
+<c02><did><unittitle>1860 Jan. 4, Letter on relative prices of men, women, and children, from Dickinson Hill and Co., Richmond, [Va.?]</unittitle></did></c02>
+
+<c02><did><unittitle>1860 Jan. 15, Auctioneer's letter, from Pulliam and Co., Richmond, [Va.?]</unittitle></did></c02>
+
+<c02><did><unittitle>1860 Mar. 7, Bill of sale for one slave: Susan, from John S. Seabrook to P.S. Felder, Charleston</unittitle></did></c02>
+
+<c02><did><unittitle>1860 May 19, Life insurance policy for one slave: Mary, 34 y.o., taken out by Bertha Buck, Charter Oak Life Insurance Policy, Savannah [Ga.]</unittitle><physdesc><extent>(2 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1860-1861, Documents detailing the prices of Betts and Gregory slave market, list broken down by gender, age, and height, Franklin St., Richmond, [Va.?]</unittitle><physdesc><extent>(3 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1860 Nov. 30, Bill of sale for one slave: Daphney, 22 y.o., from Samuel F. Shelton to Richard Jones</unittitle></did></c02>
+
+<c02><did><unittitle>1860 Dec. 28, Letter detailing the dropping and unsustainable price of slaves, from Dickinson, Hill and Co., Richmond [Va.?]</unittitle></did></c02>
+
+<c02><did><unittitle>1861 Jan. 1, Indenture to hire slave Jenny from I.F. Torrance, Grenada, Miss.</unittitle></did></c02>
+
+<c02><did><unittitle>1861 Jan. 17, Bills of sale for one slave boy: Wash, and one slave girl: Jane, from Jacob Semly to G.L. Davidson </unittitle><physdesc><extent>(2 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1862 Oct. 8, Note for rental of slave man until 25 Dec. 1863 from Joseph Trout: [Cob Mam Oly] Kees, including furnishing with clothing, $90, to [name excised], Front Royal area, Va.</unittitle></did></c02>
+
+<c02><did><unittitle>1862 Nov. 18, Document detailing gift of slaves to James A. Clark from Richard R. Wringley, after Wringley's death</unittitle></did></c02>
+
+<c02><did><unittitle>1863 Feb. 21, Bill of sale for one slave man: Lawson, 35 y.o., from A.M. Bogle to A. Carson </unittitle></did></c02>
+
+<c02><did><unittitle>1863 Mar. 16 - June 15, Sale bonds for runaway slaves: Stephen, George, Sherrod, Charles, and Lewis, Barren County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1863 June 15, Jailer auction of runaway slaves: George, 23 y.o., Lewis, 18 y.o., Gasper, 18 y.o., Sherrod, 16 y.o., and Charles, 28 y.o., Warren County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1863 May 11, Bill of sale for one slave boy: Charles, 16 y.o., Warren County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1863 May 11, Court documents relating to the sale of slave: Miranda, belonging to Benjamin Farmer of Murphreesborough, Tenn., Warren County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1863 June 1, Bill of sale for one slave boy: Andrew, $350, to A.H. Mahey and B.J. Mahey</unittitle></did></c02>
+
+<c02><did><unittitle>1863 June 8, Court documents relating to the sale of runaway slave: Henry, belonging to James Burch of Tenn., Nelson County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1863 June 8, Bill of sale for one runaway slave: Rosetta, by A.B. Dyer, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1863 July 6, Document certifying the freedom of Thomas Segen, 21 y.o., 5 ft. 11 in., by Richard F. Graves, Powhatan County, [Va.]</unittitle></did></c02>
+
+<c02><did><unittitle>1863 Aug. 3, Court documents relating to the sale of runaway slave: John, belonging to Albert Dudley of Fayette County, Woodford County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1863 Sept. 15, Court documents relating to the sale of runaway slave: Henry, belonging to James Williams of Tenn., Madison County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1863-1864, Documents relating to the sale of a runaway slave, Jim, belonging to James Strong of Giles County Tenn, Warren County, Ky. </unittitle><physdesc><extent>(7 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1863-1864, Documents relating to the sale of a runaway slave, George, belonging to Augustus Stanley of Davidson County, Tenn., Warren County, Ky. </unittitle><physdesc><extent>(7 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1863-1864, Documents relating to the sale of a runaway slave: Amanda Adalade, belonging to Alfred Goodlon of Wilson County, Warren County</unittitle><physdesc><extent>(2 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1863 Oct. 27, Bills of sale for two slaves: Oscar, and Harry from Stewart Buchanan to G.W. Hall, Richmond, Va. </unittitle><physdesc><extent>(2 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1864 Jan. 4, Court documents relating to the sale of runaway slave: Bob, belonging to Jacob Falk of Morgan County Ala., Woodford County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1864 Jan. 5, Court documents relating to the sale of runaway slave: Edmund, Adair County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1864 Jan. 11, Court documents relating to the sale of runaway slave: Dick, belonging to John Rizer and John S. Dixon of Louisville, Nelson County, Ky., purchased by John F. Queen for $265</unittitle></did></c02>
+
+<c02><did><unittitle>1864 Feb. 8, Court documents relating to the sale of runaway slave: Anthony, belonging to Peter Ideley of Adams County, Miss., Shelby County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1864 Feb. 8, Sale bond of runaway slave boy: John, by George Pollard, Hanisan County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1864 Feb. 17, Bill of sale for one slave man: Arthur, $5500, from S. Cohen to Mr. Muse, Richmond, Va.</unittitle></did></c02>
+
+<c02><did><unittitle>1864 Mar. 14, Court documents relating to the sale of runaway slave: George, belonging to John Anderson of Nashville, Tenn., Nelson County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1864 Apr. 1, Letter for D.P. Robb concerning court proceedings on two runaway slaves, Versailles, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1864 Apr. 4, Court documents relating to sale of slave boy: Jim, from Sheriff of Adair County, Adair Co., Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1864 Apr. 26, June 4, Documents relating to the sale of runaway slave, Felix, belonging to William Boxdell of Tenn. Warren County, Ky. </unittitle><physdesc><extent>(7 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1864 Apr. 8, June 4, Documents relating to the sale of runaway slave, Frank, belonging to William Kimble of Davidson County, Tenn., $105.40, Warren County, Ky. </unittitle><physdesc><extent>(6 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1864 June 4, Documents relating to the sale of runaway slave: Charles, belonging to William Ramsey of Tenn., Warren County, Ky. </unittitle><physdesc><extent>(6 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1864 June 6, Documents detailing the deposit of $1435.53 for the use of the Treasurer of Ky. For three slaves, was 30 cents short. From J.H. Rose to W.J. Samuels, auditor, by J.H. Rose, Bowling Green, Ky. </unittitle><physdesc><extent>(2 documents) </extent></physdesc></did></c02>
+
+<c02><did><unittitle>1864 June 6, Cancelled bond for one slave: John, $752.25, cancelled by court because John had disease and died, Livingston County, Ky. </unittitle></did></c02>
+
+<c02><did><unittitle>1864 Nov. 2, Letter from James Rose to W.L. Samuels concerning runaway slaves and Maxwell's Bond</unittitle></did></c02>
+
+<c02><did><unittitle>1865 Feb. 2, Order quashing sale bond of Col. C. Maxwell, Bowling Green, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1865 May 6, Return of check, $145.33, regarding case of slave: Anthony</unittitle></did></c02>
+
+<c02><did><unittitle>1865 May 15, Receipt from William Morrison for W. Butler, $20, for advertising Jim, a runaway slave</unittitle></did></c02>
+
+<c02><did><unittitle>1865 May 24, Statement of public sale for runaway slave boy: M., by J.W. Cade, Livingston County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1865 May 24, Statement of public sale for two runaway slaves: William and John, Livingston County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1865 May 24, Bills of sale for two runaway slaves: Abner and John, Livingston County, Ky. </unittitle><physdesc><extent>(2 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1865 May, Bills of sale for one runaway slave: Anthony, Shelby County, Ky. </unittitle><physdesc><extent>(2 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1865 June 20, Receipts for [from the payments paid by] W. Butler, Adair County, Ky. for paying fees for runaway slave Jim</unittitle></did></c02>
+
+<c02><did><unittitle>1865-1866, Documents relating to the sale of two runaway slaves, Emma and Francis, belonging to Allen Butler of Crittenden County, Shelby County, Ky. </unittitle><physdesc><extent>(5 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1864-1866 Jan., Court documents relating to the sale of a runaway slave, Henry Fisher, belonging to Charles Ellis of Fayette County, Shelby County, Ky. </unittitle><physdesc><extent>(7 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>1866 Jan. 6, Letter regarding disagreement on slave fees and payments from J.W. Butler, Columbia, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1866 Jan. 20, Letter from J.W. Butler to W.T. Samuels, Esq., Columbia, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1866 Dec. 4, Court documents relating to the sale of runaway slave: Jeremiah, to John Mathis, Livingston County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1866 Dec. 6, Letter regarding refund of purchase money for slave from James W. Cade to W.T. Samuels, Esq., Smithland, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1866 Dec. 8, Letter regarding the refund of money for runaway slave John from A.V. Wood to W.J. Samuels, Cadiz, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>1867 June 17, Letter from A.B. Dyer to W.T. Samuels, Cadiz, Ky. regarding the credit due him from the 1863 June sale of runaway slave Rosetta.</unittitle></did></c02>
+
+<c02><did><unittitle>1867 July 25, Letter from A.B. Dyer to Treasurer, Cadiz, Ky., regarding payment due from sale of runaway slave Rosetta. $62.35 was enclosed.</unittitle></did></c02>
+
+<c02><did><unittitle>1867 June 27, Letter from C.C. Hooks to W.T. Samuels, Esq., Cadiz, Ky., regarding the statement for runaway slave Rosetta.</unittitle></did></c02>
+
+<c02><did><unittitle>1873 Bank Book, Freedman's Savings and Trust Company</unittitle></did></c02>
+
+<c02><did><unittitle>1924, Handwritten paper, Dr. Bracking, Murfeesboro, Tenn.</unittitle></did></c02>
+
+<c02><did><unittitle>Undated, Letter to W.T. Samuels, Warren County, Ky.</unittitle></did></c02>
+
+<c02><did><unittitle>Undated, Slave pricing sheets </unittitle><physdesc><extent>(2 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>Undated, No. 1 female slave sold for $1380</unittitle></did></c02>
+
+<c02><did><unittitle>Undated, List of names of 30 slaves</unittitle></did></c02>
+
+<c02><did><unittitle>Undated, Amounts acquired from sales of slaves</unittitle></did></c02>
+
+<c02><did><unittitle>Undated, List of slaves' ages </unittitle><physdesc><extent>(2 documents)</extent></physdesc></did></c02>
+
+<c02><did><unittitle>Undated, Slave prices for individual slaves </unittitle><physdesc><extent>(2 documents)</extent></physdesc></did></c02>
+
+<c02 level="subseries"><did><unittitle>Oversize Material</unittitle><physdesc><extent>(1 folder)</extent></physdesc></did>
+<c03><did><container type="Oversize-Box" label="Oversize Box">48</container><unittitle>1802 Jan. 22, Indenture</unittitle></did></c03>
+<c03><did><unittitle>1843 Oct. 14, Mortgage of personal property (S.C.)</unittitle></did></c03>
+<c03><did><unittitle>1852-1865, Three bills of sale (2 Ky., 1 S.C.)</unittitle></did></c03>
+</c02>
+</c01>
+
+
+
+<c01 level="series"><did>
+<unittitle id="s2">Civil Rights Series, <unitdate type="inclusive" normal="1955/1983" era="ce" calendar="gregorian">1955-1983</unitdate></unittitle>
+<physdesc><extent>(1 box)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Correspondence, pamphlets, clippings, other printed material, and one Student Non-Violent Coordinating Committee (SNCC) button, all originating from the civil rights era.</p>
+</scopecontent>
+
+
+<c02 level="subseries"><did><unittitle>Correspondence Subseries, <unitdate type="inclusive" era="ce" calendar="gregorian">1930-1976</unitdate></unittitle>
+</did>
+<scopecontent><p>Includes news bulletins and fundraising letters from the NAACP Legal Defense and Educational Fund, the NAACP Special Contributions Fund, the Southern Christian Leadership Conference, the Medgar Evers Fund, the Southern Poverty Law Center, the United Negro College Fund, and the Schomburg Center, with various attatched pamphlets and clippings.</p></scopecontent>
+
+<c03><did><container type="box">1</container><unittitle>1930 May 23, Advertisement with handwritten note: <title render="doublequote" linktype="simple">The Son of Thunder,</title> Rev. Dr. Johnson D.D., Bessemer, Ala.</unittitle></did></c03>
+
+<c03><did><unittitle>1960, Letter to branch presidents urging them to write protest letters to Woolworth and Kress presidents, hold mass protests and sitins in a non-violent manner in support of Greensboro protests, with instructions for non-violent action, Roy Wilkins, President, NAACP, New York, N.Y.</unittitle></did></c03>
+
+<c03><did><unittitle>1960, Letter to branch president Joseph A. Watkins, Flagstaff, Ariz., urging protests to support North Carolina sit-ins, stressing the national economic impact of the protests and suggesting pickett signs, from Tarea Hall Pittman, Acting Regional Secretary, NAACP West Coast, San Francisco, Calif. Includes envelope.</unittitle></did></c03>
+
+<c03><did><unittitle>1964, Fundraising letter from Allan Knight Chalmens, Chairman, "Committee of 100," NAACP Legal Defense and Educational Fund, New York, N.Y.</unittitle></did></c03>
+
+<c03><did><unittitle>1965-1968, Fundraising letters from Paul Moore Jr., Chairman, "Committee of 100," NAACP Legal Defense and Educational Fund, New York, NY with attached pamphlets: "Negroes Beaten in Grenada School Integration"; "Children and Schools"; "Poverty Attacks the Helpless"; "Wetumpka has Everything";
+"NAACP Legal Defense Fund Aids the Poor"</unittitle><physdesc><extent>(7 letters, 5 pamphlets)</extent></physdesc></did></c03>
+
+<c03><did><unittitle>1964 Oct., <title render="doublequote" linktype="simple">Mississippi: The Long Winter Ahead,</title> Report from Walter L. Goldfrank of the NAACP Legal Defense and Educational Fund Vol. II, No. 2, New York, N.Y.</unittitle></did></c03>
+
+<c03><did><unittitle>1965 June 4, Excerpts from an address by President Lyndon B. Johnson, Howard University, prepared by the NAACP Legal Defense and Educational Fund, New York, N.Y.</unittitle></did></c03>
+
+<c03><did><unittitle>1967 Mar. 11, Letter from Roy Wilkins, NAACP Special Contributions Fund, New York, N.Y. with attached clippings from the <title render="italic" linktype="simple">NY Times</title>: 1966 Nov. 22, "Negro Taken Dead from Alabama Jail; 3 Report Beating," Wektumpka, Ala.; 1966 Nov. 24, "Death of Negro in Jail is Studied"; 1966 Nov. 27, "Face of Violence in the South"; 1967 Feb. 28, "Negro leader killed by blast in Natchez," Natchez, Miss.</unittitle></did></c03>
+
+<c03><did><unittitle>1968 Nov. 2, Letter from the Southern Christian Leadership Conference, Ralph D. Abernathy, President, and Andrew J. Young, Executive Vice President with a clipping: "Score One for the Poor" (2 copies of the letter)</unittitle></did></c03>
+
+<c03><did><unittitle>1970 May 25, Letter from Charles Evers, The Medgar Evers Fund, Inc., New York, N.Y. with attached clipping: 1969 June 14,<title render="italic" linktype="simple">The New Yorker</title>, "The Talk of the Town"</unittitle></did></c03>
+
+<c03><did><unittitle>1971 July 15, Fundraising letter for Charles Evers, African American and Democratic candidate for governor of Mississippi</unittitle></did></c03>
+
+<c03><did><unittitle>1974 Oct. 1, 1975 Apr. 21, Letters from the NAACP. Special Contributions Fund, Roy Wilkins with attached pamphlets: "Save the Children"; "Hunger USA - 1975"</unittitle><physdesc><extent>(2 letters, 2 pamphlets)</extent></physdesc></did></c03>
+
+<c03><did><unittitle>1974, Letter from Julian Bond, President, Montgomery, the Southern Poverty Law Center Ala. with attached clipping: "Three Men to Die in Gas Chamber" and a letter from the N.C. State Department of Corrections</unittitle></did></c03>
+
+<c03><did><unittitle>1976 Oct., Letter from William A. McMillan to Mr. Mattie U. Russell, United Negro College Fund with attached pamphlet: "You Do Not Get Something For Nothing"</unittitle></did></c03>
+
+<c03><did><unittitle>1976 Oct., Letter from Ruth J. Bruche, Co-Chairman of the Committee for the Schomburg Center with attached pamphlet: "Treasures at Risk"</unittitle></did></c03>
+</c02>
+
+
+<c02 level="subseries"><did>
+<unittitle>Printed Material Subseries, <unitdate type="inclusive" era="ce" calendar="gregorian">1950-1983 and undated</unitdate></unittitle>
+</did>
+<scopecontent><p>Includes various pamphlets on African American life and culture, bibliographies, materials on civil rights political organizations, items relating to school integration, and newspaper clippings on these topics. Arranged in date order.</p></scopecontent>
+
+<c03><did><container type="box">1</container><unittitle>1950-1956, 1957-1966, Bibliographies compiled by Mrs. Mollie H. Lee, Richard B. Harrison, Public Library, Raleigh, N.C. </unittitle><physdesc><extent>(3 items)</extent></physdesc></did></c03>
+
+<c03><did><unittitle>1955, Pamphlet, Southern Historical Association, <title render="doublequote" linktype="simple">Three Views of the Segregation Decisions</title> by William Faulkner, Benjamin E. Mays, and Cecils Sims</unittitle></did></c03>
+
+<c03><did><unittitle>1956 July 25, Advertisement, <title render="doublequote" linktype="simple">A Physical, Not a Spiritual Separation: Race Suicide. Ecclesiastical Edict,</title> by E.S. Askey, Rt. No. 2, Windsor, N.C.</unittitle></did></c03>
+
+<c03><did><unittitle>1958 June, Pamphlet, <title render="doublequote" linktype="simple">A First Step Toward School Integration</title> by Ann Holden, edited by Jim Peck, Alexander L. Crosby, Congress of Racial Equality (CORE)</unittitle></did></c03>
+
+<c03><did><unittitle>1962 Mar. 13-15, Handouts from lecture series held at Howard University in honor of Edward Franklin Frazier</unittitle></did></c03>
+
+<c03><did><unittitle> 1965 Mar., <title render="doublequote" linktype="simple">The Negro in American History and Culture: A List of Resources for Teaching From the Urban Education Collection of the Auburn Library,</title> Urban Theological Seminary, 3041 Broadway, New York, N.Y.</unittitle></did></c03>
+
+<c03><did><unittitle>1965 Oct. 21-23, Program for "Materials By and About Negroes," an Institute sponsored by The Atlanta University School of Library Service, Atlanta, Ga.</unittitle></did></c03>
+
+<c03><did><unittitle>1965 Oct. 21-23, Program for "The Semicentennial of The Association for the Study of Negro Life and History 1915-1965," Atlanta, Ga.</unittitle></did></c03>
+
+<c03><did><unittitle>1967 June 2, Newsletter, <title render="italic" linktype="simple">Concern for a Free South (CFS)</title>, vol. 1, no. 2 </unittitle></did></c03>
+
+<c03><did><unittitle>1967 Feb. 13, Pamphlet, <title render="doublequote" linktype="simple">23rd Annual E. Azalic Huckley Memorial Concert,</title> Detroit Public Library</unittitle></did></c03>
+
+<c03><did><unittitle>1967, Flyer, <title render="doublequote" linktype="simple">Does your library have a copy of 'Eyewitness: The Negro in American History,' by William I. Katz?</title></unittitle></did></c03>
+
+<c03><did><unittitle>1967, Pamphlet, <title render="doublequote" linktype="simple">The Negro in America: A Selected List of Recent Books,</title> Detroit Public Library</unittitle></did></c03>
+
+<c03><did><unittitle>1968 Jan. 4, Pamphlet, <title render="doublequote" linktype="simple">Recent Library of Congress Publications on Africa</title></unittitle></did></c03>
+
+<c03><did><unittitle>1968 July 22-26, Program for "Bibliographic and Other Resources for the Study of the American Negro," Howard University, Washington D.C. (2 items)</unittitle></did></c03>
+
+<c03><did><unittitle>1968, Flyer, <title render="doublequote" linktype="simple">American Negro Collections: A List of References,</title> Howard University, Washington D.C.</unittitle></did></c03>
+
+<c03><did><unittitle>1968, Pamphlet, <title render="doublequote" linktype="simple">Proud Heritage: The Negro in America </title></unittitle></did></c03>
+
+<c03><did><unittitle>1968, Pamphlet, <title render="doublequote" linktype="simple">Golden State Mutual's Negro Art Collection</title></unittitle></did></c03>
+
+<c03><did><unittitle>1968, Brochure, <title render="doublequote" linktype="simple">Howard University Campus Guide</title></unittitle></did></c03>
+
+<c03><did><unittitle>1968 Feb., <title render="italic" linktype="simple">News from Southern Conference Educational Fund</title> (SCEF), Louisville, Ky. (<title render="doublequote" linktype="simple">1968 Feb. 12 Orangeburg Massacre</title>); February 1968 <title render="italic" linktype="simple">News from SCEF</title>, Student Nonviolent Coordinating Committee (SNCC) - <title render="doublequote" linktype="simple">Police Terror in Nashville</title></unittitle></did></c03>
+
+<c03><did><unittitle>1968 July, Editorial from <title render="italic" linktype="simple">McCall's Magazine</title>, <title render="doublequote" linktype="simple">What Can One Woman Do?</title> Includes six examples of how individuals have worked to reduce the disparities between "two societies." Includes Ann Atwater from Durham, N.C.</unittitle></did></c03>
+
+<c03><did><unittitle>1968 July-Aug, Magazine, <title render="italic" linktype="simple">Southern Education Report, A Magazine for Decision-Makers</title>; articles: <title render="doublequote" linktype="simple">Black Militancy and its Effect on Education</title>; <title render="doublequote" linktype="simple">Lack of African Americans on College Faculties</title></unittitle></did></c03>
+
+<c03><did><unittitle>1968 Oct. 20, Pamphlet, <title render="doublequote" linktype="simple">Readings on White Racism</title></unittitle></did></c03>
+
+<c03><did><unittitle>1968 Dec. 8, Pamphlet, NAACP Rocky Mount Branch, <title render="doublequote" linktype="simple">Annual Meeting at Mount Pisgah Church Inn</title></unittitle></did></c03>
+
+<c03><did><unittitle>1972, Flyer, Society for African Culture Abroad, <title render="doublequote" linktype="simple">Postings about Annual Summer Vacation to Nigeria</title> (2 copies)</unittitle></did></c03>
+
+
+<c03><did><unittitle>1974, Pamphlet, <title render="doublequote" linktype="simple">National States Rights Party Most Important Program Details How to Ship Negroes Back to Africa,</title> Drew L. Smith</unittitle></did></c03>
+
+<c03><did><unittitle>1975 Feb., <title render="italic" linktype="simple">Wilson Library Bulletin</title>, Vol. 49, No. 6: <title render="doublequote" linktype="simple">Mollie Huston Lee: A Profile by Ray Nichols Moore,</title> Bronx, N.Y.</unittitle></did></c03>
+
+<c03><did><unittitle>1976 Sept., Article 30, <title render="doublequote" linktype="simple">N.C. Leader Haley Traces Roots Back to Gambia, West Africa,</title> by John Burhhem</unittitle></did></c03>
+
+<c03><did><unittitle>1977, 1979, and 1982, Clippings from the <title render="italic" linktype="simple">Durham Morning Herald</title></unittitle></did></c03>
+
+<c03><did><unittitle>1979 Feb. 11-13, Pamphlet, <title render="doublequote" linktype="simple">Symposium on Prospects and Needs in Historical Editing of Afro-American Materials,</title> Durham, N.C., NCCU</unittitle></did></c03>
+
+<c03><did><unittitle>1980, Clippings from the <title render="italic" linktype="simple">Raleigh Times News and Observer</title></unittitle></did></c03>
+
+<c03><did><unittitle>1983 Sept. 21, Pamphlet, <title render="doublequote" linktype="simple">In Memoriam: Annette Lewis Phinazee,</title> Durham, N.C., NCCU</unittitle></did></c03>
+
+<c03><did><unittitle>1983, Clippings from the <title render="italic" linktype="simple">Carolina Times</title></unittitle></did></c03>
+
+<c03><did><unittitle>Undated, Flyer, <title render="doublequote" linktype="simple">FreedomCrafts of Mississippi</title></unittitle></did></c03>
+
+<c03><did><unittitle>Undated, Pamphlet, <title render="doublequote" linktype="simple">The Booker T. Washington Memorial</title></unittitle></did></c03>
+
+<c03><did><unittitle>Undated, <title render="doublequote" linktype="simple">Soul City 3 Year Plan,</title> Soul City, N.C.</unittitle></did></c03>
+
+<c03><did><unittitle>Undated, Memorabilia, Student Nonviolent Coordinating Committee (SNCC) button</unittitle></did></c03>
+</c02>
+</c01>
+
+
+<c01 level="series"><did>
+<unittitle id="s3">Other Printed Material, <unitdate type="inclusive" normal="1934/1938" era="ce" calendar="gregorian">1934-1938</unitdate></unittitle>
+<physdesc><extent>(2 folders)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Published histories of black educational institutions.</p>
+</scopecontent>
+
+<c02><did><container type="box">1</container><unittitle>1934, Book, <title render="italic" linktype="simple">History of the Brick School</title>, J.S. Inborden </unittitle></did></c02>
+
+<c02><did><unittitle>1937, Book, <title render="italic" linktype="simple">History of The Houston College for Negroes</title>, I.B. Bryant </unittitle></did></c02>
+
+<c02><did><unittitle>1938, Pamphlet, <title render="doublequote" linktype="simple">History of the Louisville Municipal College for Negroes</title> </unittitle></did></c02>
+
+</c01>
+
+<c01 level="series"><did>
+<unittitle id="s4">Artifacts and Photographs, <unitdate type="inclusive" normal="1833/1900" era="ce" calendar="gregorian">1833-1900</unitdate></unittitle>
+<physdesc><extent>(1 folder)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Six albumen studio portrait photographs, mounted on card stock, dating from the second half of the 19th century, along with a copper token from the American Colonization Society, dated 1833.</p>
+</scopecontent>
+<c02><did><container type="box">1</container><unittitle>Albumen photographs, American Colonization Society token, 1833-1900 </unittitle></did></c02>
+</c01>
+
+</dsc>
+</archdesc>
+</ead>

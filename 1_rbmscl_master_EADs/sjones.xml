@@ -1,0 +1,1793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Southgate-Jones Family Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/sjones/">sjones</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Southgate-Jones Family Papers, <date normal="1760/2008" type="inclusive" era="ce" calendar="gregorian">1760-2008</date></titleproper>
+        <author>Processed by Janie Morris and Denise Dolan; machine-readable finding aid created by
+Alvin Pollock</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <date era="ce" calendar="gregorian"> 2010</date>
+        <p>Duke University. All rights reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">001058233</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from MS Word.
+Date of source: <date calendar="gregorian" era="ce">November 6, 1991.</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Southgate-Jones Family Papers)//EN" "sjones.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce">June 29, 1998</date>
+        <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the Southgate-Jones Family Papers, <date calendar="gregorian" era="ce">1760-1990s</date></titleproper>
+      <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham, North Carolina 27708-0185</publisher>
+
+      <p> 2010 Duke University. All rights reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Southgate-Jones Family papers <unitdate calendar="gregorian" era="ce" normal="1760/2008" type="inclusive">1760-2008</unitdate>
+         </unittitle>
+      <origination label="Creator"><famname>Southgate-Jones family</famname></origination>
+      <physdesc label="Extent">
+<extent>22.4 linear feet</extent>
+<extent>circa 13,456</extent>
+</physdesc>
+      <repository label="Repository">
+        <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+        <address>
+          <addressline>Durham, North Carolina 27708-0185</addressline>
+        </address>
+      </repository>
+      <physloc label="Location">For current information on the location of these
+materials, please consult the library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+	<accessrestrict>
+	  <head>Access Restrictions</head>
+<p>Collection is open for research.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+	</accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in the Southgate-Jones Family Papers have not been transferred to
+Duke University. For further information, see the section on copyright in the Regulations and
+Procedures of the Rubenstein Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Southgate-Jones Family Papers,
+David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The Southgate-Jones Family Papers (1760-2008) were donated to the
+Special Collections Department in 1970 by members of the Jones family.
+Some papers were transferred to the collection from the former Trinity
+College Papers in 1971.</p>
+<p>Additions to this collection include: 2009-0020, 2010-0086 and 2011-0091.</p>
+      </acqinfo>
+	<processinfo>
+	  <head>Processing Information</head>
+<p>Processed by Janie Morris and Denise Dolan</p>
+<p>Date Completed: November 6, 1991</p>
+<p>Encoded by: Alvin Pollock, Stephen Miller</p>
+<p>Updated by: Meghan Lyon, February, 2009 and May, 2010</p>
+<p>Updated by: Alice Poffinberger, June 2011</p>
+<p>This finding aid is NCEAD compliant.</p>
+	</processinfo>
+    </descgrp>
+    
+	<bioghist>
+      <head>Biographical Note</head>
+        
+		<chronlist>
+        <head>James Southgate</head>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1832, July 26</date>
+            <event>Born, Edgefield, Va.</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1849-1852</date>
+            <event>Attended the University of Virginia</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1853</date>
+            <eventgrp>
+              <event>Became member of the Masonic Lodge in Norfolk, Va.</event>
+              <event>Opened Norfolk Military Institute with brother</event>
+            </eventgrp>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1857, Aug. 4</date>
+            <event>Married Delia Haywood Wynne</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1861-1863</date>
+            <event>Served in the Confederate Army</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1862-1867</date>
+            <event>President of Louisburg Female College in Louisburg, N.C.</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1872</date>
+            <event>Moved to Hillsborough, N.C., and began Southgate Insurance
+Agency, later called J. Southgate and Son</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1876</date>
+            <event>Moved to Durham, N.C. to expand insurance business</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1876-1878 and 1886-1887</date>
+            <event>Appointed Worshipful Master for Durham Masonic Lodge No.
+352</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1914, Oct. 28</date>
+            <event>Died, Durham, N.C.</event>
+          </chronitem>
+        </chronlist>
+        <p>Mr. Southgate was a teacher and educational administrator who later
+opened the first insurance business in Durham. He was a member of the
+Royal Arch Masons and the Knights Templar. After his career at Louisburg
+Female College, he served as president of Olin College in Iredell County,
+N.C. Among his children were James Haywood Southgate (1859-1916) and
+Mattie Logan Southgate Jones (1864-1936).</p>
+        </bioghist>
+		
+		<bioghist>
+		<chronlist>
+        <head>James Heywood Southgate</head>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1859, July 12</date>
+            <event>Born, Norfolk, Va.</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1878</date>
+            <event>Became partner in J. Southgate and Son Insurance
+Company</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1882, Dec.</date>
+            <event>Married Kate Shephard Fuller (d. 1892)</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1896</date>
+            <event>Elected presidential candidate on Prohibition ticket</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1896-1916</date>
+            <event>Chairman of the Board of Trustees at Trinity College</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1913-1914</date>
+            <event>President of National Association of Insurance Writers</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1916, Feb. 22</date>
+            <event>Died, Durham, N.C.</event>
+          </chronitem>
+        </chronlist>
+        <p>Mr. Southgate attended the University of North Carolina at Chapel Hill
+briefly before entering the insurance business. He played a principal role in J.
+Southgate and Son from the 1880s onward, serving as President until his
+death. He was the first in Durham to enter the banking business. Southgate
+was active in Democratic and Prohibition politics, and served as President,
+Director, or Trustee of a number of civic and professional groups including
+the Durham Chamber of Commerce, the Durham Land and Security
+Company, the North Carolina Peace Society, the Durham County Fair, the
+Citizens' National Bank, the YMCA, the Durham Public Library, and the
+Southern Conservatory of Music. He was Secretary of Durham Masonic
+Lodge No. 352 and a member of the Trinity Methodist Episcopal Church.
+</p>
+</bioghist>
+
+<bioghist>
+        <chronlist>
+        <head>Thomas Decatur Jones</head>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1852, Oct. 18</date>
+            <event>Born in Danville, Va.</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1881</date>
+            <event>Moved to Durham, N.C.</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1884, Oct. 21</date>
+            <event>Married Mattie Logan Southgate</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1889, Oct. 30</date>
+            <event>Died</event>
+          </chronitem>
+        </chronlist>
+        <p>Mr. Jones was a dealer in fancy leaf tobacco, a business which he
+expanded profitably in Durham, N.C. He had two children, including a son,
+James Southgate Jones. He was a member of the Durham Tobacco
+Association and the Durham Chamber of Commerce.</p>
+  </bioghist>      
+		
+		<bioghist>
+		<chronlist>
+        <head>Mattie Logan Southgate Jones</head>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1864, Oct. 14</date>
+            <event>Born</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1917</date>
+            <event>Helped plan women's parade for the North Carolina State
+Fair</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1918 and 1920</date>
+            <event>Campaigned for the passage of the nineteenth amendment to the
+Constitution</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1936</date>
+            <event>Died</event>
+          </chronitem>
+        </chronlist>
+        <p>Mrs. Jones attended Reverend Harris's College in Staunton, Va. Among
+the positions she held were President of the Durham Equal Suffrage League,
+President of the Durham Civic Association, and Chairman of the Fifth
+District of the Equal Suffrage Association of North Carolina. She was a
+member of the North Carolina Federation of Women's Clubs.</p>
+</bioghist>
+
+<bioghist>
+        <chronlist>
+        <head>James Southgate (<emph render="doublequote">South</emph>) Jones</head>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1888, July 23</date>
+            <event>Born</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1905-1907</date>
+            <event>Attended Bingham School in Asheville, N.C.</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1909</date>
+            <event>Opened the People's Bank in Chapel Hill, N.C.</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1910</date>
+            <event>Became President of Southgate Jones and Company Real
+Estate</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1917</date>
+            <event>Became manager of the Durham Morris Plan Company</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1920, Feb. 7</date>
+            <event>Married Nancy Amorette Green</event>
+          </chronitem>
+          <chronitem>
+            <date calendar="gregorian" era="ce">1920s-1930s</date>
+            <event>President of the North Carolina Joint Stock Land Bank of
+Durham</event>
+          </chronitem>
+        </chronlist>
+        <p>Mr. Jones also attended Washington and Lee University in Lexington,
+Va. Before opening the People's Bank, he was employed at the First
+National Bank of Durham. He was a member of the Kappa Sigma fraternity,
+the Masonic and Pythian Lodges, and the Trinity Methodist Episcopal
+Church. He was a charter member and treasurer of the Durham Chamber of
+Commerce and President of the Durham YMCA.</p>
+    </bioghist>
+
+	
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The Southgate-Jones family papers, 1794-1990s (bulk 1912-1933), are
+largely comprised of both business and personal correspondence, but also
+include printed material; photographs; genealogical information; business
+records in the form of volumes, reports, and minutes of meetings; clippings;
+and legal and financial papers. Several generations of Southgate and Jones
+family members are represented, including James Southgate, James H.
+Southgate, Mattie Logan Southgate Jones and James Southgate ("South")
+Jones. These individuals were involved in business, educational, political,
+civic, social and cultural activities in Durham and North Carolina during the
+late nineteenth and early twentieth centuries. Areas include insurance, real
+estate and tobacco businesses, banking, the administration of Trinity College,
+the women's suffrage movement, the Durham Civic Association, and Durham
+Masonic Lodge No. 352. The collection is useful for studying the history of
+Durham and North Carolina, the regional application of national policy
+toward farmers during the 1920s and 1930s, and the family history of
+prominent citizens.</p>
+      <p>A significant portion of the collection was generated by James Southgate
+Jones as President of the North Carolina Joint Stock Land Bank of Durham.
+This organization was one of twelve created by the Federal Farm Loan Act of
+1916, to encourage farmers to purchase land with low interest, long term
+loans financed by the sale of stocks and bonds to investors. The bank was
+liquidated in 1942. The majority of correspondence dating before 1930 in the
+North Carolina Joint Stock Land Bank of Durham Series contains documents
+relating to the sale of farm land in North Carolina and, to a much lesser
+extent, Virginia; the financing of loans; and, after 1930, the increasingly harsh
+economic situation farmers faced as banks foreclosed on their loans. There is
+also discussion of foreclosure policies, relief programs, and the Hull-Wolcott
+Bill of 1933 in later correspondence. Included are communications with
+investment brokers in New York and Boston, property owners, real estate
+agents in North Carolina and elsewhere, prospective clients, banks in North
+Carolina and other states, and to a lesser extent the United States Treasury
+Department. There is also correspondence between James Southgate Jones,
+other officers of the bank and members of its Board of Directors. The series
+contains some financial reports from other land banks in Nebraska, Chicago,
+California, and Washington, D.C. Also included in the financial papers
+subseries are: lists of property owned, money loaned, farms for sale, farms
+purchased, and foreclosures; receipts for the sale of land and stock; balance
+sheets; and bank expenditures.</p>
+      <p>Other family business endeavors are documented in the Correspondence
+and Business Records Series. Both series contain information about the
+business endeavors of tobacco merchant T.D. Jones, including letters and
+notes from tobacco merchants throughout the Southeast who sold his
+products. Volumes in the Business Records Series record the financial affairs
+of J. Southgate and Son, an insurance agency begun by James Southgate and
+later headed by James H. Southgate; agencies affiliated with J. Southgate and
+Son; and Southgate Jones and Company Real Estate, headed by James
+Southgate Jones. Scattered Correspondence, 1890s- early 1910s, and a
+letterbook of James H. Southgate (1901-1906), relating to J. Southgate and
+Son, concern these businesses. As President of Southgate Jones and
+Company Real Estate, James Southgate Jones handled property in North
+Carolina, such as farmland and Durham homes and businesses as well as
+property in Virginia and New York. The bulk of the Correspondence
+between 1912 and 1914 deals with the promotion of North Carolina land to
+prospective buyers, especially in the North and West; and efforts of
+businessmen to make deals with Jones. These letters may be useful for
+examining the development of Durham between 1910 and 1920. There is
+limited correspondence regarding early land stock business unaffiliated with
+the North Carolina Joint Stock Land Bank of Durham.</p>
+      <p>Information on the civic and political activities of family members is
+located in the Correspondence, Printed Material, Writings and Speeches and
+Miscellaneous Series. Correspondence, particularly after 1916, was generated
+almost exclusively by Mattie Southgate Jones's involvement in the Durham
+Civic Association and a variety of women's clubs. The Miscellaneous Series
+contains materials relating to her involvement with the North Carolina State
+Fair, suffrage, and a Durham campaign for a waste disposal program.
+Correspondence about the suffrage campaign, 1918-1922, discusses soliciting
+names for petition drives, lobbying state senators, and political strategy and
+organization. Mrs. Jones was responsible for petition drives on the Trinity
+College campus. Other suffragist leaders with whom she frequently
+corresponded include Gertrude Weil, who served as Vice President and
+President of the North Carolina Equal Suffrage Association. A letterbook
+(1897-1902) kept by James Southgate concerns his involvement with the
+Masons, Elks and Templars. In addition to a small number of letters
+pertaining to his insurance business, the bulk are to other Lodge members
+and pertain to the Grand Chapter, the national organization and other
+business of Durham Masonic Lodge No. 352, including the sponsorship of an
+Orphan Asylum in Oxford, North Carolina. James H. Southgate's letterbook
+(1901-1906) contains a small amount of correspondence, 1903-1904,
+concerning his position as a Trustee of Trinity College, and includes
+discussion of the Bassett affair and the formation of Greensboro Women's
+College.</p>
+      <p>The extensive genealogical research of Mattie Southgate Jones is located
+in the Correspondence, Genealogy, Pictures and Miscellaneous Series.
+Additional information on family members can be found in the Clippings,
+Legal Papers and Financial Papers Series. The majority of letters written in
+the Correspondence Series between 1922 and 1934 consist of contacts made
+by relatives in North Carolina and elsewhere, in response to Mrs. Jones's
+queries. The largest amount of material relates to the Jeffreys, Jones,
+Southgate, and Wynne families. Photographs in the Pictures Series
+correspond to written information, and often unidentified loose photographs
+can be matched to labeled ones in albums.</p>
+      <p>The Correspondence Series contains a small amount of commentary,
+1861-1863, on the Civil War, including letters from family members serving
+with the 1st North Carolina Cavalry Regiment. One letter includes an account
+by a civilian of the Union cavalry expedition from New Bern to Tarboro and
+Rocky Mount, North Carolina in July, 1863. The series also contains
+correspondence between family and friends. Included are a number of letters,
+1906-1930, between James Southgate Jones ("South") and his uncle James
+H. Southgate, mother Mattie Southgate Jones, and brother Lyell Jones,
+written while he was away at school or traveling. Letters, 1909-1910, that
+South and Lyell wrote during a trip out West describe new surroundings,
+particularly New Mexico. There are also letters from South, Mattie, and
+other family members to Lyell from 1912-1913, during his extended illness
+and stay at the Winyah Sanatorium in Asheville, N.C. Other correspondents
+include James Southgate and Celestia Muse Southgate Simmons.</p>
+      <p>The collection also includes lantern slides, tintypes, daguerrotypes, and
+cartes-de-visites in the Picture Series. Subjects include family members and
+Durham businesses, streets and homes in the late nineteenth and
+early-twentieth centuries.</p>
+	<p>Additions to the collection have not been interfiled, and include business records, photographs, scrapbooks, a cookbook, and autobiographies of some family members. Please consult the detailed list below for more information.</p>
+      <p>The papers of James Southgate (1832-1914) form a separate collection in
+the Duke University Special Collections Department. Collections in the Duke
+University Archives related to the career of James Haywood Southgate
+include the William Preston Few Papers, the Trinity College Board of
+Trustee Papers, and the John Carlisle Kilgo Papers.</p>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <item>
+          <famname>Southgate family. </famname>
+        </item>
+        <item>
+          <famname>Jones family. </famname>
+        </item>
+        <item>
+          <famname>Jeffries family. </famname>
+        </item>
+        <item>
+          <persname>Jones, Mattie Logan Southgate. </persname>
+        </item>
+        <item>
+          <persname>Jones, James Southgate. </persname>
+        </item>
+        <item>
+          <persname>Jones, Thomas Decatur, 1852-1889. </persname>
+        </item>
+        <item>
+          <famname>Wynne family. </famname>
+        </item>
+        <item>
+          <corpname>Freemasons. Durham Lodge No. 352 (Durham, N.C.) </corpname>
+        </item>
+        <item>
+          <corpname>North Carolina Joint Stock Land Bank of Durham. </corpname>
+        </item>
+        <item>
+          <corpname>J. Southgate and Son. </corpname>
+        </item>
+        <item>
+          <corpname>Southgate Jones and Company Real Estate. </corpname>
+        </item>
+        <item>
+          <corpname>Durham Civic Association. </corpname>
+        </item>
+        <item>
+          <persname>Weil, Gertrude. </persname>
+        </item>
+        <item>
+          <persname>Southgate, James, 1832-1914. </persname>
+        </item>
+        <item>
+          <persname>Southgate, James Haywood. 1859-1916. </persname>
+        </item>
+        <item>
+          <corpname>Durham Equal Suffrage League. </corpname>
+        </item>
+        <item>
+          <corpname>Confederate States of America. Army. North Carolina Cavalry Regiment, 1st. </corpname>
+        </item>
+        <item>
+          <corpname>Standard Mutual Life Insurance Company. </corpname>
+        </item>
+        <item>
+          <subject>Real estate business -- North Carolina -- Durham. </subject>
+        </item>
+        <item>
+          <subject>Women -- Suffrage -- North Carolina. </subject>
+        </item>
+        <item>
+          <geogname>New Mexico -- Description and travel. </geogname>
+        </item>
+        <item>
+          <geogname>Durham (N.C.)--Description and travel -- Views. </geogname>
+        </item>
+        <item>
+          <genreform>Tintypes </genreform>
+        </item>
+        <item>
+          <genreform>Daguerrotypes </genreform>
+        </item>
+        <item>
+          <genreform>Cartes-de-visite </genreform>
+        </item>
+        <item>
+          <genreform>Lantern slides </genreform>
+        </item>
+        <item>
+          <subject>Insurance companies -- North Carolina -- Durham </subject>
+        </item>
+      </list>
+    </controlaccess>
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence Series,
+<unitdate calendar="gregorian" era="ce" normal="1794/1951" type="inclusive">1794-1951 and undated </unitdate>
+<unitdate calendar="gregorian" era="ce" normal="1912/1914" type="bulk">(bulk 1912-1914).</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Business and personal letters, spanning several generations of <famname>Southgate </famname>and <famname>Jones </famname>family members. Most correspondence after <unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">1930</unitdate> is personal. Arranged chronologically. Letterbooks are arranged at the end of the loose correspondence.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1794/1874" type="inclusive">1794-1874</unitdate>(7 folders)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1875/1895" type="inclusive">1875-1895</unitdate>(7 folders)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1896/1909" type="inclusive">1896-1909, Nov.</unitdate>(8 folders)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1909/1912" type="inclusive">1909, Dec.-1912, Apr.</unitdate>(5 folders)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">5</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1912" type="inclusive">1912, May-1912, Oct.</unitdate>(6 folders)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">6</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1912/1913" type="inclusive">1912, Nov.-1913, May</unitdate>(6 folders)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">7</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1913/1914" type="inclusive">1913, June-1914, Apr.</unitdate>(6 folders)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">8</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1914/1922" type="inclusive">1914, May-1922</unitdate>(5 folders)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">9</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1923/1951" type="inclusive">1923-1951</unitdate>(8 folders)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">10</container>
+            <unittitle>undated </unittitle>
+            <physdesc>
+              <extent>(5 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">11</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1897/1906" type="inclusive">1897-1906</unitdate>(2 letterbooks)</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>N.C. Joint Stock Land Bank of Durham Series,
+<unitdate calendar="gregorian" era="ce" normal="1922/1942" type="inclusive">1922-1942 and undated </unitdate>
+<unitdate calendar="gregorian" era="ce" normal="1922/1933" type="bulk">(bulk 1922-1933).</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Four subseries: Correspondence, Financial Papers, Minutes of Board Meetings,
+ and Reports.
+ Chiefly typed business correspondence, mostly to and from <persname>James Southgate Jones. </persname>Arranged chronogically within each subseries.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">12</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1923/1928" type="inclusive">1923-1928, Mar.</unitdate>(7 folders)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">13</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1928" type="inclusive">1928, Apr.-Oct.</unitdate>(7 folders)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">14</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1928/1929" type="inclusive">1928, Nov.-1929, Apr.</unitdate>(6 folders)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">15</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929, May-Oct.</unitdate>(6 folders)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">16</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1929/1930" type="inclusive">1929, Nov.-1930, Aug.</unitdate>(6 folders)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">17</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1930/1931" type="inclusive">1930, Sept.-1931, July</unitdate>(6 folders)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">18</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1931/1932" type="inclusive">1931, Aug.-1932, Feb.</unitdate>(6 folders)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">19</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932, Mar.-Aug. 15</unitdate>(6 folders)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">20</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932, Aug. 16-Dec.</unitdate>(5 folders)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">21</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1933/1943" type="inclusive">1933-1943 and undated </unitdate></unittitle>
+              <physdesc>
+                <extent>(5 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Financial Papers</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1927/1942" type="inclusive">1927-1942</unitdate>(2 folders)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">22</container>
+              <unittitle>undated</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Minutes of Board Meetings</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1926/1933" type="inclusive">1926-1933</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Reports</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1922/1941" type="inclusive">1922-1941, undated </unitdate></unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Business Records Series,
+<unitdate calendar="gregorian" era="ce" normal="1879/1917" type="inclusive">1879-1917 and undated</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Chiefly volumes pertaining to family businesses, primarily <corpname>J. Southgate and Son, </corpname>and <corpname>Southgate Jones and Company Real Estate. </corpname>Volumes include policy registers, records of payments, ledgers, and letterbooks. Several pertain to the incorporation and transactions of the <corpname>Standard Mutual Life Insurance Company, Inc., </corpname>of which <persname>James H. Southgate </persname>was a founding member. A number of others are unlabeled, but appear to be related to <corpname>J. Southgate and Son. </corpname>Also includes a small amount of loose papers, including copies of individual insurance policies, financial statements, programs, pamphlets and notes.</p>
+        </scopecontent>
+        <scopecontent>
+          <p>Loose papers and a small volume are arranged chronologically. Large volumes are arranged alphabetically by company and then chronologically. See <ref linktype="simple" target="bus.ovsz">Oversize Materials</ref> for large volumes.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">22</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1858/1875" type="inclusive">1858-1875, undated</unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Legal Papers Series,
+<unitdate calendar="gregorian" era="ce" normal="1760/1942" type="inclusive">1760-1942 and undated</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Wills, deeds, indentures, stock certificates, military releases and other legal agreements pertaining to members of the <famname>Jeffries, </famname><famname>Wynne, </famname><famname>Person, </famname><famname>Jones, </famname>and <famname>Southgate </famname>families. Arranged chronologically.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">22</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1760/1942" type="inclusive">1760-1942, undated </unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Financial Papers Series,
+<unitdate calendar="gregorian" era="ce" normal="1791/1943" type="inclusive">1791-1943 and undated</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Chiefly receipts, but also includes bills, lists of assets, a secretary's report filed by <persname>James Southgate </persname>for the <corpname>Durham Lodge </corpname>and records of fraternity dues, financial statements, a volume for household expenses and an inventory. Represents the personal business endeavors of members of <famname>Jeffreys, </famname><famname>Jones, </famname><famname>Person, </famname>and <famname>Southgate </famname>family members in <geogname>Virginia </geogname>and <geogname>North Carolina. </geogname>Arranged chronologically. One volume is located with the <ref linktype="simple" target="money.ovsz">Oversize Materials.</ref></p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">23</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1791/1943" type="inclusive">1791-1943, undated </unitdate></unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Household Account Book,
+<unitdate calendar="gregorian" era="ce" normal="1891/1892" type="inclusive">1891-1892</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Writings and Speeches Series,
+<unitdate calendar="gregorian" era="ce" normal="1883/1947" type="inclusive">1883-1947 and undated</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Chiefly speeches given to local businesses and clubs, mostly by
+<persname>James Southgate </persname>and <persname>James Southgate Jones,
+ </persname>and memorials; clippings about speeches; articles and drafts of articles
+about <geogname>Durham, </geogname>local families and prominent citizens,
+some of which were written by <persname>Southgate Jones </persname>and
+published as a series in the <title linktype="simple">Durham Morning Herald</title> in 1945;
+children's stories; poetry written by family members; and a draft of an
+autobiography written by <persname>James Southgate Jones. </persname>Contains
+fragments and some anonymous writings. Arranged chronologically.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">23</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1883/1947" type="inclusive">1883-1947, undated </unitdate></unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Genealogy Series, <unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926 and undated </unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Extensive research notes; lists of descendants, genealogical charts, and time lines which include birth, death and marriage dates; narratives of portions of family history; and correspondence, mostly between <persname>Mattie Southgate Jones </persname>and other family members and researchers. Also includes original letters from individuals, typed transcripts of ancestral letters, and texts of letters and other archival materials copied into notebooks; copies of family seals; texts of family wills; lists of property owned; clippings; and printed material including published genealogies and booklets. One volume of genealogical charts. Arranged alphabetically by family name.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">24</container>
+            <unittitle><famname>Bennett </famname>family, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><famname>Hill </famname>family, undated </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><famname>Hunt </famname>family, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><famname>Jeffreys </famname>family, undated </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">25</container>
+            <unittitle><famname>Jeffreys </famname>family, undated </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><famname>Jones </famname>family, undated </unittitle>
+            <physdesc>
+              <extent>(5 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><famname>Muse </famname>family, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><famname>Napier </famname>family, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">26</container>
+            <unittitle><famname>Norfleet </famname>family, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><famname>Southgate </famname>family, n.d </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><famname>Stokes </famname>family, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><famname>Swann </famname>family, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><famname>Thomas </famname>family, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><famname>Wynne </famname>family, undated </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">27</container>
+            <unittitle>Miscellaneous volume,
+<unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous Series,
+<unitdate calendar="gregorian" era="ce" normal="1822/1940" type="inclusive">1822-1940 and undated</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Chiefly volumes kept by family members for personal and organizational records. Included are autograph books, address books, journals, a scrapbook, keepsake albums and fraternity rosters. Also included are clippings, printed material, correspondence, notes and loose organizational records. Divided into subject files and volumes. Volumes are arranged alphabetically by author if one is identified, and chronologically otherwise.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Subject Files</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">27</container>
+              <unittitle>Dedication of <geogname>Bennett Place </geogname>Memorial, <unitdate calendar="gregorian" era="ce" normal="1921/1923" type="inclusive">1921-1923, undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Durham Civic Association, </corpname><unitdate calendar="gregorian" era="ce" normal="1911/1920" type="inclusive">1911-1920, undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Suffrage, <unitdate calendar="gregorian" era="ce" normal="1917" type="inclusive">1917, undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1893/1953" type="inclusive">1893-1953, undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Volumes</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Jones, James Southgate, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1907" type="inclusive">1907</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Jones, Mattie Southgate, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1882/1924" type="inclusive">1882-1924</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Jones, T.D., </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1877/1878" type="inclusive">1877-1878</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><persname>Montgomery, Mary E., </persname><unitdate calendar="gregorian" era="ce" normal="1861/1869" type="inclusive">1861-1869 and 1800s</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Simmons, Celestia Muse Southgate, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1886" type="inclusive">1886</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">28</container>
+              <unittitle><persname>Simmons, Celestia Muse Southgate, </persname><unitdate calendar="gregorian" era="ce" normal="1887/1895" type="inclusive">1887-1895, undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Southgate, James, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1852" type="inclusive">1852</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Southgate, Poly, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1818" type="inclusive">1818</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1899/1922" type="inclusive">1899-1922, undated</unitdate></unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">29</container>
+              <unittitle>undated </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Clippings Series,
+<unitdate calendar="gregorian" era="ce" normal="1888/1982" type="inclusive">1888-1982 and undated</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Chiefly photocopies of articles, primarily from <geogname>Durham </geogname>newspapers, and a number of scrapbooks. Articles relate to <geogname>Durham </geogname>history, family members or other prominent citizens. Some scrapbooks contain poems, essays, stories and illustrations from contemporary newspapers. Arranged chronologically.</p>
+        </scopecontent>
+        <c02>
+          <did><container type="box">29</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1888/1982" type="inclusive">1888-1982, undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Scrapbooks, <unitdate calendar="gregorian" era="ce" normal="1923/1927" type="inclusive">1923-1927, undated </unitdate></unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Printed Material Series,
+<unitdate calendar="gregorian" era="ce" normal="1822/1961" type="inclusive">1822-1961 and undated</unitdate></unittitle>
+        </did>
+        <scopecontent>
+          <p>Chiefly booklets, including catalogues and other publications relating to schools family members attended; and those produced for <corpname>Mason,</corpname><corpname>Templar </corpname>and <corpname>Elk </corpname>conventions and special events. Also included are publications about businesses and <geogname>Durham </geogname>city government, programs for commencements, recitals, memorial services, banquets, church services, meetings of the <corpname>Up-to-Date Club </corpname>and other special events; and reprints of articles and speeches given at a variety of locations in <geogname>North Carolina </geogname>and elsewhere. Also includes periodicals, flyers, invitations and calling cards, most of which were generated from the religious, fraternal, civic, social, political and intellectual organizations with which family members were associated. Arranged alphabetically by organization, type of material, and subject, and then chronologically.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">30</container>
+            <unittitle><geogname>Durham, N.C., </geogname><unitdate calendar="gregorian" era="ce" normal="1906/1954" type="inclusive">1906-1954, undated </unitdate></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><geogname>Durham </geogname>Churches, <unitdate calendar="gregorian" era="ce" normal="1908/1926" type="inclusive">1908-1926, undated </unitdate></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Equal Suffrage, <unitdate calendar="gregorian" era="ce" normal="1910/1920" type="inclusive">1910-1920, undated</unitdate></unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Invitations, calling cards, etc., <unitdate calendar="gregorian" era="ce" normal="1853/1921" type="inclusive">1853-1921, </unitdate>undated </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">31</container>
+            <unittitle><corpname>Masons,</corpname><corpname> Templars,</corpname><corpname> Elks, </corpname><unitdate calendar="gregorian" era="ce" normal="1860/1930" type="inclusive">1860-1930, undated</unitdate></unittitle>
+            <physdesc>
+              <extent>(4 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Memorials, <unitdate calendar="gregorian" era="ce" normal="1822/1924" type="inclusive">1822-1924, undated </unitdate></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">32</container>
+            <unittitle>
+              <title linktype="simple" render="italic">North Carolina League of Women Voters Newsletter,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1924/1929" type="inclusive"> 1924-1929</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Organizations, <unitdate calendar="gregorian" era="ce" normal="1895/1929" type="inclusive">1895-1929, undated</unitdate></unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Programs, 1870s-1953, undated </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">33</container>
+            <unittitle><corpname>Up-to-Date Club </corpname>programs,
+<unitdate calendar="gregorian" era="ce" normal="1896/1945" type="inclusive">1896-1945</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Washington and Lee University, </corpname><unitdate calendar="gregorian" era="ce" normal="1905/1915" type="inclusive">1905-1915</unitdate>2 folders)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Women's Clubs, <unitdate calendar="gregorian" era="ce" normal="1916/1927" type="inclusive">1916-1927,</unitdate>undated </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous,
+<unitdate calendar="gregorian" era="ce" normal="1823/1899" type="inclusive">1823-1899</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">34</container>
+            <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1900/1961" type="inclusive">1900-1961</unitdate>5 folders)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">35</container>
+            <unittitle>Miscellaneous, undated </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Pictures Series,
+<unitdate calendar="gregorian" era="ce" normal="1805/1940" type="inclusive">1805-1940</unitdate> and undated (bulk undated).</unittitle>
+        </did>
+        <scopecontent>
+          <p>Chiefly photograph albums and loose photographs. Loose pictures are arranged alphabetically by last name of person when known and by subject. Albums are arranged chronologically if dated. Lantern slides are housed in a separate box following the loose pictures.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">35</container>
+            <unittitle>Photograph albums, <unitdate calendar="gregorian" era="ce" normal="1936" type="inclusive">1936,</unitdate> undated (2 vols.)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">36</container>
+            <unittitle>Photograph albums, undated (2 vols.)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">37</container>
+            <unittitle>Photograph albums:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>undated (2 vols.)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>fragments, undated (see <ref linktype="simple" target="ovsz.frag">oversize folder</ref>)</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">38</container>
+            <unittitle>
+              <geogname>Durham, N.C.:</geogname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1883/1911" type="inclusive">1883-1911, undated </unitdate></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><persname>T.D. Jones </persname>residence on Chapel Hill St., undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Underpass construction on Chapel Hill St., undated</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <famname>Jones:</famname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><persname>Albert Lyell, </persname>undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><persname>James Southgate [</persname>b. 1888], undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><persname>Mattie Southgate [</persname><unitdate calendar="gregorian" era="ce" normal="1864/1936" type="inclusive">1864-1936</unitdate>]</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><persname>Thomas Decatur [</persname><unitdate calendar="gregorian" era="ce" normal="1852/1889" type="inclusive">1852-1889</unitdate>], undated</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Simmons, Celestia Muse Southgate, </persname>undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <famname>Southgate:</famname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><persname>Delia Haywood Wynne [</persname><unitdate calendar="gregorian" era="ce" normal="1826/1888" type="inclusive">1826-1888</unitdate>], undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><persname>James [</persname><unitdate calendar="gregorian" era="ce" normal="1832/1914" type="inclusive">1832-1914</unitdate>], undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><persname>James Haywood [</persname><unitdate calendar="gregorian" era="ce" normal="1859/1916" type="inclusive">1859-1916</unitdate>], undated</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>People, Identified, A-R, <unitdate calendar="gregorian" era="ce" normal="1805/1900" type="inclusive">1805-1900, undated </unitdate></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">39</container>
+            <unittitle>People, Identified, S-Z, <unitdate calendar="gregorian" era="ce" normal="1885/1954" type="inclusive">1885-1954, undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>People, Unidentified, <unitdate calendar="gregorian" era="ce" normal="1890" type="inclusive">1890, undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Places, Miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1915/1940" type="inclusive">1915-1940, undated </unitdate></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Watercolors and sketches, <persname>Mattie Southgate Jones </persname>and Anonymous, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">40</container>
+            <unittitle>Lantern slides, <geogname>Durham, </geogname><unitdate calendar="gregorian" era="ce" normal="1911" type="inclusive">1911</unitdate>20 envelopes)</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Oversize Material</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Correspondence Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">50</container>
+              <unittitle>Correspondence,
+<unitdate calendar="gregorian" era="ce" normal="1794" type="inclusive">1794</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>North Carolina Joint Stock Land Bank of Durham Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">50</container>
+              <unittitle>Financial Papers, <unitdate calendar="gregorian" era="ce" normal="1929/1933" type="inclusive">1929-1933 and undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">50</container>
+              <unittitle>Reports, <unitdate calendar="gregorian" era="ce" normal="1929/1933" type="inclusive">1929-1933 and undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Business Records Series</unittitle>
+          </did>
+          <c03 id="bus.ovsz">
+            <did>
+              <container type="box">50</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1873/1909" type="inclusive">1873-1909 and undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Volumes</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Alphabetical:</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <container type="volume">1</container>
+                  <unittitle><corpname>Columbus Insurance and Banking Co., </corpname>Abstract of policies,
+<unitdate calendar="gregorian" era="ce" normal="1879/1889" type="inclusive">1879-1889.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">2</container>
+                  <unittitle><corpname>J. Southgate and Son, </corpname>Letterbook,
+<unitdate calendar="gregorian" era="ce" normal="1882/1883" type="inclusive">1882-1883.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">3</container>
+                  <unittitle><corpname>J. Southgate and Son, </corpname>Record of payments,
+<unitdate calendar="gregorian" era="ce" normal="1887/1906" type="inclusive">1887-1906.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">4</container>
+                  <unittitle><corpname>J. Southgate and Son, </corpname>Policy Register,
+<unitdate calendar="gregorian" era="ce" normal="1909/1914" type="inclusive">1909-1914.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">5</container>
+                  <unittitle><corpname>J. Southgate and Son, </corpname>Record of payments,
+<unitdate calendar="gregorian" era="ce" normal="1910/1913" type="inclusive">1910-1913.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">6</container>
+                  <unittitle><corpname>J. Southgate and Son, </corpname>Abstract of policies,
+<unitdate calendar="gregorian" era="ce" normal="1911/1914" type="inclusive">1911-1914.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">7</container>
+                  <unittitle><corpname>J. Southgate and Son, </corpname>Account book,
+<unitdate calendar="gregorian" era="ce" normal="1911/1916" type="inclusive">1911-1916.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">8</container>
+                  <unittitle><corpname>J. Southgate and Son, </corpname>Account book,
+<unitdate calendar="gregorian" era="ce" normal="1911/1917" type="inclusive">1911-1917.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">9</container>
+                  <unittitle><corpname>New England Fire Insurance Co. of Providence, R.I., </corpname>Policy Register,
+<unitdate calendar="gregorian" era="ce" normal="1911/1912" type="inclusive">1911-1912.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">10</container>
+                  <unittitle><corpname>Southgate Jones and Co. Real Estate, </corpname>Account book,
+<unitdate calendar="gregorian" era="ce" normal="1912/1914" type="inclusive">1912-1914.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">11</container>
+                  <unittitle><corpname>Standard Mutual Life Insurance Co., Inc., </corpname>Scrapbook,
+<unitdate calendar="gregorian" era="ce" normal="1908" type="inclusive">1908.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">12</container>
+                  <unittitle><corpname>Standard Mutual Life Insurance Co., Inc., </corpname>Record of payments,
+<unitdate calendar="gregorian" era="ce" normal="1908/1911" type="inclusive">1908-1911.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">13</container>
+                  <unittitle><corpname>Standard Mutual Life Insurance Co., Inc., </corpname>Record of payments,
+<unitdate calendar="gregorian" era="ce" normal="1908/1912" type="inclusive">1908-1912.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">14</container>
+                  <unittitle><corpname>Standard Mutual Life Insurance Co., Inc., </corpname>Record of disbursements,
+<unitdate calendar="gregorian" era="ce" normal="1908/1912" type="inclusive">1908-1912.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">15</container>
+                  <unittitle><corpname>Standard Mutual Life Insurance Co., Inc., </corpname>Application register,
+<unitdate calendar="gregorian" era="ce" normal="1909/1913" type="inclusive">1909-1913.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">16</container>
+                  <unittitle><corpname>Standard Mutual Life Insurance Co., Inc., </corpname>Policy Register #1,
+<unitdate calendar="gregorian" era="ce" normal="1909/1911" type="inclusive">1909-1911.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">17</container>
+                  <unittitle><corpname>Standard Mutual Life Insurance Co., Inc., </corpname>Policy Register #2,
+<unitdate calendar="gregorian" era="ce" normal="1910/1911" type="inclusive">1910-1911.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">18</container>
+                  <unittitle><corpname>Standard Mutual Life Insurance Co., Inc., </corpname>Account book,
+<unitdate calendar="gregorian" era="ce" normal="1911" type="inclusive">1911.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">19</container>
+                  <unittitle><corpname>Standard Mutual Life Insurance Co., Inc., </corpname>Policy Register, undated</unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">20</container>
+                  <unittitle><corpname>Star Fire Insurance Co. of New York, </corpname>Record of accounts and payments,
+<unitdate calendar="gregorian" era="ce" normal="1882/1883" type="inclusive">1882-1883.</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chronological:</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <container type="volume">21</container>
+                  <unittitle><unitdate calendar="gregorian" era="ce" normal="1887/1897" type="inclusive"> 1887-1897,</unitdate> (Record of accounts and payments)</unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">22</container>
+                  <unittitle><unitdate calendar="gregorian" era="ce" normal="1908/1910" type="inclusive"> 1908-1910,</unitdate> (Policy Register)</unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container label="Volumes" type="volume">23-24</container>
+                  <unittitle><unitdate calendar="gregorian" era="ce" normal="1908/1912" type="inclusive"> 1908-1912,</unitdate> (Account books)</unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">25</container>
+                  <unittitle><unitdate calendar="gregorian" era="ce" normal="1910/1911" type="inclusive"> 1910-1911,</unitdate> (Promotion lists)</unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">26</container>
+                  <unittitle><unitdate calendar="gregorian" era="ce" normal="1910/1912" type="inclusive"> 1910-1912,</unitdate> (Orders for Byrd Knotters)</unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">27</container>
+                  <unittitle><unitdate calendar="gregorian" era="ce" normal="1912/1915" type="inclusive"> 1912-1915,</unitdate> (Account book)</unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">28</container>
+                  <unittitle><unitdate calendar="gregorian" era="ce" normal="1912/1915" type="inclusive"> 1912-1915,</unitdate> (Account book)</unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">29</container>
+                  <unittitle><unitdate calendar="gregorian" era="ce" normal="1914/1916" type="inclusive"> 1914-1916,</unitdate> (Account book)</unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">30</container>
+                  <unittitle><unitdate calendar="gregorian" era="ce" normal="1914/1917" type="inclusive"> 1914-1917,</unitdate> (Account book)</unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">31</container>
+                  <unittitle>undated, (Index of names)</unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="volume">32</container>
+                  <unittitle>undated, (Policy expirations)</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Legal Papers Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">50</container>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1783/1951" type="inclusive">1783-1951</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Financial Papers Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">50</container>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03 id="money.ovsz">
+            <did>
+              <unittitle>Volume, personal finances, unidentified,
+<unitdate calendar="gregorian" era="ce" normal="1901/1902" type="inclusive">1901-1902</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Genealogy Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="opaperfolder">1</container>
+              <unittitle>undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="opaperfolder">2</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1909/1927" type="inclusive">1909-1927 and undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">50</container>
+              <unittitle>undated</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Miscellaneous Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="opaperfolder">2</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1921/1939" type="inclusive">1921-1939 and undated</unitdate></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">50</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1906/1918" type="inclusive">1906-1918 and undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Clippings Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">49</container>
+              <unittitle>Scrapbook, undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">50</container>
+              <unittitle>Scrapbook, <unitdate calendar="gregorian" era="ce" normal="1922/1935" type="inclusive">1922-1935 and undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Printed Materials Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">50</container>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1885/1940" type="inclusive">1885-1940 and undated</unitdate></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Pictures Series</unittitle>
+          </did>
+          <c03 id="ovsz.frag">
+            <did>
+              <container type="box">49</container>
+              <unittitle>Photograph album fragments, 1908 and undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">49</container>
+              <unittitle>Loose pictures, undated</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+<c01 level="series"><did>
+<unittitle>Accession (2009-0020), <unitdate type="inclusive" normal="1910/1993" era="ce" calendar="gregorian">1910s-1990s</unitdate></unittitle>
+<physdesc><extent>(6 boxes)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Addition (2009-0020) (1800 items; 4 lin. ft.; dated 1910s-1990s and no date) contains materials from the Southgate Jones Jr.'s involvement in the Durham revitalization project (1950s), the United Fund of Durham (1960s-1990s), and the family's ownership of a molybdenum mine in North Carolina (1950s-1970s). Also included are fire insurance records (organized by Durham street, 1960s-1970s), three large maps of the molybdenum mine area, and a scrapbook celebrating J. Southgate and Son Inc.'s 75th anniversary of business in 1947.</p>
+</scopecontent>
+
+<processinfo>
+<p>Oversized panoramic photographs have been sent to the Preservation Department.</p>
+</processinfo>
+
+<c02><did><container type="box">41</container><unittitle>United Fund of Durham materials</unittitle></did></c02>
+<c02><did><unittitle>Miscellaneous materials</unittitle></did></c02>
+
+<c02><did><container type="box">42</container><unittitle>Molybdenum mine materials</unittitle></did></c02>
+
+<c02><did><container type="box">43</container><unittitle>J. Southgate and Son Inc. 75th Anniversary scrapbook, 1947</unittitle></did></c02>
+
+<c02><did><unittitle>North Carolina Molybdenum Corporation Inc. 1943 metal seal</unittitle></did></c02>
+
+<c02><did><container type="box">44</container><unittitle>Fire insurance catalog cards, A-E</unittitle></did></c02>
+
+<c02><did><container type="box">45</container><unittitle>Fire insurance catalog cards, W. Main St.-Swift Ave.</unittitle></did></c02>
+
+<c02><did><container type="box">46</container><unittitle>Molybdenum mine area maps (3)</unittitle></did></c02>
+
+<c02><did><container type="oimagefolder">1</container><unittitle>Panoramic group photographs from the National Association of Insurance Agents conferences</unittitle></did>
+	<processinfo>
+	<p>March 2009: Materials have been removed for preservation.</p>
+	</processinfo>
+
+	<c03><did><unittitle>NAIA, Signal Mountain, Chattanooga, Tennessee, March 14-16, 1922. Photographer: McMayberry</unittitle></did></c03>
+	<c03><did><unittitle>NAIA, Boston, September 12, 1916</unittitle></did></c03>
+	<c03><did><unittitle>NAIA, Mid-year conference, Mt. Vernon, Virginia, February 16, 1917. Photographer: Schultz</unittitle></did></c03>
+	<c03><did><unittitle>NAIA, 20th Annual convention, Asheville, North Carolina, July 12, 1917. Photographer: McCanless</unittitle></did></c03>
+	<c03><did><unittitle>Unlabeled group photograph at a beach</unittitle></did></c03>
+
+
+</c02>
+
+</c01>
+
+<c01 level="series"><did>
+<unittitle>Accession (2010-0086), <unitdate type="inclusive" normal="1896/2008" era="ce" calendar="gregorian">1896-2008</unitdate></unittitle>
+<physdesc><extent>(1 box)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Accession (2010-0086) (5 items; 2.0 lin. ft.; dated 1896-2008) includes scrapbooks from the political and insurance career of James H. Southgate, dated 1896-1916; typed and handwritten versions of Southgate Jones' autobiography; and a spiral bound volume containing the autobiography of Southgate Jones Jr., dated 2008.</p>
+</scopecontent>
+
+<c02><did><container type="box">47</container><unittitle>Bound copy of Southgate Jones Jr.'s autobiography, <title render="doublequote" linktype="simple">In the Presence of the Past,</title> 2008</unittitle></did></c02>
+<c02><did><unittitle>Typed and holograph copies of Southgate Jones' autobiography, date unknown</unittitle></did></c02>
+<c02><did><unittitle>2 scrapbooks from the career of James H. Southgate, 1896-1916</unittitle></did></c02>
+</c01>
+
+<c01 level="series"><did>
+<unittitle>Accession (2011-0091), <unitdate type="inclusive" normal="1920/1950" era="ce" calendar="gregorian">1920-1950</unitdate></unittitle>
+<physdesc><extent>(1 box)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Accession (2011-0091) (1 item, 0.2 lin. ft.; between 1920-1950) is a early- to mid-twentieth century cookbook owned by Mrs. Mattie Logan Southgate Jones, comprising handwritten recipes, many obtained from family members and friends.</p>
+</scopecontent>
+
+<c02><did><container type="box">48</container><unittitle>Cookbook pages</unittitle></did></c02>
+<c02><did><unittitle>Cookbook binder</unittitle></did></c02>
+
+</c01>
+    </dsc>
+  </archdesc>
+</ead>

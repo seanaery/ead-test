@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead> 
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Harold Grier McCurdy Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/mccurdyharold/">mccurdyharold</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Preliminary Guide to the Harold Grier McCurdy Papers,
+			 <date normal="1918/2006" type="inclusive" era="ce" calendar="gregorian">1918-2006</date></titleproper>
+        <author>Processed by: Ruth E. Bryan, Ann Langford, and other Rubenstein Library
+			 staff; machine-readable finding aid created by: Ruth E. Bryan and Ming
+			 Guo</author>
+      </titlestmt>
+      <publicationstmt>
+        
+        <p><date era="ce" calendar="gregorian"> 2001</date> Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">002226318</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from automated markup
+		  system. <lb/>Date of source: 1989-October 31, 2000 <lb/>Processed by Ruth E.
+		  Bryan, Ann Langford, and other Rubenstein Library staff 1989-October 31, 2000; Finding Aid
+		  encoded by Ruth E. Bryan and Ming Guo, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, 
+		  <date calendar="gregorian" era="ce">June 14, 2001</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Harold Grier McCurdy Papers)//EN" "mccurdyharold.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Preliminary Guide to the Harold Grier McCurdy Papers,
+			 1918-2006</titleproper>
+      <publisher> David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham,
+		  North Carolina 27708-0185 USA </publisher>
+      
+      <p><date era="ce" calendar="gregorian">(C) 2009</date> Duke University. All Rights Reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Harold Grier McCurdy papers 		  <unitdate calendar="gregorian" era="ce" normal="1918/2006" type="inclusive">1918-2006</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>McCurdy, Harold Grier, 1909-</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>22.6 Linear Feet</extent>
+	  <extent>9934 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname>
+      </repository>
+      <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Collection is open for research.</p> 
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p> 
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>   
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p> 
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in this collection have not been transferred
+			 to Duke University. For more information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Harold Grier McCurdy Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The Harold Grier McCurdy Papers was received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a gift in 1989-2010.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by Ruth E. Bryan, Ann Langford, and other Rubenstein Library staff</p>
+        <p>Completed 1989-October 31, 2000</p>
+	  <p>Encoded by Ruth E. Bryan and Ming Guo</p>
+	<p>Updated by Meghan Lyon, February 2009</p>
+	<p>Updated by Alice Poffinberger, August 2010</p>
+        <p>This finding aid is NCEAD compliant.</p>
+        <p>This collection is unprocessed: materials may not have been ordered and described beyond their original condition.</p>
+
+      </processinfo>
+    </descgrp>
+    <!-- End of finding aid header -->
+    <bioghist>
+      <head>Biographical Note</head>
+      <p>Child psychologist and teacher, poet, professor at the University of
+		  North Carolina, and father of artist John Derrickson McCurdy.</p>
+    </bioghist>
+    <!--End of biohistory--><!--Begin scopecontent-->
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>Collection contains an unpublished manuscript of 
+		<title linktype="simple">A Photorealist in Quest of God</title> by McCurdy. This work
+		traces the artistic development of his son, John. Among the correspondence are
+		letters between John and his parents, and diaries detailing the early lives of
+		both John and his sister, Ann. Also included is an exhibition catalog of John's
+		work (1977); an essay by John with publishers' responses; his doctoral
+		dissertation; reprints of articles John wrote; original art work; legal papers,
+		handwritten notes, printed material, yearbooks, course work, diplomas,
+		correspondence; and slides and photographs. Other works by Harold McCurdy
+		include 
+		<title linktype="simple">Barbara, The Unconscious Autobiography of a Child Genius</title>
+		and 
+		<title linktype="simple">About Mary.</title> Another group of materials include
+		correspondence, clippings, articles, and other items relating to Harold
+		McCurdy's writing, teaching, and publishing career.</p>
+      <p>Addition (2000-0424) (8216 items, dating from 1918-1999) provides a relatively
+		  well-rounded and sometimes intimate look into McCurdy's personal and
+		  professional life over the majority of his lifetime. Materials include
+		  correspondence from and to McCurdy; writings on psychology, poetry, and drama;
+		  diaries; subject files; cartoons; and 254 color slides of paintings and other
+		  sketches and writings by McCurdy's son, John Derrickson McCurdy.</p>
+      <p>Addition (2009-0021) (8 items; 0.2 lin. ft.; 1949-2006) consists of 6 bound notebooks and diaries kept by McCurdy. Some of the diaries appear to be sequential; other notebooks include clippings and writings. There is also an index of McCurdy's submissions (1949-1998), as well as a compilation of his poetry (2006).</p>
+    </scopecontent>
+    <!--End scopecontent--><!--Begin controlaccess-->
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p> 
+      <list type="simple">
+        <item>
+          <persname>McCurdy, Harold Grier, 1909-</persname>
+        </item>
+        <item>
+          <persname>McCurdy, John Derrickson, 1940-1974</persname>
+        </item>
+        <item>
+          <subject>Parent and child</subject>
+        </item>
+        <item>
+          <subject>Artists -- United States</subject>
+        </item>
+        <item>
+          <subject>Artists -- United States -- Correspondence</subject>
+        </item>
+        <item>
+          <genreform>Color slides</genreform>
+        </item>
+        <item>
+          <genreform>Diaries</genreform>
+        </item>
+      </list>
+    </controlaccess>
+    <!--End controlaccess--><!--Begin container list--><!-- Sample of possible container list structure, actual markup depends upon the materials being described. --><!-- Use <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent>, <admininfo><processinfo>, and <admininfo><accessrestrict> if needed. -->
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      
+	<c01 level="series"><did>
+	<unittitle id="s1">Original Collection, 1940-1989</unittitle>
+	<physdesc><extent>(4 boxes)</extent></physdesc>
+	</did>
+<processinfo>
+<p>Includes Accessions (1989-0089), (1990-0094), (1998-0237)</p>
+</processinfo>
+	<scopecontent>
+	<p>Collection contains an unpublished manuscript of <title render="doublequote" linktype="simple">A Photorealist in Quest of God</title> by McCurdy. This work traces the artistic development of his son, John. Among the correspondence are letters between John and his parents, and diaries detailing the early lives of both John and his sister, Ann. Also included is an exhibition catalog of John's work (1977); an essay by John with publishers' responses; his doctoral dissertation; reprints of articles John wrote; original art work; legal papers, handwritten notes, printed material, yearbooks, course work, diplomas, correspondence; and slides and photographs. Other works by Harold McCurdy include <title render="italic" linktype="simple">Barbara</title>, <title render="italic" linktype="simple">The Unconscious Autobiography of a Child Genius</title>, and <title render="italic" linktype="simple">About Mary</title>. Another group of materials include correspondence, clippings, articles, and other items relating to Harold McCurdy's writing, teaching, and publishing career.</p>
+	</scopecontent>
+
+<c02><did><container type="box">Acc. 89/089: Box 1</container><unittitle>Accession 1989-0089</unittitle></did></c02>
+<c02><did><container type="box">Acc. 90/094: Box 1</container><unittitle>Accession 1990-0094</unittitle></did></c02>
+<c02><did><container type="box">Acc. 90/094: Box 2</container><unittitle>Accession 1990-0094</unittitle></did></c02>
+<c02><did><container type="box">Acc. 98/237: Box 1</container><unittitle>Accession 1998-0237</unittitle></did></c02>
+
+
+</c01>
+
+	<c01 level="series">
+        <did>
+          <unittitle id="s2">Accession (2000-0424), 1918-1999</unittitle>
+        </did>
+	<scopecontent>
+	<p>Addition (2000-0424) (8216 items, dating from 1918-1999) provides a relatively well-rounded and sometimes intimate look into McCurdy's personal and professional life over the majority of his lifetime. Materials include correspondence from and to McCurdy; writings on psychology, poetry, and drama; diaries; subject files; cartoons; and 254 color slides of paintings and other sketches and writings by McCurdy's son, John Derrickson McCurdy.</p>
+	</scopecontent>
+	
+        <processinfo>
+          <p>Some of the materials in this collection are not immediately accessible, because they require further processing before use. Technical Services staff need to reformat newspaper clippings and other acidic paper; remove rusty fasteners; remove material from envelopes. Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection. </p>
+        </processinfo>
+        <accessrestrict>
+          <p>Box 6 contains sensitive material--student grades. Patrons must
+				  sign a release form before use.</p>
+        </accessrestrict>
+        <!--Begin c02 levels here-->
+      
+
+
+
+          <c02>
+            <did> <container type="box">1</container>
+              <unittitle>Correspondence to and from McCurdy and subject files,
+					 A-D, 
+					 <unitdate calendar="gregorian" era="ce" normal="1967/1999" type="inclusive">1967-1999</unitdate>
+                     </unittitle>
+            </did>
+          </c02>
+        
+  
+          <c02>
+            <did><container type="box">2</container>
+              <unittitle>Correspondence to and from McCurdy and subject files, E-N, 
+					 <unitdate calendar="gregorian" era="ce" normal="1966/1999" type="inclusive">1966-1999</unitdate>
+                     </unittitle>
+            </did>
+          </c02>
+     
+          <c02>
+            <did> <container type="box">3</container>
+              <unittitle>Correspondence to and from McCurdy and subject files, O-Z, <unitdate calendar="gregorian" era="ce" normal="1941/1999" type="inclusive">1941-1999</unitdate>
+                     </unittitle>
+            </did>
+          </c02>
+          <c02>
+            <did><container type="box">3</container>
+              <unittitle>Poetry and professional writings in manuscript form, 
+					 <unitdate calendar="gregorian" era="ce" normal="1943/1997" type="inclusive">1943-1997</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(one binder and various printed
+					 journals)</extent>
+              </physdesc>
+            </did>
+          </c02>
+  
+          <c02>
+            <did> <container type="box">4</container>
+              <unittitle>Poetry and professional writings in manuscript form, 
+					 <unitdate calendar="gregorian" era="ce" normal="1943/1997" type="inclusive">1943-1997</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(15 folders)</extent>
+              </physdesc>
+            </did>
+          </c02>
+          <c02>
+            <did><container type="box">4</container>
+              <unittitle>Letters home, 
+					 <unitdate calendar="gregorian" era="ce" normal="1929/1932" type="inclusive">1929-1932,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c02>
+          <c02>
+            <did><container type="box">4</container>
+              <unittitle>Letters to Frank, 
+					 <unitdate calendar="gregorian" era="ce" normal="1930/1934" type="inclusive">1930-1934,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" normal="1987/1992" type="inclusive">1987-1992</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(four folders)</extent>
+              </physdesc>
+            </did>
+          </c02>
+          <c02>
+            <did><container type="box">4</container>
+              <unittitle>Drawings/cartoons, 
+					 <unitdate calendar="gregorian" era="ce" normal="1918/1926" type="inclusive">1918-1926</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c02>
+ 
+          <c02>
+            <did><container type="box">5</container>
+              <unittitle>Drawings/cartoons, 
+					 <unitdate calendar="gregorian" era="ce" normal="1918/1926" type="inclusive">1918-1926</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c02>
+          <c02>
+            <did><container type="box">5</container>
+              <unittitle>Academic reprints and other writings, mainly poetry
+					 and plays, including 
+					 <title linktype="simple">Realizing Westward,</title><unitdate calendar="gregorian" era="ce" normal="1940/1999" type="inclusive">1940s-1990s</unitdate> (some
+					 material in deteriorating bound volumes) </unittitle>
+            </did>
+          </c02>
+   
+          <c02>
+            <did> <container type="box">6</container>
+              <unittitle>Biographical files and publications, 
+					 <unitdate calendar="gregorian" era="ce" normal="1942/1999" type="inclusive">1942-1999</unitdate>
+                     </unittitle>
+            </did>
+            <accessrestrict>
+              <p>Includes student grades-patrons must sign a release form to
+						use.</p>
+            </accessrestrict>
+          </c02>
+     
+          <c02>
+            <did>  <container type="box">7</container>
+              <unittitle>Poetry and professional writings in manuscript form, 
+					 <unitdate calendar="gregorian" era="ce" normal="1943/1997" type="inclusive">1943-1997</unitdate> (one printed
+					 journal)</unittitle>
+            </did>
+          </c02>
+          <c02>
+            <did> <container type="box">7</container>
+              <unittitle><title linktype="simple">Elegy by W.S.</title>(published book by other
+					 author)</unittitle>
+            </did>
+          </c02>
+          <c02>
+            <did> <container type="box">7</container>
+              <unittitle>Bound volume of hand-copied verses by well-known
+					 poets</unittitle>
+            </did>
+          </c02>
+          <c02>
+            <did> <container type="box">7</container>
+              <unittitle>Son John McCurdy's biographical material, academic
+					 writings and course work, cartoons, sketches, drawings, and lists of paintings,
+					 
+					 <unitdate calendar="gregorian" era="ce" normal="1940/1974" type="inclusive">1940-1974</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p> Includes a small amount of material relating to daughter Ann
+					 McCurdy</p>
+            </scopecontent>
+          </c02>
+     
+          <c02>
+            <did> <container type="box">8</container>
+              <unittitle>Papers, 
+					 <unitdate calendar="gregorian" era="ce" normal="1965/1970" type="inclusive">1965-1970</unitdate>
+                     </unittitle>
+            </did>
+          </c02>
+          <c02>
+            <did><container type="box">8</container>
+              <unittitle>Manuscript of 
+					 <title linktype="simple">A Photorealist in Search of God</title></unittitle>
+            </did>
+            <processinfo>
+              <p>[Section Two Illustrations moved to OS box 133]</p>
+            </processinfo>
+          </c02>
+          <c02>
+            <did><container type="box">8</container>
+              <unittitle>Data books on subjects' dream contents, 
+					 <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate> and undated
+					 </unittitle>
+              <physdesc>
+                <extent>(three volumes)</extent>
+              </physdesc>
+            </did>
+          </c02>
+          <c02>
+            <did><container type="box">8</container>
+              <unittitle>Personal and professional writings, including rough
+					 drafts of poems, 
+					 <unitdate calendar="gregorian" era="ce" normal="1942/1999" type="inclusive">1942-1999</unitdate>
+                     </unittitle>
+            </did>
+          </c02>
+      
+          <c02>
+            <did><container type="box">9</container>
+              <unittitle>Personal and professional writings, including rough
+					 drafts of poems, 
+					 <unitdate calendar="gregorian" era="ce" normal="1942/1999" type="inclusive">1942-1999</unitdate>
+                     </unittitle>
+            </did>
+          </c02>
+          <c02>
+            <did><container type="box">9</container>
+              <unittitle>Copies of poems from other writers</unittitle>
+            </did>
+          </c02>
+          <c02>
+            <did><container type="box">9</container>
+              <unittitle>Diploma from Duke University, Ph.D., 
+					 <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938</unitdate>
+                     </unittitle>
+            </did>
+          </c02>
+          <c02>
+            <did><container type="box">9</container>
+              <unittitle>Loose material from inside diploma, including two
+					 sketches by McCurdy, ca. 
+					 <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940 and undated</unitdate></unittitle>
+            </did>
+            <processinfo>
+              <p>[Class notes]</p>
+            </processinfo>
+          </c02>
+          <c02>
+            <did><container type="box">9</container>
+              <unittitle>Dream and daily diaries, 
+					 <unitdate calendar="gregorian" era="ce" normal="1941/1999" type="inclusive">1941-1999</unitdate>
+                     </unittitle>
+            </did>
+          </c02>
+    
+ 
+          <c02>
+            <did><container type="box">10</container>
+              <unittitle><genreform>Color slides </genreform>of John McCurdy's
+					 paintings, shows, and wedding, 
+					 <unitdate calendar="gregorian" era="ce" normal="1965/1987" type="inclusive">1965-1987</unitdate>
+                     </unittitle>
+            </did>
+          </c02>
+	<c02><did><container type="box">11</container><unittitle>Oversize artwork</unittitle></did></c02>
+<c02><did><container type="opaperfolder">1</container><unittitle>Miscellaneous Oversize Material</unittitle></did></c02>
+
+      </c01>
+
+
+
+
+
+
+
+
+
+<c01 level="series"><did>
+<unittitle id="s3">Accession (2009-0021), <unitdate type="inclusive" normal="1964/1995" era="ce" calendar="gregorian">1949-2006</unitdate></unittitle>
+<physdesc><extent>(2 boxes)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Addition (2009-0021) (8 items; 0.2 lin. ft.; 1949-2006) consists of 6 bound notebooks and diaries kept by McCurdy. Some of the diaries appear to be sequential; other notebooks include clippings and writings. There is also an index of McCurdy's submissions (1949-1998), as well as a compilation of his poetry (2006).</p>
+</scopecontent>
+<c02><did><container type="box">1</container><unittitle>Diary, 1977</unittitle></did></c02>
+<c02><did><unittitle><emph render="doublequote">Before and After March 23, 1989,</emph> notebook of writings and poems</unittitle></did></c02>
+<c02><did><unittitle>Red and black diary with clippings, 1964-1995</unittitle></did></c02>
+<c02><did><unittitle>Composition book <emph render="doublequote">V,</emph> 1990 (pages 376-474)</unittitle></did></c02>
+<c02><did><unittitle>Composition book <emph render="doublequote">IX,</emph> 1991-1992 (pages 810-869)</unittitle></did></c02>
+<c02><did><unittitle>Composition book <emph render="doublequote">X,</emph> 1992 (pages 870-929, 1145-1204)</unittitle></did></c02>
+
+
+<c02><did><container type="box">2</container><unittitle>Index 1949-1998</unittitle></did></c02>
+<c02><did><unittitle>Poetry compilation, 2006</unittitle></did></c02>
+
+</c01>
+    </dsc>
+  </archdesc>
+</ead>

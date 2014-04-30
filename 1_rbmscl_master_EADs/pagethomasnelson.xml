@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead><eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+	 <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Thomas Nelson Page Papers, 1739-1927)//EN" url="http://library.duke.edu/rubenstein/findingaids/pagethomasnelson.xml/">pagethomasnelson</eadid>
+
+	 <filedesc>
+		<titlestmt>
+		  <titleproper>Guide to the Thomas Nelson Page Papers,
+			 <date normal="1739/1927" era="ce" calendar="gregorian">1739-1927 and undated</date>, bulk
+			 <date normal="1885/1920" type="bulk" era="ce" calendar="gregorian">1885-1920</date> </titleproper>
+		  <author>Processed by: Ted Holt and David Hershey; machine-readable finding aid created
+			 by: Ted Holt, Paula Jeannet Mangiafico</author>
+		</titlestmt>
+		<publicationstmt>
+		  <publisher><lb/>David M. Rubenstein Rare Book &amp; Manuscript Library
+			 <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+		  <p>
+			 <date normal="2006" encodinganalog="date" era="ce" calendar="gregorian"> 2006</date> Duke
+			 University. All Rights Reserved.</p>
+		</publicationstmt>
+		<notestmt>
+		  <note><p>Aleph Number: <num type="aleph">000868085</num></p></note></notestmt>
+	 </filedesc>
+	 <profiledesc>
+		<creation>Machine-readable finding aid derived from XML authoring
+		  program.<lb/>
+		  <date era="ce" calendar="gregorian">Date of source: Dec. 2006</date><lb/>Processed by Ted Holt and David Hershey, Dec. 2006; finding aid encoded by Ted Holt, Paula Jeannet Mangiafico, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University,
+		  <date era="ce" calendar="gregorian">Dec. 2006</date> </creation>
+		<langusage>Description is in <language langcode="eng">English</language>
+		  </langusage>
+		<descrules>Finding aid was prepared using
+		  <title linktype="simple">DACS</title> and local
+		  <title linktype="simple">Style Guide</title></descrules>
+	 </profiledesc>
+<!-- Location of <revisiondesc> if needed -->
+  </eadheader>
+  <frontmatter>
+	 <titlepage>
+		<titleproper>Guide to the Thomas Nelson Page Papers,
+		  <date type="span" era="ce" calendar="gregorian">1739-1927 and undated</date>, bulk
+		  <date type="bulk" era="ce" calendar="gregorian">1885-1920</date> </titleproper>
+		<publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/>
+		   <lb/>Duke University <lb/> Durham,
+		  North Carolina 27708-0185 USA </publisher>
+		<p>
+		  <date normal="2006" era="ce" calendar="gregorian"> 2006</date> Duke University. All Rights
+		  Reserved.</p>
+	 </titlepage>
+  </frontmatter>
+  <archdesc level="collection" relatedencoding="MARC">
+	 <did>
+		<head>Descriptive Summary</head>
+		<repository label="Repository">
+		  <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname></repository>
+		<origination label="Creator">
+		  <persname encodinganalog="100">Page, Thomas Nelson</persname></origination>
+		<unittitle label="Title" encodinganalog="245">Thomas Nelson Page papers 		  <unitdate normal="1739/1927" type="inclusive" era="ce" calendar="gregorian">1739-1927 and undated, bulk 1885-1920</unitdate>
+		  </unittitle>
+		<langmaterial label="Language of Material" encodinganalog="546">Material
+		  in <language langcode="eng"> English </language> and <language langcode="ita">
+		  Italian</language> </langmaterial>
+		<physdesc label="Extent"> <extent unit="linear feet" encodinganalog="300">12.4 Linear Feet</extent><lb/> <extent unit="items">9329		  Items</extent> </physdesc>
+		<physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+		<abstract label="Abstract" encodinganalog="545">Virginia lawyer and
+		  writer; ambassador to Italy from 1913-1919.</abstract>
+		<abstract encodinganalog="520">The Thomas Nelson Page Papers span the
+		  years 1739-1927. Personal and professional correspondence, legal and business
+		  papers, writings, diplomatic dispatches, clippings and other items (chiefly
+		  1885-1920) relate to Page's legal and literary career; his activities as a
+		  lyceum lecturer; his marriages and family relations; and his interest in civic affairs, plantation
+		  life, social reform and race relations in the United
+		  States, particularly during and after Reconstruction; American politics and diplomacy, especially during World War I; and European travel.
+		  Many of his papers directly relate to his term as ambassador to Italy during
+		  World War I, from 1913 to 1919.</abstract>
+	 </did>
+	 <descgrp type="admininfo">
+		<head>Administrative Information</head>
+		<accessrestrict encodinganalog="506">
+		  <head>Access Restrictions</head>
+		  <p>Collection is open for research.</p>
+		  <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+		  <p>All or portions of this collection may be housed off-site in
+			 Duke University's Library Service Center. There may be a 48-hour
+			 delay in obtaining these materials.</p>
+		  <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+		</accessrestrict>
+		<userestrict encodinganalog="540">
+		  <head>Copyright Notice</head>
+		  <p>The copyright interests in this collection have not been transferred
+			 to Duke University. For more information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+		</userestrict>
+		<prefercite>
+		  <head>Preferred Citation</head>
+		  <p>[Identification of item], Thomas Nelson Page Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</p>
+		</prefercite>
+		<acqinfo encodinganalog="541">
+		  <head>Provenance</head>
+		  <p>The Thomas Nelson Page Papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a gift in 1937. </p>
+		</acqinfo>
+		<processinfo>
+		  <head>Processing Information</head>
+		  <p>Processed by Ted Holt and David Hershey, Dec. 2006</p>
+		  <p>Encoded by Ted Holt and Paula Jeannet Mangiafico</p>
+		  <p>Completed Dec. 2006</p>
+		  <p>Accessions 1037 and 03-163 were merged into one collection and
+			 described in this finding aid.</p>
+		  <p>Descriptive sources and standards used to create this inventory:
+		  <title render="italic" linktype="simple">DACS,</title> EAD, NCEAD guidelines, and local
+		  <title render="italic" linktype="simple">Style Guide.</title></p>
+
+		</processinfo>
+	 </descgrp>
+
+<!--end of finding aid header-->
+	 <bioghist>
+		<head>Biographical Note</head>
+<!--use "Historical Note" for organizational records.-->
+		<chronlist>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1853 Apr. 23</date>
+			 <event>Page born on Oakland Plantation, Hanover County, Va.</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1869-1872</date>
+			 <event>Attended Washington College</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1874</date>
+			 <event>Graduated from University of Virginia Law School</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1884</date>
+			 <event>Published "Marse Chan"</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1886 July 28</date>
+			 <event>Married Anne Seddon Bruce</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1887</date>
+			 <event>Published "Unc' Edingburgh's Drowndin'" and "No Haid
+				Pawn"</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1888 Dec. 22</date>
+			 <event>Death of Anne Seddon Bruce Page</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1889-1893</date>
+			 <event>Toured on lyceum circuit</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1893</date>
+			 <event>Married Florence Field</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1895</date>
+			 <event>Headed alumni campaign to raise funds for rebuilding of
+				University of Virginia rotunda</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1899</date>
+			 <event>Oakland Plantation burned</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1913</date>
+			 <event>Chairman of Reception Committe for Wilson's
+				Inauguration</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1913 July 6</date>
+			 <event>Appointed ambassador to Italy</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1916 </date>
+			 <event>Returned home on leave</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1916 July</date>
+			 <event>Resumed post in Italy</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1919 July 5 </date>
+			 <event>Resigned post of ambassador</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1919</date>
+			 <event>Wrote volume on
+				<title render="italic" linktype="simple">Italy and the World War</title></event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1921 May</date>
+			 <event>Florence Page died</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1922 Nov. 1</date>
+			 <event>Died at Oakland Plantation</event>
+		  </chronitem>
+		</chronlist>
+
+
+	 </bioghist>
+<!--End of biohistory-->
+<!--Begin scopecontent-->
+	 <scopecontent>
+		<head>Collection Overview</head>
+		<p>The Thomas Nelson Page Papers span the years 1739-1927, with the majority of the materials dating from the 1880s to 1920. The papers include personal and professional correspondence, legal and business papers, writings, diplomatic dispatches, clippings and other items, all relating to Page's legal and literary career. Topics include his activities as a lyceum lecturer; his marriages and family relations; his role in and perspective on <subject>American politics</subject> and
+		  <subject>foreign relations</subject>, particularly during
+		  <subject>World War II</subject>; travels in Europe; and his interest in civic affairs,
+		  <subject>social reform</subject> and
+		  <subject>race relations</subject>in the United States, particularly
+		  during and following Reconstruction.  Collection is arranged in the following series: <emph render="bold">Correspondence, Legal and Financial Papers, Writings and Speeches, Diplomacy, Visual Materials, Personal Papers, and Clippings</emph> Two oversize newspapers are described in a series at the end of the finding aid.</p> <p>In the <emph render="bold">Correspondence Series</emph>, the largest in the collection, letters prior to 1880 include personal correspondence
+		  from various members of the Page family, especially between
+		  <persname>Thomas Nelson Page</persname>, his mother,
+		  <persname>Elizabeth Burwell (Nelson) Page</persname>, and brother,
+		  <persname>Rosewell Page</persname>, who lived at the ancestral estate,
+		  "Oakland," in
+		  <geogname>Hanover County, Virginia</geogname>.
+		  Page describes his political activities in letters concerning the
+		  <subject>presidential campaigns of 1912 and 1916</subject>. Correspondence from this period also includes personal letters to
+		  members of the family describing new experiences in
+		  <subject>diplomatic life</subject>, and routine business
+		  correspondence. Significant correspondents in the series include
+		  <persname>C. F. Adams</persname>,
+		  <persname>Grover Cleveland</persname>,
+		  <persname>Josephus Daniels</persname>,
+		  <persname>J. C. Harris</persname>,
+		  <persname>William D. Howells</persname>,
+		  <persname>Robert Lansing</persname>,
+		  <persname>Robert T. Lincoln</persname>,
+		  <persname>Henry C. Lodge</persname>,
+		  <persname>Theodore Roosevelt</persname>,
+		  <persname>E. Root</persname>,
+		  <persname>J. M. Stoddart</persname>, and
+		  <persname>William H. Taft</persname>. For some of these individuals only one or two pieces of correspondence exist. Another set of
+		  correspondence, dated 1883-1912 and interfiled at the end of the correspondence series, comprises photocopies of letters (and a few other
+		  items, including a telegram, Christmas greeting, and obituary clipping on Henry Hobson) chiefly from Page to close friend
+		  <persname>Henry Wise Hobson</persname> (1858-1898), originally of
+		  Virginia, and to his wife Katherine. Notes: Originals for photocopies are in the
+		  donor's possession. The collection also includes two
+		  <genreform>scrapbooks</genreform>, found in the <emph render="bold">Personal Papers Series</emph>, containing cards and envelopes from
+		  distinguished persons. This series also houses documents related to Page's ties with the University of Virginia, personal reminiscences, various fragmentary notes, and a journal from 1863. Four folders of carbon copies of
+		  <genreform>diplomatic dispatches</genreform> from Page to the
+		  <corpname>U.S. State Department</corpname> and to
+		  <persname>President Woodrow Wilson</persname>, along with other papers related to his diplomatic activities, can be found in the <emph render="bold">Diplomacy Series</emph>. Another small group, the <emph render="bold">Legal and Financial Series</emph>, houses documents relating to Page's properties and other business affairs. The <emph render="bold">Writings and Speeches Series</emph> contains many manuscripts and drafts of political and literary speeches, memoirs, essays, and articles, but none of Page's major literary works. Several folders of materials in this series contain Page's detailed journalistic notes describing his trips in 1916 to the war fronts in <geogname>Italy</geogname> and
+		  <geogname>France</geogname>. Extensive folders of cuttings in the <emph render="bold">Clippings Series</emph> were taken from both
+		  American and Italian newspapers, and comprise a significant portion of the collection. The clippings refer to events in Page's career such as lyceum appearances, political appointments, and political speeches, both in the United States and in Italy. In addition, Page clipped articles referring to race relations in the United States, particularly in the South. The clippings also document national and global events during Page's years as an ambassador to Italy from 1913 to 1919, and provide rich background material for a study of United States foreign relations with Italy and other countries during World War I. There are also a few photographs in the <emph render="bold">Visual Materials Series</emph>, some of which depict scenes from wartime Italy. </p>
+	 </scopecontent>
+<!--End scopecontent-->
+<!--Begin controlaccess-->
+	 <controlaccess>
+		<head>Subject Headings</head>
+		<p>These are searchable subject entries for this collection. Performing a
+		  search on these subjects in the Duke University Libraries online catalog will
+		  bring up other related research materials.</p>
+		<list type="simple">
+<!-- Note:  <subject encodinganalog="650" source="lcsh">, <persname encodinganalog="600" source="lcnaf">, <corpname encodinganalog="610">, <geogname encodinganalog="651" source="lcsh">, <famname encodinganalog="600" source="lcnaf">, <genreform encodinganalog="655" source="aat"> or <genreform encodinganalog="655" source="gmgpc">, <title encodinganalog="630" source="lcsh"> used where applicable -->
+		  <item>
+			 <persname source="lcsh" encodinganalog="600">Page, Thomas Nelson,
+				1853-1922</persname></item>
+		  <item>
+			 <persname source="lcsh" encodinganalog="600">Page, Elizabeth Burwell
+				Nelson</persname></item>
+		  <item>
+			 <persname source="lcsh" encodinganalog="600">Hobson, Henry Wise,
+				1858-1898</persname></item>
+		  <item>
+			 <famname source="lcsh" encodinganalog="600">Page
+				family</famname></item>
+		  <item>
+			 <persname source="lcsh" encodinganalog="600">Page, Rosewell,
+				1858-1939</persname></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">Authors,
+				American -- Virginia</subject></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">Ambassadors -- United
+				States</subject></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">Lyceums -- United
+				States</subject></item>
+		  <item>
+			 <persname source="lcsh" encodinganalog="600">Wilson, Woodrow,
+				1856-1924</persname></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">Presidents -- United
+				States -- Election -- 1912</subject></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">Presidents -- United
+				States -- Election -- 1916</subject></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">African
+				Americans -- Southern States -- 1865-1951</subject></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">Reconstruction -- Southern
+				States</subject></item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">France -- Description and
+				travel</geogname></item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Italy -- Description and
+				travel</geogname></item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Italy -- History -- 1914-1922</geogname></item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Italy -- Foreign
+				relations -- United States</geogname></item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">United States -- Foreign
+				Service -- History</geogname></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">World War,
+				1914-1918 -- Italy</subject></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">World War,
+				1914-1918 -- United States</subject></item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Southern States -- Race
+				relations -- History -- 1865-1951</geogname></item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">United States -- Foreign
+				relations -- Italy</geogname></item>
+		  <item>
+			 <subject source="aat" encodinganalog="655">Clippings</subject></item>
+		  <item>
+			 <subject source="aat" encodinganalog="655">Photographs</subject></item>
+		  <item>
+			 <subject source="aat" encodinganalog="655">Scrapbooks</subject></item>
+		</list>
+	 </controlaccess>
+<!--End controlaccess-->
+<!--Begin container list-->
+<!-- Sample of possible container list structure, actual markup depends upon the materials being described. -->
+<!-- Use <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent>, <processinfo>, and <accessrestrict> if needed. -->
+	 <dsc type="combined">
+		<head>Contents of Collection</head>
+		<c01 level="series">
+		  <did>
+			 <unittitle id="s1">Correspondence Series,
+				<unitdate type="inclusive" normal="1739/1927" era="ce" calendar="gregorian">1739-1927 and undated</unitdate></unittitle>
+			 <physdesc><extent>(13 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p> Arranged in chronological order.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">1</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1739-1817</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1836-1839</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1850-1896</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">2</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1897-1899</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">3</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1900 Jan.-1902
+					 June</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">4</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1902 July-1904
+					 Aug.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">5</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1904 Sept.-1908
+					 Dec.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">6</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1909 Jan.-1911
+					 Jan.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">7</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1911 Feb.-1913
+					 Mar.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">8</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1913 Mar.-1913
+					 Aug.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">9</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1913 Sept.-1916
+					 Sept.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">10</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1916 Oct.-1918
+					 June</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">11</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1918 July-1919
+					 Dec.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">12</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1920-1927 and
+					 undated</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">13</container>
+				<unittitle>Undated correspondence</unittitle>
+				<physdesc><extent>(4 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+<c02>
+			 <did>
+				<unittitle>1883-1912 and undated: Correspondence from Page to Henry Hobson and his sister, Katherine (Kitty) Hobson</unittitle>
+				<physdesc><extent>(2 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle id="s2">Legal and Financial Papers Series,
+				<unitdate type="inclusive" normal="1875/1923" era="ce" calendar="gregorian">1875-1923</unitdate></unittitle>
+			 <physdesc><extent>(1 box)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Consists of records dealing with royalties due to Thomas Nelson
+				Page and property owned by Page. Arranged in alphabetical order.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">13</container>
+				<unittitle>Bills and accounts,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1879-1920</unitdate></unittitle>
+				<physdesc><extent>(2 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Checks and receipts,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1882-1913</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Construction of residence in Washington, D.C.,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1893-1897</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Hanover printing and publishing company,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1918, 1923</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Income accounts,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1903, 1915-1919</unitdate></unittitle>
+
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Miscellaneous,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1912-1913</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="doublequote" linktype="simple">Mont Air</title> farm,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1901-1913</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Real estate,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1898-1916</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Royalty reports,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1899-1919</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Various legal papers,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1875-1919</unitdate></unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle id="s3">Writings and Speeches Series,
+				<unitdate type="inclusive" normal="1863/1920" era="ce" calendar="gregorian">1863-1920 and undated</unitdate></unittitle>
+			 <physdesc><extent>(2 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Consists primarily of literary manuscripts, addresses and speeches
+				written by Thomas Nelson Page. Also included are various other writers on Southern history. Arranged in chronological order. </p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">14</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1863-1864, </unitdate>
+				  <title render="doublequote" linktype="simple">Extract from H. Nelson Gay's articles
+					 including reference to Pius IX's offer of intervention in American civil war,
+					 Oct 18, 1863 </title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1876,</unitdate> Page, Thomas Nelson,
+				  Copies of material on reconstruction in South Carolina</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1890,</unitdate> Page, Rosewell,
+				  <title render="doublequote" linktype="simple">When I was a Little Boy,</title> rpt.
+				  1970</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1893 Apr., </unitdate> Richmond,
+				  Virginia, Wise, B.H.,
+				  <title render="doublequote" linktype="simple">Thomas Nelson Page</title>
+				  </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1897,</unitdate> Washington D.C.,
+				  Page, Thomas Nelson, <title render="doublequote" linktype="simple">Colonel William Nelson of
+					 Oakland</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1898 July 4,</unitdate> Rio de
+				  Janerio, Brazil, editorials from the press of Rio de Janerio</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1898 Oct. 19,</unitdate> Hobson, Henry
+				  W., Memorial and resolutions on death of...</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">Circa 1898-1903,</unitdate> Book
+				  review lists</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1899 Mar. 29,</unitdate> Wilson,
+				  Robert Burns,
+				  <title render="doublequote" linktype="simple">The Song of the
+					 Lark</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1901,</unitdate> Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">On the Nile,</title> reprint,
+				  1970</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1901 Jan.,</unitdate> Page, Thomas
+				  Nelson,
+				  <title render="doublequote" linktype="simple">On the Nile</title>, typescript,
+				  journal of a tour in Egypt</unittitle>
+				<physdesc><extent>(2 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">Circa 1901,</unitdate> Washington
+				  D.C., Page, Thomas Nelson, remarks as toastmaster at Jefferson
+				  dinner</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1906,</unitdate> Page, Thomas Nelson,
+				  Mediterranean Winter, Journal and Letters, reprint 1971</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1907, </unitdate>See UVA annual
+				  <title render="italic" linktype="simple">Corks and Curls,</title> Page, Thomas
+				  Nelson,
+				  <title render="doublequote" linktype="simple">Recollections of the University of
+					 Virginia</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1908,</unitdate>Washington D.C., Page,
+				  Thomas Nelson,
+				  <title render="doublequote" linktype="simple">In Memoriam: Thomas Seddon
+					 Bruce</title> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1909 Apr. 28,</unitdate> Washington
+				  D.C., Ceremony in honor of L'Enfant</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1911 Jan. 27,</unitdate>
+				  <title render="doublequote" linktype="simple">Memorandum Relative to the Work of
+					 the American Forestry Association for 1911</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1912,</unitdate> Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">North African Journal,</title>
+				  reprint 1970</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1912 Nov. 27, </unitdate> Page,
+				  Thomas Nelson,
+				  <title render="doublequote" linktype="simple">Mr. Wilson's Nomination to the
+					 Governorship of New Jersey</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1912 Dec. 3,</unitdate> Mr. Kirkwood
+				  and Mr. MacVeagh and Mr. Windom, Mr. Cameron,
+				  <title render="doublequote" linktype="simple">In Regard to Civil
+					 Service</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1912 Dec. 10, </unitdate>Page, Thomas
+				  Nelson,
+				  <title render="doublequote" linktype="simple">Personal Recollections of the Opening
+					 of the Civil War</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1912 Dec. 12,</unitdate>
+				  <title render="italic" linktype="simple"> The Baltimore Convention of
+					 1912</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">Circa 1912,</unitdate> Richmond,
+				  Virginia, unidentified address, attributed to Page, fragment, typed, pp.
+				  35-83</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1913 Jan. 4,</unitdate> Washington
+				  D.C., Weller, Charles Frederick,
+				  <title render="doublequote" linktype="simple">American Needs and
+					 Opportunities</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1913 Feb. 22,</unitdate> Washington
+				  D.C., Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">Henry Clay and the Treaty of
+					 Ghent</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1914,</unitdate> Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">Has Civilization
+					 Failed?</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1914 Feb.,</unitdate> Rome, Italy,
+				  Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">Lines of the Room in which Keats
+					 Died</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1915, </unitdate>Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">What America Stands
+					 for...</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1915 Nov. 22, Rome, Italy, Pope
+					 <title render="doublequote" linktype="simple">Address to the members of the
+						Society for the Preservation of the Faith in
+						Rome</title></unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1916,</unitdate> Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">President Wilson's Critics- A
+					 Challenge Not a Defense</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1916, </unitdate>Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">The United States</title></unittitle>
+
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1916 July,</unitdate> Chantilly,
+				  France, Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">A casual glimpse of the French front
+					 in Champagne</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1916 Sept. 13-18,</unitdate> Udine,
+				  Italy, Page, Thomas Nelson, journal of a visit to the Italian front
+				  </unittitle>
+				<physdesc><extent>( 2 copies)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1917 Feb. 22, </unitdate>Rome, Italy,
+				  Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">Address... delivered Feb. 22nd 1917
+					 at the American Embassy</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1917 July 4, </unitdate>Rome, Italy,
+				  Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">Speech...Delivered at the
+					 Campidoglio,... to Celebrate America's Entrance into the
+					 War</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1917 Oct. 1,</unitdate> Rome, Italy,
+				  Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">Speech delivered at luncheon given by
+					 Italian American Union to Col. Baker's Red Cross Commission</title></unittitle>
+
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">15</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1918 Jan. 15,</unitdate> Rome, Italy,
+				  Page, Thomas Nelson, speech delivered at Campidoglio</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1918 Apr. 2, </unitdate>Rome, Italy,
+				  Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">Speech in honor of Secretary of War
+					 Baker</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1918 Apr. 7, </unitdate>Rome, Italy.
+				  Speech delivered at Campidoglio by Page</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>1918 Apr. 9,
+				  <title render="italic" linktype="simple">Corriere d'Italia, </title>
+				  <title render="doublequote" linktype="simple">Thomas Nelson
+					 Page</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1918 July,</unitdate> Rome, Italy,
+				  Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">To My Compatriots, the American
+					 Soldiers in Italy</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1918 Aug. 1,</unitdate> Rome, Italy,
+				  Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">Welcome addressed by U.S. Ambassador
+					 to Officers and Men of 32nd U.S. Infantry Regiment</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1918 Oct. 13,</unitdate> Rome, Italy,
+				  Page, Thomas Nelson, Address in an assembly before the embassy</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1918,</unitdate> Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">Economic Conditions in the Southern
+					 Confederacy</title></unittitle>
+			 </did>
+		  </c02>
+
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1919 Mar. 21, </unitdate>Rome, Italy,
+				  Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">Greetings to the soldiers of U.S.A.
+					 Coming to Italy on Leave</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1919 Mar. 27, </unitdate>Page, Thomas
+				  Nelson,
+				  <title render="doublequote" linktype="simple">Introduction to Reminiscences Revd.
+					 Wm M Dame</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1919 June, </unitdate>Rome, Italy,
+				  Page, Thomas Nelson, speech introducing Miss Winifred Hold</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1919 Aug. 15,</unitdate> Richmond, Va., Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">Address delivered in Hall of Virginia
+					 House of Delegates in Celebration of the 300th Anniversary of the Assembling of
+					 the 1st General Assembly of Virginia at Jamestown</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1919 Sept. 5,</unitdate> Page, Thomas
+				  Nelson, address to the New England Manufacturers Association</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1919,</unitdate> Page, Thomas Nelson,
+
+				  <title render="doublequote" linktype="simple">A few reflections in the interest of
+					 fair play</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1919 Sept.,</unitdate> York Harbor,
+				  Maine, Page, Thomas Nelson,
+				  <title render="doublequote" linktype="simple">On the ratification of the peace
+					 treaty</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">Circa 1920,</unitdate> Page, Thomas
+				  Nelson,
+				  <title render="doublequote" linktype="simple">Promotion of international peace and
+					 especially promotion of cordial relations between the two branches of the
+					 english speaking race</title></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">Undated Writings</unitdate> </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Page, Thomas Nelson, printed poem and
+					 <title render="doublequote" linktype="simple">Personal Recollections of Thomas
+						Nelson Page</title>, by S.A. Steel </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle> Page, Thomas Nelson,
+					 <title render="doublequote" linktype="simple">The Ballad of Willy's
+						Horn</title></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle> Page, Thomas Nelson,
+					 <title render="doublequote" linktype="simple">Poe: The First American Man of
+						Letters</title></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">Page, Thomas Nelson, fragment from
+						<title render="doublequote" linktype="simple">Unc' Edinburgh's
+						  Drowndin'</title></unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Page, Thomas Nelson,
+					 <title render="doublequote" linktype="simple">Memorandum and specifications of a
+						stone and timber dam to be built at Fulcher's Mill on Little River, Hanover
+						Co., Va.</title></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Page, Thomas Nelson, Introduction to Gordon
+					 Keith</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Page, Thomas Nelson,
+					 <title render="doublequote" linktype="simple">Mogul's Last
+						Race</title></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Page, Thomas Nelson,
+					 <title render="doublequote" linktype="simple">Introduction to Mr. Leavitt's
+						Book</title></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Page, Thomas Nelson,
+					 <title render="doublequote" linktype="simple">Sonnets</title></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Page, Rosewell, Introduction to
+					 <title render="doublequote" linktype="simple">The Commentaries of an American
+						Ambassador during the World War </title></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Page, Thomas Nelson,
+					 <title render="doublequote" linktype="simple">My Opinion of Reviews of My
+						Books</title></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Page, Thomas Nelson, <title render="doublequote" linktype="simple">Prospects of the International
+						Association of Newspapers and Authors</title></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Weller, Charles Frederick,
+					 <title render="doublequote" linktype="simple">Rural
+						Recreation</title></unittitle>
+				</did></c03><c03>
+			 <did>
+				<unittitle>King, Henry C.,
+				  <title render="doublequote" linktype="simple">Some Notes on the
+					 Negro</title></unittitle>
+			 </did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Page, Thomas Nelson,
+					 <title render="doublequote" linktype="simple">Thomas Jefferson: Apostle of
+						Liberty</title></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <title render="doublequote" linktype="simple">The Major's
+						Story</title></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Hampden-Sidney College</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Page, Thomas Nelson,
+					 <title render="doublequote" linktype="simple">Polly,</title> dramatization
+					 fragment</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>de Leon, Perry M.,
+					 <title render="doublequote" linktype="simple">The Confederate States Navy in the
+						Civil War</title></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Carey, William, fragment of memoir</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Page, Thomas Nelson, literary fragments</unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle id="s4">Diplomacy Series,
+				<unitdate type="inclusive" normal="1915/1919" era="ce" calendar="gregorian">1915-1919 and undated</unitdate></unittitle>
+			 <physdesc><extent>(2 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Various official missives and documents arising from Page's
+				activities diplomatic activies in Europe. Arranged in chronological order.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">15</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1915-1919,</unitdate> Duplicate
+				  carbons</unittitle>
+				<physdesc><extent>(4 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">16</container>
+				<unittitle>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1915-1919 and undated,</unitdate>
+				  Miscellaneous papers</unittitle>
+				<physdesc><extent>(3 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Passports and related documents</unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle id="s5">Visual Materials Series,
+				<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+				  1915-undated</unitdate></unittitle>
+			 <physdesc><extent>(1 box)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Photographs include family trips, the campus of the University of
+				Virginia, and the effects of World War I on Italy. </p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">16</container>
+				<unittitle>Blueprints and maps</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Photographs</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Story illustrations</unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle id="s6">Personal Papers Series,
+				<unitdate type="inclusive" normal="1863/1917" era="ce" calendar="gregorian">1863-1917 and undated</unitdate></unittitle>
+			 <physdesc><extent>(2 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Of note are the materials on the inauguration of
+				<persname>Woodrow Wilson</persname>. Another section is dedicated
+				to the rebuilding efforts at the
+				<corpname>University of Virginia</corpname>. Arranged in
+				alphabetical order.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">16</container>
+				<unittitle>Bylaws and house rules: York Harbor Reading Room,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1901</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Cards and invitations</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Inauguration of Woodrow Wilson,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1913</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Journal,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1863</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">17</container>
+				<unittitle>Miscellaneous printed material; circulars, etc.
+				  </unittitle>
+				<physdesc><extent>(3 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="doublequote" linktype="simple">Recollections and Reflections,
+					 </title>Thomas Nelson Page</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>University of Virginia</unittitle>
+				<physdesc><extent>(2 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Various forms, lists, invitations and miscellaneous
+				  papers</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Various fragmentary notes and lists,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1865-1917 and
+					 undated</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Various notes, lists and other papers</unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle id="s7">Clippings Series,
+				<unitdate type="inclusive" normal="1882/1919" era="ce" calendar="gregorian">1882-1919</unitdate></unittitle>
+			 <physdesc><extent>(8 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Extensive collection of clippings taken from major American and
+				Italian newspapers, chiefly from the period when Page was writing about race
+				relations and other social issues in the United States, and during his
+				politically active period from 1910 to the 1920s. Most of the American
+				clippings have been photocopied from the originals. Other clippings may be fragile; handle with care. Photocopies may be necessary to access material. Arranged within geographical categories chronologically by date.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">17</container>
+				<unittitle>American,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1882-1902</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">18</container>
+				<unittitle>American,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1903-1926 and
+					 undated</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>French,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1904, 1915-1919</unitdate></unittitle>
+
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>German,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1897</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">19</container>
+				<unittitle>Italian,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1915 Apr.-1917
+					 May</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">20</container>
+				<unittitle>Italian,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1917 May-1917
+					 July</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">21</container>
+				<unittitle>Italian,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1917 Aug.-1917
+					 Oct.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">22</container>
+				<unittitle>Italian,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1917 Nov.-1919
+					 Jan.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">23</container>
+				<unittitle>Italian,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1919 Jan.-1919
+					 Apr.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">24</container>
+				<unittitle>Italian,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1919 Apr.-1921</unitdate></unittitle>
+			 </did>
+		  </c02>
+		</c01>
+<c01 level="series"><did>
+<unittitle id="s8">Oversize Material, <unitdate type="inclusive" normal="1898/1912" era="ce" calendar="gregorian">1898-1912</unitdate></unittitle>
+<physdesc><extent>(1 folder)</extent></physdesc>
+</did>
+<c02 level="subseries">
+<did>
+<unittitle>Clippings Series, <unitdate type="inclusive" era="ce" calendar="gregorian">1898-1912</unitdate></unittitle>
+</did>
+<c03><did><container type="opaperfolder">1</container><unittitle><title render="italic" linktype="simple">The Sun</title> (N.Y.C.), <unitdate type="inclusive" era="ce" calendar="gregorian">1898 Aug. 8</unitdate> (article marked: "Seizure of the Ladrone Islands")</unittitle></did><accessrestrict>
+<p>[Extremely fragile. Consult with a Reference Archivist to use this item.]</p>
+</accessrestrict></c03>
+<c03><did><unittitle><title render="italic" linktype="simple">New York Herald</title>, <unitdate type="inclusive" era="ce" calendar="gregorian">1912 Dec. 5</unitdate> (Christmas edition): <title render="doublequote" linktype="simple">Christmases of the Nation,</title> by Thomas Nelson Page</unittitle></did><accessrestrict>
+<p>[Extremely fragile. Consult with a Reference Archivist to use this item.]</p>
+</accessrestrict></c03>
+</c02>
+
+
+</c01>
+	 </dsc>
+  </archdesc>
+</ead>

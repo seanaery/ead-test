@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Pre-1870 Newspaper Collection)//EN" url="http://library.duke.edu/rubenstein/findingaids/newspapr/">newspapr</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Preliminary Guide to the Pre-1870 Newspaper Collection, <date normal="1833/1885" type="inclusive" era="ce" calendar="gregorian">1833-1885</date></titleproper>
+        <author>Processed by: Paula Jeannet and Trey McClean ; machine-readable finding aid created by: Don Sechler</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <p><date era="ce" calendar="gregorian"> 1998</date> Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">003358446</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from Microsoft Word Markup System.
+
+<lb/>Date of source: April 21, 1997
+<lb/>Processed by Paula Jeannet and Trey McClean April 21, 1997; Finding Aid encoded by Don Sechler, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, <date calendar="gregorian" era="ce">September 9, 1998</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Pre-1870 Newspaper Collection)//EN" "newspapr.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Preliminary Guide to the Pre-1870 Newspaper Collection, <date calendar="gregorian" era="ce">1833-1885</date></titleproper>
+      <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham, North Carolina 27708-0185</publisher>
+
+      <p> 1998 Duke University. All rights reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Pre-1870 Newspaper collection <unitdate calendar="gregorian" era="ce" normal="1833/1885" type="inclusive">1833-1885</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library.</corpname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>16 Linear Feet</extent>
+	  <extent>900 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+      </repository>
+      <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Collection is open for research.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+        <p>The newspapers are very fragile: handle with extreme care on a spacious, flat surface. Reference staff must be consulted before any photocopying is done.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Pre-1870 Newspaper Collection, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>Transferred from Perkins Library to the David M. Rubenstein Rare Book &amp; Manuscript Library in 1997 and 1998.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by Paula Jeannet and Trey McClean </p>
+        <p>Completed September 9, 1998</p>
+	  <p>Encoded by Don Sechler</p>
+        <p>This finding aid is NCEAD compliant.</p>
+        <p>This collection is unprocessed: materials may not have been ordered and described beyond their original condition.</p>
+      </processinfo>
+    </descgrp>
+    <!-- End of Finding Aid Header -->
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>Recent uncataloged accessions of Pre-1870 newspapers, transferred from Perkins Library to the Rare Book Manuscript and Special Collections Library at Duke University in 1997 and 1998. The bulk of this collection consists of papers published in the South during the Civil War, but several newspapers from Northern states are also included. The papers in this collection are very fragile and should be used with extreme care. Please consult with reference staff prior to photocopying.</p>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <item><geogname>United States -- History -- Civil War, 1861-1865</geogname></item>
+      </list>
+    </controlaccess>
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle>Newspaper Collection</unittitle>
+        </did>
+        <scopecontent>
+          <p>Uncataloged pre-1870 newspapers received in<unitdate calendar="gregorian" era="ce" normal="1996" type="inclusive">1996</unitdate> from the Serials Department of Perkins Library. Dates range from <unitdate calendar="gregorian" era="ce" normal="1830/1887" type="inclusive">1830-1887,</unitdate>with the bulk of the issues published from<unitdate calendar="gregorian" era="ce" normal="1861" type="inclusive">1861</unitdate> to<unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869.</unitdate> The majority originate from <geogname>North Carolina </geogname>cities, but the states of <geogname>Massachusetts, </geogname><geogname>New York, </geogname><geogname>South Carolina, </geogname><geogname>Mississippi, </geogname><geogname>Kentucky, </geogname><geogname>Pennsylvania, </geogname>and <geogname>Maine </geogname>are also represented. Newspapers are in numbered folders. Many are very fragile: handle with extreme care on a spacious, flat surface. Reference staff must be consulted before any photocopying is done.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <container type="folder">1</container>
+            <unittitle><title linktype="simple" render="italic">Roanoke News,</title><geogname>Weldon, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>23 Oct.-25 Dec </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Friend of Temperance,</title><geogname>Raleigh, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>20 Mar.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">3</container>
+            <unittitle><title linktype="simple" render="italic">Friend of Temperance,</title><geogname>Raleigh, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>2 Apr.-22 Sept.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">3</container>
+            <unittitle><title linktype="simple" render="italic">Friend of Temperance,</title><geogname>Raleigh, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>29 Sept.-22 Dec</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">4</container>
+            <unittitle><title linktype="simple" render="italic">The Western Democrat,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1861" type="inclusive">1861,</unitdate>26 Mar.-4 June</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">5</container>
+            <unittitle><title linktype="simple" render="italic">The Western Democrat,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1861" type="inclusive">1861,</unitdate>11 June-20 Aug</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">6</container>
+            <unittitle><title linktype="simple" render="italic">The Western Democrat,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1861" type="inclusive">1861,</unitdate>27 Aug.-1 Oct.;<unitdate calendar="gregorian" era="ce" normal="1862" type="inclusive">1862,</unitdate>5 Feb., 29 July, 14 Oct.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <container type="folder">1</container>
+            <unittitle><title linktype="simple" render="italic">The Weekly Sentinel,</title><geogname>Raleigh, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1867" type="inclusive">1867, 17 Dec.-31 Dec.;</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>16 Mar., 8 June-6 July</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">2</container>
+            <unittitle>
+              <title linktype="simple" render="italic">The Weekly Sentinel,</title>
+              <geogname>Raleigh, NC:</geogname>
+              <unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869, 3 Aug., 16 Nov.;</unitdate>
+              <unitdate calendar="gregorian" era="ce" normal="1867" type="inclusive">1867, 12 Mar.-2 Apr., 16 Apr.-21 May, 4 June, 18 June-25 June</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">3</container>
+            <unittitle>
+              <title linktype="simple" render="italic">The Weekly Sentinel,</title>
+              <geogname>Raleigh, NC: </geogname>
+              <unitdate calendar="gregorian" era="ce" normal="1867" type="inclusive">1867, 2 July-10 Sept.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">4</container>
+            <unittitle>
+              <title linktype="simple" render="italic">The Weekly Sentinel,</title>
+              <geogname>Raleigh, NC:</geogname>
+              <unitdate calendar="gregorian" era="ce" normal="1867" type="inclusive">1867, 24 Sept.-19 Nov., 3 Dec.-10 Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">5</container>
+            <unittitle><title linktype="simple" render="italic">The Weekly News,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>30 Nov.-21 Dec.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Weekly State Journal,</title><geogname>Raleigh, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1860" type="inclusive">1860,</unitdate>12 Dec.; <unitdate calendar="gregorian" era="ce" normal="1861" type="inclusive">1861, 2 Jan., 16 Jan., 27 Feb., 20 Mar.-3 Apr., 24 Apr.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">6</container>
+            <unittitle>
+              <title linktype="simple" render="italic">The Weekly State Journal,</title>
+              <geogname>Raleigh, NC: </geogname>
+              <unitdate calendar="gregorian" era="ce" normal="1861" type="inclusive">1861, 22 May, 10 July, 31 July-21 Aug., 4 Sept.-11 Sept., 25 Sept.-2 Oct., 30 Oct.-6 Nov., 4 Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">7</container>
+            <unittitle>
+              <title linktype="simple" render="italic">The Weekly State Journal,</title>
+              <geogname>Raleigh, NC: </geogname>
+              <unitdate calendar="gregorian" era="ce" normal="1862" type="inclusive">1862, 25 June; 9 July; 23 July; 24 Sept.;</unitdate>
+              <unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, 22 July</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Western Democrat,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, 21 July, 10 Nov.;</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1866" type="inclusive">1866,</unitdate>10 July-7 Aug.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <container type="folder">1</container>
+            <unittitle>
+              <title linktype="simple" render="italic">Mecklenburg Jeffersonian,</title>
+              <geogname>Charlotte, NC: </geogname>
+              <unitdate calendar="gregorian" era="ce" normal="1844/1848" type="inclusive">1844, 27 Jan.-1848, 12 July</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">2</container>
+            <unittitle><title linktype="simple" render="italic">Mecklenburg Jeffersonian,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1842" type="inclusive">1842,</unitdate>15 Mar.-1843, 24 Oct</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">3</container>
+            <unittitle><title linktype="simple" render="italic">Mecklenburg Jeffersonian,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1841" type="inclusive">1841,</unitdate>9 Mar.-1842, 8 Mar.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">4</container>
+            <unittitle><title linktype="simple" render="italic">Milton Chronicle,</title><geogname>Milton, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1844" type="inclusive">1844,</unitdate>22 May-1863, 9 Nov.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Milton Gazette,</title><geogname>Milton, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1830" type="inclusive">1830,</unitdate>21 Aug.-1831, 21 Jan.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Milton Spectator,</title><geogname>Milton, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1832" type="inclusive">1832,</unitdate>31 Oct.-1836, 27 Sept.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">5</container>
+            <unittitle><title linktype="simple" render="italic">The Western Democrat,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1866" type="inclusive">1866,</unitdate>24 July, 14 Aug.-20 Nov.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">6</container>
+            <unittitle><title linktype="simple" render="italic">The Western Democrat,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1866" type="inclusive">1866,</unitdate>27 Nov.-1867, 5 Mar.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">7</container>
+            <unittitle><title linktype="simple" render="italic">The Western Democrat,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1867" type="inclusive">1867,</unitdate>12 Mar.-7 May</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Weldon Patriot,</title><geogname>Weldon, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1856" type="inclusive">1856,</unitdate>13 Nov., 6 Nov., 16 May </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">8</container>
+            <unittitle><title linktype="simple" render="italic">Louisburg Union and North Carolina Miscellany,</title><geogname>Louisburg, NC:</geogname><unitdate calendar="gregorian" era="ce" normal="1847" type="inclusive">1847,</unitdate>19 Aug.-4 Nov.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">9</container>
+            <unittitle><title linktype="simple" render="italic">The Wilmington Post and Semi-Weekly Post,</title><geogname>Wilmington, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1868" type="inclusive">1868,</unitdate>9 July, 18 Oct.; <unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869, 16 Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <container type="folder">1</container>
+            <unittitle><title linktype="simple" render="italic">New Bern Journal of Commerce,</title><geogname> New Bern, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1867" type="inclusive">1867,</unitdate>13 Sept.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Message,</title><geogname>Greensboro, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>15 Sept.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">2</container>
+            <unittitle><title linktype="simple" render="italic">The Morning Star,</title><geogname>Wilmington, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1868" type="inclusive">1868,</unitdate>29 Sept., 31 Dec.; <unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>5 Jan., 29 Jan., 19 Feb., 23 Mar.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">3</container>
+            <unittitle><title linktype="simple" render="italic">The Mercury,</title><geogname>Raleigh, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1864" type="inclusive">1864,</unitdate>30 Apr.-29 Oct.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">4</container>
+            <unittitle><title linktype="simple" render="italic">The Morning Star,</title><geogname>Wilmington, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>24 Mar.-22 Sept.</unittitle>
+          </did>
+          <scopecontent>
+            <p>NOTE: Box 5 consists of two bound volumes and is heavy.</p>
+          </scopecontent>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">5</container>
+            <container type="folder">1</container>
+            <unittitle><title linktype="simple" render="italic">The Morning Star,</title><geogname>Wilmington, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1868" type="inclusive">1868,</unitdate>27 Mar.-22 Sept</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">2</container>
+            <unittitle><title linktype="simple" render="italic">The Morning Star,</title><geogname>Wilmington, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>23 Sept.-1870, 22 Mar</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">6</container>
+            <container type="folder">1</container>
+            <unittitle><title linktype="simple" render="italic">The Western Democrat,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1859" type="inclusive">1859,</unitdate>19 Apr.-28 June</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">2</container>
+            <unittitle><title linktype="simple" render="italic">The Western Democrat,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1859" type="inclusive">1859,</unitdate>5 July-16 Aug.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">3</container>
+            <unittitle><title linktype="simple" render="italic">The Western Democrat,</title><geogname> Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1859" type="inclusive">1859,</unitdate>23 Aug.;<unitdate calendar="gregorian" era="ce" normal="1860" type="inclusive">1860,</unitdate>10 Jan.-13 Mar.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">4</container>
+            <unittitle><title linktype="simple" render="italic">The Western Democrat,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1860" type="inclusive">1860,</unitdate>20 Mar.-19 June </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">5</container>
+            <unittitle><title linktype="simple" render="italic">The Western Democrat,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1860" type="inclusive">1860,</unitdate>26 June-25 Sept.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">6</container>
+            <unittitle><title linktype="simple" render="italic">The Western Democrat,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1860" type="inclusive">1860,</unitdate>2 Oct.-22 Dec.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">7</container>
+            <unittitle><title linktype="simple" render="italic">The Western Democrat,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1861" type="inclusive">1861,</unitdate>1 Jan.-19 Mar.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">8</container>
+            <unittitle><title linktype="simple" render="italic">Little Adder,</title><geogname> Salisbury, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1860" type="inclusive">1860,</unitdate>8 June-1860, 13 July</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Lincoln Republican,</title><geogname>Lincolnton, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1841" type="inclusive">1841,</unitdate>1 Sept.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">9</container>
+            <unittitle><title linktype="simple" render="italic">Microcosm,</title><geogname>Raleigh, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1838" type="inclusive">1838,</unitdate>30 June-1841, 17 July</unittitle>
+          </did>
+          <scopecontent>
+            <p>Chiefly bound, but some issues are loose.</p>
+          </scopecontent>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">7</container>
+            <container type="folder">1</container>
+            <unittitle><title linktype="simple" render="italic">The Live Giraffe,</title><geogname>Raleigh, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1852" type="inclusive">1852,</unitdate>27 Mar.-1859, 7 May</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">2</container>
+            <unittitle><title linktype="simple" render="italic">The Eagle,</title><geogname>Fayetteville, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1868" type="inclusive">1868,</unitdate>28 Aug.-16 Nov.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">3</container>
+            <unittitle><title linktype="simple" render="italic">The Eagle,</title><geogname>Fayetteville, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1868" type="inclusive">1868,</unitdate>19 Nov.-31 Dec.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">4</container>
+            <unittitle><title linktype="simple" render="italic">The Eagle,</title><geogname>Fayetteville, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>7 Jan.-8 July </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">5</container>
+            <unittitle><title linktype="simple" render="italic">The Eagle,</title><geogname>Fayetteville, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>29 July-23 Dec.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">6</container>
+            <unittitle><title linktype="simple" render="italic">North Carolina Presbyterian,</title><geogname>Fayetteville, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1865" type="inclusive">1865,</unitdate>4 Jan.<unitdate calendar="gregorian" era="ce" normal="1865" type="inclusive">1865,</unitdate>1 Feb.-8 Mar.<unitdate calendar="gregorian" era="ce" normal="1866" type="inclusive">1866,</unitdate>10 Jan.-30 May</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">8</container>
+            <container type="folder">1</container>
+            <unittitle><title linktype="simple" render="italic">North Carolina Presbyterian,</title><geogname>Fayetteville, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1866" type="inclusive">1866,</unitdate>6 June-17 Oct.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">2</container>
+            <unittitle><title linktype="simple" render="italic">North Carolina Presbyterian,</title><geogname>Fayetteville, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1866" type="inclusive">1866,</unitdate>24 Oct., 31 Oct.<unitdate calendar="gregorian" era="ce" normal="1866" type="inclusive">1866,</unitdate>14 Nov.-26 Dec.<unitdate calendar="gregorian" era="ce" normal="1867" type="inclusive">1867,</unitdate>2 Jan.-13 Feb.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">3</container>
+            <unittitle><title linktype="simple" render="italic">North Carolina Presbyterian,</title><geogname>Fayetteville, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1867" type="inclusive">1867,</unitdate>13 Feb.-26 June </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">4</container>
+            <unittitle><title linktype="simple" render="italic">North Carolina Presbyterian,</title><geogname>Fayetteville, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1867" type="inclusive">1867,</unitdate>10 July-25 Dec.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">5</container>
+            <unittitle><title linktype="simple" render="italic">North Carolina Presbyterian,</title><geogname>Fayetteville, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1868" type="inclusive">1868,</unitdate>22 Jan.-23 Dec.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">6</container>
+            <unittitle><title linktype="simple" render="italic">North Carolina Presbyterian,</title><geogname>Fayetteville, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>13 Jan.-7 July</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">9</container>
+            <container type="folder">1</container>
+            <unittitle><title linktype="simple" render="italic">North Carolina Presbyterian,</title><geogname>Fayetteville, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>21 July-29 Dec.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">2</container>
+            <unittitle><title linktype="simple" render="italic">Forest Weekly Register,</title><geogname>Forest, Mass.: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>9 Jan.-20 Oct.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Weekly Clarion,</title><geogname>Jackson, Miss.: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>28 Oct.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Brooklyn Daily Eagle,</title><geogname> Brooklyn, NY: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>5 May</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Examiner and Chronicle,</title><geogname>New York, NY: </geogname><unitdate calendar="gregorian" era="ce" normal="1867" type="inclusive">1867,</unitdate>15 Aug.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">3</container>
+            <unittitle><title linktype="simple" render="italic">Watchman and Reflector,</title><geogname>Boston, Mass.: </geogname><unitdate calendar="gregorian" era="ce" normal="1867" type="inclusive">1867,</unitdate>28 Nov.-16 Dec.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">4</container>
+            <unittitle><title linktype="simple" render="italic">Gloucester Telegraph,</title><geogname>Gloucester, Mass.: </geogname><unitdate calendar="gregorian" era="ce" normal="1866" type="inclusive">1866,</unitdate>1 Sept.-29 April</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">5</container>
+            <unittitle>
+              <title linktype="simple" render="italic">Gloucester Telegraph,</title>
+              <geogname>Gloucester, Mass.: </geogname>
+              <unitdate calendar="gregorian" era="ce" normal="1868/1869" type="inclusive">1868, 2 May-1869, 6 Jan.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">6</container>
+            <unittitle><title linktype="simple" render="italic">Essex County Mercury,</title><geogname>Salem, Mass.: </geogname><unitdate calendar="gregorian" era="ce" normal="1864" type="inclusive">1864,</unitdate>20 July - 1865, 2 Aug.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Boston Weekly Transcript,</title><geogname>Boston, Mass.: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>22 June</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Gloucester Telegraph,</title><geogname>Gloucester, Mass.: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>9 Jan.-13 Mar.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">7</container>
+            <unittitle><title linktype="simple" render="italic">Gloucester Telegraph,</title><geogname>Gloucester, Mass.: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>17 Mar.-1 Sept.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">10</container>
+            <container type="folder">1</container>
+            <unittitle>
+              <title linktype="simple" render="italic">The South,</title>
+              <geogname>New York, NY: </geogname>
+              <unitdate calendar="gregorian" era="ce" normal="1884/1887" type="inclusive">1884, Aug.-1887, Mar.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Lynn Record,</title><geogname>Lynn, Mass.: </geogname><unitdate calendar="gregorian" era="ce" normal="1830" type="inclusive">1830,</unitdate>4 Sept.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">2</container>
+            <unittitle><title linktype="simple" render="italic">The Voice of Masonry,</title><geogname>Louisville, KY: </geogname><unitdate calendar="gregorian" era="ce" normal="1859" type="inclusive">1859,</unitdate>1 Jan.-15 July</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">3</container>
+            <unittitle><title linktype="simple" render="italic">New York Day-Book,</title><geogname>New York, NY: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>2 Jan.-28 Aug.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">4</container>
+            <unittitle><title linktype="simple" render="italic">New York Day-Book,</title><geogname>New York, NY: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>4 Sept.-25 Dec.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">11</container>
+            <container type="folder">1</container>
+            <unittitle><title linktype="simple" render="italic">The Evening Telegraph,</title><geogname>Philadelphia, Penn.: </geogname><unitdate calendar="gregorian" era="ce" normal="1864" type="inclusive">1864,</unitdate>15 Feb.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Daily Republican,</title><geogname>Charleston, SC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>21 Oct., 23 Oct.; <unitdate calendar="gregorian" era="ce" normal="1870" type="inclusive">1870,</unitdate>8 Feb.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Abbeville Press and Banner,</title><geogname>Abbeville, SC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>15 Oct.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Saturday Night,</title><geogname>Philadelphia, Penn.: </geogname><unitdate calendar="gregorian" era="ce" normal="1865" type="inclusive">1865,</unitdate>2 Dec., 30 Dec.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Shoe Leather Reporter,</title><geogname>Boston, Mass.: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>24 June</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">2</container>
+            <unittitle><title linktype="simple" render="italic">The Brunswick Telegraph,</title><geogname>Brunswick, Maine: </geogname><unitdate calendar="gregorian" era="ce" normal="1868" type="inclusive">1868,</unitdate>8 May-1869, 16 July</unittitle>
+          </did>
+          <note>
+            <p>Very fragile items. Some are fragments. Please ask staff to assist.</p>
+          </note>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">3</container>
+            <unittitle><title linktype="simple" render="italic">Danvers Gazette,</title><geogname>Danvers, Mass.: </geogname><unitdate calendar="gregorian" era="ce" normal="1868" type="inclusive">1868,</unitdate>4 April, 18 April, [23 April?], 2 May, 9 May</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Eagle,</title><geogname>Fayetteville, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1868" type="inclusive">1868,</unitdate>12 Aug.-27 Aug. Also Vol. 1, No. 14 (<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Weldon Patriot,</title><geogname>Weldon, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1859" type="inclusive">1859,</unitdate>10 Aug.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Weekly State Journal</title><geogname>Raleigh, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1862" type="inclusive">1862,</unitdate>20 Aug.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Weekly Sentinel,</title><geogname>Raleigh, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1868" type="inclusive">1868,</unitdate>7 July</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Western Democrat,</title><geogname>Charlotte, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1861" type="inclusive">1861,</unitdate>12 Mar., 31 Dec.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">North Carolinian,</title><geogname>Elizabeth City, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869,</unitdate>23 Sept.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Weekly State Journal,</title><geogname>Raleigh, NC: </geogname><unitdate calendar="gregorian" era="ce" normal="1862" type="inclusive">1862,</unitdate>30 July</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Accession <unitdate calendar="gregorian" era="ce" normal="0268/1998" type="inclusive">1998-0268</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Uncataloged pre-1870 newspapers transferred form the Serials Department of Perkins Library to the Rubenstein Library in<unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998.</unitdate>The newspapers in this addition span<unitdate calendar="gregorian" era="ce" normal="1833" type="inclusive">1833</unitdate> to<unitdate calendar="gregorian" era="ce" normal="1885" type="inclusive">1885,</unitdate>chiefly the<unitdate calendar="gregorian" era="ce" normal="1860/1869" type="inclusive">1860s.</unitdate>The bulk of this addition are issues of the Memphis Daily Appeal, (<geogname>Atlanta, GA</geogname>) from <unitdate calendar="gregorian" era="ce" normal="1862/1865" type="inclusive">1862-1865.</unitdate>Newspapers from <geogname>Texas, </geogname><geogname>Vermont, </geogname>and <geogname>Tennessee </geogname>are also included in this portion of the collection. The newspaper are in numbered folders. Many of the news paper are very fragile and should be used only on a large flat space. Consult with reference staff prior to photocopying.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <container type="folder">1</container>
+            <unittitle><title linktype="simple" render="italic">The Memphis Daily Appeal</title> - <geogname>Atlanta, GA.</geogname></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964, Jan. 9</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1864" type="inclusive">1864, May 6</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, July 27</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, June 29</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, June 12</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1862" type="inclusive">1862, Feb.</unitdate>1</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, Mar. 14</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, Mar. 21</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, Mar. 26</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, Mar. 23</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, Apr. 3</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, Apr. 4</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, Apr. 13</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, May 4</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968, Mar. 9</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1862" type="inclusive">1862, Feb. 4-6</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">2</container>
+            <unittitle><title linktype="simple" render="italic">Memphis Daily Appeal</title> - <geogname>Atlanta, GA.</geogname></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1861" type="inclusive">1861, Aug. 29</unitdate>- <unitdate calendar="gregorian" era="ce" normal="1862" type="inclusive">1862, Feb. 2</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1862" type="inclusive">1862, Feb. 7</unitdate> - <unitdate calendar="gregorian" era="ce" normal="1862" type="inclusive">1862, Mar. 7</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">3</container>
+            <unittitle><title linktype="simple" render="italic">Memphis Daily Appeal</title> - <geogname>Atlanta, GA.</geogname></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1862" type="inclusive">1862, Mar. 9</unitdate> - <unitdate calendar="gregorian" era="ce" normal="1862" type="inclusive">1862, Apr. 17</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, June 13</unitdate>- <unitdate calendar="gregorian" era="ce" normal="1863" type="inclusive">1863, July 31</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="folder">4</container>
+            <unittitle><title linktype="simple" render="italic">The Daily Republican</title> - <geogname>Chattanooga, TN.</geogname></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1869" type="inclusive">1869, Sept. 12</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Knoxville Register</title> - <geogname>Knoxville, TN.</geogname></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1833" type="inclusive">1833, Apr. 24</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Rio Grande Courier</title> - <geogname>Brownsville, TX..</geogname></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1866" type="inclusive">1866, Apr. 6</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Vermont Watchman and State Journal</title> - <geogname>Montpelier, VT.</geogname></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1859" type="inclusive">1859, Dec. 2</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Dallas Morning News</title> - <geogname>Dallas, TX.</geogname></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1885" type="inclusive">1885, Oct. 1</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Galveston News</title> - <geogname>Galveston, TX.</geogname></unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1846" type="inclusive">1846, Mar. 3</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

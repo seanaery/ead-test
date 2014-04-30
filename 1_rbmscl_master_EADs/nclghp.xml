@@ -1,0 +1,3878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::North Carolina Lesbian and Gay Health Project Records)//EN" url="http://library.duke.edu/rubenstein/findingaids/nclghp/">nclghp</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the North Carolina Lesbian and Gay Health
+			 Project Records,
+			 <date normal="1983/1996" type="inclusive" era="ce" calendar="gregorian">1983-1996</date></titleproper>
+        <author>Processed by: Ian Lekus; machine-readable finding aid created
+			 by: Lisa Stark</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <p><date era="ce" calendar="gregorian"> 1999</date> Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">002342980</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from Microsoft Word
+		  <lb/>Date of source: May 1997 <lb/>Processed by Ian Lekus May 1997; Finding Aid
+		  encoded by Lisa Stark, David M. Rubenstein Rare Book &amp; Manuscript Library,
+		  Duke University,
+		  <date calendar="gregorian" era="ce">December 17, 1999</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::North Carolina Lesbian and Gay Health Project Records)//EN" "nclghp.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the North Carolina Lesbian and Gay Health
+			 Project Records,
+			 <date calendar="gregorian" era="ce">1983-1996</date></titleproper>
+      <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke
+		  University<lb/>Durham, North Carolina 27708-0185</publisher>
+
+      <p> 1999 Duke University. All rights reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">North Carolina Lesbian and Gay Health Project
+		  records 		  <unitdate calendar="gregorian" era="ce" normal="1983/1996" type="inclusive">1983-1996</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>North Carolina Lesbian and Gay Health
+			 Project</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>24.1 Linear Feet </extent>
+	  <extent>13,800 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname>
+      </repository>
+      <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>There are restrictions on certain sections of the collection.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in this collection have not been transferred
+			 to Duke University. For more information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], North Carolina Lesbian and Gay Health
+			 Project Records, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The papers of the North Carolina Lesbian and Gay Health Project were
+			 acquired by the David M. Rubenstein Rare Book &amp; Manuscript Library of Duke
+			 University as a gift from the Health Project after it ceased operations in
+			 1996.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by Ian Lekus</p>
+        <p>Completed December 17, 1999</p>
+	  <p>Encoded by Lisa Stark</p>
+        <p>This finding aid is NCEAD compliant.</p>
+      </processinfo>
+    </descgrp>
+    <!-- End of Finding Aid Header -->
+    <bioghist>
+      <head>Historical Note</head>
+      <p>The LGHP was founded in late 1982 to combat homophobia in existing
+		  health care institutions, and to provide gay men and lesbians the means to
+		  assume control over their own health care.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The papers of the North Carolina Lesbian and Gay Health Project (LGHP)
+		  span the dates 1983-1996. The papers consist chiefly of
+		  <genreform>correspondence,</genreform> meeting
+		  <genreform>minutes,</genreform> newspaper
+		  <genreform>clippings,</genreform><genreform>newsletters,</genreform><genreform>training and publicity materials,</genreform><genreform>programming and services records,</genreform> volunteer
+		  information,
+		  <genreform>financial statements,</genreform> fundraising
+		  <genreform>project records,</genreform><genreform>grant applications,</genreform> and subject resource files.
+		  The collection also includes t-shirts, banners, and
+		  <genreform>photographs.</genreform> Most of the papers concern the work
+		  of the LGHP, though the Community Connections and Subject Files series both
+		  document programs and issues related to HIV/AIDS and gay/lesbian/bisexual
+		  health issues as addressed by non-profit organizations; foundations and
+		  corporations; and city, state, and federal government agencies from across
+		  North Carolina and the entire United States.</p>
+      <p>The LGHP was founded in 1982. Due to the emergence of AIDS, it quickly
+		  became the most prominent group dealing with the epidemic, and began to provide
+		  direct support services to people with AIDS. The group also provided
+		  educational programs targeting both heterosexual and gay/lesbian audiences
+		  about specific lesbian and gay health concerns and HIV/AIDS. In addition to
+		  AIDS education and services, the LGHP identified other issues, including
+		  lesbian health, as major issues of importance. However, most of the
+		  organization's fiscal and human resources were devoted to addressing HIV/AIDS.
+		  The organization grew from a small, all-volunteer group led by a Steering
+		  Committee that made all decisions by consensus, to a larger non-profit
+		  organization with staff and a Board of Directors. Through its programming,
+		  services, advocacy, and events, the group assumed a central role in fostering
+		  the gay/lesbian/bisexual community in the Triangle and in the state more
+		  generally, until its demise in early 1996.</p>
+      <arrangement>
+        <p>PROCESSING NOTE: Steering Committee/Board of Directors' meeting
+			 <genreform>minutes,</genreform><genreform>committee reports,</genreform><genreform>financial statements,</genreform><genreform>grant reports</genreform> and other papers were sometimes
+			 stapled together and sometimes kept separate before coming to the Special
+			 Collections Library. Researchers unable to find
+			 <genreform>financial records,</genreform> committee or project
+			 updates, newspaper
+			 <genreform>clippings,</genreform> or other papers for a given date
+			 are advised to check the Steering Committee/Board of Directors
+			 <genreform>minutes</genreform> for that date.</p>
+        <p>The
+			 <genreform>subject files</genreform> maintained by the LGHP addressed
+			 a broad range of issues facing lesbian, gay, and bisexual people. For the
+			 purposes of this collection, Special Collections Library has only kept those
+			 materials related to health issues or to other issues specifically identified
+			 by the LGHP as central to its work, and deaccessioned other general materials
+			 likely to be found in other collections, at Duke University or elsewhere.</p>
+        <p>Much of the materials documenting lesbian health issues and
+			 programming as of the 1996 transfer of the collection to the Library were kept
+			 by the Lesbian Health Center, which the LGHP recognized as its successor at the
+			 time of its closing.</p>
+      </arrangement>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <item>
+          <corpname>North Carolina Lesbian and Gay Health
+				Project</corpname>
+        </item>
+        <item>
+          <subject>Gays-Medical care</subject>
+        </item>
+        <item>
+          <subject>Gays-Mental health</subject>
+        </item>
+        <item>
+          <subject>Gays-Health and hygiene</subject>
+        </item>
+        <item>
+          <subject>Sexually transmitted diseases</subject>
+        </item>
+        <item>
+          <subject>Breast cancer-Lesbians</subject>
+        </item>
+        <item>
+          <subject>Activists-North Carolina</subject>
+        </item>
+        <item>
+          <subject>AIDS (Disease)-Organizations</subject>
+        </item>
+        <item>
+          <subject>Gays-Durham (N.C.)</subject>
+        </item>
+        <item>
+          <subject>Gays-Substance abuse</subject>
+        </item>
+        <item>
+          <geogname>Durham (N.C.)</geogname>
+        </item>
+      </list>
+    </controlaccess>
+    
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle><genreform>ADMINISTRATIVE FILES</genreform> SERIES</unittitle>
+        </did>
+        <scopecontent>
+          <p>The
+				<genreform>Administrative Files</genreform> Series,
+				<unitdate calendar="gregorian" era="ce" normal="1983/1996" type="inclusive">1983-1996,</unitdate>series includes
+				<genreform>annual reports,</genreform> meeting
+				<genreform>minutes,</genreform><subject>Steering Committee </subject>and
+				<genreform>Board membership records,</genreform><genreform>bylaws,</genreform><genreform>Executive Director's reports,</genreform><genreform>long-range planning materials,</genreform><genreform>pamphlets,</genreform> general and historical
+				information,
+				<genreform>correspondence,</genreform><genreform>staff records,</genreform> and other non-financial
+				<genreform>business records</genreform> of the
+				<corpname>LGHP. </corpname> The Steering Committee and Board of
+				Directors packets include the
+				<genreform>minutes</genreform> of meetings of the Steering
+				Committee, the Board, and of various committees assigned to specific projects.
+				They also include
+				<genreform>agendas,</genreform><genreform>correspondence,</genreform><genreform>financial statements,</genreform><genreform>budget reports,</genreform><genreform>project proposals,</genreform><genreform>progress reports,</genreform> and final
+				<genreform>evaluations</genreform>. Arranged alphabetically.
+				Certain parts of the staff records have been closed until January 1, 2027 due
+				to the sensitive nature of the files; see Restricted Material.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <unittitle>
+              <genreform>Annual reports,</genreform>
+              <unitdate calendar="gregorian" era="ce" normal="1984/1993" type="inclusive">1984-1993</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Steering Committee </corpname>packets,
+				  <unitdate calendar="gregorian" era="ce" normal="1983/1987" type="inclusive">1983-1987</unitdate>
+                     <archref linktype="simple"><physdesc><extent>(4
+						folders)</extent></physdesc></archref></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Steering Committee</corpname>/
+				  <corpname>Board of Directors </corpname>reorganization,
+				  <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Board packets,
+				  <unitdate calendar="gregorian" era="ce" normal="1988/1995" type="inclusive">1988-1995</unitdate>
+                     <archref linktype="simple"><physdesc><extent>(12
+						folders)</extent></physdesc></archref></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Board of Directors:</corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Development,
+					 <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <genreform>Manual,</genreform>
+                <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><subject>Membership </subject>and
+					 <genreform>correspondence</genreform>,
+					 <unitdate calendar="gregorian" era="ce" normal="1988/1996" type="inclusive">1988-1996</unitdate>
+                        <archref linktype="simple"><physdesc><extent>(7
+						  folders)</extent></physdesc></archref></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>New members orientation,
+					 <unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <genreform>Training manual,</genreform>
+                <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle><subject>Bylaws, </subject>standing rules, etc.,
+				  <unitdate calendar="gregorian" era="ce" normal="1989/1994" type="inclusive">1989-1994</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Executive Director's
+				  <genreform>address,</genreform><unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Executive Director's summary
+				  <genreform>report,</genreform><unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>General historical information and
+				  <genreform>pamphlets,</genreform><unitdate calendar="gregorian" era="ce" normal="1983/1995" type="inclusive">1983-1995,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Legal issues:
+				  <corpname>Pride Dance,</corpname><unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Long-range planning:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Executive Director's goals,
+					 <unitdate calendar="gregorian" era="ce" normal="1991/1992" type="inclusive">1991-1992</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Planning Committee </corpname><genreform>notes</genreform>,
+					 <unitdate calendar="gregorian" era="ce" normal="1993/1994" type="inclusive">1993-1994</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Marketing session,
+					 <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <genreform>Meeting notes,</genreform>
+                <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Strategic planning,</subject>
+                <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Three-Year Plan,
+					 <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <genreform>Mailing lists,</genreform>
+              <unitdate calendar="gregorian" era="ce" normal="1984/1985" type="inclusive">1984-1985</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><subject>Non-profit </subject>status
+				  <genreform>correspondence</genreform>,
+				  <unitdate calendar="gregorian" era="ce" normal="1983/1991" type="inclusive">1983-1991</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><genreform>Stationery</genreform> and
+				  <genreform>logo artwork,</genreform><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Staff:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><subject>Employment policies </subject>and procedures,
+					 <unitdate calendar="gregorian" era="ce" normal="1992/1995" type="inclusive">1992-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Evaluations, </subject>
+                <unitdate calendar="gregorian" era="ce" normal="1988/1993" type="inclusive">1988-1993</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><genreform>Job announcements,</genreform><genreform>hirings,</genreform><genreform>contracts,</genreform> and
+					 <genreform>resignations,</genreform><unitdate calendar="gregorian" era="ce" normal="1987/1995" type="inclusive">1987-1995,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <genreform>Job descriptions,</genreform>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><genreform>Memoranda</genreform> and
+					 <genreform>schedules,</genreform><unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Steering Committee/Board of Directors
+					 <genreform>membership lists,</genreform><unitdate calendar="gregorian" era="ce" normal="1986/1995" type="inclusive">1986-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><genreform>Miscellaneous,</genreform><unitdate calendar="gregorian" era="ce" normal="1986/1987" type="inclusive">1986-1987,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(also see oversized
+					 materials)</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle><genreform>CORRESPONDENCE</genreform> SERIES</unittitle>
+        </did>
+        <scopecontent>
+          <p>The
+				<genreform>Correspondence</genreform> Series,
+				<unitdate calendar="gregorian" era="ce" normal="1983/1996" type="inclusive">1983-1996</unitdate>(bulk
+				<unitdate calendar="gregorian" era="ce" normal="1983/1989" type="bulk">1983-1989</unitdate>), includes requests
+				for information about
+				<subject>HIV/AIDS, </subject>various
+				<subject>lesbian and gay health issues, </subject>and the
+				organization itself. The series also includes
+				<genreform>letters</genreform> sent by the
+				<corpname>LGHP </corpname>in reply to
+				<genreform>letters</genreform> received as well as
+				<genreform>letters</genreform> sent requesting information and
+				making announcements about new
+				<corpname>LGHP </corpname>programming and services.</p>
+        </scopecontent>
+        <scopecontent>
+          <p>The
+				<genreform>correspondence</genreform> thoroughly documents the
+				desperate search for any information on
+				<subject>AIDS </subject>during the early years of the epidemic, as
+				the
+				<corpname>LGHP </corpname>received
+				<genreform>letters</genreform> from across
+				<geogname>North Carolina, </geogname>the entire
+				<geogname>United States </geogname>and occasionally from
+				<geogname>Canada </geogname>and
+				<geogname>Mexico </geogname>requesting information. The
+				<corpname>LGHP </corpname>regularly received such
+				<genreform>letters</genreform> from elementary and high school
+				<subject>students, </subject><subject>prisoners, </subject><subject>doctors </subject>and other health care professionals, and
+				local officials. The
+				<genreform>correspondence</genreform> also includes
+				<genreform>letters</genreform> and donations made to the
+				<corpname>LGHP </corpname>in memory of
+				<subject>partners, </subject>friends, and family members who died
+				from
+				<subject>AIDS; </subject>arrangements for and
+				<genreform>evaluations</genreform> of
+				<corpname>LGHP </corpname>presentations; and requests from other
+				groups and individuals on how to initiate programs and services similiar to
+				those provided by the
+				<corpname>LGHP. </corpname></p>
+        </scopecontent>
+        <scopecontent>
+          <p>Researchers looking for
+				<genreform>correspondence</genreform> related to specific projects,
+				to fundraising and
+				<genreform>grant proposals,</genreform> to community presentations
+				and events, and with specific organizations should also check the relevant
+				files, where such
+				<genreform>correspondence</genreform> may also be housed.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1983/1996" type="inclusive">1983-1996</unitdate>
+              <archref linktype="simple">
+                <physdesc>
+                  <extent>(8
+						folders)</extent>
+                </physdesc>
+              </archref>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>CLIPPINGS SERIES</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Clippings Series,
+				<unitdate calendar="gregorian" era="ce" normal="1983/1996" type="inclusive">1983-1996,</unitdate>consists of
+				photocopies of newspaper articles pertaining to
+				<corpname>LGHP </corpname>activities and/or members. Most of the
+				clippings originally appeared in the
+			 <title linktype="simple" render="italic">Durham Herald-Sun; </title>the Raleigh
+			 <title linktype="simple" render="italic">News and Observer; </title><title linktype="simple" render="italic">The Independent </title>(an alternative
+			 newspaper based in Durham); and also in
+			 <title linktype="simple" render="italic">The Front Page, </title><title linktype="simple" render="italic">The Newsletter, </title>and
+			 <title linktype="simple" render="italic">Q-Notes </title>(
+			 <subject>gay and/or lesbian newspapers </subject>based in Raleigh,
+			 Durham, and Charlotte, respectively).</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1983/1996" type="inclusive">1983-1996</unitdate>
+              <archref linktype="simple">
+                <physdesc>
+                  <extent>(2
+						folders)</extent>
+                </physdesc>
+              </archref>
+            </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>NEWSLETTERS SERIES</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Newsletters Series,
+				<unitdate calendar="gregorian" era="ce" normal="1984/1995" type="inclusive">1984-1995,</unitdate>chiefly contains
+				the newsletters issued by the
+				<corpname>LGHP. </corpname> Also contains scattered materials
+				related to publishing the newsletters.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>
+              <title linktype="simple" render="italic">The Newsletter of the Lesbian and Gay
+					 Health Project, </title>
+              <unitdate calendar="gregorian" era="ce" normal="1984/1988" type="inclusive">1984-1988</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Healthlight: The Newsletters of the
+					 Lesbian and Gay Health Project and The AIDS Services Project, </title>
+              <unitdate calendar="gregorian" era="ce" normal="1989/1994" type="inclusive">1989-1994</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous,
+				  <unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>PHOTOGRAPHS SERIES</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Photographs Series,
+				1988-1994 and undated relates to various
+				LGHP fundraising events and participation in
+				community events. Arranged alphabetically.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle><corpname>Breast Cancer Summit </corpname>representatives,
+				  <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Capital Corral </corpname>collection box,
+				  <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>N.C. Pride, </corpname>Durham,
+				  <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>The AIDS Services Project: </corpname><corpname>Impact Network </corpname>safer sex
+				  <genreform>pamphlet,</genreform><unitdate calendar="gregorian" era="ce" normal="1992/1993" type="inclusive">1992-1993</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Triangle Bikes Against AIDS,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988,</unitdate>
+              <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+              <archref linktype="simple">
+                <physdesc>
+                  <extent>(2
+						folders)</extent>
+                </physdesc>
+              </archref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Triangle Bikes and Hikes,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Triangle Gourmet Gents,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous,
+				  <unitdate calendar="gregorian" era="ce" normal="1992/1993" type="inclusive">1992-1993,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>FINANCIAL PAPERS SERIES</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Financial Papers Series,
+				<unitdate calendar="gregorian" era="ce" normal="1983/1996" type="inclusive">1983-1996,</unitdate>contains monthly,
+				yearly, and other financial statements recording the
+				<corpname>LGHP's </corpname>assets and liabilities, independent
+				<subject>audit reports, </subject>budget statements, ledgers, and
+				papers related to the organization's
+				<subject>fundraising </subject>efforts through community events and
+
+				<subject>grants.</subject></p>
+        </scopecontent>
+        <scopecontent>
+          <p>
+            <subject/>
+          </p>
+        </scopecontent>
+        <scopecontent>
+          <p>The Fundraising subseries includes
+				<genreform>correspondence</genreform>,
+				<subject>mailing lists, </subject><genreform>notes</genreform>,
+				<subject>contracts, </subject>promotional materials, budgets, and
+				volunteer information pertaining to
+				<corpname>LGHP </corpname><subject>fundraising </subject>through concerts,
+				<subject>bike-a-thons, </subject>large
+				<subject>community dances </subject>and dinners,
+				<subject>direct mail </subject>solicitations for donations, and
+				participation in local employee donation programs.</p>
+        </scopecontent>
+        <scopecontent>
+          <p>The Grants subseries includes
+				<subject>applications, </subject><genreform>letters</genreform> of support,
+				<genreform>correspondence</genreform>, calls for grant requests,
+				<subject>budgets, </subject>and final reports and other materials
+				documenting the work of the
+				<corpname>LGHP, </corpname>either in search of grant support or in
+				compliance with the terms of received
+				<subject>grants. </subject> The grant providers represent a wide
+				range of
+				<subject>corporations </subject>and
+				<subject>non-profit foundations </subject>and organizations.</p>
+        </scopecontent>
+        <scopecontent>
+          <p>Arranged alphabetically.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>
+              <subject>Audits, </subject>
+              <unitdate calendar="gregorian" era="ce" normal="1990/1991" type="inclusive">1990-1991,</unitdate>
+              <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Budget:</subject>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(2
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Three-Year Forecast,
+					 <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Financial statements,
+				  <unitdate calendar="gregorian" era="ce" normal="1984/1995" type="inclusive">1984-1995</unitdate>
+                     <archref linktype="simple"><physdesc><extent>(5
+						folders)</extent></physdesc></archref></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Fundraising:</subject>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>American Dance Festival, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1989/1995" type="inclusive">1989-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>An Evening with Friends,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">3</container>
+              <unittitle>
+                <corpname>The Caring Tree, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><persname>Charlie Murphy </persname>concert,
+					 <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <genreform>Correspondence,</genreform>
+                <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Heartstrings </corpname>concert,
+					 <unitdate calendar="gregorian" era="ce" normal="1989/1991" type="inclusive">1989-1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Mailing list solicitation
+					 <genreform>letters</genreform>,
+					 <unitdate calendar="gregorian" era="ce" normal="1990/1996" type="inclusive">1990-1996</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><subject>Major donor </subject>campaign materials,
+					 <unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Events,
+						<unitdate calendar="gregorian" era="ce" normal="1986/1991" type="inclusive">1986-1991,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <genreform>Notes,</genreform>
+                  <unitdate calendar="gregorian" era="ce" normal="1988/1993" type="inclusive">1988-1993</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>North Carolina Community Shares, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1992/1995" type="inclusive">1992-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Pride Dance, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1987/1992" type="inclusive">1987-1992,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Prom Dance,
+					 <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Sweet Honey in the Rock </corpname>concert,
+					 <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Triangle Bikes Against AIDS, </corpname><unitdate calendar="gregorian" era="ce" normal="1987/1991" type="inclusive">1987-1991</unitdate>
+                        <archref linktype="simple"><physdesc><extent>(5 folders)</extent></physdesc></archref>
+					 (also see photographs)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Triangle Bikes and Hikes, </corpname>1992</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Triangle Bikes and Hikes Against AIDS,</corpname><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate> (also see
+					 photographs)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Triangle Miles Against AIDS,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Triangle Bike-a-thons: </corpname> Miscellaneous,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Triangle Gourmet Gents, </corpname><unitdate calendar="gregorian" era="ce" normal="1990/1991" type="inclusive">1990-1991</unitdate>(also see
+					 photographs)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Triangle Gourmet Gala, </corpname><unitdate calendar="gregorian" era="ce" normal="1992/1995" type="inclusive">1992-1995</unitdate> (also see
+					 oversized materials)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Workout for Hope </corpname>event,
+					 <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Grants:</subject>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><corpname>A. J. Fletcher Foundation: </corpname><subject>HIV </subject>diversity conference,
+					 <unitdate calendar="gregorian" era="ce" normal="1992/1993" type="inclusive">1992-1993</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>American Foundation for AIDS Research, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1987/1994" type="inclusive">1987-1994</unitdate>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(3
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>American Foundation for AIDS Research: Black Men
+						United Program,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Avon Breast Health Access Fund,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Broadway Cares, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1988/1989" type="inclusive">1988-1989</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Bryan Family Foundation, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1990/1993" type="inclusive">1990-1993</unitdate>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(2
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Burroughs Wellcome, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1988/1991" type="inclusive">1988-1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Centers for Disease Control Conference
+						</corpname>grant,
+					 <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Chapel Hill Friends meeting, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1988/1989" type="inclusive">1988-1989</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Chicago Resource Center, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1983/1992" type="inclusive">1983-1992</unitdate>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(2
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Design Industries Foundation for AIDS, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1988/1989" type="inclusive">1988-1989</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Durham County Home Care Grant, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1990/1991" type="inclusive">1990-1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">4</container>
+              <unittitle>
+                <corpname>Greater Triangle Community Foundation, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1991/1992" type="inclusive">1991-1992</unitdate>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(2
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>INSURE, </corpname>1991</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Kate B. Reynolds Health Care Trust, </corpname><unitdate calendar="gregorian" era="ce" normal="1991/1992" type="inclusive">1991-1992</unitdate>(2 folders
+					 <corpname>)</corpname></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname/>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Kinko's </corpname>Community Grant Application,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Mary Babcock Reynolds Foundation, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1983/1988" type="inclusive">1983-1988,</unitdate>
+                <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(2
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Ms. Foundation for Women, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1990/1993" type="inclusive">1990-1993</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Needmor Fund, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1991/1992" type="inclusive">1991-1992</unitdate>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(2
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>North Carolina Humanities Council: HIV diversity
+						conference, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1992/1993" type="inclusive">1992-1993</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>North Carolina Pride,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>OUT Fund, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1992/1993" type="inclusive">1992-1993</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Pride Foundation,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Reducing Our Risks, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1988/1993" type="inclusive">1988-1993</unitdate>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(5
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Robert Woods Johnson Foundation,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>United States Conference of Mayors, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1984/1987" type="inclusive">1984-1987,</unitdate>
+                <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(2
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>United Way, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1990/1992" type="inclusive">1990-1992</unitdate>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(2
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Triangle Business and Professional Guild, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Z. Smith Reynolds Foundation, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1983/1992" type="inclusive">1983-1992</unitdate>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(4
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Ledger,
+				  <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Lease/Landlord,
+				  <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>[Located in box 2]</p>
+          </scopecontent>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>PROGRAMMING AND SERVICES SERIES</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Programming and Services Series,
+				<unitdate calendar="gregorian" era="ce" normal="1983/1995" type="inclusive">1983-1995,</unitdate>documents the
+				educational programming and support services the
+				<corpname>LGHP </corpname>provided primarily in the Durham-Chapel
+				Hill area.</p>
+        </scopecontent>
+        <scopecontent>
+          <p>Major areas of programming and services documented in this series
+				include:</p>
+          <p><corpname>Healthline </corpname>-- The phone line staffed by
+				<subject>volunteers </subject>serving callers looking for
+				information on
+				<subject>health issues </subject>or general
+				<subject>lesbian/gay/bisexual/transgender community
+				  </subject>information. This subseries includes
+				<subject>volunteer </subject>and
+				<genreform>administrative records,</genreform> meeting minutes,
+				<genreform>correspondence</genreform>, and surveys returned by and
+				<genreform>evaluations</genreform> of local health care providers
+				(including hospital staffs, private
+				<subject>physicians, </subject><subject>psychotherapists, </subject><subject>gynecologists, </subject><subject>dentists, </subject><subject>optometrists, </subject><subject>massage therapists, </subject>and various other
+				traditional and alternative medicine practitioners).</p>
+        </scopecontent>
+        <scopecontent>
+          <p><subject>Lesbian health </subject>-- The bulk of the subseries
+				documents the November
+				<unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                  <corpname>Lesbian Health Conference </corpname>in Chapel Hill
+				organized by the
+				<corpname>LGHP, </corpname>with
+				<genreform>programs</genreform>,
+				<genreform>evaluations</genreform>,
+				<genreform>notes</genreform>, workshop
+				<genreform>proposals</genreform>,
+				<genreform>correspondence</genreform>,
+				<genreform>publicity materials,</genreform> and
+				<genreform>handouts.</genreform> The subseries also documents the
+				efforts of the
+				<corpname>LGHP </corpname>to establish a
+				<corpname>Lesbian Health Center </corpname>and to educate
+				<subject>lesbians </subject>and
+				<subject>bisexual women </subject>about their particular risks for
+				<subject>HIV </subject>and to provide them with
+				<subject>safer sex guidelines.</subject></p>
+        </scopecontent>
+        <scopecontent>
+          <p>Presentations -- This subseries includes
+				<genreform>notes</genreform>,
+				<genreform>correspondence</genreform>,
+				<genreform>schedules,</genreform><genreform>evaluations</genreform>, and reports documenting the
+				presentations made by LGHP volunteers and staff to a wide variety of
+				<subject>community and social groups, </subject><subject>medical schools, </subject><subject>civic organizations, </subject>and other audiences.</p>
+        </scopecontent>
+        <scopecontent>
+          <p><corpname>Reducing Our Risks </corpname>--
+				<subject>Educational programming </subject>funded by the
+				<corpname>North Carolina state government </corpname>aimed at
+				reducing the rate of
+				<subject>transmission </subject>of
+				<subject>HIV </subject>among
+				<subject>gay and bisexual men. </subject> This subseries includes
+				the monthly and quarterly reports filed by the
+				<corpname>LGHP </corpname>with the state, and the
+				<genreform>evaluations</genreform> by state officials of the LGHP's
+				efforts on this project. Also included are
+				<genreform>correspondence</genreform>,
+				<genreform>evaluations</genreform>, and
+				<genreform>administrative papers;</genreform> and materials
+				developed by the
+				<corpname>LGHP </corpname>to
+				<subject>educate gay and bisexual men </subject>about practices
+				more and less likely to transmit
+				<subject>HIV, </subject>and the programs the organization developed
+				to distribute that information.</p>
+        </scopecontent>
+        <scopecontent>
+          <p><subject>Support groups </subject>and workshops -- This subseries
+				includes
+				<genreform>publicity</genreform>,
+				<genreform>notes</genreform>, and
+				<genreform>administrative papers</genreform> related to the
+				<subject>support groups </subject>and workshops on a broad range
+				<subject>of lesbian, gay, and bisexual issues.</subject></p>
+        </scopecontent>
+        <scopecontent>
+          <p>Surveys -- The
+				<corpname>LGHP </corpname>conducted several community surveys to
+				assess the current health concerns and needs of local lesbians, gay men, and
+				bisexuals. This subseries documents those projects, including completed
+				<genreform>questionnaires,</genreform><genreform>notes</genreform>, and
+				<genreform>correspondence</genreform>.</p>
+        </scopecontent>
+        <scopecontent>
+          <p><corpname>The AIDS Services Project</corpname>-- The
+				<corpname>LGHP </corpname>organized most of its
+				<subject>AIDS-related programming </subject>and services under the
+				aegis of
+				<corpname>The AIDS Services Project (TASP) </corpname>in
+				<unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988,</unitdate>to distinguish that
+				work from its lesbian- and gay-specific projects. The
+				<corpname>TASP </corpname>subseries includes materials documenting
+				its buddy program to provide direct emotional and material support to persons
+				living with
+				<subject>HIV/AIDS </subject>(
+				<subject>PWA</subject>s), its
+				<corpname>Living Positively program </corpname>that aimed to
+				empower
+				<subject>PWA</subject>s, its emergency fund for
+				<subject>PWA</subject>s in dire financial situations, and other
+				<corpname>HIV/AIDS-related projects. </corpname> Those materials
+				include
+				<genreform>correspondence</genreform>,
+				<genreform>training manuals</genreform> and
+				<genreform>handbooks,</genreform><genreform>publicity materials,</genreform> volunteer information,
+				<genreform>notes</genreform>, reports, and materials distributed to
+				program attendees. Some materials documenting the work of the
+				<corpname>Buddy program </corpname>are closed until January 1, 2027
+				due to the sensitive nature of the information included; see Restricted
+				Materials.</p>
+        </scopecontent>
+        <scopecontent>
+          <p><subject>Volunteers </subject>(General) -- This subseries includes
+				<genreform>correspondence</genreform>, training materials,
+				<subject>volunteer job descriptions, </subject>volunteer
+				applications, and other materials documenting the recruitment and supervision
+				of
+				<corpname>LGHP </corpname>volunteers. There is some overlap in
+				materials between volunteers with
+				<corpname>TASP </corpname>and with other
+				<subject>LGHP programs </subject>and services. The volunteer
+				applications are open but restricted until January 1, 2097 due to the sensitive
+				nature of the information on the application forms.</p>
+        </scopecontent>
+        <scopecontent>
+          <p>Other information included in the Programming and Services Series
+				includes phone logs, the papers of the
+				<corpname>Piedmont HIV Health Care Consortium, </corpname>resource
+				and bibliographic lists, committee
+				<genreform>notes</genreform>, and materials documenting smaller
+				programs. The phone logs record the telephone calls received by the
+				<corpname>LGHP, </corpname>detailing the everyday work of the
+				organization. The
+				<corpname>Piedmont HIV Health Care Consortium </corpname>subseries
+				includes the
+				<genreform>correspondence</genreform> and administrative and
+				financial paperwork of this regional case management program funded under the
+				federal
+				<corpname>Ryan White HIV Care Act. </corpname> The
+				<corpname>LGHP </corpname>acted as the lead agency sponsoring and
+				housing the Consortium for several years.</p>
+        </scopecontent>
+        <scopecontent>
+          <p>Arranged alphabetically.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">5</container>
+            <unittitle><subject>AIDS Education </subject>Coordinators,
+				  <unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">1985</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Coming Out Mentors,</subject>
+              <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Healthline: </corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Community Resources,
+					 <unitdate calendar="gregorian" era="ce" normal="1985/1992" type="inclusive">1985-1992,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Communication Book,
+					 <unitdate calendar="gregorian" era="ce" normal="1991/1995" type="inclusive">1991-1995</unitdate>
+                        <archref linktype="simple"><physdesc><extent>(2
+						  folders)</extent></physdesc></archref></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <genreform>Correspondence:</genreform>
+                <subject>Volunteers, </subject>
+                <unitdate calendar="gregorian" era="ce" normal="1986/1995" type="inclusive">1986-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Health Care providers: </subject>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Guidelines,
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Recruitment and training,
+						<unitdate calendar="gregorian" era="ce" normal="1987/1994" type="inclusive">1987-1994,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Referral
+						<genreform>evaluations</genreform>,
+						<unitdate calendar="gregorian" era="ce" normal="1985/1991" type="inclusive">1985-1991</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Referral lists and
+						<genreform>notes</genreform>,
+						<unitdate calendar="gregorian" era="ce" normal="1985/1995" type="inclusive">1985-1995,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Services survey,
+						<unitdate calendar="gregorian" era="ce" normal="1984/1994" type="inclusive">1984-1994,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                           <archref linktype="simple"><physdesc><extent>(3
+							 folders)</extent></physdesc></archref></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><genreform>Minutes</genreform>,
+					 <unitdate calendar="gregorian" era="ce" normal="1985/1992" type="inclusive">1985-1992</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><subject>Phone counselor </subject>exams,
+					 <unitdate calendar="gregorian" era="ce" normal="1990/1999" type="inclusive">1990s</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Statistics and logs,
+					 <unitdate calendar="gregorian" era="ce" normal="1986/1991" type="inclusive">1986-1991,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Training materials,
+					 <unitdate calendar="gregorian" era="ce" normal="1987/1995" type="inclusive">1987-1995,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Volunteer calendars,
+					 <unitdate calendar="gregorian" era="ce" normal="1985/1995" type="inclusive">1985-1995,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        <archref linktype="simple"><physdesc><extent>(2
+						  folders)</extent></physdesc></archref></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><subject>HIV testing: </subject> Miscellaneous,
+				  <unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">1985,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Lesbian health:</subject>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><subject>AIDS </subject>articles,
+					 <unitdate calendar="gregorian" era="ce" normal="1986/1988" type="inclusive">1986-1988</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Conference,
+					 <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                        <archref linktype="simple"><physdesc><extent>(4
+						  folders)</extent></physdesc></archref></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Lesbian Health Center, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Safer sex </subject>
+                <genreform>pamphlet,</genreform>
+                <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Peer counseling,</subject>
+              <unitdate calendar="gregorian" era="ce" normal="1990/1999" type="inclusive">1990s</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Phone log,
+				  <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991, Mar.-July (5 folders)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">6</container>
+            <unittitle>Phone log,
+				  <unitdate calendar="gregorian" era="ce" normal="1991/1995" type="inclusive">1991, Aug.-1995, Aug.</unitdate>
+                     <archref linktype="simple"><physdesc><extent>(32
+						folders)</extent></physdesc></archref></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Piedmont HIV Health Care Consortium, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1991/1995" type="inclusive">1991-1995</unitdate>
+              <archref linktype="simple">
+                <physdesc>
+                  <extent>(4
+						folders)</extent>
+                </physdesc>
+              </archref>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Program committee,
+				  <unitdate calendar="gregorian" era="ce" normal="1991/1992" type="inclusive">1991-1992</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">7</container>
+            <unittitle>Presentations:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <genreform>Correspondence,</genreform>
+                <unitdate calendar="gregorian" era="ce" normal="1987/1995" type="inclusive">1987-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><genreform>Notes</genreform> and
+					 <genreform>outlines,</genreform><unitdate calendar="gregorian" era="ce" normal="1987/1995" type="inclusive">1987-1995,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Reports,
+					 <unitdate calendar="gregorian" era="ce" normal="1983/1984" type="inclusive">1983-1984</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Reports,
+					 <unitdate calendar="gregorian" era="ce" normal="1985/1988" type="inclusive">1985-1988</unitdate>
+                        <archref linktype="simple"><physdesc><extent>(4
+						  folders)</extent></physdesc></archref></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <genreform>Schedules,</genreform>
+                <unitdate calendar="gregorian" era="ce" normal="1987/1993" type="inclusive">1987-1993,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Reducing Our Risks:</corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Quarterly report,
+					 <unitdate calendar="gregorian" era="ce" normal="1988/1993" type="inclusive">1988, Oct.-1993, June</unitdate>
+                        <archref linktype="simple"><physdesc><extent>(15
+						  folders)</extent></physdesc></archref></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Monthly reports,
+					 <unitdate calendar="gregorian" era="ce" normal="1989/1994" type="inclusive">1989, Sept.-1994, June</unitdate>
+                        <archref linktype="simple"><physdesc><extent>(12
+						  folders)</extent></physdesc></archref></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>State report
+					 <genreform>evaluations</genreform>,
+					 <unitdate calendar="gregorian" era="ce" normal="1989/1995" type="inclusive">1989-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">8</container>
+              <unittitle><subject>Grant proposals </subject>and objectives,
+					 <unitdate calendar="gregorian" era="ce" normal="1989/1995" type="inclusive">1989-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <genreform>Administrative and financial papers,</genreform>
+                <unitdate calendar="gregorian" era="ce" normal="1988/1995" type="inclusive">1988-1995</unitdate>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(6
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><subject>AIDS awareness </subject>volunteers:
+					 <genreform>Evaluations,</genreform><unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Bar programs, </subject>
+                <unitdate calendar="gregorian" era="ce" normal="1988/1991" type="inclusive">1988-1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Black Men United program, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Bookstore programs,
+					 <unitdate calendar="gregorian" era="ce" normal="1988/1995" type="inclusive">1988-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Community Assessment for Program Planning,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Condom and lubricant information, </subject>
+                <unitdate calendar="gregorian" era="ce" normal="1990/1995" type="inclusive">1990-1995,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <genreform>Correspondence:</genreform>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1988/1995" type="inclusive">1988-1995</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <corpname>North Carolina State Government to AIDS service
+						  organizations, </corpname>
+                  <unitdate calendar="gregorian" era="ce" normal="1987/1995" type="inclusive">1987-1995</unitdate>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(3
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Each One Teach One program,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>HIV testing,</subject>
+                <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Information cards,
+					 <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Information packet making,
+					 <unitdate calendar="gregorian" era="ce" normal="1990/1995" type="inclusive">1990-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Pamphlet approval,
+					 <unitdate calendar="gregorian" era="ce" normal="1991/1993" type="inclusive">1991-1993</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><genreform>Program evaluations</genreform> (miscellaneous),
+					 <unitdate calendar="gregorian" era="ce" normal="1991/1992" type="inclusive">1991-1992,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Safer sex workshops: </subject>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <genreform>Administrative papers,</genreform>
+                  <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <genreform>Evaluations,</genreform>
+                  <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><subject>Fantasies, </subject>[
+						<unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990?</unitdate>]</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Surveys,
+					 <unitdate calendar="gregorian" era="ce" normal="1989/1993" type="inclusive">1989-1993,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Training materials,
+					 <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Volunteer and staff information,
+					 <unitdate calendar="gregorian" era="ce" normal="1988/1995" type="inclusive">1988-1995,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Women and AIDS, </subject>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous,
+					 <unitdate calendar="gregorian" era="ce" normal="1990/1992" type="inclusive">1990-1992</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Resources and bibliographies,
+				  <unitdate calendar="gregorian" era="ce" normal="1988/1993" type="inclusive">1988-1993,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><subject>Support groups </subject>and workshops:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1988/1995" type="inclusive">1988-1995,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Joann Loulan, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Living with HIV,</subject>
+                <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Surveys:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Summary report,
+					 <unitdate calendar="gregorian" era="ce" normal="1983/1985" type="inclusive">1983-1985</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1991/1993" type="inclusive">1991-1993</unitdate>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(2
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Lesbian health,</subject>
+                <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>The AIDS Services Project:</corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>AIDS group reporting forms,
+					 <unitdate calendar="gregorian" era="ce" normal="1990/1991" type="inclusive">1990-1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Buddy program:</corpname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <genreform>Correspondence,</genreform>
+                  <unitdate calendar="gregorian" era="ce" normal="1987/1995" type="inclusive">1987-1995</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <genreform>Manual,</genreform>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(3
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Monthly report,
+						<unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">9</container>
+                <unittitle>
+                  <subject>Public service announcements, </subject>
+                  <unitdate calendar="gregorian" era="ce" normal="1988/1991" type="inclusive">1988-1991,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Quarterly report,
+						<unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Ticket program,
+						<unitdate calendar="gregorian" era="ce" normal="1989/1990" type="inclusive">1989-1990</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><genreform>Training Handbook</genreform> [
+						<unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">1985?</unitdate>]</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Training sessions,
+						<unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Volunteer lists,
+						<unitdate calendar="gregorian" era="ce" normal="1992/1994" type="inclusive">1992-1994</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous,
+						<unitdate calendar="gregorian" era="ce" normal="1985/1999" type="inclusive">1985-1990s</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Client
+					 <genreform>evaluations</genreform>,
+					 <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Emergency Fund, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1989/1992" type="inclusive">1989-1992,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Empowerment workshop,
+					 <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Financial statements,
+					 <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Impact Network Safer Sex </corpname><genreform>pamphlets:</genreform> Misc. papers,
+					 <unitdate calendar="gregorian" era="ce" normal="1992/1993" type="inclusive">1992-1993</unitdate>(also see
+					 photographs)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Living Positively: </corpname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle><subject>Grants, </subject><genreform>training manuals,</genreform> and reports,
+						<unitdate calendar="gregorian" era="ce" normal="1993/1994" type="inclusive">1993-1994</unitdate>
+                           <archref linktype="simple"><physdesc><extent>(2
+							 folders)</extent></physdesc></archref></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <corpname>Durham, </corpname>
+                  <unitdate calendar="gregorian" era="ce" normal="1993/1994" type="inclusive">1993-1994,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(2
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><corpname>Henderson </corpname>and other sites,
+						<unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <corpname>State of the State Conference
+						  Scholarships,</corpname>
+                  <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Pets Are Wonderful Support,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><subject>Volunteers </subject>(General):</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><corpname>Action Day, </corpname>1986</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Confidentiality statement, </subject>
+                <unitdate calendar="gregorian" era="ce" normal="1985/1995" type="inclusive">1985-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Coordinator's
+					 <genreform>notes</genreform>,
+					 <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <genreform>Correspondence,</genreform>
+                <unitdate calendar="gregorian" era="ce" normal="1987/1999" type="inclusive">1987-1990s</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <genreform>Job descriptions,</genreform>
+                <unitdate calendar="gregorian" era="ce" normal="1990/1999" type="inclusive">1990s</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Volunteer Day,
+					 <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>COMMUNITY CONNECTIONS SERIES</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Community Connections Series,
+				<unitdate calendar="gregorian" era="ce" normal="1984/1995" type="inclusive">1984-1995,</unitdate>brings together
+				materials documenting the work of a broad range of Triangle-area and
+				<geogname>North Carolina </geogname><subject>non-profit organizations, </subject><subject>corporations, </subject><subject>universities, </subject><subject>local and state commissions and agencies, </subject>and
+				<subject>cooperative projects </subject>of those groups, primarily
+				addressing the
+				<subject>AIDS epidemic </subject>and/or
+				<subject>lesbian and gay activism. </subject> The materials also
+				document the relationships the
+				<corpname>LGHP </corpname>maintained with many of those groups,
+				sometimes including substantial participation by prominent
+				<corpname>LGHP </corpname>staff members. The files include
+				<genreform>correspondence</genreform>,
+				<genreform>announcements,</genreform><genreform>flyers,</genreform> reports,
+				<genreform>pamphlets,</genreform> event
+				<genreform>programs,</genreform> meeting
+				<genreform>minutes</genreform>, and membership and other
+				administrative information.</p>
+        </scopecontent>
+        <scopecontent>
+          <p>Arranged alphabetically.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">10</container>
+            <unittitle>
+              <corpname>AIDS Action Council, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1986/1993" type="inclusive">1986-1993</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>AIDS Community Residence Association (Durham),
+					 </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1987/1995" type="inclusive">1987-1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>AIDS Leadership: Foothills area alliance (Drexel),
+					 </corpname>[1980s]</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>AIDS Service Agency of Wake County (Raleigh),
+					 </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1990/1995" type="inclusive">1990-1995,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>AIDS Task Force of Winston-Salem, </corpname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Alamance Cares (Burlington),
+					 </corpname>1990's</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Alternative Resources of the Triad (Greensboro),
+					 </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1987/1990" type="inclusive">1987-1990</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Burroughs Wellcome: </corpname> HIV test
+				  advertisements--media response,
+				  <unitdate calendar="gregorian" era="ce" normal="1990/1991" type="inclusive">1990-1991</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Down East Pride (Greenville),</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Duke University, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1989/1995" type="inclusive">1989-1995,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Duke University AIDS Research and Treatment Center:
+					 Community Advisory Board,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Durham AIDS Network, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1989/1992" type="inclusive">1989-1992,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Durham Area Volunteer Administrators,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Durham Human Relations Commission, </corpname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Family Services of Wake County, </corpname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Fayetteville Area AIDS Support Groups, </corpname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Fitts-Powell Apartments,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Gay and Lesbian Helpline of Wake County, </corpname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Gay and Lesbian Switchboard Conference of the
+					 Carolinas,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Funds for Families,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Gay Club (Raleigh), </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1986/1988" type="inclusive">1986-1988</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Eastern Regional AIDS Support and Education
+					 (Greenville),</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>GROW (Wilmington), </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1989/1990" type="inclusive">1989-1990,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Helpline of Wake County, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>HIV Care Consortium,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Hospice AIDS Summit,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Human Service Alliance (Winston-Salem),</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Integrity: Triangle Chapter (Raleigh), </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1986/1987" type="inclusive">1986-1987</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Joint Meeting of North Carolina Gay and Lesbian Health
+					 Projects,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Lambda Connection (Charlotte),</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Metrolina AIDS Project (Charlotte),</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>The NAMES Project AIDS Memorial Quilt/The Triangle,
+					 </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1987/1990" type="inclusive">1987-1990,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>North Carolina AIDS Services Coalition, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1988/1990" type="inclusive">1988-1990</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>North Carolina Coalition for Lesbian and Gay Equality,
+					 </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1990/1995" type="inclusive">1990-1995,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>North Carolina Department of Environment, Health, and
+					 Natural Resources: </corpname> HIV/AIDS brochure
+				  <genreform>correspondence</genreform>,
+				  <unitdate calendar="gregorian" era="ce" normal="1991/1992" type="inclusive">1991-1992</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>North Carolina Fair Share: </corpname> Health care
+				  programming,
+				  <unitdate calendar="gregorian" era="ce" normal="1988/1989" type="inclusive">1988-1989</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>North Carolina HIV/AIDS Alliance,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>North Carolina Human Rights Fund, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1984/1991" type="inclusive">1984-1991</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>North Carolina Lesbian and Gay Pride,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>North Carolina Lesbian, Gay, and Bisexual Student
+					 Organizing, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1991/1992" type="inclusive">1991-1992</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>North Carolina Pride PAC for Lesbian and Gay
+					 Equality,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>North Carolina Royal Court (Greensboro),</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1980/1989" type="inclusive">1980s</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Our Own Place,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Outright (Durham), </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1990/1994" type="inclusive">1990-1994,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Pitt County AIDS Service Organization
+					 (Greenville),</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Tidewater AIDS Crisis Task Force,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Triad Health Project (Greensboro), </corpname>1986,
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Triangle Cooperative AIDS Services Committee,
+					 </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1993/1994" type="inclusive">1993-1994</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Triangle AIDS Collaborative,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Triangle Black and White Men Together
+					 (Durham),</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Triangle Men of All Colors Together
+					 (Durham),</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>University of North Carolina at Chapel Hill,
+					 </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1990/1993" type="inclusive">1990-1993,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Volunteer Center of Greater Durham, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1988/1992" type="inclusive">1988-1992</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Western North Carolina AIDS Project (Asheville),
+					 </corpname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous:
+				  <geogname>North Carolina </geogname>resources,
+				  <unitdate calendar="gregorian" era="ce" normal="1980/1989" type="inclusive">1980s</unitdate>-1990,
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>SUBJECT FILES SERIES</unittitle>
+        </did>
+        <scopecontent>
+          <p>In the Subject Files Series,
+				1986-1995 and undated, the
+				<corpname>LGHP </corpname>maintained extensive resource files to
+				answer requests for information that came into their offices. Those files
+				included
+				<genreform>pamphlets,</genreform><genreform>flyers,</genreform> articles, advertisements,
+				newsletters, reports, conference proceedings, and other materials. The bulk of
+				this series (at least 90%) documents issues related to
+				<subject>HIV/AIDS. </subject> Materials from the resource files
+				were regularly used in buddy and volunteer
+				<genreform>training manuals</genreform> and as part of community
+				outreach education programs. With the exception of certain reports and
+				publications, no attempt has been made to ascertain the date of the materials
+				in the Subject Files series.</p>
+        </scopecontent>
+        <scopecontent>
+          <p>Arranged alphabetically.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">11</container>
+            <unittitle>
+              <subject>Aging: Lesbians and gay men</subject>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Anti-Gay Violence</subject>
+            </unittitle>
+          </did>
+        </c02>
+
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Breast Cancer</subject>
+            </unittitle>
+          </did>
+        </c02>
+
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Hepatitis B</subject>
+            </unittitle>
+          </did>
+        </c02>
+
+        <c02>
+          <did>
+            <unittitle>
+              <subject>HIV/AIDS:</subject>
+            </unittitle>
+          </did>
+
+          <c03>
+            <did>
+              <unittitle>
+                <subject>African Americans</subject>
+              </unittitle>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>
+                <subject>African Americans: Gay and Bisexual
+						Men</subject>
+              </unittitle>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>AID Atlanta</corpname>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>AIDS Action Committee (Boston)</corpname>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>AIDS Action Network</corpname>
+              </unittitle>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>AIDS Volunteers of Cincinnati</corpname>
+              </unittitle>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Bibliographies </subject>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(2
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Blood Donors</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Caregiving</subject>
+              </unittitle>
+            </did>
+          </c03>
+
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Caremark</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Chemical Dependency</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Children</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Condoms and Dental Dams</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Confidentiality issues</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><subject>Disability, </subject><subject>Social Security, </subject>and related
+					 benefits</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <geogname>Durham:</geogname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <subject>African Americans</subject>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <corpname>The Care Fund</corpname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <subject>Service Providers</subject>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <subject>Statistics</subject>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Ecstasy</corpname>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Education </subject>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(2
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Ethical issues</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Federal Government </corpname>memoranda,
+					 miscellaneous</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Hemophilia</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>HIV testing</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>HIV and health care providers</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Housing</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Infection Counselor Training
+						Manual</corpname>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>International Conference on
+						AIDS:</corpname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <geogname>Amsterdam,</geogname>
+                  <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <geogname>Berlin,</geogname>
+                  <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>International issues
+					 <archref linktype="simple"><physdesc><extent>(2
+						  folders)</extent></physdesc></archref></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><subject>Intravenous drug use, </subject><subject>needle exchange, </subject>and
+					 <subject>risk reduction </subject>materials</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Lesbians</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Life Insurance</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">12</container>
+              <unittitle>
+                <subject>Living with HIV/AIDS </subject>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(2
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Long-term survivors</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Massage</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous
+					 <archref linktype="simple"><physdesc><extent>(2
+						  folders)</extent></physdesc></archref></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <geogname>North Carolina:</geogname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">AIDS Resource Directory,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <subject>Confidential HIV testing</subject>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>HIV Legal issue</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Publications:</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <title linktype="simple" render="italic">Children's Advocate,</title>
+                    <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <title linktype="simple" render="italic">North Carolina AIDS/HIV
+							 Update,</title>
+                    <unitdate calendar="gregorian" era="ce" normal="1989/1990" type="inclusive">1989-1990</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <title linktype="simple" render="italic">North Carolina Update,</title>
+                    <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <title linktype="simple" render="italic">UNC Clinical Trials
+							 Bulletin,</title>
+                    <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <title linktype="simple" render="italic">The Impact of AIDS in North
+							 Carolina: A Strategic Response,</title>
+                    <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <subject>Rural issues</subject>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <subject>Sex Education legislation</subject>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <subject>Statistics</subject>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Nutrition and Food Safety</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Pamphlets, miscellaneous
+					 <archref linktype="simple"><physdesc><extent>(2
+						  folders)</extent></physdesc></archref></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>People of Color</corpname>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Presidential Commission on the Human Immunodeficiency
+						Virus Epidemic, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1987/1988" type="inclusive">1987-1988</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Project Inform</corpname>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Psychosocial aspects </subject>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(2
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Publications:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">AandU Art and Understanding,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">The Active Voice,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">AIDS Action,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">AIDS Treatment News,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1990/1992" type="inclusive">1990-1992</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Being Alive,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Global AIDS Factfile,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Global AIDS News,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">HIV Hotline,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">HIV/AIDS Surveillance Report,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">HIV Frontline,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Journal of the International
+						  Association of Physicians in AIDS Care,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Medical Alert,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1993/1995" type="inclusive">1993-1995</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">National Association of People with
+						  AIDS,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">People with AIDS Coalition of New York
+						  Newsline,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1993/1994" type="inclusive">1993-1994</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Positive Health News,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Positively Aware,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1991/1995" type="inclusive">1991-1995</unitdate>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(3
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">13</container>
+              <unittitle>Resources, miscellaneous</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Safer Sex:</subject>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <subject>Gay/Bisexual Men:</subject>
+                </unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle><subject>Education and risk reduction </subject>articles
+						  <archref linktype="simple"><physdesc><extent>(2
+								folders)</extent></physdesc></archref></unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Pamphlets</unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>General</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Sex education in schools</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Southern States AIDS Education Survey
+						</corpname>[1991]</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Stop AIDS Resource Center</corpname>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Statistics</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Stress</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Transmission</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Treatment issues </subject>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(3
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Tuberculosis</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Urban issues</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>United for AIDS Action</corpname>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Vision Disorders</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Women</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Youth</subject>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Youth:
+					 <subject>Gay/Lesbian/Bisexual/Transgender</subject></unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Lesbian/Gay/Bisexual Health
+					 Organizing</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Lesbian Health</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>North Carolina Health Access
+					 Coalition</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><subject>Prisons: </subject> Gay/Lesbian issues</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Whitman-Walker Clinic
+					 (Washington)</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Youth: Gay/Lesbian/Bisexual issues</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>T-SHIRTS SERIES</unittitle>
+        </did>
+        <scopecontent>
+          <p>The T-Shirts Series, 1988-1995 and undated, includes t-shirts
+				produced by the
+				<corpname>LGHP </corpname>to promote the organization and its
+				specific projects and fundraising events.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">14</container>
+            <unittitle>T-Shirts</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>RESTRICTED MATERIALS: ADMINISTRATIVE FILES
+				SERIES</unittitle>
+        </did>
+        <scopecontent>
+          <p>Closed until January 1, 2027.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">15</container>
+            <unittitle>Personnel:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Coleman, Angela,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Floyd, Keith, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1990/1991" type="inclusive">1990-1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Harley, Carolyn, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1991/1992" type="inclusive">1991-1992</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Jackson, Don,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Kirkendale, Stella, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1991/1992" type="inclusive">1991-1992</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Mason, Patricia,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Millett, Gregorio,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Salak, Jerry, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1990/1991" type="inclusive">1990-1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Warburg, Jenny,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personnel Searches:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>AIDS Educator,
+					 <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                        <archref linktype="simple"><physdesc><extent>(2
+						  folders)</extent></physdesc></archref></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Executive Director,
+					 <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                        <archref linktype="simple"><physdesc><extent>(3
+						  folders)</extent></physdesc></archref></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Lesbian Health Coordinator,
+					 <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Volunteer Coordinator,
+					 <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous,
+					 <unitdate calendar="gregorian" era="ce" normal="1989/1990" type="inclusive">1989-1990</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>RESTRICTED MATERIALS: PROGRAMMING AND SERVICES
+				SERIES</unittitle>
+        </did>
+        <c02>
+          <did>
+            <container type="box">16</container>
+            <unittitle><corpname>The AIDS Services Project: Buddy Program
+					 </corpname>(Closed until January 1, 2027):</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Client contract report,
+					 <unitdate calendar="gregorian" era="ce" normal="1989/1994" type="inclusive">1989-1994,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        <archref linktype="simple"><physdesc><extent>(2
+						  folders)</extent></physdesc></archref></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Client manual,
+					 <unitdate calendar="gregorian" era="ce" normal="1989/1995" type="inclusive">1989-1995</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Release forms</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">17</container>
+            <unittitle><corpname>The AIDS Services Project: Buddy Program
+					 </corpname>(Open with restrictions until January 1, 2097:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Volunteer applications,
+					 <unitdate calendar="gregorian" era="ce" normal="1989/1994" type="inclusive">1989-1994,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        <archref linktype="simple"><physdesc><extent>(6
+						  folders)</extent></physdesc></archref></unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>OVERSIZE MATERIAL</unittitle>
+        </did>
+        <c02>
+          <did>
+            <container type="opaperfolder" label="Oversize Cabinet">OC:V:2</container>
+            <unittitle>ADMINISTRATIVE FILES SERIES</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>FINANCIAL PAPERS SERIES</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><subject>Fundraising: </subject><corpname>Triangle Gourmet Gala,
+						</corpname>1994-95.</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>BANNERS SERIES,
+				<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Banners used at LGHP and community events.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="Oversize-Box" label="Oversize Box">1</container>
+            <unittitle><corpname>LGHP </corpname>(
+				  <corpname>Lesbian and Gay Health Project</corpname>) logo
+				  (Blue/Yellow)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="Oversize-Box" label="Oversize Box">2</container>
+            <unittitle><corpname>Reducing Our Risks: Safer Sex for Gay and Bisexual Men
+					 </corpname>(Yellow with Blue and Purple letters)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="Oversize-Box" label="Oversize Box">3</container>
+            <unittitle><corpname>Triangle Bikes Against AIDS </corpname>Thanks You!
+				  (Dark red with white rope; plastic slots for sponsor cards)</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

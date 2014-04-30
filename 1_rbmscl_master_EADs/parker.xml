@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Gwendolyn M. Parker Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/parker/">parker</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Gwendolyn M. Parker Papers,
+			 <date normal="1967/1998" type="inclusive" era="ce" calendar="gregorian">1967-1998</date></titleproper>
+        <author>Processed by: Don Sechler; machine-readable finding aid created
+			 by: Don Sechler</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <p><date era="ce" calendar="gregorian"> 1998</date> Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">002505345</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from Microsoft Word
+		  <lb/>Date of source: July 10, 1998 <lb/>Processed by Don Sechler July 10, 1998;
+		  Finding Aid encoded by Don Sechler, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University,
+		  <date calendar="gregorian" era="ce">July 12, 1998</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Gwendolyn M. Parker Papers)//EN" "parker.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the Gwendolyn M. Parker Papers,
+			 <date calendar="gregorian" era="ce">1967-1998</date></titleproper>
+      <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke
+		  University<lb/>Durham, North Carolina 27708-0185</publisher>
+
+      <p>(C) 1998 Duke University. All rights reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Gwendolyn M. Parker papers 		  <unitdate calendar="gregorian" era="ce" normal="1967/1998" type="inclusive">1967-1998</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Parker, Gwendolyn M.</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>4.50 Linear Feet </extent>
+	  <extent>750 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname>
+      </repository>
+      <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Selected diaries may be used only with Ms. Parker's permission.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in this collection have not been transferred
+			 to Duke University. For more information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Gwendolyn M. Parker Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>Collection purchased from Hwendolyn M. Parker March, 1998.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by Don Sechler</p>
+        <p>Completed July 12, 1998</p>
+	  <p>Encoded by Don Sechler</p>
+        <p>This finding aid is NCEAD compliant.</p>
+
+      </processinfo>
+    </descgrp>
+    <!-- End of Finding Aid Header -->
+    <bioghist>
+      <head>Biographical Note</head>
+      <chronlist>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1950</date>
+          <event>Born Durham, North Carolina</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1960</date>
+          <event>Moved from Durham NC to Connecticut</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1968-1972</date>
+          <event>Attended Radcliffe</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1973-1976</date>
+          <event>Attended Law School at NYU</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1976-1978</date>
+          <event>Worked for Cadwalader, Wickersham, and Taft law firm</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1978-1986</date>
+          <event>Worked for American Express</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1994</date>
+          <event><title linktype="simple" render="italic">These Same Long Bones</title>
+				published</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1996</date>
+          <event>Traveled to southern Africa (Zimbabwe and South
+				Africa)</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1997</date>
+          <event><title linktype="simple" render="italic">Trespassing: My Sojourn in the Halls of
+				  Privilege</title> published</event>
+        </chronitem>
+      </chronlist>
+      <p>Gwendolyn M. Parker is an author and memoirist whose work has
+		  chronicled the experience of the black middle class in America. She was born in
+
+		  <geogname>Durham </geogname>and lived in the Hay-Ti section of Durham until
+		  <date calendar="gregorian" era="ce">1960</date> when she moved with her family to Connecticut. She
+		  attended the
+		  <corpname>Kent School,</corpname> a private boarding school, in
+		  Connecticut, through high school and later attended Radcliffe. After graduating
+		  from
+		  <corpname>Radcliffe</corpname> in
+		  <date calendar="gregorian" era="ce">1972,</date> Parker studied tax law at
+		  <corpname>New York University,</corpname> graduating in
+		  <date calendar="gregorian" era="ce">1975.</date> She then joined the Wall Street law firm of
+		  <corpname>Cadwalader, Wickersham, and Taft,</corpname> leaving two
+		  years later to become a tax lawyer with
+		  <corpname>American Express.</corpname> While at
+		  <corpname>American Express</corpname> she advanced to the position of
+		  senior strategic analyst in the Office of Corporate Planning.</p>
+      <p>Parker left
+		  <corpname>American Express</corpname> in
+		  <date calendar="gregorian" era="ce">1986</date> to devote herself to writing full-time. Her first
+		  novel,
+		<title linktype="simple" render="italic">These Same Long Bones, </title> was published in
+		<date calendar="gregorian" era="ce">1994.</date> It is set in the segregated Hay-Ti section of Durham,
+		<geogname>North Carolina</geogname> in the
+		<date calendar="gregorian" era="ce">1940s.</date> Her memoir
+		<title linktype="simple" render="italic">Trespassing: My Sojourn in the Halls of
+		  Privilege</title> was published in
+		<date calendar="gregorian" era="ce">1997</date> and chronicles her youth, college years, brief career
+		with a Wall Street law firm, and her tenure with
+		<corpname>American Express.</corpname> The book focuses on her struggles
+		to earn a place in a corporate culture dominated by white males and her
+		attempts to understand her position as a successful African American member of
+		the middle class in the United States.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The papers of Gwendolyn M. Parker, which primarily document her
+		  writing carreer, span the years 1967-1998 with the majority of the papers
+		  dating from 1986-1997. They consist primarily of diaries, correspondence,
+		  clippings, writings, and other miscellaneous printed and manuscript materials.
+		  Parker's writings are well documented by several manuscript versions of her
+		  1994 novel,
+		<title linktype="simple" render="italic">These Same Long Bones,</title> and her 1997
+		memoir,
+		<title linktype="simple" render="italic">Trespassing: My Sojourn in the Halls of Privilege.
+		  </title> Parker's correspondence is chiefly professional and related to her
+		efforts to publish for her work, but a small amount of personal correspondence
+		is held in the collection. The clippings are primarily reviews of her books or
+		published interviews. The personal observations, story ideas, and writing
+		exercises recorded in Parker's diaries provide some documentation of her life
+		and artistic career, chiefly after 1986.</p>
+    </scopecontent>
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle>Diaries Series</unittitle>
+        </did>
+        <scopecontent>
+          <p>The diaries document Parker's life from
+				<unitdate calendar="gregorian" era="ce" normal="1983/1996" type="inclusive">1983-1996,</unitdate>chiefly the years
+				after
+				<unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>when she left
+				<corpname>American Express </corpname>and devoted herself to
+				writing full time. The documentation of Parker's life provided by her diaries
+				is somewhat sporadic. The diaries consist of records of her day to day
+				activities, personal reflections, story ideas, writing exercises, poetry
+				fragments, and records of her thoughts about her work and her insecurities as a
+				writer. Many of the entries are loose typescript or handwritten pages that
+				appear to have been removed from notebooks. The series is arranged
+				chronologically, though some overlap in the dating may occur where a diary
+				covers more than one year. Parker produced annotations to the diaries in
+				<unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998</unitdate>in order to provide
+				contextual information.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <unittitle>1998</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Annotations</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>1983</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Brown vinyl notebook, 4" x 5"</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>1986</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Blue notebook, 6" x 9"</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Blue spiral notebook, 7" x 9"</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>10 loose pages, handwritten and typescript</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1986/1987" type="inclusive">1986-1987</unitdate>
+                  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Black vinyl binder enclosing 46 handwritten and
+					 typescript pages</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>1987</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Blue notebook with fabric cover, 6" x 9"</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>1987</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>15 loose pages, handwritten and typescript</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>1988</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>1 loose typescript page</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>1990</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Black notebook, 7 1/2" x 9 3/4" -
+					 <geogname>"Africa </geogname>Trip June 16,
+					 <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>" on
+					 cover.</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>6 loose handwritten pages, originally folded into back
+					 of notebook</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>1996, and
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>3 typescript pages with heading
+					 <geogname>"South Africa,</geogname><unitdate calendar="gregorian" era="ce" normal="1996" type="inclusive">1996</unitdate>"</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>15 loose pages, handwritten and typescript</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence Series</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Correspondence Series spans the years
+				<unitdate calendar="gregorian" era="ce" normal="1980/1998" type="inclusive">1980-1998,</unitdate>chiefly
+				<unitdate calendar="gregorian" era="ce" normal="1994/1997" type="inclusive">1994-1997,</unitdate>and documents
+				Parker's personal relationships, efforts to publish her work, and her working
+				relationships with her editor at
+				<corpname>Houghton Mifflin, </corpname><persname>Janet Silver, </persname>and her literary agent,
+				<persname>Marie Brown. </persname>The earliest correspondence
+				includes inter-office correspondence from
+				<corpname>American Express </corpname>concerning Parker's promotion
+				to senior strategic analyst in the Office of Corporate Planning. Also included
+				in this series are her correspondence with friends and colleagues and rejection
+				letters from publishers for early versions of
+			 <title linktype="simple" render="italic">These Same Long Bones.</title> This novel is
+			 often
+			 <title linktype="simple" render="italic"/> referred to in the correspondence as
+			 <title linktype="simple" render="italic">Hallowed Ground,</title> its working title
+			 prior to publication. The later correspondence, chiefly
+			 <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>-1997, includes letters
+			 of congratulations from friends and colleagues concerning the publication of
+			 <title linktype="simple" render="italic">These Same Long Bones,</title> letters from
+			 children thanking her for presentations given at various schools, and letters
+			 from fans of her work. The collection is chiefly composed of letters to Parker,
+			 but it does include copies of several letters that Parker wrote to friends,
+			 publishers, and other writers. Some of Parker's later correspondence was
+			 written while she was living in southern
+			 <geogname>Africa </geogname>in
+			 <unitdate calendar="gregorian" era="ce" normal="1996" type="inclusive">1996</unitdate>and includes references to
+			 her work on her memoir,
+			 <title linktype="simple" render="italic">Trespassing.</title> This work is often
+			 referred to in her letters by its working title,
+			 <title linktype="simple" render="italic">Slim Brown Face at the Table.</title> Parker
+			 annotated several of the letters and these notes serve to provide some context
+			 for the correspondence. The series is arranged chronologically.</p>
+        </scopecontent>
+        <c02>
+          <did><container type="box">1</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1980/1993" type="inclusive">1980-1993</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994, May</unitdate>
+                  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Letters from school children</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994, Sept.</unitdate>
+                  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Letters from school children</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>1994</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>1995</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>1996</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>1997</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>1998</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Clippings Series</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Clippings Series spans the years
+				<unitdate calendar="gregorian" era="ce" normal="1983/1998" type="inclusive">1983-1998,</unitdate>chiefly
+				<unitdate calendar="gregorian" era="ce" normal="1994/1998" type="inclusive">1994-1998,</unitdate>and provides
+				documentation of the critical response to Parker's work, her involvement with
+				the arts, and attendance at conferences and other events. The clippings consist
+				chiefly of reviews of her work and profiles of Parker published in various
+				newspapers and magazines. These items contribute a picture of the public's
+				response to her work as well as furnishing a glimpse of her publishers
+				promotional efforts made in support of both
+			 <title linktype="simple" render="italic">These Same Long Bones</title> and
+			 <title linktype="simple" render="italic">Trespassing.</title> Also included in the
+			 series are programs and advertisements that serve to document Parker's
+			 involvement with the writing profession through her attendance at writer's
+			 conferences and various public speaking engagements. The folders in this series
+			 are arranged alphabetically, thereunder chronologically.</p>
+        </scopecontent>
+        <c02>
+          <did><container type="box">1</container>
+            <unittitle>Conferences and Speaking Engagements,
+				  <unitdate calendar="gregorian" era="ce" normal="1994/1997" type="inclusive">1994-1997</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous,
+				  <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983</unitdate> and
+				  <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Reviews and Profiles:
+				  <title linktype="simple" render="italic"> These Same Long Bones,</title><unitdate calendar="gregorian" era="ce" normal="1994/1996" type="inclusive">1994-1996,</unitdate>n.d</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Reviews and Profiles:
+				  <title linktype="simple" render="italic">Trespassing,</title><unitdate calendar="gregorian" era="ce" normal="1997/1998" type="inclusive">1997-1998</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Writings Series</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Writings Series is arranged into three subseries:
+				Miscellaneous Writings,
+			 <title linktype="simple" render="italic">These Same Long Bones,</title> and
+			 <title linktype="simple" render="italic">Trespassing.</title></p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Miscellaneous Writings Subseries</unittitle>
+          </did>
+          <scopecontent>
+            <p>The Miscellaneous Writings Subseries spans
+				  <unitdate calendar="gregorian" era="ce" normal="1969/1995" type="inclusive">1969-1995,</unitdate>chiefly
+				  <unitdate calendar="gregorian" era="ce" normal="1969/1972" type="inclusive">1969-1972</unitdate>and
+				  <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986,</unitdate>and documents
+				  Parker's academic work and her growth and development as a writer. The
+				  subseries includes a selection of Parker's poems, stories, and academic papers
+				  written while at
+				  <corpname>Radcliffe, </corpname>poetry and poetic fragments
+				  written while she was pursuing her career in tax law, and unpublished short
+				  stories and nonfiction pieces written
+				  <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">ca. 1986.</unitdate>Also included in
+				  the subseries are the notes and drafts of both her early fiction and
+				  non-fiction writings, some of which were later reworked into her novel
+				<title linktype="simple" render="italic">These Same Long Bones,</title> and a book
+				review written by Parker and published in the
+				<title linktype="simple" render="italic">NYT Book Review</title> in
+				<unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                     <title linktype="simple" render="italic">.</title> The subseries is arranged
+				chronologically, thereunder alphabetically when materials are from the same
+				year. Several manuscripts include Parker's annotations which serve to provide
+				context and date information for particular items. The folder titles and
+				arrangement of those items originally foldered together by Parker have been
+				maintained. Unidentified writings are foldered at the end of the subseries.</p>
+          </scopecontent>
+          <c03>
+            <did><container type="box">1</container>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1969/1971" type="inclusive">1969-1971</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>College Papers and Stories</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1969/1971" type="inclusive">1969-1971</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Poetry</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1969/1971" type="inclusive">ca. 1969-1971,</unitdate>and
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Poetry - 38 handwritten and typescript pages in a
+						black vinyl binder - includes annotation.</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1972</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Harvard Honors Thesis, "Archetypal Images in Black
+						Stereotypes"</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1978/1983" type="inclusive">ca. 1978-1983</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Poetry</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1986</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>"Babes in Toyland: Women's Values in the Corporate
+						World" - 8 page typescript of an unpublished article, with revisions by
+						Parker.</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1986</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>"Circles" - 5 page typescript of an unpublished
+						article.</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1986</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>"Moonshine" - 11 page typescript of and unpublished
+						short story.</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1986</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>"Sarah/Adult Sibling" article - 3 page article
+						proposal for
+						<title linktype="simple" render="italic">New Mother</title> magazine - 13 loose
+						pages of notes - 10 page typescript draft of article with
+						revisions.</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">ca. 1991</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Lecture Notes - 1 spiral notebook, 6" x 9 1/2", with
+						annotation, "Cross Cultural Lecture"</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1995</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Book Review - Book review written by Parker for the
+						<title linktype="simple" render="italic"> New York Times Book Review.</title></unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">ca. 1986,</unitdate>and
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous Notes and Drafts - 89 loose typescript
+						and handwritten pages - 1 spiral notebook, 8 1/2" x 11</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+
+            <unittitle><title linktype="simple" render="italic">These Same Long Bones</title>
+				  Subseries</unittitle>
+          </did>
+          <scopecontent>
+            <p>The
+				<title linktype="simple" render="italic">These Same Long Bones</title> Subseries,
+				<unitdate calendar="gregorian" era="ce" normal="1988/1998" type="inclusive">1988-1998,</unitdate>documents the
+				writing, revision, and publication process for this novel. The subseries
+				includes Parker's
+				<unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998</unitdate>chronology of the
+				writing of the novel, several early versions of the novel under its original
+				title
+				<title linktype="simple" render="italic">Hallowed Ground,</title> and notes and
+				research related to the novel. It also includes drafts with revisions by both
+				Parker and her editor at
+				<corpname>Houghton Mifflin, </corpname><persname>Janet Silver, </persname>page proofs with revisions by
+				Parker and her copy editor at
+				<corpname>Houghton Mifflin, </corpname>final page and cover design
+				proofs, and promotional materials for both the hardback and paperback versions
+				of the novel. Also included are the manuscripts for two unpublished short
+				stories, "In The Flesh" and "Bittersweet," that were later developed into
+				<title linktype="simple" render="italic">These Same Long Bones.</title> Several of
+				the working drafts of the novel are accompanied by Silver's cover letters
+				offering suggestions, explanations for her revisions, and encouragement. The
+				early working copies of this novel offer a vivid picture of Parker's creative
+				process, and the revisions by her editors at
+				<corpname>Houghton Mifflin </corpname>provide documentation of the
+				editing process that helped to mold the manuscript into its final published
+				form. This
+				<title linktype="simple" render="italic"/> subseries also includes publicity
+				materials used in the promotion of this book and two versions of Parker's
+				unproduced screenplay based this novel. The subseries begins with Parker's
+				chronology of the writing of this novel, and is arranged chronologically,
+				thereunder alphabetically.</p>
+          </scopecontent>
+          <c03>
+            <did><container type="box">2</container>
+              <unittitle>1998</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Chronology</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1988</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>"Bittersweet"</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1988</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>"In The Flesh"</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1988</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Hallowed Ground</title>
+                </unittitle>
+                <physdesc>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(3
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1990</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Hallowed Ground</title>
+                </unittitle>
+                <physdesc>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(3
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1988/1992" type="inclusive">ca. 1988-1992</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle><title linktype="simple" render="italic">Hallowed Ground,</title>
+						Notes</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1988/1992" type="inclusive">ca. 1988-1992</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle><title linktype="simple" render="italic">Hallowed Ground,</title>
+						Excisions</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1991</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle><title linktype="simple" render="italic">Hallowed Ground,</title>
+						Research</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1993</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Hallowed Ground,</title>
+                </unittitle>
+                <physdesc>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(4
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">ca. 1993</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Alternate Titles</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993, Oct.</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle><title linktype="simple" render="italic">Hallowed Ground,</title> Ch.
+						1-6</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993, Oct.</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle><title linktype="simple" render="italic">Hallowed Ground,</title> Ch.
+						6-12</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">ca. 1993</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle><title linktype="simple" render="italic">Hallowed Ground,</title> Chapter
+						7-10</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">ca. 1993</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous manuscript pages with
+						revisions</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993, Oct.</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Final Edited Manuscript </unittitle>
+                <physdesc>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(3
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993, Dec.</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Page Proofs, Authors Marked Set </unittitle>
+                <physdesc>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(3
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993, Dec.</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Page Proofs, Extra Set </unittitle>
+                <physdesc>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(3
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1993, Dec</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Pages Proofs, Master Set </unittitle>
+                <physdesc>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(3
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">ca. 1994</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Cover design</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1994</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Promotional Materials for Author Signings and
+						Events</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1995</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Promotional Materials for Author Signings and
+						Events</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1994/1995" type="inclusive">1994-1995</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Publicity</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">ca. 1995</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Cover design, paperback edition</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">3</container>
+              <unittitle>1995</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Publicity, Foreign Editions</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995, Apr.</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Screenplay, First Draft</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995, Dec.</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Screenplay, Second Draft</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle><title linktype="simple" render="italic">Trespassing</title> Subseries</unittitle>
+          </did>
+          <scopecontent>
+            <p>The
+				<title linktype="simple" render="italic">Trespassing</title> Subseries spans the
+				years
+				<unitdate calendar="gregorian" era="ce" normal="1995/1998" type="inclusive">1995-1998</unitdate>and includes items
+				which serve to document the writing, revision, and publication process for
+				Parker's memoir
+				<title linktype="simple" render="italic">Trespassing: My Sojourn in the Halls of
+				  Privilege.</title> The memoir focuses on her youth, college education, brief
+				career as a tax lawyer with a Wall Street firm, and career with
+				<corpname>American Express. </corpname>Included in this subseries
+				is a
+				<unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998</unitdate>chronology of the
+				writing of
+				<title linktype="simple" render="italic">Trespassing,</title> several early drafts of
+				the memoir under its working title
+				<title linktype="simple" render="italic">Slim Brown Face at the Table,</title>
+				promotional photos and other materials, and manuscripts with notes and
+				revisions by both Parker and her editors at
+				<corpname>Houghton Mifflin. </corpname>Also included is a
+				substantial amount of notes and research, chiefly clippings, related to work.
+				Following the
+				<unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998</unitdate>chronology, the
+				subseries is arranged chronologically with the undated research files gathered
+				at the end of the subseries.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>1998</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Chronology</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1995</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Early Notes</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">ca. 1995</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Proposal</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1996" type="inclusive">1996, Sept.</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle><title linktype="simple" render="italic">Slim Brown Face at the Table,</title>
+						First Draft </unittitle>
+                <physdesc>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(3
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1996" type="inclusive">ca. 1996</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Alternate Title Notes</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1996" type="inclusive">1996, Dec.</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Second Draft </unittitle>
+                <physdesc>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(3
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997, Jan.</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Chapter 6, and Epilogue</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997, Feb.</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Copy Edited Manuscript, </unittitle>
+                <physdesc>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(2
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1997</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Page Proofs with Corrections, </unittitle>
+                <physdesc>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(2
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1997</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Bound Manuscript</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1997</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Book Jacket Design Proof</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1997/1998" type="inclusive">1997-1998</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Promotional Materials</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>1997</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Publicity Photographs</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Research Files </unittitle>
+                <physdesc>
+                  <archref linktype="simple">
+                    <physdesc>
+                      <extent>(6
+							 folders)</extent>
+                    </physdesc>
+                  </archref>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous Series</unittitle>
+        </did>
+        <scopecontent>
+          <p>The Miscellaneous Series includes photographic, manuscript, and
+				printed materials that serve to document Parker's personal and professional
+				life. The photographic materials include photos of her family as well as
+				photographs documenting her appearances readings and other events promoting her
+				work. Also included is a photograph of Parker at approximately age 10, a
+				photocollage of several generations of her family, and a photo of Parker at the
+				183rd Anniversary Party for
+				<corpname>Cadwalader, Wickersham, and Taft. </corpname>The
+				printed material imcludes a copy of the book
+			 <title linktype="simple" render="italic">The Story of the Descendants of Benjamin
+				Spaulding,</title> by
+			 <persname>Louis D. Mitchell </persname>and
+			 <persname>John A. Spaulding.<emph><title linktype="simple" render="italic"/></emph></persname>The manuscript
+			 materials included with this series include a guest book from the publication
+			 party for her novel
+			 <title linktype="simple" render="italic">These Same Long Bones</title> and
+			 transcriptions of unpublished interviews. The series is arranged alphabetically
+			 by folder title with oversize materials being housed separately.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <unittitle>Award, Kent School Cum Laude Society,
+				  <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Guest book and mailing list,
+				  <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Photographs and memorabilia from
+				  <title linktype="simple" render="italic">Trespassing</title> publication party,
+				  <unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Family Photographs,
+				  <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">ca. 1960,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">1972,</unitdate>and
+				  <unitdate calendar="gregorian" era="ce" normal="1990/1999" type="inclusive">1990s</unitdate>(4
+				  photographs)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Photographs, Signings and Event,
+				  <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>(33
+				  photographs)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Photographs, Signings and Event,
+				  <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>(23
+				  photographs)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">A Story of the Descendants of Benjamin
+					 Spaulding</title>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Transcriptions of unpublished interviews,
+				  <unitdate calendar="gregorian" era="ce" normal="1989/1997" type="inclusive">1989-1997</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <unittitle>Closed Materials</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Journal pages</unittitle>
+              <physdesc>
+                <archref linktype="simple">
+                  <physdesc>
+                    <extent>(2
+						  folders)</extent>
+                  </physdesc>
+                </archref>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">5</container>
+            <unittitle>Oversive Photograph</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Cadwalader, Wickersham, and Taft, 183rd Anniversary
+					 Party,
+					 <unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975.</unitdate>October
+					 15</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="opaperfolder">1</container>
+            <unittitle>Photocollage of Parker's family</unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

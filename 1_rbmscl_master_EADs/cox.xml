@@ -1,0 +1,1513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" langencoding="iso639-2b" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid publicid="-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Earnest Sevier Cox Papers)//EN" countrycode="us" mainagencycode="ndd" url="http://library.duke.edu/rubenstein/findingaids/cox/">cox</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Earnest Sevier Cox Papers, <date normal="1821/1973" type="inclusive" era="ce" calendar="gregorian">1821-1973</date>
+            </titleproper>
+            <author>Processed by: Janie C. Morris; machine-readable finding aid created by: Stephen Douglas Miller</author>
+         </titlestmt>
+         <publicationstmt>
+            <p>
+               <date era="ce" calendar="gregorian"> 1988</date>
+ Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+         <note><p>Aleph Number: <num type="aleph">000813440</num></p></note></notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from
+paper by means of scanning and OCR; OCR file edited for typographical errors before encoding.
+<lb/>Date of source: July 29, 1988
+<lb/>Processed by: Janie C. Morris
+ July 29, 1988; Finding Aid encoded by Stephen Douglas Miller, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.
+<date era="ce" calendar="gregorian">April 15, 1997</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005" era="ce" calendar="gregorian">08-12-2005</date>
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Earnest Sevier Cox Papers)//EN" "cox.sgm" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+		<item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date era="ce" calendar="gregorian">June 29, 1998</date>
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Earnest Sevier Cox Papers, <date era="ce" calendar="gregorian">1821-1973</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>
+
+            <lb/>Duke University<lb/>Durham, North Carolina</publisher>
+
+         <p> 1988 Duke University. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">Earnest Sevier Cox papers <unitdate normal="1821/1973" type="inclusive" era="ce" calendar="gregorian">1821-1973</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Cox, Earnest Sevier, 1880-1966</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>16 Linear Feet</extent>
+		<extent>13,000 Items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+         </repository>
+         <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+	   <accessrestrict>
+	 	<head>Access Restrictions</head>
+		<p>Collection is open for research.</p>
+		<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+		<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+		<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+	   </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The status of the copyright interests in the Cox papers is unknown. For further information, see the section on copyright in the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], The Earnest Sevier Cox Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The papers of Earnest Sevier Cox, racial separatist, real estate agent, and military officer, were acquired by the Rubenstein Library through gifts and purchases between 1964 and 1981.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by: Janie C. Morris</p>
+            <p>Completed July 29, 1988</p>
+		<p>Encoded by Stephen Douglas Miller</p>
+		<p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp>
+      <bioghist>
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1880, Jan. 24</date>
+               <event>Born near Louisville, Blount County, Tenn.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1899</date>
+               <event>B.S. Roane College, Wheat, Tenn.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1900</date>
+               <event>Received diploma from the Business Department of the Massey Practical Business College and School of Shorthand in Columbus, Ga.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1901</date>
+               <event>Reporter for the <title render="italic" linktype="simple">Anadarko Record and Southwestern Progress</title> in Anadarko, Okla.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1901</date>
+               <event>Taught school in Verden, Okla.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1902</date>
+               <event>Attended Moody Bible Institute in Chicago</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1903</date>
+               <event>Enrolled at the Vanderbilt University Theological School in Nashville, Tenn.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1904-1905</date>
+               <event>Preached at summer revival meetings in Tennessee and Kentucky</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">ca. 1907</date>
+               <event>Lecturer with the Jamestown Exposition in Virginia, recounting the Battles of Bull Run in a cyclorama</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1908</date>
+               <event>University of Chicago reviewed Cox's previous studies and granted him the equivalent of a college degree at which time he officially undertook a program of graduate work</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1909</date>
+               <event>Worked at cycloramas in Chicago and Pittsburgh</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1910</date>
+               <event>Traveled to Africa and worked in the diamond mines in Kimberley, South Africa</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1911-1914</date>
+               <event>Traveled extensively in Africa, the Far East, the Philippines, Panama, and South America</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">ca. 1916</date>
+               <event>Made speeches before various civic groups about his travels in Africa</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1916</date>
+               <event>Met Mississippi senator and segregationist James K. Vardaman, who secured him a part-time job in the Senate Folding Room where he prepared magazines for mailing</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1917-1919</date>
+               <event>Served in the U.S. Army with the American Expeditionary Forces at the Bordeaux Embarkation Camp in France</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1920</date>
+               <event>Moved to Richmond, Va.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1922-1958</date>
+               <event>Real estate agent for the Laburnum Realty Corporation in Richmond, Va.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1923</date>
+               <event>
+                  <title render="italic" linktype="simple">White America</title> published (originally called <title render="italic" linktype="simple">Decay of Culture: A Study of the Negro in Civilization)</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1923</date>
+               <event>Began to spearhead a drive for more stringent laws governing racial intermixture in Virginia Pamphlet <title render="italic" linktype="simple">Let My People Go</title> printed; it was dedicated to Marcus Garvey</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1930s to 1950s</date>
+               <event>Lobbied Congress to pass the Greater Liberia and Langer bills, both advocating the repatriation of blacks to Africa</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1936</date>
+               <event>Spoke before the Eugenics Research Association in New York</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1937</date>
+               <event>Revised special edition of <title render="italic" linktype="simple">White America</title> published and distributed free to U. S. Congressional members</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1938</date>
+               <event>Pamphlets Let <title render="italic" linktype="simple">My People Go</title> and <title render="italic" linktype="simple">Lincoln's Negro Policy</title> were distributed free to U.S. Congressional members</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1951</date>
+               <event>Work <title render="italic" linktype="simple">Teutonic Unity</title> was privately printed and sent free to government officials and U. S. Congressional members in Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1953</date>
+               <event>Commissioned Lieutenant Colonel in the U.S. Army Reserve</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1953</date>
+               <event>Published article <title render="doublequote" linktype="simple">I Witnessed A Miracle,</title> that discussed the hearing on the Langer Bill before representatives of the Senate Foreign Relations Committee</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1955</date>
+               <event>Published pamphlet <title render="italic" linktype="simple">Unending Hate</title> denouncing the U. S. Supreme Court Brown vs. the Board of Education decision</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1959</date>
+               <event>Attended the Teutoburger Moot, held in Detmold, Germany, where his address <title render="doublequote" linktype="simple">Herman's Brother</title> was delivered by English and German interpreters</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1963</date>
+               <event>Published autobiographical work <title render="italic" linktype="simple">Black Belt Around the World at the High Noon of Colonialism</title> concerning travels between 1910 to 1914</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1966</date>
+               <event>Paperback edition of <title render="italic" linktype="simple">White America</title> published</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1966, Apr. 26</date>
+               <event>Died in Richmond, Va. and was buried in Arlington National Cemetery</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1972</date>
+               <event>
+                  <title render="italic" linktype="simple">Lincoln's Negro Policy,</title> a compilation of a number of Cox's essays, published posthumously</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The papers of Earnest Sevier Cox span the years 1821 to 1973, with the bulk dating from 1900 to 1964. The primary focus of the collection is Cox's advocacy for the separation of the races by the repatriation of blacks to Africa, which he actively pursued for over forty years. The Correspondence, Writings, Speeches, and Printed Material series most clearly reflect his interest in <emph render="doublequote">separation not amalgamation.</emph> Figuring less prominently in the collection is his military service during World War I and his work as a real estate agent for the Laburnum Realty Corporation in Richmond, Va. His personal life is best represented in the correspondence he had with his family and in the Writings series.</p>
+         <p>As early as 1906, Cox held the belief that the Caucasian race was superior to the black race and that blacks should be kept in a segregated and unequal position. The year 1910 could be considered a turning point in Cox's life. By that time he had already tried several vocations. He had been a newspaper reporter, a teacher, and a minister, and had enrolled at the University of Chicago in graduate school, where he studied sociology. In 1910 he traveled to Africa to study the Negro under colonial rule; while there he broadened his interests to include a study of the amount of freedom that various European nations allowed their colonial subjects.</p>
+         <p>From 1910 until 1914, Cox traveled extensively in Africa and toured Australia, New Zealand, Singapore, Hong Kong, the Philippines, Panama, and South America. The unrest he became aware of among the races in South Africa is particularly reflected in the Clippings series. Cox was able to earn money on the trip by working in various mines and supplemented this income by occasional lectures and newspaper articles, some of which are also included in the Clippings series. After his return to the United States, he was asked to speak at various organizations particularly about his travels in Africa. Broadsides advertising these talks with titles like <title render="doublequote" linktype="simple">1,800 Miles on Foot Through Darkest Africa</title> are included in the Speeches series.</p>
+         <p>It was the with the publication in 1923 of <title render="italic" linktype="simple">White America</title> that he began to advocate the repatriation of blacks to Africa and to work with others to try to achieve it. Later editions of <title render="italic" linktype="simple">White America</title> appeared in 1925, 1937, and 1966. Various drafts of this work can be found in the Writings series.</p>
+         <p>It is Cox's work with others to achieve repatriation that forms the crux of the collection. In his passion for the separation of the races and his belief in the superiority of the white race, he formed alliances with both white and black separatists. Viewpoints of both groups are included in the collection, chiefly in the Correspondence series. Among the black nationalists and associations represented are Marcus Garvey, Universal Negro Improvement Association (UNIA), (ca. 1925 to 1939); Mittie Maude Lena Gordon, Peace Movement of Ethiopia (PME) , (ca. 1934 to 1958) ; and Benjamin Gibbons, Universal African Nationalist Movement, Inc. (UANM) , (ca. 1947 to 1963). Garvey, Gordon, and Gibbons are included in the Writings and Speeches of Others series as well.</p>
+         <p>The correspondence is particularly reflective of the unsuccessful efforts of Cox and others to get the repatriation bills of Senators Theodore Bilbo of Mississippi (ca. 1938 to 1947) and William Langer of North Dakota (ca. 1949 to 1959) passed into law. Both bills sought aid from the United States government to help blacks return to Africa. Senator Bilbo's bill was commonly referred to as the Greater Liberia Bill and was first introduced in 1939. Langer, who first introduced his bill in 1949, was to introduce the bill five more times before his death in 1959.</p>
+         <p>Cox was able to generate some publicity for the Langer bill in 1953. A hearing was held in June of that year before representatives of the Senate Foreign Relations Committee. Eight people appeared before the Committee, including Cox who spoke as a representative of the PME and as a spokesperson for repatriation. Cox published an article about the hearing, <title render="doublequote" linktype="simple">I Witnessed a Miracle,</title> in both a white racist and black nationalist magazine. The article appears in the Writings series.</p>
+         <p>Cox was also instrumental in getting the Virginia General Assembly to pass the Racial Integrity Law of 1924, which was designed in part to prevent the intermarriage of blacks and whites. John Powell, pianist-composer and a correspondent (ca. 1924 to 1954) of Cox, worked with him for its passage. Additionally Cox was involved with the passage of a resolution in 1936 by the Assembly which recommended that the U. S. Congress provide for the colonization of persons of African descent in Liberia or other places on the African continent.</p>
+         <p>One of the arguments Cox used to support the repatriation movement was to quote Abraham Lincoln, who he said promoted the separation and re-colonization of blacks. He published a pamphlet in 1938 with quotations from Lincoln to support this view entitled <title render="italic" linktype="simple">Lincoln's Negro Policy.</title> This work is represented in the Writings series.</p>
+         <p>The U. S. Supreme Court's <title render="italic" linktype="simple">Brown vs. the Board of Education</title> decision in 1954 made Cox a prophet in the minds of some whites. Almost overnight this decision helped create a multitude of right wing organizations whose primary purpose was to maintain the segregation of the races. Both the correspondence and printed material from this period are representative of this attitude. Much of the printed material provides graphic illustrations and strongly worded texts of the segregationist, anti-Supreme Court, anti-Semitic, and anti-Communist sentiments of the time, from a variety of right wing organizations.</p>
+         <p>
+            <title render="italic" linktype="simple">Teutonic Unity</title> was privately printed by Cox in 1951. The book purported to be a racial history covering the development of the <emph render="italic">Teutonic</emph> race from 2000 B.C. to the present. A copy of this work is located in the Writings series. In 1959, Cox was honored by fellow international racial separatists by being invited to speak at the First Annual Congress of the Northern League in Detmold, Germany. Although he was too ill to deliver the address himself, he was on the platform while English and German interpreters read it for him. Both his paper titled <title render="doublequote" linktype="simple">Herman's Brother</title> and a printed program of the conference are included in the Speeches and Writings and Speeches of Others series respectively. The paper concerned the need for Teutonic peoples to maintain their bloodlines.</p>
+         <p>Cox continued writing until shortly before his death. One of the works, which is included in the Writings series, <title render="italic" linktype="simple">Black Belt Around the World,</title> was published in 1963. It is an autobiographical work containing information about his travels from 1910 to 1914.</p>
+         <p>He was working on <title render="italic" linktype="simple">Lincoln's Negro Policy</title> at the time of his death. It was to be a compilation of a number of his essays that had been published earlier. The work included an essay of the same title that is mentioned above. The work, which was completed by Drew L. Smith, was published in 1972, six years after Cox's death. Information about the completion and distribution of this work is included in the Edith Wood Nelson series.</p>
+         <p>Correspondents not previously mentioned but represented in the papers are listed below, along with the approximate dates of their correspondence: Wickliffe P. Draper, (ca. 1936 to 1949); Madison Grant, (ca. 1920 to 1936) ; S. A. Davis, (ca. 1925 to 1962) ; W. A. Plecker, (ca. 1924 to 1947); Willis A. Carto, (ca. 1955 to 1967); and Amy Jacques Garvey, widow of Marcus Garvey, (ca. 1926 to 1965).</p>
+         <p>Cox held onto his repatriation beliefs until his death. In a will dated December 15, 1965, four months before he died, he directed the executors of his estate to send any excess monies toward the <emph render="doublequote">repatriation movement of American Negroes to Africa.</emph>
+         </p>
+         <p>A doctoral dissertation has been written based in large part on the Cox papers. Titled <title render="italic" linktype="simple">Earnest Cox and Colonization: A White Racist's Response to Black Repatriation, 1923-1966,</title> it was written by Ethel Wolfskill Hedlin and submitted to Duke University in 1974.</p>
+      </scopecontent>
+
+
+<controlaccess>
+         <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <head>Online Catalog</head>
+            <item>
+               <subject>Back to Africa movement</subject>
+            </item>
+            <item>
+               <subject>Afro-Americans -- Colonization -- Africa</subject>
+            </item>
+            <item>
+               <subject>Racism -- Societies, etc</subject>
+            </item>
+            <item>
+               <corpname>Peace Movement of Ethiopia</corpname>
+            </item>
+            <item>
+               <corpname>Universal Negro Improvement Association</corpname>
+            </item>
+            <item>
+               <corpname>Universal African Nationalist Movement, Inc</corpname>
+            </item>
+            <item>
+               <persname>Gordon, Mittie Maude Lena, d. 1961</persname>
+            </item>
+            <item>
+               <persname>Garvey, Marcus, 1887-1940</persname>
+            </item>
+            <item>
+               <persname>Gibbons, Benjamin</persname>
+            </item>
+            <item>
+               <persname>Bilbo, Theodore Gilmore, 1877-1947</persname>
+            </item>
+            <item>
+               <persname>Langer, William</persname>
+            </item>
+            <item>
+               <subject>Afro-Americans -- Race identity</subject>
+            </item>
+            <item>
+               <geogname>Virginia -- Race relations</geogname>
+            </item>
+            <item>
+               <persname>Plecker, W. A.</persname>
+            </item>
+            <item>
+               <persname>Powell, John, 1882-1963</persname>
+            </item>
+            <item>
+               <geogname>Africa -- Description and travel</geogname>
+            </item>
+            <item>
+               <geogname>United States -- Race relations</geogname>
+            </item>
+            <item>
+               <subject>White citizens' councils</subject>
+            </item>
+            <item>
+               <subject>Afro-Americans -- Segregation</subject>
+            </item>
+            <item>
+               <persname>Cox, Earnest Sevier. White America</persname>
+            </item>
+            <item>
+               <persname>Cox, Earnest Sevier. Black belt around the world</persname>
+            </item>
+            <item>
+               <persname>Davis, S. A.</persname>
+            </item>
+            <item>
+               <persname>Grant, Madison, 1865-1937</persname>
+            </item>
+            <item>
+               <corpname>United States.--Army.--American Expeditionary Forces</corpname>
+            </item>
+         </list>
+      </controlaccess>
+
+
+ <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle id="corr">Correspondence <unitdate normal="1821/1973" type="inclusive" era="ce" calendar="gregorian">1821-1973 and undated</unitdate></unittitle>
+            </did><scopecontent>
+               <p>Chiefly correspondence between <persname>Cox </persname>and <subject>racial separatists. </subject> Also personal correspondence with his family, some relating to his travels and to his service in the <corpname>American Expeditionary Forces </corpname>in <geogname>Europe, </geogname>and 19th century letters concerning his relatives in <geogname>Tennessee. </geogname> Arranged chronologically.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1837-1920 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1921-1925 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1926-1932 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1933-1938, </unitdate>Nay </unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1938, June-1940 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1941-1947 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1948-1950, </unitdate>May </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1950, June-1951 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1952-1954, </unitdate>April </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1954, May-1955 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>Correspondence,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1956</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent> (5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Correspondence,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent> (5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1958-1959 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1963 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(9 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1964-1968 </unitdate>and <unitdate type="inclusive" era="ce" calendar="gregorian">undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="lega">Legal Papers, <unitdate normal="1821/1965" type="inclusive" era="ce" calendar="gregorian">1821-1965 and undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(2 folders)</extent>
+               </physdesc>
+            </did><scopecontent>
+               <p>Includes deeds, contracts, wills, indentures, land surveys, and subpoenas, mostly dating from the 19th century and involving members of Cox's family who were located in <geogname>Blount County, Tenn. </geogname>Also several of Cox's <subject>wills, </subject>
+                  <subject>copyrights </subject>for several of his publications, and <subject>legal briefs </subject>relating to the arrest of black separatist <persname>Mittie M. L. Gordon, </persname>and other miscellaneous items. Arranged chronologically.</p>
+            </scopecontent>
+
+			<c02><did><container type="box">15</container><unittitle>Legal Papers</unittitle></did></c02>
+
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="fina">Financial Papers, <unitdate normal="1830/1965" type="inclusive" era="ce" calendar="gregorian">1830-1965 and undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(3 folders)</extent>
+               </physdesc>
+            </did> <scopecontent>
+               <p>Includes receipts, some concerning the sale of Cox's publications. Also loose papers and two volumes, dating from the 19th century and relating to the sale of <subject>agricultural products </subject>and other miscellaneous items. Arranged chronologically.</p>
+            </scopecontent>
+<c02><did><container type="box">15</container><unittitle>Financial papers</unittitle></did></c02>
+
+         </c01>
+         <c01 level="series">
+            <did>
+              
+               <unittitle>Financial Papers, Volumes, <unitdate normal="1847/1931" type="inclusive" era="ce" calendar="gregorian">1847-1931</unitdate>
+               </unittitle>
+            </did><c02><did><container type="box">16</container><unittitle>Volumes</unittitle></did></c02>
+
+         </c01>
+
+<c01 level="series">
+            <did>
+               <unittitle>Writings, <unitdate normal="1923/1963" type="inclusive" era="ce" calendar="gregorian">ca. 1923-1963</unitdate>
+               </unittitle>
+            </did><arrangement>
+               <p>Cox's writings are divided into five subseries: Writings; Letters to the Editor; Poetry; Distribution Lists; and Miscellaneous Writings and Notes.</p>
+            </arrangement>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Writings</unittitle>
+               </did>
+               <c03>
+                  <did><container type="box">16</container>
+                     <unittitle>A - BI</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Notes </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Incomplete Draft (n. d.) </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Draft - Intro. and Chapters I-II,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Draft - Chapters III-XII,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Draft - Chapters XIII-XV,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Intro. and Chapters I-VIII</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Chapters IX-XVII</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Intro. and Chapters I-IX</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Chapters X-XV</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Galley Proof, Introduction</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Galley Proof, Chapters V-VII</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Galley Proof, Chapters VIII-X</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Galley Proof, Chapters XI-XIII</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Galley Proof, Chapters XIV-XV</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Page Proof, Chapters I, V-VIII</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Page Proof, Chapters IX-XII</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Page Proof, Chapters XII-XV</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Black Belt Around the World</title> Miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Blo - C</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>F - J</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">20</container>
+                     <unittitle>L - Lincoln</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Lincoln's Negro Policy</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lincoln's Plan - P</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Race Determinism</subject>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="doublequote" linktype="simple">The Races of Mankind: A Review</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Raci - R</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>S</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Teutonic Unity</title> Draft,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Teutonic Unity</title> Notes and Undated Draft Forward, Chapters I-VII</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Teutonic Unity</title> Undated Draft, Chapters VIII-X, Appendices, Index</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Teutonic Unity</title> Notes and Undated Draft, Chapters I-VI</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Teutonic Unity</title> Undated Draft, Chapters VII-X, Appendices, bibliography, Notes</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Teutonic Unity</title> Undated draft, Chapter X</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Teutonic Unity</title> Galleys?</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Teutonic</title> Unity Notes</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Teutonic</title> Unity Miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Teutonic Unity</title> Printed copy with Notes</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">22</container>
+                     <unittitle>Th - Wha</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">White America</title> Undated Draft</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">White America</title> Chapters I-V</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">White America</title> Chapters VI-X</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">White America</title> Notes </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">White America</title> Miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>White P - W</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">23</container>
+                  <unittitle>Letters to the Editor, <unitdate type="inclusive" era="ce" calendar="gregorian">1938-1963, </unitdate>and <unitdate type="inclusive" era="ce" calendar="gregorian">undated </unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Poetry, C-W and Untitled</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Distribution Lists for Publications </unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Miscellaneous Writings and Notes</unittitle>
+               </did>
+               <c03>
+                  <did><container type="box">23</container>
+                     <unittitle>Miscellaneous Writings and Notes <unitdate type="inclusive" era="ce" calendar="gregorian">1948-1949 </unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous Writings and Notes </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <unittitle>Miscellaneous Writings and Notes </unittitle>
+                     <physdesc>
+                        <extent>(7 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <unittitle>Miscellaneous Writings and Notes </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="spee">Speeches <unitdate normal="1916/1959" type="inclusive" era="ce" calendar="gregorian">ca. 1916-1959</unitdate>
+               </unittitle>
+            </did> <arrangement>
+               <p>Divided into two subseries: Speeches and Miscellaneous Speeches.</p>
+            </arrangement>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Speeches</unittitle>
+               </did><scopecontent>
+                  <p>Includes speeches he made before the <corpname>Eugenics Research Association </corpname>in <date era="ce" calendar="gregorian"> 1936</date> and the paper <title render="doublequote" linktype="simple">Herman's Brother,</title> that was read before the <corpname>Teutoburger Moot, </corpname>
+                     <geogname>Detmold, Germany </geogname>in <date era="ce" calendar="gregorian"> 1959,</date> and other speeches arranged alphabetically by title;</p>
+               </scopecontent>
+               <c03>
+                  <did><container type="box">25</container>
+                     <unittitle>B - F</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="doublequote" linktype="simple">Herman's
+Brother</title>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>R, and Miscellaneous</unittitle>
+               </did><scopecontent>
+                  <p>Includes a few broadsides and other items concerning his speeches about his travels in <geogname>Africa </geogname>which were made <unitdate type="inclusive" era="ce" calendar="gregorian">ca. 1916.</unitdate>
+                  </p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Writings and Speeches of Others</unittitle>
+            </did><arrangement>
+               <p>Divided into two subseries Writings and Speeches and Bibliographies and Digests of Laws.</p>
+            </arrangement>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Writings and Speeches</unittitle>
+               </did>
+               <c03>
+                  <did><container type="box">25</container>
+                     <unittitle>B - V</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Bibliographies and Digest of Laws</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               
+               <unittitle id="prin">Printed Material</unittitle>
+            </did><scopecontent>
+               <p>Divided into three subseries, Printed Materials, Book and Journal Advertisements, and Miscellaneous.</p>
+            </scopecontent>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Printed Materials</unittitle>
+               </did>
+               <c03>
+                  <did><container type="box">26</container>
+                     <unittitle>A - Ale</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Allen, Marilyn R.</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Alliance</subject>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Allstorm, Oliver</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Am - American M</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>American N - American S</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>American W - <corpname>Association F Association of Citizens' Councils </corpname>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Association of L - Au</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">27</container>
+                     <unittitle>B</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>C - Christian N</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Christian Patriots Crusade</subject>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Chu - Cir</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cit - Com</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Con - Dan</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Davis, S.A.</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Day - E</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">28</container>
+                     <unittitle>F - Fl</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Fo - For</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Forl - F</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Garvey, Marcus</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Ge - Ho</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Hu - J</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>K - <title render="italic" linktype="simple">Keeping the Record Straight,</title>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1957, Aug.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Keeping the Record Straight,</title>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1957, Sept. </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1960, May</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Ki - La</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Le - Liberty A</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Liberty Lobby <title render="italic" linktype="simple">- Liberty Letter</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">29</container>
+                     <unittitle>Lit - Man</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Mar - National A</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>National Citizens Protective Association</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>National Co - National U</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Nationalist - Northern E</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Northern League</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Northern World,</title>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957 - 1958, </unitdate>Spring </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">30</container>
+                     <unittitle>O - Pa</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Peace Movement of Ethiopia</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Per - P</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>R - Ric</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Right</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Ro - Se</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Si - Soc</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">South African Observer,</title>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1959 </unitdate>- <unitdate type="inclusive" era="ce" calendar="gregorian">1962 May </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">31</container>
+                     <unittitle>
+                        <title render="italic" linktype="simple">South African Scope - S</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>T</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <geogname>United States. </geogname>
+                        <corpname>Congress</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Universal African Nationalist Movement</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Universal Negro Improvement Association </corpname>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>V - Vik</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <geogname>Virginia </geogname>B - G</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <geogname>Virginia </geogname>H - V</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Vol - Wea</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Western Destiny</title>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1964, June </unitdate>- <unitdate type="inclusive" era="ce" calendar="gregorian">1966, Feb. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <unittitle>Western V - White A</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>White C - White S</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">Williams Intelligence Summary</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Wo - Y</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  
+                  <unittitle>Book and Journal Advertisements </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+<c03><did><container type="box">33</container><unittitle>Advertisements</unittitle></did></c03>
+
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Miscellaneous,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1920 - 1960s </unitdate>and <unitdate type="inclusive" era="ce" calendar="gregorian">undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+               <c03>
+                  <did><container type="box">33</container>
+                     <unittitle>Miscellaneous Leaflets</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>Miscellaneous Leaflets</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               
+               <unittitle id="clip">Clippings</unittitle>
+            </did> <arrangement>
+               <p>Divided into four subseries: Clippings by Cox, Clippings about Cox, Scrapbook, and Clippings General.</p>
+            </arrangement>
+            <scopecontent>
+               <p>Clippings by Cox, Clippings About Cox, and the Scrapbook consist chiefly of articles relating to Cox's travels in <geogname>Africa </geogname>and his interest in the race issue. Also information about <persname>Marcus Garvey, </persname>the <subject>Virginia Racial Integrity Law </subject>of <date era="ce" calendar="gregorian"> 1924,</date> and other miscellaneous articles. Arranged chronologically within each subseries. Clippings General includes articles relating to <geogname>South Africa </geogname>and other countries in <geogname>Africa; </geogname>the <subject>Virginia Racial Integrity Law </subject>of <date era="ce" calendar="gregorian"> 1924;</date>
+                  <subject>repatriation </subject>efforts and leaders, among them <persname>Marcus Garvey, </persname>
+                  <persname>Theodore Bilbo, </persname>
+                  <persname>Benjamin Gibbons, </persname>and <subject>school integration </subject>efforts in the <geogname>United States. </geogname> Arranged chronologically.</p>
+            </scopecontent>
+            <c02>
+               <did><container type="box">35</container>
+                  <unittitle>Clippings By <persname>Earnest Sevier Cox, </persname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1912-1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>About <persname>Earnest Sevier Cox, </persname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1913-1966 </unitdate>and <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Scrapbook,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1913</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">36</container>
+                  <unittitle>General, <unitdate type="inclusive" era="ce" calendar="gregorian">1905-1956 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(9 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">37</container>
+                  <unittitle>General, <unitdate type="inclusive" era="ce" calendar="gregorian">1957-1967 </unitdate>and <unitdate type="inclusive" era="ce" calendar="gregorian">undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(7 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+
+ <c01 level="series">
+            <did>
+               
+               <unittitle id="pers">Personal</unittitle>
+            </did><arrangement>
+               <p>Divided into three subseries, Realty Business, Military Papers, and Miscellaneous Papers.</p>
+            </arrangement>
+            <c02>
+               <did><container type="box">38</container>
+                  <unittitle>Realty Business <unitdate type="inclusive" era="ce" calendar="gregorian">1924-1964 </unitdate>and <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Military Papers: <unitdate type="inclusive" era="ce" calendar="gregorian">1917-1959 </unitdate>and <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="italic" linktype="simple">History of the Bordeaux Embarkation Camp</title>
+                        <title render="italic" linktype="simple">Report on the System of Evacuation of Troops to the United States Employed at Base Section No.2 Bordeaux France</title>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous</unittitle>
+               </did>
+            </c02>
+         </c01>
+
+ <c01 level="series">
+            <did>
+               
+               <unittitle id="phot">Photographs</unittitle>
+            </did> <scopecontent>
+               <p>Includes photographs of Africa, some published in <title render="italic" linktype="simple">Black Belt Around the World;</title> some from the <subject>World War I </subject>period, a few printed with captions; several of Cox; and others of his relatives and friends, including <persname>Mrs. Mittie M. L. Gordon </persname>and other officers in the <corpname>Peace Movement of Ethiopia </corpname>organization.</p>
+            </scopecontent>
+            <c02>
+               <did><container type="box">39</container>
+                  <unittitle>
+                     <geogname>Africa</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>World War I </subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Cox, Earnest Sevier </persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="edit">
+                  <persname>Edith Wood Nelson </persname>Papers</unittitle>
+            </did> <scopecontent>
+               <p>Chiefly correspondence relating to Cox's work <title render="italic" linktype="simple">Lincoln's Negro Policy,</title> which was published posthumously in <date era="ce" calendar="gregorian"> 1972,</date> and other writings. Includes lists of people and institutions to whom <persname>Mrs. Nelson </persname>sent copies of Cox's works, most dating from the period after Cox's death. Also some correspondence from <persname>C. M. Tribble, </persname>the other co-executor of the Cox estate.</p>
+            </scopecontent>
+            <c02>
+               <did><container type="box">39</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1962 - 1973 </unitdate>and <unitdate type="inclusive" era="ce" calendar="gregorian"> undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+
+<c01 level="series">
+            <did>
+               
+               <unittitle id="over">Oversize Materials</unittitle>
+               <physdesc>
+                  <extent>(2 folders)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Indentures, printed material, military papers, broadsides, photographs</p>
+            </scopecontent>
+<c02><did><container type="opaperfolder" label="Oversize Cabinet">1</container><unittitle>Oversize materials</unittitle></did></c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

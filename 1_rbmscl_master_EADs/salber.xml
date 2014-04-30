@@ -1,0 +1,3638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Eva J. Salber Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/salber/">salber</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Eva J. Salber Papers, <date normal="1937/1990" type="inclusive" era="ce" calendar="gregorian">1937-1990</date></titleproper>
+        <author>Processed by: Janie Morris, Assisted by: Denise Dolan; machine-readable finding aid created by: Stephen Douglas Miller</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <p><date era="ce" calendar="gregorian"> 1992</date>
+ Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">001098944</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from Microsoft Word for MS-DOS files.
+
+<lb/>Processed by: Janie Morris, Assisted by: Denise Dolan
+ August 7, 1992; Finding Aid encoded by Stephen Douglas Miller, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.
+<date calendar="gregorian" era="ce">February 4, 1997</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::The Eva J. Salber Papers)//EN" "salber.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce">June 29, 1998</date>
+        <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the Eva J. Salber Papers, <date calendar="gregorian" era="ce">1937-1990</date></titleproper>
+      <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham, North Carolina</publisher>
+
+      <p> 1992 Duke University. All rights reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Eva J. Salber papers <unitdate calendar="gregorian" era="ce" normal="1937/1990" type="inclusive">1937-1990</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Salber, Eva J., 1916-1990</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>17.1 Linear Feet</extent>
+	  <extent>circa 12,930 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+      </repository>
+      <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Portions of this collection are restricted. </p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in the Eva J. Salber papers have not been transferred to Duke University. For further information, see the section on copyright in the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The papers of Eva J. Salber (1937-1990) were donated to the David M. Rubenstein Rare Book &amp; Manuscript Library from 1989-1991 by Eva J. Salber and Harry T. Phillips.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by: Janie Morris, Assisted by: Denise Dolan</p>
+        <p>Completed August 7, 1992</p>
+	  <p>Encoded by Stephen Douglas Miller</p>
+        <p>This finding aid is NCEAD compliant.</p>
+
+      </processinfo>
+    </descgrp>
+    <bioghist>
+      <head>Biographical Note</head>
+      <chronlist>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1916, Jan. 5</date>
+          <event>Born, Capetown, South Africa</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1938</date>
+          <event>M.B., Ch.B., University of Capetown</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1939, Nov. 1</date>
+          <event>Married Harry T. Phillips</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1956</date>
+          <event>Moved to United States (naturalized in 1961)</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1957-1958</date>
+          <eventgrp>
+            <event>Milton Research Associate in Maternal and Child Health, Harvard School of Public Health, Boston, Mass.;</event>
+            <event>Fellow in Medicine, Children's Hospital Medical Center, Boston, Mass.</event>
+          </eventgrp>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1958-1967</date>
+          <event>Assistant Physician in Medicine, Children's Hospital Medical Center, Boston, Mass.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1961-1967</date>
+          <event>Senior Research Associate in Epidemiology, Harvarpd School of Public Health</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1966-1967</date>
+          <event>Scholar, Radcliffe Institute for Independent Study</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1967-1969</date>
+          <event>Director, Martha M. Eliot Family Health Center, Boston, Mass. Associate in Medicine, Children's Hospital Medical Center, Boston, Mass.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1967-1970</date>
+          <event>Lecturer in Pediatrics, Harvard Center for Community Health and Medical Care, Boston, Mass.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1969-1970</date>
+          <event>Senior Research Associate, Harvard Center for Community Health and Medical Care</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1971-1973</date>
+          <event>Fellow, Royal Society of Health</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1972</date>
+          <event>Lecturer, School of Public Health, University of North Carolina Director, Community Health Models, Duke University Medical Center</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1972-1982</date>
+          <event>Professor, Department of Community Health Sciences, Duke University Medical Center</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1975</date>
+          <event>Research Associate, Health Services Research Center, University of North Carolina</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1980</date>
+          <event>Senior International Fellow, Fogarty International Center, National Institute of Health</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1982-</date>
+          <event>Professor Emeritus, Duke University</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1990, Nov. 11</date>
+          <event>Died</event>
+        </chronitem>
+      </chronlist>
+      <p>Published books include: <title linktype="simple" render="italic">Caring and Curing: Community Participation in Health Services</title><date calendar="gregorian" era="ce">
+(1975);</date><title linktype="simple" render="italic">Community Health Education: The Lay Advisor Approach</title><date calendar="gregorian" era="ce">(1977);</date><title linktype="simple" render="italic">Services to the Elderly in England</title> (1980); <title linktype="simple" render="italic">Don't Send Me Flowers When I'm Dead: Voices of Rural Elderly</title><date calendar="gregorian" era="ce">(1983)</date> and <title linktype="simple" render="italic">The Mind is Not the Heart: Recollections of a Woman Physician</title><date calendar="gregorian" era="ce">(1989).</date> Salber conducted research in the areas of epidemiology (especially smoking in schoolchildren and breast cancer) and the utilization of medical care services.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The Salber Papers span the years 1937 to 1990, with the bulk of the papers dating from 1967 to 1990. The collection contains correspondence; financial papers; writings and speeches; clippings; photographs, many by Dominic D'Eustachio; reports; minutes; scrapbooks; training manuals; student papers; printed material; and lecture notes chiefly relating to Salber's publications, teaching career, and work as a community health physician. Publications highlighted include <bibref linktype="simple"><title linktype="simple" render="italic">Caring and Curing</title><imprint>(New York, N.Y., <date calendar="gregorian" era="ce">
+1975)</date></imprint></bibref>; <bibref linktype="simple"><title linktype="simple" render="italic">Don't Send Me Flowers When I'm Dead</title><imprint>
+(Durham, N.C., <date calendar="gregorian" era="ce">1983)</date></imprint></bibref>, containing interviews with the rural elderly in Durham County, N.C.; and <bibref linktype="simple"><title linktype="simple" render="italic">The Mind is Not the Heart</title><imprint>(Durham, N.C., <date calendar="gregorian" era="ce">
+1989)</date></imprint>. Her work in the community health field is documented primarily in her writings, the papers about the Martha M. Eliot Family Health Center, and the Health Facilitator Program, which was administered through the Duke University Medical Center Department of Community and Family Medicine. Outgrowths of the Health Facilitator Program are featured in the information about the Health and Human Services Program of the General Baptist State Convention of North Carolina. Other topics include smoking research among young people, teacher and student relationships, and the financing of community health service projects. The collection contains few personal papers and little information about Salber prior to 1967. Explanatory notes by Salber scattered throughout the collection offer insights rarely available in manuscript collections.</bibref></p>
+      <p>Salber's work as a community health physician is reflected primarily in the <ref linktype="simple" target="writ">
+Writings and Speeches Series</ref>, <ref linktype="simple" target="mart">Martha M. Eliot Family Health Center Series</ref>, and <ref linktype="simple" target="duke">
+Duke University Medical Center Series</ref>. The Health Facilitator Program represented in the <ref linktype="simple" target="duke">
+Duke University Medical Center Series</ref> is well described. One of its unique features was to identify lay persons within a community to aid health professionals in their work. Serving as a paradigm for other programs, there is data about some of them in the <ref linktype="simple" target="heal">
+Health Facilitator Program Outgrowths Series</ref>.</p>
+      <p>The collection contains extensive information about Salber's work <title linktype="simple" render="italic">
+Don't Send Me Flowers When I'm Dead,</title> including interviews on audiocassettes, typed transcripts of many interviews, photographs of some of the persons interviewed, as well as correspondence and reviews pertaining to the book's publication. Information regarding this publication as well as others are found in the <ref linktype="simple" target="writ">
+Writings and Speeches Series</ref>. Information relating to Salber's teaching is found chiefly in the <ref linktype="simple" target="teac">
+Teaching Files Series</ref> and the <ref linktype="simple" target="stud">Student Files Series</ref>. Papers concerning smoking research are found in the <ref linktype="simple" target="proj">
+Project Files Series</ref>, while those respecting the financing of community health service projects are found in the <ref linktype="simple" target="fina">
+Financial Papers: Funding Series</ref>.</p>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <item>
+          <persname>Salber, Eva J.</persname>
+        </item>
+        <item>
+          <persname>D'Eustachio, Dominic</persname>
+        </item>
+        <item>
+          <corpname>Baptist State Convention of North Carolina. Health and Human Services Program</corpname>
+        </item>
+        <item>
+          <corpname>Martha M. Eliot Family Health Center (Boston, Mass.).</corpname>
+        </item>
+       
+        <item>
+          <corpname>Duke University. Dept. of Community and Family Medicine. Health Facilitator Program</corpname>
+        </item>
+        <item>
+          <subject>Community health services</subject>
+        </item>
+        <item>
+          <subject>Aged -- North Carolina -- Durham County -- Interviews</subject>
+        </item>
+        <item>
+          <subject>Durham County (N.C.)--Rural conditions</subject>
+        </item>
+        <item>
+          <subject>Women physicians -- United States</subject>
+        </item>
+        <item>
+          <subject>Smoking -- In adolescence</subject>
+        </item>
+        <item>
+          <subject>Teacher-student relationships</subject>
+        </item>
+        <item>
+          <subject>Community health services -- Finance</subject>
+        </item>
+        <item>
+          <subject>Aged -- North Carolina -- Durham County -- Photographs</subject>
+        </item>
+        <item>
+          <subject>Poor -- Medical care -- Massachusetts -- Boston</subject>
+        </item>
+        <item>
+          <genreform>Photographs</genreform>
+        </item>
+        <item>
+          <subject>Rural population -- North Carolina -- Personal narratives</subject>
+        </item>
+      </list>
+    </controlaccess>
+    
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle id="corr">Correspondence, <unitdate calendar="gregorian" era="ce" normal="1937/1990" type="inclusive">1937-1990,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(bulk <unitdate calendar="gregorian" era="ce" normal="1970/1990" type="bulk">1970-1990).</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Letters, chiefly typed, both personal and professional, a few cards and printed items. Includes copies of <persname>
+Salber</persname>'s outgoing correspondence. Explanatory notes added later by <persname>
+Salber </persname>are attached to some letters. </p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged chronologically.</p>
+        </arrangement>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1957/1990" type="inclusive">1957-1990,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="fina">Financial Papers: Funding, <unitdate calendar="gregorian" era="ce" normal="1972/1990" type="inclusive">1972-1990,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Correspondence, copies of funding proposals and application forms, summaries of research, reports to funding agencies, and financial information in the form of statements, budgets and receipts. A small amount of printed material. Explanatory notes added later by <persname>
+Salber </persname>are attached to some items. </p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged alphabetically by name of organization in General subseries. Arranged alphabetically by name of project in the Proposals subseries.</p>
+        </arrangement>
+        <c02 level="subseries">
+          <did>
+            <unittitle>General</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Administration on Aging, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1978/1980" type="inclusive">1978-1980</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Biddle Foundation; </corpname>
+                <corpname>Trent Foundation, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1985/1990" type="inclusive">1985-1990</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Clark Foundation,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">2</container>
+              <unittitle>
+                <corpname>Clark Foundation, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1976/1978" type="inclusive">1976-1978</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Department of Health, Education and Welfare,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Robert W. Johnson Foundation, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1972/1977" type="inclusive">1972-1977</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Lyndhurst Foundation, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1979/1990" type="inclusive">1979-1990</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Mott Foundation, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1976/1982" type="inclusive">1976-1982</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Z. Smith Reynolds Foundation, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1981/1988" type="inclusive">1981-1988</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Possible sources, <unitdate calendar="gregorian" era="ce" normal="1977/1982" type="inclusive">1977-1982</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Proposals</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">3</container>
+              <unittitle>Alternatives to Institutionalization of Elderly, <unitdate calendar="gregorian" era="ce" normal="1978/1979" type="inclusive">1978-1979</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Course: The Community as a Laboratory for Medical Students, <unitdate calendar="gregorian" era="ce" normal="1977/1990" type="inclusive">1977-1990</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Health Facilitator Program, </subject>
+                <unitdate calendar="gregorian" era="ce" normal="1974/1979" type="inclusive">1974-1979</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Lay Advisor Approach, </subject>
+                <unitdate calendar="gregorian" era="ce" normal="1978/1979" type="inclusive">1978-1979</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Research on Rural Elderly, </subject>
+                <unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978-1978</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <subject>Research Project in Primary Care, </subject>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="writ">Writings and Speeches, <unitdate calendar="gregorian" era="ce" normal="1951/1990" type="inclusive">1951-1990,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Chiefly material relating to <title linktype="simple" render="italic">Don't Send Me Flowers When I'm Dead,</title><title linktype="simple" render="italic">
+Caring and Curing,</title> and <title linktype="simple" render="italic">The Mind is Not the Heart,</title> including typed manuscript drafts, black and white photographs, interviews recorded on audiocassette, typed transcripts of interviews; and to a lesser extent, copies of published volumes, interview summaries written by Salber, correspondence, handwritten notes, agreements signed by interviewees, film negatives, contact sheets, slides, a videocassette, charts, and clippings. Magnetic data cards are filed with some interviews. Other sections of the series include copies of published and unpublished articles written or co-written by Salber, texts of speeches given by Salber, drafts of papers, lecture notes, a bound copy of Salber's M.D. thesis, reports, photocopied articles, and transcripts of interviews with Salber. Explanatory notes added later by Salber can be found throughout the series.</p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged chronologically, then alphabetically by title or subject. For <title linktype="simple" render="italic">
+Don't Send Me Flowers When I'm Dead,</title> files containing interview transcripts, audiocassettes of interviews, and photographs used to illustrate the book (some of which are mounted), are arranged alphabetically within each of these categories according to the names of individuals interviewed. A cross-reference list for audiocassettes containing interviews with more than one person is located in the container list. Oversize photographs are housed in flat boxes with the collection. </p>
+        </arrangement>
+        <accessrestrict>
+          <p>Material relating to <title linktype="simple" render="italic"> Caring and Curing</title> and <title linktype="simple" render="italic">
+Don't Send Me Flowers When I'm Dead</title> is restricted.</p>
+        </accessrestrict>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1951/1973" type="inclusive">1951-1973</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(5 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1974/1986" type="inclusive">1974-1986</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(6 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">5</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1987/1990" type="inclusive">1987-1990,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Access is not Enough,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Caring and Curing</title>:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence, <unitdate calendar="gregorian" era="ce" normal="1970/1984" type="inclusive">1970-1984</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Draft of book, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">6</container>
+            <unittitle><title linktype="simple" render="italic">Caring and Curing</title>:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Volume,<unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Twenty One Stories Plus One</title> (volume), <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(original title of <title linktype="simple" render="italic">Caring and Curing)</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Interviews, <unitdate calendar="gregorian" era="ce" normal="1969/1989" type="inclusive">1969-1989,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">7</container>
+            <unittitle><title linktype="simple" render="italic">Caring and Curing</title>:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Interviews, <unitdate calendar="gregorian" era="ce" normal="1969/1989" type="inclusive">1969-1989,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(5 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1970/1987" type="inclusive">1970-1987,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">The Community as Patient--Who Gets Care?</title>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Community Perspectives on Health Needs in Developing Countries</title> (lecture), <unitdate calendar="gregorian" era="ce" normal="1983/1984" type="inclusive">1983-1984</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Community Support: Hospital Community Liaison,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">8</container>
+            <unittitle><title linktype="simple" render="italic">Don't Send Me Flowers When I'm Dead</title>:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence,<unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Draft, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Evaluations based on 10 interviews and early version of work,<unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Interview summaries, <unitdate calendar="gregorian" era="ce" normal="1975/1976" type="inclusive">1975-1976</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Interviewees; Miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1978/1987" type="inclusive">1978-1987,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Interviewees:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Ball, Annie, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1981" type="inclusive">1975-1981,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Ball, Polly, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976/1981" type="inclusive">1976-1981,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">9</container>
+                <unittitle>
+                  <persname>Blalock, Lizzie, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1980" type="inclusive">1975-1980</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Blalock, Sallie M., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976/1980" type="inclusive">1976-1980</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Briggs, Nannie Mae, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976/1980" type="inclusive">1976-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Bullock, Jonah, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976/1980" type="inclusive">1976-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Chambers, Walter H., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976/1979" type="inclusive">1976-1979,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Chambers, Wilcie, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976/1980" type="inclusive">1976-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Clayton, Ethel M., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1981" type="inclusive">1975-1981,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Clayton, Vera Elma B., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1976" type="inclusive">1975-1976,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Crabtree, Ernest, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976/1980" type="inclusive">1976-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Daniel, Mabel, </persname>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Ellis, Vesta,</persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Farlow, Ora,</persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Garrett, James Maynard, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976/1980" type="inclusive">1976-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">10</container>
+                <unittitle>
+                  <persname>Harris, Betty Lee, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1981" type="inclusive">1975-1981,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Harris, Myrtle, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1980" type="inclusive">1975-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Hill, Betty, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1981" type="inclusive">1975-1981,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Ivy, Eva, </persname>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Jeffries, Lattie G., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1981" type="inclusive">1975-1981,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Jordan, Hattie Riley, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976/1981" type="inclusive">1976-1981,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Lipscomb, Earlie Nathan, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976/1979" type="inclusive">1976-1979,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Littrell, Julie, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1980" type="inclusive">1975-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Lunsford, Elsie Rogers, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1980" type="inclusive">1975-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Lyons, Maynard, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1977" type="inclusive">1975-1977,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>McBride, Julie, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1980" type="inclusive">1975-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>McCrea, Viola, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976/1980" type="inclusive">1976-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">11</container>
+                <unittitle><persname>Mangum, Ella Lyon</persname>s, <unitdate calendar="gregorian" era="ce" normal="1975/1981" type="inclusive">1975-1981,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Moore, Quinettie, </persname>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Morris, Lizzie,</persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Mpazakis, Minnie, </persname>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Parrish, Hattie Bell,</persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Peaks, William S.,</persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Rigsbee, Otis H., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1980" type="inclusive">1975-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Riley, Howard L., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1979" type="inclusive">1975-1979,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Roberts, Nannie, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1980" type="inclusive">1975-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Satterfield, Hattie,</persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Taylor, Mary Maggie, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1980" type="inclusive">1975-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">12</container>
+                <unittitle>
+                  <persname>Terry, Lillian,</persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Tilley, John L., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1982" type="inclusive">1975-1982,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Tilley, Joyce, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1981" type="inclusive">1975-1981,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Tilley, Rutha Cordelia,</persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Turrentine, Mattie C.,</persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Umstead, Emma Harris, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1982" type="inclusive">1975-1982,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Umstead, Sarah Vertee, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976/1980" type="inclusive">1976-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Veasley, Nellie,</persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Wade, Allice Ramsey, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1980" type="inclusive">1975-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Wilkins, Hattie, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976/1980" type="inclusive">1976-1980,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Williams, Bessie, </persname>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Williams, Elizabeth Hall, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1981" type="inclusive">1975-1981,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Wilson, Lola, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975/1982" type="inclusive">1975-1982</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Yancey, Leana,</persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">13</container>
+              <unittitle>Audiocassettes: Interviewees:</unittitle>
+            </did>
+            <scopecontent>
+              <p><emph render="italic">Don't Send Me Flowers When I'm Dead:</emph> Audiocassettes: Interviewees: Cross Reference List</p>
+              <p>The following is a cross reference list of audiocassettes that contain interviews with more than one person. For example to listen to the interview with Aiken, retrieve the audiocassette listed under Garrett. To be sure all audiocassettes relating to a particular person have been retrieved, look at both lists.</p>
+              <p>Restricted</p>
+              <list type="simple">
+                <item><persname>Aiken </persname> see <persname>Garrett</persname></item>
+                <item><persname>Aiken, L. </persname> see <persname>Riley</persname></item>
+                <item><persname>Ball </persname>see <persname>Chambers</persname></item>
+                <item><persname>Ball, Polly </persname> see <persname>Mangum, Ella</persname></item>
+                <item><persname>Ball, Polly </persname>see <persname>Tilley, Joyce</persname></item>
+                <item><persname>Blalock, Sallie </persname>see <persname>Riley</persname></item>
+                <item><persname>Blalock </persname> see <persname>Wilson</persname></item>
+                <item><persname>Blalock </persname>see <persname>Garrett</persname></item>
+                <item><persname>Dr. Brieger </persname> see <persname>Tilley</persname></item>
+                <item><persname>Briggs, Nanny </persname> see <persname>Chambers, Walter</persname></item>
+                <item><persname>Bullock (married) </persname> see <persname>Riley</persname></item>
+                <item><persname>Bullock, Jonah </persname> see <persname>Satterfield, Hattie</persname></item>
+                <item><persname>Chambers, Walter </persname> see <persname>McBride, Julie</persname></item>
+                <item><persname>Chambers (married) </persname> see <persname>Riley</persname></item>
+                <item><persname>Clayton, Ethel </persname> see <persname>Harris, Betty Lee</persname></item>
+                <item><persname>Clayton </persname> see <persname>Wilson</persname></item>
+                <item><persname>Clayton </persname> see <persname>Riley</persname></item>
+                <item><persname>Crabtree </persname> see <persname>Riley</persname></item>
+                <item><persname>Crabtree </persname>see <persname>McBride, Julie</persname></item>
+                <item><persname>Daniel </persname> see <persname>Yancey</persname></item>
+                <item><persname>Garrett, James </persname> see <persname>Satterfield, Hattie</persname></item>
+                <item><persname>Harris, Myrtle </persname> see <persname>Tilley, Joyce</persname></item>
+                <item><persname>Harris, Myrtle </persname> see <persname>Mangum, Ella</persname></item>
+                <item><persname>Heron, Becky </persname>and <persname>Duncan </persname> see <persname>
+Jeffries, Lattie G. </persname></item>
+                <item><persname>Hill, Betty </persname> see <persname>Satterfield, Hattie</persname></item>
+                <item><persname>Hill </persname> see <persname>Chambers</persname></item>
+                <item><persname>Hill </persname> see <persname>Harris, Betty Lee</persname></item>
+                <item><persname>Ing </persname> see <persname>Yancey</persname></item>
+                <item><persname>Ivy </persname> see <persname>Williams</persname></item>
+                <item><persname>Jeffries, Lattie </persname>see <persname>Mangum, Ella</persname></item>
+                <item><persname>Jeffries, M. </persname> see <persname>Tilley, Joyce</persname></item>
+                <item><persname>Jeffries </persname> see <persname>Garrett</persname></item>
+                <item><persname>Jordan, Hattie </persname> see <persname>Satterfield, Hattie</persname></item>
+                <item><persname>Jordan </persname> see <persname>Harris, Betty Lee</persname></item>
+                <item><persname>Lipscomb, Earlie </persname> see <persname>Terry, Lillian</persname></item>
+                <item><persname>Littrell, Julie </persname> see <persname>Terry, Lillian</persname></item>
+                <item><persname>Littrell </persname> see <persname>Riley</persname></item>
+                <item><persname>Lunsford </persname> see <persname>Garrett</persname></item>
+                <item><persname>Lunsford </persname> see <persname>Wilson</persname></item>
+                <item><persname>Lyons, Maynard </persname> see <persname>McBride, Julie</persname></item>
+                <item><persname>Lyons </persname> see <persname>Riley</persname></item>
+                <item><persname>Mangum, Wade </persname> see <persname>Riley</persname></item>
+                <item><persname>Mangum </persname> see <persname>Harris, Betty Lee</persname></item>
+                <item><persname>McBride, Julie </persname> see <persname>Chambers, Wilcie</persname></item>
+                <item><persname>McBride </persname> see <persname>Chambers</persname></item>
+                <item><persname>McCrea, Viola </persname>see <persname>Ball, Annie</persname></item>
+                <item><persname>McCrea </persname> see <persname>Garrett</persname></item>
+                <item><persname>Morris </persname> see <persname>Briggs, Nannie</persname></item>
+                <item><persname>Mpazakis </persname> see <persname>Williams</persname></item>
+                <item><persname>Parrish, Hattie Bell </persname> see <persname>Satterfield, Hattie</persname></item>
+                <item><persname>Rigsbee, Otis </persname> see <persname>Chambers, Walter</persname></item>
+                <item><persname>Rigsbee </persname> see <persname>Ellis, Vesta</persname></item>
+                <item><persname>Roberts, Nanny </persname> see <persname>Ball, Annie</persname></item>
+                <item><persname>Roberts </persname> see <persname>Tilley</persname></item>
+                <item><persname>Satterfield </persname>see <persname>Chambers</persname></item>
+                <item><persname>Taylor, Mary </persname> see <persname>Terry, Lillian</persname></item>
+                <item><persname>Taylor, Mary M. </persname> see <persname>Riley</persname></item>
+                <item><persname>Thacker-Cancer </persname> see <persname>Riley </persname>and <corpname>
+UNC </corpname>students</item>
+                <item><persname>Tilley, John </persname> see <persname>McBride, Julie</persname></item>
+                <item><persname>Tilley, Joyce </persname> see <persname>Ball, Annie</persname></item>
+                <item><persname>Turrentine, Mattie </persname> see <persname>McBride, Julie</persname></item>
+                <item><persname>Umstead, Emma </persname> see <persname>Chambers, Wilcie</persname></item>
+                <item><persname>Umstead, Vertie </persname>(Epilogue) see <persname>Tilley</persname></item>
+                <item><persname>Wilkins </persname> see <persname>Chambers</persname></item>
+                <item><persname>Williams </persname> see <persname>Chambers </persname>and <persname>
+Wilson</persname></item>
+                <item><persname>Wilson </persname> see <persname>Garrett</persname></item>
+              </list>
+            </scopecontent>
+            <note>
+              <p>Audiocassettes: Interviewees: (The number 2 after several names indicates there are 2 audiocassettes containing that person's interview.)</p>
+            </note>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Aiken, Luetta</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Ball, Annie </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Ball, Polly</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Blalock, Lizzie</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Blalock, Sallie</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Briggs, Nannie </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Bullock, Jonah</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Chambers, Walter </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Chambers, Wilcie </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Chambers </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Clayton, Ethel</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Clayton, Vera Elma</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Crabtree, Ernest</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Ellis, Vesta</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Farlow, Ora,</persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Garrett, James M.</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Garrett</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Harris, Betty Lee </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Harris, Myrtle</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Hill, Betty</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Jeffries, Lattie G. </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Jeffries</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Jordan, Hattie R.</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">14</container>
+                <unittitle><persname>Lipscomb, Earlie </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Littrell, Julie</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Lunsford, Elsie R.</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Lyons, Maynard</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>McBride, Julie </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>McCrea, Viola</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Mangum, Ella </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Moore, Quinettie </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Morris, Lizzie</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Parrish, Hattie Bell</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Peaks, William S.</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Rigsbee, Otis H. </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Riley, Howard L. </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Riley </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Riley </persname>and <corpname>UNC </corpname>students</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Roberts, Nanny</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Satterfield, Hattie </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Taylor, Mary Maggie </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Terry, Lillian </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Tilley, John L.</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">15</container>
+                <unittitle><persname>Tilley, Joyce </persname>(2)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Tilley, Rutha Cordelia (Mrs. D. B.)</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Tilley</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Turrentine, Mattie C.</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Umstead, Emma</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Umstead, Sarah Vertee</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Veasley</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Wade, Allice Ramsey</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Wilkins, Hattie</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Williams, Elizabeth Hall</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Williams</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Wilson, Lola</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Wilson</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Yancey</persname>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">16</container>
+            <unittitle><title linktype="simple" render="italic">Don't Send Me Flowers When I'm Dead</title>:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Negatives,<unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Oral History Day, <corpname>Duke University, </corpname><unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984, June 9</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photo essay,<unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">1985</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Pictures:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Churches, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Grandmother Caring for Children, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Interviewees: </unittitle>
+                <physdesc>
+                  <extent>(3 folders)</extent>
+                </physdesc>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Ball, Annie</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Ball, Polly</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Blalock, Lizzie</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Blalock, Sally</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Briggs, Nannie Mae</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Bullock, Jonah</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Chambers, Walter H.</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Chambers, Wilcie</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Crabtree, Ernest</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Daniel, Mabel</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Ellis, Vesta</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Garrett, James Maynard</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Harris, Betty Lee</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Jeffries, Lattie</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Jordan, Hattie Riley</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Lipscomb, Earlie Nathan</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Lyons, Maynard</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Mangum, Ella Lyons</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>McCrae, Viola</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Rigsbee, Otis</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <container type="box">17</container>
+                  <unittitle>
+                    <persname>Riley, Howard</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Satterfield, Hattie</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Taylor, Mary Maggie</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Tilley, John</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Tilley, Joyce</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Umstead, Emma H.</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Umstead, Vertee</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Wilkins, Hattie</persname>
+                  </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Woods, Sally</persname>
+                  </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Stores in Area, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1979/1981" type="inclusive">1979-1981,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Reviews,<unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Reviews and correspondence, <unitdate calendar="gregorian" era="ce" normal="1981/1987" type="inclusive">1981-1987,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Slides,<unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Videocassette:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>1988</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Preparation, <unitdate calendar="gregorian" era="ce" normal="1985/1990" type="inclusive">1985-1990</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">17a</container>
+            <unittitle><title linktype="simple" render="italic">Don't Send Me Flowers When I'm Dead</title>: Oversize Photographs</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Pictures:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="doublequote">Beauty Hiding Poverty,</title>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Churches,<unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Coffee shop,<unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Interviewees:</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Blalock, Sally, </persname>
+                    <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Briggs, Nannie Mae, </persname>
+                    <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Clayton, Ethel, </persname>
+                    <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Clayton, Mrs. J., </persname>
+                    <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Ellis, Vesta, </persname>
+                    <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Lipscomb, Earlie, </persname>
+                    <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Mangum, Ella Lyons, </persname>
+                    <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Satterfield, Hattie, </persname>
+                    <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Taylor, Mary Maggie,</persname>
+                    <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <persname>Wade, Alice Ramsey,</persname>
+                    <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Unidentified man, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">18</container>
+            <unittitle><title linktype="simple" render="italic">Don't Send Me Flowers When I'm Dead</title>:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1973/1983" type="inclusive">1973-1983, Apr.,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Facts about Smoking and Health,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1964/1977" type="inclusive">1964-1977</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Health Status and Health Care Under Apartheid Rule in South Africa</title> (Lecture):</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Background material, <unitdate calendar="gregorian" era="ce" normal="1957/1984" type="inclusive">1957-1984,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Clippings, <unitdate calendar="gregorian" era="ce" normal="1985/1987" type="inclusive">1985-1987,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Mind is not the Heart</title>:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence, <unitdate calendar="gregorian" era="ce" normal="1985/1990" type="inclusive">1985-1990,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">19</container>
+              <unittitle>Correspondence: Publication rejections, <unitdate calendar="gregorian" era="ce" normal="1987/1988" type="inclusive">1987-1988</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Duke University Press, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1987/1989" type="inclusive">1987-1989,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Pictures:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <geogname>Boston, </geogname>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Epilogue, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <geogname>North Carolina, </geogname>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <geogname>South Africa,</geogname>
+                  <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Reviews, <unitdate calendar="gregorian" era="ce" normal="1989/1990" type="inclusive">1989-1990</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous,<unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Studies in South African Infant Growth , M.D. thesis,<unitdate calendar="gregorian" era="ce" normal="1955" type="inclusive">1955</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(1 vol.)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Where were you in World War II?</title> (Lecture),<unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">20</container>
+            <unittitle>Miscellaneous:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Book reviews, <unitdate calendar="gregorian" era="ce" normal="1977/1990" type="inclusive">1977-1990</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Creative Writing Class, <corpname>Harvard, </corpname><unitdate calendar="gregorian" era="ce" normal="1967/1969" type="inclusive">1967-1969</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Duke University Campus Club </corpname>Lecture Series,<unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Health facilitators, <unitdate calendar="gregorian" era="ce" normal="1970/1981" type="inclusive">1970-1981</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Primary care and consumer participation, <unitdate calendar="gregorian" era="ce" normal="1973/1978" type="inclusive">1973-1978</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1981/1983" type="inclusive">1981-1983,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Others:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Offenberger, Claude: </persname>
+                <title linktype="simple" render="doublequote">
+Educational Implications in the Governance of a Health Center,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1969/1989" type="inclusive">1969-1989</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Poverty and racism, <unitdate calendar="gregorian" era="ce" normal="1968/1970" type="inclusive">1968-1970</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="mart">Martha M. Eliot Family Health Center, <unitdate calendar="gregorian" era="ce" normal="1967/1990" type="inclusive">1967-1990,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Correspondence, clippings, photographs and organizational records in the form of reports, meeting minutes, newsletters, agendas, charts, and a scrapbook. Explanatory notes added later by Salber. </p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged chronologically and then alphabetically.</p>
+        </arrangement>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1976/1986" type="inclusive">1976-1986,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Advisory Committee to the Director, <unitdate calendar="gregorian" era="ce" normal="1967/1968" type="inclusive">1967-1968</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">21</container>
+            <unittitle>Clippings, <unitdate calendar="gregorian" era="ce" normal="1970/1972" type="inclusive">1970-1972</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Dedication Day:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>1968</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Pictures,<unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Grants, <unitdate calendar="gregorian" era="ce" normal="1968/1970" type="inclusive">1968-1970</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Health Advisory Committee, <unitdate calendar="gregorian" era="ce" normal="1967/1969" type="inclusive">1967-1969</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>History,<unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Letters of farewell, poetry, and miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1967/1970" type="inclusive">1967-1970</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Medical teams,<unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Nursing program, <unitdate calendar="gregorian" era="ce" normal="1968/1989" type="inclusive">1968-1989,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">22</container>
+            <unittitle>Policy meetings, <unitdate calendar="gregorian" era="ce" normal="1967/1989" type="inclusive">1967-1989,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Reports, <unitdate calendar="gregorian" era="ce" normal="1968/1971" type="inclusive">1968-1971</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Social Service Department, <unitdate calendar="gregorian" era="ce" normal="1967/1970" type="inclusive">1967-1970</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">23</container>
+            <unittitle>Staff meetings, <unitdate calendar="gregorian" era="ce" normal="1967/1970" type="inclusive">1967-1970</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Training Course I and II, <unitdate calendar="gregorian" era="ce" normal="1967/1969" type="inclusive">1967-1969</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1968/1989" type="inclusive">1968-1989,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Salber's notes on pertinent meetings,<unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="duke">Duke University Medical Center, <unitdate calendar="gregorian" era="ce" normal="1965/1990" type="inclusive">1965-1990,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>A variety of material relating primarily to the <corpname>Community Health Models Unit </corpname>and the Health Facilitators Project. Included are survey forms, charts and graphs, texts of lectures, budgets, project outlines, field reports, a few writings by Salber, and other materials. Also includes correspondence, typed transcripts of interviews, charts and graphs, snapshots, questionnaire forms, training manuals, newsletters, announcements, clippings, notes, reports, and meeting minutes. Explanatory notes added later by Salber can be found throughout. </p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged chronologically, then alphabetically by type of material within two subseries, Community Health Education Program and <corpname>
+Department of Community and Family Medicine. </corpname> Dates may overlap where folders created by Salber are kept intact.</p>
+        </arrangement>
+        <c02 level="subseries">
+          <did>
+            <unittitle>
+              <corpname>Community Health Education Program (CHEP)</corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1965/1976" type="inclusive">1965-1976</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">CHEP News,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Clippings, <unitdate calendar="gregorian" era="ce" normal="1973/1977" type="inclusive">1973-1977,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence, <unitdate calendar="gregorian" era="ce" normal="1973/1976" type="inclusive">1973-1976</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">24</container>
+              <unittitle>Meeting announcements for <corpname>Bragtown and Rougemont/Bahama Health Advisory Boards, </corpname><unitdate calendar="gregorian" era="ce" normal="1973/1977" type="inclusive">1973-1977</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Meetings, notes, with various groups, <unitdate calendar="gregorian" era="ce" normal="1972/1977" type="inclusive">1972-1977</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Minutes, <unitdate calendar="gregorian" era="ce" normal="1974/1976" type="inclusive">1974-1976</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(4 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Minutes of the <corpname>Combined Rougemont/Bahama and Bragtown Health Advisory Boards </corpname>with CHEP Health Education Planning Committee, <unitdate calendar="gregorian" era="ce" normal="1972/1976" type="inclusive">1972-1976</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Training Program for Health Facilitators, <unitdate calendar="gregorian" era="ce" normal="1974/1976" type="inclusive">1974-1976</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">25</container>
+              <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1975/1976" type="inclusive">1975-1976</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>
+              <corpname>Department of Community and Family Medicine</corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Community Health Models Unit:</corpname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1970/1984" type="inclusive">1970-1984</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(4 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Community profiles of <geogname>Rougemont/Bahama </geogname>and <geogname>
+Bragtown, </geogname><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Field observations, <unitdate calendar="gregorian" era="ce" normal="1972/1974" type="inclusive">1972-1974</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Health Interview Survey, <unitdate calendar="gregorian" era="ce" normal="1970/1976" type="inclusive">1970-1976</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">26</container>
+                <unittitle>History, <unitdate calendar="gregorian" era="ce" normal="1970/1975" type="inclusive">1970-1975</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Missions and goals, <unitdate calendar="gregorian" era="ce" normal="1974/1985" type="inclusive">1974-1985</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Reminiscences,<unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">1972</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Reports, <unitdate calendar="gregorian" era="ce" normal="1972/1973" type="inclusive">1972-1973</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1976/1981" type="inclusive">1976-1981</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Directory,<unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Health Facilitator Program:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>1974</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Correspondence, <unitdate calendar="gregorian" era="ce" normal="1979/1990" type="inclusive">1979-1990</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Facilitator interviews, <unitdate calendar="gregorian" era="ce" normal="1975/1990" type="inclusive">1975-1990</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">27</container>
+                <unittitle>Network analysis to identify health facilitators, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Notebook, <unitdate calendar="gregorian" era="ce" normal="1974/1976" type="inclusive">1974-1976</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>One-year follow-up, <unitdate calendar="gregorian" era="ce" normal="1977/1978" type="inclusive">1977-1978</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Pictures, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Problem/Advice sheets, <unitdate calendar="gregorian" era="ce" normal="1974/1975" type="inclusive">1974-1975</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">28</container>
+                <unittitle>Requests for information and assistance,<unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Training, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous:</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>
+                    <unitdate calendar="gregorian" era="ce" normal="1974/1986" type="inclusive">1974-1986,</unitdate>
+                    <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Forms,<unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="heal">Health Facilitator Program Outgrowths, <unitdate calendar="gregorian" era="ce" normal="1976/1990" type="inclusive">1976-1990,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Chiefly printed material, reports, grant proposals, project summaries, training materials, and program evaluations. Also includes correspondence, agendas, meeting minutes, financial reports, outlines of programs, and questionnaire forms. Most information is related to the <geogname>
+North Carolina </geogname>Baptist State Convention. Explanatory notes added later by Salber can be found throughout. </p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged alphabetically. Dates may overlap where folders created by Salber are kept intact.</p>
+        </arrangement>
+        <c02>
+          <did>
+            <unittitle>Community Health Education, <geogname>South Africa, </geogname><unitdate calendar="gregorian" era="ce" normal="1977/1978" type="inclusive">1977-1978</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>General Baptist State Convention of North Carolina, Health and Human Services Program, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1976/1986" type="inclusive">1976-1986,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(4 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">29</container>
+            <unittitle>
+              <corpname>General Baptist State Convention of North Carolina, Health and Human Services Program, </corpname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Annual report,<unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Report, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Health teams: <geogname>Bolivar, Tenn., </geogname><unitdate calendar="gregorian" era="ce" normal="1975/1977" type="inclusive">1975-1977,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Housing Facilitator Program, <unitdate calendar="gregorian" era="ce" normal="1976/1979" type="inclusive">1976-1979,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">30</container>
+            <unittitle>
+              <corpname>Lumbee Regional Development Association, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1981/1990" type="inclusive">1981-1990</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Migrant Lay Health Advisors, <unitdate calendar="gregorian" era="ce" normal="1988/1989" type="inclusive">1988-1989</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Natural Helpers and Helping Mothers Program, <unitdate calendar="gregorian" era="ce" normal="1986/1990" type="inclusive">1986-1990</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Senior Advocate Volunteer Program, <unitdate calendar="gregorian" era="ce" normal="1977/1978" type="inclusive">1977-1978</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="stud">Student Files, <unitdate calendar="gregorian" era="ce" normal="1970/1990" type="inclusive">1970-1990,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Correspondence between Salber and students or about students, recommendation letters, student evaluation forms, course evaluations, students' written and research work, curriculum vitae, class rolls, grant and fellowship proposals, copies of application forms, and a small amount of printed material. Explanatory notes added later by Salber can be found throughout the series. </p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged alphabetically by students' last names.</p>
+        </arrangement>
+        <accessrestrict>
+          <p>This series is restricted.</p>
+        </accessrestrict>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Ainsworth, Richard,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1973" type="inclusive">1973</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Allcott, John, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1987/1988" type="inclusive">1987-1988</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Angle, Marcia, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1979/1990" type="inclusive">1979-1990</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Avorn, Jerry,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Chapman, Jean, </persname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Chatterton, Howard,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">1974</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Chin, Linda, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1978/1979" type="inclusive">1978-1979</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">31</container>
+            <unittitle>
+              <persname>Clardy, Betsy, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1979/1980" type="inclusive">1979-1980</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Dennis, Betty, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1976/1979" type="inclusive">1976-1979</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>DiCarlo, Elizabeth,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Doyle, Dan, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1988/1989" type="inclusive">1988-1989</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Dykes, Jim, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1978/1979" type="inclusive">1978-1979</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Eden, Scott, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1978/1979" type="inclusive">1978-1979</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Epstein, Arnold, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1975/1978" type="inclusive">1975-1978</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Fitch, Nancy, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1978/1983" type="inclusive">1978-1983</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Hanson, Laura, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1983/1988" type="inclusive">1983-1988</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Henderson-James, Douglas </persname>and <persname>
+Judith R. Karelitz, </persname><unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978?</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Henley, Michele,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Levine, Stuart,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Manning, John, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1976/1977" type="inclusive">1976-1977</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Matthews, Dale,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Maxwell, Richard B.,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">32</container>
+            <unittitle>
+              <persname>Miller, Ed,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Milliken, Nancy, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1979/1989" type="inclusive">1979-1989</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Raney, Curtis,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Shaw, Robert,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Silimperi, Diana, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1978/1981" type="inclusive">1978-1981</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Stahl, Christiane, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1977/1983" type="inclusive">1977-1983</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Tipermas, Alan, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1979/1981" type="inclusive">1979-1981</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Vilinsky, Debbie,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Washburn, Ronald,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Weiner, Alan, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1985/1989" type="inclusive">1985-1989</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">33</container>
+            <unittitle><persname>Weir, Sam </persname>and <persname>Chad Stevens,</persname><unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Williamson, Deborah,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Wisson, Larry, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1977/1989" type="inclusive">1977-1989</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Worthy, Paula, </persname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Medical students, <unitdate calendar="gregorian" era="ce" normal="1969/1990" type="inclusive">1969-1990,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Student award nominations,<unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="conf">Conferences and consultations, <unitdate calendar="gregorian" era="ce" normal="1969/1988" type="inclusive">1969-1988.</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Correspondence, printed programs, reports, texts of Salber's speeches, including writings delivered at conferences, notes for speeches, program outlines and schedules, charts, copies of articles, project descriptions and updates; and to a lesser extent, committee reports, minutes, a grant proposal, and contracts for Salber's consulting work. Explanatory notes added later by Salber can be found throughout. </p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged alphabetically.</p>
+        </arrangement>
+        <c02>
+          <did>
+            <unittitle><geogname>Arizona </geogname>and <geogname>Vancouver </geogname>Conferences: Community Perspectives, the Lay Advisor Approach, <unitdate calendar="gregorian" era="ce" normal="1983/1984" type="inclusive">1983-1984</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Canadian College and Health Service Executives and King's Fund College Course, Ottawa University, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">1974, Mar.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Center for Health Administration Studies, University of Chicago; </corpname>Self-care Practices of the <geogname>
+United States </geogname>Population,<unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Duke School of Nursing Alumni Association, </corpname>Second Annual Synopsium, Trends in Health Care Delivery,<unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">1974</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Family Medicine Conference, <unitdate calendar="gregorian" era="ce" normal="1979/1981" type="inclusive">1979-1981</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>General Baptist State Convention of North Carolina; </corpname>Health Facilitator Concept, <unitdate calendar="gregorian" era="ce" normal="1979/1980" type="inclusive">1979-1980</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Health Care in the Developing World: Miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1979/1984" type="inclusive">1979-1984</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Health Education Workshop <geogname>(Paoli, Indiana), </geogname><unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978, Apr.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Johnson and Johnson: </corpname> Development of Family Liaison Health Facilitator for <corpname>
+New Brunswick Public Schools, </corpname><unitdate calendar="gregorian" era="ce" normal="1977/1979" type="inclusive">1977-1979</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Montefiore Conference on Community Health Promotion and the Hospital: The Role of Lay People as Health Facilitators, <unitdate calendar="gregorian" era="ce" normal="1978/1979" type="inclusive">1978-1979</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">34</container>
+            <unittitle><corpname>National Center for Health Services </corpname>Research Conference on Consumer Self-care in Health,<unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>National Center for Health Statistics </corpname>Conference; Panel Meeting on Minority Statistics, <unitdate calendar="gregorian" era="ce" normal="1974/1980" type="inclusive">1974-1980</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>North Carolina Student Rural Health Coalition Advisory Board, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1978/1983" type="inclusive">1978-1983</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><geogname>Swaziland: </geogname> Water and Sanitation for Health (WASH) Project, <unitdate calendar="gregorian" era="ce" normal="1979/1984" type="inclusive">1979-1984</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Urban Affairs Colloquium: </corpname> Informal Support Systems,<unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1969/1988" type="inclusive">1969-1988</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="teac">Teaching Files, <unitdate calendar="gregorian" era="ce" normal="1967/1989" type="inclusive">1967-1989,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Index cards containing Salber's lecture notes, texts of lectures, copies of class handouts, and course outlines. Also includes handwritten notes, course evaluations, reprints of articles, student evaluation forms, and correspondence. </p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged alphabetically. </p>
+        </arrangement>
+        <c02>
+          <did>
+            <container type="box">35</container>
+            <unittitle>Course offerings,<unitdate calendar="gregorian" era="ce" normal="1973" type="inclusive">1973,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Duke University Medical Center: </corpname> Notes for medical student orientation and course evaluations by students, <unitdate calendar="gregorian" era="ce" normal="1978/1982" type="inclusive">1978-1982</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Lecture notes, <unitdate calendar="gregorian" era="ce" normal="1973/1982" type="inclusive">1973-1982</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Lecture schedule and notes while at the <corpname>Martha Eliot Center, </corpname><unitdate calendar="gregorian" era="ce" normal="1967/1970" type="inclusive">1967-1970</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Lectures: Miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1969/1970" type="inclusive">1969-1970</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Notes for <corpname>Duke University Medical Center </corpname>course “Ethics and Human Values,” <unitdate calendar="gregorian" era="ce" normal="1988/1989" type="inclusive">1988-1989</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Student evaluations of <persname>Salber </persname>courses, <unitdate calendar="gregorian" era="ce" normal="1981/1982" type="inclusive">1981-1982</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous,<unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="proj">Project files, <unitdate calendar="gregorian" era="ce" normal="1959/1986" type="inclusive">1959-1986.</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Correspondence to and from Salber, reports, studies, copies of articles, application forms, proposals, abstracts of research projects, survey forms, background material for research, tables and graphs, and texts of speeches, chiefly relating to smoking research. Includes explanatory notes added later by Salber. </p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged alphabetically by research subjects of Salber and others. </p>
+        </arrangement>
+        <c02>
+          <did>
+            <container type="box">36</container>
+            <unittitle>International study of breast cancer and lactation,<unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <geogname>Northern Fairview, Orange County, N.C., </geogname>
+              <unitdate calendar="gregorian" era="ce" normal="1977/1979" type="inclusive">1977-1979</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Rural Health: <corpname>University of Virginia School of Nursing, </corpname><unitdate calendar="gregorian" era="ce" normal="1981/1986" type="inclusive">1981-1986</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Smoking research:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Anti-smoking campaigns,<unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Clippings, <unitdate calendar="gregorian" era="ce" normal="1961/1964" type="inclusive">1961-1964</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Conference on smoking,<unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Follow-up study on <geogname>Newton </geogname>school children, <unitdate calendar="gregorian" era="ce" normal="1959/1965" type="inclusive">1959-1965</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Forms and instructions, <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962?</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Questionnaires,<unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Reports, <unitdate calendar="gregorian" era="ce" normal="1960/1963" type="inclusive">1960-1963</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Tables and graphs,<unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Writings and speeches, <unitdate calendar="gregorian" era="ce" normal="1964/1968" type="inclusive">1964-1968</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="pict">Pictures series, <unitdate calendar="gregorian" era="ce" normal="1979/1980" type="inclusive">1979-1980 and undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Chiefly black and white photographs taken by Dominic D'Eustachio, who created the illustrations for <title linktype="simple" render="italic">
+Don't Send Me Flowers When I'm Dead.</title> Many of the photographs in this series were presumably taken for the book. A number of them contain notes on the subject added by the photographer; some are mounted. Also includes a few contact prints. Most material is undated. Larger photographs are housed in flat boxes with the collection.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">37</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1979/1980" type="inclusive">1979-1980,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(6 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <geogname>South Africa, </geogname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">38</container>
+            <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">39</container>
+            <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="misc">Miscellaneous series, <unitdate calendar="gregorian" era="ce" normal="1938/1990" type="inclusive">1938-1990,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes letters of commendation and recommendation for Salber, awards, correspondence, typed reports and studies, grant proposals, meeting minutes, printed material, drafts of Salber's writings, a transcript of an interview with Salber, and biographical information about Salber, most written for a variety of biographical dictionary publications. </p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged chronologically and alphabetically by subject or type of material.</p>
+        </arrangement>
+        <c02>
+          <did>
+            <container type="box">40</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1964/1990" type="inclusive">1964-1990,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Background material on <geogname>Durham, </geogname><unitdate calendar="gregorian" era="ce" normal="1968/1981" type="inclusive">1968-1981</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Biographical information, <unitdate calendar="gregorian" era="ce" normal="1969/1989" type="inclusive">1969-1989,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>British American Festival, <unitdate calendar="gregorian" era="ce" normal="1983/1984" type="inclusive">1983-1984</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Bromley-Heath Tenant Management Corporation:</corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1981/1989" type="inclusive">1981-1989</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Clippings, <unitdate calendar="gregorian" era="ce" normal="1971/1981" type="inclusive">1971-1981</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Center for Community Health and Medical Care, <unitdate calendar="gregorian" era="ce" normal="1969/1971" type="inclusive">1969-1971</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Clippings, <unitdate calendar="gregorian" era="ce" normal="1969/1989" type="inclusive">1969-1989,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Community participation in health care</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1969/1970" type="inclusive">1969-1970</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Harvard Medical School, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1968/1970" type="inclusive">1968-1970</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">41</container>
+            <unittitle>Family care homes and homes for the aged directory, <unitdate calendar="gregorian" era="ce" normal="1974/1976" type="inclusive">1974-1976</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Fogarty Fellowship, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1979/1984" type="inclusive">1979-1984,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Interview with <persname>Salber, </persname><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Jamaica Plain Area Planning Action Council, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1967/1969" type="inclusive">1967-1969</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">42</container>
+            <unittitle>
+              <corpname>Jamaica Plain Area Planning Action Council, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1967/1969" type="inclusive">1967-1969</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Jamaica Plain Wide Health Coordinating Committee, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1969/1970" type="inclusive">1969-1970</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Questionnaire: <corpname>Radcliffe College, Mary Ingraham Bunting Institute, </corpname><unitdate calendar="gregorian" era="ce" normal="1965/1989" type="inclusive">1965-1989</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Salber </persname>reminiscences,<unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Testimonials, awards, <unitdate calendar="gregorian" era="ce" normal="1938/1990" type="inclusive">1938-1990,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="over">Oversize Materials</unittitle>
+        </did>
+        <c02>
+          <did>
+            <container type="opaperfolder">Folders 1-2</container>
+            <unittitle>Writings and Speeches Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1983/1989" type="inclusive">1983-1989,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">43</container>
+            <unittitle><corpname>Martha M. Eliot Family Health Center </corpname>Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Scrapbook, <unitdate calendar="gregorian" era="ce" normal="1967/1969" type="inclusive">1967-1969</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="opaperfolder">Folders 1-2</container>
+            <unittitle><corpname>Duke University Medical Center </corpname>Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Community Health Education Program, <unitdate calendar="gregorian" era="ce" normal="1973/1975" type="inclusive">1973-1975</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="opaperfolder">Folders 1-2</container>
+            <unittitle>Health Facilitator Program--Outgrowths Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="opaperfolder">Folders 1-2</container>
+            <unittitle>Student Files Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>1973, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="opaperfolder">Folders 1-2</container>
+            <unittitle>Project Files Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1977/1979" type="inclusive">1977-1979,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="opaperfolder">Folders 1-2</container>
+            <unittitle>Miscellaneous Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1968/1989" type="inclusive">1968-1989</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

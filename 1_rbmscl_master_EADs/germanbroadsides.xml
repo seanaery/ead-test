@@ -1,0 +1,1906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead><eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+
+<eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::German Broadside Collection, 1905-1990)//EN" url="http://library.duke.edu/digitalcollections/rubenstein/germanbroadsides/inv/">germanbroadsides</eadid>
+<filedesc>
+	<titlestmt>
+		<titleproper>Guide to the German Broadside Collection,
+			<date normal="1905/1990" era="ce" calendar="gregorian">1905-1990 and undated</date>, <date type="bulk" era="ce" calendar="gregorian">bulk 1920s</date>
+		</titleproper>
+		<author>Processed by: Willeke Sandler; machine-readable finding aid created by: Paula Jeannet Mangiafico and Willeke Sandler</author>
+	</titlestmt>
+
+	<publicationstmt>
+	<publisher><lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, N.C., USA </publisher> 
+		<p><date normal="2011" encodinganalog="date" era="ce" calendar="gregorian"> 2011</date> Duke University. All Rights Reserved.</p>
+	</publicationstmt>
+
+	<notestmt>
+	<note type="ncead">
+	<p>This finding aid is NCEAD compliant.</p>
+	</note>
+	</notestmt>
+</filedesc>
+
+<profiledesc>
+	<creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+		<date era="ce" calendar="gregorian">Date of source: December 2011</date><lb/>Processed by Willeke Sandler, December 2011; finding aid encoded by Paula Jeannet Mangiafico and Willeke Sandler, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, <date era="ce" calendar="gregorian">January 2012</date></creation>
+
+	<langusage>Description is in <language langcode="eng">English</language></langusage>
+
+	<descrules>Finding aid was prepared using <title linktype="simple">DACS</title> and local <title linktype="simple">Style Guide</title></descrules>  
+
+</profiledesc>
+<!-- Location of <revisiondesc> if needed -->
+</eadheader>
+
+<frontmatter>
+<titlepage>
+<titleproper>Guide to the German Broadside Collection, <date type="span" era="ce" calendar="gregorian">1905-1990 and undated</date>, <date type="bulk" era="ce" calendar="gregorian">bulk 1920s</date></titleproper>
+<publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+<p><date normal="2011" era="ce" calendar="gregorian">(C) 2011</date> Duke University. All Rights Reserved.</p>
+</titlepage>
+</frontmatter>
+
+<archdesc level="collection" relatedencoding="MARC">
+<did>
+<head>Descriptive Summary</head>
+<repository label="Repository"> 
+<corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname></repository> 
+<origination label="Creator"><corpname encodinganalog="110">Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname></origination>
+<unittitle label="Title" encodinganalog="245">German Broadside collection <unitdate normal="1905/1990" type="inclusive" era="ce" calendar="gregorian">1905-1990 and undated, bulk 1920s</unitdate></unittitle>
+
+<langmaterial label="Language of Material" encodinganalog="546">Material in <language langcode="ger">German</language>
+</langmaterial>
+
+<physdesc label="Extent">
+<extent unit="linear feet" encodinganalog="300">5.8 Linear Feet</extent><lb/> 
+<extent unit="items">515 Items</extent>
+</physdesc>
+
+<physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc> 
+
+<abstract label="Abstract" encodinganalog="520">The German Broadside Collection spans the years 1905-1990, with the majority of items dating from the 1920s. Formats include broadsides, leaflets, handbills, campaign publications, political brochures, propaganda posters, and other ephemera documenting the political, economic, and social conditions in Germany, Eastern Europe, Russia, and China, particularly during the Weimar Republic. Many of the broadsides relate to elections during the 1920s and the legacy of World War I as well as the political implications of women's suffrage during that time. Political parties represented include the Socialist Party, the Communist Party, the German Democratic Party, and the German National People's Party, as well as several smaller parties.  The broadsides come from cities across Germany, with Leipzig and Berlin strongly represented. Additional materials include Allied propaganda leaflets and Holocaust exhibition posters, as well as materials relating to the assassination of German Foreign Minister Walther Rathenau in 1922.</abstract>
+
+</did>
+
+<descgrp type="admininfo">
+<head>Administrative Information</head>
+
+<accessrestrict encodinganalog="506">
+<head>Access Restrictions</head><p>Collection is open for research.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p><p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+</accessrestrict>
+
+<userestrict encodinganalog="540">
+<head>Copyright Notice</head>
+<p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+</userestrict>
+
+<prefercite> 
+		  <head>Preferred Citation</head> 
+		  <p>[Identification of item], German Broadside Collection, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p> 
+		</prefercite> 
+
+<acqinfo encodinganalog="541">
+<head>Provenance</head>
+<p>The German Broadside Collection was received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a 
+gift in 1948.</p></acqinfo>
+
+
+<processinfo>
+<head>Processing Information</head>
+<p>Processed by Willeke Sandler, December 2011</p>
+<p>Encoded by Paula Jeannet Mangiafico and Willeke Sandler, January 2012</p>
+<p>Descriptive sources and standards used to create this inventory: <title render="italic" linktype="simple">DACS,</title> EAD, NCEAD guidelines, and local <title render="italic" linktype="simple">Style Guide.</title></p>
+<p>This finding aid is NCEAD compliant.</p>
+</processinfo>
+</descgrp>
+
+<!--end of finding aid header-->
+
+<!-- Use "Bioghist Tags" clip here for Bio/Hist information. -->
+
+<scopecontent>
+<head>Collection Overview</head>
+
+<p>The German Broadside Collection spans the years 1905-1990. Though the majority of the items are in broadside or poster form, most dating from the 1920s, there are other formats in the collection, including leaflets, handbills, campaign publications, political brochures, and other ephemera; many of these items contain political cartoons and caricatures. The broadsides originated from cities across Germany, with Leipzig and Berlin strongly represented; the majority were disseminated by the Socialist Party, the Communist Party, the German Democratic Party, and the German National People's Party, with some material from the Center Party and from Richard Kunze's anti-Semitic German Social Party. The broadsides range in size from 5 x 3" to 37 x 27". The majority relate to the 1919 National Assembly election and the 1920 and 1924 Reichstag elections; these are arranged according to election, and within each election according to city. The broadsides address economic, political, and cultural themes debated in national, state, and local elections in the 1920s in Germany, as well as the legacy of the First World War.</p>
+
+<p>Additional materials include broadsides relating to commemorations of the assassination of German Foreign Minister Walther Rathenau in 1922, the political situation in China, Poland, and Russia, among others, and international peace, workers, and anti-imperialism movements. The collection also includes three unaddressed letters from the Zentralkomitee Internationale Arbeiterhilfe about events in Hungary and China, and two sets of Holocaust exhibition posters produced by the Anti-Defamation League and the United States Holocaust Memorial Council in the late twentieth-century.</p>
+
+<p>The collection provides rich documentation on the political climate in early twentieth-century Germany, especially during the Weimar Republic (1919-1933). It offers an expansive view of political life in Germany in a variety of cities and within a variety of political parties. The bulk of the material stems from 1919-1924 and from 1928-1930, both periods of political and economic instability. In the Weimar Republic, numerous political parties vied for German votes and materials in the collection document this competition. With the extension of suffrage to German women in 1919, political parties (especially the Socialist Party) began to tailor their election propaganda towards these new voters, as is reflected in numerous broadsides in this collection. Of note in the collection is the predominance of materials from Leipzig, two Käthe Kollwitz drawings, and the Reichsbund jüdischer Frontsoldaten broadside <title render="doublequote" linktype="simple">An die deutschen Mütter.</title>
+</p>
+
+<arrangement>
+<head>Collection Arrangement</head>
+
+<p>Organized into seven series: <ref linktype="simple" target="s1" show="replace" actuate="onrequest">Allied Propaganda Leaflets</ref>, 1944 and undated; <ref linktype="simple" target="s2" show="replace" actuate="onrequest">Campaign Publications and Political Brochures</ref>, 1919-1930 and undated; <ref linktype="simple" target="s3" show="replace" actuate="onrequest">Elections</ref>, 1919-1933 and undated; <ref linktype="simple" target="s4" show="replace" actuate="onrequest">Holocaust Exhibition Posters</ref>, undated; <ref linktype="simple" target="s5" show="replace" actuate="onrequest">International Relations and Movements</ref>, 1900-1930 and undated; <ref linktype="simple" target="s6" show="replace" actuate="onrequest">Walther Rathenau Assassination</ref>, 1922-1926; and <ref linktype="simple" target="s7" show="replace" actuate="onrequest">Other Topics</ref>, undated.</p>
+
+</arrangement>
+</scopecontent>
+
+<controlaccess>
+<head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+<list type="simple">
+
+<item><persname source="lcsh" encodinganalog="600">Rathenau, Walther,1867-1922 -- Assassination</persname></item>
+<item><corpname source="lcsh" encodinganalog="610">Deutsche Demokratische Partei</corpname></item>
+<item><corpname source="lcsh" encodinganalog="610">Deutsche Zentrumspartei</corpname></item>
+<item><corpname source="lcsh" encodinganalog="610">Deutschnationale Volkspartei</corpname></item>
+<item><corpname source="lcsh" encodinganalog="610">Kommunistische Partei Deutschlands</corpname></item>
+<item><corpname source="lcsh" encodinganalog="610">Nationalsozialistische Deutsche Arbeiter-Partei</corpname></item>
+<item><corpname source="lcsh" encodinganalog="610">Sozialdemokratische Partei Deutschlands</corpname></item>
+
+<item><subject source="lcsh" encodinganalog="650">Antisemitism -- Germany</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Elections -- Germany -- 1920-1940</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Germany -- History -- 1918-1933</subject></item>
+
+<item><subject source="lcsh" encodinganalog="650">Germany -- Politics and government -- 1918-1933</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Holocaust, Jewish (1939-1945)</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Holocaust memorials</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Propaganda, Communist -- Germany</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Propaganda, Nazi -- Germany</subject></item>
+
+<item><subject source="lcsh" encodinganalog="650">World politics -- Caricatures and cartoons</subject></item>
+<item><subject source="lcsh" encodinganalog="650">World War, 1914-1918</subject></item>
+
+<item><geogname source="lcsh" encodinganalog="651">Berlin (Germany)--History</geogname></item>
+<item><geogname source="lcsh" encodinganalog="651">Leipzig (Germany)--History</geogname></item>
+
+<item><genreform source="aat" encodinganalog="655">Broadsides (notices)</genreform></item>
+<item><genreform source="aat" encodinganalog="655">Brochures</genreform></item>
+<item><genreform source="aat" encodinganalog="655">Fliers (printed matter)</genreform></item>
+<item><genreform source="aat" encodinganalog="655">Handbills</genreform></item>
+<item><genreform source="aat" encodinganalog="655">Political posters</genreform></item>
+
+
+</list>
+</controlaccess><!-- Use "Controlaccess Tags" clip here for control access information. -->
+
+<separatedmaterial>
+<head>Separated Material</head>
+<p>The following items have been separated and relocated in the Currency Collection and the Postcard Collection: a piece of German currency (10 million Reichsmarks) from 1923, and a letter from Chicago to Leipzig with a fold-out accordion sheet of 19 labeled postcards of a parade/community event in the United States.</p>
+</separatedmaterial>
+
+
+<relatedmaterial>
+<head>Related Material</head>
+
+<archref linktype="simple">
+<unittitle label="Collection">German Newspapers Collection</unittitle>
+<repository label="Repository">David M. Rubenstein Rare Book &amp; Manuscript Library</repository>
+</archref>
+
+<archref linktype="simple">
+<unittitle label="Collection"><extref href="http://library.duke.edu/rubenstein/findingaids/germanclippings/" linktype="simple">German Newspaper Clippings Collection, 1900-1930, 1939-1943</extref></unittitle>
+<repository label="Repository">David M. Rubenstein Rare Book &amp; Manuscript Library</repository>
+</archref>
+
+<archref linktype="simple">
+<unittitle label="Collection"><extref href="http://library.duke.edu/rubenstein/findingaids/wwiiprop/" linktype="simple">World War II Propaganda Leaflets, 1941-1945</extref></unittitle>
+<repository label="Repository">David M. Rubenstein Rare Book &amp; Manuscript Library</repository>
+</archref>
+
+</relatedmaterial>
+<!-- OPTIONAL: Related material -->
+
+
+
+<dsc type="combined">
+
+<head>Contents of Collection</head>
+
+<!-- Enter Container List Here -->
+
+<c01 level="series"><did>
+<unittitle id="s1">Allied Propaganda Leaflets Series, <unitdate type="inclusive" normal="1944/1944" era="ce" calendar="gregorian">1944 and undated</unitdate></unittitle>
+<physdesc><extent>(1 box)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Small leaflets produced by the Allied powers and distributed in Germany and Italy as propaganda targeting Axis military forces and civilian populations.</p>
+</scopecontent>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Im Osten [...] Im Westen,</title>1944, 2 copies</unittitle></did></c02>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Safe Conduct,</title> (2 copies)</unittitle></did></c02>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Achtung! Minen!</title></unittitle></did></c02>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wer wird Deutschland wieder aufbauen?</title></unittitle></did></c02>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Safe-Conduct</title> (21st Army Group)</unittitle></did></c02>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Perché Morire Per Hitler?</title></unittitle></did></c02>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Le général Eisenhower s'adresse au peuples des Pays Occupés</title></unittitle></did></c02>
+</c01>
+
+
+<c01 level="series"><did>
+<unittitle id="s2">Campaign Publications and Political Brochures Series, <unitdate type="inclusive" normal="1919/1924" era="ce" calendar="gregorian">1919-1924</unitdate></unittitle>
+<physdesc><extent> (2 boxes and 1 oversize folder)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Contains broadsides, leaflets, and handbills relating to local, state, and national elections, mostly from the Socialist Party and the German Democratic Party, with some material from other interest groups. They originated from German newspapers and election newspapers printed and distributed by political parties. Arranged chronologically.</p>
+</scopecontent>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Flugschriften der Deutschen Demokratischen Partei. Staat und Kirche</title> (Leipzig, circa 1919)</unittitle></did></c02>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Leitsätze der Deutschen Demokratischen Partei für Leipzig und Umgegend</title> (Leipzig, 1919)</unittitle></did></c02>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wahlaufruf der Deutschen Demokratischen Partei</title> (Leipzig, 1919)</unittitle></did></c02>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Soll die evangelische Schule religionslos werden?</title> (Berlin, 1919)</unittitle></did></c02>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Was sind wir unserer evangelischen Kirche schuldig?</title> (Berlin, 1919)</unittitle></did></c02>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Ein Bekenntnis zu Demokratie, Republik und Volksgemeinschaft</title> (German Democratic Party, 1924)</unittitle></did></c02>
+
+<c02><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Die Amerikafahrt des L.Z. 126, ein Erfolg demokratischer Politik!</title> (German Democratic Party, Stuttgart, 1924)</unittitle></did></c02>
+
+<c02><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Raus die Gefangenen!</title> (Socialist Party, Berlin, 1924)</unittitle></did></c02>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Arbeitskolleginnen und Arbeitskollegen!</title> (German Democratic Party)</unittitle></did></c02>
+
+<c02><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">In das amtliche Wahlkuvert muß der mit gleichen Aufdruck versehene Stimmezettel gesteckt werden</title> (Socialist Party)</unittitle></did></c02>
+
+</c01>
+
+
+<c01 level="series"><did>
+<unittitle id="s3">Elections Series, <unitdate type="inclusive" normal="1919/1933" era="ce" calendar="gregorian">1919-1933 and undated</unitdate></unittitle>
+<physdesc><extent> (4 boxes and 1 oversize folder)</extent></physdesc>
+</did>
+<scopecontent>
+<p>The largest group in the collection. Contains electioneering broadsides targeting the general population, political party members, and interest groups such as women, blue- and white-collar workers, Catholics, students, and farmers. The broadsides are predominantly small leaflets printed with political slogans and party platforms, announcements of rallies, and instructions to voters either on one or both sides. Arranged according to election, then by city, then by political party.</p>
+</scopecontent>
+
+<c02 level="subseries">
+<did>
+<unittitle>1919 National Assembly Elections Subseries</unittitle>
+</did>
+
+<c03><did><unittitle><emph render="bold">Berlin</emph></unittitle><physdesc><extent> (2 folders)</extent></physdesc></did>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Center Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Frauen!</title> (Center Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German Democratic Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Auf zur Wahl! Wähler, Wählerinnen!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">An die Hausfrauen!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die ausschlaggebende Partei</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Männer und Frauen!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Naumann/Freier Staat und freie Kirche (Ein Wort an deutsche Männer und Frauen)</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Für den Wahltag. Wählerinnen!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Kirchenglocken im neuen Deutschland</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wähler und Wäherlinnen! Euer Tag ist gekommen!</title> (German Democratic Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German National People's Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Aufruf!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">An die Berliner Wählerinnen</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Frauen--Deutsche Treue!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Männer, deutsche Frauen!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Volk wache auf!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Staats- und Gemeinde-Beamten, Beamtinnen und Angestellte!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wahlaufruf der Deutschnationalen Volkspartei</title> (German National People's Party, 2 copies)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Werte Mitbürger! Wähler-Versammlung am Montag, den 13. Januar</title> (German National People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German People's Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">An Alle!</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die 14 Punkte. Was will die Deutsche Volkspartei?</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Versammlungen der Deutschen Volkspartei</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Versammlung der Deutschen Volkspartei</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Was hat die Revolution gebracht?</title> (German People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Independent Socialist Party of Germany</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wähler und Wäherlinnen! Wählt am 19. Januar die Liste der Unabhängigen sozialdemokrat. Partei Deutschlands</title></unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Socialist Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Masken herunter! Zeigt, wer Ihr seid--</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die Strömungen im Sozialismus</title> (Socialist Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Other</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">An die Wähler und Wählerinnen zur Nationalversammlung!</title> (Bund deutscher Bodenreformer)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">An die deutschen Wählerinnen!</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Der evangelische Christ und die Nationalversammlung</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die evangelische Frau und die Not der Zeit</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Frauen: der Tag ist da!</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Frauen-Merkblatt für die Wahl zur National-Versammlung</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Für unsere Kirche!</title> (Evangelische Preßverband für Deutschland)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Merkblatt für die kommenden Wahlen zur Nationalversammlung</title> (Berliner Verband Ev. Arbeiter- und Arbeiterinnenvereine)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die Wahlen zur Nationalversammlung stehen hervor! Sie sollen und wollen wählen!</title> (Verband Evangel. Arbeiter- und Arbeiterinnen-Vereine)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Männer! Deutsche Frauen! Nieder mit allen zerstörenden Kräften!</title> (Nationaldemokratische Partei Deutschlands)</unittitle></did></c05>
+
+<c05><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Wie wähle ich? Bürger und Bauer! Frauen und Jungfrauen! […] Die Sozialdemokratie kann es nicht sein</title></unittitle></did></c05>
+
+</c04>
+
+</c03>
+</c02>
+
+<c02><did><unittitle><emph render="bold">1919 National Assembly Elections Subseries</emph> (cont.)</unittitle></did>
+
+<c03><did><unittitle><emph render="bold">Berlin-Charlottenburg</emph></unittitle></did>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Einladung zur Oeffentlichen Versammlung</title> (German Democratic Party)</unittitle></did></c04>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">An die Wählerinnen des Wahlkreises Teltow, Beeskow-Storkow, Charlottenburg</title> (German National People's Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Berlin-Moabit</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Männer und Frauen von Moabit! Der Tag der Entscheidung naht! Deutschland ist in höchster Not! Auf zur Tat!</title> (German Democratic Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Braunschweig</emph></unittitle></did>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">An das deutsche Volk!</title> (German Democratic Party)</unittitle></did></c04>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">An die deutschen Frauen!</title> (German Democratic Party)</unittitle></did></c04>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">An die Männer und Frauen des Landes Braunschweig!</title> (German Democratic Party (Demokratische Volkspartei))</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Bremen</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Frauen und Mädchen!</title> (Independent Socialist Party of Germany)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Dresden</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Christliche Männer und Frauen!</title> (Center Party)</unittitle></did></c04>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">An alle Handwerker Sachsens!</title> (Landesausschuß des Sächsischen Handwerks)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Königsberg</emph></unittitle></did>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Staats- und Gemeindebeamten, Beamtinnen und Angestellte!</title> (German National People's Party)</unittitle></did></c04>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Staats- und Kommunal-Beamte</title> (German National People's Party)</unittitle></did></c04>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Aufruf. Deutschnational Volkspartei</title> (German National People's Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Leipzig</emph></unittitle></did>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Communist Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Warum habt ihr gestreikt?</title> (Communist Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Independent Socialist Party of Germany</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Arbeiter! Bürger! Bauern!</title> (Independent Socialist Party of Germany)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wähler, Wählerinnen, überlegt, wen ihr wählt?</title> (Independent Socialist Party of Germany)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Other</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Frauen als Wählerinnen! Wie muß ich wählen?</title> (Werbeausschuß für politische Betätigung der Frauen)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Hört deutsche Frauen! Ihr deutschen Frauen hört!</title> (Werbeausschuß für politische Betätigung der Frauen)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Frauen und Mütter!....Friede auf Erden!</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Zum 19. Januar!</title></unittitle></did></c05>
+</c04>
+</c03>
+
+<c03><did><unittitle><emph render="bold">Place Unknown</emph></unittitle></did>
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutschnationale Kundgebung</title> (German National People's Party)</unittitle></did></c04>
+</c03>
+</c02>
+
+
+<c02 level="subseries">
+<did>
+<unittitle>1920 Reichstag Elections Subseries</unittitle>
+</did>
+
+<c03><did><unittitle><emph render="bold">Berlin</emph></unittitle></did>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German Democratic Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">An die deutsche Studentenschaft!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">An alle Beamte im Reichs-, Staats- und Gemeindedienst! Beamte, Lehrer, Angestellte! Männer und Frauen!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die Deutsche Demokratische Partei eine Partei des sozialen Ausgleichs</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Arbeiter und deutsche Arbeiterinnen!</title> (German Democratic Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German National People's Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Achtung!--Das Wahlproblem! Wen wählst Du?</title> (German National People's Party, 2 copies)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Katholiken!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutschnationale Volkspartei. Für ehrliche Arbeit, Recht und Ordnung! Gegen Schieber- und Schmarotzertum!</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Der Dolchstoß von hinten</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Demokraten oder Bankerotteure?</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Unser Wahlvorschläge</title> (German National People's Party</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German People's Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Der Auszug der Enttäuschten</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Aufruf der Deutschen Volkspartei!</title> (2 copies)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Lügen haben kurze Beine!</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die klarblickenden Privatangestellten aus allen Gewerkschaftsgruppen</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wehr dich gewerblicher Mittelstand!</title> (German People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Socialist Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wacht endlich auf, tretet ein für euer Wohl und euer Recht, Wählt die sozialdemokratische Partei Deutschlands (S.P.D.)</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsch-Demokratisch oder Sozialdemokratisch?</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Der Feind steht rechts!</title> (Socialist Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Other</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Reichstagswählerversammlung</title> (National Democratic People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Weitersagen, Kameraden!</title> (Friedensbund der Kriegsteilnehmer)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Der 6. Juni entscheidet über unser nächstes Schicksal!</title></unittitle></did></c05>
+
+</c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Berlin-Charlottenberg</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die Gefahr von links!….Die Gefahr von rechts!</title> (German Democratic Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Berlin-Moabit</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Augen links!....Keine Stimme einem Sozialdemokraten!</title> (German Democratic Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Berlin-Spandau</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Das große Rätsel</title> (Socialist Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Braunschweig</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche demokratische Partei. Donnerstag, 3. Juni 1920, abends 8 Uhr Große öffentliche Wähler-Versammlung...</title></unittitle></did></c04>
+
+<c04><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Große öffentliche Wähler-Versammlung</title> (German Democratic Party)</unittitle></did></c04>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wähler Helfferichs!</title> (German National People's Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Bremen</emph></unittitle></did>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Communist Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Frauen u. Mädchen des Proletariats! Arbeiterinnen und Angestellte! Hausfrauen u. Mütter!</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Männer u. Frauen Bremens!</title> (German People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German Democratic Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Bremische Wähler und Wählerinnen!</title> (German Democratic Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German People's Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wie wählen wir am 6. Juni zum Reichstag und zur Bremischen Bürgerschaft?</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die 10 Gebote für den Wahltag!</title> (German People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Independent Socialist Party of Germany</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Öffentl. Wähler-Versammlung</title> (Independent Socialist Party of Germany)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Warum?--Weil!</title> (Independent Socialist Party of Germany)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Socialist Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Abrechnung mit der Reaktion</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">An die bremischen Hand- u. Kopfarbeiter, Angestellten, Beamten, Hausfrauen!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Ein letztes Wort!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Oeffentliche Wählerversammlung</title> (Socialist Party)</unittitle></did></c05>
+</c04>
+</c03>
+</c02>
+
+
+<c02><did><unittitle><emph render="bold">1920 Reichstag Elections Subseries</emph> (cont.)</unittitle></did>
+
+<c03><did><unittitle><emph render="bold">Dresden</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deustsche Frauen--Deutsche Treue!</title> (German National People's Party)</unittitle></did></c04>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Der Wahlkampf beginnt!</title> (German National People's Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Halle</emph></unittitle></did>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German People's Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Wähler u. Wählerinnen!</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Handwerker, Kaufleute, Gewerbetreibende! Wehrt euch!</title> (German People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Independent Socialist Party of Germany</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Auf zur Wahlschlacht! Führt den Entscheidungsschlag!</title> (Independent Socialist Party of Germany)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Sozialismus oder Kapitalismus?</title> (Independent Socialist Party of Germany)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Socialist Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wähler und Wählerinnen!</title> (Socialist Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Other</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Achtung! Achtung! Grosse Gefahr! Deutsche Männer und Frauen, Arbeiter und Bürger! Der 6. Juni ruft zur Wahl!</title></unittitle></did></c05>
+
+</c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Hannover</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die Entscheidung naht!</title> (Socialist Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Leipzig</emph></unittitle></did>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German Democratic Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Antwort auf die Reden in der Versammlung der Deutschen Demokratischen Partei zu Leipzig am 14. Mai 1920</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Erst wäget, dann wählet!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Oeffentliche Wählerversammlungen</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Taten, nicht Worte!</title> (German Democratic Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German National People's Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutschnationaler Opfertag am 16. Mai 1920</title> (German National People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German People's Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wählerinnen! Wähler!</title> (German People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Independent Socialist Party of Germany</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Verbrecher am deutschen Volke</title> (Independent Socialist Party of Germany)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wähler in Stadt und Land, Männer und Frauen!</title> (Independent Socialist Party of Germany)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Socialist Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Frauen! Mädchen! Wählerinnen der deutschen Republik [...] Hoch die Sozialdemokratie, die Erlöserin der Frau!</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Hie Sozialismus, hie Kapitalismus!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Nach den Reichstagswahlen!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wähler und Wählerinnen!</title> (Socialist Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Other</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Bürger, Bürgerin wahr' Dir Dein Recht….Bürger, Bürgerin, tu' Deine Pflicht!</title></unittitle></did></c05>
+
+</c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Merseburg</emph></unittitle></did>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Wahlaufruf der Deutschen demokratische Partei</title> (German Democratic Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Mölbis</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Einwohner von Espenhain, Mölbis und Umgegend! Oeffentliche Wählerversammlung</title> (Socialist Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Munich</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Bayerisches Volk! Wach auf!</title> (Bayerische Mittelpartei (German National People's Party))</unittitle></did></c04>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Bayerisches Volk! Wach auf!</title> (German National People's Party)</unittitle></did></c04>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Frauen des Volkes!</title> (Socialist Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Zahna</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Beamte und Beamtinnen!</title> (German People's Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Place Unknown</emph></unittitle></did>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Communist Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Denkt an Liebknecht! Wählt Spartakus!</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Arbeiter! Genossen! Keine Stimme den verräterischen Mehrheitsleuten</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Das Parlament soll keine Schwatzbude sein, sondern ein Tribunal! Wählt deshalb Kommunisten!</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Im Parlament gegen das Parlament! Wählt Kommunisten!</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">An die deutschen Wähler!</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Warum nicht S.P.D.? Warum nicht U.S.P.? Warum Kommunist?</title></unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German Democratic Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die Deutsche Volkspartei ohne Maske!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Was verdankt das deutsche Volk den Politikern der Rechtsparteien, der Deutschnationalen und der Deutschen Volkspartei?</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Schwankende Gestalten</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Beamte, Beamtinnen, Hilfsbeamte, Anwärter, Lehrer, Lehrerinnen und Pensionäre.</title> (German Democratic Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German National People's Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wer frei sein will von fremder Zwangsherrschaft…</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Eure jetzige Führer! Wollt Ihr Andere? Dann wählt deutschnational!</title> (German National People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German People's Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Volkspartei, die Partei des Wiederaufbaues</title></unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Socialist Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Beamte! Nie wieder das alte Joch! Wählt sozialdemokratisch! (S.P.D.)</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Willst du in bessere Zukunft schauen, Und schöpfen wieder neu Vertrauen...</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Militarismus und Junkertum im Bunde mit der Schwerindustrie</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Frauen! Dass Ihr wählen dürft, dankt Ihr der Sozialdemokratie! Darum: Wählt sozialdemokratisch!</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wollt ihr einen neuen Krieg, neue Tote, neue Krüppel, neues Elend, so wählt die Parteien der Kriegshetzer</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wählerinnen und Wähler! Die Gegenrevolution habt Ihr im März niedergeschlagen.</title> (Socialist Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Other</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Kameradin! Wie ist es mit der Reichstagswahl am 6. Juni!</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Fahrt nicht mit der Strassenbahn!.....Bürger! wachtet endlich auf! wenn Ihr nicht Sklaven der Proletarier werden wollt!</title></unittitle></did></c05>
+
+</c04>
+
+</c03>
+
+</c02>
+
+<c02 level="subseries">
+<did>
+<unittitle>1924 Reichstag Elections Subseries</unittitle>
+</did>
+
+<c03><did><unittitle><emph render="bold">Berlin</emph></unittitle><physdesc><extent> (3 folders)</extent></physdesc></did>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Center Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Auf der ganzen Linie versagt</title> (Center Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wähler und Wählerinnen!</title> (Center Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Werbeplakat</title> (Center Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Communist Party</title></unittitle></did>
+
+<c05><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Wählt nur Kommunisten! Liste der Kommunisten die Partei aller Werktätigen.</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Nieder mit der Judenrepublik!</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Werktätige! Entscheidet Euch!</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Was wird der neue Reichstag bringen?</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Arbeiter! Angestellte! Beamte! Wählt Kommunisten Liste 4</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Erwerbslose--Kurzarbeiter!</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Der Londoner Vertrag bringt billiges Brot!...Volk, wach auf! Wähle nur Kommunisten!</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Nie wieder Sozialdemokraten!</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Nieder mit der schwarz-weiß-rot-schwarz-rot-goldenen-monarchistisch-republikanischen-Dawes-Luther-Regierung!</title> (Communist Party, 2 copies)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Nieder mit der Partei der Arbeiterverräter! Wählt Kommunisten: Liste 4</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Werktätige Frauen. Rettet das Leben Eurer Kinder, Kämpft mit den Kommunisten. Wählt Liste 4, Wählt Kommunisten.</title></unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German Democratic Party</title></unittitle></did>
+
+<c05><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Beamtenbesoldung und andere Beamtenfragen</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Beamtenbesoldung und andere Beamtenfragen. Rede des Reichstagsabgeordneten Brodauf der Reichstagsfraktion der Deutschen Demokratischen Partei im Reichstage am 25. Juni 1924</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">An die Angehörigen der freien Berufe!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Beamte, Beamtinnen! Jetzt gilt's! Eure Zukunft liegt in Eurer Hand!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Frauenstimmen</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Angestelltenschaft!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Beamtinnen! Lehrerinnen!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Bitte zahlen! Brot, Fleisch, Mieten! Niedrige Löhne und Gehälter! Schlechter Absatz!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die Frauen und die schwarz-weiß-roten Parteien</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">An den gewerblichen und kaufmännischen Mittelstand!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Kommilitonen!...Kämpft für die großdeutsche schwarz-rot-goldene Republik! Wählt Deutsch-Demokratisch!</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Landsleute!</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die Verantwortung erwacht!</title> (German Democratic Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German National People's Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Lies Deutscher!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Wählt deutschnational!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Abrechnung!!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Achtung! Auf zur Reichstags- und Landtagswahl!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wählt deutschnationale Volkspartei, das ist Schwarz-Weiß-Rot!</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Aufwertungsfrage und Deutschnational Volkspartei</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Hausfrau! Weißt Du noch…</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Arbeiter!</title> (Deutschnationaler Arbeiterbund)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Genossen! Kameraden!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Jedermann wählt diesmal D.N.V.P.</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Nieder mit dem Zollwucher!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Oberreichsanwalt Ebermeyer als Ankläger des heutigen Systems</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Rettet die Demokratie!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Sparer, Rentner, Hypothekengläubiger!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Seid bereit! Überall rüsten christentumsfeindlichen Mächte zum Kampf!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Der Wahlaufruf der Deutschnationalen Volkspartei</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wer am 7. Dezember zu Hause bleibt,[...]der wählt damit sozialdemokratisch.</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">So seh'n sie aus die 'deutschen' Arbeiterführer! Arbeiter! Kameraden!</title> (German National People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German People's Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Männer! Deutsche Frauen! Deutsche Jugend!</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Kaufmännischer und gewerblicher Mittelstand!</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Müller und Schulze gehen wählen</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die Partei der Privatangestellten national und sozial ist die deutsche Volkspartei</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Die 'unentwegten' Demokraten</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wahlaufruf!</title> (German People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Independent Socialist Party of Germany</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wähler und Wählerinnen! Wen wollt Ihr am 7. Dezember wählen?</title> (Independent Socialist Party of Germany)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Reichsbanner</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Was ist das Reichsbanner?</title> (Reichsbanner)</unittitle></did></c05>
+
+<c05><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">An das deutsche Volk! Wähler und Wählerinnen!</title> (Reichsbanner Schwarz-Rot-Gold, Bund der republikanischen Kriegsteilnehmer)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Socialist Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Hier Ueberfluß, dort Mangel,</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Armes Europa! Einige Tatsachen zum Nachdenken!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutschnationale Parteigeschichte. Das deutschnationale 'Unannehmbar'</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">D.H.V. und Sozialdemokratie</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Helft den Erwerbslosen!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Sozialdemokraten wirken in allen Länder für den Frieden! Arbeiterfrau! Unterstütze am 7. Dezember die deutsche Sozialdemokratie!</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Verbrüderung! Kommunistisch=Deutschnational</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">'Volksgemeinschaft' wie sie sie auffassen</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Das völkische Volksbetrug</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Goldenes Wähler-ABC</title> (Socialist Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Other</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Männer und Frauen des Mittelstandes!</title> (Wirtschaftspartei des deutschen Mittelstandes)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Arbeitsinvaliden! Witwen! Wählt Liste 1</title> (Zentralverband der Arbeitsinvaliden)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Ein über zwei Drittel arbeitsunfähiger Arbeiter…</title> (Zentralverband der Arbeitsinvaliden)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Den 'Haeusser-Bund'</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Jeder Arbeiter ein Kapitalist! Eine Warnung der deutschen Arbeiterschaft vor einem geplanten Bauernfang.</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Schwarz-Rot-Gold und Schwarz-Weiß-Rot. Rede von Dr. Theodor Heuß (Württemberg) auf dem demokratischen Parteitag zu Berlin am 2. November 1924.</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Schwarz-rot-gold gegen Schwarz-weiß-rot</title> (Vereinigte Vaterländische Verbände Deutschlands)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Verse für Wahlpropaganda</title></unittitle></did></c05>
+
+</c04>
+
+</c03>
+
+</c02>
+
+<c02><did><unittitle><emph render="bold">1924 Reichstag Elections Subseries (cont.)</emph></unittitle></did>
+
+<c03><did><unittitle><emph render="bold">Berlin-Charlottenburg</emph></unittitle></did>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Sprengt die Fesseln der Judenherrschaft, Zinsknechtschaft u. Schieberwirtschaft! Wählt Deutsch-Sozial! Richard Kunze!</title> (German Social Party, 2 copies)</unittitle></did></c04>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Der Segen des Papiergeldschwindels, des Zins- und Dividendenwuchers, des Lohn-, Gehalts- und Beamten-Abbaues.</title> (German Social Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Bremen</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Dem christlichen Volke. Kulturkampfgeist der Deutschvölkischen. So sind sie!</title> (Center Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Chemnitz</emph></unittitle></did>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Unerwarteter Besuch. Wählt Liste 4.</title> (Communist Party)</unittitle></did></c04>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Von den Proletariern die nicht wählen können an die Proletarier die nicht wählen wollen! </title> (Communist Party)</unittitle></did></c04>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Was wollen wir Deutsch-Völkischen?</title> ("Deutsch-völkischen Block")</unittitle></did></c04>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Aufruf!...Darum heraus aus dem Sumpf! Liste 6 ist Trumpf! Nationalsozialistische Freiheitsbewegung (vereinigte völkische Liste) Ortsgruppe Chemnitz</title></unittitle></did></c04>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wähler u. Wählerinnen!</title> (Freiwirtschaftsbund, 2 copies)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Constance</emph></unittitle></did>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Wir Bauern fordern! Gebt Eure Stimme den kommunistischen Kandidaten!</title></unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Dresden</emph></unittitle></did>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Wähler! Wählerinnen! Wie wählt der Zentrumswähler?</title> (Center Party)</unittitle></did></c04>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Frau! Mutter! Schwester!</title> (Socialist Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Erfurt</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Fort mit der kleinen Minderheit!</title> (Socialist Party)</unittitle></did></c04>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Seht, wie sie drängeln, die Deutschnationalen! Macht die Tür fest zu, wählt Sozialdemokraten!</title></unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Halle</emph></unittitle></did>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Communist Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Der Generalagent Gilbert übernimmt das Kommando über Deutschland!</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Am Sonntag sollst Du zum Reichs- und Landtag wählen!</title> (Communist Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German National People's Party</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wählt Deutschnationale Volkspartei. Liste 2: Hemeter--Leopold--Jahnke--Boes</title></unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Jedem Arbeiter ein solches Haus zu schaffen, muß erreicht werden…</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Warum geht es uns so dreckig?</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Preußen! Wacht auf!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Wer ist das?</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Warum muß der gewerbliche und kaufmännische Mittelstand die Deutschnationale Volkspartei wählen?</title></unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Other</title></unittitle></did>
+
+<c05><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Was wünscht Du deutsche Frau? Wer hilft Dir aus dieser Not? Allein die Farben Schwarz-weiß-rot!</title></unittitle></did></c05>
+
+</c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Hamburg</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutsche Arbeiter</title> (Communist Party)</unittitle></did></c04>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Das völkische Panoptikum</title></unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Kiel</emph></unittitle></did>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Deutscher erwache endlich!</title> (German National People's Party)</unittitle></did></c04>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Schleswig-Holsteiner!</title> (German National People's Party)</unittitle></did></c04>
+
+<c04><did><container type="box">1</container><unittitle><title render="doublequote" linktype="simple">Mutter, denkst Du an uns? Vater, willst Du uns helfen? Wähle sozialdemokratisch!</title></unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Leipzig</emph></unittitle><physdesc><extent> (4 folders)</extent></physdesc></did>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Communist Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Arbeiterinnen, Hausfrauen, Mütter! Wählt Kommunisten! 4 Liste 4.</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Arbeiterinnen! Hausfrauen! Welcher Partei gehört eure Stimme am 7. Dezember?</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Auf Kosten der Leipziger Einwohner zum 15fachen Millionär geworden!</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Extra-Blatt! Die größte Koalition schon for der Reichstagswahl gesichert!</title><title render="italic" linktype="simple">Sächsische Arbeiter-Zeitung</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Gegen Militärdiktatur und Ausnahmezustand!</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Man wird als Arbeiter gezwungen, der Sozialdemokratie den Rücken zu kehren!</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Nur keine gerechte Verteilung der Steuerlasten</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Zehn Taten der SPD, die man nie vergessen soll!</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wählt die kommunistische Liste aller Werktätigen!</title> (Communist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wählt heute nur Kommunisten!</title></unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German Democratic Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Deutsche Arbeitnehmer</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Männer und Frauen Leipzigs!</title> (German Democratic Party)</unittitle>	</did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Das Schicksal Deines Volks ist in Deine Hand gegeben! Was willst Du?</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wahltag ist Schicksalstag!</title> (German Democratic Party)</unittitle></did></c05>
+
+</c04>
+
+
+<c04><did><unittitle><title render="italic" linktype="simple">German National People's Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wählt deutschnational!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Volksbetrug!....Volksvertreter….Volksverräter!...Volksbetrüger!</title> (German National People's Party, 2 copies)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Auf zum Klassenkampf! rufen die Linksparteien. Auf zur Volksgemeinschaft! rufen wir Deutschnationalen.</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Auf zur Wahl! Wählt deutschnational!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Ein guter Anfang ist gemacht</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Extrablatt! Zur Erleichterung des Entschlusses, welcher Partei jeder vaterländische Deutsche bei der Reichstagswahl die Stimme zu geben hat, wird folgendes bekanntgegeben</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Mobilmachung! An alle vaterländisch-national Gesinnten! Deutsche Männer! Deutsche Frauen!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Politische Aussprache [between Bäuerin and Bürger]</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">So muß die Quittung am 7. Dezember aussehen. Rechnung für alle antinationalen Elemente ausgestellt von der Deutschnationalen Volkspartei</title></unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Sparerbund</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wählt Deutschnational Liste 2. Wir sorgen für Aufwertung!</title></unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Was wir wollen!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Warum sind wir Deutschnationalen völkisch?</title> (German National People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German People's Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Aufruf an alle deutschen Männer und Frauen!</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Freie Bahn für die Deutsche Volkspartei</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Kennt Ihr sie? […] Wendet Euch ab von solchen Gestalten!</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Kundgebung an die Arbeiterschaft des Wahlkreises Leipzig!</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Reichstagswähler in Stadt und Land! Was hat die Regierung Stresemann für das deutsche Volk erreicht?</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Politische Fragen und Antworten</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Sie haben noch nicht Ihre Wahlpflicht erfüllt!</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Schwarz Weiß Rot</title> (German People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Warum Otto Schwabach</title> (German People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Independent Socialist Party of Germany</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wähler und Wählerinnen! Wen wählt Ihr am 7. Dezember?</title> (Independent Socialist Party of Germany)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Socialist Party</title></unittitle></did>
+
+<c05><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Die neue Gemeinde!...Bestimmend für die Gemeindepolitik darf nur der Wille der Gesamtheit sein...</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Der Reiche genießt, Den Armen presst er aus.</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Hallo! Jemand dort?</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Fort mit dem Wohnungswucher! Die Vereinigte Sozialdemokratische Partei Deutschlands verlangt, daß die Wohnung kein Objekt kapitalistischen Profitstrebens sei.</title></unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Frauen denkt nach und handelt!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Kommunistenspiegel. Die Heroldstrompeter der Reaktion.</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Der Arbeiter spaltet den Bürgerblock.</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Der Dank des Vaterlands ist euch gewiß?! Wählt Liste 1 die Sozialdemokratie!</title></unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wähler! Räumt mit kommunistischem Stumpfsinn auf! Wählt Sozialdemokraten!</title></unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Lang oder Stahl--ganz egal! Wählt am 7. Dezember 1924 nur Sozialdemokraten, Liste 1</title></unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Hört mal her, wer noch nicht gewählt hat!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Der Traum der Nationalisten. Bist du Feind der Monarchie, so wähl' die Sozialdemokratie!</title></unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Abgeordnetenkauf!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Arbeiterfrau, Du hast zuviel Geld!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Deutscher Wähler!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Dank der Schwerindustrie</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Freie Bahn! […] Keine einzige von ihnen gemachte Versprechung haben sie halten und erfüllen können</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Eine Million</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Geehrtes Fräulein! [from "eine unbekannte Freundin"]</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Gewerkschaftsmitglieder!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Der große geschichtliche Fehler der KPD hat darin bestanden, daß sie die Massen in ihren Illusionen bestärkte, statt sie davon zu befreien! […]</title> (Socialist Party, 2 copies)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Hausfrauen, Mütter, Arbeitsschwestern erwacht!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Kommunisten und Völkische</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">1250 Millionen Goldmark! Du sollst sie zahlen!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Noch ist es Zeit!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Der Pranger für die Nichtwähler</title> (Socialist Party)</unittitle>	</did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Die Sozialpolitik der Sozialdemokratie!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wähler und Wählerinnen! Wollt Ihr das schwarz-weiß-rot Blutgericht oder den Aufstieg durch Frieden, Verständigung u. Republik?</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Vorbereitung zum Straßenkampf!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wer nimmt sich der kommunistischen Opfer an und befreit die Gefangenen?</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Werft die Wechsler aus dem Tempel! Säubert den Reichstag von Trödlern und Schnorren!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Was sind das für Sachen! […] Fort mit diesen Volksbetrügern</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Was sind das für Sachen!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Was sind das für Sachen!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wahlregeln für den 7. Dezember 1924</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Hunger, Not und Elend</title> (Socialist Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Völkisch-Social Bloc</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Aus dem Schuldbuch der Marxisten. Wählt Völkisch-Sozial!</title></unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wähler! Was sind das für Sachen?</title> (Völkisch-Social Bloc)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Warum Rasse? Er heißt Cohn. … Wählt Völkisch-Sozial!</title></unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Other</title></unittitle></did>
+
+<c05><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Handwerker, Handel- u. Gewerbetreibende, Grundbeseitzer, Rentner, Beamte, Angestellte und Arbeiter. Denkt an Eure Lasten! </title> (Reichspartei des deutschen Mittelstandes)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Kundgabe an die Wähler und Wählerinnen im Wahlkreis Leipzig!</title> (Republikanische Partei Deutschlands)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Extrablatt Allerneueste Leipziger Neueste Nachrichten</title> (May 4, 1924)	</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Extrablatt der Zeitung für das Volk. Die Rettung Deutschlands ist in Gefahr	</title> (1924)</unittitle></did></c05>
+
+</c04>
+
+</c03>
+
+</c02>
+
+<c02><did><unittitle><emph render="bold">1924 Reichstag Elections Subseries</emph> (cont.)</unittitle></did>
+
+<c03><did><unittitle><emph render="bold">Munich</emph></unittitle></did>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Bavarian People's Party</title></unittitle></did>
+
+<c05><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Entweder--oder!</title> (Bavarian People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Deutsches Volk! Willst Du die Wünsche der Franzosen erfüllen?</title> (Bavarian People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German Democratic Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Aufruf zur Reichstagswahl! Bayern! Deutsche!</title> (German Democratic Party (Deutscher Block in Bayern))</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German National People's Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Bayerische Wähler und Wählerinnen!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Deutsche, erfüllt Eure Pflicht</title> (German National People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Socialist Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Frauen! Mütter! Ihr müßt sozialdemokratisch wählen!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Bayerische Wähler und Wählerinnen!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Friedliche Aufbauarbeit oder neue kriegerische Verwicklungen mit Massenhunger, Massenelend und endgültigen Zusammenbruch der Nation</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Unbesiegbar, wenn vereint!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wähler und Wählerinnen zum Reichstag und zur Gemeinde! Ein letzter Appell!</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wer hilft? Bürgerblock? Monarchie? Nationalsozialist? Rußland?</title> (Socialist Party)</unittitle></did></c05>
+
+<c05><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Wer ist schuld an unseren Unglück? Zur Reichstagswahl am 4. Mai 1924</title> (Socialist Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Völkisch Block</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Arbeiter! Bauern! Gefällt euch die Judenherrschaft dann wählt eure alten Parteien.</title> ("Völkisch Block")</unittitle></did></c05>
+
+<c05><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Deutsche Arbeiter! Erkennt den bisher mit Euch getriebenen Betrug und wählt die Kandidaten des Völkischen Blocks!</title></unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Other</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Handwerker, Gewerbetreibende, Mittelständler!</title> (Bayerische Mittelstandspartei)</unittitle></did></c05>
+
+<c05><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Der Deutsche Block in Bayern</title> (Deutscher Block in Bayern (Vaterländische Wahlausschuß--Deutsche Demokratische Partei--Deutscher Bauernbund--Liberaler Kreisverband Schwaben))</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Münchner! Münchnerinnen! Die nationale Einigung ist vollzogen!</title> (Einheits-Liste der Nationalen Wahlgemeinschaft (Bayerische Volkspartei/Deutschnationale Volkspartei in Bayern/Nationalliberale Landespartei Bayern/Deutsche Volkspartei/Nationalliberale Partei/Grund- und Hausbesitzerverein))</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Münchner! Münchnerinnen!</title> (Einheitsliste der nationalen Wahlgemeinschaft)</unittitle></did></c05>
+
+</c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Place Unknown</emph></unittitle></did>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Communist Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wählt Kommunisten!</title></unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wählt Liste 4 Kommunisten</title></unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German Democratic Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Am Abend vor der Wahl…</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Ein Brief</title> (German Democratic Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Stimmen von oben!</title> (German Democratic Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German National People's Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wählt Deutschnational! Liste 2.</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Zum Schicksalstag am 7. Dezember! 'Deutschnational'</title> (German National People's Party)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Völkisch-Social Bloc</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Reichstagswähler! Nationalsozialistische Freiheitsbewegung Großdeutschlands!</title> (Völkischer Bloc)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Der Proletarierführer! Arbeiter, wählt den judenfeindlichen Völk. Soz. Block!</title> (Völkisch-Social Bloc)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Other</title></unittitle></did>
+
+<c05><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Wie aber ist der Friede? Mit Deutschland geht es aufwärts! Am 4. Mai steht das deutsche Volk am Scheidewege!</title></unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Handwerker, Handel- u. Gewerbetreibende, Grundbesitzer, Rentner, Beamte, Angestellte u. Arbeiter!</title> (Wirtschaftspartei des deutschen Mittelstandes)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wahlrecht ausgeübt! Reichstagswahl 1924. Diese Kontrollkarte ist nach der Wahl dem Betriebs-Vertrauensmann einzuliefern.</title></unittitle></did></c05>
+
+</c04>
+</c03>
+</c02>
+
+
+<c02 level="subseries">
+<did>
+<unittitle>1932 Reichstag Elections Subseries</unittitle>
+</did>
+
+<c03><did><unittitle><emph render="bold">Frankfurt</emph></unittitle></did>
+<c04><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Arbeiter, Bürger, Landleute!</title> (Socialist Party)</unittitle></did></c04>
+</c03>
+
+<c03><did><unittitle><emph render="bold">Görlitz</emph></unittitle></did>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">2 Millionen Mark sollen Braun und Severing unterschlagen haben. Kein Wort daran ist wahr!</title> (Socialist Party)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Wiesbaden</emph></unittitle></did>
+
+<c04><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">An die Wähler des Reichstags-Wahlkreis Wiesbaden</title> (Socialist Party)</unittitle></did></c04>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">An die Wähler des 2. Nassauischen Wahlkreises Wiesbaden</title> (Socialist Party)</unittitle></did></c04>
+
+<c04><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Deutsches Volk, wach' auf!</title> (Soziale (antisemitische) Volkspartei für Hessen-Nassau)</unittitle></did></c04>
+
+</c03>
+
+</c02>
+
+<c02 level="subseries">
+<did>
+<unittitle>1933 Reichstag Elections Subseries</unittitle>
+</did>
+
+<c03><did><unittitle><emph render="bold">Berlin</emph></unittitle></did>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Es war einmal….ein Volk, Da kam ein fremder Prophet ins Land! Am 5. März ist Wahl! Denkt daran, daß eure Kinder nicht Sklaven werden!</title></unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Görlitz</emph></unittitle></did>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Was der Jungdo sagt!</title> (Socialist Party)</unittitle></did></c04>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Der letzte Ausweg im 3. Reiche</title> (Socialist Party)</unittitle></did></c04>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Michel, merkste was?!</title> (Socialist Party)</unittitle></did></c04>
+
+</c03>
+
+</c02>
+
+<c02 level="subseries">
+<did>
+<unittitle>State and Municipal Elections Subseries, <unitdate type="inclusive" era="ce" calendar="gregorian">1919-1929 and undated</unitdate></unittitle>
+</did>
+
+<c03><did><unittitle><emph render="bold">Berlin, 1919-1927</emph></unittitle><physdesc><extent> (2 folders)</extent></physdesc></did>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Communist Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wählt rot! Wählt Kommunisten!</title> (1925)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German Democratic Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Ich will ein geeinigtes Vaterland und dem will ich dienen mit ganzen Herzen! (Freiherr von Stein) wählt Deutsch-Demokratisch</title> (German Democratic Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wahlaufruf! Wähler und Wählerinnen Preußens!</title> (German Democratic Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Arme Volkspartei!</title> (German Democratic Party, 1925)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German National People's Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Landleute! Augen auf!</title> (German National People's Party, January 26, 1919)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Der Mittelstand in Gefahr!</title> (German People's Party, January 26, 1919)</unittitle></did></c05>
+
+<c05><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Eure Schicksal ist noch nicht entschieden. Der 26. Januar kann und muß Preußen retten!</title> (German National People's Party)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Auf zur Stadtverordneten-Wahl! Bürger und Bürgerinnen rettet Eure Heimat!</title> (German National People's Party, 1920)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Kaufleute, Gewerbetreibende!</title> (German National People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Deutschnational oder International</title> (German National People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">An den deutschen Bauer. Landwirte! Auf zu den Wahlen!</title> (German National People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">An das deutsche Handwerk.</title> (German National People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Deutscher Arbeiter!</title> (German National People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Deutsche Gelehrte und Künstler! Freischaffende Männer und Frauen!</title> (German National People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Preußen in Not! Preußen wird rot!</title> (German National People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Privatangestellte, verschafft Euch politische Macht, um Eure sozialpolitischen und wirtschaftlichen Forderungen durchzusetzen.</title> (German National People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Preußenwahl. Auf zur Wahl! Wählt deutschnational!</title> (German National People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Preußens Erhebung, Preußens Erniedrigung</title> (German National People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Lehrer Preußens an Volks- und höheren Schulen</title> (German National People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Ingenieure und Techniker!</title> (German National People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Am 20. Februar wird die preußische Beamtenschaft wiederum an die Wahlurnen gerufen!</title> (German National People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">In letzter Stunde! Vor dem Untergang!</title> (German National People's Party, 1925)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Bürger und Bürgerinnen!</title> (German National People's Party, circa 1925)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Auf zur Wahl!</title> (German National People's Party, circa 1927)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German People's Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Aufruf der Deutschen Volkspartei</title> (1920)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle>German People's Party voter cards and lists, 1921 (4 cards)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wo bleibt die Internationale? Für Gildemeister</title> (German People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Zum 20. Februar. Preußen in Not!</title> (German People's Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Die 14 Punkte der Deutschen Volkspartei für die Berliner Gemeindepolitik</title> (German People's Party, circa 1927)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Socialist Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Das alte und das neue Preußen!</title> (Socialist Party, January 26, 1919)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Die Reaktion freut sich über jeden Zuwachs der Kommunisten, [...] Arbeiter! Augen auf! Wählt Sozialdemokratische Partei Deutschland</title> (1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Heute ist Landtagswahl!</title> (Socialist Party, 1921)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Hinein in den Wahlkampf!</title> (Socialist Party, 1921)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Other</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Arbeitendes Volk wach auf!</title> (Arbeiter Partei, 1925)</unittitle></did></c05>
+
+</c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Bremen, 1920-1921</emph></unittitle></did>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Auf zur Bürgerschaftswahl!</title> (German Democratic Party, 1920)</unittitle></did></c04>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Wahlrecht heißt Wahlpflicht!</title> (1921)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Danzig, 1919 and undated</emph></unittitle></did>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Bürger von Danzig!</title> (German National People's Party)</unittitle></did></c04>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Das polnische Blut erwacht! Auf, auf! Zur Wahl, zur Wahl!</title> (in Polish on reverse)</unittitle></did></c04>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Es geht ums Leben!</title> [In Polish on reverse] Danzig, 1919</unittitle></did></c04>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Das polnische Wahlprogramm bei den Gemeindewahlen</title> [In Polish on reverse] Danzig, 1919</unittitle></did></c04>
+
+</c03>
+
+</c02>
+
+<c02><did><unittitle><emph render="bold">State and Municipal Elections Subseries, 1919-1928 and undated</emph> (cont.)</unittitle></did>
+
+<c03><did><unittitle><emph render="bold">Dresden, 1926</emph></unittitle></did>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Frauen Dresdens! Mütter des Proletariats! Arbeiterinnen und Angestellte!</title> (Communist Party, November 13, 1926)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Frankfurt, 1928</emph></unittitle></did>
+
+<c04><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Arbeiter, Angestellte u. Beamte wählen am 20. Mai 1928 bei der Stadtverordnetenwahl die parteipolitisch u. religiös neutrale Liste Nummer 22</title></unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Hamburg, 1927-1928</emph></unittitle></did>
+
+<c04><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Rettet Hamburg! Wählt Deutschnational!</title> (1927)</unittitle></did></c04>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Helft! Rettet Hamburg! Wählt Deutschnational Liste 2: Henningsen.</title> (German National People's Party, 1927)</unittitle></did></c04>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Heute ist Bürgerschaftswahl!</title> (Socialist Party, 1928)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Kiel, 1924-1925</emph></unittitle></did>
+
+<c04><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Auf! zu den Stadtverordnetenwahlen!</title> (Kieler Ordnungsblock, 1924)</unittitle></did></c04>
+
+<c04><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Sonntag ist Bürgermeisterwahl!</title> (Socialist Party, 1925)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Königsberg, 1919</emph></unittitle></did>
+
+<c04><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Zentrumswähler seid einig! Zentrumswähler, laßt Euch nicht einschläfern!</title> (Center Party, January 26, 1919)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Leipzig, 1919-1929</emph></unittitle></did>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German Democratic Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Die Deutsche Demokratische Partei besitzt das Vertrauen des deutschen Volkes</title> (1919)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Frauen Sachsens!</title> (German Democratic Party, 1919)</unittitle></did></c05>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">An die Beamten und Beamtinnen, Lehrer und Lehrerinnen Leipzigs!</title> (German Democratic Party, 1921)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">German National People's Party</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Deutsche Männer! Deutsche Frauen!</title> (German National People's Party, February 2, 1919)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Independent Socialist Party of Germany</title></unittitle></did>
+
+<c05><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Wahl der Volkskammer in Sachsen</title> (Independent Socialist Party of Germany, 1919)</unittitle></did></c05>
+
+</c04>
+
+<c04><did><unittitle><title render="italic" linktype="simple">Other</title></unittitle></did>
+
+<c05><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">73 Stadtverordnete hat die Leipziger Einwohnerschaft an Sonntag, dem 13 Januar, zu wählen.</title> (1924)</unittitle></did></c05>
+
+<c05><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Das Gas wird wieder teuer, wenn am Sonntag die bürgerlichen Parteien siegen.</title> (1929)</unittitle></did></c05>
+
+</c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Munich, 1924</emph></unittitle></did>
+
+<c04><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Die Judenfrage. Bayern! Deutsche! Wählt daher die Kandidaten des allein judenfeindlichen 'Völkischen Blocks!'</title> (1924)</unittitle></did></c04>
+
+</c03>
+
+<c03><did><unittitle><emph render="bold">Place Unknown</emph></unittitle></did>
+
+<c04><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Abrechnung!!</title> (Socialist Party, Prussian Provinziallandtag, 1925)</unittitle></did></c04>
+
+</c03>
+
+</c02>
+
+</c01>
+
+<c01 level="series"><did>
+<unittitle id="s4">Holocaust Exhibition Posters Series, 1990s</unittitle>
+<physdesc><extent> (1 oversize folder)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Consists of two sets of large black-and-white and color posters produced by the Anti-Defamation League of B'nai B'rith and the United States Holocaust Memorial Council.</p>
+</scopecontent>
+
+<c02><did><unittitle>Anti-Defamation League of B'nai B'rith</unittitle></did>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">The Holocaust: 1933-1945</title> (2 posters)</unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">The Holocaust: 1933-1945. A Chronology</title></unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">The Rise of Nazi Germany</title> (2 posters)</unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">Persecution of Jews</title> (2 posters)</unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">Before the War</title> (2 posters)</unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">The Deportations</title> (2 posters)</unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">The Final Solution</title> (3 posters)</unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">Jewish Resistance</title></unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">The Survivors</title></unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">Nuremberg Tribunal</title></unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">Six Million Murdered</title></unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">To Live Again!</title></unittitle></did></c03>
+
+</c02>
+
+<c02><did><unittitle>United States Holocaust Memorial Council</unittitle></did>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">Locating the Victims: The Hollerith Computer</title></unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">Isolating the Victims: Stars, Triangles, and Markings</title></unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">Rescue: The Danish Boat</title></unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">Spiritual Resistance: Theresienstadt Butterfly Toy</title></unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle>Front: <title render="doublequote" linktype="simple">Deportation and Abandonment: Auschwitz Suitcases</title>; Back: <title render="doublequote" linktype="simple">The Loss of Identity: Auschwitz Prisoner Shoes</title></unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">2</container><unittitle><title render="doublequote" linktype="simple">Lost Childhoods</title></unittitle></did></c03>
+
+</c02>
+
+</c01>
+
+
+<c01 level="series"><did>
+<unittitle id="s5">International Relations and Movements Series, <unitdate type="inclusive" normal="1900/1930" era="ce" calendar="gregorian">1900-1930 and undated</unitdate></unittitle>
+<physdesc><extent> (3 boxes and 1 oversize folder)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Materials in this series deal with a range of international movements such as those centered on anti-imperialism, workers, and peace, as well as the political situation in foreign countries, including China, Czechoslovakia, Hungary, Poland, and Russia. The series also includes three unaddressed letters from the Zentralkomitee Internationale Arbeiterhilfe about events in Hungary and China. The broadsides consist of publicity for lectures and rallies, posters, and informational handbills. Large posters in this series are found in the Oversize Folder. Arranged in alphabetical order by topic or geographical area.</p>
+</scopecontent>
+
+<c02 level="subseries">
+<did>
+<unittitle>Anti-Imperialism, Worker, and Peace Movements Subseries, <unitdate type="inclusive" era="ce" calendar="gregorian">1920-1927 and undated</unitdate></unittitle>
+</did>
+
+<c03><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">An die deutschen Mütter!</title> (Reichsbund jüdischer Frontsoldaten, circa 1920)</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">1000 Mk. Belohnung! Wer kann eine jüdische Mutter ausfindig machen, welche drei Söhne drei Wochen lang im Schützengraben aufzuweisen hatte?</title> (Reichsbund jüdischer Frontsoldaten, Berlin, circa 1924)</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">In voller Würdigung der Schwere unsere Anklagen beschuldigen wir die Herausgeber der Schriften Die Geheimnisse der Weisen von Zion sowie Die zionistischen Protokolle der bewußten Fälschung.</title> (Die deutsche Liga für den inneren Frieden, Dresden, Leipzig, circa 1924)</unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Internationales Arbeiter-Fußball-Spiel.</title> Berlin, 1925</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">An alle, die für Menschlichkeit und Kultur eintreten!</title> (Zentralbüro des Deutsches Zweiges der Internationalen Frauenliga für Frieden und Freiheit)</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Eine Hölle von Gift und Feuer! An Alle, die für Menschlichkeit und Kultur eintreten!</title> (Internationale Frauenliga für Frieden und Freiheit, Hamburg)</unittitle></did></c03>
+
+<c03><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Die Satten gegen die Hungernden!...Internationalen Frauentag!</title> (Communist Party)</unittitle></did></c03>
+
+</c02>
+
+
+<c02 level="subseries">
+<did>
+<unittitle>China Subseries, <unitdate type="inclusive" era="ce" calendar="gregorian">1924-1930 and undated</unitdate></unittitle>
+</did>
+
+<c03><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Der Siegeszug der Sowjets in China! […] Werktätige Leipzigs! Heraus zur Massenkundgebung!</title> (Communist Party, Leipzig, 1924)</unittitle></did></c03>
+
+<c03><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Proletarier aller Länder u. unterdrückte Völker der Welt vereinigt Euch! Hände weg von China!</title>Kommunist. Jugend Berlin-Brandenburg, Roter Jugendsturm Berlin-Brandenburg, July 21, 1925</unittitle></did></c03>
+
+<c03><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Cook spricht in Berlin Kongreß der Internationalen Arbeiterhilfe, Hände weg von China!</title>Internationale Arbeiterhilfe, Berlin, August 16, 1925</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Erwachen der Völker im Osten,</title>Leipzig, October 20, 1925</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle>Unaddressed letter from Scholze, Zentralkomitee of the Internationale Arbeiterhilfe, October 20, 1925</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle>Unaddressed letter, Zentralkomitee Internationale Arbeiterhilfe, Berlin, January 25, 1927</unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Erwachen der Völker im Osten, über dieses Thema spricht...,</title> Vienna, 1925</unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Jian Kao, Mitglied der Komingtang, der revol. Partei Chinas (der Partei Sun Yat-Sen's) spricht...,</title> Leipzig, 1925</unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">China den Chinesen--Deutschland dem deutschen werktätigen Volk!</title> Halle, 1925</unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Krieg gegen China...Thema: Die imperialistische Strafexpedition gegen Hankau,</title> Berlin, 1926</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Einladung zu dem am Mittwoch den 20. Februar 1929 […] stattfindenden Urania-film Hexenkessel China,</title> Arb. Bild. Verein &amp; sozial. Arb. Jugend Berndorf II, 1929</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Arbeiter! Angestellte! Beamte! […] Krieg gegen China […] Faschistenterror,</title>Einheitskomitee der Werktätigen Kiels, 1929</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Nieder mit dem Krieg gegen das revolutionär China! Nieder mit den Henkern des chinesischen Volkes!</title>Communist Party, Berlin</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Arbeiter- und Bauernmord in China! 235.000 Blutopfer fielen!</title>Reichsausschuß: Hände weg von China!</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Praktische Hilfe für das chinesische Volk!</title> Reichsvorstand der Internationalen Arbeiterhilfe</unittitle></did></c03>
+
+</c02>
+
+<c02 level="subseries">
+<did>
+<unittitle>Czechoslovakia Subseries, <unitdate type="inclusive" era="ce" calendar="gregorian">1926</unitdate></unittitle>
+</did>
+
+<c03><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Einladung zu der....Gedenkfeier zum Gedächtnis der sudetendeutschen Märzgefallenen vom 4. März 1919,</title> Leipzig, 1926</unittitle></did></c03>
+
+</c02>
+
+<c02 level="subseries">
+<did>
+<unittitle>England Subseries, <unitdate type="inclusive" era="ce" calendar="gregorian">circa 1914-1918</unitdate></unittitle>
+</did>
+
+<c03><did><container type="box">3</container><unittitle><title render="doublequote" linktype="simple">Aus dem Lande der unbegrenzten Heuchelei. Englishe Zustände von Spiridion Gopcevic,</title>Schlesische Verlags-Anstalt, Berlin, circa 1914-1918</unittitle></did></c03>
+
+</c02>
+
+<c02 level="subseries">
+<did>
+<unittitle>German Emigration Subseries, <unitdate type="inclusive" era="ce" calendar="gregorian">1927</unitdate></unittitle>
+</did>
+<c03><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Universitäts-Vorträge,</title> Verein für das Deutschtum im Auslande, Männerortsgruppe Leipzig, the Freundesgruppe Leipzig der Deutschen Akademie and the Stiftung für deutsche Volks- und Kulturbodenforschung. February 1927</unittitle></did></c03>
+
+</c02>
+
+<c02 level="subseries">
+<did>
+<unittitle>Hungary Subseries, <unitdate type="inclusive" era="ce" calendar="gregorian">1925 and undated</unitdate></unittitle>
+</did>
+
+<c03><did><container type="box">2</container><unittitle>Letter to an unnamed person involved in the protest to the Hungarian government about the freeing of imprisoned writers, students, and workers. From Scholze on behalf of the Zentralkomitee der Internationalen Arbeiterhilfe, October 22, 1925
+</unittitle></did></c03>
+
+<c03><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">53 ungarishen Arbeitern werden Galgen gezimmert!</title> Oesterreichische Rote Hilfe, Vienna</unittitle></did></c03>
+
+</c02>
+
+<c02 level="subseries">
+<did>
+<unittitle>Poland Subseries, <unitdate type="inclusive" era="ce" calendar="gregorian">1926</unitdate></unittitle>
+</did>
+
+<c03><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Orgien des Weißen, Terrors in Polen,</title> Rote Hilfe, 1926</unittitle></did></c03>
+
+</c02>
+
+<c02 level="subseries">
+<did>
+<unittitle>Russia Subseries, <unitdate type="inclusive" era="ce" calendar="gregorian">1905-1924 and undated</unitdate></unittitle>
+</did>
+
+<c03><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Extra-Blatt! Der Kaiser von Rußland abgesetzt! Contre-Revolution in Paris! Der Papst heirathet!</title> 1905</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Aufruf!</title> (Hilfsauschuß für die notleidenden Deutschen Rußlands, January 1906)</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle>Hilfsauschuß für die notleidenden Deutschen Rußlands, Berlin</unittitle></did></c03>
+
+<c03><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Gegen einem neuen Krieg. Für Sowjet-Russland!</title></unittitle></did></c03>
+
+<c03><did><container label="Oversize Box" type="Oversize-Box">1</container><unittitle><title render="doublequote" linktype="simple">Die Anarchie in den Ostseeprovinzen</title> (Hilfsauschuß für die notleidenden Deutschen Rußlands)</unittitle></did></c03>
+
+</c02>
+
+</c01>
+
+<c01 level="series"><did>
+<unittitle id="s6">Walther Rathenau Assassination Series, <unitdate type="inclusive" normal="1922/1926" era="ce" calendar="gregorian">1922-1926</unitdate></unittitle>
+<physdesc><extent> (1 box and 1 oversize folder)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Contains materials relating to the assassination of the German Foreign Minister Walther Rathenau by German nationalists on June 24, 1922, as well as commemorations of the event in 1925 and 1926.</p>
+</scopecontent>
+
+<c02><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Eine sensationelle Entdeckung im Rathenau-Mordprozeß</title> Sonderblatt <title render="italic" linktype="simple">Neue Leipziger Zeitung</title> (October 7, 1922)</unittitle></did></c02>
+
+<c02><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Der Mord an Rathenau ist aufgeklärt. Was nun weiter?</title> (Communist Party, Mannheim, 1922)</unittitle></did></c02>
+
+<c02><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Der Mord an Rathenau ist aufgeklärt! Was nun weiter?</title> (Communist Party, Frankfurt, 1922)</unittitle></did></c02>
+
+<c02><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Der Mord an Rathenau ist aufgeklärt! Was nun weiter?</title> (Communist Party, Leipzig, 1922)</unittitle></did></c02>
+
+<c02><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Der Mord an Rathenau ist aufgeklärt. Was nun weiter?</title> (Communist Party, Hamburg, 1922)</unittitle></did></c02>
+
+<c02><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Sonderdruck aus der Münchner Post vom 26. Juni 1922</title></unittitle></did></c02>
+
+<c02><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Republikanische Morgenfeier gewidmet dem Gedächtnis Walther Rathenau,</title> Leipzig, 1925</unittitle></did></c02>
+
+<c02><did><container type="opaperfolder">1</container><unittitle><title render="doublequote" linktype="simple">Walther Rathenau Gedächtnisfeier,</title> Ortsgruppe Leipzig im Reichsbanner Schwarz-Rot-Gold, Allgemeines Arbeiter-Bildungs-Institut für Leipzig, 1926</unittitle></did></c02>
+
+<c02><did><container type="box">2</container><unittitle><title render="doublequote" linktype="simple">Margies. 'Mit dem Todesurteil können Sie mir nicht imponieren.'</title></unittitle></did></c02>
+
+</c01>
+
+
+<c01 level="series"><did>
+<unittitle id="s7">Other Items, <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<physdesc><extent> (1 box)</extent></physdesc>
+</did>
+
+<c02><did><container type="box">2</container><unittitle><emph render="doublequote">Revolutions-Urkunde-Sammlung vom 7.11.1918-30.6.1919 (Urkunden zur Geschichtsschreibung) bestehend aus seltenen Maueranschlägen, Plakaten, Flugzetten, Broschüren, Lichtbildaufnahmen u.s.w.</emph></unittitle></did>
+<scopecontent>
+<p>Red bound volume of unknown provenance containing an index of broadsides, posters, leaflets, and brochures relating to the revolution in Germany (in particular in Berlin) between November 1918 and June 1919. Does not correspond to material in this collection.</p>
+</scopecontent>
+</c02>
+
+
+</c01>
+
+</dsc>
+</archdesc>
+</ead>

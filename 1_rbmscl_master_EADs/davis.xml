@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" langencoding="iso639-2b" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid publicid="-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::John Hobart Davis Papers)//EN" countrycode="us" mainagencycode="ndd" url="http://library.duke.edu/rubenstein/findingaids/davis/">davis</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the John Hobart Davis Papers, <date normal="1832/1920" type="inclusive" era="ce" calendar="gregorian">1832-1920</date>
+            </titleproper>
+            <author>Processed by: Sharon Estes Knapp; machine-readable finding aid created by: Stephen Douglas Miller</author>
+         </titlestmt>
+         <publicationstmt>
+            
+            <p>
+               <date era="ce" calendar="gregorian"> 1987</date>
+ Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+         <note><p>Aleph Number: <num type="aleph">000741955</num></p></note></notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from 
+paper by means of scanning and OCR; OCR file edited for typographical errors before encoding.
+<lb/>Date of source: March 16, 1987
+<lb/>Processed by: Sharon Estes Knapp
+ March 16, 1987; Finding Aid encoded by Stephen Douglas Miller, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University. 
+<date era="ce" calendar="gregorian">April 1, 1997</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005" era="ce" calendar="gregorian">08-18-2005</date>
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::John Hobart Davis Papers)//EN" "davis.sgm" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+		<item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date era="ce" calendar="gregorian">June 29, 1998</date>
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the John Hobart Davis Papers, <date era="ce" calendar="gregorian">1832-1920</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>
+            
+            <lb/>Duke University<lb/>Durham, North Carolina</publisher>
+         
+         <p> 1987 Duke University. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">John Hobart Davis papers <unitdate normal="1832/1920" type="inclusive" era="ce" calendar="gregorian">1832-1920</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Davis, John Hobart, 1843-1918</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>1 Linear Foot</extent>
+		<extent>400 Items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+         </repository>
+         <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+	   <accessrestrict>
+		<head>Access Restrictions</head>
+		<p>Collection is open for research.</p> 
+		<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p> 
+		<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>   
+		<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p> 
+	   </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The status of copyright interests in these papers is unknown. For further information, see the section on copyright in the Regulations and Procedures of the Rubenstein Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], The Papers of John Hobart Davis, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The papers of John Hobart Davis, Civil War soldier and bank officer from Portland, Maine, were a gift to the Rubenstein Library in 1986.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by: Sharon Estes Knapp</p>
+            <p>Completed March 16, 1987</p>
+		<p>Encoded by Stephen Douglas Miller</p>
+		<p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp>
+      <bioghist>
+         <head>Biographical Note</head>
+         <p>John Hobart Davis, a resident of Portland, Maine, volunteered for a three-year term of service with the U.S. Army in 1861. As a private in F Company of the 13th Maine Infantry Regiment, he was variously stationed at locations in Mississippi, Louisiana, and Washington, D.C. Davis was a clerk, and later was in charge of ordnance and then of supplies. In Washington, D.C., he served in a U.S. Army Hospital in the ordnance department and then as paymaster. He was discharged in December, 1864.</p>
+         <p>After the war, Davis returned to Portland and became an officer in the Casco Bank. In 1869, he married Jennie E. Constable, and they had two sons, Marshall and Raymond. He died on November 11, 1918.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The papers of John Hobart Davis span the years 1832-1920, but the bulk of the collection is the Civil War correspondence, 1862-1865. Davis chiefly wrote the letters to his sister, Elisa E. Davis, with a few letters to other family members, such as his brother Frank. Private Davis was stationed at Camp Beaufort, Me. (1861, Dec. - 1862, Feb.); Ship Island, Miss. (1862, Mar. - 1863, Feb.); Fort Jackson, La. (1863, Feb. - Aug.); Pass Manchoc, La. (1863, Aug. -Sept.); Fort Stephens, La. (1863, Oct. - 1864, July); and Washington, D.C. (1864, Aug. - 1865, Apr.).</p>
+         <p>Topics discussed in the collection include Davis' attitude toward Blacks, especially his prejudice toward Black officers, foraging raids behind enemy lines and the Battle of Blair's Landing, (also known as Pleasant Hill Landing) as well as aspects of camp life, such as guard duty, artillery practice, drills, and practice skirmishes, pay furloughs, sutlers, camp recreation, and breaking up camp. Some letters are illustrated with maps or drawings. Included also are diaries, photographs, and miscellaneous writings.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p> 
+         <list type="simple">
+            <item>
+               <geogname>United States -- History -- Civil War, 1861-1865</geogname>
+            </item>
+            <item>
+               <corpname>United States.--Army.--Maine Infantry Regiment, 13th (1861-1865)</corpname>
+            </item>
+            <item>
+               <geogname>Louisiana -- History -- Civil War, 1861-1865</geogname>
+            </item>
+            <item>
+               <geogname>Mississippi -- History -- Civil War, 1861-1865</geogname>
+            </item>
+            <item>
+               <geogname>Washington (D.C.)--History -- Civil War, 1861-1865</geogname>
+            </item>
+            <item>
+               <subject>United States -- History -- Civil War, 1861-1865 -- Campaigns</subject>
+            </item>
+            <item>
+               <subject>Racism</subject>
+            </item>
+            <item>
+               <subject>Red River Expedition, 1864</subject>
+            </item>
+            <item>
+               <corpname>United States.--Army -- Afro-American Troops</corpname>
+            </item>
+		<item>
+		   <persname>Davis, John Hobart, 1843-1918</persname>
+		</item>         
+	   </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               
+               <unittitle id="corr">Correspondence Series</unittitle>
+            </did>
+            <c02 level="file">
+               <did><container type="box">1</container>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1861, Dec. - 1862, Feb.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1862, Mar. - Dec.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1863, Jan. - June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1863, July - Dec.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1864, Jan. - Apr.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1864, July - Dec.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1865, 1920</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="writ">Writings and Diaries Series, <unitdate normal="1860/1874" type="inclusive" era="ce" calendar="gregorian">1860-1874 </unitdate>and undated</unittitle>
+            </did>
+		<c02 level="file"><did><container type="box">2</container><unittitle>Writings and Diaries</unittitle></did></c02>
+
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="misc">Miscellany Series, <unitdate normal="1832/1870" type="inclusive" era="ce" calendar="gregorian">1832- 1870 </unitdate>and undated
+               </unittitle>
+            </did>
+		<c02 level="file"><did><container type="box">2</container><unittitle>Miscellany</unittitle></did></c02>
+
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

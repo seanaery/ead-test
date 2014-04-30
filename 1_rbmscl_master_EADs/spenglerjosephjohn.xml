@@ -1,0 +1,2843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead> 
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Joseph John Spengler Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/spenglerjosephjohn/">spenglerjosephjohn</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Preliminary Guide to the Joseph John Spengler Papers, 
+			 <date normal="1896/1987" type="inclusive" era="ce" calendar="gregorian">[ca. 1896]-1987</date></titleproper>
+        <author>Processed by: Ann G. Langford; other Rubenstein Library staff;
+			 machine-readable finding aid created by: Ann G. Langford; Ruth E.
+			 Bryan</author>
+      </titlestmt>
+      <publicationstmt>
+        
+        <p><date era="ce" calendar="gregorian"> 2002</date> Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">002683898</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from automated markup
+		  system. <lb/>Date of source: April 25, 2002 <lb/>Processed by Ann G. Langford;
+		  other Rubenstein Library staff April 25, 2002; Finding Aid encoded by Ann G. Langford; Ruth
+		  E. Bryan, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+		  University, 
+		  <date calendar="gregorian" era="ce">May 14, 2002</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Joseph John Spengler Papers)//EN" "spenglerjosephjohn.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Preliminary Guide to the Joseph John Spengler Papers, 
+			 <date calendar="gregorian" era="ce">[ca. 1896]-1987</date></titleproper>
+      <publisher><lb/>David M. Rubenstein Rare Book &amp; Manuscript Library
+		  <lb/> Duke University <lb/>
+		  Durham, North Carolina 27708-0185 USA </publisher>
+      
+      <p><date era="ce" calendar="gregorian">(C) 2002</date> Duke University. All Rights Reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Joseph John Spengler papers 		  <unitdate calendar="gregorian" era="ce" normal="1896/1987" type="inclusive">[ca. 1896]-1987</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Spengler, Joseph John, 1902-</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>111.8 Linear Feet</extent>
+        <extent>60,387 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname>
+      </repository>
+      <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Collection is open for research.</p>
+        <p>However some of the materials are not immediately accessible,
+			 because they require further processing before use. </p>
+        <p>In addition, all or portions of this collection may be housed
+			 off-site in Duke University's Library Service Center. There may
+			 be a 48-hour delay in obtaining these materials.</p>
+        <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in this collection have not been transferred
+			 to Duke University. For more information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Joseph John Spengler Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The Joseph John Spengler Papers was received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a gift in 1987-2000.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by Ann G. Langford; other Rubenstein Library staff</p>
+        <p>Completed April 25, 2002</p>
+	  <p>Encoded by Ann G. Langford; Ruth E. Bryan</p>
+        <p>This finding aid is NCEAD compliant.</p>
+        <p>This collection is unprocessed: materials may not have been ordered and described beyond their original condition.</p>
+      </processinfo>
+    </descgrp>
+    <!-- End of finding aid header -->
+    <bioghist>
+      <head>Biographical Note</head>
+      <p>Professor of economics at Duke University, 1934-1979. Spengler married
+		  Dorothy "Dot" Kress in 1927. He died in 1991. </p>
+    </bioghist>
+    <!--End of biohistory--><!--Begin scopecontent-->
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>Chiefly correspondence, printed material, critiques of publications,
+		  bibliographies, class notes, and other papers relating to his career,
+		  publications, and affiliation with different economics associations (26,378
+		  items, 52.7 linear feet; dated 1928-1987). Some are photocopies of Spengler's
+		  correspondence with William Richard Allen. The collection also includes
+		  manuscripts of some of his works, information concerning Duke University's
+		  administrative policies and staff, reprints of published articles relating to
+		  his career, and a charcoal portrait. (1-9-87, 88-010, 93-180, 00-213) No
+		  container lists exist for these accessions.</p>
+      <p>Addition #93-294 (34,009 items, 59.1 linear feet; dated [ca.
+		  1896]-[ca. 1976], bulk 1914-1960) contains primarily business and Spengler and
+		  Kress family correspondence, especially between Dot and Joe ([ca. 1919]-[ca.
+		  1976]). Also includes manuscripts for Dot's genealogical novel, 
+		<title linktype="simple" render="italic">Family Saga in America</title> ([ca. 1930s]) and
+		Joe's work, 
+		<title linktype="simple" render="italic">Life in America;</title> as well as Dot's journals
+		and diaries (1924-1939, 1969). There are Christmas cards, postcards, and
+		newspaper clippings; photographs of family and friends, including 2 tintypes,
+		32 cartes-de-visite, 1 color and 91 black-and-white prints, and 76 healthy
+		nitrate negatives; and lace knitted by Dot's grandmother. </p>
+      <p> Also includes 6 photograph albums kept by Dot, two of which contain
+		  pictures taken by her with a brownie camera in and of Piqua, OH (1914-1919).
+		  The other albums contain photographs and memorabilia depicting Dot's life as a
+		  college student at Miami University, OH (1919-1921); and two showing views of
+		  the Spengler's homes, friends, and life in Tuscon, AZ, Tampa, FL (1930-1938),
+		  and Durham, NC and Duke University (1932-1940). The latter also records the
+		  1938 Duke University faculty baseball team.</p>
+    </scopecontent>
+    <!--End scopecontent--><!--Begin controlaccess-->
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p> 
+      <list type="simple">
+        <item>
+          <persname>Allen, William Richard, 1924- .</persname>
+        </item>
+        <item>
+          <persname>Spengler, Dorothy. </persname>
+        </item>
+        <item>
+          <persname>Spengler, Joseph John, 1902- .</persname>
+        </item>
+        <item>
+          <famname>Spengler family</famname>
+        </item>
+        <item>
+          <famname>Kress family</famname>
+        </item>
+        <item>
+          <corpname>Duke University. Dept. of Economics</corpname>
+        </item>
+        <item>
+          <subject>Duke University -- Faculty</subject>
+        </item>
+        <item>
+          <subject>Duke University -- Pictorial works</subject>
+        </item>
+        <item>
+          <corpname>Miami University (Oxford, Ohio).</corpname>
+        </item>
+        <item>
+          <subject>Economics -- Study and teaching. </subject>
+        </item>
+        <item>
+          <subject>Durham (N.C.)--Pictorial works</subject>
+        </item>
+        <item>
+          <subject>Tucson (Ariz.)--Pictorial works</subject>
+        </item>
+        <item>
+          <subject>Tampa (Fla.)--Pictorial works</subject>
+        </item>
+        <item>
+          <subject>Piqua (Ohio)--Pictorial works. </subject>
+        </item>
+        <item>
+          <genreform>Black-and-white photographs</genreform>
+        </item>
+        <item>
+          <genreform>Color photograph</genreform>
+        </item>
+        <item>
+          <genreform>Nitrate negatives</genreform>
+        </item>
+        <item>
+          <genreform>Photograph albums</genreform>
+        </item>
+        <item>
+          <genreform>Tintypes. </genreform>
+        </item>
+        <item>
+          <genreform>Cartes-de-visite</genreform>
+        </item>
+        <item>
+          <genreform>Clippings</genreform>
+        </item>
+        <item>
+          <genreform>Lace. </genreform>
+        </item>
+        <item>
+          <genreform>Diaries</genreform>
+        </item>
+      </list>
+    </controlaccess>
+    <!--End controlaccess--><!--Begin container list--><!-- Sample of possible container list structure, actual markup depends upon the materials being described. --><!-- Use <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent>, <admininfo><processinfo>, and <admininfo><accessrestrict> if needed. -->
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle>Accession 1993-294</unittitle>
+        </did>
+        <processinfo>
+          <p>The documents in this accession were minimally processed in the
+				  order in which they were received.</p>
+          <p>Some of the materials in this accession are not immediately
+				  accessible because they require further processing before use. </p>
+          <p>Technical services staff may need to reformat newsprint and/or
+				  brittle paper in boxes 1-8, 11-15, 20, 24-32, 35-38, 40-41, 48-50, 75, and 82
+				  before use. Technical services staff may need to process materials in envelopes
+				  in boxes 1-2, 4-6, 11-14, 16-22, 24-25, 27-29, 32-34, 38-53, 56-69, 71-84, and
+				  86-88 before use. Technical services staff may need to remove rusty fasteners
+				  in boxes 2-8, 10, 14, 32-35, 39-41, 44, 48-50, 55-56, 58, 60, 70-71, 84-85, and
+				  91 before use.</p>
+          <p>Please contact Research Services staff before visiting the Rare
+				  Book, Manuscript, and Special Collections Library to use this collection.</p>
+        </processinfo>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <unittitle>Contents of Box 1:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Business Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1938/1941" type="inclusive">1938-1941</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>Contents of Box 2:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Business Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1941/1942" type="inclusive">1941-1942, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Labeled folders</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="doublequote">Economic Fallacies</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="doublequote">Text Correspondence</title>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <unittitle>Contents of Box 3:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Foldered materials</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Business Correspondence, 
+						<unitdate calendar="gregorian" era="ce" normal="1943/1945" type="inclusive">1943-1945</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Articles</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>[unlabeled]</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <unittitle>Contents of Box 4:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">1930s and 1940s, undated</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Personal and Business</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>[loose papers]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">5</container>
+            <unittitle>Contents of Box 5:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Business Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1948/1949" type="inclusive">1948-1949</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>South Africa Trip, 
+					 <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968 July</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">6</container>
+            <unittitle>Contents of Box 6:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="doublequote">Personal Interest</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="doublequote">Important Pre-1940</title>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Daily Reminder Book</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>[loose papers]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">7</container>
+            <unittitle>Contents of Box 7:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Manuscript of book by Dot Spengler, 
+					 <title linktype="simple" render="italic">Family Saga in America,</title><unitdate calendar="gregorian" era="ce" normal="1939" type="inclusive">1939</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">8</container>
+            <unittitle>Contents of Box 8:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains inactive mold and mildew.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Correspondence in Journal, 
+					 <unitdate calendar="gregorian" era="ce" normal="1939/1940" type="inclusive">1939-1940</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Family Saga in
+						America</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">9</container>
+            <unittitle>Contents of Box 9:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains inactive mold and mildew.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Family Saga in America, </title>
+					 rewrites and copies</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">10</container>
+            <unittitle>Contents of Box 10:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Family Saga in America,</title> rewrites
+					 and copies</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">11</container>
+            <unittitle>Contents of Box 11:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Family Saga in America, </title>
+					 copies</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence From Margaret Blomquist to Spenglers, 
+					 <unitdate calendar="gregorian" era="ce" normal="1970/1989" type="inclusive">[1970s-1980s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">12</container>
+            <unittitle>Contents of Box 12:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Blomquist Correspondence, continued</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Life in America, </title> by Joseph
+					 Spengler</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence from Dot Spengler to Joseph Spengler, 
+					 <unitdate calendar="gregorian" era="ce" normal="1928" type="inclusive">1928</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>General and Personal Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">13</container>
+            <unittitle>Contents of Box 13:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Notebook with newspaper clippings</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>General and Personal Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1927/1934" type="inclusive">1927-1934</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>[loose materials]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">14</container>
+            <unittitle>Contents of Box 14:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>General and Personal Correspondence</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence from Dot Spengler to Joseph Spengler, 
+					 <unitdate calendar="gregorian" era="ce" normal="1928" type="inclusive">1928</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Short Trip, </title>
+                <unitdate calendar="gregorian" era="ce" normal="1957/1959" type="inclusive">1957-1959</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">15</container>
+            <unittitle>Contents of Box 15:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote"> Short Trips,</title> continued
+					 </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">16</container>
+            <unittitle>Contents of Box 16:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence between Dot and Joseph Spengler, 
+					 <unitdate calendar="gregorian" era="ce" normal="1924/1925" type="inclusive">1924-1925</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">17</container>
+            <unittitle>Contents of Box 17:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence between Dot and Joseph Spengler,
+					 continued</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence from G. Long to Dot Spengler, 
+					 <unitdate calendar="gregorian" era="ce" normal="1937" type="inclusive">1937</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">18</container>
+            <unittitle>Contents of Box 18:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Deteriorated and unremovable rubber bands.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Between Dot and Joseph Spengler, 
+						<unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925</unitdate> and 
+						<unitdate calendar="gregorian" era="ce" normal="1942" type="inclusive">1942</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>To Dot Spengler, 
+						<unitdate calendar="gregorian" era="ce" normal="1939" type="inclusive">1939</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>To Dot and Joseph Spengler</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Tax, bank, and insurance statements</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">19</container>
+            <unittitle>Contents of Box 19:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>From Joseph Spengler to Dot Spengler, 
+						<unitdate calendar="gregorian" era="ce" normal="1942" type="inclusive">1942</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Pictures of Joe's
+						Home</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">20</container>
+            <unittitle>Contents of Box 20:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Between Dot Kress and Joseph Spengler, 
+						<unitdate calendar="gregorian" era="ce" normal="1924/1925" type="inclusive">1924-1925</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>To Spenglers, 
+						<unitdate calendar="gregorian" era="ce" normal="1938/1939" type="inclusive">1938-1939</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Bank Book</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">21</container>
+            <unittitle>Contents of Box 21:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>From Joseph Spengler to Dot Kress, 
+						<unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>From Dot Kress to Joseph Spengler, 
+						<unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">22</container>
+            <unittitle>Contents of Box 22:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>From Dot Kress to Joseph Spengler, 
+						<unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>From Joseph Spengler to Dot Kress, 
+						<unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">23</container>
+            <unittitle>Contents of Box 23:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic material.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>From Joseph Spengler to Dot Kress, 
+						<unitdate calendar="gregorian" era="ce" normal="1924/1927" type="inclusive">1924-1927</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>From H. Kress to Dot Spengler, 
+						<unitdate calendar="gregorian" era="ce" normal="1930/1933" type="inclusive">1930-1933</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>From Dot Kress to Joseph Spengler, 
+						<unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Personal, 
+						<unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">[1960s]</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">24</container>
+            <unittitle>Contents of Box 24:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Personal Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1959/1960" type="inclusive">1959-1960</unitdate> and 
+					 <unitdate calendar="gregorian" era="ce" normal="1960/1979" type="inclusive">[1960s-1970s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">25</container>
+            <unittitle>Contents of Box 25:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Personal Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1960/1961" type="inclusive">1960-1961</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Newspaper Clippings</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Magazine Article on Israel, 
+					 <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Dot's Keepsakes,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1950/1951" type="inclusive">1950-1951</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">26</container>
+            <unittitle>Contents of Box 26:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic material.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Dot's Log and
+						Letters</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Memos on and of Joe</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Dot's Keepsakes</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Funeral Register for Georgia Long, 
+					 <unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">27</container>
+            <unittitle>Contents of Box 27:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Newspaper Clippings</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous Correspondence</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>[loose material]</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Correspondence to and from Joe, </title>
+                <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Joe's Official Biography and
+						Bibliography</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Joe's Correspondence,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">To President Knight</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">28</container>
+            <unittitle>Contents of Box 28:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic material.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Business Material</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>[loose material]</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Correspondence</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Newspaper Clippings</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Speeches</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">29</container>
+            <unittitle>Contents of Box 29:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Newspaper Clippings</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Business Material and Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1950/1989" type="inclusive">[1950s-1980s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">30</container>
+            <unittitle>Contents of Box 30:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Labeled folders containing Business related papers, 
+					 <unitdate calendar="gregorian" era="ce" normal="1960/1970" type="inclusive">[1960s-1970]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>[loose material]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">31</container>
+            <unittitle>Contents of Box 31:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Diaries of Dot Spengler, 
+					 <unitdate calendar="gregorian" era="ce" normal="1970/1973" type="inclusive">1970-1973</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">32</container>
+            <unittitle>Contents of Box 32:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Dot Spengler's Material</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Birthday book while at Miami University, 
+						<unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Journals, 
+						<unitdate calendar="gregorian" era="ce" normal="1930/1931" type="inclusive">1930-1931,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" normal="1937/1938" type="inclusive">1937-1938,</unitdate> and 
+						<unitdate calendar="gregorian" era="ce" normal="1938/1939" type="inclusive">1938-1939</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>List of books read with descriptions </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Address Book</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence from Dick Harvill to Spenglers, 
+					 <unitdate calendar="gregorian" era="ce" normal="1968/1972" type="inclusive">1968-1972</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">33</container>
+            <unittitle>Contents of Box 33:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>From Joseph Spengler to Dot Spengler, 
+						<unitdate calendar="gregorian" era="ce" normal="1928" type="inclusive">1928</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>From Dick Harvill, 
+						<unitdate calendar="gregorian" era="ce" normal="1975/1976" type="inclusive">1975-1976</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>From Dot Kress to Joseph Spengler, 
+						<unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Bills, receipts, and contracts</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">34</container>
+            <unittitle>Contents of Box 34:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous letters to Spenglers</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Professional</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>From Dot Kress to Joseph Spengler, 
+						<unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">35</container>
+            <unittitle>Contents of Box 35:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic materials</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Farewell Book from Mary Craig to Joseph
+					 Spengler</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Newspaper clippings and photocopies</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>[loose papers]</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Pictures of Joseph Spengler</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">36</container>
+            <unittitle>Contents of Box 36:</unittitle>
+          </did>
+          <processinfo>
+            <p>[Folder moved to Legal-size Box 86.]</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Foldered personal and business materials including
+					 newspaper clippings and correspondence 
+					 <unitdate calendar="gregorian" era="ce" normal="1970/1989" type="inclusive">[1970s-1980s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">37</container>
+            <unittitle>Contents of Box 37:</unittitle>
+          </did>
+          <processinfo>
+            <p>[Folder moved to Legal-size Box 86.]</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Foldered materials continued</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">38</container>
+            <unittitle>Contents of Box 38:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Family Correspondence,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1944/1950" type="inclusive">1944-1950</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>Includes clippings as well as correspondence, mainly between
+					 Dot and Joseph Spengler.</p>
+            </scopecontent>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">39</container>
+            <unittitle>Contents of Box 39:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">Family Correspondence,</title>
+					 continued</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Foldered business and economic material</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">40</container>
+            <unittitle>Contents of Box 40:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Foldered business and economic material,
+					 continued</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Personal Correspondence between Dot and Joseph
+					 Spengler, 
+					 <unitdate calendar="gregorian" era="ce" normal="1959/1960" type="inclusive">1959-1960</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">41</container>
+            <unittitle>Contents of Box 41:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Personal Correspondence, continued, 
+					 <unitdate calendar="gregorian" era="ce" normal="1940/1979" type="inclusive">1940s-1970s</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">42</container>
+            <unittitle>Contents of Box 42:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Personal Correspondence, continued</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">43</container>
+            <unittitle>Contents of Box 43:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Personal Correspondence, continued</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Dot's Diary, 
+					 <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Journal</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">44</container>
+            <unittitle>Contents of Box 44:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence between Dot Spengler and Ollie Kress,
+					 [Dot's mother], 
+					 <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">[1960s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">45</container>
+            <unittitle>Contents of Box 45:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence between Spengler and Kress,
+					 continued</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">46</container>
+            <unittitle>Contents of Box 46:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence between Spengler and Kress,
+					 continued</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">47</container>
+            <unittitle>Contents of Box 47:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Personal Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1972/1976" type="inclusive">1972-1976</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">48</container>
+            <unittitle>Contents of Box 48:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Personal Correspondence, continued</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Joe's Recollections of
+						Life</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Professional and economic papers</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Manuscripts and magazines belonging to Dot Spengler,
+					 early 
+					 <unitdate calendar="gregorian" era="ce" normal="1900/1999" type="inclusive">[1900s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photographs of the Spenglers taken at various
+					 times</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">49</container>
+            <unittitle>Contents of Box 49:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Manuscripts and magazines, continued</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence between Dot Spengler and Ollie Kress, 
+					 <unitdate calendar="gregorian" era="ce" normal="1968/1972" type="inclusive">1968-1972</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">50</container>
+            <unittitle>Contents of Box 50:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence between Spengler and Kress,
+					 continued</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Dot's Christmas Cards, 
+					 <unitdate calendar="gregorian" era="ce" normal="1950/1979" type="inclusive">[1950s-1970s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">51</container>
+            <unittitle>Contents of Box 51:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Dot's Christmas Cards, continued</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence concerning Carol Kress Spence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1950/1979" type="inclusive">[1950s-1970s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">52</container>
+            <unittitle>Contents of Box 52:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Spence correspondence, continued</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">53</container>
+            <unittitle>Contents of Box 53:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Spence correspondence, continued</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">54</container>
+            <unittitle>Contents of Box 54:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Spence correspondence, continued</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">55</container>
+            <unittitle>Contents of Box 55:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Life in America</title> by Joseph
+					 Spengler</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Labeled folders</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Diary entries by Dot Spengler, 
+					 <unitdate calendar="gregorian" era="ce" normal="1924/1927" type="inclusive">1924-1927</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">56</container>
+            <unittitle>Contents of Box 56:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Dot's Manuscript</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1919/1920" type="inclusive">1919-1920</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">57</container>
+            <unittitle>Contents of Box 57:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence, continued</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">Western Trip</title> Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1919" type="inclusive">1919</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous Correspondence</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">58</container>
+            <unittitle>Contents of Box 58:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence from Joseph Spengler to Dot Kress,
+					 Summer 
+					 <unitdate calendar="gregorian" era="ce" normal="1927" type="inclusive">1927</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Receipts, 
+					 <unitdate calendar="gregorian" era="ce" normal="1923" type="inclusive">1923</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Journal and date book</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous material</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">59</container>
+            <unittitle>Contents of Box 59:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence from Dot Kress to Joseph Spengler, 
+					 <unitdate calendar="gregorian" era="ce" normal="1923" type="inclusive">1923</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous material</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">60</container>
+            <unittitle>Contents of Box 60:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Newspaper clippings</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Professional correspondence and articles</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Family Saga in America Part IV,
+						1907-1927</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence from Joseph Spengler to Dot Kress, 
+					 <unitdate calendar="gregorian" era="ce" normal="1923" type="inclusive">1923</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Pictures of unidentified boy and mother with son and
+					 daughter, 
+					 <unitdate calendar="gregorian" era="ce" normal="1909" type="inclusive">1909</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">61</container>
+            <unittitle>Contents of Box 61:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="doublequote">Kid Letters, </title>
+                  <unitdate calendar="gregorian" era="ce" normal="1903/1917" type="inclusive">1903-1917</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">62</container>
+            <unittitle>Contents of Box 62:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Fall 
+						<unitdate calendar="gregorian" era="ce" normal="1921" type="inclusive">1921</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">63</container>
+            <unittitle>Contents of Box 63:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Fall 
+						<unitdate calendar="gregorian" era="ce" normal="1922" type="inclusive">1922</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1936" type="inclusive">1936</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">64</container>
+            <unittitle>Contents of Box 64:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1941/1942" type="inclusive">1941-1942</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">65</container>
+            <unittitle>Contents of Box 65:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Fall 
+						<unitdate calendar="gregorian" era="ce" normal="1939" type="inclusive">1939</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Fall 
+						<unitdate calendar="gregorian" era="ce" normal="1935/1936" type="inclusive">1935-1936</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">66</container>
+            <unittitle>Contents of Box 66:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Summer 
+						<unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1942" type="inclusive">1942</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">67</container>
+            <unittitle>Contents of Box 67:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1941" type="inclusive">1941</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Fall 
+						<unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Fall/Winter 
+						<unitdate calendar="gregorian" era="ce" normal="1935/1936" type="inclusive">1935-1936</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1942" type="inclusive">1942</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1940/1942" type="inclusive">1940-1942</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">68</container>
+            <unittitle>Contents of Box 68:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">69</container>
+            <unittitle>Contents of Box 69:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1935/1936" type="inclusive">1935-1936</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">New Version </title>Part I</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">70</container>
+            <unittitle>Contents of Box 70:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">New Version, </title> continued, Parts
+					 II, III, and IV</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">Old Version</title> Parts I and
+					 II</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">71</container>
+            <unittitle>Contents of Box 71:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">Old Version,</title> continued, Parts I,
+					 II, III, and IV</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous Papers</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence from friends, 
+					 <unitdate calendar="gregorian" era="ce" normal="1935/1936" type="inclusive">1935-1936</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">72</container>
+            <unittitle>Contents of Box 72:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="doublequote">From folks,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>From family, 
+						<unitdate calendar="gregorian" era="ce" normal="1937" type="inclusive">1937</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="doublequote">From Mom, </title>
+                  <unitdate calendar="gregorian" era="ce" normal="1941" type="inclusive">1941</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">Last Version</title> Parts I, II, III,
+					 and IV</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Dot's Notebook, </title>
+                <unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">1930</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">73</container>
+            <unittitle>Contents of Box 73:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Journal and notebook</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1920/1921" type="inclusive">1920-1921</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">74</container>
+            <unittitle>Contents of Box 74:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1920/1921" type="inclusive">1920-1921</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1933" type="inclusive">1933</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1928" type="inclusive">1928</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Journal and date book</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">75</container>
+            <unittitle>Contents of Box 75:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1935/1937" type="inclusive">1935-1937</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1927" type="inclusive">1927</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">76</container>
+            <unittitle>Contents of Box 76:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1924/1927" type="inclusive">1924-1927</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1922" type="inclusive">1922</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1921/1922" type="inclusive">1921-1922</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">77</container>
+            <unittitle>Contents of Box 77:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Small journals</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1932/1933" type="inclusive">1932-1933</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Fall 
+						<unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">78</container>
+            <unittitle>Contents of Box 78:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1927/1928" type="inclusive">1927-1928</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1923" type="inclusive">1923</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">79</container>
+            <unittitle>Contents of Box 79:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1927" type="inclusive">1927</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">80</container>
+            <unittitle>Contents of Box 80:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Fall 
+						<unitdate calendar="gregorian" era="ce" normal="1928" type="inclusive">1928</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous papers, 
+					 <unitdate calendar="gregorian" era="ce" normal="1933" type="inclusive">[ca. 1933]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">81</container>
+            <unittitle>Contents of Box 81:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1933" type="inclusive">1933</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1928/1929" type="inclusive">1928-1929</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1932/1933" type="inclusive">1932-1933</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>[loose papers]</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">82</container>
+            <unittitle>Contents of Box 82:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>From friends, 
+						<unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>From family, 
+						<unitdate calendar="gregorian" era="ce" normal="1937" type="inclusive">1937</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="doublequote">From Dot to Folks, </title>
+                  <unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">83</container>
+            <unittitle>Contents of Box 83:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>[loose]</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>From family, 
+						<unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="doublequote">Joe's Correspondence, </title>
+                  <unitdate calendar="gregorian" era="ce" normal="1936/1940" type="inclusive">1936-1940</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>From Joseph Spengler to Kresses, 
+						<unitdate calendar="gregorian" era="ce" normal="1933/1934" type="inclusive">1933-1934</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">84</container>
+            <unittitle>Contents of Box 84:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>From Dot to Family, 
+						<unitdate calendar="gregorian" era="ce" normal="1934/1935" type="inclusive">1934-1935</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1937" type="inclusive">1937</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>From friends, 
+						<unitdate calendar="gregorian" era="ce" normal="1939" type="inclusive">1939</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">85</container>
+            <unittitle>Contents of Legal-size Box 86:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Needs to be reorganized and refoldered.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Academic and economic papers</unittitle>
+            </did>
+            <processinfo>
+              <p>[Removed from boxes 36-37.]</p>
+            </processinfo>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">86</container>
+            <unittitle>Contents of box 86:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Novel Miscellaney, 
+					 <unitdate calendar="gregorian" era="ce" normal="1939" type="inclusive">1939</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence, 
+					 <unitdate calendar="gregorian" era="ce" normal="1934/1940" type="inclusive">1934-1940</unitdate>
+                     </unittitle>
+            </did>
+            <processinfo>
+              <p>[Letters were originally rubberbanded together into piles.
+						These piles have been transferred to folders.]</p>
+            </processinfo>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">87</container>
+            <unittitle>Contents of box 87:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence, friends, family, and business, 
+					 <unitdate calendar="gregorian" era="ce" normal="1936/1941" type="inclusive">1936-1941</unitdate>
+                     </unittitle>
+            </did>
+            <processinfo>
+              <p>[Letters were originally rubberbanded together into piles.
+						These piles have been transferred to folders.]</p>
+            </processinfo>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">88</container>
+            <unittitle>Contents of box 88:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Correspondence, friends, family, and business, 
+					 <unitdate calendar="gregorian" era="ce" normal="1936/1940" type="inclusive">1936-1940</unitdate>
+                     </unittitle>
+            </did>
+            <processinfo>
+              <p>[Letters were originally rubberbanded together into piles.
+						These piles have been transferred to folders.]</p>
+            </processinfo>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>[Receipts, including for house
+					 repair/building]</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Third Best Copy [of Dot's novel], Part
+						III</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">89</container>
+            <unittitle>Contents of box 89:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Third Best Copy [of Dot's novel], Part
+						II</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>[From inside box labeled:] 
+					 <title linktype="simple" render="doublequote">Longhand manuscript</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Dot's Rewrites, Summer
+						1939</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">90</container>
+            <unittitle>Contents of box 90:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">Dot's Rewrites, Summer 1939,</title>
+					 continued</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Original copy-Novel Part
+						I</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">1937 [Novel] Parts I-IV minus revisions
+						and minus [perfect] pages</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Loose newspapers, postcards, and photographs removed
+					 from 1930-1931 photograph album in box 94</unittitle>
+            </did>
+            <processinfo>
+              <p>Seven loose, healthy nitrate sheet negatives removed to box
+						98.</p>
+            </processinfo>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Loose photographs removed from 1919-1921 
+					 <title linktype="simple" render="doublequote">Stunt Book</title> in box 93</unittitle>
+            </did>
+            <processinfo>
+              <p>69 loose, healthy nitrate sheet negatives removed to box
+						98.</p>
+            </processinfo>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">91</container>
+            <unittitle>Contents of Box 91:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Dot's Reunions</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photographs of [primarily Kress] family and friends,
+					 including black-and-white prints, tintypes, and cartes-de-visite</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">92</container>
+            <unittitle>Contents of box 92:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Two photograph albums containing prints taken by Dot
+					 Kress in Piqua, OH, with her brownie camera, 
+					 <unitdate calendar="gregorian" era="ce" normal="1914/1918" type="inclusive">[ca. 1914-1918]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">93</container>
+            <unittitle>Contents of box 93:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">Stunt Book</title> scrapbook containing
+					 photographs and memorabilia created by Dot Kress in college at Miami
+					 University, OH, 
+					 <unitdate calendar="gregorian" era="ce" normal="1919/1921" type="inclusive">1919-1921</unitdate>
+                     </unittitle>
+            </did>
+            <processinfo>
+              <p>Loose photographs removed to box 90 and 69 loose, healthy,
+						nitrate sheet negatives to box 98.</p>
+            </processinfo>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">94</container>
+            <unittitle>Contents of box 94:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Photograph album reflecting Joe and Dot Spengler's
+					 life in Tuscon, AZ, and Tampa, FL, 
+					 <unitdate calendar="gregorian" era="ce" normal="1930/1931" type="inclusive">1930-1931</unitdate>
+                     </unittitle>
+            </did>
+            <processinfo>
+              <p>Loose photographs, newspaper, and postcards removed to box
+						90. Seven loose, healthy nitrate sheet negatives removed to box 98.</p>
+            </processinfo>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">95</container>
+            <unittitle>Contents of box 95:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Photograph album showing the construction and
+					 development of Joe and Dot's home and garden in Durham, NC, 
+					 <unitdate calendar="gregorian" era="ce" normal="1939/1941" type="inclusive">1939-1941</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">96</container>
+            <unittitle>Contents of box 96:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>Photograph album depicting Joe and Dot's life in
+					 Tuscon, AZ (University of Arizona), Tampa, FL, and Durham, NC (Duke
+					 University), 
+					 <unitdate calendar="gregorian" era="ce" normal="1932/1938" type="inclusive">1932-1938</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>Includes photographs of the Duke University faculty baseball
+					 team, 1938 and views of the University and Durham, 1938.</p>
+            </scopecontent>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photographs and information from Joe's retirement
+					 dinner, 
+					 <unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">1972</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Cover of box in which scrapbook and photograph albums
+					 were originally stored; contains notes by Dot</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">97</container>
+            <unittitle>Contents of box 97:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Lace knitted by Grandmother
+						Kress</title>
+              </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">98</container>
+            <unittitle>Contents of box 98:</unittitle>
+          </did>
+          <processinfo>
+            <p>Attention: Contains graphic materials.</p>
+          </processinfo>
+          <c03>
+            <did>
+              <unittitle>76 healthy 
+					 <genreform>nitrate sheet negatives.</genreform></unittitle>
+            </did>
+            <processinfo>
+              <p>Removed from folders of loose material (housed in box 90)
+						found in photograph albums in boxes 93 and 94. </p>
+            </processinfo>
+          </c03>
+        </c02>
+      <!--Begin c02 levels here-->
+         </c01>
+    </dsc>
+    <separatedmaterial>
+      <head>Materials Cataloged Separately</head>
+      <p>The following book was removed from accession #93-294 and cataloged
+			 separately:</p>
+      <list type="simple">
+        <item><title linktype="simple" render="italic">The Legend of Sleepy Hollow,</title> ills.
+				Arthur I. Keller, 1906.</item>
+      </list>
+    </separatedmaterial>
+  </archdesc>
+</ead>

@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::George R. Howsam Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/howsam/">howsam</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the George R. Howsam Papers, <date normal="1920/1981" type="inclusive" era="ce" calendar="gregorian">1920-1981</date></titleproper>
+        <author>Processed by: John Gribble; Assisted by Dave Daily and Sandra Hack Polaski
+; Machine-readable finding aid created by: Stephen D. Miller</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <p><date era="ce" calendar="gregorian"> 1993</date>
+ Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">001530473</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from Microsoft Word 6.0 files. <lb/>Date of Source:
+<lb/>Processed by: John Gribble; Assisted by Dave Daily and Sandra Hack Polaski
+ July 10, 1993; Finding Aid encoded by Stephen D. Miller, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.
+<date calendar="gregorian" era="ce">January 29, 1997</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::George R. Howsam Papers)//EN" "howsam.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce">June 29, 1998</date>
+        <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the George R. Howsam Papers, <date calendar="gregorian" era="ce">1920-1981</date></titleproper>
+      <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham, North Carolina</publisher>
+
+      <p> 1993 Duke University. All rights reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">George R. Howsam papers <unitdate calendar="gregorian" era="ce" normal="1920/1981" type="inclusive">1920-1981</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Howsam, George R.</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>9 Linear Feet</extent>
+	  <extent>6,750 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+      </repository>
+      <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+<accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Collection is open for research.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in the George R. Howsam papers have not been transferred to Duke University. For further information, see the section on copyright in the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library and consult a Reference Archivist.</p>
+      </userestrict>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The George R. Howsam papers (1920-1981) were donated to the Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library in 1990 by Peter Howsam.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by: John Gribble; Assisted by Dave Daily and Sandra Hack Polaski</p>
+        <p>Completed July 10, 1993</p>
+	  <p>Encoded by Stephen D. Miller</p>
+        <p>This finding aid is NCEAD compliant.</p>
+      </processinfo>
+    </descgrp>
+    <bioghist>
+      <head>Biographical Note</head>
+      <chronlist>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1895, Jan. 29</date>
+          <event>Born, Lake Scugog, Ontario</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1916-1918</date>
+          <event>Enlisted in 116th South Ontario Battalion, Accepted into Royal Canadian Expeditionary Force, Promoted to Lieutenant</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1918, Sept.</date>
+          <event>Joined Canadian Air Force, stationed in France and Belgium flying bombing missions for various government departments</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1921</date>
+          <event>Worked with Royal Canadian Air Force photographic survey, NW Canada</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1923-1926</date>
+          <event>Worked for Canadian Air Board (mapping early radio communications, aircraft and radio equipment, flying)</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1929</date>
+          <event>Senior member, Royal Canadian Air Force 1st Aerobatics Team, (Siskin) Display, Cleveland, OH</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1930</date>
+          <event>Joined the Royal Canadian Air Force Staff College, England, Director of Civil Administration</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1931-1932</date>
+          <event>Staff member CGAO Operations at Air Force Headquarters</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1933-1936</date>
+          <event>SASO, MD2 Toronto</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1937</date>
+          <event>OC 2, Army Co-operation Squadron, Ottawa</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1938-1940</date>
+          <eventgrp>
+            <event>Director of Training for Royal Canadian Air Force, Ottawa</event>
+            <event>SASO, No.4 Training Command, Regina</event>
+          </eventgrp>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1941</date>
+          <event>Directed and organized the funding of the building of the Service Flying School, Yorktown, Saskatchewan</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1942-1943</date>
+          <event>AOC Air Staging Route to Alaska</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1942-1944</date>
+          <event>AOC No.4 Training Command, Calgary</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1945</date>
+          <event>Chairman, Organization Committee, AF HQ, Ottawa</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1946</date>
+          <event>Retired from the Royal Canadian Air Force as Air Vice-Marshal</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1948-1949</date>
+          <event>Director, Sicks' Breweries Ltd. and Sicks' Edmonton Brewery, President of the United Services Institute of Edmonton</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1950-1951</date>
+          <event>Co-Ordinator of Civil Defense, Alberta</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1960, Oct.</date>
+          <event>Canadian Delegate to Emergency Measures NATO Assembly, Paris</event>
+        </chronitem>
+      </chronlist>
+      <p>George R. Howsam was awarded the following awards of merit: Legion of Merit in Degree of Commander (United States, 1945), Order of White Lion (Czechoslovakia, 1946), and Commander de l'orde de la Couronne (Belgium, 1948). His works include: <title linktype="simple" render="doublequote">
+Rocky Mountain Foothills Offer Great Chance to Guilders</title> (1923), and <title linktype="simple" render="doublequote">
+Industrial and Mechanical Development: War</title> (1931).</p>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The George R. Howsam Papers span the years 1920-1981, although the bulk of the material dates from 1930-1948. They consist of correspondence, legal papers, photographs, printed materials, writings and speeches, clippings, and miscellaneous, The collection principally relates to Howsam's career as Air Vice-Marshall in the Royal Canadian Air Force, and has a few items regarding Howsam's employment as a manager for Sicks' Breweries Ltd. and his service as Co-Ordinator of Civil Defense in Alberta. Subject areas represented within the collection include: Alberta Civil Defense, Royal Canadian Air Force Training before and during World War II, and Royal Canadian Air Force lectures.</p>
+      <p>Although the <ref linktype="simple" target="corr">Correspondence Series</ref> primarily relates to Royal Canadian Air Force activities, personal letters are included within the series. The series offers insight into the professional life of a Canadian airman in the 1930's and 1940's, and also the network of people Howsam worked and associated with before, during, and after World War II.</p>
+      <p>The <ref linktype="simple" target="pict">Pictures Series</ref> documents Howsam's professional military life, ranging from several personal military photographs of Howsam as a young man to photograph albums detailing such subjects as awarding of medals, “presentation of wings” for Canadian Airmen in 1941, and building of the Royal Canadian Air Force Station at Yorktown, Saskatchewan (the No. 11 Service Flying Training School, 1941). Also included is Howsam's report titled, <title linktype="simple" render="doublequote">
+Some Continental Flying Boats,</title> 1932, which includes photographs and descriptions of seaplanes designed to take off from the water.</p>
+      <p>Howsam served as a lecturer and speaker for the Royal Canadian Air Force Staff College, and these activities are reflected in the many folders of lectures and speeches that Howsam prepared for use in the Staff College courses from 1930-1944. These lectures are included in the <ref linktype="simple" target="prin">
+Printed Materials Series</ref> and the <ref linktype="simple" target="writ">Writings and Speeches Series</ref>.</p>
+      <p>The <ref linktype="simple" target="clip">Clippings Series</ref> offers insight not only into World War II but also to Alberta Civil Defense, and the threat and precautions of nuclear war, 1959-1961. Howsam's work at Sicks' Brewery is documented in the <ref linktype="simple" target="lega">
+Legal Papers Series</ref>, which includes a printed brochure from the brewery, letters, balance sheets, and also information regarding oil and gas investments.</p>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <item>
+          <corpname>Sicks' Breweries</corpname>
+        </item>
+        <item><geogname>Canada -- Royal Canadian Air Force</geogname></item>
+        <item><geogname>Canada.--Royal Canadian Air Force -- History -- World War, 1939-1945</geogname></item>
+        <item>
+          <geogname>Canada -- Air defenses, Military</geogname>
+        </item>
+        <item>
+          <geogname>Alberta -- Civil defense</geogname>
+        </item>
+        <item>
+          <subject>Air Pilots, military -- Canada -- Education</subject>
+        </item>
+        <item>
+          <subject>Air forces -- Canada</subject>
+        </item>
+      </list>
+    </controlaccess>
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle id="corr">Correspondence Series, <unitdate calendar="gregorian" era="ce" normal="1931/1978" type="inclusive">1931-1978,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(bulk <unitdate calendar="gregorian" era="ce" normal="1936/1948" type="bulk">1936-1948).</unitdate>
+               </unittitle>
+        </did>
+        <arrangement>
+          <p>Arranged chronologically, followed by four topical folders.</p>
+        </arrangement>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1943" type="inclusive">1931-1943, Mar.</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(18 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1943/1947" type="inclusive">1943, Apr.-1947, June</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(17 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1947/1978" type="inclusive">1947, July-1978, undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(6 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Chief Electoral Officer,<unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>du Park, Vicomte, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1948/1949" type="inclusive">1948-1949</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Roy, R.H., </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1965/1967" type="inclusive">1965-1967,</unitdate>
+              <unitdate calendar="gregorian" era="ce" normal="1971/1972" type="inclusive">1971-1972</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Royal Canadian Air Force </corpname>Project, <unitdate calendar="gregorian" era="ce" normal="1967/1975" type="inclusive">1967-1975,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="lega">Legal Papers, <unitdate calendar="gregorian" era="ce" normal="1945/1977" type="inclusive">1945-1977,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(bulk <unitdate calendar="gregorian" era="ce" normal="1951/1963" type="bulk">1951-1963).</unitdate>
+               </unittitle>
+        </did>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Oil and Gas Properties, </subject>
+              <unitdate calendar="gregorian" era="ce" normal="1951/1977" type="inclusive">1951-1977,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Sicks' Breweries Ltd., </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1945/1954" type="inclusive">1945-1954,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="pict">Pictures Series, <unitdate calendar="gregorian" era="ce" normal="1917/1960" type="inclusive">1917-1960</unitdate>(bulk<unitdate calendar="gregorian" era="ce" normal="1941" type="bulk">1941).</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes loose photographs and bound photograph albums chiefly regarding <persname>
+Howsam</persname>'s military duties. Also includes a report by <persname>Howsam </persname>titled, <title linktype="simple" render="doublequote">
+Some Continental Flying Boats.</title></p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged by subject or title.</p>
+        </arrangement>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <unittitle><geogname>Alberta </geogname>Civil Defence</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Graduating Classes Nos. 25, 28,<unitdate calendar="gregorian" era="ce" normal="1941" type="inclusive">1941</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Howsam </persname>personal photographs</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Progressive photographs, <unitdate calendar="gregorian" era="ce" normal="1917/1918" type="inclusive">1917-1918</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Royal Canadian Air Force, B.C.A.T.P. </corpname>Gates Ceremony, <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949, Sept.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>“Photographic Operation of the <geogname>Belcher Islands,</geogname>”<unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Some Continental Flying Boats,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">1930</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="prin">Printed Material Series, <unitdate calendar="gregorian" era="ce" normal="1923/1981" type="inclusive">1923-1981</unitdate>(bulk<unitdate calendar="gregorian" era="ce" normal="1930" type="bulk">1930,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" normal="1958/1960" type="inclusive">1958-1960).</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes <corpname>Alberta Civil Defence </corpname>reports, published texts, <corpname>Royal Canadian College </corpname>course lectures and training manuals, and serials. </p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged by topic, then chronologically.</p>
+        </arrangement>
+        <c02>
+          <did>
+            <unittitle><corpname>Alberta Civil Defence, </corpname>Reports,<unitdate calendar="gregorian" era="ce" normal="1923" type="inclusive">1923,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1951/1960" type="inclusive">1951-1960</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(6 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Minutes of Meetings, <unitdate calendar="gregorian" era="ce" normal="1942/1945" type="inclusive">1942-1945</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <unittitle>Published, <title linktype="simple" render="doublequote">Canadian War Museum Papers No. 2,</title><unitdate calendar="gregorian" era="ce" normal="1972/1981" type="inclusive">1972-1981,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Published, <title linktype="simple" render="doublequote">Spitfire-The Story Of A Famous Fighter,</title><unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Royal Canadian Air Force, </corpname>Photocopied documents, <unitdate calendar="gregorian" era="ce" normal="1918/1919" type="inclusive">1918-1919</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">5</container>
+            <unittitle><corpname>Royal Canadian Air Force Staff College, </corpname>course lectures, <unitdate calendar="gregorian" era="ce" normal="1928/1930" type="inclusive">1928-1930</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(6 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Royal Canadian Air Force Staff College, </corpname>training manuals,<unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1938/1939" type="inclusive">1938-1939</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(5 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Royal Canadian Air Force Staff College, </corpname>training manuals, <title linktype="simple" render="doublequote">
+Defence Forces List,</title><unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Royal Canadian Air Force Staff College, </corpname>training manuals,<unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Royal Canadian Air Force Staff College, </corpname>training manuals, <title linktype="simple" render="doublequote">
+The British Commonwealth Air Training Plan,</title><unitdate calendar="gregorian" era="ce" normal="1939" type="inclusive">1939</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Royal Canadian Air Force Staff College, </corpname>training manuals, <unitdate calendar="gregorian" era="ce" normal="1943/1944" type="inclusive">1943-1944</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Serials: <title linktype="simple" render="italic">Air Force Officers' Association of Vancouver Island, </title><unitdate calendar="gregorian" era="ce" normal="1957/1971" type="inclusive">1957-1971</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Serials:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">The Circular,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1951/1961" type="inclusive">1951-1961</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Royal Canadian Air Force List,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1945" type="inclusive">1945</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Wings,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1941/1974" type="inclusive">1941-1974</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="writ">Writings and Speeches Series, <unitdate calendar="gregorian" era="ce" normal="1935/1979" type="inclusive">1935-1979</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Contains written speeches that Howsam gave while a member of the <corpname>
+Royal Canadian Air Force. </corpname> Also included are cassette recordings of <persname>
+Howsam </persname>giving interviews.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">6</container>
+            <unittitle>Interviews, cassette recordings, <unitdate calendar="gregorian" era="ce" normal="1971/1972" type="inclusive">1971-1972,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1977/1979" type="inclusive">1977-1979</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Speeches: <persname> Howsam, </persname><unitdate calendar="gregorian" era="ce" normal="1935/1969" type="inclusive">1935-1969</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Speeches: <persname>Howsam, </persname>notebook, <unitdate calendar="gregorian" era="ce" normal="1940/1942" type="inclusive">1940-1942,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1948/1953" type="inclusive">1948-1953</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Speeches, miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1959/1967" type="inclusive">1959-1967</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="clip">Clippings Series, <unitdate calendar="gregorian" era="ce" normal="1942/1961" type="inclusive">1942-1961,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(bulk <unitdate calendar="gregorian" era="ce" normal="1958/1961" type="bulk">1958-1961).</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Consists of four folders of photocopied clippings.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Calgary Civil Defence,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Nuclear War, </subject>
+              <unitdate calendar="gregorian" era="ce" normal="1959/1961" type="inclusive">1959-1961,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>World War II, </subject>
+              <unitdate calendar="gregorian" era="ce" normal="1942/1946" type="inclusive">1942-1946,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1962/1967" type="inclusive">1962-1967</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="misc">Miscellaneous Series, <unitdate calendar="gregorian" era="ce" normal="1945/1967" type="inclusive">1945-1967</unitdate>(bulk <unitdate calendar="gregorian" era="ce" normal="1964/1967" type="bulk">1964-1967).</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes one scrapbook, <title linktype="simple" render="doublequote">Americana and Canadiana,</title> personnel evaluations, and road maps.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">6</container>
+            <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1930/1945" type="inclusive">1930-1945,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1964/1965" type="inclusive">1964-1965</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous: Scrapbook, <title linktype="simple" render="doublequote">Americana and Canadiana,</title><unitdate calendar="gregorian" era="ce" normal="1964/1967" type="inclusive">1964-1967</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="over">OVERSIZE MATERIALS</unittitle>
+        </did>
+        <c02>
+          <did>
+            <unittitle>PRINTED MATERIAL SERIES</unittitle>
+          </did>
+<c03><did><container type="box">7</container>
+              <unittitle><corpname>Royal Air Force, </corpname>photocopied documents, <unitdate calendar="gregorian" era="ce" normal="1918/1919" type="inclusive">1918-1919,</unitdate>Restricted</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Wings,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1941/1974" type="inclusive">1941-1974</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Serials, miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1941/1943" type="inclusive">1941-1943</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+<c03><did><container type="box">7</container>
+              <unittitle>Maps, <corpname>Royal Automobile Club, </corpname><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>CLIPPINGS SERIES </unittitle>
+          </did>
+<c03><did><container type="box">7</container>
+              <unittitle>World War II, <unitdate calendar="gregorian" era="ce" normal="1942/1946" type="inclusive">1942-1946,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>MISCELLANEOUS SERIES </unittitle>
+          </did>
+<c03><did><container type="box">7</container>
+              <unittitle>Scrapbook, <subject>Americana </subject>and <subject>Canadiana, </subject><unitdate calendar="gregorian" era="ce" normal="1964/1967" type="inclusive">1964-1967</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

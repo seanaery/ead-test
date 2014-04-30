@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead> 
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Frank Allan Hanna Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/hannafrank/">hannafrank</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Frank Allan Hanna
+			 Papers, 
+			 <date normal="1920/1965" type="inclusive" era="ce" calendar="gregorian">1920-[ca. 1965]</date></titleproper>
+        <author>Processed by ; machine-readable finding aid
+			 created by: Walt Evans</author>
+      </titlestmt>
+      <publicationstmt>
+        
+        <p><date calendar="gregorian" era="ce"> 2001</date> Duke University. All Rights
+			 Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">002582770</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from
+		  automated markup system. <lb/>Date of source: July 27, 1998
+		  <lb/>Processed by Don Sechler; Finding Aid encoded by Walt
+		  Evans, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, 
+		  <date calendar="gregorian" era="ce">May 21, 2001</date></creation>
+      <langusage>Description is in
+		  <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Frank Allan Hanna Papers)//EN" "hannafrank.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the Frank Allan Hanna
+			 Papers, 
+			 <date calendar="gregorian" era="ce">1920-[ca. 1965]</date></titleproper>
+      <publisher> David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke
+		  University <lb/> Durham, North Carolina 27708-0185 USA
+		  </publisher>
+      
+      <p><date era="ce" calendar="gregorian">(C) 2001</date> Duke University. All Rights
+		  Reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Frank Allan Hanna papers 		  <unitdate calendar="gregorian" era="ce" normal="1920/1965" type="inclusive">1920-[ca. 1965]</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Hanna, Frank Allan, 1907-1978</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>7.50 Linear Feet</extent>
+        <extent>2800 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+      </repository>
+      <physloc label="Location">For current information on
+		  the location of these materials, please consult the
+		  Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Collection is open for research.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p> 
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>   
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p> 
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in this collection have
+			 not been transferred to Duke University. For more
+			 information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Frank Allan Hanna
+			 Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The Frank Allan Hanna Papers were received by
+			 the David M. Rubenstein Rare Book &amp; Manuscript Library
+			 as a gift in 1986.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by Don Sechler</p>
+        <p>Completed July 27, 1998</p>
+	  <p>Encoded by Walt Evans</p>
+        <p>This finding aid is NCEAD compliant.</p>
+      </processinfo>
+    </descgrp>
+    <!-- End of finding aid header -->
+    <bioghist>
+      <head>Biographical Note</head>
+      <p>Economist; professor of economics at Duke
+		  University.</p>
+    </bioghist>
+    <!--End of biohistory--><!--Begin scopecontent-->
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>Primarily professional papers documenting Hanna's
+		  research for the Social Science Research Committee, the
+		  American Statistical Association, the Conference on
+		  Research in Income and Wealth, and other organizations;
+		  subjects include an analysis of census and manufacturing
+		  data, and the distribution of income and wealth. Other
+		  professional papers include general correspondence dated
+		  1948 to 1956, and materials concerning Hanna's book, 
+		<title linktype="simple" render="italic">The Compilation of
+		  Manufacturing Statistics</title>.</p>
+    </scopecontent>
+    <!--End scopecontent--><!--Begin controlaccess--><!-- Note:  <subject>, <persname>, <corpname>, <geogname>, <famname>, <genreform>, <occupation> used where applicable -->
+    <controlaccess>
+      <head>Subject Headings</head>
+      <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p> 
+      <list type="simple">
+        <item>
+          <persname>Hanna, Frank Allan,
+				1907-1978</persname>
+        </item>
+        <item> Hanna, Frank Allan, 1907-1978. 
+			 <title linktype="simple" render="italic">Compilation of
+				manufacturing statistics.</title></item>
+        <item>
+          <corpname>Duke University -- Faculty</corpname>
+        </item>
+        <item>
+          <subject>Economics -- Study and teaching</subject>
+        </item>
+        <item>
+          <subject>United States -- Economic
+				conditions</subject>
+        </item>
+      </list>
+    </controlaccess>
+    <!--End controlaccess--><!--Begin container list--><!-- Sample of possible container list structure, actual markup depends upon the materials being described. --><!-- Use <genreform>, <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent> if needed. -->
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series"><did><unittitle>Accession 11-26-86</unittitle></did>
+        <!--Begin c02 levels here-->
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <unittitle>Contents of Box 1:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Chronological Files and Paid
+					 Bills</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>Contents of Box 2:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Committee Files</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>IRS/Research Files</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <unittitle>Contents of Box 3:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Work Materials: 
+					 <title linktype="simple" render="italic">The Compilation of
+						Manufacturing Statistics</title> and Other
+					 Papers</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <unittitle>Contents of Box 4:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Income Conference
+					 Papers</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">5</container>
+            <unittitle>Contents of Box 5:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Papers: Miscellany</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">6</container>
+            <unittitle>Contents of Box 6:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Excess Work Materials-- 
+					 <title linktype="simple" render="italic">State Income
+						Differentials</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Excess Work Materials-- 
+					 <title linktype="simple" render="italic">The Compilation of
+						Manufacturing Statistics</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Mimeo MS-vol. 9--Wisconsin
+					 Income</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Paid Bill--prior to
+					 1953</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Personal Papers--real estate,
+					 family, etc.</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

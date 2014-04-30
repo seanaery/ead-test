@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead> 
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Albert Rees Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/rees/">rees</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Albert Rees Papers, <date normal="1966/1992" type="inclusive" era="ce" calendar="gregorian">1966-1992</date> and
+			 undated</titleproper>
+        <author>Processed by: Kirk White, Sandeep Mody, and Paula Jeannet
+			 Mangiafico; machine-readable finding aid created by: Paula Jeannet Mangiafico
+			 and Lisa Stark</author>
+      </titlestmt>
+      <publicationstmt>
+        
+        <p><date era="ce" calendar="gregorian"> 2000</date> Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">002448910</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from automated markup
+		  system. <lb/>Date of source: September 20, 1999 <lb/>Processed by Kirk White,
+		  Sandeep Mody, and Paula Jeannet Mangiafico September 20, 1999; Finding Aid
+		  encoded by Paula Jeannet Mangiafico and Lisa Stark, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, 
+		  <date calendar="gregorian" era="ce">July, 2000</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Albert Rees Papers)//EN" "rees.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the Albert Rees Papers, 1966-1992 and
+			 undated</titleproper>
+      <publisher> David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, North Carolina 27708-0185 USA
+		  </publisher>
+      
+      <p><date era="ce" calendar="gregorian">(C) 2000</date> Duke University. All Rights Reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Albert Rees papers 		  <unitdate calendar="gregorian" era="ce" normal="1966/1992" type="inclusive">1966-1992 and undated</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Rees, Albert, 1921-</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>10.5 Linear Feet</extent>
+	  <extent>6300 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname>
+      </repository>
+      <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Portions of the collection are restricted.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p> 
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>   
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p> 
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in this collection have not been transferred
+			 to Duke University. For more information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Albert Rees Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The Albert Rees Papers were received as a gift to the David M. Rubenstein Rare Book &amp; Manuscript Library in 1993.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by Kirk White, Sandeep Mody, and Paula Jeannet
+			 Mangiafico</p>
+        <p>Completed September 20, 1999</p>
+	  <p>Encoded by Paula Jeannet Mangiafico and Lisa Stark</p>
+        <p>This finding aid is NCEAD compliant.</p>
+
+      </processinfo>
+    </descgrp>
+    <!-- End of finding aid header -->
+    <bioghist>
+      <head>Biographical Note</head>
+      <p>Economics professor and administrator at Princeton University. Headed
+		  Gerald Ford's Council on Wage and Price Stability.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>Collection contains correspondence, lectures, writings, and course
+		  notes. There is testimony involving a union dispute. Some correspondence is
+		  divided by name of correspondent.</p>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p> 
+      <list type="simple">
+        <item>
+          <subject>Employment (Economic theory).</subject>
+        </item>
+        <item>
+          <subject>Wages</subject>
+        </item>
+        <item>
+          <subject>Labor unions</subject>
+        </item>
+        <item>
+          <subject>Unemployment-Economic aspects</subject>
+        </item>
+        <item>
+          <geogname>United States-Economic policy</geogname>
+        </item>
+      </list>
+    </controlaccess>
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle>Accession #
+				<unitdate calendar="gregorian" era="ce" normal="0204/1993" type="inclusive">1993-0204</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Access is restricted; for more details, please see the reference
+				staff of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <unittitle>My Reprints</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>United </corpname>Aircraft Case</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Lincoln School</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Nabisco</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>BLS</corpname>—Wage Changes</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Co-ops</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Speech, April 9,
+				  <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate> before the Plans and
+				  Resources Committee</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personal</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>National Institute of Health</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Citibank</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Committee on Prices;
+					 </corpname>correspondence</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Book Reviews</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Negative Income tax</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Testimony before the 
+				  <corpname>House Committee on Govt. Operations
+					 </corpname>(9/17/75)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Biographical information</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personal Correspondence: a-f</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personal Correspondence: g-m</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personal Correspondence: n-r</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personal Correspondence: s</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personal Correspondence: t-z</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Noncash Benefits</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Letter on 
+				  <subject>Welfare Reform</subject></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Recommendations: a-m</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Recommendations: n-z</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Policy Research Workshop in 
+				  <subject>Incomes Policy</subject></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>The James Lecture: 10/8/75</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>NYT Article</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Journal of Political Economy</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Letters to the Editor</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Ed-Op</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><subject>Food Industry </subject>Committee</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Adam Smith </persname>Essay</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>My course notes and grades- Chicago</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Journal refereeing</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Research on 
+				  <subject>Urban Poverty </subject>Conference
+				  <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Tax Based 
+				  <subject>Incomes Policy</subject></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Econ 102 Grades (Fall
+				  <unitdate calendar="gregorian" era="ce" normal="1977" type="inclusive">1977</unitdate>)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Thesis Supervision</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Econ 313: Manpower and 
+				  <subject>Labor </subject>Problems (Spring
+				  <unitdate calendar="gregorian" era="ce" normal="1977" type="inclusive">1977</unitdate>)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Econ 314: Undergrad 
+				  <subject>Labor</subject></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><geogname>USSR </geogname>Trip</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>PA 511-A, 512-A</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Econ 531: Graduate 
+				  <subject>Labor</subject></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Princeton:</corpname><unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964</unitdate> and
+				  before</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Committee on 
+				  <subject>Unemployment </subject>Statistics</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Misc. Students</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Historical Statistics</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Ulman Comment</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Chicago Thesis Supervision</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Econ 300</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Econ 340</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Econ 240</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Econ 203 A, B, C—Old Exams</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Econ 341</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Chicago Departmental
+				  <unitdate calendar="gregorian" era="ce" normal="1955" type="inclusive">1955</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Thesis Correspondence</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Econ 102 (72-73)</unittitle>
+          </did>
+          <scopecontent>
+            <p>Correspondence. Other section from A-H can be found at end of
+				  Box 3.</p>
+          </scopecontent>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>
+              <persname>Ethel Jones</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Robin Kendrick</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Bill Kruskal</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>H.G. Lewis</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Lurie</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Bette Mahoney</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Mansfield</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Denton Marks</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Mulvey</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Oaxaca, Ronald</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Offner</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Pencavel</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>L. Rapping</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Rowlatt</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Dan Saks</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>David Shapiro</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Sharon Smith</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>David Stager</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Jan Svenjnar</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Rita Sweeney</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>George P. Shultz</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>David Taylor</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>A.P. Thirwall</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Joe Ullman</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Kathy Yaeger</persname>
+            </unittitle>
+          </did>
+          <scopecontent>
+            <p>Printed material.</p>
+          </scopecontent>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Economics of Work and Pay,</title>
+				  1973
+				  <title linktype="simple" render="italic"/></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Economics of Work and Pay (Third
+					 Edition),</title>
+              <unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Economics of Work and Pay (Fourth
+					 Edition),</title>
+              <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Faculty Retirement in the Arts and
+					 Sciences,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Real Wages in Manufacturing
+					 1890-1914,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">La influencia economica de los sindicatos
+					 en los Estados Unidos,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><subject><emph><title linktype="simple" render="italic">The Economics of Trade Unions,</title></emph></subject>1962</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Economics of Trade Unions (Revised
+					 Edition),</title>
+              <unitdate calendar="gregorian" era="ce" normal="1977" type="inclusive">1977</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Striking a Balance: Making National
+					 Economic Policy</title> (soft and hard covers),
+				  <unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Economics of Work and Pay (Second
+					 Edition),</title>
+              <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Reflections on Labor and Learning in
+					 America,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <unittitle>
+              <corpname>American Academy of Sciences</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>American Economic Association</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Bethany College</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Brookings</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Center for Economic Development</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Univ. of Chicago </corpname>Press</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Center for Advanced Study</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Harper and Row</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Council on Wage and Price
+					 Stability</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Congressional Budget Office; </corpname>Panel of
+				  Economic Advisers</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Council of Economic Advisers</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Construction Industry Stabilization
+					 Committee</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Coalition of Northeast Governors</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>National Bureau of Economic Research </corpname>(NBER)
+				  (1952-57)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>NBER (1977 and later)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>NBER (1950s and
+				  <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">1960s</unitdate>)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Public Employment Relations
+					 Commission</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Treasury Consultants</subject>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous Government</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous Business Organizations</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>General Learning</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><subject>Prices </subject>and 
+				  <subject>Income</subject></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Foreign</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>University of California</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>University of Chicago</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Cornell</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Northwestern</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Harvard</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>MIT</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Northwestern</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Penn</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Princeton</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Princeton University Press</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Other Publishers</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Rochester</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Rutgers</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Social Science Research Council</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Stanford</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Yale</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Bill Bowen</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Phelps Brown</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Cain</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Comay</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Paul Davidson</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>David Dodge</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Henry Farber</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Randy Filer</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Jack Frisch</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Harry J. Gilman</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Judith Gross</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Christine Greenhalgh</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Gujarati</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Linda Halpern</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>John Ham</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>D. Hershfield</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Barry Hughes</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <unittitle>
+              <corpname>William and Mary</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Drafts of miscellaneous papers</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Faculty Retirement Correspondence</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Mellon</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>News Stories—clippings and copies of
+				  clippings</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Advisory Committee</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Oberlin </corpname>Investment</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Other Studies (misc. research info. and
+				  papers)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Bowen </persname>Book</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Wilson </persname>Thesis</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>National Institutes of Health, </corpname>group
+				  photograph</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Ph.D. Worksheets</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Ph.D. Data </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Injury</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Oberlin</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Mandatory Retirement Project</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Offprints of 
+				  <title linktype="simple" render="italic">Changing Economic Realities and the
+					 Changing Role of Unions</title></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic"/>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Manuscript: 
+				  <title linktype="simple" render="italic">The Economics of Work and Pay (fifth
+					 edition)</title></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">5</container>
+            <unittitle>Recording for the Blind (1) (mss.)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Recording for the Blind (2) (mss.)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Referrals (File #1)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Rees - Ph.D. Paper</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Rutgers</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Sloan Foundation</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Students Letters of Recommendation</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Articles and Publications Reviewed (File #3,
+				  <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Lectures
+				  <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>US Government et al.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Universities</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>William and Mary</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Paper: 
+				  <persname>Ellwood / Summers</persname></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Royalties and Contracts</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Black Youth </subject>
+              <subject>Unemployment</subject>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Douglas </persname>Paper</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Executive Magazine: Strengthening the Market</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Grants Magazine</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>The Conference Board Magazine</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Freeman </persname>/ 
+				  <persname>Medoff's </persname><title linktype="simple" render="italic">What do Unions Do?</title></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Testimony before the 
+				  <corpname>Senate Subcommittee on Employment and Productivity
+					 </corpname>(1982)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Testimony: 
+				  <corpname>Task Force on Science Policy, House
+					 Committee</corpname></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Testimony before subcommittee on 
+				  <subject>Banking</subject></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><subject>Productivity </subject>Statistics</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Manufacturing 
+				  <subject>Unions</subject></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Univ. of Chicago Press</corpname>—Correspondence</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>New Edition: The Economics of Trade 
+				  <subject>Unions</subject></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Striking a Balance</title>:
+				  Reviews</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Albert Rees </persname>/ 
+				  <persname>Daniel Hamermesh: </persname><title linktype="simple" render="italic">Economics of Work and Pay (3rd
+					 edition)</title></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><subject>Youth Unemployment </subject>(Essay on)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Macro Models of 
+				  <subject>Labor Management</subject></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><subject>Philanthropy </subject>Monthly (1984)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Tax Reform</subject>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><subject>Incomes Policy </subject>Session (1980)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Sproull Symposium (1984)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Randy Filer</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Harold Hochman</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Julian Simon</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Hugo Rees </persname>Trust</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Survey Data</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>American U. data</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>LAC- Flows</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>PUU- Age Distributions</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>PRC- Age Distributions</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>LAC- Age Distributions</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Charts and Misc.</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">6</container>
+            <unittitle>Revised Flows</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Eucub Distributions</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Mailing list to participants</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Charts</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>PRU Flows</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>LAU Flows</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>PUU Flows</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>PUC Flows</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>PRC Flows</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>LAU- Age Distributions</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>PUC- Age Distributions</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>PRU- Age Distributions</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Loose material of the same nature as above</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Offprints</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>IRRA</corpname>- (1990)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personal Correspondence (written by Rees)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>AEA </corpname>Meetings (1990)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>AEA </corpname>Session</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Personal</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Bibliography (9 copies of photograph of
+				  Rees)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>AAAS </corpname>Meetings</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>AAAS </corpname>Committee on Investment and
+				  Finance</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">7</container>
+            <unittitle>
+              <corpname>American Economics Association</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><subject>Alaska Fisheries </subject>Case</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>AEA </corpname>Search Committee</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>American Enterprise Institute</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Ad-Hoc 
+				  <corpname>AEA </corpname>Committee on Publishers</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Baruch</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Carnegie Mellon </corpname>(Visiting Committee) School
+				  of Urban and Public Affairs</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Brookings Institution</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Consortium on Financing Higher
+					 Education</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Cornell</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Census Committee</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Advisory Committee: 
+				  <corpname>Center for the Advanced Study in the Behavioral
+					 Sciences</corpname></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>University of Chicago</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Council on Wage and Price
+					 Stability</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <subject>Fringe Benefits</subject>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>International Institute for Applied Systems
+					 Analysis</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Independent Sector</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>IRRA</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Loran Commission</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Math Tech</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Michigan State</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Mincer </persname>Paper</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Clark Kerr </persname>paper</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>University of Minnesota</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>MIT</corpname>—General Correspondence</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Misc. Organizations</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Mathematica Policy Research</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>MIT</corpname>—Corporation Visiting Committee Dept,
+				  Of Economics</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>National Research Council Committee on National
+					 Statistics </corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>National Research Council</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Nabisco </corpname>Brands</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>National Institute of Health</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>National Bureau of Economic
+					 Research</corpname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>New York State Doctoral Project</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Oberlin College </corpname>Board of
+				  Trustees</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Oberlin College </corpname>Commencement
+				  <unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Princeton</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1978/1979" type="inclusive">1978-79</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Princeton</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

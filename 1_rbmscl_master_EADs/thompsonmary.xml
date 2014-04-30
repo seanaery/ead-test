@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+	 <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Mary McCornack Thompson Papers, 1887-1962)//EN" url="http://library.duke.edu/rubenstein/findingaids/thompsonmary/">thompsonmary</eadid>
+
+	 <filedesc>
+		<titlestmt>
+		  <titleproper>Guide to the Mary McCornack Thompson Diaries,
+			 <date normal="1887/1962" era="ce" calendar="gregorian">1887-1962</date> </titleproper>
+		  <author>Processed by: Loren Crippin; machine-readable finding aid
+			 created by: Loren Crippin</author>
+		</titlestmt>
+		<publicationstmt>
+		  <publisher><lb/>David M. Rubenstein Rare Book &amp; Manuscript Library
+			 <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+		  <p>
+			 <date normal="2006" encodinganalog="date" era="ce" calendar="gregorian"> 2006</date> Duke
+			 University. All rights reserved.</p>
+		</publicationstmt>
+		<notestmt>
+		  <note><p>Aleph Number: <num type="aleph">003450725</num></p></note></notestmt>
+	 </filedesc>
+	 <profiledesc>
+		<creation>Machine-readable finding aid derived from XML authoring
+		  program.<lb/>
+		  <date era="ce" calendar="gregorian">Date of source: </date><lb/>Processed by Loren Crippin; finding
+		  aid encoded by Loren Crippin, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University
+		  <date era="ce" calendar="gregorian"/> </creation>
+		<langusage>Description is in <language langcode="eng">English</language>
+		  </langusage>
+		<descrules>Finding aid was prepared using
+		  <title linktype="simple">DACS</title> and local
+		  <title linktype="simple">Style Guide</title></descrules>
+	 </profiledesc>
+<!-- Location of <revisiondesc> if needed -->
+  </eadheader>
+  <frontmatter>
+	 <titlepage>
+		<titleproper>Guide to the Mary McCornack Thompson Diaries,
+		  <date type="span" era="ce" calendar="gregorian">1887-1962</date> </titleproper>
+		<publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/>
+		   <lb/>Duke University <lb/> Durham,
+		  North Carolina 27708-0185 USA </publisher>
+		<p>
+		  <date normal="2006" era="ce" calendar="gregorian"> 2006</date> Duke University. All rights
+		  reserved.</p>
+	 </titlepage>
+  </frontmatter>
+  <archdesc level="collection" relatedencoding="MARC">
+	 <did>
+		<head>Descriptive Summary</head>
+		<repository label="Repository">
+		  <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname></repository>
+		<origination label="Creator">
+		  <persname encodinganalog="100">Thompson, Mary
+			 McCornack</persname></origination>
+		<unittitle label="Title" encodinganalog="245">Mary McCornack Thompson
+		  Diaries 		  <unitdate normal="1887/1962" type="inclusive" era="ce" calendar="gregorian">1887-1962</unitdate>
+		  </unittitle>
+		<langmaterial label="Language of Material" encodinganalog="546">Material
+		  in <language langcode="eng"> English</language> </langmaterial>
+		<physdesc label="Extent"><extent unit="linear feet" encodinganalog="300">2.4 Linear Feet</extent><lb/><extent unit="items">96		  Items</extent> </physdesc>
+		<physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+		<abstract label="Abstract" encodinganalog="545">Mary McCornack Thompson
+		  was an American Presbyterian missionary who spent over forty years (1889-1932)
+		  traveling and teaching in South Africa and Rhodesia.</abstract>
+		<abstract encodinganalog="520">The collection contains diaries, and a few
+		  letters. Main subjects are missionary life and travel in Africa. Materials
+		  range in date between 1887-1962.</abstract>
+	 </did>
+
+	 <descgrp type="admininfo">
+		<head>Administrative Information</head>
+		
+<altformavail type="digitalcollection">
+<head>Online Items</head>
+<p>Images from this collection are available in the <extref href="http://library.duke.edu/digitalcollections/womenstraveldiaries/" linktype="simple">Women's Travel Diaries - Duke Digital Collections</extref>.</p>
+</altformavail>
+		
+		
+		<accessrestrict encodinganalog="506">
+		  <head>Access Restrictions</head>
+		  <p>Collection is open for research.</p>
+		  <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+		  <p>All or portions of this collection may be housed off-site in
+			 Duke University's Library Service Center. There may be a 48-hour
+			 delay in obtaining these materials.</p>
+		  <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+		</accessrestrict>
+		<userestrict encodinganalog="540">
+		  <head>Copyright Notice</head>
+		  <p>The copyright interests in this collection have not been transferred
+			 to Duke University. For more information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+		</userestrict>
+		<prefercite>
+		  <head>Preferred Citation</head>
+		  <p>[Identification of item], Mary McCornack Thompson Diaries, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+		</prefercite>
+		<acqinfo encodinganalog="541">
+		  <head>Provenance</head>
+		  <p>The Mary McCornack Thompson Diaries were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a gift in 2004. </p>
+		</acqinfo>
+		<custodhist>
+		  <p>Originally, the papers of Mary McCornack Thompson were at Oberlin
+			 College, but were reacquired by the family at an unknown date.</p>
+		</custodhist>
+		<processinfo>
+		  <head>Processing Information</head>
+		  <p>Processed by Loren Crippin</p>
+		  <p>Encoded by Loren Crippin</p>
+		  <p>Completed October 30, 2006</p>
+		  <p>Accessions 2005-0019, 2005-0020 were merged into one collection,
+			 described in this finding aid.</p>
+		  <p>Descriptive sources and standards used to create this inventory:
+		  <title render="italic" linktype="simple">DACS,</title> EAD, NCEAD guidelines, and local
+		  <title render="italic" linktype="simple">Style Guide.</title></p>
+
+		</processinfo>
+	 </descgrp>
+
+<!--end of finding aid header-->
+	 <bioghist>
+		<head>Biographical Note</head>
+<!--use "Historical Note" for organizational records.-->
+		<chronlist>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1858 Mar. 30</date>
+			 <event>
+				<persname>Mary Elizabeth McCornack</persname> born</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">Circa 1879</date>
+			 <event>Graduated from Oberlin College, in Ohio</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1889</date>
+			 <event>Enlisted in the missionary service, and sent to the mission
+				station at
+				<geogname>Esidumbi</geogname>,
+				<geogname>South Africa</geogname> by the American Board of
+				Commissioners for Foreign Missions</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1889 June 1</date>
+			 <event> Left New York for first missionary trip to Africa, via London
+				and Portugal</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1889 July 12</date>
+			 <event>Arrived in Cape Town,
+				<geogname>South Africa</geogname></event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1893 June 14</date>
+			 <event>Married to Dr.
+				<persname>William Lamarcus Thompson</persname> in South
+				Africa</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1893 Oct. 19</date>
+			 <event>Traveled by boat and foot for four months to a new mission at
+				<geogname>Mount Selinda</geogname>,
+				<geogname>Rhodesia</geogname> (Zimbabwe)</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1899 Jan. 9</date>
+			 <event>Left the mission for New York, via Durban</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1899-1901</date>
+			 <event>In the United States</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1901 Apr.-1910 July</date>
+			 <event>Second missionary trip to
+				<geogname>Mount Selinda</geogname>, Rhodesia</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1910-1911</date>
+			 <event>Attended church/missionary business meetings in the US (New
+				York, and Cleveland)</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1911 Sept. 15</date>
+			 <event>Left from Boston for third missionary trip to Mount Selinda,
+				Rhodesia via Liverpool, and London</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1912 Mar. 17</date>
+			 <event>Arrived at Mount Selinda mission</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1917 Apr.</date>
+			 <event>Left the mission for the Far East</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1917 May</date>
+			 <event>Traveled to Hong Kong, Kobe, Kyoto, and Yokohama</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1917 June</date>
+			 <event>Traveled to Victoria, Canada, then south to Seattle, Portland
+				and Chicago attending meetings</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1919 Jan.-1925 June</date>
+			 <event>Fourth missionary trip to Mount Selinda, Rhodesia</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1926 Sept.-1932 June</date>
+			 <event>Fifth (and last) missionary trip to Mount Selinda,
+				Rhodesia</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1932</date>
+			 <event>Retired from mission work after 43 years</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1936 Mar. 10</date>
+			 <event>Died in Penny Farms, Florida at the age of 77</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1947 Jan. 4</date>
+			 <event>William Lamarcus Thompson died in St. Cloud, Florida at the
+				age of 89</event>
+		  </chronitem>
+		</chronlist>
+
+
+	 </bioghist>
+<!--End of biohistory-->
+<!--Begin scopecontent-->
+	 <scopecontent>
+		<head>Collection Overview</head>
+		<p>The
+		  <persname>Mary McCornack Thompson</persname> Diaries date from 1887 to
+		  1962 and are arranged into two series: <emph render="bold">Diaries</emph> and
+		  <emph render="bold">Correspondence</emph>. The bulk of the collection consists
+		  of 90 journals that contain detailed accounts of Mary McCornack Thompson's work
+		  as a
+		  <subject>Presbyterian missionary</subject> and teacher with the
+		  <corpname>American Board of Commissioners for Foreign
+			 Missions</corpname> in South Africa. During her 43 years as a missionary
+		  Thompson worked briefly at the mission station at
+		  <geogname>Esidumbi</geogname> in
+		  <geogname>South Africa</geogname>, but she spent most of her time at
+		  the
+		  <geogname>Mount Selinda</geogname> mission in the
+		  <geogname>Melsetter</geogname> region of
+		  <geogname>Rhodesia</geogname> (
+		  <geogname>Zimbabwe</geogname>). In the diaries, Thompson wrote of her
+		  daily activities as a missionary, including building and expanding the mission,
+		  encounters with locals, learning
+		  <subject>Zulu</subject>, wildlife, meeting other missionaries, teaching
+		  and praying. These detailed entries offer a glimpse into the social conditions,
+
+		  <subject>race relations</subject>, and
+		  <subject>native cultures</subject> of various South African regions.
+		  Thompson also recounts her many travels throughout Africa, Europe, Asia, the
+		  United States, and Canada. Included in the collection is one folder of
+		  correspondence, mainly from William L. Thompson (Thompson's husband) regarding
+		  the collection and the transfer of Mary's diaries to Oberlin College.</p>
+		<p> The <emph render="bold">Diaries Series</emph> documents Thompson's
+		  almost daily activities between the years of 1887-1933, spanning all five of
+		  her
+		  <subject>missionary trips</subject> to Africa. Volumes 1-6 describe her
+		  first missionary trip (1887-1899), detailing her preparations for travel to
+		  Africa, her arrival, and her first encounters with
+		  <subject>native Africans</subject>. During this time Thompson married
+		  another missionary,
+		  <persname>William L. Thompson</persname>, and together they traveled
+		  for four months, mostly on foot, from
+		  <subject>South Africa</subject> to Rhodesia (Zimbabwe). They settled at
+
+		  <subject>Mount Selinda</subject>, which would be their home in Africa
+		  for the next forty years. Volumes 6-8 describe Mary Thompson's visits to the
+		  United States between her missionary trips, including taking cooking and
+		  photography classes, and traveling around the U.S. </p>
+		<p>Volumes 8-35 detail her second trip to Africa (1901-1910), during
+		  which time the mission at Mount Selinda began to expand rapidly. Thompson often
+		  writes about elections at the mission, as well as prayer services and sermons.
+		  She occasionally mentions world events such as the explosion of Mt. Pelee in
+		  Martinique, the Russian Revolution, and the detention of Queen Wilhelmina of
+		  Holland. She also describes her experiences with local natives who teach her
+		  the Zulu language. Volumes 35-40 cover Thompson's trip back to the United
+		  States in 1910. She describes lectures and meetings, and discussions on the
+		  outbreak of World War I. Her diary entries become less frequent during her stay
+		  in the United States. </p>
+		<p>Volumes 40-57 span her third trip to Africa (1911-1917), and entries
+		  tend to be bit longer and more descriptive. On this trip volumes 44-49 were
+		  written in diary volumes entitled "Warriors of Africa," whose covers depict
+		  African natives, and volumes 52-55 in volumes bearing the title "Empire
+		  Exercise," portraying historical events. Volumes 57 and 58 describe Thompson's
+		  travels during 1916-17 (at the height of World War I) to Hong Kong, Japan,
+		  Canada, and the U.S. Volumes 59-60 recount her time back in the United States;
+		  much of the content revolves around religious and political meetings on
+		  <subject>World War I</subject>, and the
+		  <subject>1918 U.S. midterm elections.</subject>.</p>
+		<p>Volumes 61-77 detail her fourth trip to Africa (1919-1925), and
+		  volumes 78-89 her fifth and last trip to Africa (1926-1932). Volume 80 does not
+		  begin until page 92, and is filled with various writing; some entries appear to
+		  be copies of diaries of historical figures. The diary entitled "Notes on Work
+		  at Moody Bible Institute" contains lecture notes, thoughts, scripture
+		  quotations, and observations by Thompson while attending a higher-education
+		  Christian organization,
+		  <corpname>Moody Bible Institute</corpname>, in
+		  <geogname>Chicago</geogname> in 1918, between her third and fourth
+		  missionary trips to Africa.</p>
+		<p>The <emph render="bold">Correspondence Series</emph> contains six
+		  letters regarding the collection and transfer of Mary McCornack Thompson's
+		  diaries after her death in 1936. The first five letters are from by William L.
+		  Thompson (Thompson's husband), to his nieces Margaret and Jay Urice, who are
+		  locating and collecting Mary's diaries. The sixth letter is from Jay Urice to
+		  Mr. Julian Fowler, a librarian at Oberlin College, about having Mary's diaries
+		  sent to Oberlin.</p>
+	 </scopecontent><!--End scopecontent-->
+<!--Begin controlaccess-->
+	 <controlaccess>
+		<head>Subject Headings</head>
+		<p>These are searchable subject entries for this collection. Performing a
+		  search on these subjects in the Duke University Libraries online catalog will
+		  bring up other related research materials.</p>
+		<list type="simple">
+<!-- Note:  <subject encodinganalog="650" source="lcsh">, <persname encodinganalog="600" source="lcnaf">, <corpname encodinganalog="610">, <geogname encodinganalog="651" source="lcsh">, <famname encodinganalog="600" source="lcnaf">, <genreform encodinganalog="655" source="aat"> or <genreform encodinganalog="655" source="gmgpc">, <title encodinganalog="630" source="lcsh"> used where applicable -->
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Africa -- Church
+				history</geogname>.</item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Africa -- Description and
+				travel</geogname>.</item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Africa -- Ethnic
+				relations</geogname>.</item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Africa -- Race
+				relations</geogname>.</item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Africa -- Religion</geogname>.</item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Africa,
+				Southern -- Languages</geogname>.</item>
+		  <item>
+			 <corpname encodinganalog="610" source="lcnaf">American Board of
+				Commissioners for Foreign Missions -- Africa, Southern</corpname>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Diaries -- Travel</subject>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Diaries -- Women
+				authors</subject>.</item>
+		  <item>
+			 <geogname>Melsetter (Zimbabwe)--History</geogname>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Missionaries -- Africa -- Biography</subject>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Missionaries -- Africa -- Diaries</subject>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Missionaries -- Africa,
+				Southern -- Biography</subject>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Missionaries -- South
+				Africa -- 19th century</subject>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Missionaries -- South
+				Africa -- Biography</subject>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Missionaries -- Zimbabwe -- Biography</subject>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Missionary
+				settlements</subject>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Missions -- Africa -- 19th
+				century</subject>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Missions -- Africa,
+				Southern</subject>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Missions -- Africa,
+				Sub-Saharan</subject>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Missions -- Rhodesia</subject>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Missions -- Zimbabwe</subject>.</item>
+		  <item>
+			 <corpname encodinganalog="610" source="lcnaf">Moody Bible
+				Institute</corpname>.</item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Mount
+				Selinda</geogname>.</item>
+
+<item><corpname source="lcsh" encodinganalog="610">Mount Silinda Mission (Zimbabwe)</corpname></item>
+		  <item>
+			 <corpname>Oberlin College -- Alumni and alumnae</corpname>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Presbyterian
+				Church -- Missions</subject>.</item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Rhodesia and
+				Nyasaland -- Native races</geogname>.</item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Rhodesia and
+				Nyasaland -- Description and travel</geogname>.</item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Rhodesia and
+				Nyasaland -- History</geogname>.</item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Rhodesia and
+				Nyasaland -- Race relations</geogname>.</item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Rhodesia and
+				Nyasaland -- Social conditions</geogname>.</item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Thompson, Mary
+				McCornack</persname>.</item>
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Thompson, William L.
+				(William Lamarcus)</persname>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Women
+				missionaries -- Africa -- Personal narratives</subject>. </item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Women missionaries -- South
+				Africa</subject>.</item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Women
+				missionaries -- United States -- Diaries</subject>.</item>
+		  <item>
+			 <geogname source="lcsh" encodinganalog="651">Zimbabwe -- Missions</geogname>.</item>
+		  <item>
+			 <genreform source="aat" encodinganalog="655">Diaries</genreform>.</item>
+		</list>
+	 </controlaccess>
+
+	 <dsc type="combined">
+		<head>Contents of Collection</head>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Diaries Series,
+				<unitdate type="inclusive" normal="1887/1933" era="ce" calendar="gregorian">1887-1933</unitdate></unittitle>
+			 <physdesc><extent>(6 Boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Contains 90 diaries maintained by Mary McCornack Thompson during
+				her time as a Presbyterian missionary in
+				<geogname>Africa</geogname>, documenting in great detail her daily
+				life and work. The diaries provide a revealing look at daily
+				<subject>missionary life</subject> in
+				<geogname>Africa</geogname> (attending meetings, prayers, teaching
+				classes), thoughts on scripture, weather, friends and other missionaries, daily
+				chores (sewing, baking, gardening), brief glimpses of the culture and customs
+				of the local Africans, as well as descriptions of her travels throughout the
+				world, and encounters with friends and fellow missionaries. She also notes her
+				thoughts about world events such as the Russian Revolution and
+				<subject>World War I</subject>. Throughout the diaries she
+				describes her travels across Africa, the Middle East, the United States,
+				Canada, Europe, and the Far East. The entries are very matter-of-fact,
+				describing situations, people, and events, but containing little introspection
+				about how she feels. The journals are arranged by chronological volume numbers
+				given by the author. Many small groups of loose materials were found laid into
+				the beginning or end of the journals; these materials have been left in the
+				journals; some of these items appear to be unrelated to the journals in which
+				they were found.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">1</container>
+				<unittitle>Vol. 1:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1887 Sept. 13-1889 July
+					 16</unitdate></unittitle>
+			 </did>
+			 <scopecontent>
+				<p>Contains an unbound journal and a loose photograph.</p>
+			 </scopecontent>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 2:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1893 Jan. 1-Apr.
+					 21</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 3:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1893 June 14-Oct.
+					 19</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 4:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1893 Oct. 19-Dec.
+					 18</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 5:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1894 July 24-Sept.
+					 24</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 6:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1899 Jan. 1-Feb.
+					 16</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 6.5:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1900 Jan. 1-Dec.
+					 31</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 7:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1901 Jan. 1-Apr.
+					 20</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 8:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1901 Apr. 21-June
+					 21</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 9:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1901 Oct. 1-Dec.
+					 31</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 10:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1902 Jan. 1-Mar.
+					 22</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 11:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1902 Mar. 23-June
+					 22</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 12:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1902 June 28-Oct.
+					 2</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 13:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1902 Oct. 3-Dec.
+					 30</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 14:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1903 Jan. 1-May
+					 2</unitdate></unittitle>
+			 </did>
+			 <scopecontent>
+				<p>Contains loose drawings and pictures.</p>
+			 </scopecontent>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">2</container>
+				<unittitle>Vol. 15:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1903 May 4-Sept.
+					 25</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 16:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1903 Sept. 26-1904 Jan.
+					 9</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 17:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1904 Jan. 9-Mar.
+					 29</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 18:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1904 Mar. 30-June
+					 16</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 19:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1904 June 18-Sept.
+					 19</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 20:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1904 Sept. 20-Dec.
+					 19</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 21:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1904 Dec. 10-1905 Apr.
+					 4</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 22:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1905 Apr. 4-July
+					 26</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 23:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1905 July 27-Dec.
+					 31</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 24:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1906 Jan. 1-Apr.
+					 9</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 25:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1906 Apr. 19-Aug.
+					 16</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 26:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1906 Aug. 17-Dec.
+					 31</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 27:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1907 Jan. 1-Mar.
+					 31</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 28:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1907 Apr. 1-July
+					 29</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 29:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1907 July 30-Dec.
+					 31</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 30:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1908 Jan. 1-Dec.
+					 31</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 31:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1909 Jan. 1-May
+					 11</unitdate></unittitle>
+			 </did>
+			 <scopecontent>
+				<p>Contains loose drawings.</p>
+			 </scopecontent>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">3</container>
+				<unittitle>Vol. 32:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1909 May 12-Sept.
+					 2</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 33:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1909 Sept. 3-1910 Jan.
+					 26</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 34:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1910 Jan. 27-Jun.
+					 27</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 35:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1910 July 19-Aug.
+					 22</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 36:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1910 Aug. 22-Oct.
+					 9</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 37:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1910 Oct. 9-1911 Feb.
+					 4</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 38:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1911 Feb. 6-May
+					 24</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 39:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1911 May 30-Aug.
+					 28</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 40:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1911 Sept. 12-1912 Feb.
+					 12</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 41:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1912 Feb. 13-Dec.
+					 31</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 42:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1913 Jan. 1-May
+					 2</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 43:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1913 May 3-Aug.
+					 25</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 44:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1913 Aug. 26-1914 Jan.
+					 2</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 45:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1914 Jan. 4-Apr.
+					 8</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 46:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1914 Apr. 9-June
+					 20</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 47:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1914 June 21-Oct.
+					 31</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 48:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1914 Nov. 1-1915 Feb.
+					 9</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 49:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1915 Feb. 12-May
+					 11</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">4</container>
+				<unittitle>Vol. 50:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1915 May 11-July
+					 17</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 51:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1915 July 18-Aug.
+					 12</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 52:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1915 Aug. 13-Oct.
+					 21</unitdate></unittitle>
+			 </did>
+			 <scopecontent>
+				<p>Contains a map of South Africa.</p>
+			 </scopecontent>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 53:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1915 Oct. 22-1916 Jan.
+					 5</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 54:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1916 Jan. 6-Mar.
+					 31</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 55:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1916 Apr. 1-June
+					 2</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 56:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1916 June 3-Sept.
+					 30</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 57:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1916 Oct. 1-1917 June
+					 13</unitdate></unittitle>
+			 </did>
+			 <scopecontent>
+				<p>Contains postcards, and loose pressed plants.</p>
+			 </scopecontent>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 58:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1917 June 14-Oct.
+					 16</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 59:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1917 Oct. 17-1918 Jan.
+					 12</unitdate></unittitle>
+			 </did>
+			 <scopecontent>
+				<p>Contains newspaper clippings.</p>
+			 </scopecontent>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 60:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1918 Jan. 14-July
+					 15</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 61:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1918 July 16-1919 Feb.
+					 13</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 62:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1919 Feb. 14-1920 Apr.
+					 4</unitdate></unittitle>
+			 </did>
+			 <scopecontent>
+				<p>Contains order form for WW I combat map.</p>
+			 </scopecontent>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 63:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1920 Apr. 5-Nov.
+					 6</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">5</container>
+				<unittitle>Vol. 64:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1920 Nov. 7-1921 Jan.
+					 4</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 65:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1921 Jan. 4-Apr.
+					 21</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 66:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1921 May 1-Aug.
+					 20</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 67:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1921 Aug. 20-Dec.
+					 28</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 68:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1921 Dec. 29-1922 Mar.
+					 25</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 69:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1922 Mar. 25-June
+					 19</unitdate></unittitle>
+			 </did>
+			 <scopecontent>
+				<p>Contains letters, and a photograph of a child.</p>
+			 </scopecontent>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 70:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1922 June 20-Aug.
+					 30</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 71:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1922 Aug. 30-Nov.
+					 4</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 72:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1922 Nov. 6-1923 Jan.
+					 18</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 73:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1923 Jan. 19-Apr.
+					 27</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 74:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1923 Apr. 27-July
+					 8</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 75:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1923 July 8-Nov.
+					 12</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 76:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1923 Nov. 13-1924 Feb.
+					 2</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 77:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1924 Feb. 2-1926 May
+					 12</unitdate></unittitle>
+			 </did>
+			 <scopecontent>
+				<p>Contains a map of Baptist Missions in Africa (Belgian Congo),
+				  animal cutouts, stamps and letters.</p>
+			 </scopecontent>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 78:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1926 May 13-1927 Feb.
+					 10</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 79:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1927 Feb. 11-May
+					 13</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 80:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1927 May. 13-Oct.
+					 28</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 81:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1927 Oct. 31-1928 Jan.
+					 18</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">6</container>
+				<unittitle>Vol. 82:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1928 Jan. 19-Dec.
+					 31</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 83:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1929 Jan. 1-1930 Jan.
+					 23</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 84:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1930 Jan. 25-Sept.
+					 7</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 85:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1930 Sept. 8-1931 Apr.
+					 7</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 86:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1931 Apr. 7-Oct.
+					 29</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 87:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1931 Oct. 30-1932 July
+					 18</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 88:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1932 July 16-1933 Jan.
+					 31</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Vol. 89:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1933 Feb. 1-Nov.
+					 24</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Notes On Work at Moody Bible Institute,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">circa 1918</unitdate></unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Correspondence Series,
+				<unitdate type="inclusive" normal="1944/1962" era="ce" calendar="gregorian">1944-1962</unitdate></unittitle>
+			 <physdesc><extent>(1 folder)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Contains six letters regarding the collection and transfer of Mary
+				McCornack Thompson's diaries after her death in 1936. The first five letters
+				are by Mr. William L. Thompson (Mary's husband) to his nieces Margaret and Jay
+				Urice, who are locating and collecting Mary's diaries. The letters are all
+				handwritten, with some typed copies. The sixth letter is from Jay Urice to Mr.
+				Julian Fowler, a librarian at Oberlin College, about having Mary's diaries sent
+				to Oberlin. Arranged chronologically.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">6</container>
+				<unittitle>Correspondence:
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1944 Aug. 19-1962 Aug.
+					 3</unitdate></unittitle>
+			 </did>
+		  </c02>
+		</c01>
+	 </dsc>
+  </archdesc>
+</ead>

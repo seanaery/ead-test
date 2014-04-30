@@ -1,0 +1,1833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+	 <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Stephen C. Harward Papers, 1963-1975)//EN" url="http://library.duke.edu/rubenstein/findingaids/harwardstephen/">harwardstephen</eadid>
+	 <filedesc>
+		<titlestmt>
+		  <titleproper>Guide to the Stephen C. Harward Papers,
+			 <date normal="1949/1975" era="ce" calendar="gregorian">1949-1975 and undated,</date> bulk
+			 <date normal="1963/1975" type="bulk" era="ce" calendar="gregorian">1963-1975</date> </titleproper>
+		  <author>Processed by: Alexander Ruch; machine-readable finding aid
+			 created by: Alexander Ruch</author>
+		</titlestmt>
+		<publicationstmt>
+		  <publisher><lb/>David M. Rubenstein Rare Book &amp; Manuscript Library
+			 <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+		  <p>
+			 <date normal="2007" encodinganalog="date" era="ce" calendar="gregorian"> 2007</date> Duke
+			 University. All Rights Reserved.</p>
+		</publicationstmt>
+		<notestmt>
+		  <note><p>Aleph Number: <num type="aleph">003077740</num></p></note></notestmt>
+	 </filedesc>
+	 <profiledesc>
+		<creation>Machine-readable finding aid derived from XML authoring
+		  program.<lb/>
+		  <date era="ce" calendar="gregorian">Date of source: May 2007</date><lb/>Processed by Alexander Ruch,
+		  May 2007; Finding Aid encoded by Alexander Ruch, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University,
+		  <date era="ce" calendar="gregorian">May 2007</date> </creation>
+		<langusage>Description is in <language langcode="eng">English</language>
+		  </langusage>
+		<descrules>Finding aid was prepared using
+		  <title linktype="simple">DACS</title> and local
+		  <title linktype="simple">Style Guide</title></descrules>
+	 </profiledesc>
+<!-- Location of <revisiondesc> if needed -->
+  </eadheader>
+  <frontmatter>
+	 <titlepage>
+		<titleproper>Guide to the Stephen C. Harward Papers,
+		  <date type="span" era="ce" calendar="gregorian">1949-1975 and undated</date>, bulk
+		  <date era="ce" calendar="gregorian">1963-1975</date></titleproper>
+		<publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/>
+		   <lb/>Duke University <lb/> Durham,
+		  North Carolina 27708-0185 USA </publisher>
+		<p>
+		  <date normal="2007" era="ce" calendar="gregorian"> 2007</date> Duke University. All Rights
+		  Reserved.</p>
+	 </titlepage>
+  </frontmatter>
+  <archdesc level="collection" relatedencoding="MARC">
+	 <did>
+		<head>Descriptive Summary</head>
+		<repository label="Repository">
+		  <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname></repository>
+		<origination label="Creator">
+		  <persname encodinganalog="100">Harward, S. C. (Stephen C.)</persname></origination>
+		<unittitle label="Title" encodinganalog="245">Stephen C. Harward papers 		  <unitdate normal="1949/1975" type="inclusive" era="ce" calendar="gregorian">1949-1975 and
+			 undated, bulk 1963-1975</unitdate></unittitle>
+		<langmaterial label="Language of Material" encodinganalog="546">Material
+		  in<language langcode="eng"> English</language> </langmaterial>
+		<physdesc label="Extent"> <extent unit="linear feet" encodinganalog="300">10.5 Linear Feet</extent><lb/> <extent unit="items">Circa 4000		  Items</extent> </physdesc>
+		<physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+		<abstract label="Abstract" encodinganalog="545">Stephen Cannada Harward
+		  served on the Durham City School Board for 12 years in the 1960s and
+		  1970s. During this time, the Durham city and county school districts were
+		  desegregated following a series of court mandates beginning in 1963.</abstract>
+
+		<abstract encodinganalog="520">The collection contains memos, bulletins,
+		  reports, evaluations, minutes, agendas, educational and administrative guides
+		  and handbooks, court documents, financial statements and budgets,
+		  correspondence, clippings, printed materials, and maps pertaining to the
+		  activity of the Durham City School Board. The papers span the years 1949-1975
+		  and document the daily workings of the Durham City School Board chiefly between
+		  the years 1963 and 1975, with a special focus on the process of desegregation
+		  during that time. It contains no personal papers of Stephen C.
+		  Harward.</abstract>
+	 </did>
+	 <descgrp type="admininfo">
+		<head>Administrative Information</head>
+		<accessrestrict encodinganalog="506">
+		  <head>Access Restrictions</head>
+		  <p>Collection is open for research.</p>
+		  <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+		  <p>All or portions of this collection may be housed off-site in
+			 Duke University's Library Service Center. There may be a 48-hour
+			 delay in obtaining these materials.</p>
+		  <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+		</accessrestrict>
+		<userestrict encodinganalog="540">
+		  <head>Copyright Notice</head>
+		  <p>The copyright interests in this collection have not been transferred
+			 to Duke University. For more information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+		</userestrict>
+		<prefercite>
+		  <head>Preferred Citation</head>
+		  <p>[Identification of item], Stephen C. Harward Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</p>
+		</prefercite>
+		<acqinfo encodinganalog="541">
+		  <head>Provenance</head>
+		  <p>The Stephen C. Harward Papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a gift in 2003. </p>
+		</acqinfo>
+		<processinfo>
+		  <head>Processing Information</head>
+		  <p>Processed by Alexander Ruch, May 2007</p>
+		  <p>Encoded by Alexander Ruch</p>
+		  <p>Completed May 2007</p>
+		  <p>Accession 2003-0129 is described in this finding aid.</p>
+		  <p>Descriptive sources and standards used to create this inventory:
+		  <title render="italic" linktype="simple">DACS,</title> EAD, NCEAD guidelines, and local
+		  <title render="italic" linktype="simple">Style Guide.</title></p>
+
+		</processinfo>
+	 </descgrp>
+
+<!--end of finding aid header-->
+	 <bioghist>
+		<head>Biographical Note</head>
+		<chronlist>
+		  <head>Chronology List</head>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1922</date>
+			 <event>Stephen Cannada Harward born</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1960</date>
+			 <event>Actions
+				<title render="italic" linktype="simple">Wheeler v. Durham City Board of
+				  Education</title> and
+				<title render="italic" linktype="simple">Spaulding v. Durham City Board of
+				  Education</title> filed for disestablishment of separate segregated school
+				systems in the Durham city school system </event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1963</date>
+			 <eventgrp>
+				<event>Action
+				  <title render="italic" linktype="simple">Thompson v. Durham County Board of
+					 Education</title> filed for desegregation of Durham County Administrative
+				  School Unit </event>
+				<event>Wheeler, Spaulding, and Thompson suits consolidated</event>
+				<event>Federal court ordered Durham city schools to adopt
+				  freedom-of-choice desegregation plan</event>
+			 </eventgrp>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1963-1975</date>
+			 <event>Harward served on Durham City School Board</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1965</date>
+			 <eventgrp>
+				<event> Elementary and Secondary Education Act passed as part of
+				  President Johnson's "War on Poverty"</event>
+				<event>Durham County schools began desegregation under
+				  freedom-of-choice plan</event>
+			 </eventgrp>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1966</date>
+			 <event>Court approved Durham City School Board freedom-of-choice
+				plan</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1969</date>
+			 <event>Following
+				<title render="italic" linktype="simple">Green v. School Board of New Kent
+				  County</title> and
+				<title render="italic" linktype="simple">Alexander v. Holmes County Board of
+				  Education</title> decisions, the Federal Court of Appeals directed the
+				abandonment of freedom-of-choice plan and the implementation of a geographic
+				zoning plan for desegregation of Durham County schools</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1970</date>
+			 <event>The corresponding mandate was made for Durham city
+				schools</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1971</date>
+			 <event>Proposed merger of Durham city and county school systems
+				rejected by two-thirds majority</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1972-1974</date>
+			 <event>Harward served as Duke University Treasurer</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1992</date>
+			 <event>Durham city and county school districts merged into Durham
+				Public School district</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1993</date>
+			 <event>Death of Harward</event>
+		  </chronitem>
+		</chronlist>
+	 </bioghist>
+
+<!--End of biohistory-->
+<!--Begin scopecontent-->
+	 <scopecontent>
+		<head>Collection Overview</head>
+		<p>The Stephen C. Harward Papers span the
+		  years 1949-1975, with the bulk of the material dating from 1963-1975. The
+		  collection contains approximately 300 files stemming from the activities of the
+		  <corpname>Durham City School Board</corpname> (North Carolina), including audit reports,
+		  budgets, financial records, agendas, external and internal evaluations,
+		  teachers' manuals, and education policy materials, as well as court and other
+		  documents related to the redistricting and desegregation of the Durham city
+		  schools. Beyond the daily workings of the Durham City School Board and the
+		  Durham city school system are also materials documenting the use of funds
+		  stemming from the
+		  <subject>Elementary and Secondary Education Act</subject> of 1965
+		  (ESEA), which was later renamed and revised as the
+		  <subject>No Child Left Behind Act</subject> of 2001, and materials
+		  related to concerns about student discipline and unrest during the late 1960s.
+		  The collection is divided into six series: <emph render="bold">Desegregation
+		  and Redistricting</emph>, <emph render="bold">Financial Papers</emph>,
+		  <emph render="bold">Handbooks</emph>, <emph render="bold">Legal Papers</emph>,
+		  <emph render="bold">Reports</emph>, and <emph render="bold">Subject
+		  Files</emph>.</p>
+		<p>The <emph render="bold">Desegregation and Redistricting Series</emph>
+		  collects materials related to the different attempts to desegregate the Durham
+		  city schools in response to court mandates. It documents the legal struggle
+		  deriving from the
+		  <corpname>NAACP Legal Defense Fund</corpname> suits of 1959 and 1960,
+		  the latter of which continued through the 1970s in response to the outcomes of
+		  other suits, particularly
+		<title render="italic" linktype="simple">Green v. School Board of New Kent County</title>
+		(1968) and
+		<title render="italic" linktype="simple">Alexander v. Holmes County Board of
+		  Education</title> (1969), both of which demanded the abandonment of
+		"freedom-of-choice" integration plans in favor of geographical zoning plans,
+		and
+		<title render="italic" linktype="simple">Swann v. Charlotte-Mecklenburg Board of
+		  Education</title> (1971). Following the latter, the Durham City School Board
+		was given a mandate by the court in 1975 to eliminate racially identifiable
+		schools in the district, using any means necessary to ensure that the balance
+		of black to white students at any school varied no less than 10% from the
+		overall racial balance of the school group. Along with the legal papers, the
+		series documents the move to desegregate the Durham city schools with memos and
+		internal school board documents, clippings, correspondence from parents, maps,
+		proposals (in both draft and completed form), and a printed booklet about
+		desegregation. It also deals with the related attempts to merge the city and
+		county school districts into a single unit, finally accomplished in 1992. The
+		<emph render="bold">Financial Papers Series</emph> houses budgets, financial
+		statements, accounting materials, and other papers documenting the financial
+		workings of the Durham city schools and school board. Those interested in these
+		finances should also consult the extensive audit reports in the Reports Series.
+		The <emph render="bold">Handbooks Series</emph> documents educational and
+		administrative practices and concerns of the time with teachers' manuals and
+		handbooks, student and administrative handbooks, policy statements, school
+		directories, and bound print materials on educational topics. The small
+		<emph render="bold">Legal Papers Series</emph> contains the legal files not
+		related to the desegregation suits, including court papers, bills passed, and
+		easements on school properties. The <emph render="bold">Reports Series</emph>
+		collects audit reports, external and internal evaluations of schools and school
+		programs, and results of studies and surveys. These documents contain detailed
+		information related to the ESEA funds and their usage (in the audit reports and
+		several narrative evaluations). Finally, the <emph render="bold">Subject Files
+		Series</emph> contains topical files documenting different projects, programs,
+		initiatives, and issues addressed by the Durham City School Board. It also
+		documents the regular functioning of the school board in the extensive files of
+		meeting minutes, agendas, and information bulletins.</p>
+	 </scopecontent>
+	 <relatedmaterial>
+		<head>Related Material</head>
+		<p>Those interested in the history of the Durham City School Board and
+		  the desegregation of Durham schools may wish to consult the <emph render="bold">Nicholas Rencher Harris Papers</emph> and the <emph render="bold">Women-in-Action for the Prevention of Violence and Its Causes,
+		  Inc., Durham Chapter, Records</emph>, also housed at the David M. Rubenstein Rare Book &amp; Manuscript Library.
+		  <persname>Nicholas Rencher Harris</persname> (1900-1965) was an
+		  African-American businessman and civic leader in Durham and served on the
+		  <corpname>Durham Board of Education</corpname> during the late 1950s
+		  and early 1960s; that collection also houses materials related to school
+		  desegregation in Durham. The Durham chapter of
+		  <corpname>Women-in-Action for the Prevention of Violence and Its
+			 Causes</corpname> was founded by Elna Spaulding in 1968, and the organization
+		  was involved in the struggle for school integration in the 1970s. These
+		  collections, both cataloged separately from the Stephen C. Harward Papers, are
+		  searchable by title in the Duke University Libraries online catalog.</p>
+	 </relatedmaterial>
+	 <controlaccess>
+		<head>Subject Headings</head>
+		<p>These are searchable subject entries for this collection. Performing a
+		  search on these subjects in the Duke University Libraries online catalog will
+		  bring up other related research materials.</p> <!-- Note:  <subject encodinganalog="650" source="lcsh">, <persname encodinganalog="600" source="lcnaf">, <corpname encodinganalog="610">, <geogname encodinganalog="651" source="lcsh">, <famname encodinganalog="600" source="lcnaf">, <genreform encodinganalog="655" source="aat"> or <genreform encodinganalog="655" source="gmgpc">, <title encodinganalog="630" source="lcsh"> used where applicable -->
+		<list type="simple">
+		  <item>
+			 <persname source="lcsh" encodinganalog="600">Harward, S. C. (Stephen C.), 1922-1993</persname></item>
+<item>
+			 <subject source="lcsh" encodinganalog="650">School districts -- North Carolina -- Evaluation</subject></item>
+<item>
+			 <subject source="lcsh" encodinganalog="650">School improvement programs -- United States</subject></item>
+<item>
+			 <subject source="lcsh" encodinganalog="650">Federal aid to education -- United States</subject></item>
+<item>
+			 <subject source="lcsh" encodinganalog="650">Student movements -- United States -- History -- 20th century</subject></item><item>
+			 <subject source="lcsh" encodinganalog="650">Segregation in education -- Law and legislation -- United States. </subject></item><item>
+			 <subject source="lcsh" encodinganalog="650">Discrimination in education -- Law and legislation -- United States</subject></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">School integration -- North
+				Carolina -- Durham. </subject></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">Education -- Southern
+				States. </subject></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">Schools -- Centralization -- North Carolina -- Durham
+				County</subject></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">School districts -- North
+				Carolina -- Durham County</subject></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">Public schools -- North
+				Carolina -- Durham -- Finance. </subject></item>
+<item>
+			 <subject source="lcsh" encodinganalog="650">Public schools -- North
+				Carolina -- Durham -- History. </subject></item>
+<item>
+			 <subject source="lcsh" encodinganalog="650">Public schools -- North
+				Carolina -- Durham -- Business management -- Auditing. </subject></item>
+<item>
+			 <subject source="lcsh" encodinganalog="650">Public schools -- North
+				Carolina -- Durham. </subject></item>
+<item>
+			 <subject source="lcsh" encodinganalog="650">Public schools -- North
+				Carolina -- Durham -- Handbooks, manuals, etc. </subject></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">Urban schools -- North
+				Carolina -- Durham. </subject></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="650">Education -- North
+				Carolina -- Durham</subject></item>
+		  <item>
+			 <subject source="lcsh" encodinganalog="651">Durham (N.C.)--Race
+				relations</subject></item>
+<item>
+			 <subject source="lcsh" encodinganalog="651">Durham (N.C.)--History</subject></item>
+		</list>
+	 </controlaccess>
+<!--End controlaccess-->
+<!--Begin container list-->
+<!-- Sample of possible container list structure, actual markup depends upon the materials being described. -->
+<!-- Use <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent>, <admininfo><processinfo>, and <admininfo><accessrestrict> if needed. -->
+
+	 <dsc type="combined">
+		<head>Contents of Collection</head>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Desegregation and Redistricting Series,
+				<unitdate type="inclusive" era="ce" calendar="gregorian">1959-1975</unitdate></unittitle>
+			 <physdesc><extent>(3 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Houses materials related to the desegregation of the Durham, N.C. city schools, proposed redistricting, and the repeated failed attempts to
+				consolidate the city and county administrative units into a single school
+				district (accomplished in 1992). Formats include memos and
+				internal school board documents, clippings, correspondence from parents, legal
+				files and briefs, study and survey reports, maps, proposals (in both draft and
+				completed form), and a printed booklet. The extensive court files mostly
+				pertain to the NAACP suit of
+			 <title render="italic" linktype="simple">Wheeler, Spaulding, and Thompson v. the Durham
+				City and County School Boards</title>, begun in 1960 and continuing on through
+			 1975; they are of particular interest in documenting the various court mandates and
+			 school board proposals for desegregation plans. The later court
+			 papers (from 1974 and 1975) contain useful summaries of the process of
+			 desegregation, as well as progress reports and statistics gathered by the
+			 school board and submitted to the court. Researchers interested in the
+			 attempted merger of the city and county schools may wish to consult the files
+			 on the bond issues of 1967-1973 in the Subject Files Series, which contain some
+			 related materials. Those interested in federal financial support for
+			 desegregation may also wish to consult the files on the
+			 <subject>Emergency School Aid Act</subject> of 1972.</p><p>Arranged in alphabetical order by folder title.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">1</container>
+				<unittitle>Brief on outside school district but inside city limits,
+
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1971</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Civil Rights Act</subject> compliance,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1965</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Civil rights survey,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <geogname>Charlotte</geogname> plan,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Class assignment plans,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Consolidation of city and county schools,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1969</unitdate></unittitle>
+				<physdesc><extent>(2 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Consolidation study I,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1968</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Consolidation study II,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1966</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">Desegregation: Opportunity or
+					 Problem</title>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1970</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Desegregation suits,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1959-1965</unitdate></unittitle>
+				<physdesc><extent>(7 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">2</container>
+				<unittitle>Desegregation suits,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1975</unitdate></unittitle>
+				<physdesc><extent>(7 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Emergency School Aid Act,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Emergency School Aid Act--application for assistance,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Enrollment,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Maps,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1964, 1970-1974</unitdate></unittitle>
+
+			 </did>
+			 <processinfo>
+				<p>[Some items removed to Oversize Materials.]</p>
+			 </processinfo>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Merger,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1971</unitdate></unittitle>
+				<physdesc><extent>(2 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">3</container>
+				<unittitle>Miscellaneous,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1964-1970</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Miscellaneous,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974-1975</unitdate></unittitle>
+				<physdesc><extent>(2 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Proposed redistricting, Durham city schools--junior high
+				  schools,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>RTI attendance zones,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1964-1970</unitdate></unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Financial Papers Series,
+				<unitdate type="inclusive" era="ce" calendar="gregorian">1961-1975</unitdate></unittitle>
+			 <physdesc><extent>(2 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Primarily budgets and financial statements of the Durham city
+				school system, but also information on accounting, wages, employee insurance,
+				and real estate appraisals. Researchers interested in the finances of the city
+				school district should also consult the audit reports located in the Reports
+				Series.</p>
+		  </scopecontent>
+		  <arrangement>
+			 <p>Arranged alphabetically, then chronologically by date.</p>
+		  </arrangement>
+		  <c02>
+			 <did>
+				<container type="box">3</container>
+				<unittitle>Accounting system,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1968 </unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Appraisal of real estate: Southside, Crest Street, and
+				  Edgemont Elementary Schools,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972 Aug. 18</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Budget, 1961-1966</unittitle>
+				<physdesc><extent>(5 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">4</container>
+				<unittitle>Budget,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1975 </unitdate></unittitle>
+				<physdesc><extent>(7 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Budget--special,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1969</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Current expenditures by source of funds,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1968</unitdate></unittitle>
+				<physdesc><extent>(3 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">5</container>
+				<unittitle>Financial statements,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1974</unitdate></unittitle>
+				<physdesc><extent>(6 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Insurance,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Salaries, wages,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Handbooks Series,
+				<unitdate type="inclusive" era="ce" calendar="gregorian">1949-1975</unitdate> and undated, bulk
+				<unitdate type="inclusive" era="ce" calendar="gregorian">1962-1975</unitdate></unittitle>
+			 <physdesc><extent>(2 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Comprises educational manuals; handbooks for students, teachers,
+				and administrators; food service guides; school law reference books; and other
+				books and pamphlets treating topics related to education.</p>
+		  </scopecontent>
+		  <arrangement>
+			 <p>Arranged alphabetically, then chronologically by date.</p>
+		  </arrangement>
+		  <c02>
+			 <did>
+				<container type="box">5</container>
+				<unittitle>Activity manual--
+				  <title render="italic" linktype="simple">F.O.O.D. For Thought: Focus on Optimal
+					 Development, Intermediate Level</title>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Activity manual--
+				  <title render="italic" linktype="simple">F.O.O.D. For Thought: Focus on Optimal
+					 Development, Primary Level</title>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Athletics manual, junior high school,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle> Board of Education policy manual,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate></unittitle>
+				<physdesc><extent>(2 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">Bridging the Gap between Government in
+					 Books and Government in Action</title> by
+				  <persname>Albert Coates</persname>, 1974</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Career Opportunities Program overview,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">circa 1971</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Coaches manual, Durham city schools, undated</unittitle>
+
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Cooperative Distributive Education student handbook,
+				  undated</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">Discipline Problems: An Educational
+					 Malignancy</title> by
+				  <persname>Walter E. McPhie</persname>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1971</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">Drugs in North Carolina: Problems and
+					 Programs</title> by
+				  <persname>Anthony D. M. Mulvihill</persname>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Food service guides,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1968</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">6</container>
+				<unittitle>Handbooks for North Carolina school board members, 1962,
+				  1974</unittitle>
+				<physdesc><extent>(2 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Hillside High School handbook, 1972</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">How Can the American People be Given a
+					 Better Understanding of Our Economic System?</title>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1949</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">The Informer</title> [Durham High School
+				  handbook],
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Manuals of position descriptions, undated</unittitle>
+				<physdesc><extent>(2 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Personnel guide for teachers,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1973</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Physical education manual, junior and senior high
+				  schools,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1973</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Program of studies, Durham High School,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">Public Education</title> by
+				  <persname>Robert E. Phay</persname>, undated</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">Public School Laws of North
+					 Carolina</title>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1969</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">Public School Laws of North
+					 Carolina</title>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1971</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>School personnel directories,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">The Scope and Sources of School Board
+					 Authority to Regulate Student Conduct and Status</title> by
+				  <persname>Stephen R. Goldstein</persname>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1969</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">Student Rights in North Carolina</title>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Legal Papers Series,
+				<unitdate type="inclusive" era="ce" calendar="gregorian">1971-1975</unitdate></unittitle>
+			 <physdesc><extent>(1 box)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>This series contains the legal papers related to Durham city
+				schools and the Durham City School Board not subsumed under the Desegregation
+				and Redistricting Series (which houses all of the court documents and legal
+				papers from the NAACP desegregation suits). This includes bills proposed and
+				passed, easements on school properties, and court papers from a suit (
+			 <title render="italic" linktype="simple">Ronald Kelly et als v. Lew W. Hannnen et
+				als</title>) made regarding the refusal of Durham High School to allow
+			 distribution of the off-campus publication
+			 <title render="italic" linktype="simple">Uprising</title> on campus.</p>
+		  </scopecontent>
+		  <arrangement>
+			 <p>Arranged alphabetically.</p>
+		  </arrangement>
+		  <c02>
+			 <did>
+				<container type="box">6</container>
+				<unittitle>Easements,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975 </unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Federal suit on
+				  <title render="doublequote" linktype="simple">Uprising,</title>
+				  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1971</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>General Assembly of North Carolina</corpname> bills,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1975</unitdate></unittitle>
+				<physdesc><extent>(2 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>School Budget and Fiscal Control Act, bills proposed,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Reports Series,
+				<unitdate type="inclusive" era="ce" calendar="gregorian">1959-1975</unitdate></unittitle>
+			 <physdesc><extent>(5 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>The majority of the series is made up of annual audit reports of
+				the Durham city school system (including correspondence from the firm
+				conducting the audits), but narrative evaluations and quantitative survey and
+				study results are also included. There are also files from individual school
+				evaluations made in 1965, and files of analyses of these evaluations.</p>
+		  </scopecontent>
+		  <arrangement>
+			 <p>Arranged alphabetically, then chronologically. The one exception
+				to this is the extensive group of audit reports, which are arranged
+				alphabetically by type (audit reports), then date, then report title. This
+				preserves the original organization of the reports in the collection.</p>
+		  </arrangement>
+		  <c02>
+			 <did>
+				<container type="box">7</container>
+				<unittitle>Audit report correspondence from
+				  <corpname>Ricca, Nelson and Gantt</corpname>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Audit reports</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1963 June 30</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Activity funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Cafeteria system</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Durham city schools</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Special funds</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1964 June 30</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Activity funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Cafeteria system</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>General fund</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Miscellaneous funds</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1965 June 30</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Activity funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Cafeteria system</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>General fund</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Miscellaneous funds</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1966 June 30</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Activity funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>ESEA Title I</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>ESEA Title II</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Food service department</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>General fund</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Miscellaneous funds</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">8</container>
+				<unittitle>Audit reports</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1967 June 30</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Activity funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Durham city schools</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>ESEA Title I</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>ESEA Title II</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Food service department</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Miscellaneous funds</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1968 June 30</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Activity funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Durham city schools</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>ESEA Title I</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>ESEA Title II</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Food service department</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Miscellaneous funds</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1969 June 30</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Activity funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>ESEA Title I</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>ESEA Title II</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>ESEA Title III</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>ESEA Title IV-A</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Food service department</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Local current expense and capital outlay
+						fund</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Special funds</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>1969 July 15</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>ESEA Title III</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1970 June 30</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Activity funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Federal funds</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">9</container>
+				<unittitle>Audit reports</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1970 June 30</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Local funds</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1971 June 30</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Activity funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Federal funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Local funds</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1972 June 30</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Activity funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Federal funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Local funds</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1973 June 30</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Activity funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Federal funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Local funds</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1974 June 30</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Activity funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Federal funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Local funds</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1975 June 30</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Activity funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Federal funds</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Local funds</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">10</container>
+				<unittitle>Charrette reports,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1971</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">A Child Well Taught: A Report of the
+					 Governor's Study Commission on the Public School System of North
+					 Carolina</title>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1968</unitdate></unittitle>
+				<physdesc><extent>(2 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Data reports</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>ESEA survey,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1975 Mar.</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>ESEA Title III statistical data,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1967 Dec. 20</unitdate></unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Durham Chamber of Commerce Subcommittee on Funding of
+				  Public Education report,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972 Sept.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Durham city schools self-study report,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974 Apr.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Evaluation reports</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Emergency School Assistance Program,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1971 Oct.</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>ESEA Title 1,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1967, 1969-1971,
+						1975</unitdate></unittitle>
+				  <physdesc><extent>(5 reports)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>SEED evaluation,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1973 June</unitdate></unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">Government: A Report on City and
+					 County</title>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1970 Summer</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">How Students Feel About School: A Survey
+					 of Student Attitudes at Durham and Hillside High Schools</title>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974 July</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">11</container>
+				<unittitle>
+				  <title render="italic" linktype="simple">Local Plan for Occupational
+					 Education</title>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">Merit Rating</title> research bulletin,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1959 Oct.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Ranking of school administrative units,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1968 July</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Recommended personnel classification and pay plan,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1973 Sept.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">Salaries and Supplemental School
+					 Taxes</title> research bulletin,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1967 Oct.</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>School reports</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Brogden Junior High School</corpname>,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1965</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Carr Junior High School</corpname>,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1965</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Durham High School</corpname>,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1965</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Hillside High School</corpname>,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1965</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Holton Junior High School</corpname>,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1965</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Witted Junior High School</corpname>,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1965</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Committee on Accreditation</corpname> report on 1965
+					 school reports,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1968</unitdate></unittitle>
+				  <physdesc><extent>(4 folders)</extent></physdesc>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>School survey,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1969</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>School utilization report,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">Students out of School: Dropouts or
+					 Pushouts?</title>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974 July</unitdate></unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Subject Files Series,
+				<unitdate type="inclusive" era="ce" calendar="gregorian">1959-1975</unitdate> and undated, bulk
+				<unitdate type="inclusive" era="ce" calendar="gregorian">1967-1975</unitdate></unittitle>
+			 <physdesc><extent>(5 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Topical files Harward kept related to the workings of the school
+				board. Includes proposals, meeting records, correspondence, some financial
+				records (particularly those related to school food service), policy statements,
+				clippings, and pamphlets. Of particular interest for documenting the ongoing
+				workings of and issues faced by the Durham City School Board are the extensive
+				files of meeting agendas, minutes, and information bulletins. Those interested
+				in the attempts to merge the city and county school districts will find
+				relevant information in the folders on the bond issues of various years, as
+				well as the more extensive materials contained in the Desgregation and
+				Redistricting Series.</p>
+		  </scopecontent>
+		  <arrangement>
+			 <p>Arranged alphabetically, then chronologically by date.</p>
+		  </arrangement>
+		  <c02>
+			 <did>
+				<container type="box">12</container>
+				<unittitle>Ability grouping,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974 </unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Abstract--Durham schools study,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1971</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Ad hoc committee on student affairs,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Advisory committee,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Agendas,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Athletic program,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Bids,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Black studies,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Bond issue,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1967, 1971-1973</unitdate></unittitle>
+
+				<physdesc><extent>(6 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Book policies,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1969</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Calendar,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>City-county school commission,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1973</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Cooperative School for Pregnant School Girls,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Construction,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Correspondence,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Crest school correspondence,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>D.C.E.A.</corpname> [
+				  <corpname>Durham City Education Association</corpname>],
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1969</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">13</container>
+				<unittitle>Durham city schools aims--mission,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Durham County Library,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1968</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>Education Development Council</corpname>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Evaluation of the Duke-Walltown tutoring program,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Exceptional children evaluation,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Food service,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1975</unitdate></unittitle>
+				<physdesc><extent>(2 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Green Circle program,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1971</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Health benefits program,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1973</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Holidays,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1973</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Information bulletins,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1973</unitdate></unittitle>
+				<physdesc><extent>(4 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">14</container>
+				<unittitle>Information bulletins,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974-1975</unitdate></unittitle>
+				<physdesc><extent>(2 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Joint committee,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1959-1960, 1967</unitdate></unittitle>
+
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>League of Women Voters</corpname>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1971</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Minutes,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1973</unitdate></unittitle>
+				<physdesc><extent>(6 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">15</container>
+				<unittitle>Minutes,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974-1975</unitdate></unittitle>
+				<physdesc><extent>(3 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Miscellaneous,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Miscellaneous information,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1975</unitdate></unittitle>
+				<physdesc><extent>(3 folders)</extent></physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Miscellaneous proposals, reports, recommendations,
+				  suggestions, etc.,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">16</container>
+				<unittitle>Model for an assistant or an associate superintendent's
+				  contract, undated</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>National Workshop for Management on Collective
+				  Negotiations in Education,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Newsletters, school papers, etc.,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Night school,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Property,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1973</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Reading tests,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Rules and regulations,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1973</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Sale of property,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">School Law Bulletin</title>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Sick leave and substitute teacher regulations,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Statistics,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1968</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Southside school property,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Student conduct,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1969</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Subcommittee on closing schools,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Suspension of students, etc.,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1974-1975</unitdate></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title render="italic" linktype="simple">Washington Fastreport</title>,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1973</unitdate></unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Oversize Materials</unittitle>
+			 <physdesc><extent>(1 oversize folder)</extent></physdesc>
+		  </did>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Desgregation and Redistricting Series,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate></unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <container label="Oversize Folder" type="opaperfolder">1</container>
+				  <unittitle>Maps,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate></unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		</c01>
+	 </dsc>
+  </archdesc>
+</ead>

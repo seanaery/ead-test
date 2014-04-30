@@ -1,0 +1,1912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" langencoding="iso639-2b" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid publicid="-//Duke University::Rare Book, Manuscript, and Special Collections Library//TEXT (US::NDD::::Herbert Clarence Bradshaw Papers)//EN" countrycode="us" mainagencycode="ndd" url="http://library.duke.edu/rubenstein/findingaids/bradshaw/">bradshaw</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Herbert Clarence Bradshaw Papers, <date normal="1922/1976" type="inclusive" era="ce" calendar="gregorian">1922-1976</date>
+            </titleproper>
+            <author>Processed by: Duke University Rare Book, Manuscript, and Special Collections Library Staff; machine-readable finding aid created by: Stephen Douglas Miller</author>
+         </titlestmt>
+         <publicationstmt>
+
+            <p>
+               <date era="ce" calendar="gregorian"> 1987</date>
+ Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+         <note><p>Aleph Number: <num type="aleph">000847103</num></p></note></notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from
+paper by means of scanning and OCR; OCR file edited for typographical errors before encoding.
+<lb/>Date of source: 1987
+<lb/>Processed by: Duke University Rare Book, Manuscript, and Special Collections Library staff
+ 1987; finding aid encoded by Stephen Douglas Miller, Rare Book, Manuscript, and Special Collections Library, Duke University.
+<date era="ce" calendar="gregorian">April 2,1997</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005" era="ce" calendar="gregorian">07-14-2005</date>
+            <item>PUBLIC "-//Duke University::Rare Book, Manuscript, and Special Collections Library//TEXT (US::NDD::::Herbert Clarence Bradshaw Papers)//EN" "bradshaw.sgm" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+		<item>Also, the top level of the finding aid (above the dsc) changed to conform to current RBMSCL and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the RBMSCL EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date era="ce" calendar="gregorian">June 29, 1998</date>
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         </change>
+	 <change>
+            <date era="ce" calendar="gregorian">November, 2009</date>
+            <item>Addition encoded by Ted Holt.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Herbert Clarence Bradshaw Papers, <date normal="1922/1976" type="inclusive" era="ce" calendar="gregorian">1922-1976</date>
+         </titleproper>
+         <publisher>Rare Book, Manuscript, and Special Collections Library<lb/>
+
+            <lb/>Duke University<lb/>Durham, North Carolina</publisher>
+
+         <p> 1987 Duke University. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">Herbert Clarence Bradshaw papers <unitdate type="inclusive" era="ce" calendar="gregorian">1922-1976</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Bradshaw, Herbert Clarence, 1908-1976.</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>35 Linear Feet</extent>
+            <extent>Approximately 39,585 Items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>Duke University Rare Book, Manuscript, and Special Collections Library</corpname>
+         </repository>
+         <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+	<head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+		<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+		<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+		<p>Please contact Research Services staff before visiting the Rare Book, Manuscript, and Special Collections Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The copyright interests in this collection have not been transferred to Duke University. For more information consult the section on copyright in the Regulations and Procedures of the Rare Book, Manuscript, and Special Collections Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Herbert Clarence Bradshaw Papers, Rare Book, Manuscript, and Special Collections Library, Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The papers of Herbert Clarence Bradshaw were acquired by Duke University as gifts, 1977-1987.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by: Duke University Rare Book, Manuscript, and Special Collections Library staff</p>
+            <p>Completed 1987</p>
+		<p>Encoded by Stephen Douglas Miller and addition encoded by Ted Holt</p>
+		<p>This finding aid is NCEAD compliant.</p>
+          </processinfo>
+      </descgrp>
+<bioghist>
+         <head>Biographical Note</head>
+         <p>Herbert Clarence Bradshaw (1908-1976), a Democrat, Baptist, author-historian, journalist, churchman, educator and civic leader in both Virginia and North Carolina, was born Nov. 7, 1908, in Rice, Prince Edward County, Va. He attended Hampden-Sydney College (B.A., 1930), and the University of Virginia (M.A., 1933 in classical languages), and was awarded a Litt.D. degree from Hampden-Sydney in 1967. For twenty years he taught and served as a principal in Virginia schools. He began a full-time journalism career as Sunday Feature Editor of the <title render="italic" linktype="simple">Durham Morning Herald</title> and became editor of the editorial page from 1964 until retirement in 1974.</p>
+         <p>Bradshaw is author of <title render="italic" linktype="simple">The History of Prince Edward County, Virginia</title> (1955), <title render="italic" linktype="simple">History of Hampden-Sydney College, Vol. I</title> (1976), <title render="italic" linktype="simple">History of Farmville, Va.</title> (1948), <title render="italic" linktype="simple">Toward the Dawn: History of the First Quarter-Century of the N.C. State Association for the Blind, 1934-1960</title> (1961), and fifty articles from 1935 to 1976 on the histories of the Baptist Church, the Lions organization, the blind organizations in N.C., and historical pieces on such topics as Patrick Henry, Thomas Jefferson, and historic houses.</p>
+</bioghist>
+<scopecontent>
+	<head>Collection Overview</head>
+
+         <p>Bradshaw's papers show detailed involvement as a member of the N.C. State Commission for the Blind for 18 years; member, Advisory Board, Mary Duke Biddle Art Gallery for the Blind in the N C Museum of Art, Raleigh; and President of the N. C Society for the Prevention of Blindness.</p>
+         <p>Many printed items - rosters, programs, clippings, and photographs - are scattered throughout the files where they are integral parts of personal or organizational files. Papers on Durham include histories and correspondence on city and county government (1853-1973), Chamber of Commerce, Civitan and Optimist Clubs, Merchants Association, Public Library, and the School Board.  The latter includes a substantial sequence of folders on Durham, N.C. race relations issues and school integration. There are printed programs of cultural events held in Richmond, Durham, and Raleigh, 1929-1972. The papers include programs, rosters, histories, minutes and correspondence on Lions Club activities in Durham and throughout N.C., 1922-1974.</p>
+         <p>Material prepared for the Durham (N.C.) <title render="italic" linktype="simple">Morning Herald</title> centennial edition includes the histories of local organizations, 1805-1953. Bradshaw kept detailed diaries and correspondence on his Book Page and his editorials, 1949-1973. Important in Civil War histories is Bradshaw's account of historic events in the Appomattox area which he wrote for the Centennial Edition of the <title render="italic" linktype="simple">Farmville (Va.) Herald</title>, 1965. A longer local history account appears in that newspaper's Sesquicentennial Edition of 1948.</p>
+           <p>Duke University Professor Mason Crum's unpublished manuscript, <title render="italic" linktype="simple">Washington Duke</title>, is included in the Duke University section (Box 31) along with Bradshaw's 1949-1973 correspondence with Duke faculty. Dr. J. B. Rhine's correspondence shows the development at Duke of his Foundation for Research on the Nature of Man, 1963-1972.</p>
+           <p>The collection contains voluminous correspondence from 1922 to 1976 (Boxes 19-27), including 44 years of farm business papers on the 900-acre farm in Virginia he and his brother managed. The correspondence also includes the writing of the history of the Baptist Church in N.C., 1805-1973. There is correspondence also on the Yates Baptist Association and the Watts Street Baptist Church, 1950-1971. Other files of correspondence relate to his forty-four year involvement with Hampden-Sydney College (Box 42). Bradshaw's interest in genealogy led to lengthy correspondence on genealogies of the Armistead, Bradshaw, Cunningham, Chambliss, Few, Fuqua, Lockett, McGehee, Marshall, Nash, Scarborough, Venable, and Walton families. Included is a morgue of hundreds of glossy photographs of contemporary writers. There are letters signed by William O. Douglas; Dean Acheson; Dean Rusk; William P. Rogers; J. William Fulbright; Governors Luther Hodges, Terry Sanford and Robert Scott; Senators Henry Jackson and B. Everett Jordan; Norman Mailer; J. B. Rhine; and Douglas M. Knight. There is correspondence with Myrta Lockett Avary, author of <title render="italic" linktype="simple">A Virginia Girl in the Civil War,</title> and her memoirs are included.</p>
+	   <p>Addition (87-94) contains correspondence, notes and printed material for the development of Durham and its commemoration of the U.S. Bicentennial, 1976. Also contains information concerning health care in N.C., and notes from various conferences held by the U.S. State department for news editors.</p>
+         <p>Other parts of Bradshaw's papers are also held by the Virginia Baptist Historical Society at the University of Richmond and the Virginia State Library.</p>
+      </scopecontent>
+
+      <controlaccess>
+         <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+             <item>
+               <subject>Baptists -- North Carolina -- History</subject>
+            </item>
+
+	    <item>
+               <subject>Blind -- Services for -- North Carolina</subject>
+            </item>
+
+	    <item>
+               <corpname>Duke University</corpname>
+            </item>
+               <item>
+               <geogname>Durham (N.C.)--History</geogname>
+            </item>
+            <item>
+               <geogname>Durham (N.C.)--Race relations</geogname>
+            </item>
+            <item>
+               <corpname>Hampden-Sydney College</corpname>
+            </item>
+      
+<item><subject source="lcsh" encodinganalog="650">Segregation in education -- Durham (N.C.).</subject></item>
+	    <item>
+               <geogname>United States -- History -- Civil War, 1861-1865</geogname>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle>Biographical and Autobiographical Information</unittitle>
+            </did>
+            <scopecontent>
+               <p>This information is filed in the first box of the collection. It includes a vita, letters, articles, awards, clippings, a formal photograph, and other items. Box 1 also contains an inventory of the collection and the Virginia State Library inventory.</p>
+            </scopecontent>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Alphabetical Files</unittitle>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">1 </container>
+                  <unittitle>
+                     <corpname>Association for the Preservation of Virginia Antiquities, </corpname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1927-1929, </unitdate>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1950-1955, </unitdate>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1968</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">2 </container>
+                  <unittitle>Avary, Myrta Lockett: 1846, 1866, 1903, 1933, 1940-1946
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Legal Documents </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Memoirs (undated) </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Photos </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Poetry </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Writings </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Sherwin </persname>article on <persname>Avary</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>
+                     <corpname>Baptist Church, </corpname>
+                     <geogname>North Carolina:</geogname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Baptist Church </corpname>Histories <unitdate type="inclusive" era="ce" calendar="gregorian">1930, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1935-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Baptist State Convention of N.C. </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1960, 1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Churches of <geogname>Durham </geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1805-1951 </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1952-1968, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>First Baptist Church, </corpname>
+                        <geogname>Durham </geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Greater Durham Evangelistic Crusade</corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Religion </subject>- Articles, news clippings, etc.<unitdate type="inclusive" era="ce" calendar="gregorian"> 1859,</unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1930, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1954-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle>
+                        <corpname>Watts Street Baptist Church </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1950-1970</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>
+                        <corpname>Yates Baptist Association </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1953-1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <subject>Blindness:</subject>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">6-7</container>
+                     <unittitle>
+                        <corpname>National Society for the Prevention of Blindness </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1964-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8 </container>
+                     <unittitle>
+                        <corpname>N.C. Association for the Blind </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1948-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9 </container>
+                     <unittitle>
+                        <corpname>N.C. Association for the Blind </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1967</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Glaucoma Clinics</subject>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle>
+                        <corpname>N.C. Association for the Blind </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1947, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1956-1973</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title render="doublequote" linktype="simple">The White Cane</title>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle>
+                        <corpname>N.C. Eye and Human Tissue Bank </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle>
+                        <corpname>N.C. Society for the Prevention of Blindness </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle>
+                        <corpname>N.C. State Association for the Blind </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1934-1960</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <title render="doublequote" linktype="simple">Toward the Dawn: History of the N.C. State Association for the Blind</title>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12-16</container>
+                     <unittitle>
+                        <corpname>N.C. State Commission for the Blind </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1943, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1948-1973</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Biennial Reports <unitdate type="inclusive" era="ce" calendar="gregorian">1950-1968</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Manual </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Publications </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Vocational Rehabilitation Plan</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">17-18</container>
+                     <unittitle>
+                        <corpname>N.C. State Commission for the Blind </corpname>and <corpname>N.C. Bureau of Employment for the Blind:</corpname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Quarterly Reports <unitdate type="inclusive" era="ce" calendar="gregorian">1964-1970</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle>
+                        <corpname>The Seeing Eye, Inc. </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1957-1958</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Book Reviews Scrapbook (Bradshaw's) (see at end of Papers) <unitdate type="inclusive" era="ce" calendar="gregorian">1931-1945</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <persname>Bradshaw, Herbert Clarence:</persname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">69</container>
+                     <unittitle>Book Reviews Scrapbook <unitdate type="inclusive" era="ce" calendar="gregorian">1931-1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>Personal and Family Clippings and Memorabilia <unitdate type="inclusive" era="ce" calendar="gregorian">1952-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">20-22</container>
+                     <unittitle>Personal and Family Correspondence (Farm) <unitdate type="inclusive" era="ce" calendar="gregorian">1929-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">23-26</container>
+                     <unittitle>Personal and Family Correspondence (General) <unitdate type="inclusive" era="ce" calendar="gregorian">1922-1975, </unitdate>undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">27</container>
+                     <unittitle>Speaking Engagements <unitdate type="inclusive" era="ce" calendar="gregorian">1956-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">28-29</container>
+                     <unittitle>Writings <unitdate type="inclusive" era="ce" calendar="gregorian">1935-1976</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <corpname>Campbell College, </corpname>
+                     <geogname>Buie's Creek, N.C.</geogname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Graham A. Barden Chair of Government </corpname>(See <corpname>N.C. Campbell College) </corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <corpname>Carolina Charter Tercentenary Commission </corpname>(See <corpname>N.C. Carolina Charter Tercentenary Commission)</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">30</container>
+                  <unittitle>Civil War:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <geogname>Bennitt Place </geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1962-1964</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Civil War Centennial Commission </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1958-1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Confederate Veterans Reunions</subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1929,</unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1932</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Farmville Herald Centennial</corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Farmville Herald Sesquicentennial</corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1948</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Fortifications at <geogname>High Bridge, Appomattox River</geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1865</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Johnston, Joseph E., General </persname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1959-1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>N.C. Confederate Centennial Commission </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1958-1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="doublequote" linktype="simple">Tell Ma to send me some meat to boil with peas.</title> Soldier's Letter. <unitdate type="inclusive" era="ce" calendar="gregorian">Apr. 1864</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">31</container>
+                  <unittitle>
+                     <corpname>Duke University:</corpname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Bradshaw's Correspondence with Duke Faculty </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1949-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>General Telephone </corpname>Issue<unitdate type="inclusive" era="ce" calendar="gregorian"> 1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Rhine's Foundation for Research on the Nature of Man </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1963-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Rule of Law Research Center. </corpname>
+                        <persname>Arthur Larson</persname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1960,</unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Sanford, Terry</persname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1962,</unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1964, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title render="doublequote" linktype="simple">Washington Duke</title> by <persname>Mason Crum </persname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">ca. 1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">32</container>
+                  <unittitle>
+                     <geogname>Durham:</geogname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Chamber of Commerce </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1961-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>City and County Government <unitdate type="inclusive" era="ce" calendar="gregorian">1853-1953, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1957-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Civitan and Optimist Clubs</corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>County Association for the Blind </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1949-1959</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Golden Age Society</corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Merchants Association<unitdate type="inclusive" era="ce" calendar="gregorian"> 1956, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>N.C. College at Durham </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1950-1952,</unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1968</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>1963 - All-America City Award</subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Public Library <unitdate type="inclusive" era="ce" calendar="gregorian">1897-1936, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1953-1961</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Research Triangle, </corpname>History of <unitdate type="inclusive" era="ce" calendar="gregorian">1953-1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Scarborough Nursery School</corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>School Board<unitdate type="inclusive" era="ce" calendar="gregorian"> 1951, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>School Study Committee <unitdate type="inclusive" era="ce" calendar="gregorian">1959-1960</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Social Scene </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1963,</unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>United Fund Campaign </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1962-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <title render="italic" linktype="simple">Durham (N.C.) Morning Herald</title>:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <unittitle>Book Page<unitdate type="inclusive" era="ce" calendar="gregorian"> 1949, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1955-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <unittitle>Book Page. Correspondence <unitdate type="inclusive" era="ce" calendar="gregorian">1950-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03><!--markup note: boxes out of order - reflects original finding aid-->
+               <c03>
+                  <did>
+                     <container type="box">69</container>
+                     <unittitle>Book Reviews by <persname>Bradshaw </persname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1931-1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>Centennial Edition. Correspondence<unitdate type="inclusive" era="ce" calendar="gregorian"> 1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>Centennial Edition, Histories of Organizations <unitdate type="inclusive" era="ce" calendar="gregorian">1805-1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">35-36</container>
+                     <unittitle>Diaries of Book Reviews and Editorials <unitdate type="inclusive" era="ce" calendar="gregorian">1951-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">37-39</container>
+                     <unittitle>Editorial Background Material <unitdate type="inclusive" era="ce" calendar="gregorian">1929-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">39</container>
+                     <unittitle>Editorials <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1967</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">40</container>
+                     <unittitle>Editorials. Correspondence <unitdate type="inclusive" era="ce" calendar="gregorian">1949-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">39</container>
+                     <unittitle>Editorials by <persname>Bradshaw </persname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1961-1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>Features. Correspondence <unitdate type="inclusive" era="ce" calendar="gregorian">1953-1958,</unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>
+                        <persname>Frank S. Hickman</persname>'s <title render="doublequote" linktype="simple">Just a Minute</title> Column <unitdate type="inclusive" era="ce" calendar="gregorian">1952-1964</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>Monthly Bulletins <unitdate type="inclusive" era="ce" calendar="gregorian">1950-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>Personnel Directories <unitdate type="inclusive" era="ce" calendar="gregorian">1954-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>Style Book<unitdate type="inclusive" era="ce" calendar="gregorian"> 1949</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <persname>Eggleston, Joseph DuPuy </persname>- <persname>McAllister, James Gray </persname>(See Hampden-Sydney Correspondence. Eggleston, Joseph DuPuy - McAllister, James Gray Correspondence) <unitdate type="inclusive" era="ce" calendar="gregorian">1929-1956</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">41</container>
+                  <unittitle>
+                     <subject>Genealogies:</subject>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Anderson </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Armistead </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Bradshaw </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Carrington </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Chambliss </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Cunningham </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Davis </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Fain </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Few </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Flippen </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Fuqua </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Goodrich </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Holcombe </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Jenkins </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Kennon </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Kerr </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Ligon </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Lockett</famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>McGehee </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Marshall </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Nash </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Osborne </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Pallmore </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Pankey </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Scarborough </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Thomson</famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Townes </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Venable </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Walker </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Walthall </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Walton </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>White </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Wimbish </famname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <famname>Woodson</famname>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">42 </container>
+                  <unittitle>Hampden-Sidney <unitdate type="inclusive" era="ce" calendar="gregorian">1927-1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">42</container>
+                  <unittitle>Hampden-Sidney. Bradshaw's Correspondence <unitdate type="inclusive" era="ce" calendar="gregorian">1927-1973</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Eggleston, Joseph DuPuy </persname>- <persname>McAllister, James Gray </persname>Correspondence <unitdate type="inclusive" era="ce" calendar="gregorian">1929-1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <corpname>Historical Book Club of N.C., </corpname>
+                     <corpname>Greensboro, N.C. Annual Town Meeting on Books </corpname>(See <corpname>N.C. Historical Book Club)</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Hospitals. <geogname>North Carolina </geogname>(See Public Health)</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <corpname>Human Betterment League of N.C. </corpname>(See N.C. <unitdate type="inclusive" era="ce" calendar="gregorian">1947-1976 </unitdate>Human Betterment League)</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <corpname>Lions:</corpname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle>
+                        <geogname>Apex </geogname>to <geogname>Zebulon </geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">44</container>
+                     <unittitle>Conventions, National<unitdate type="inclusive" era="ce" calendar="gregorian"> 1960, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">44</container>
+                     <unittitle>Conventions, State <geogname>(N.C.) </geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1961-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45-46</container>
+                     <unittitle>District Governors <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <unittitle>District 31G <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">48-49</container>
+                     <unittitle>
+                        <geogname>Durham </geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1950-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">50</container>
+                     <unittitle>History of Lionism <unitdate type="inclusive" era="ce" calendar="gregorian">1922-1960</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">50</container>
+                     <unittitle>International <unitdate type="inclusive" era="ce" calendar="gregorian">1951-1952, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">50</container>
+                     <unittitle>International. Candidates for Director <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">50</container>
+                     <unittitle>International. Constitution and By-laws Committee <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">50 </container>
+                     <unittitle>
+                        <subject>International. Politics </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1970</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">51</container>
+                     <unittitle>
+                        <subject>State Council </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">51</container>
+                     <unittitle>Zone Chairman <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1970</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">51</container>
+                     <unittitle>Zone Club Reports <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1970</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">69</container>
+                  <unittitle>
+                     <famname>Lockett </famname>Genealogical Chart </unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <corpname>Mary Duke Biddle Gallery for the Blind, N.C. Museum of Art, </corpname>
+                     <geogname>Raleigh, N.C. </geogname>(See <corpname>N.C. Mary Duke Biddle Gallery for the Blind, </corpname>
+                     <corpname>N.C. Museum of Art, </corpname>Raleigh, N.C.)</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">52</container>
+                  <unittitle>National Foreign Policy Conference for Editors and Broadcasters. <geogname>Washington, D. C. </geogname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1964, 1970,</unitdate>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian"> 1972</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <corpname>National Health Council </corpname>(See Public Health)</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <corpname>National Policy and Performance Council </corpname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1972 </unitdate>(See <corpname>U.S. Department of Health, Education and Welfare. </corpname>National Policy and Performance Council)</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <corpname>National Society for the Prevention of Blindness </corpname>(See Blindness: National Society for the Prevention of Blindness)</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <geogname>North Carolina:</geogname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">53</container>
+                     <unittitle>
+                        <corpname>N.C. Advisory Council to the Peace Corps </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1962-1964</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">53</container>
+                     <unittitle>
+                        <corpname>N.C. American Revolution Bicentennial Committee </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">53</container>
+                     <unittitle>N.C. Awards <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1967,</unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">53</container>
+                     <unittitle>N.C. Bowles for Governor<unitdate type="inclusive" era="ce" calendar="gregorian"> 1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">53</container>
+                     <unittitle>N.C. <corpname>Campbell College, Buies Creek ,</corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1962, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1968,</unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>N.C. <persname>Graham A. Barden </persname>Chair of Government</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">53</container>
+                     <unittitle>N.C. <corpname>Carolina Charter Tercentenary Commission </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1961-1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">53</container>
+                     <unittitle>N.C. <corpname>Council on World Affairs </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1959-1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">54</container>
+                     <unittitle>N.C. <corpname>Democratic Party. </corpname>Jefferson-Jackson Day Dinner. Raleigh, N.C.1963</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>N.C. Fund<unitdate type="inclusive" era="ce" calendar="gregorian"> 1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>N.C. General Assembly,</corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1969. </unitdate>
+                        <corpname>Interest Rate Study Commission </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>N.C. Governor's Conference on Planning for Higher Education. Raleigh, N.C.</subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1968</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>N.C. Governor's Conference,<geogname> Richmond, Va. </geogname>
+                        <subject>Official Celebration of the 200th Anniversary of the Birth of George Washington</subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1932</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>N.C. Governor's Study Committee on Structure and Organization of Higher Education. Raleigh, N.C.</subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>N.C. Historical Book Club, </corpname>
+                        <geogname>Greensboro, N.C. </geogname>Annual Town Meeting on Books <unitdate type="inclusive" era="ce" calendar="gregorian">1961-1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">55 </container>
+                     <unittitle>
+                        <corpname>N.C. Huguenot Society </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1953-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">56 </container>
+                     <unittitle>
+                        <corpname>N.C. Human Betterment League </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1947-1976</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>N.C. Literary and Historical Association </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1963-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>N.C. <corpname>Mary Duke Biddle Gallery for the Blind, </corpname>
+                        <corpname>N.C. Museum of Art, </corpname>
+                        <geogname>Raleigh, N.C. </geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1969,</unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>N.C. Political Campaigns</subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>N.C. Rehabilitation Association </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1967</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>N.C. <corpname>Salem Academy </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1970</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>N.C. Society <corpname>Sons of the American Revolution </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1956-1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">57 </container>
+                     <unittitle>N.C. Study in Vocational Rehabilitation <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>N.C. Wake County Courthouse Speech. </subject>
+                        <persname>Professor Albert Coates </persname>
+                        <unitdate datechar="single" era="ce" calendar="gregorian">Sept. 13, 1970</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Photographs:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">58</container>
+                     <unittitle>List of Photographs</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Buildings, places, scenes</subject>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Genre</subject>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">58-59</container>
+                     <unittitle>
+                        <subject>People</subject>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">59</container>
+                     <unittitle>
+                        <subject>Transportation</subject>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <subject>Political Campaigns </subject>
+                     <geogname>(North Carolina). </geogname>(See N.C. Political Campaigns)<unitdate type="inclusive" era="ce" calendar="gregorian"> 1972</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">69</container>
+                  <unittitle>
+                     <persname>President Nixon</persname>'s Proclamation: <title render="doublequote" linktype="simple">Save your Vision Week, 1973</title><unitdate type="inclusive" era="ce" calendar="gregorian"> 1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <subject>Press Associations:</subject>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">60</container>
+                     <unittitle>
+                        <corpname>American Press Institute </corpname>Seminar<unitdate type="inclusive" era="ce" calendar="gregorian"> 1967</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Press Associations </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1929-1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">61</container>
+                     <unittitle>
+                        <corpname>Southern Newspaper Publishers Association Foundation Seminars for Southern Journalists </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">62</container>
+                     <unittitle>Southern Regional Education Board, Seminars for Southern Journalists <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1968</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <subject>Public Health:</subject>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">63</container>
+                     <unittitle>
+                        <corpname>Durham County TB and Health Association</corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1952, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1954-1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Hospitals. </subject>
+                        <geogname>North Carolina </geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Medical Education. </subject>
+                        <geogname>North Carolina</geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>National Health Council</corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1967</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>N.C. Comprehensive Health Planning Council </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">64</container>
+                     <unittitle>
+                        <corpname>N.C. Comprehensive Health Planning Project</corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1970</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">65</container>
+                     <unittitle>
+                        <corpname>N.C. Comprehensive Health Services </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>N.C. Comprehensive Health Services, </corpname>Financing <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">63</container>
+                     <unittitle>
+                        <subject>Psychiatric Hospitals, </subject>
+                        <geogname>North Carolina</geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957, </unitdate>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1967</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">63</container>
+                     <unittitle>
+                        <subject>Smoking and Health</subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">66</container>
+                  <unittitle>Race Problems:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Desegregation Plan, </subject>
+                        <corpname>Durham School Board</corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Durham Negro Grievances. School Integration </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <emph render="doublequote">Durham Plan.</emph> Race Relations<unitdate type="inclusive" era="ce" calendar="gregorian"> 1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>National Commission on Civil Order. </corpname>Riot Report<unitdate type="inclusive" era="ce" calendar="gregorian"> 1968</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Segregation. </subject>Articles, etc. <unitdate type="inclusive" era="ce" calendar="gregorian">1954-1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Segregation. </subject>
+                        <geogname>Richmond, Va. </geogname>Newspaper Clippings<unitdate type="inclusive" era="ce" calendar="gregorian"> 1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <corpname>Salem Academy </corpname>(See N.C. Salem Academy)</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">67</container>
+                  <unittitle>
+                     <corpname>Salvation Army. </corpname>Cases from Social Services Department n. d.</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <corpname>Southern Newspaper Publishers Association Foundation. </corpname>Seminars for Southern Journalists (See Press Associations)</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <corpname>Southern Regional Education Board. Seminars for Southern Journalists </corpname>(See Press Associations)</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">67</container>
+                  <unittitle>
+                     <subject>State and Local Revenue Potential. </subject>
+                     <corpname>Southern Regional Education Board</corpname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian"> 1969</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">68 </container>
+                  <unittitle>
+                     <corpname>U.S. Department of Health, Education and Welfare. </corpname>National Policy and Performance Council <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1972</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">68</container>
+                  <unittitle>
+                     <corpname>University of North Carolina:</corpname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Black Student Movement</subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1968</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Election of Trustees</subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Installation of <persname>Chancellor Nelson E. Taylor</persname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Newsletter <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">68</container>
+                  <unittitle>
+                     <corpname>Virginia Historical Society</corpname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian"> 1967</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+
+<c02 level="subseries">
+               <did>
+                  <container type="box">70</container>
+                  <unittitle>
+                    Addition (87-94),
+                     <unitdate type="inclusive" era="ce" calendar="gregorian"> 1976</unitdate>
+                  </unittitle>
+               </did>
+<scopecontent>
+<p>Contains correspondence, notes and printed material for the development of Durham and its commemoration of the U.S. Bicentennial, 1976. Also contains information concerning health care in N.C., and notes from various conferences held by the U.S. State department for news editors.</p>
+</scopecontent>
+            </c02>
+         </c01>
+
+
+      </dsc>
+   </archdesc>
+</ead>

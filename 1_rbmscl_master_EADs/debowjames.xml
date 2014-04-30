@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+    <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601"
+        langencoding="iso639-2" repositoryencoding="iso15511">
+
+        <eadid countrycode="us" mainagencycode="ndd"
+            publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::James D. B. DeBow Papers, 1779-1915)//EN"
+            url="http://library.duke.edu/rubenstein/findingaids/debowjames/">debowjames</eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper>Guide to the James D. B. De Bow Papers, <date normal="1779/1915"
+                        >1779-1915</date>
+                </titleproper>
+                <author>Processed by: Rubenstein Library staff; machine-readable finding aid created
+                    by: Matthew Warren and Paula Jeannet Mangiafico</author>
+            </titlestmt>
+
+            <publicationstmt>
+                <publisher><lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke
+                    University <lb/> Durham, N.C., USA </publisher>
+                <p><date normal="2012" encodinganalog="date"> 2012</date> Duke University. All
+                    Rights Reserved.</p>
+            </publicationstmt>
+
+            <notestmt>
+                <note>
+                    <p>Aleph Number: <num type="aleph">000851744</num></p>
+                </note>
+            </notestmt>
+        </filedesc>
+
+        <profiledesc>
+            <creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+                <date>Date of source: April 2012</date><lb/>Processed by Rubenstein Library staff,
+                September 2011; finding aid encoded by Matthew Warren and Paula Jeannet Mangiafico,
+                David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, <date>April
+                    2012</date></creation>
+
+            <langusage>Description is in <language langcode="eng">English</language></langusage>
+
+            <descrules>Finding aid was prepared using <title>DACS</title> and local <title>Style
+                    Guide</title></descrules>
+
+        </profiledesc>
+        <!-- Location of <revisiondesc> if needed -->
+    </eadheader>
+
+    <frontmatter>
+        <titlepage>
+            <titleproper>Guide to the James D. B. De Bow Papers, <date type="span"
+                    >1779-1915</date></titleproper>
+            <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University
+                <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+            <p><date normal="2012">(C) 2012</date> Duke University. All Rights Reserved.</p>
+        </titlepage>
+    </frontmatter>
+
+    <archdesc level="collection" relatedencoding="MARC">
+        <did>
+            <head>Descriptive Summary</head>
+            <repository label="Repository">
+                <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+                    University</corpname></repository>
+            <origination label="Creator"><persname encodinganalog="100">De Bow, J. D. B. (James
+                    Dunwoody Brownson), 1820-1867.</persname></origination>
+            <unittitle label="Title" encodinganalog="245">James D. B. De Bow papers <unitdate
+                    normal="1779/1915" type="inclusive">1779-1915</unitdate></unittitle>
+
+            <langmaterial label="Language of Material" encodinganalog="546">Material in <language
+                    langcode="eng"> English</language>
+            </langmaterial>
+
+            <physdesc label="Extent">
+                <extent unit="linear feet" encodinganalog="300">6.5 Linear Feet</extent><lb/>
+                <extent unit="items">Approx. 1,618 Items</extent>
+            </physdesc>
+
+            <physloc label="Location">For current information on the location of these materials,
+                please consult the Library's online catalog.</physloc>
+
+
+            <abstract label="Abstract" encodinganalog="545">Editor, publisher, statistician, and
+                pro-secessionist residing in New Orleans, Louisiana.</abstract>
+
+            <abstract encodinganalog="520">Collection comprises business and personal
+                correspondence, diary, and other papers. Much of the material relates to "De Bow's
+                Review," an agricultural and economic newspaper and pro-secession, pro-slavery
+                publication which he founded and edited from 1846-1867, and to De Bow's position as
+                agent for the Confederacy's cotton and produce loan, with many letters to and from
+                Christopher G. Memminger and George A. Trenholm concerning details of the loan.
+                Includes early items apparently collected in connection with De Bow's statistical
+                work, essays written while a student at Charleston College, lectures on temperance,
+                and a scrapbook of accounts of Civil War campaigns. Correspondents include John W.
+                Daniel, Charles E. Fenner, George Fitzhugh, Charles Gayarr&#233;, Alexander D. Von
+                Humboldt, Freeman Hunt, Edmund Ruffin, William Gilmore Simms, Harriet Beecher Stowe,
+                and Maunsel White.</abstract>
+
+        </did>
+
+        <descgrp type="admininfo">
+            <head>Administrative Information</head>
+
+            <accessrestrict encodinganalog="506">
+                <head>Access Restrictions</head>
+                <p>Collection is open for research.</p>
+                <p>Researchers must register and agree to copyright and privacy laws before using
+                    this collection.</p>
+                <p>All or portions of this collection may be housed off-site in Duke University's
+                    Library Service Center. The library may require up to 48 hours to retrieve these
+                    materials for research use.</p>
+                <p>Please contact Research Services staff before visiting the David M. Rubenstein
+                    Rare Book &amp; Manuscript Library to use this collection.</p>
+            </accessrestrict>
+
+            <userestrict encodinganalog="540">
+                <head>Copyright Notice</head>
+                <p>The copyright interests in this collection have not been transferred to Duke
+                    University. For more information, consult the copyright section of the
+                    Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript
+                    Library.</p>
+            </userestrict>
+
+            <prefercite>
+                <head>Preferred Citation</head>
+                <p>[Identification of item], James D. B. De Bow Papers, David M. Rubenstein Rare Book
+                    &amp; Manuscript Library, Duke University.</p>
+            </prefercite>
+
+            <acqinfo encodinganalog="541">
+                <head>Provenance</head>
+                <p>The James D. B. De Bow Papers were acquired by the David M. Rubenstein Rare Book
+                    &amp; Manuscript Library from 1935-1949. </p>
+            </acqinfo>
+
+
+            <processinfo>
+                <head>Processing Information</head>
+                <p>Processed by Rubenstein Library staff, September 2011</p>
+                <p>Encoded by Matthew Warren and Paula Jeannet Mangiafico, April 2012</p>
+                <p>Accession(s) described in this finding aid: 35-708 and all subsequent
+                    additions.</p>
+                <p>Descriptive sources and standards used to create this inventory: <title
+                        render="italic">DACS,</title> EAD, NCEAD guidelines, and local <title
+                        render="italic">Style Guide.</title></p>
+                
+            </processinfo>
+        </descgrp>
+
+        <!--end of finding aid header-->
+
+        <bioghist>
+            <head>Biographical Note</head>
+
+            <p>Southern publisher, statistician, and agricultural reformer residing in New Orleans.
+                De Bow founded his agricultural and economic magazine, <title render="italic">De Bow's
+                    Review</title>, in 1846, and served as its editor until his death in 1867 of
+                peritonitis. He was also head of the U.S. Census from 1853-1857, and president of
+                the proposed Tennessee-Pacific Railroad, a project which he never lived to see
+                accomplished. Arguing for Southern agricultural reform to build up Southern
+                independence from the Northern States, De Bow became a strong influence for the
+                pro-slavery, pro-secession movement in the 1850s and 1860s.</p>
+
+            <!-- Use Chronlist Tags clip here for Chronology -->
+
+        </bioghist>
+
+        <!-- Use Chronlist Tags clip here for Chronology -->
+
+
+        <scopecontent>
+            <head>Collection Overview</head>
+
+            <p>Business and personal papers of an editor and agricultural and commercial reformer,
+                including copies of historical documents apparently collected by De Bow in connection
+                with his statistical work for the state of Louisiana and the U.S. Census Bureau; a
+                diary, 1836-1842; essays written while a student at College of Charleston,
+                1840-1843; two temperance lectures delivered during a tour of New England, 1844;
+                letters from Maunsell White concerning White's backing of De Bow's <title
+                    render="italic">Review</title>; correspondence with the <title render="italic"
+                    >Review</title>'s agents and subscribers; the journal's bills and accounts;
+                records, including correspondence with Christopher Gustavus Memminger and George
+                Alfred Trenholm, relating to the Confederacy's cotton and produce loan; postwar
+                letters concerning proposed railroads between the South and the West, especially the
+                Tennessee and Pacific Railroad; letters to De Bow's wife, Martha E. (Johns) De Bow,
+                from her girlhood friends and from De Bow; and De Bow's history of the Civil War,
+                written for his children.</p>
+
+            <p>Other correspondents include Charles Gayarr&#233;, George Fitzhugh, Edmund Ruffin,
+                William Gilmore Simms, Charles E. Penner, Freeman Hunt, John W. Daniel, Eugene F.
+                Falconnet, Charles Frederick Holmes, John McRae, Oliver Otis Howard, Reverdy
+                Johnson, Robert E. Barnwell, and William W. Boyce. The collection is rounded out by
+                a one-volume scrapbook containing accounts of Civil War campaigns collected by
+                De Bow.</p>
+
+            <!-- OPTIONAL: Use Arrangement clip here for Collection Arrangement section -->
+
+        </scopecontent>
+
+        <controlaccess>
+            <head>Subject Headings</head>
+            <p>These are searchable subject entries for this collection. Performing a search on
+                these subjects in the Duke University Libraries online catalog will bring up other
+                related research materials.</p>
+            <list type="simple">
+                <item><persname source="lcsh" encodinganalog="600">Daniel, John W. (John Warwick),
+                        1842-1910</persname></item>
+                <item><persname source="lcsh" encodinganalog="600">De Bow, J. D. B. (James Dunwoody
+                        Brownson), 1820-1867</persname></item>
+                <item><persname source="lcsh" encodinganalog="600">Fenner, Charles E. (Charles
+                        Erasmus), 1834-1911</persname></item>
+                <item><persname source="lcsh" encodinganalog="600">Fitzhugh, George,
+                        1806-1881</persname></item>
+                <item><persname source="lcsh" encodinganalog="600">Gayarr&#233;, Charles,
+                        1805-1895</persname></item>
+                <item><persname source="lcsh" encodinganalog="600">Hunt, Freeman,
+                        1804-1858</persname></item>
+                <item><persname source="lcsh" encodinganalog="600">Memminger, C. G. (Christopher
+                        Gustavus), 1803-1888</persname></item>
+                <item><persname source="lcsh" encodinganalog="600">Ruffin, Edmund,
+                        1794-1865</persname></item>
+                <item><persname source="lcsh" encodinganalog="600">Simms, William Gilmore,
+                        1806-1870</persname></item>
+                <item><persname source="lcsh" encodinganalog="600">Stowe, Harriet Beecher,
+                        1811-1896</persname></item>
+                <item><persname source="lcsh" encodinganalog="600">Trenholm, George Alfred,
+                        1806-1876</persname></item>
+                <item><persname source="lcsh" encodinganalog="600">Humboldt, Alexander von,
+                        1769-1859</persname></item>
+                <item><persname source="lcsh" encodinganalog="600">White, Maunsel</persname></item>
+                <item><corpname source="lcsh" encodinganalog="610">College of Charleston --
+                        Students</corpname></item>
+                <item><corpname source="lcsh" encodinganalog="610">Confederate States of America.
+                        Produce Loan Office</corpname></item>
+
+                <item><subject source="lcsh" encodinganalog="650">De Bow's Review</subject></item>
+                <item><subject source="lcsh" encodinganalog="650">Agriculture -- Southern
+                        States</subject></item>
+                <item><subject source="lcsh" encodinganalog="650">Journalists -- United States --
+                        Correspondence</subject></item>
+                <item><subject source="lcsh" encodinganalog="650">Secession -- Southern
+                        States</subject></item>
+
+                <item><geogname source="lcsh" encodinganalog="651">Confederate States of America --
+                        Economic conditions</geogname></item>
+
+                <item><geogname source="lcsh" encodinganalog="651">Louisiana --
+                    History</geogname></item>
+                <item><geogname source="lcsh" encodinganalog="651">Southern States -- History --
+                        1775-1865</geogname></item>
+                <item><geogname source="lcsh" encodinganalog="651">United States -- History -- Civil
+                        War, 1861-1865 -- Campaigns</geogname></item>
+            </list>
+        </controlaccess>
+
+   
+
+
+        <dsc type="combined">
+
+            <head>Contents of Collection</head>
+
+            <!-- Enter Container List Here -->
+
+            <c01 level="series">
+                <did>
+                    <unittitle id="s1">James D. B. De Bow Papers, <unitdate type="inclusive"
+                            normal="1779/1915">1779-1915 and undated</unitdate></unittitle>
+                    <physdesc><extent>(7 boxes)</extent></physdesc>
+                </did>
+
+
+                <c02 level="file">
+                    <did>
+                        <container type="box">1</container>
+                        <unittitle>Papers, 1779-1855, June 20</unittitle>
+                    </did>
+                </c02>
+
+                <c02 level="file">
+                    <did>
+                        <container type="box">2</container>
+                        <unittitle>Papers 1855, June 21-1860, July</unittitle>
+                    </did>
+                </c02>
+
+                <c02 level="file">
+                    <did>
+                        <container type="box">3</container>
+                        <unittitle>Papers 1860, August-1864, May</unittitle>
+                    </did>
+                </c02>
+
+                <c02 level="file">
+                    <did>
+                        <container type="box">4</container>
+                        <unittitle>Papers 1864, June-1915</unittitle>
+                    </did>
+                </c02>
+
+                <c02 level="file">
+                    <did>
+                        <container type="box">5</container>
+                        <unittitle>Papers, undated</unittitle>
+                    </did>
+                </c02>
+
+                <c02 level="file">
+                    <did>
+                        <container type="box">5</container>
+                        <unittitle>Journals</unittitle>
+                    </did>
+                </c02>
+
+                <c02 level="file">
+                    <did>
+                        <container type="box">6-7</container>
+                        <unittitle>Clippings</unittitle>
+                    </did>
+                </c02>
+
+                <c02 level="file">
+                    <did>
+                        <container type="volume">F:895</container>
+                        <unittitle>Civil War scrapbook</unittitle>
+                    </did>
+                </c02>
+
+            </c01>
+
+        </dsc>
+    </archdesc>
+</ead>

@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+   <eadheader audience="internal" langencoding="iso639-2b" findaidstatus="unverified-full-draft" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid publicid="-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Sim A. DeLapp Papers)//EN" countrycode="us" mainagencycode="ndd" url="http://library.duke.edu/rubenstein/findingaids/delapp/">delapp</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Sim A. DeLapp Papers, <date normal="1862/1976" type="inclusive" era="ce" calendar="gregorian">1862-1976</date></titleproper>
+            <author>Processed by Janie Morris; machine-readable finding aid created by
+Alvin Pollock, Electronic Text Unit, UC Berkeley Library</author>
+         </titlestmt>
+         <publicationstmt>
+            
+            <date era="ce" calendar="gregorian"> 1997</date>
+            <p>Duke University. All rights reserved.</p>
+         </publicationstmt>
+         <notestmt>
+         <note><p>Aleph Number: <num type="aleph">001076402</num></p></note></notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from MS Word.
+Date of source: <date era="ce" calendar="gregorian">May 15, 1992.</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005" era="ce" calendar="gregorian">08-18-2005</date>
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Sim A. DeLapp Papers)//EN" "delapp.sgm" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+		<item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date era="ce" calendar="gregorian">June 29, 1998</date>
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Sim A. DeLapp Papers, 1862-1976</titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>
+            
+            <lb/>Duke University<lb/>Durham, North Carolina 27708-0185</publisher>
+         
+         <p> 1997 Duke University. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">Sim A. DeLapp papers <unitdate normal="1862/1976" type="inclusive" era="ce" calendar="gregorian">1862-1976</unitdate>
+         </unittitle>
+         <origination label="Creator"><persname>DeLapp, Simeon Alexander</persname></origination>
+         <physdesc label="Extent">
+		<extent>10 Linear Feet</extent>
+		<extent>circa 13,100 Items</extent>
+	   </physdesc>
+         <repository label="Repository">
+            <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+            <address>
+               <addressline>Durham, North Carolina 27708-0185</addressline>
+            </address>
+         </repository>
+         <physloc label="Location">For current information on the location of these
+materials, please consult the library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+	   <accessrestrict>
+		<head>Access Restrictions</head>
+		<p>Collection is open for research.</p> 
+		<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p> 
+		<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>   
+		<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p> 
+	   </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The copyright interests in the DeLapp Papers have not been
+transferred to Duke University. For further information, see the section
+on copyright in the Regulations and Procedures of the Special Collections
+Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Sim A. DeLapp Papers,
+David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The David M. Rubenstein Rare Book &amp; Manuscript Library acquired the Sim A. DeLapp Papers
+(1862-1976) in three installments 1978, 1980, and 1983 by purchase
+and gift. The donation was made by Mrs. DeLapp in 1983.</p>
+         </acqinfo>
+	   <processinfo>
+		<head>Processing Information</head>
+		<p>Processed by Janie Morris</p>
+            <p>Completed May 15, 1992</p>
+            <p>Encoded by Alvin Pollock, Electronic Text Unit, UC Berkeley Library</p>
+		<p>This finding aid is NCEAD compliant.</p>
+	   </processinfo>
+      </descgrp>
+      <bioghist>
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1897, Dec. 21</date>
+               <event>Born Davidson County, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1918</date>
+               <event>A.B. Trinity College (now Duke University)</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1921</date>
+               <event>LL.B. Trinity College</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1921-1926</date>
+               <event>Practiced law in Lexington, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1922-1934</date>
+               <event>Member, Lexington Board of School Commissioners</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1926-1946</date>
+               <event>Member, McCrary and DeLapp law firm</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1927, July</date>
+               <event>Married Rose Sexton of Denton, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1928-1930</date>
+               <event>Davidson County attorney</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1942-1950</date>
+               <event>Chair, North Carolina State Republican Party</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1946-1950</date>
+               <event>Davison County attorney</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1946-1952</date>
+               <event>Practiced law independently in Lexington, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1950-1964</date>
+               <event>Legal counsel for the North Carolina Republican Party</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1951-1952</date>
+               <event>North Carolina State Chairman of Dwight D. Eisenhower's
+campaign for the presidency</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1952-1976</date>
+               <event>Partner, Lexington law firm that maintained a general and
+trial practice under various names: DeLapp and Ward,
+1952-1966; DeLapp, Ward, and Hedrick, 1966-1972;
+DeLapp and Hedrick, 1972-1974; DeLapp, Hedrick and
+Harp, 1974-1975; DeLapp, Hedrick, Harp, and Smith,
+1975-1976.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1965-1970</date>
+               <event>Trustee, Davidson County Community College</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1967-1974</date>
+               <event>Davidson County attorney</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1976, Aug. 9</date>
+               <event>Died, Winston-Salem, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1983</date>
+               <event>Named posthumously to the North Carolina GOP Hall of
+fame</event>
+            </chronitem>
+         </chronlist>
+         <p>Member of the American, North Carolina, and Davidson County
+Bar Associations and the Lexington Rotary Club. Member and Elder in
+the First Evangelical and Reformed Church (later United Church of
+Christ) in Lexington. Member of the Kiwanis Club.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The collection chiefly documents DeLapp's long-term involvement with the North Carolina Republican Party at the state and local level. While correspondence comprises the bulk of the collection, there are also some legal and financial papers, writings and speeches, printed material, and clippings. Being Chair of the North Carolina Republican Party (1942-1950) and legal counsel to the party (1950-1964), provided DeLapp access to state party leaders, which is reflected by the correspondents that include J. E. Broyhill, Wilmer D. Mizell, William E. Cobb, and Jesse Helms.</p>
+         <p>Included is information concerning political appointments, canvassing and registering voters, political campaigns, and political speeches (some made by DeLapp). DeLapp's efforts to promote Republican presidential candidates is highlighted in 1952 when he served as North Carolina State Chairman of Dwight D. Eisenhower's campaign. The earliest corespondence primarily relates to Delapp's father, Alexander T. Lapp, who was sheriff of Davidson County, N.C., from 1906-1912 and 1916-1918. Also represented are DeLapp's responsibilities with the Evangelical and Reformed Church (later the United Church of Christ); information about the DeLapp family and DeLapp's published work, <title render="italic" linktype="simple">People, Politics, Religion</title>; and concern about the Duke University administration during the 1960s and early 1970s.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p> 
+         <list type="simple">
+            <item>
+               <corpname>Republican Party -- North Carolina</corpname>
+            </item>
+            <item>
+               <subject>Electioneering -- North Carolina</subject>
+            </item>
+            <item>
+               <geogname>North Carolina -- Politics and government</geogname>
+            </item>
+            <item>
+               <subject>Patronage, Political -- North Carolina</subject>
+            </item>
+            <item>
+               <subject>Politicians -- North Carolina</subject>
+            </item>
+            <item>
+               <subject>Voter registration -- North Carolina</subject>
+            </item>
+            <item>
+               <subject>Presidents -- United States -- Election 1952</subject>
+            </item>
+            <item>
+               <famname>DeLapp family</famname>
+            </item>
+            <item>
+               <corpname>Evangelical and Reformed Church</corpname>
+            </item>
+            <item>
+               <corpname>Duke University</corpname>
+            </item>
+            <item>
+               <persname>DeLapp, Alexander T.</persname>
+            </item>
+            <item>
+               <persname>Eisenhower, Dwight D. (Dwight David), 1890-1969</persname>
+            </item>
+           
+            <item>
+               <persname>Broyhill, J. E.</persname>
+            </item>
+            <item>
+               <persname>Jonas, Charles Raper</persname>
+            </item>
+            <item>
+               <persname>Broyhill, James Thomas, 1927-</persname>
+            </item>
+            <item>
+               <persname>Mizell, Wilmer D.</persname>
+            </item>
+            <item>
+               <persname>Cobb, William E.</persname>
+            </item>
+            <item>
+               <persname>Helms, Jesse</persname>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle>Correspondence Series</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1862-1948 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1949-1951, Aug. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1951, Sept.-1952, June </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(7 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1952, July-1953 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(7 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1954, Jan.-1957, June </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(7 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1957, July-1959 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1960-1964, Apr. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1964, May-1965, June </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(7 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1965, July-1966, Sept. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(7 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1966, Oct.-1968, May </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1968, June-1970, May </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1970, June-1972, Mar. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1972, Apr.-1973, Oct. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1973, Nov.-1975, Aug. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(7 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1975, Sept.-1976, Aug., undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Legal Papers Series</unittitle>
+            </did>
+            <c02 level="file">
+               <did><container type="box">15</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1945-1976 </unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Financial Papers Series</unittitle>
+            </did>
+            <c02 level="file">
+               <did><container type="box">15</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1948-1976 </unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Addresses and Writings Series</unittitle>
+            </did>
+            <c02 level="file">
+               <did><container type="box">15</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1920-1955 </unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1956-1970s </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle>People, Politics, Religion, <unitdate era="ce" calendar="gregorian">1975 and undated </unitdate>(2 folders and 1 volume)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Genealogy Series</unittitle>
+            </did>
+            <c02 level="file">
+               <did><container type="box">17</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1921-1974 </unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Printed Material Series</unittitle>
+            </did>
+            <c02 level="file">
+               <did><container type="box">17</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1912-1964 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1965-1976, undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Clippings Series</unittitle>
+            </did>
+            <c02 level="file">
+               <did><container type="box">18</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1940-1968 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">19</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1969-1975, undated </unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Miscellaneous Series</unittitle>
+            </did>
+            <c02 level="file">
+               <did><container type="box">19</container>
+                  <unittitle>Pictures,
+<unitdate era="ce" calendar="gregorian">1914?-1953, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1936-1966 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">20</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1967-1976, undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <unittitle>Photocopies,
+<unitdate era="ce" calendar="gregorian">1928-1968</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Oversize Material</unittitle>
+            </did>
+            <c02 level="file">
+               <did><container type="box">22</container><unittitle>Printed Material Series,
+<unitdate era="ce" calendar="gregorian">1948-1974</unitdate>    </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">21</container>
+                  <unittitle>Clippings Series--Scrapbooks, <unitdate era="ce" calendar="gregorian">1942-1948 </unitdate>(3)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">22</container>
+                  <unittitle>Miscellaneous Series,
+<unitdate era="ce" calendar="gregorian">1936-1960s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did><container type="box">22</container>
+                  <unittitle>Scrapbook,
+<unitdate era="ce" calendar="gregorian">1948 and undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

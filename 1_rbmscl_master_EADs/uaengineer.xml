@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" langencoding="iso639-2b" relatedencoding="Dublin Core" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//University Archives//TEXT (US::NDD::::School of Engineering Records)//EN" url="http://library.duke.edu/rubenstein/findingaids/uaengineer/">uaengineer</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="title">Preliminary
+			 Guide to the School of Engineering Records,
+			 <date type="span" normal="1931/1998" era="ce" calendar="gregorian">1931 -
+				1998</date>
+            </titleproper>
+            <author encodinganalog="creator">Processed by:
+			 Emily Glenn; machine-readable finding aid created by:
+			 Valerie Gillispie</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>University Archives<lb/>Duke University</publisher>
+            <address>
+              <addressline>Durham, N.C., U.S.A.</addressline>
+  </address>
+            <p>
+               <date encodinganalog="date" normal="2003" era="ce" calendar="gregorian">
+				2003</date> Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+      <notestmt>
+         <note><p>Aleph Number: <num type="aleph">003258649</num></p></note></notestmt>
+</filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from
+		  automated markup system. <lb/>Date of source: January 15,
+		  2003 <lb/>Processed by Emily Glenn January 15, 2003;
+		  Finding Aid encoded by Valerie Gillispie, University
+		  Archives, Duke University,
+		  <date era="ce" calendar="gregorian">May 27, 2003</date>
+         </creation>
+         <langusage>Description is in
+		  <language encodinganalog="language">English.</language>
+         </langusage>
+      </profiledesc>
+
+      <revisiondesc>
+         <change>
+            <date normal="2006" era="ce" calendar="gregorian">05-26-2006</date>
+            <item>PUBLIC "-//University
+		Archives//TEXT (US::NDD::::School of Engineering
+		Records)//EN" "uaengineer.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Preliminary Guide to the School of
+		  Engineering Records,
+		  <date era="ce" calendar="gregorian">1931 - 1998</date>
+         </titleproper>
+         <publisher>
+            <lb/>University Archives <lb/>
+
+            <lb/> Duke
+		  University <lb/> Durham, North Carolina 27708-0202 USA
+		  </publisher>
+
+
+         <p>
+            <date encodinganalog="date" normal="2003" era="ce" calendar="gregorian">
+			 2003</date> Duke University. All Rights Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle encodinganalog="245" label="Title">School
+		  of Engineering records 		  <unitdate encodinganalog="245" normal="1931/1998" type="inclusive" era="ce" calendar="gregorian">1931 - 1998</unitdate> </unittitle>
+         <origination label="Creator">
+            <corpname encodinganalog="110">Duke University.
+			 School of Engineering</corpname>
+         </origination>
+         
+         <physdesc label="Extent">
+            <extent>50 Linear Feet		  </extent>
+            <extent encodinganalog="300">50,000		  Items</extent>
+         </physdesc>
+         <repository encodinganalog="852" label="Repository">
+            <corpname>University Archives, Duke
+			 University</corpname>
+         </repository>
+         <physloc label="Location">For current information on
+		  the location of these materials, please consult University
+		  Archives, Duke University.</physloc>
+         <abstract encodinganalog="545" label="Abstract">Contains the records of the School of
+		  Engineering at Duke University from 1931 to 1998. Includes
+		  records of the Department of Electrical Engineering,
+		  Department of Civil and Environmental Engineering,
+		  Engineering Student Government, and the Engineering Alumni
+		  Association. Type of materials include biographical files,
+		  general subject files, correspondence, photographs,
+		  clippings, rosters, minutes, reports, proposals, course
+		  descriptions, memoirs, honors, and vitae. Major subjects
+		  include Duke University, students, School of Engineering,
+		  the study and teaching of science and engineering, and
+		  scientific research. </abstract>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict encodinganalog="506">
+            <head>Access Restrictions</head>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>For a period of twenty-five years from the
+			 origin of the material, permission in writing from the
+			 office of origin and the University Archivist is required for use.
+			 After twenty-five years, records that have been processed
+			 may be consulted with the permission of the University
+			 Archivist.</p>
+            <p>In accordance with the Family Education Rights
+			 and Privacy Act of 1974 as amended, Duke University permits
+			 students to inspect their education records and limits the
+			 disclosure of personally identifiable information from
+			 education records.</p>
+            <p>In off-site storage; 48 hours advance notice is
+			 required for use.</p>
+         </accessrestrict>
+         <userestrict encodinganalog="540">
+            <head>Use Restrictions</head>
+            <p>Copyright for Official University records is
+			 held by Duke University; all other copyright is retained by
+			 the authors of items in these papers, or their descendants,
+			 as stipulated by United States copyright law.</p>
+         </userestrict>
+         <prefercite encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>[Identification of item], School of Engineering
+			 Records, Duke University Archives, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo encodinganalog="541">
+            <head>Provenance</head>
+            <p>Received 1976. School of Engineering, Subject
+			 files of Associate Dean Edward K. Kraybill. Accession
+			 number: 76-32 (Boxes 1-6) </p>
+            <p>Received 1976. School of Engineering, Subject
+			 files of Dean Charles R. Vail. Accession number: 76-32
+			 (Boxes 7-15)</p>
+            <p>Received 1978 and 1983. School of Engineering,
+			 Office of the Dean, alphabetical subject files. Accession
+			 numbers: A83-62, A78-143 (Boxes 16-28)</p>
+            <p>Received 1989. School of Engineering, Office of
+			 the Dean, faculty and staff biographical files. Accession
+			 numbers: A89-006 (Box 29)</p>
+            <p>Received 1993 and 1996. School of Engineering,
+			 Department of Civil and Environmental Engineering.
+			 Accession numbers: A93-24, A93-98, 96-107. Also received
+			 1982. Engineering Student Government. Accession numbers:
+			 A82-41 (Box 30)</p>
+            <p>Received 1984, 1985, 1988, 1991, 1999. School of
+			 Engineering, Department of Electrical Engineering.
+			 Accession numbers: A84-14, A85-93, A88-038, A91-62, A99-36
+			 (Box 31)</p>
+            <p>Received 1977, 1979, 1994. School of
+			 Engineering, Engineering Alumni Association. Accession
+			 numbers: A77-27, A79-21, A94-115, A94-132 (Boxes 32-33)</p>
+            <p>Received 1983. School of Engineering, Office of
+			 the Dean, alphabetical subject files. Accession numbers:
+			 A83-62 (Boxes 34-36)</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Emily Glenn</p>
+            <p>Completed January 15, 2003</p>
+<p>Encoded by Valerie Gillispie, May 27, 2003</p>
+        <p>This finding aid is NCEAD compliant.</p>
+
+</processinfo>
+      </descgrp><!-- End of finding aid header -->
+      <bioghist encodinganalog="545">
+         <head>Historical Note</head>
+         <p>From
+		  http://www.ee.duke.edu/graduate/abouteng.html</p>
+         <p>The School of Engineering traces its history back
+		  to 1851 when the catalogue for Normal College, the
+		  forerunner of Trinity College and Duke University,
+		  advertised a Classical course which included surveying in
+		  the sophomore year as well as architecture and engineering
+		  for seniors. Similar offerings characterized instruction in
+		  the subject of engineering throughout the 73 year period of
+		  the institution's operation as Trinity College. When
+		  Trinity College because Duke University in 1924,
+		  Engineering instruction underwent a period of vigorous
+		  development.</p>
+         <p>The School of Engineering at Duke is currently
+		  primarily housed in its own two buildings: Hudson Hall
+		  (fondly known as Old Red) and the modern Teer Building. It
+		  also shares space with other science facilities in the
+		  Levine Science Research Center which is separate from the
+		  Engineering Buildings. The School of Engineering is
+		  composed of the four departments of Electrical and Computer
+		  Engineering, Biomedical Engineering, Civil and
+		  Environmental Engineering, and Mechanical Engineering and
+		  Materials Science. There are also shared research
+		  facilities and joint research activities with numerous
+		  other departments including Physics, Computer Science,
+		  Mathematics and Medicine.</p>
+         <p>The School of Engineering houses the prestigious
+		  National Science Foundation Center for Advanced
+		  Cardiovascular Technology, which is an international leader
+		  in the application of Engineering to Medicine, and the
+		  Vesic Engineering Library in the Teer Building.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Contains the records of the School of Engineering
+		  pertaining to courses of instruction, employees, research,
+		  students, and general management. Materials in subject
+		  files are roughly organized by topics. Engineering Alumni
+		  files are largely unordered. Faculty and staff biographical
+		  files are ordered alphabetically by last name. Some boxes
+		  are restricted.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These and related materials may be accessed under
+		  the following subject headings in the Duke University
+		  Libraries online catalog.</p><!-- Note: use LCSH subject headings; <subject encodinganalog="650">, <persname encodinganalog="600">, <corpname encodinganalog="610">, <geogname encodinganalog="651">, <famname encodinganalog="600">, <genreform encodinganalog="655">, <occupation encodinganalog="656"> used where applicable -->
+         <list type="simple">
+            <item>
+               <subject encodinganalog="650">Civil engineering -- North Carolina</subject>
+            </item>
+            <item>
+               <corpname encodinganalog="610">Duke
+				University</corpname>
+            </item>
+            <item>
+               <corpname encodinganalog="610">Duke University.
+				Dept. of Civil and Environmental
+				Engineering</corpname>
+            </item>
+            <item>
+               <corpname encodinganalog="610">Duke University.
+				Dept. of Electrical Engineering</corpname>
+            </item>
+            <item>
+               <corpname encodinganalog="610">Duke University.
+				Engineering Alumni Association -- Directories</corpname>
+            </item>
+            <item>
+               <corpname encodinganalog="610">Duke University.
+				School of Engineering -- History</corpname>
+            </item>
+            <item>
+               <corpname encodinganalog="610">Duke University.
+				School of Engineering -- Alumni and alumnae -- Directories</corpname>
+            </item>
+            <item>
+               <corpname encodinganalog="610">Duke University -- Students</corpname>
+            </item>
+            <item>
+               <subject encodinganalog="650">Electric
+				engineering</subject>
+            </item>
+            <item>
+               <subject encodinganalog="650">Engineering -- Study and teaching (Graduate)--United
+				States</subject>
+            </item>
+            <item>
+               <subject encodinganalog="650">Engineering -- Study
+				and teaching -- North Carolina -- Durham</subject>
+            </item>
+            <item>
+               <subject encodinganalog="650">Engineering
+				students -- United States</subject>
+            </item>
+            <item>
+               <subject encodinganalog="650">Environmental
+				engineering</subject>
+            </item>
+            <item>
+               <subject encodinganalog="650">Graduate students
+				in science -- United States</subject>
+            </item>
+            <item>
+               <subject encodinganalog="650">Graduate students
+				in engineering -- United States</subject>
+            </item>
+            <item>
+               <subject encodinganalog="650">Science -- Study and
+				teaching -- North Carolina -- Durham</subject>.</item>
+            <item>
+               <subject encodinganalog="650">Science -- Study
+				and teaching (Graduate)--United States</subject>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Preliminary Container List</head>
+         <c01 level="series">
+            <did>
+               <unittitle>Accession number: A76-32</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Academic planning - Alumni
+				  (engineering), nominating committee</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Alumni (engineering), off-campus
+				  meetings - Curriculum committee and instruction
+				  committee</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Curriculum, undergraduate -
+				  Engineering Student Government, newsletters</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Faculty files, advising, - Phi Eta
+				  Sigma</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Including lectures, personnel.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Matthews, Ralph T. - Science
+				  fairs</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Slide Rules, Scientific, and
+				  Educational Equipment - Committee on undergraduate
+				  colleges</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes correspondence.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Academic Standards Committee
+				  meetings - American Institute of Electrical Engineers
+				  (AIEE)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>AIEE recognition awards - Clippings
+				  and College of Engineering, general</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Counseling, Bureau of Testing and
+				  Guidance Material and general Engineering program,
+				  Development Program</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Development Program</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>Development Program - Graduate
+				  Program</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Graduate Administration, Research
+				  program - National Science Foundation</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Patent Policy committee - Research
+				  Triangle Institute</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Research Triangle Institute -
+				  Special Programs, Western Electric</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Special Programs, Western Electric -
+				  Visiting Engineers, includes Staff, general</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Accession numbers: A83-62,
+				A78-143</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle>Academic Council - Course
+				  evaluation</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes Driver Education Research and
+				  Training, Admissions Office, ASDU, Board of Visitors,
+				  Engineering Alumni Association. </p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle>Engineering building, faculty -
+				  Institute of Policy Sciences</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes engineering faculty (1971-1975),
+				  engineering student government, graduate studies, high
+				  school symposium.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle>Interdisciplinary programs -
+				  proposal on Interdisciplinary Program</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes minority applicants, patent policy,
+				  orientation, promotion and tenure </p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">19</container>
+                  <unittitle>News clippings books - University
+				  Science Development proposals</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes
+				<title render="italic" linktype="simple">A Plan of
+				  Action</title>, faculty research, 1971-1976.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">20</container>
+                  <unittitle>Provost Council - Women in
+				  Engineering</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes sponsored research, symposium,
+				  traffic commission, trustees.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">21</container>
+                  <unittitle>ECPD Accreditation Visit, BME, CE,
+				  EE, ME, 1973</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">22</container>
+                  <unittitle>Faculty meeting minutes,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1980</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>MacElduff retirement memory book, includes
+				  some publications and ECPD accreditation </p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">23</container>
+                  <unittitle>Policy on University travel -
+				  Policies, School of Engineering</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes summaries of sponsored research,
+				  research history, long range planning, development of
+				  Engineering at Duke University, Board of Visitors.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">24</container>
+                  <unittitle>ASCE (American Society of Civil
+				  Engineers) - Undergraduate planning information</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes ECPD, PENC, accreditation for civil
+				  engineering, Engineers Joint Council, Phi Beta Kappa, Pi
+				  Tau Sigma. </p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">25</container>
+                  <unittitle>ASEE - RANN, National Science
+				  Foundation information</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes Self-study (1965), ECPD
+				  (1971-1979), and NC Board of Science and Technology.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">26</container>
+                               
+                     <unittitle>Faculty census forms,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1981</unitdate>
+                     </unittitle>
+                  </did>
+               </c02>
+               <c02 level="file">
+                  <did>
+                     <unittitle>Research activity,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1977-1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c02>
+           
+            <c02 level="file">
+               <did>
+                  <container type="box">27</container>
+                  <unittitle>Engineering Faculty Council,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1953-1978</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes bound volumes of Executive
+				  Committee and Administrative Council meeting minutes </p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">28</container>
+                  <unittitle>Includes Dean's reports, NROTC,
+				  student lounge, Development Program, aeronautics,
+				  Engineer's Show (presented by students),
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1939-1964</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Accession number: A89-006;
+				Restricted</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container type="box">29</container>
+                  <unittitle>Biographical files of Engineering
+				  faculty and employees</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes vitae, clippings, photographs,
+				  proposals, and some correspondence.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Accession numbers: A93-24, A93-98,
+				96-107, A82-41; Restricted</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container type="box">30</container>
+                             
+                     <unittitle>Engineering Student Government
+					 records,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1931-1979</unitdate>.</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Includes minutes, correspondence,
+					 Engineer's Show notes, West Campus Community Council</p>
+                  </scopecontent>
+               </c02>
+               <c02 level="file">
+                  <did>
+                     <unittitle>Department of Civil and
+					 Environmental Engineering records,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1936-1999
+						</unitdate>. </unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Includes minutes, correspondence, reports,
+					 student papers, subject files, notes of research activity,
+					 and faculty meeting minutes.</p>
+                  </scopecontent>
+               </c02>
+           
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Accession numbers: A84-14, A85-93,
+				A88-038, A91-62, A99-36</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container type="box">31</container>
+                  <unittitle>Department of Electrical
+				  Engineering,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1946-1972</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes minutes, correspondence, reports,
+				  student papers, memos, grant reports, reports of research
+				  activities, and Babbling Brooks newsletter for Engineering
+				  Alumni.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Accession numbers: A77-27, A79-21,
+				A94-115, A94-132</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container type="box">32</container>
+                  <unittitle>School of Engineering, Engineering
+				  Alumni Association,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1954-1994</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes Alumni Council meeting minutes,
+				  honorary degrees.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">33</container>
+                  <unittitle>School of Engineering, Engineering
+				  Alumni Association,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1954-1994</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes 50th reunion directory, awards,
+				  newsletters, Alumni Council meeting minutes, some
+				  correspondence to alumni</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Accession numbers: A83-62</unittitle>
+            </did>
+
+               <c02 level="file">
+                  <did><container type="box">34</container>
+                     <unittitle>Publications from engineering
+					 firms, ca.
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c02>
+               <c02 level="file">
+                  <did>
+                     <unittitle>Engineering building annex parking
+					 lot,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1976-1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c02>
+               <c02 level="file">
+                  <did>
+                     <unittitle>Renovations,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1976-1978</unitdate>
+                     </unittitle>
+                  </did>
+               </c02>
+               <c02 level="file">
+                  <did>
+                     <unittitle> Building plans and
+					 proposals</unittitle>
+                  </did>
+               </c02>
+               <c02 level="file">
+                  <did>
+                     <unittitle> Duke University Construction
+					 Program reports</unittitle>
+                  </did>
+               </c02>
+               <c02 level="file">
+                  <did>
+                     <unittitle>Committee and subject files
+					 A-L</unittitle>
+                  </did>
+               </c02>
+
+
+               <c02 level="file">
+                  <did><container type="box">35</container>
+                     <unittitle>Committee and subject files
+					 L-Z</unittitle>
+                  </did>
+               </c02>
+               <c02 level="file">
+                  <did>
+                     <unittitle>Laboratories mechanics and space
+					 needs</unittitle>
+                  </did>
+               </c02>
+               <c02 level="file">
+                  <did>
+                     <unittitle>Building Committee meetings,
+					 notes, and subcommittee materials</unittitle>
+                  </did>
+               </c02>
+               <c02 level="file">
+                  <did>
+                     <unittitle>Associates, contractors, files,
+					 ca.
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1970</unitdate>
+                     </unittitle>
+                  </did>
+               </c02>
+
+               <c02 level="file">
+                  <did><container type="box">36</container>
+                     <unittitle>Correspondence,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">October
+						1981-June 1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c02>
+               <c02 level="file">
+                  <did>
+                     <unittitle>Biofeedback Laboratory</unittitle>
+                  </did>
+               </c02>
+               <c02 level="file">
+                  <did>
+                     <unittitle>Women and Minorities in the School
+					 of Engineering, files and reports, ca.
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1974-1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c02>
+               <c02 level="file">
+                  <did>
+                     <unittitle>Governance and management of the
+					 School of Engineering, files and reports, ca.
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1976-1979</unitdate>
+                     </unittitle>
+                  </did>
+               </c02>
+
+         </c01>
+      </dsc>
+      <relatedmaterial>
+	<head>Related Material</head>
+         <archref linktype="simple">
+            <unittitle>DukEngineer [serial].</unittitle>
+            <repository>University Archives, Duke
+				University.</repository>
+         </archref>
+         <archref linktype="simple">
+            <unittitle>Report to the National Science
+				Foundation covering development grant GE 2558 to the School
+				of Engineering, Duke University, June 29, 1963-December 31,
+				1967. Submitted by J. L. Meriam, 1968.</unittitle>
+            <repository>University Archives, Duke
+				University.</repository>
+         </archref>
+         <archref linktype="simple">
+            <unittitle>School of Engineering, reference
+				collection</unittitle>
+            <repository>University Archives, Duke
+				University.</repository>
+         </archref>
+         <archref linktype="simple">
+            <unittitle>Small Collections, School of
+				Engineering, Engineering Club</unittitle>
+            <repository>University Archives, Duke
+				University.</repository>
+         </archref>
+         <archref linktype="simple">
+            <unittitle>Biró, Péter. Means Without End: the
+				Birth of the Duke School of Engineering 1887-1966,
+				1991.</unittitle>
+            <repository>University Archives, Duke
+				University</repository>
+         </archref>
+         <archref linktype="simple">
+            <unittitle>Duke University. Task Force on Science
+				and Engineering. Report of the Task Force on Science and
+				Engineering at Duke University : submitted to the Provost,
+				May 5, 1994, 1994.</unittitle>
+            <repository>University Archives, Duke
+				University</repository>
+         </archref>
+      </relatedmaterial>
+   </archdesc>
+</ead>

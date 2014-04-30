@@ -1,0 +1,3261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+<eadid publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Earl J. Hamilton Papers)//EN" countrycode="us" mainagencycode="ndd" url="http://library.duke.edu/rubenstein/findingaids/hamiltonearl/">hamiltonearl</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Earl J. Hamilton Papers,
+			 <date normal="1350/1995" type="inclusive" era="ce" calendar="gregorian">1350-1995 and undated</date>
+				<date normal="1650/1940" type="bulk" era="ce" calendar="gregorian"> (bulk 1650-1940)</date></titleproper>
+        <author>Processed by: James Cusick, Trey McClean,
+			 Paula Jeannet Mangiafico; machine-readable finding aid
+			 created by: Paula Jeannet Mangiafico</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <p><date era="ce" calendar="gregorian"> 2003</date> Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+	<notestmt>
+	   <note><p>Aleph Number: <num type="aleph">002388074</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from
+		  automated markup system. <lb/>Date of source: 1998
+		  <lb/>Processed by James Cusick, Trey McClean, Paula Jeannet
+		  Mangiafico, 1998; Finding Aid encoded by Paula Jeannet
+		  Mangiafico, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University,
+		  <date calendar="gregorian" era="ce">August 1, 2003</date></creation>
+      <langusage>Description is in
+		  <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2005" era="ce" calendar="gregorian">12-22-2005</date>
+        <item>"hamiltonearl.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>        	<item>The top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the Earl J. Hamilton Papers, <date era="ce" calendar="gregorian">1350-1995 and undated (bulk 1650-1940)</date></titleproper>
+      <publisher><lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke
+		  University <lb/> Durham, North Carolina 27708-0185 USA
+		  </publisher>
+
+      <list type="simple">
+        <defitem>
+          <label>Processed by </label>
+          <item>James Cusick, Trey McClean, Paula Jeannet
+				Mangiafico</item>
+        </defitem>
+        <defitem>
+          <label>Date Completed </label>
+          <item>
+            <date calendar="gregorian" era="ce">1998</date>
+          </item>
+        </defitem>
+        <defitem>
+          <label>Encoded by </label>
+          <item>Paula Jeannet Mangiafico</item>
+        </defitem>
+      </list>
+      <p><date calendar="gregorian" era="ce"> 2003</date> Duke University. All Rights
+		  Reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Earl J. Hamilton papers 		  <unitdate normal="1350/1995" type="inclusive" era="ce" calendar="gregorian">1350-1995</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Hamilton, Earl J.</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>43.5 Linear		  Feet</extent>
+        <extent>32,625 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+      </repository>
+      <physloc label="Location">For current information on
+		  the location of these materials, please consult the
+		  Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+<p>Collection is open for research.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in this collection have
+			 not been transferred to Duke University. For more
+			 information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Earl J. Hamilton
+			 Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The Earl J. Hamilton Papers were received by the
+			 David M. Rubenstein Rare Book &amp; Manuscript Library as a
+			 gift in 1990-1992.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by James Cusick, Trey McClean, Paula
+			 Jeannet Mangiafico</p>
+        <p>Completed 1998</p>
+        <p>Accessions 90-103, 91-075, 92-036, and 96-157
+			 were merged to form one collection, described in this
+			 finding aid.</p>
+        <p>This finding aid is NCEAD compliant.</p>
+      </processinfo>
+    </descgrp>
+    <!-- End of finding aid header -->
+    <bioghist>
+      <head>Biographical Note</head>
+      <chronlist>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1899</date>
+          <event>Born in Houlka, Miss.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1920</date>
+          <event>Graduated with honors from the University
+				of Mississippi</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1923</date>
+          <event>Married Gladys Olive Dallas</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1924</date>
+          <event>Received M.A. from University of
+				Texas</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1924-1926</date>
+          <event>Hamilton and his wife studied at Harvard,
+				taking classes in history with Allyn Young; Earl Hamilton
+				received A.M. in 1926</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1927-1944</date>
+          <event>Professor of economics at Duke
+				University</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1928</date>
+          <event>Published article
+				<title linktype="simple" render="doublequote">American Treasure and
+				  Andalusian Prices, 1503-1660: A Study in the Spanish Price
+				  Revolution,</title> initiating the modern debate on profits
+				and price inflation in Europe</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1929, Nov.</date>
+          <event>Published
+				<title linktype="simple" render="doublequote">American Treasure and
+				  the Rise of Capitalism, 1500-1700</title> in
+				<title linktype="simple" render="italic">Economica</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1929</date>
+          <event>Received Ph.D. from Harvard</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1934</date>
+          <event>Published
+				<title linktype="simple" render="italic">American Treasure and
+				  the Price Revolution in Spain, 1501-1650</title> (Harvard
+				University Press) </event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1936</date>
+          <event>Published
+				<title linktype="simple" render="italic"> Money, Prices, and
+				  Wages in Valencia, Aragon, and Navarre, 1351-1500 </title>
+				(Harvard University Press) </event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1936-1937</date>
+          <event>Published
+				<title linktype="simple" render="doublequote">Prices and Wages at
+				  Paris Under John Law's System</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1944-1947</date>
+          <event>Professor of economics at Northwestern
+				University</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1947</date>
+          <event>Published
+				<title linktype="simple" render="italic">War and Prices in Spain,
+				  1651-1800</title> (Harvard University Press)</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1947-1967</date>
+          <event>Professor of economics at the University
+				of Chicago</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1948-1954</date>
+          <event>Served as editor of the University of
+				Chicago's
+				<title linktype="simple" render="italic">Journal of Political
+				  Economy</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1951-1952</date>
+          <event>President of the Economic History
+				Association</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1966-1969</date>
+          <event>Distinguished Professor of Economic
+				History at the State University of New York, Binghamton
+				</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1969</date>
+          <event>Published
+				<title linktype="simple" render="doublequote">The Political Economy of
+				  France at the Time of John Law</title> in
+				<title linktype="simple" render="italic">History of Political
+				  Economy</title> journal</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1977, Mar.</date>
+          <event>Published
+				<title linktype="simple" render="doublequote">The Role of War in
+				  Modern Inflation</title> in the
+				<title linktype="simple" render="italic">Journal of Economic
+				  History</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1989</date>
+          <event>Died in Oak Ridge, Tenn.</event>
+        </chronitem>
+      </chronlist>
+    </bioghist>
+    <!--End of biohistory--><!--Begin scopecontent-->
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The Earl J. Hamilton Papers span the years from
+		  1350 to 1995, with Hamilton's research notes and other
+		  materials dating chiefly from the 1930s to the 1970s.
+		  (Note: Early dates reflect original dates of primary
+		  sources rather than the dates on which the photocopies of
+		  these sources were created.) Hamilton was a pioneer in the
+		  field of
+		  <subject>quantitative economic history</subject>
+		  during a career that spanned fifty years. Together with his
+		  wife,
+		  <persname>Gladys Dallas Hamilton</persname>, he
+		  conducted important research during the 1930s and 1940s on
+		  the history of the
+		  <subject>South American and Spanish
+			 economies;</subject> the history of
+		  <subject>American, Spanish, and French
+			 banking</subject>; the history of
+		  <persname>John Law</persname> and the
+		  <subject>"Mississippi Bubble"</subject> and its
+		  effect on European economies; and
+		  <subject>prices and wages</subject> in medieval
+		  <geogname>Spain</geogname>.</p>
+      <p>The collection includes not only extensive
+		  background notes for Hamilton's major books and articles,
+		  but also over 200 original <emph render="italic">legajos</emph> and other documents
+		  pertaining to
+		  <subject>Spanish trade</subject> and economic
+		  development, dating primarily from the 17th and 18th
+		  centuries. Other primary source materials from the 14th to
+		  the 18th centuries are also abundant (chiefly in the form
+		  of photostats and transcripts), including hundreds of
+		  copies of documents held by the Archivo del
+		  <corpname>Banco de España</corpname>, the Archivo
+		  Histórico Nacional, and other archives in Europe.</p>
+      <p>Photocopies and microfilm copies of items which
+		  belong to other libraries and archives may require
+		  permission of the owner institution to further reproduce or
+		  publish. Users making further copies for their own research
+		  do so at their own discretion. Before publication of any
+		  such material, it is the user's responsibility to identify
+		  the original source and obtain permission. </p>
+      <p>The collection also contains drafts and reprints
+		  of research papers, and numerous folders of academic and
+		  personal correspondence. Some documents in the collection
+		  are in French or Spanish.</p>
+      <p>
+        <emph render="bold">Note that the early dates
+		  given in collection and series titles reflect the dates of
+		  the original primary source material that Hamilton used for
+		  his research, not the date when the photostat, photocopy or
+		  transcription was created.</emph>
+      </p>
+    </scopecontent>
+    <processinfo>
+      <p>Collection has been minimally processed to allow
+			 access to materials. Technical Services staff may need to
+			 further process certain materials (letters still in
+			 envelopes, film, and audio cassettes) before they can be
+			 used for research. Please contact the Research Services
+			 staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      <p>This finding aid is NCEAD compliant.</p>
+    </processinfo>
+    <!--End scopecontent--><!--Begin controlaccess-->
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+
+	<item><persname source="lcsh" encodinganalog="600">Hamilton, Earl J.</persname></item>
+        <item><persname source="lcsh" encodinganalog="600">Law, John, 1671-1729</persname></item>
+        <item><subject source="lcsh" encodinganalog="650">Economics -- Study and teaching</subject></item>
+        <item><title encodinganalog="630" linktype="simple">Mississippi Bubble.</title></item>
+        <item><subject source="lcsh" encodinganalog="650">Economists -- Correspondence</subject></item>
+        <item><subject source="lcsh" encodinganalog="650">Historians -- Correspondence</subject></item>
+        <item><subject source="lcsh" encodinganalog="650">Banks and banking -- Spain -- History</subject></item>
+        <item><subject source="lcsh" encodinganalog="650">Banks and banking -- France -- History</subject></item>
+        <item><subject source="lcsh" encodinganalog="650">Prices -- Spain -- History</subject></item>
+        <item><subject source="lcsh" encodinganalog="650">Monroe Doctrine -- Economic aspects</subject></item>
+        <item><geogname source="lcsh" encodinganalog="651">Spain -- Commerce -- History</geogname></item>
+        <item><geogname source="lcsh" encodinganalog="651">Spain -- Economic conditions</geogname></item>
+        <item><geogname source="lcsh" encodinganalog="651">France -- Economic conditions</geogname></item>
+        <item><geogname source="lcsh" encodinganalog="651">South America -- Economic conditions</geogname></item>
+        <item><geogname source="lcsh" encodinganalog="651">Europe -- Economic conditions</geogname></item>
+      </list>
+    </controlaccess>
+    <!--End controlaccess--><!--Begin container list--><!-- Sample of possible container list structure, actual markup depends upon the materials being described. --><!-- Use <genreform>, <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent> if needed. -->
+
+
+<dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <container type="box">1</container>
+          <unittitle>Biographical Data Series,
+				<unitdate calendar="gregorian" era="ce" normal="1930/1995" type="inclusive">1930-1995 and undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Various materials recording details and events
+				in Hamilton's life and career; includes a curriculum vita
+				and a list of his publications. Arranged in original
+				order.</p>
+        </scopecontent>
+        <processinfo>
+          <p>[Attention: Contains pictorial materials. In
+				  addition, some of the materials are not immediately
+				  accessible because they require further processing before
+				  use. Please contact Research Services staff before visiting
+				  the David M. Rubenstein Rare Book &amp; Manuscript Library
+				  to use this collection.]</p>
+        </processinfo>
+        <c02>
+          <did>
+            <unittitle>Folder containing Earl J. Hamilton's
+				  curriculum vita; publications and articles; outline for
+				  book on Banco de España,
+				  <unitdate calendar="gregorian" era="ce" normal="1971/1995" type="inclusive">1971-1995 and undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Unidentified cassette recording of
+				  voice and music, undated</unittitle>
+          </did>
+          <processinfo>
+            <p>[Technical Services needs to format for
+					 use copies of audio cassette before use.]</p>
+          </processinfo>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Clipping in Italian from
+				  <title linktype="simple" render="italic">La Epoca</title>,
+				  <unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">1930</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Photographs,
+				  <unitdate calendar="gregorian" era="ce" normal="1967/1981" type="inclusive">1967-1981 and undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <container type="box">1</container>
+          <unittitle>Reprints Series, 1937-1949</unittitle>
+        </did>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Spanish Banking
+					 Schemes Before 1700, </title>
+              <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Foundation of the
+					 Bank of Spain </title> (originally intended to form basis
+				  for the book),
+				  <unitdate calendar="gregorian" era="ce" normal="1945" type="inclusive">1945</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Use and Misuse of
+					 Price History</title>,
+				  <unitdate calendar="gregorian" era="ce" normal="1944" type="inclusive">1944</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Decline of Spain,
+					 </title>
+              <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Prices and Wages in
+					 Southern France under John Law's System, </title>
+              <unitdate calendar="gregorian" era="ce" normal="1937" type="inclusive">1937</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <container type="box">1</container>
+          <unittitle>Teaching Materials Series,
+				<unitdate calendar="gregorian" era="ce" normal="1927/1969" type="inclusive">1927-1969 and undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Chiefly grade books, along with a few class
+				exams.</p>
+        </scopecontent>
+        <accessrestrict>
+          <p>[Contains material that is CLOSED to use
+				  (student grade books). Contact Research Services
+				  staff.]</p>
+        </accessrestrict>
+        <c02>
+          <did>
+            <unittitle>Exams,
+				  <unitdate calendar="gregorian" era="ce" normal="1939/1969" type="inclusive">1939-1969 and undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Grade books,
+				  <unitdate calendar="gregorian" era="ce" normal="1940/1949" type="inclusive">[1940s]-[1960s]</unitdate>
+                  </unittitle>
+          </did>
+          <accessrestrict>
+            <p>[CLOSED. Contact Research Services
+					 staff.]</p>
+          </accessrestrict>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Grade books,
+				  <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1960s]</unitdate>
+                  </unittitle>
+          </did>
+          <accessrestrict>
+            <p>[CLOSED. Contact Research Services
+					 staff.]</p>
+          </accessrestrict>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Grade books,
+				  <unitdate calendar="gregorian" era="ce" normal="1927/1947" type="inclusive">1927-1929, 1936, 1946-1947</unitdate>
+                  </unittitle>
+          </did>
+          <accessrestrict>
+            <p>[CLOSED. Contact Research Services
+					 staff.]</p>
+          </accessrestrict>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Grade books,
+				  <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1940s]</unitdate>
+                  </unittitle>
+          </did>
+          <accessrestrict>
+            <p>[CLOSED. Contact Research Services
+					 staff.]</p>
+          </accessrestrict>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Academic finances,
+				  <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <container type="box">2</container>
+          <unittitle>Correspondence Series,
+				<unitdate calendar="gregorian" era="ce" normal="1919/1992" type="inclusive">1919-1992 and undated (bulk 1930-1970)</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Academic correspondence, dealing with
+				Hamilton's research in Spain, his letters as professor of
+				economics, and his position as editor of the
+			 <title linktype="simple" render="italic">Journal of Political
+				Economy</title> and as president of the
+			 <corpname>Economic History
+				Association</corpname>. Many of the date ranges overlap
+			 from folder to folder. Arranged in original groupings of
+			 folders as received, with original titles.</p>
+        </scopecontent>
+        <processinfo>
+          <p>[Technical Services staff may need to
+				  process materials in envelopes before use. Contact Research
+				  Services.]</p>
+        </processinfo>
+        <c02>
+          <did>
+            <unittitle>Correspondence: </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1940/1949" type="inclusive">[1940s]-[1970s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1970s]</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2
+					 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">[1960s]-[1970s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1960s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence - miscellaneous:
+				  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s], [1960s]-[1970s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1960s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1950s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1960s] and undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2
+					 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1950s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence plus reprint/galley
+				  of "Economic Origins of Monroe Doctrine": </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1970s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence - miscellaneous:
+				  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1919/1929" type="inclusive">1919, Aug. 26; [1920s]-[1970s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1970s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence - academic and
+				  personal: </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1980s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1970s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Various financial correspondence:
+				  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1960s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Academic and personal
+				  correspondence: </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">[1960s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1950/1992" type="inclusive">[1950s]-[1970s], 1992, and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">[1950s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1940/1949" type="inclusive">[1940s], [1960s]-[1970s], and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <unittitle>Correspondence on papers, research:
+				  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">[1950s]-[1960s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence on research, papers,
+				  social science during World War II: </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1940s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">[1960s]-[1970s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous academic and personal
+				  correspondence: </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1959/1961" type="inclusive">1959-1961</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence - miscellaneous:
+				  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1938/1981" type="inclusive">1938-1981</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence - personal:
+				  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1920/1929" type="inclusive">[1920s]-[1970s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1980s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <unittitle>Correspondence - papers:
+				  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1920/1929" type="inclusive">[1920s]-[1970s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1920/1929" type="inclusive">[1920s]-[1980s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1920/1929" type="inclusive">[1920s]-[1980s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1940/1949" type="inclusive">[1940s]-[1970s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">[1960s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1950/1970" type="inclusive">[1950s] and 1970</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1920/1929" type="inclusive">[1920s]-[1980s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1940/1949" type="inclusive">[1940s]-[1970s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1940/1949" type="inclusive">[1940s]-[1950s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">La estimacion del
+						trabajo manual en la España del siglo XVIII</title>;
+					 Callahan,
+					 <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">[1960s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">[1960s]-[1970s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">[1950s]-[1970s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1980s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">[1950s]-[1970s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1970s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1980s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1980s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">[1950s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1980s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence - Duke; partial:
+				  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1930/1939" type="inclusive">[1930s]-[1980s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1920/1929" type="inclusive">[1920s]-[1990s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence: </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1920/1929" type="inclusive">[1920s]-[1930s], 1960s, 1980s and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1920/1929" type="inclusive">[1920s]-[1960s], 1980s and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1920/1929" type="inclusive">[1920s]-[1930s], [1960s], [1980s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Letters written in Spain:
+				  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1932/1933" type="inclusive">1932-1933</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Correspondence: </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1940/1949" type="inclusive">[1940s] and [1970s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Major Works Series,
+				<unitdate calendar="gregorian" era="ce" normal="1350/1961" type="inclusive">1350-1961 and undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Background notes, transcriptions of original
+				source material, photostats of Spanish archival material
+				(especially that related to treasure imports), and
+				worksheets for compiling prices and salaries in Spain from
+				1351 to 1800, all related to Hamilton's research for his
+				major published works. Also, a large number of photostats
+				of materials from the Archivo del Banco de España and the
+				Archivo Histórico Nacional concerning the Bank of Spain, as
+				well as notes and source transcriptions of Hamilton's work
+				on this subject. This series contains many photocopies and
+				microfilm copies of items which belong to other libraries
+				and archives. Photocopies of materials gathered from other
+				repositories by Earl J. Hamilton may require permission of
+				the owner institution to further reproduce or publish.
+				Users making further copies for their own research do so at
+				their own discretion. Before publication of any such
+				material, it is the user's responsibility to identify the
+				original source and obtain permission.</p>
+          <p>Divided into subseries for each major work;
+				papers within are arranged in Hamilton's original order
+				with original folder titles given.</p>
+          <p>Note: Dates given below in the descriptions
+				for primary source materials reflect the dates of the
+				original items, not the more modern dates on which the
+				photostats or transcriptions were created.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <container type="box">5</container>
+            <unittitle><title linktype="simple" render="italic">War and Prices in
+					 Spain, 1651-1800</title> Subseries,
+				  <unitdate calendar="gregorian" era="ce" normal="1651/1944" type="inclusive">1651-1944 and undated</unitdate>
+                  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Andalusia worksheets,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Andalusia price worksheets,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1787" type="inclusive">1651-1787</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Andalusia, final commodity list,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2
+					 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Old Castile prices
+					 
+                     </unittitle>
+              <physdesc>
+                <extent>(3
+					 folders)</extent>
+              </physdesc>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1651/1700" type="inclusive">1651-1700</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1700/1750" type="inclusive">1700-1750</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1750/1800" type="inclusive">1750-1800</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Andalusia, salaries and wages
+					 [original sheets],
+					 
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Valencia, salaries [original
+					 sheets],
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Old Castile, dope sheets,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Old Castile, typed prices,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>New Castile, prices,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Valencia, typed prices [copies],
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Old Castile, typed prices
+					 [carbons],
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Valencia, typed prices,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Andalusia, typed prices,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>New Castile, prices [copies],
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Old Castile, worksheets:
+					 </unittitle>
+              <physdesc>
+                <extent>(3
+					 folders)</extent>
+              </physdesc>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1651/1712" type="inclusive">1651-1712</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1713/1760" type="inclusive">1713-1760</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1761/1800" type="inclusive">1761-1800</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">6</container>
+              <unittitle>Miscellaneous notes and
+					 transcriptions to
+					 <title linktype="simple" render="italic">War and
+						Prices</title> and
+					 <title linktype="simple" render="italic">Money, prices, and
+						wages</title>, undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>New Castile, wages,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">War and
+						Prices</title>/Miscellaneous:
+					 <title linktype="simple" render="doublequote">Spanish Prices: A
+						Reply to Dr. M.J. Elsos, </title><unitdate calendar="gregorian" era="ce" normal="1937" type="inclusive">1937, June</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Various worksheets for price and
+					 wage indices [checklists],
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">7</container>
+              <unittitle><title linktype="simple" render="italic">War and Prices in
+						Spain</title>, typescript,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(4
+					 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>New Castile, original price
+					 sheets,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Santo Tomas, prices/commodity
+					 worksheets: </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1651/1700" type="inclusive">1651-1700</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1701/1750" type="inclusive">1701-1750</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1750/1800" type="inclusive">1750-1800</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Buyer's notebook, Hospital of the
+					 Innocents, various years; pricing/commodities worksheet,
+					 undated
+					 
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Commodity/price worksheets,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1691" type="inclusive">1651-1691</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Valencia, commodities list,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous notes and
+					 typescripts:
+					 <title linktype="simple" render="italic">War and
+						Prices</title> series (various years and undated),
+					 </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Andalusia, related prices and
+					 figures,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1700" type="inclusive">1651-1700</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">War and Inflation in
+						Spain: 1780-1800,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1944" type="inclusive">1944, Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Notes on "Treasure,"
+					 undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Tabulated quarterly wages and
+					 salaries; all four regions except Valencia,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>New Castile, worksheets, price
+					 relatives, indices: </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1651/1700" type="inclusive">1651-1700</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1701/1750" type="inclusive">1701-1750</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1751/1800" type="inclusive">1751-1800</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>New Castile and Andalusia, price
+					 relatives, worksheets,
+					 <unitdate calendar="gregorian" era="ce" normal="1651/1800" type="inclusive">1651-1800</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <container type="box">8</container>
+            <unittitle><title linktype="simple" render="italic">Money, Prices, and
+					 Wages in Valencia, Aragon, and Navarre, 1351-1500</title>
+				  Subseries,
+				  <unitdate calendar="gregorian" era="ce" normal="1350/1451" type="inclusive">1350-1451</unitdate>
+                  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Navarre, prices/commodities,
+					 dope/worksheets: </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1350/1400" type="inclusive">1350-1400</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1401/1451" type="inclusive">1401-1451</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Navarre, notes on prices,
+					 spreadsheets on wages,
+					 <unitdate calendar="gregorian" era="ce" normal="1401/1450" type="inclusive">1401-1450</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <container type="box">8</container>
+            <unittitle><title linktype="simple" render="italic">American Treasure and
+					 the Revolution in Spain</title> Subseries,
+				  <unitdate calendar="gregorian" era="ce" normal="1351" type="inclusive">1351-[192-?] and undated</unitdate>
+                  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Negatives in protective folder;
+					 Frontispiece to document used as Plate II, undated
+					 </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Notes on weights, measures, grades
+					 of silver, commodities, various dates and undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Treasure imports, photostats,
+					 various dates
+					 
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Archival material pertaining to
+					 silver imports and to Valencia (photostats),
+					 <unitdate calendar="gregorian" era="ce" normal="1501/1650" type="inclusive">1501-1650 and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Navarre and related notecards,
+					 <unitdate calendar="gregorian" era="ce" normal="1351/1500" type="inclusive">1351-1500</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Various letters and notes related
+					 to money, prices, inflation; associated with major works,
+					 undated </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">American Treasure
+						and the Rise of Capitalism, 1500-1700,</title> [192-?]
+					 </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>"Treasure" imports,
+					 <unitdate calendar="gregorian" era="ce" normal="1501/1650" type="inclusive">1501-1650</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Valencia, prices/commodities,
+					 worksheets/dopes,
+					 <unitdate calendar="gregorian" era="ce" normal="1501/1550" type="inclusive">1501-1550</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <container type="box">8</container>
+            <unittitle><title linktype="simple" render="italic">Bank of Spain,
+					 1651-1800</title> Subseries,
+				  <unitdate calendar="gregorian" era="ce" normal="1360/1981" type="inclusive">1360-1981 and undated (bulk 1700s-1800s)</unitdate>
+                  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Color prints commemorating Banco
+					 Nacional,
+					 <unitdate calendar="gregorian" era="ce" normal="1780/1830" type="inclusive">[ca. 1780-1830] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Banco de España, photostats of
+					 documents, undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Junta General (photostats):
+					 </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1814" type="inclusive">1814, Apr. 21</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1815" type="inclusive">1815, Apr. 20</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1816" type="inclusive">1816</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1817" type="inclusive">1817, Apr. 19</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1818" type="inclusive">1818, Apr. 20</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">9</container>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1820" type="inclusive">1820, Apr. 20</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1821" type="inclusive">1821, Jan. 18</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1821" type="inclusive">1821</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1824" type="inclusive">1824, Apr. 26</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1826" type="inclusive">1826</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1827" type="inclusive">1827, Apr. 19</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photostats of original documents,
+					 Bank of Spain, various dates,
+					 <unitdate calendar="gregorian" era="ce" normal="1800/1899" type="inclusive">[18-?] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photostats of documents in
+					 Amsterdam Archive; Royal cedulas of Carlos IV,
+					 <unitdate calendar="gregorian" era="ce" normal="1800/1806" type="inclusive">1800-[1806?]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Notes/typescripts to article on
+					 Bank of Spain,
+					 <unitdate calendar="gregorian" era="ce" normal="1780/1830" type="inclusive">[ca. 1780-1830] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Course syllabus/memorandum,
+					 <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Spreadsheets on French stocks,
+					 <unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[178-?]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photostats of Junta General; Banco
+					 de San Carlos,
+					 <unitdate calendar="gregorian" era="ce" normal="1800" type="inclusive">1800, Apr. 19</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Payment of dividends, photostat,
+					 <unitdate calendar="gregorian" era="ce" normal="1799" type="inclusive">1799</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photostats of Junta General; Banco
+					 de San Carlos
+					 <unitdate calendar="gregorian" era="ce" normal="1800" type="inclusive">1800, Apr. 20</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Banco de España, photostats,
+					 <unitdate calendar="gregorian" era="ce" normal="1790/1799" type="inclusive">[179-?] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Reglamentos de las Juntas
+					 Generales...del Banco General, photostat,
+					 <unitdate calendar="gregorian" era="ce" normal="1794" type="inclusive">1794</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Documents from the Archive of
+					 Conde de Cabarrus about National Bank, photostats,
+					 <unitdate calendar="gregorian" era="ce" normal="1780/1839" type="inclusive">[ca. 1780s-1830s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Assets (?), Banco de San Carlos,
+					 weekly/monthly accounts, photostats,
+					 <unitdate calendar="gregorian" era="ce" normal="1783/1799" type="inclusive">1783-1799</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Banco de San Carlos, graphs/notes,
+
+					 <unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[1780s]-[1830s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>"Staatsschulden," Xerox of
+					 article,
+					 <unitdate calendar="gregorian" era="ce" normal="1855" type="inclusive">1855</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">10</container>
+              <unittitle>Photostats of
+					 <emph render="italic">legajos</emph>:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Bonds/accounts of Banco de
+						España,
+						<unitdate calendar="gregorian" era="ce" normal="1800/1840" type="inclusive">[ca. 1800-1840]</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Banco de España Silver Exports,
+						<unitdate calendar="gregorian" era="ce" normal="1790/1802" type="inclusive">1790-1802</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Report of the Junta General
+						Banco Nacional,
+						<unitdate calendar="gregorian" era="ce" normal="1808" type="inclusive">1808, Apr. 20</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Junta General, Banco Nacional,
+						fragment,
+						<unitdate calendar="gregorian" era="ce" normal="1807" type="inclusive">1807</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Correspondence of the Bank,
+						<unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[178-?]</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Accounts, Correspondence, Shares
+						of Bank,
+						<unitdate calendar="gregorian" era="ce" normal="1700/1899" type="inclusive">[17-]-[18-]</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Concerning Accounts and Loans of
+						Bank,
+						<unitdate calendar="gregorian" era="ce" normal="1809" type="inclusive">1809</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Report of Junta General on Banco
+						Nacional,
+						<unitdate calendar="gregorian" era="ce" normal="1821" type="inclusive">1821</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Bank dividends,
+						<unitdate calendar="gregorian" era="ce" normal="1812/1819" type="inclusive">1812-1819</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Pertaining to investigation of
+						Bank's directors,
+						<unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[1780s]</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Proceedings of Bank's directors,
+
+						<unitdate calendar="gregorian" era="ce" normal="1790/1799" type="inclusive">[1790s]</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Pertaining to the Bank's
+						accounts,
+						<unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[1780s]</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Proceedings of the Junta
+						General,
+						<unitdate calendar="gregorian" era="ce" normal="1821" type="inclusive">1821</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Accounts/balances,
+						<unitdate calendar="gregorian" era="ce" normal="1823" type="inclusive">1823</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Establishing the Banco Español
+						de San Fernando,
+						<unitdate calendar="gregorian" era="ce" normal="1829" type="inclusive">1829</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Stockholders meeting,
+						<unitdate calendar="gregorian" era="ce" normal="1790" type="inclusive">1790</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Promotion of industry; uniforms,
+						materials required by Army,
+						<unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[1780s]</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Various confidential papers,
+						accounts of Banco plus (in French) report of La Banque de
+						Saint-Charles,
+						<unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[1780s]</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Various confidential papers,
+						accounts and reports of Banco,
+						<unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[1780s]</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2
+						folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Loans,
+						<unitdate calendar="gregorian" era="ce" normal="1790/1799" type="inclusive">[1790s] and undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2
+						folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">11</container>
+              <unittitle>Accounts and totals (adding
+					 machine tapes, notes) [appears to be part of research into
+					 Banco de San Carlos],
+					 <unitdate calendar="gregorian" era="ce" normal="1760/1783" type="inclusive">1760-1783</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Various calculations, handwritten
+					 and compiled by year, on operation of Bank,
+					 <unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[1780s]-[1830s] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Typescript of archival materials
+					 from Amsterdam (Dutch or German?) about financial dealings
+					 with Spain,
+					 <unitdate calendar="gregorian" era="ce" normal="1780/1830" type="inclusive">[ca. 1780-1830] and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Amsterdam Archives material,
+					 <unitdate calendar="gregorian" era="ce" normal="1660/1777" type="inclusive">1671, 1660, 1777</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Article by Hausman and Neufeld,
+					 <title linktype="simple" render="doublequote">The Political
+						Economy of Walpole's 1733 Tax Scheme, </title><unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Materials on Banco de San Carlos
+					 research, various dates and undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photocopies of Bank of Spain,
+					 various dates and undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Loans to the king,
+					 <unitdate calendar="gregorian" era="ce" normal="1360/1781" type="inclusive">1360 and 1781</unitdate> (photostats)</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Manuscripts, transcripts and
+					 correspondence, including Hamilton's 1943 arrangements for
+					 research assistants in Spain</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Reprint
+					 <title linktype="simple" render="doublequote">De Girobanken van
+						Genua,</title><unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Typescript of
+					 <emph render="italic">legajos</emph> relating to Cabarrus
+					 and Bank,
+					 <unitdate calendar="gregorian" era="ce" normal="1954" type="inclusive">1954 and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Financial information on Cabarrus,
+
+					 <unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">Spanish Banking
+						Schemes Before 1700,</title> working copy and notes,
+					 undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">Spanish Banking
+						Schemes Before 1700</title>; and
+					 <title linktype="simple" render="doublequote">The Foundation of
+						the Bank of Spain,</title><unitdate calendar="gregorian" era="ce" normal="1945" type="inclusive">1945, June</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">The First Twenty
+						Years of the Bank of Spain. I, II. 1782-1802,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946, Feb.-Apr.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Plans for a National
+						Bank in Spain, 1701-83,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949, Aug.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Paper money/accounts (photostats),
+
+					 <unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[1780s]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Plans for other national banking
+					 systems (as possible models for Bank of Spain),
+					 <unitdate calendar="gregorian" era="ce" normal="1747" type="inclusive">1747</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Bank of Spain notes folded and
+					 included with notecards, various dates and undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Typescripts of various original
+					 documents, various dates and undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Report of the Junta de Hospitales
+					 (photostat), undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>On the operation of royal
+					 hospitals (photostat),
+					 <unitdate calendar="gregorian" era="ce" normal="1786" type="inclusive">1786</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Papers on the Conde de Cabarrus
+					 (photostats),
+					 <unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[1780s]-[1790s] and undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2
+					 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous notes, some
+					 pertaining to Bank of Spain research, various dates and
+					 undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Typed transcripts of
+					 <emph render="italic">legajos</emph>, Archivo General de
+					 Simancas, Inventory of Archives on Banco de San Carlos,
+					 [ca. 1780-1830] and undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">12</container>
+              <unittitle>Photostats of
+					 <emph render="italic">legajos</emph>:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Cabarrus Papers; Cabarrus made a
+						Spanish subject and starting the bank, [ca. 1780-1830] and
+						undated</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Report of the junta to the king,
+						dealing with bonds,
+						<unitdate calendar="gregorian" era="ce" normal="1794" type="inclusive">1794</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Memoria from Don Fr. Cabarrus to
+						king about Bank,
+						<unitdate calendar="gregorian" era="ce" normal="1782" type="inclusive">1782</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>"Minuta del decreto para la
+						ereccion del Banco,"
+						<unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[1780s] and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Agreements reached by first
+						junta on Bank,
+						<unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[1780s] and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>More on bank notes and bonds,
+						<unitdate calendar="gregorian" era="ce" normal="1796" type="inclusive">1796 and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>On the opening of the Bank,
+						<unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[1780s] and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Recommendations/criticisms of
+						fomenting industry,
+						<unitdate calendar="gregorian" era="ce" normal="1779" type="inclusive">1779</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>The revised bank plan of
+						Floridablanca,
+						<unitdate calendar="gregorian" era="ce" normal="1779" type="inclusive">1779</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous, pertaining to
+						banks, trade, vagabonds,
+						<unitdate calendar="gregorian" era="ce" normal="1778" type="inclusive">1778 and n.d</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Correspondence of Cabarrus,
+						<unitdate calendar="gregorian" era="ce" normal="1783/1784" type="inclusive">1783-84 and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Investment in the Bank,
+						<unitdate calendar="gregorian" era="ce" normal="1784" type="inclusive">1784</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Investments in Bank, Bank's
+						Charter,
+						<unitdate calendar="gregorian" era="ce" normal="1782" type="inclusive">1782</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Subscriptions to the Bank,
+						<unitdate calendar="gregorian" era="ce" normal="1782" type="inclusive">1782 and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>On 'reducciones' and abuses at
+						Bank, also concerning cloth manufacturing,
+						<unitdate calendar="gregorian" era="ce" normal="1782" type="inclusive">1782 and undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Assessment or probate and
+						Accounts and Conde de Cady,
+						<unitdate calendar="gregorian" era="ce" normal="1799" type="inclusive">1799</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Declaration of Conde de Cabarrus
+						to Inquiry,
+						<unitdate calendar="gregorian" era="ce" normal="1790/1799" type="inclusive">[1790s]</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(4
+						folders)</extent>
+                </physdesc>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>pp. 1-50</unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>pp. 51-100</unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>pp. 101-150</unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>pp. 151-end, lengthy statement
+						  by Cabarrus about 'Auto'</unittitle>
+                </did>
+              </c05>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Research Papers Series,
+				<unitdate calendar="gregorian" era="ce" normal="1592/1969" type="inclusive">[ca. 1592]-1969 and undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Notes, transcriptions and photostats of
+				primary sources, drafts of papers (both typed and written),
+				lectures, and notecards, all relating to Hamilton's
+				published and unpublished work on the economic origins of
+				the
+				<subject>Monroe Doctrine</subject>, South
+				American wars of independence,
+				<geogname>Colombia</geogname>,
+				<persname>John Law</persname>,
+				<subject>price and wages</subject> theory, and
+				miscellaneous other topics. Arranged in original order with
+				folder titles assigned by Hamilton.</p>
+          <p>Note: Dates given below in descriptions of
+				primary sources reflect the date of the original items, and
+				not the modern date on which the photostats or transcripts
+				were created.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">13</container>
+            <unittitle>Notes, business cards, letters,
+				  receipts, various dates and undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Notecards, various dates and
+				  undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Research notes and correspondence,
+				  various dates and undated</unittitle>
+            <physdesc>
+              <extent>(2
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Notes, book call numbers, clips,
+				  various dates and undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Research on John Law:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Letters and notes, news clippings;
+					 various dates and undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Papers, [1670s]-[1720s],
+					 <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967, May</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Papers, [1670]-[1720s],
+					 <unitdate calendar="gregorian" era="ce" normal="1967/1969" type="inclusive">1967, May and 1969, Spring</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Various notes and materials,
+					 [1670s]-[1720s]</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">The Political
+						Economy of France at the Time of John Law,</title> undated
+					 </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Notes, various dates and
+					 undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Various notes and materials
+					 (photostats, etc.), [ca. 1680-1720]</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Various notes, [ca.
+					 1680-1720]</unittitle>
+              <physdesc>
+                <extent>(2
+					 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Various notes on Law and related
+					 subjects, [ca. 1680-1720]</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Materials (Xeroxes, etc.),
+					 <unitdate calendar="gregorian" era="ce" normal="1700/1720" type="inclusive">[ca. 1700-1720]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Un capitolo della
+						vita di Giovanni Law,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1913/1914" type="inclusive">1913-1914</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Materials: photographs and
+					 photostats, various dates and undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Materials on the contemporaries of
+					 Law (i.e. Richard Cantillon),
+					 <unitdate calendar="gregorian" era="ce" normal="1700/1720" type="inclusive">[ca. 1700-1720]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Various notes on Law and the
+					 financial system in early 1700s</unittitle>
+              <physdesc>
+                <extent>(3
+					 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">14</container>
+              <unittitle>Various notes on Law and the
+					 financial system in early 1700s </unittitle>
+              <physdesc>
+                <extent>(2
+					 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Various notes on Law and finance:
+					 article on Law,
+					 <unitdate calendar="gregorian" era="ce" normal="1957" type="inclusive">1957, May 4</unitdate>, and clippings, undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Prices and Wages in
+						Southern France Under John Law's System,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1937" type="inclusive">1937, Feb.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous - typescripts,
+				  pamphlets, and notes, various dates and undated </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Notes:
+				  <title linktype="simple" render="doublequote">Prices, Wages, and
+					 Industrial Revolution, 1500-1700,</title> undated</unittitle>
+            <physdesc>
+              <extent>(3
+				  folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Galliani
+					 Economista,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Various typescripts, articles,
+				  various dates and undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Bourbon
+					 Reform,</title> typescript and handwritten notes, various
+				  dates and undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Role of War in Modern
+					 Inflation,</title> notes, various dates and
+				  undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Wages in Valencia,
+				  <unitdate calendar="gregorian" era="ce" normal="1600/1630" type="inclusive">[ca. 1600-1630]</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Het Molenpanorama and Primer
+				  Congreso de Historia de Andalucia, various dates and
+				  undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Mercurius</title>,
+				  <unitdate calendar="gregorian" era="ce" normal="1720" type="inclusive">1720</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Distribution of
+					 Earnings,</title><unitdate calendar="gregorian" era="ce" normal="1780" type="inclusive">1780</unitdate>
+				  (see folder 5 of this box)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Notes and transcriptions, various
+				  dates and n.d</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Complete edited copy of
+				  <title linktype="simple" render="doublequote">Price History</title>
+				  and bibliography, various dates and undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">The History of Prices
+					 Before 1750,</title> undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">The Spice
+					 Trade,</title> various dates and undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Bubas</title>
+				  [Plagues], undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">15</container>
+            <unittitle>Archivo de Ministerios Bogotá
+				  Transcriptions of documents from the Ministerio de
+				  Relaciones Exteriores, Archivo Diplomático, Colombia,
+				  typescripts,
+				  <unitdate calendar="gregorian" era="ce" normal="1800/1820" type="inclusive">[ca. 1800-1820] and undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Archivo Historico Nacional Bogotá
+				  Transcriptions of various documents on regulation of trade
+				  and manufacturing in South America; wars of independence;
+				  role of Fernando VII, typescripts,
+				  <unitdate calendar="gregorian" era="ce" normal="1800/1820" type="inclusive">[ca. 1800-1820] and undated</unitdate></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Papers, notes, footnotes on
+				  mercantilism, various dates and undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Various notes and figures on Spanish
+				  mercantilism,
+				  <unitdate calendar="gregorian" era="ce" normal="1780/1789" type="inclusive">[1780s] and undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Transcriptions especially dealing
+				  with mercantilism (AGN Mexico
+				  <unitdate calendar="gregorian" era="ce" normal="1592/1710" type="inclusive">1592-1710</unitdate>) and Russians in
+				  California, typescript</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Economic Background of
+					 the Monroe Doctrine,</title> typescripts of lecture
+				  delivered at Yale, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Economic Origins of
+					 the Monroe Doctrine,</title> undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Spanish mercantilism, various dates
+				  and undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Merchants and agents in London and
+				  Amsterdam, typescript,
+				  <unitdate calendar="gregorian" era="ce" normal="1718/1719" type="inclusive">1718-1719</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Lectures in Santander,
+				  <unitdate calendar="gregorian" era="ce" normal="1933" type="inclusive">1933</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Prices and
+					 Progress,</title> typescripts,
+				  <unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952, Fall</unitdate>, other dates and undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Averiguación de los
+					 que quebraron tomas, metates,</title><unitdate calendar="gregorian" era="ce" normal="1799" type="inclusive">1799,</unitdate>
+				  typed transcript</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Research papers on agriculture;
+				  wages in England; diseases in Indies; other topics dealing
+				  with Spain; inflation; hemp in Peru, various dates and
+				  undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Reglamento para
+					 flotas,</title> typed transcriptions; cedulas on "Lino y
+				  canamo" [hemp plants],
+				  <unitdate calendar="gregorian" era="ce" normal="1773" type="inclusive">1773</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Mr. Trevenen's Plan to
+					 establish trade on the Northwest Coast of America,</title>
+				  photostat of document [in French, with glass in English],
+				  from original in Library of Congress,
+				  <unitdate calendar="gregorian" era="ce" normal="1757" type="inclusive">1757</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Notes on
+				  <title linktype="simple" render="doublequote">Prices,</title>
+				  [1500s-1600s] and undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Notes on
+				  <title linktype="simple" render="doublequote">Vales
+					 Retired</title></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Very poor Xerox reprint of article
+				  on
+				  <persname>Valentin de Foronda</persname>,
+				  early 19th century,
+				  <title linktype="simple" render="doublequote">Revista de Economia
+					 Política,</title><unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Photostats of documents on fabricas,
+				  gremias,
+				  <unitdate calendar="gregorian" era="ce" normal="1770/1779" type="inclusive">[1770s]-[1780s]</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">16</container>
+            <unittitle>Bound volumes of photostats from
+				  French archives dealing with French finance and John
+				  Law:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Arrets sur le
+						systéme de Jean Law</title>,
+					 <unitdate calendar="gregorian" era="ce" normal="1722/1733" type="inclusive">1722-1733</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Memoires sur les
+						finances systéme de Jean Law</title>, vol. 1,
+					 undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Memoires sur les
+						finances systéme de Jean Law</title>, vol. 2,
+					 undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Lettres des
+						intendants sur le systéme de Jean Law, </title>,
+					 <unitdate calendar="gregorian" era="ce" normal="1709/1720" type="inclusive">1709-1720</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Liquidation du
+						systéme de Jean Law</title>, vol. 1,
+					 <unitdate calendar="gregorian" era="ce" normal="1740" type="inclusive">1740</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Liquidation du
+						systéme de Jean Law</title>, vol. 2,
+					 <unitdate calendar="gregorian" era="ce" normal="1725" type="inclusive">1725 and undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Original Documents Series,
+				<unitdate calendar="gregorian" era="ce" normal="1584/1839" type="inclusive">1584-1829 (bulk 1700-1830s)</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Hundreds of original documents in Spanish and
+				French, primarily from the 18th and 19th centuries but also
+				including some 16th and 17th century materials. Chiefly
+				consist of royal Spanish cedulas outlining Crown economic
+				policy and concern over investments; plans to establish the
+				Bank of Spain; expropriation of Jesuit lands; trade
+				regulation; control of vagabonds; and sumptuary rules for
+				dress. The documents from the 1800s chronicle the French
+				occupation of Spain and the restoration of Fernando VII;
+				the proclamations in the oversize folder (see the Oversize
+				Series) include public declarations about resistance to
+				Napoleon. Arranged in original order.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">17</container>
+            <unittitle>1584-1829</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">18</container>
+            <unittitle>1596-1806</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Research Notecards Series,
+				<unitdate calendar="gregorian" era="ce" normal="1920/1989" type="inclusive">[ca. 1920s-1980s] and undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Undated notecards containing background
+				research notes and transcriptions of original sources for
+				Hamilton's investigations on John Law, the Spanish economy,
+				the Monroe Doctrine, mercantilism, and various other
+				topics. An outline of chapters in Hamilton's
+				personal papers suggests he intended to write a book on
+				this subject, in addition to the articles he published. The cards about John Law have been interfiled with subject headings to ease use by researchers.</p>
+          
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">19-27</container>
+            <unittitle>Notecards, unsorted</unittitle>
+          </did>
+		<scopecontent>
+		<p>Notes on shipping manifests for imports of valuables, 1760s-1790s; reports on treasure, prices, wages, and Spanish monetary policy; lecture notes, including general economics of the 20th century; mercantilism, particularly Spanish mercantilism; the Moors; Bank of Spain and Banco de San Carlos notes; and many other topics. These notecards are unsorted and unprocessed.</p>
+		</scopecontent>
+		
+          
+        </c02>
+        
+	<c02><did><container type="box">31-51</container><unittitle>Notecards on John Law, 17th-18th century</unittitle></did>
+		<scopecontent>
+		<p>Though these notecards remain unprocessed, index cards relating to John Law have been interfiled with headings and subjects by an external researcher. </p>
+		</scopecontent>
+
+	</c02>
+
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Additional Unarranged Papers Series,
+				<unitdate calendar="gregorian" era="ce" normal="1390/1985" type="inclusive">1390-1985 and undated (bulk 1929-1949)</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Drafts of papers, notes, and other research
+				materials not directly related to Hamilton's research for
+				major works. Arranged in original order as received. Dates
+				given below in descriptions of primary source materials
+				reflect the dates of the original items, and not the date
+				on which the modern transcript or photocopy was made.</p>
+        </scopecontent>
+        <processinfo>
+          <p>Attention: contains pictorial
+				  materials.]</p>
+        </processinfo>
+        <c02>
+          <did>
+            <container type="box">28</container>
+            <unittitle>Research papers ("Precious Metals,"
+				  "El Banco Nacional de San Carlos," "Las consecuencias
+				  económicas de la expulsion de los moriscos"), various dates
+				  and undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">American Treasure and
+					 the Rise of Capitalism, 1500-1700,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929, Nov.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">English Prices and
+					 Public Finance, 1660-1822,</title><persname> Elizabeth Boody
+					 Schumpeter</persname>,
+				  <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Notes on
+				  <title linktype="simple" render="italic">Dissertation de
+					 peste</title>, various dates and undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Monetary Disorder and
+					 Economic Decadence in Spain, 1651-1700,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1943" type="inclusive">1943, Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Growth of Rigidity in
+					 Business During the Eighteenth Century,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940, Mar.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Origin and Growth of
+					 the National Debt in Western Europe,</title><unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947, May,</unitdate> various dates</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Origin and Growth of
+					 the National Debt in France and England,</title><unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949</unitdate>,
+				  various dates</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Edwin Francis Gay,
+					 [1867-1946],</title>
+              <unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947, June</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Imports of American
+					 Gold and Silver into Spain, 1503-1660,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929, May</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Money and Economic
+					 Recovery in Spain Under the First Bourbon,
+					 1701-1746,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1943" type="inclusive">1943, Sept.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Wages and Subsistence
+					 on Spanish Treasure Ships, 1503-1660,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929, Aug.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">La monnaie en
+					 Castille, 1501-1650,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932, Mar.-May</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">VIII, The Decline of
+					 Spain,</title><unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938, May</unitdate>, various dates</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Use and Misuse of
+					 Price History,</title><unitdate calendar="gregorian" era="ce" normal="1944" type="inclusive">1944, Dec.</unitdate>, various dates</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous financial notes from
+				  various archives (Spanish and Dutch), various dates and
+				  undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous financial notes from
+				  archives (Dutch interest rates,
+				  <unitdate calendar="gregorian" era="ce" normal="1729/1790" type="inclusive">1729-1790</unitdate>)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous financial notes from
+				  archives (more interest rates;
+				  <unitdate calendar="gregorian" era="ce" normal="1632/1640" type="inclusive">1632-1640</unitdate>,
+				  <unitdate calendar="gregorian" era="ce" normal="1801/1811" type="inclusive">1801-1811</unitdate>,
+				  <unitdate calendar="gregorian" era="ce" normal="1791/1800" type="inclusive">1791-1800</unitdate>,
+				  <unitdate calendar="gregorian" era="ce" normal="1611/1620" type="inclusive">1611-1620</unitdate>)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous financial notes from
+				  archives (interest rates); Haarlem
+				  <unitdate calendar="gregorian" era="ce" normal="1635/1643" type="inclusive">1635-43</unitdate>,
+				  <unitdate calendar="gregorian" era="ce" normal="1645/1650" type="inclusive">1645-50</unitdate>; Amsterdam
+				  <unitdate calendar="gregorian" era="ce" normal="1650/1690" type="inclusive">1650-90</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Amsterdam interest rates
+				  <unitdate calendar="gregorian" era="ce" normal="1691/1710" type="inclusive">1691-1710</unitdate>,
+				  <unitdate calendar="gregorian" era="ce" normal="1621/1630" type="inclusive">1621-1630</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Various notes, research, drafts for
+				  unclassified papers, various dates and undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Research notes, drafts, etc.,
+				  various dates and undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Unidentified research notes on the
+				  18th century, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Livres Anciens et
+					 Modernes,</title> #53 and 65, various dates and
+				  undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">Livres Provenant de la
+					 Bibliotheque,</title><unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984, Mar. 22</unitdate>, various dates</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">The Case for
+					 Communism,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Bibliothéque Nationale: manuscript
+				  request forms,
+				  <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Unclassified ledger sheet,
+				  undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><title linktype="simple" render="doublequote">The Sources of Sir
+					 Nicholas on English Baron Society Collection,
+					 1250-1700,</title> undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Guggenheim report,
+				  <unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">1985</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Photographs:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Home Folks, Uncle Ed, Eva's
+					 Family, undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photos from the Archivio di Stato,
+					 Genova (Italy), undated</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photo of a page from an account
+					 book,
+					 <unitdate calendar="gregorian" era="ce" normal="1390" type="inclusive">1390, Feb. 20</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Empty postal bag for microfilm,
+				  undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Information for the Banco Nacional
+				  de San Carlos,
+				  <unitdate calendar="gregorian" era="ce" normal="1784/1829" type="inclusive">1784-1829</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Microfilms Series,
+				<unitdate calendar="gregorian" era="ce" normal="1783/1884" type="inclusive">1783-1884 and undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Various films, including negative strips and
+				microfilm reels, related to Hamilton's research on the
+				French and Spanish economies and various other subjects. In
+				original order with titles, often obscure, transcribed from
+				items.</p>
+          <p>Most dates given below in item descriptions
+				refer to the dates of original historical documents and not
+				to the date on which film was created.</p>
+        </scopecontent>
+        <processinfo>
+          <p>[Attention: Films may be deteriorated.
+				  Technical Services needs to format for use copies before
+				  materials can be viewed. Contact Research Services staff
+				  before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.]</p>
+        </processinfo>
+        <c02>
+          <did>
+            <container type="box">30</container>
+            <unittitle><title linktype="simple" render="doublequote">Observations d'un
+					 banquier de la Banque d'Espagne,</title> undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did><container type="box">30</container>
+            <unittitle><title linktype="simple" render="italic">Boletin oficial
+					 Ministerio Hacienda,</title><unitdate calendar="gregorian" era="ce" normal="1850" type="inclusive">1850</unitdate>;
+				  Banco de San Fernando (microfilm)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did><container type="box">30</container>
+            <unittitle><title linktype="simple" render="doublequote">Memoria historica,
+					 mayores de Madrid,</title> (microfilm),
+				  <unitdate calendar="gregorian" era="ce" normal="1884" type="inclusive">1884</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did><container type="box">30</container>
+            <unittitle>Archivo General de la Nación Mexico
+				  -- Cuarta Junta General,
+				  <unitdate calendar="gregorian" era="ce" normal="1783" type="inclusive">1783</unitdate>,
+				  and several cedulas reales (microfilm)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did><container type="box">30</container>
+            <unittitle>Earl J. Hamilton, Banco de España,
+				  "Archivo" (film), undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did><container type="box">30</container>
+            <unittitle>Earl J. Hamilton, unidentified film
+				  and negatives, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did><container type="box">30</container>
+            <unittitle>Documentos del Archivo del Conde de
+				  Colrerras; No. 168 (Leg 3-28); No. 164 (Leg 3-24),
+				  undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did><container type="box">30</container>
+            <unittitle>Microfilm of unidentified original
+				  documents, undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did><container type="box">30</container>
+            <unittitle>Banco de San Carlos, 20th Junta to
+				  Junta of
+				  <unitdate calendar="gregorian" era="ce" normal="1813" type="inclusive">1813</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did><container type="box">30</container>
+            <unittitle>Original documents from Spain
+				  received in 1949, undated</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Oversize Materials Series,
+				<unitdate calendar="gregorian" era="ce" normal="1765/1836" type="inclusive">1765-1836 and undated</unitdate>
+               </unittitle>
+        </did>
+        <c02>
+          <did>
+            <container type="box">29</container>
+            <unittitle>Archivio di Stato di Torino
+				  (photocopies), undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did><container type="box">29</container>
+            <unittitle>Primary materials on John Law
+				  (photocopies), undated</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container label="Oversize Folder" type="opaperfolder">1</container>
+            <unittitle>Amsterdam broadsides,
+				  <unitdate calendar="gregorian" era="ce" normal="1795/1796" type="inclusive">1795-1796</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+<c02><did><container type="opaperfolder">2</container>
+            <unittitle>Spanish proclamations (<emph render="italic">cedulas reales</emph>),
+				  <unitdate calendar="gregorian" era="ce" normal="1765/1836" type="inclusive">1765-1836</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+<c02><did><container type="opaperfolder">3</container><unittitle>18th century French printed materials (5 items)</unittitle></did></c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

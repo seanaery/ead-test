@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Julia Penelope Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/penelope/">penelope</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Preliminary Guide to the Julia Penelope Papers, ca.
+			<date normal="1986/1999" type="inclusive" era="ce" calendar="gregorian">1986-1999</date></titleproper>
+        <author>Processed by: Ruth E. Bryan; machine-readable finding aid
+			 created by: Ruth E. Bryan</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <p><date era="ce" calendar="gregorian"> 2001</date> Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">002067253</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from automated markup
+		  system. <lb/>Date of source: January 15, 2001 <lb/>Processed by Ruth E. Bryan
+		  January 15, 2001; Finding Aid encoded by Ruth E. Bryan, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University,
+		  <date calendar="gregorian" era="ce">January 26, 2001</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Julia Penelope Papers)//EN" "penelope.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Preliminary Guide to the Julia Penelope Papers, ca.
+			 1986-1999</titleproper>
+      <publisher> David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham,
+		  North Carolina 27708-0185 USA </publisher>
+
+      <p><date era="ce" calendar="gregorian"> 2001</date> Duke University. All Rights Reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Julia Penelope papers 		  <unitdate calendar="gregorian" era="ce" normal="1986/1999" type="inclusive">ca. 1986-1999</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Penelope, Julia</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>3 Linear Feet </extent>
+	  <extent>1800 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname>
+      </repository>
+      <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Collection is restricted. Also, some of the materials in this
+			 collection are not immediately accessible, because they require further
+			 processing before use.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in this collection have not been transferred
+			 to Duke University. For more information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Julia Penelope Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>Gift, 2000</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by Ruth E. Bryan</p>
+        <p>Completed January 15, 2001</p>
+	  <p>Encoded by Ruth E. Bryan</p>
+        <p>This finding aid is NCEAD compliant.</p>
+        <p>This collection is unprocessed: materials may not have been ordered and described beyond their original condition.</p>
+
+      </processinfo>
+    </descgrp>
+    <!-- End of finding aid header -->
+    <bioghist>
+      <head>Biographical Note</head>
+      <p>Julia Penelope is a feminist and linguist who ran
+		  <corpname>Crossing Press </corpname>and presently runs
+		  <corpname>Wordwise.</corpname></p>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>This accession continues to document Julia Penelope's life as a
+		  lesbian and feminist activist and academic. Materials include
+		  <genreform>correspondence </genreform>and
+		  <genreform>financial records; </genreform><genreform>lecture notes</genreform> and writings by Penelope dealing
+		  with subjects that include linguistics, lesbian communities, lesbian
+		  separatists, and coming out; subject files; and book reviews of works by
+		  Penelope and others. Acquired as part of the Sallie Bingham Center for Women's
+		  History and Culture. For information on earlier accessions, please consult the
+		  Duke Library online catalog.</p>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <!-- Note:  <subject>, <persname>, <corpname>, <geogname>, <famname>, <genreform>, <occupation> used where applicable -->
+        <item>
+          <subject>Coming out (Sexual orientation)--United
+				States</subject>
+        </item>
+        <item>
+          <subject>Feminists-United States. </subject>
+        </item>
+        <item>
+          <subject>Lesbians -- United States</subject>
+        </item>
+        <item>
+          <subject>Lesbian communities-United States. </subject>
+        </item>
+        <item>
+          <subject>Lesbians' writings, American</subject>
+        </item>
+        <item>
+          <subject>Linguists-United States</subject>
+        </item>
+        <item>
+          <subject>Women-United States</subject>
+        </item>
+        <item>
+          <persname>Sallie Bingham Center for Women's History and
+				Culture</persname>
+        </item>
+      </list>
+    </controlaccess>
+    <!-- Sample of possible container list structure, actual markup depends upon the materials being described. --><!-- Use <genreform>, <physdesc><extent> if needed. -->
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle>2000-0374</unittitle>
+        </did>
+        <processinfo>
+          <p>Some of the materials in this collection are not immediately
+				  accessible, because they require further processing before use. Please contact
+				  Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection. Technical Services staff need to
+				  reformat newsprint; remove rusty fasteners. See notes in container list below. </p>
+        </processinfo>
+        <accessrestrict>
+          <p>Attention: Correspondence is restricted. Researchers must sign
+				release form agreeing to not reveal personal information.</p>
+        </accessrestrict>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <unittitle>Book reviews, press contracts, subject files, writings,
+				  grant proposals, financial materials, and correspondence</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Book reviews</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Out of the Class
+						  Closet</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Style</title>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Press Contracts</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>"Learning to Live with my Body"</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>"Passing Lesbians"</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Xword Book</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Anthology of Penelope's essays</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">For Lesbians Only</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>New Victoria Press</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Finding the
+						  Lesbians</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>International Feminist Fiction</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Speaking Freely</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Women and Class Anthology</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Anthology of Lesbian/Feminist Literary
+						Criticism</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Lesbian Passages</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>History of Lesbianism</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Lesbian Culture Anthology</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Subject Files</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Milada Marsalka's Memoirs</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Review Copies Address List</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Copyright materials</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Writing </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>"Lesbian Intervention"</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Grant Proposals</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>NEH Research Grant</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>History of Lesbianism, Book</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Subject Files</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Notes, Language and the Gateways of
+						Consciousness</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Course Materials, Lesbian Novels (Washington
+						University, Fall
+						<unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Biography of Penelope</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Materials for Appeal of Non-promotion, University of
+						Nebraska</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>New Found Goddesses</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Campfest,
+						<unitdate calendar="gregorian" era="ce" normal="1999" type="inclusive">1999</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Income Tax</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Appointment Book
+					 <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Letters and Cards,
+					 <unitdate calendar="gregorian" era="ce" normal="1993/1994" type="inclusive">1993-1994</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Lesbian Culture</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Carytis Cardea</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Loose Material</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous photocopies from books and
+						magazines</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Notecards on Contributors to
+					 <title linktype="simple" render="italic">Out of the Class Closet</title></unittitle>
+            </did>
+            <scopecontent>
+              <p>Attention: May be restricted: If correspondence, then users
+					 must sign release form.</p>
+            </scopecontent>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Sojourner, </title>
+                <unitdate calendar="gregorian" era="ce" normal="1996" type="inclusive">1996 January</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Grade Book, University of Massachusetts,
+					 <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Picture, Two Young Women Reading a Book
+					 Together</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>Subject files, writings, correspondence, book reviews,
+				  and feminist crossword puzzle book
+				  
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Attention: Remove rusty fasteners.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>Subject files</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Hol 1: Antiquity</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Kamasutra of Vaysayana</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Near East Archeology</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>International Feminist Fiction Anthology (First
+						Choice Stories)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>[Verbal Self Defense]</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Lesbian Language</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Consent to Publish Agreements</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Request for Permission to Reprint</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Bookstores and Addresses (U.S)</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Carol Barret's poem</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Skanking</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Homosexuality and Citizenship in Florida</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Johnson, Linnea, Analysis of Rosenwasser
+						Letter</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Sexual Practice/Textual Theory, Letter
+						File</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Class Discussion</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>My Horoscope</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Dream and Disappointment</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Marcia Gagliardi, Poems</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Review Copies, Address List</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Article on St. Louis, Notes</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>SEPS</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Naiad Press Incorporation Papers</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>WomaNews Response</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>List of Lesbian Myths</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Morgan Grey, "Purple Dragon Song"</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Book on Lesbian Etiquette</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Crossing Promo Flyers</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>SEP Workshop, Michigan '89</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>The Sexist Tradition: Words and Meaning</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Speaking Freely: Teachers College Press Reprint
+					 (1992)</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle><unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998</unitdate> Poetry Book</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Blackwell, Hobby and White Proposal</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Julia at Mountain Moving Coffee House</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>[Unidentified Manuscript]</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Writings</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>On the Creation of Errors in Student Writing
+						</unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>"Dyke Arrogance: Self-Righteousness, Trashing, and
+						Cheap Thrills"</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>My Life, A Cartesian Model</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle> "Language and Women's Oppression"</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle> UPTIME Interview</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle> Letter to Newspapers: Kate and Julia</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence</unittitle>
+            </did>
+            <scopecontent>
+              <p>Attention: Restricted. Users must sign release form.</p>
+            </scopecontent>
+            <c04>
+              <did>
+                <unittitle>Letters to be Answered </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Gearhart Correspondence
+						<unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">(1989)</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Personal Papers Correspondence and Contents
+						Lists</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Book Reviews</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle><title linktype="simple" render="italic">You Just Don't Understand, </title>D.
+						Tannen</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Lesbian Culture</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Sexual Practice/Textual
+						  Theory</title>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Feminist Crossword Puzzle Book</unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

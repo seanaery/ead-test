@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" findaidstatus="unverified-full-draft" langencoding="iso639-2b" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+    <eadid publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Robert Bausch Papers, ca. 1968-1999)//EN" countrycode="us" mainagencycode="ndd" url="http://library.duke.edu/rubenstein/findingaids/bauschrobert/">bauschrobert</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Preliminary Guide to the Robert Bausch Papers, <date normal="1968/1999" type="inclusive" era="ce" calendar="gregorian">ca. 1968-1999</date>      </titleproper>
+        <author>Processed by: Ruth E. Bryan; machine-readable finding aid created by: Ruth E. Bryan</author>
+      </titlestmt>
+      <publicationstmt>
+        <!-- HEADER ADDRESS ENTITY -->
+        <p>         <date era="ce" calendar="gregorian"> 2001</date> Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note><p>Aleph Number: <num type="aleph">002963985</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from word processing  program. <lb/>Date of source: January 11, 2001 <lb/>Processed by Ruth E. Bryan,  January 11, 2001; Finding Aid encoded by Ruth E. Bryan, Duke University,   <date era="ce" calendar="gregorian">January 26, 2001</date>   </creation>
+      <langusage>Description is in <language>English.</language>   </langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2005" era="ce" calendar="gregorian">07-14-2005</date>
+        <item>PUBLIC "-//Rare Book, Manuscript, and SpecialCollections Library//TEXT (US::NDD::::Robert Bausch Papers, ca. 1968-1999)//EN""bausch-robert.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+        <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+        <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Preliminary Guide to the Robert Bausch Papers, <date era="ce" calendar="gregorian">ca. 1968-1999</date>   </titleproper>
+      <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/>            <lb/>Duke University <lb/>Durham,  North Carolina 27708-0185</publisher>
+      <p> 2001 Duke University. All Rights reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Robert Bausch papers <unitdate normal="1968/1999" type="inclusive" era="ce" calendar="gregorian">ca. 1968-1999</unitdate>   </unittitle>
+      <origination label="Creator"><persname>Bausch, Robert</persname></origination>
+      <physdesc label="Extent">      <extent>4.9 Linear Feet </extent><extent>3408 Items</extent>   </physdesc>
+      <repository label="Repository">      <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>   </repository>
+      <physloc label="Location">For current information on the location of  these materials, please consult the Library's online catalog.</physloc>
+      <langmaterial label="Language">      <language langcode="eng">English.</language>   </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Information for Users</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>This collection is open for research.</p>
+        <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+        <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+        <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <!-- Note:  [Identification of item] always in brackets -->
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Robert Bausch Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>Purchase, 2000</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by Ruth E. Bryan</p>
+        <p>Completed January 11, 2001</p>
+        <p>Encoded by Ruth E. Bryan</p>
+        <p>This finding aid is NCEAD compliant.</p>
+        <p>This collection is unprocessed: materials have not been ordered and described beyond their original condition.</p>
+        <p/>
+      </processinfo>
+    </descgrp>
+    <bioghist>
+      <head>Biographical Note</head>
+      <p>Robert Bausch is the author of four published novels and a collection  of short stories. Born in 1945, he was raised in northern Virginia and lives in  Stafford Virginia.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>This collection documents the professional and creative life of writer  and teacher Robert Bausch. Materials include handwritten, typed, and electronic  (computerized)   <genreform>drafts</genreform> of published and unpublished   <genreform>novels</genreform> and   <genreform>essays,</genreform> including <title linktype="simple">The Gypsy Man, </title>      <title linktype="simple">On the Way Home, </title>      <title linktype="simple">Almighty Me, </title>      <title linktype="simple">For God's Sake, </title> and <title linktype="simple">A Hole in the Earth; </title>      <genreform>galleys</genreform> and corrected <genreform>proofs</genreform> of his published novels; incoming andoutgoing <genreform>correspondence</genreform>--including copies of <genreform>electronic mail</genreform>--with writers, editors, readers,students, and family; a few typescripts of works by others; book and <genreform>movie contracts</genreform> and royalty statements; andaudiocassette tapes of Bausch's class discussions and readings by authorsGeorge Garrett, Bausch, and Bausch's twin brother Richard Bausch.</p>
+      <p>(15 tapes) (2500 manuscript items) (31 disks) (893   <genreform>computer files</genreform>)</p>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+      <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <item>         <subject>American literature -- Southern States -- 20thcentury</subject>      </item>
+        <item>         <subject>Authors, American-Southern States -- 20thcentury</subject>      </item>
+        <item>         <subject>Creation (literary, artistic, etc.).</subject>      </item>
+        <item>         <subject>On the way home</subject>      </item>
+        <item>         <subject>Almighty me</subject>      </item>
+        <item>         <subject>A hole in the earth</subject>      </item>
+        <item>         <genreform>audio cassettes</genreform>      </item>
+        <item>         <genreform>Machine-readable records</genreform>      </item>
+        <item>         <genreform>Magnetic disks</genreform>      </item>
+        <item>         <persname>Garrett, George P., 1929- .</persname>      </item>
+        <item>         <persname>Bausch, Richard, 1945- .</persname>      </item>
+      </list>
+    </controlaccess>
+
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle>Accession 2000-0418</unittitle>
+        </did>
+        <processinfo>
+          <p>Some of the materials in this collection are not immediately  accessible, because they require further processing before use. Please contact  Research Services staff before visiting the Rare Book, Manuscript, and Special  Collections Library to use this collection. Technical Services staff need to  remove material from envelopes and make use copies of audio tapes.</p>
+        </processinfo>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <unittitle>Correspondence and writings</unittitle>
+          </did>
+          <scopecontent>
+            <p>Includes personal and professional   <genreform>correspondence; </genreform>               <genreform>book reviews </genreform>of Bausch's work;   <genreform> essays </genreform>and   <genreform>short stories; </genreform>               <title render="italic" linktype="simple">Life Thus Far,</title> a published <genreform>autobiography; </genreform>and drafts and proofs of thenovels <title render="italic" linktype="simple">The Gypsy Man,</title>               <title render="italic" linktype="simple">On the Way Home,</title> and <title render="italic" linktype="simple">Almighty Me.</title>            </p>
+            <p>[31 computer disks were removed from this box and migrated to  the electronic records server.]</p>
+          </scopecontent>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>Correspondence, book and movie contracts, and  writings</unittitle>
+          </did>
+          <scopecontent>
+            <p>Includes   <genreform>correspondence, </genreform>including from his  students; book and movie   <genreform>contracts </genreform>and   <genreform>royalty statements; </genreform>school   <genreform>essays </genreform>and other writings, including  manuscripts and   <genreform>proofs </genreform>of <title render="italic" linktype="simple">For God's Sake</title> and <title render="italic" linktype="simple">Almighty Me.</title>            </p>
+          </scopecontent>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <unittitle>Writings and audio tapes</unittitle>
+          </did>
+          <scopecontent>
+            <p>Drafts and proofs of <title render="italic" linktype="simple">Almighty Me</title> and <title render="italic" linktype="simple">A Hole in the Earth</title>            </p>
+            <p>               <genreform>Audio tapes </genreform>of class discussions and  readings by   <persname>George Garrett, </persname>Bausch, and Bausch's twin  brother   <persname>Richard Bausch, </persname>               <unitdate era="ce" calendar="gregorian">1989-1993</unitdate>            </p>
+          </scopecontent>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <unittitle>First completed final draft of   <title render="italic" linktype="simple">A Hole in the Earth.</title>            </unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

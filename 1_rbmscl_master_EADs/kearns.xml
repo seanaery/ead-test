@@ -1,0 +1,1547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Gurney Harriss Kearns Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/kearns/">kearns</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Gurney Harriss Kearns Papers, <date normal="1913/1970" type="inclusive" era="ce" calendar="gregorian">1913-1970</date></titleproper>
+        <author>Processed by: Duke University Special Collections Staff; Machine-readable finding aid created by: Stephen Douglas Miller</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <p><date era="ce" calendar="gregorian"> 1977</date>
+ Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">000806140</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from
+paper by means of scanning and OCR; OCR file edited for typographical errors before encoding.
+<lb/>Date of source: ca. 1977
+<lb/>Processed by: Duke University Special Collections Staff
+ ca. 1977; Finding Aid encoded by Stephen Douglas Miller, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.
+<date calendar="gregorian" era="ce">March 25, 1997</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Gurney Harriss Kearns Papers)//EN" "kearns.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce">June 29, 1998</date>
+        <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the Gurney Harriss Kearns Papers, <date calendar="gregorian" era="ce">1913-1970</date></titleproper>
+      <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham, North Carolina</publisher>
+
+      <p> 1977 Duke University. All rights reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Gurney Harriss Kearns papers <unitdate calendar="gregorian" era="ce" normal="1913/1970" type="inclusive">1913-1970</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Kearns, Gurney Harriss, 1872-1962</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>12 Linear Feet</extent>
+<extent>4,106 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+      </repository>
+      <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+	<accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Collection is open for research.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+	</accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The status of copyright interests in these papers is unknown. For further information, see the section on copyright in the Regulations and Procedures of the Rubenstein Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], The Papers of Gurney Harriss Kearns, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The papers of Gurney Harriss Kearns, a textile manufacturer, were a gift to the Rubenstein Library in 1977 by Crown Hosiery Mills, High Point, N.C.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by: Duke University Special Collections Staff</p>
+        <p>Completed ca. 1977</p>
+	  <p>Encoded by Stephen Douglas Miller</p>
+        <p>This finding aid is NCEAD compliant.</p>
+      </processinfo>
+    </descgrp>
+    <bioghist>
+      <head>Biographical Note</head>
+      <chronlist>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1872</date>
+          <event>Gurney Harriss Kearns born Sept. 12 on family farm in Guilford County near High Point, N.C.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1890s</date>
+          <event>Attended Trinity College, later Duke University</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1900</date>
+          <event>Associated with brother Oscar E. Kearns to establish Kearns Furniture Co., High Point</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1906</date>
+          <event>Married Katherine Whittier Ragan of High Point</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1913</date>
+          <event>Founded Crown Hosiery Mills at High Point</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1934</date>
+          <event>Became trustee of High Point College</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1935</date>
+          <event>Initiated Gurney Harriss Kearns Fellowship in Religion at Duke University for graduate study</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1951</date>
+          <event>Endowment at Duke University increased to $100,000 as the Gurney Harriss Kearns Foundation for Graduate Study in Religion</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1960</date>
+          <event>Became trustee emeritus of High Point College</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1962</date>
+          <event>Died November 19 at High Point</event>
+        </chronitem>
+      </chronlist>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The papers of Gurney Harriss Kearns (1872-1962) date primarily during 1913-1962 but include items as late as 1970. There are eight series: Information; Correspondence; Everett, Zane and Muse; American Trust Company; Duke University; High Point College; Miscellaneous; and Crown Hosiery Mills. The collection relates mostly to the operations of Crown Hosiery Mills and to Kearns' real estate investments, membership on the board of directors of High Point College, and his endowment of fellowships at Duke University for graduate study in religion. Numerous references to his immediate family appear in various letters. There are occasional references to the Methodist Church, especially to Wesley Memorial at High Point of which Kearns was a member.</p>
+      <p>The Information Series contains reference material about Gurney H. Kearns, his family, and Crown Hosiery Mills.</p>
+      <p>The Correspondence Series (1959 items) contains the incoming letters and copies of the outgoing letters of Gurney H. Kearns during 1923-1963. Most of the correspondence from June, 1927, to April, 1931, is missing, and the quantity declines after 1943. The principal topic is Kearns' personal financial business. References to Crown Hosiery Mills are scarce. During 1923-1927 Kearns' real estate investments are the predominant topic. They include buildings, apartments, rental property, land and related transactions with real estate agents and insurance companies. Activity was considerable in North Carolina, especially in Greensboro and High Point, but also elsewhere, notably in Washington, D.C., and during 1926-1927 in Florida. During 1931-1943 the Depression's effects are evident, as Kearns' business is more concerned with managing debts, loans, and property than with acquisition. After 1943 the letters relate more to personal and family matters. Items of note concern Oak Ridge Institute (1925-1926), Springfield Friends Church (Dec. 18, 1936), Concord Methodist Church in Randolph Co. and Methodist churches in High Point (1937), church indebtedness in the Western N.C. Conference (Nov. 17, 1938), and Christianity and business (May 22, 1938).</p>
+      <p>The Everett, Zane and Muse Series (450 items) contains their letters to Gurney H. Kearns and copies of his replies during 1932-1952. Everett, Zane and Muse, an accounting firm located in Greensboro, N.C., handled business for both Crown Hosiery Mills and for Kearns personally, and the correspondence represents both interests. There are references to a variety of loan, tax, insurance, property, accounting, and other legal and financial matters. Many of the same transactions can be found in the Correspondence Series.</p>
+      <p>The American Trust Company Series (196 items) consists of their letters to Kearns and copies of his replies during 1939-1944. The American Trust Company, a bank in Charlotte, N.C., handled business for both Crown Hosiery Mills and for Kearns and other members of his family. The principal topics are loans and related insurance and property matters. These letters are sometimes more informative about transactions than the correspondence with Everett, Zane and Muse. There are occasional references to economic conditions.</p>
+      <p>The Duke University Series (1066 items), 1931-1965, contains Kearns' incoming and outgoing correspondence, mostly 1935-1962, with faculty, officials, graduate students, alumni, and doctors at the University, and others. The principal topic is the endowment that he established in the Graduate School of Arts and Sciences for the support of graduate students in religion, especially those preparing to become college and seminary teachers. In 1935 Kearns began the Gurney Harriss Kearns Fellowship in Religion that was expanded in 1951 into the Gurney Harriss Kearns Foundation for Graduate Study in Religion with an endowment of $100,000. At the time of Kearns' death in 1962 there had been 62 Kearns Fellows. The correspondence concerns the founding and development of the endowment, the property supporting it, the Kearns Fellows, the Department of Religion, the Divinity School, Duke University, Kearns' church, and the churches and schools where some of the former Kearns Fellows located. The principal correspondent, 1935-1962, is Dr. H Shelton Smith, James B. Duke Professor of American Religious Thought. Other correspondents include Kearns Fellows, doctors whom Kearns consulted at Duke Hospital, businessmen involved with the endowment property, and various officials of the University, especially President Robert Lee Flowers in the 1930s and 1940s.</p>
+      <p>The High Point College Series (304 items) concerns this Methodist school where Kearns was a trustee from 1934 until he retired to emeritus status in 1960. The files include primarily letters to and from Kearns and officials of the college and minutes, reports, and memoranda from its board of trustees and subordinate committees. There is considerable information about fund raising, finances, development, and administration. Correspondents include Gideon I. Humphreys, president in the 1940s and a continuing correspondent, Dennis Hargrove Cooke, president in the 1950s, Wendell Melton Patton who assumed the office in 1959, trustees, and occasionally faculty and other persons. The papers are minimal before 1942, limited during most of the 1940s, and relatively numerous during 1949-1959.</p>
+      <p>The Miscellaneous Series contains a ledger, 1919-1935, for Gurney H. Kearns' personal finances. There is also a folder of letters and printed material, 1939-1960, concerning Wesley Memorial Methodist Church in High Point, including a sermon by its minister opposing the election of John F. Kennedy to the presidency because he was a Roman Catholic.</p>
+      <p>The Crown Hosiery Mills Series consists of minutes, financial papers, and extensive account books. The minutes (photocopies), 1913-1935, also include records of stock issued, 1913-1929, and dividends, 1916-1931. The financial papers, 1935-1939 and 1947, are varied and not numerous, but they contain some useful data. There are 94 account books including: the ledger, 1913-1917; inventories, 1913-1936; and trial balances, 1921-1933; index and profit and loss accounts 1921-1947; cashbooks, 1913-1921, including trial balances, 1934-1944; cash journals, 1921-1950; time books and payroll, 1913-1934; payroll, 1922-1927; order books for labels, bands, riders, and transfers, 1926-1930; sales commission book, 1937-1949; and voucher records, 1913-1921. These volumes include the earliest ledger and journal. Later ones are absent, but some summary figures can be found in the trial balances and in the profit and loss accounts. The time books and payroll provide names of employees, hours worked, and wages paid during the first two decades of the mill's operation.</p>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <item>
+          <subject>Hosiery industry -- North Carolina</subject>
+        </item>
+        <item>
+          <subject>Real property</subject>
+        </item>
+        <item>
+          <subject>Insurance, property</subject>
+        </item>
+        <item>
+          <subject>Banks and banking</subject>
+        </item>
+        <item>
+          <subject>Endowments -- North Carolina</subject>
+        </item>
+        <item>
+          <occupation>Accountants -- North Carolina</occupation>
+        </item>
+        <item>
+          <occupation>Textile workers -- North Carolina</occupation>
+        </item>
+        <item>
+          <corpname>High Point College (High Point, N.C.)</corpname>
+        </item>
+        <item>
+          <corpname>Duke University.--Dept. of Religion</corpname>
+        </item>
+        <item>
+          <corpname>Methodist Episcopal Church, South -- North Carolina</corpname>
+        </item>
+        <item>
+          <famname>Kearns family</famname>
+        </item>
+        <item>
+          <geogname>North Carolina -- Industries</geogname>
+        </item>
+        <item>
+          <corpname>American Trust Company (Charlotte, N.C.)</corpname>
+        </item>
+        <item>
+          <corpname>Everett, Zane and Muse (Greensboro, N.C.)</corpname>
+        </item>
+        <item>
+          <corpname>Crown Hosiery Mills (High Point, N.C.)</corpname>
+        </item>
+        <item>
+          <persname>Smith, H. Shelton (Hilrie Shelton), 1893-</persname>
+        </item>
+      </list>
+    </controlaccess>
+
+<dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle id="info">Information Series</unittitle>
+        </did><scopecontent>
+          <p>Reference material about <persname>Gurney H. Kearns, </persname>his family, and <corpname>Crown Hosiery Mills.</corpname></p>
+        </scopecontent>
+        <c02 level="file">
+          <did>
+            <container type="box">1</container>
+            <unittitle>Reference Material</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="corr">Correspondence Series</unittitle>
+        </did> <scopecontent>
+          <p>Kearns' incoming and outgoing letters primarily relating to his personal financial business, especially real estate. Arranged chronologically.</p>
+        </scopecontent>
+        <c02>
+          <did><container type="box">1</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1923" type="inclusive">1923, Jan.-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924, Jan.-May</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924, June-Aug.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924, Sept.-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925, Jan.-June</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925, July-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926, Jan.-March</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926, April-June</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926, July-Sept.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926, Oct.-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1927" type="inclusive">1927, Jan.-May and 1927</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1930/1932" type="inclusive">1930, Dec.; 1931, May-Dec., 1932, Jan.-Nov.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932, Jan.-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934, Jan.-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935, Jan.-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936" type="inclusive">1936, Jan.-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937" type="inclusive">1937, Jan.-June</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1937" type="inclusive">1937, July-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938, Jan.-June</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938, July-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1939" type="inclusive">1939, Jan.-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940, Jan.-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1941" type="inclusive">1941, Jan.-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1942" type="inclusive">1942, Jan.-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1943" type="inclusive">1943, Jan.-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1944/1949" type="inclusive">1944, Jan.-1949, Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1950/1957" type="inclusive">1950, Jan.-1957, Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1958/1963" type="inclusive">1958, Feb.-1963, June</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="ever">Everett, Zane and Muse Series</unittitle>
+        </did> <scopecontent>
+          <p>Kearns' correspondence with this <geogname>Greensboro </geogname>accounting firm concerning both his personal business and <corpname>Crown Hosiery Mills. </corpname>Arranged chronologically.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03>
+            <did><container type="box">3</container>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1932/1937" type="inclusive">1932, Oct.-1937, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938, Jan.-June</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938, July-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">4</container>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1939" type="inclusive">1939, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1941" type="inclusive">1941, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1942/1952" type="inclusive">1942, Jan.-1952, June</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="amer">American Trust Company Series</unittitle>
+        </did><scopecontent>
+          <p>Kearns' correspondence with this <geogname>Charlotte </geogname>bank that handled business for him and <corpname>Crown Hosiery Mills. </corpname>Arranged chronologically.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03>
+            <did><container type="box">4</container>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1936/1938" type="inclusive">1936, Nov.-1938, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1939/1940" type="inclusive">1939, Jan.-1940, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1941/1944" type="inclusive">1941, Jan.-1944, May</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="duke">Duke University Series</unittitle>
+        </did><scopecontent>
+          <p>Kearns' correspondence about the fellowships that he endowed for the support of graduate study in religion. Includes faculty, officials, graduate students, alumni, and doctors at the University. Arranged chronologically.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03>
+            <did><container type="box">4</container>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1931/1937" type="inclusive">1931, May-1937, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1939" type="inclusive">1939, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1941" type="inclusive">1941, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">5</container>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1942" type="inclusive">1942, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1943" type="inclusive">1943, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1944" type="inclusive">1944, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1945" type="inclusive">1945, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1948" type="inclusive">1948, Jan.-Oct.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949, May-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1950/1951" type="inclusive">1950, Jan.-1951, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1953/1954" type="inclusive">1953, Jan.-1954, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1900/1956" type="inclusive">1956, Sept.-19-57, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958, Jan.-April</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958, May-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">6</container>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1962/1965" type="inclusive">1962, April-1965, March</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="high">High Point College Series</unittitle>
+        </did><scopecontent>
+          <p>Correspondence, minutes, reports, and memoranda associated with Kearns' work as a trustee. Arranged chronologically.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Correspondence</unittitle>
+          </did>
+          <c03>
+            <did><container type="box">6</container>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1934/1945" type="inclusive">1934, June-1945, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1946/1947" type="inclusive">1946, Jan.-1947, Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949, June-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1950" type="inclusive">1950, Jan.-May</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1950" type="inclusive">1950, June-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951, Jan.-June</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951, July-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952, Jan.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">7</container>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953, Jan.-April</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1954/1957" type="inclusive">1954-1957</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958, May-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959, Jan.-May</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959, July-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960, Jan.-Oct.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1961/1970" type="inclusive">1961, April; 1970</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="misc">Miscellaneous Series</unittitle>
+        </did> <scopecontent>
+          <p>Kearns' personal ledger and material relating to <corpname>Wesley Memorial Methodist Church.</corpname></p>
+        </scopecontent>
+        <c02>
+          <did><container type="box">7</container>
+            <unittitle><persname>Gurney Harriss Kearns</persname>' Ledger, <unitdate calendar="gregorian" era="ce" normal="1919/1935" type="inclusive">1919-1935</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Wesley Memorial Methodist Church, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1939/1960" type="inclusive">1939-1960</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="crow"><corpname>Crown Hosiery Mills </corpname>Series</unittitle>
+        </did><scopecontent>
+          <p>Ledger, journal, balance sheets, inventories, trial balances, profit and loss accounts, cashbooks, cash journals, time books, voucher records, order book, and sales commission book. Also minutes and financial papers. Volumes arranged chronologically by type.</p>
+        </scopecontent>
+        <c02>
+          <did><container type="box">7</container>
+            <unittitle>Minutes, <unitdate calendar="gregorian" era="ce" normal="1913/1935" type="inclusive">1913-1935</unitdate> (Including Stock Issued, <unitdate calendar="gregorian" era="ce" normal="1913/1929" type="inclusive">1913-1929,</unitdate> and Dividends, <unitdate calendar="gregorian" era="ce" normal="1916/1931" type="inclusive">1916-1931)</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Financial Papers, <unitdate calendar="gregorian" era="ce" normal="1935/1939" type="inclusive">1935-1939,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Account Books</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="volume">1</container>
+              <unittitle>Ledger, <unitdate calendar="gregorian" era="ce" normal="1913/1917" type="inclusive">1913-1917</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">2</container>
+              <unittitle>Journal, <unitdate calendar="gregorian" era="ce" normal="1913/1921" type="inclusive">1913, July-1921, March</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">3</container>
+              <unittitle>Balance Sheets, <unitdate calendar="gregorian" era="ce" normal="1913/1932" type="inclusive">1913, Dec.-1932, Dec.,</unitdate>and Inventories, <unitdate calendar="gregorian" era="ce" normal="1913/1936" type="inclusive">1913, Dec.-1936, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Trial Balances, <unitdate calendar="gregorian" era="ce" normal="1921/1933" type="inclusive">1921, Jan.-1933, Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">4</container>
+              <unittitle>Index and Profit and Loss Accounts, <unitdate calendar="gregorian" era="ce" normal="1921/1947" type="inclusive">1921-1947</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">5</container>
+              <unittitle>Cashbook, <unitdate calendar="gregorian" era="ce" normal="1913/1920" type="inclusive">1913, Aug.-1920, June</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">6</container>
+              <unittitle>Cashbook, <unitdate calendar="gregorian" era="ce" normal="1920/1921" type="inclusive">1920, July-1921, March</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Trial Balances, <unitdate calendar="gregorian" era="ce" normal="1934/1944" type="inclusive">1934, Jan.-1944, Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">7</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1921/1922" type="inclusive">1921, Jan.-1922, Oct.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">8</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1922/1925" type="inclusive">1922, Nov.-1925, Oct.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">9</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1925/1927" type="inclusive">1925, Oct.-1927, Aug.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">10</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1927/1929" type="inclusive">1927, Sept.-1929, April</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">11</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1929/1930" type="inclusive">1929, April-1930, Sept.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">12</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1930/1932" type="inclusive">1930, Sept.-1932, April</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">13</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1932/1933" type="inclusive">1932, May-1933, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">14</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1933/1935" type="inclusive">1933, Dec.-1935, Jan.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">15</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1935/1937" type="inclusive">1935, Feb.-1937, May</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">16</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1937/1939" type="inclusive">1937, June-1939, June</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">17</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1939/1941" type="inclusive">1939, July-1941, Feb.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">18</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1941/1942" type="inclusive">1941, March-1942, Sept.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">19</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1942/1944" type="inclusive">1942, Oct.-1944, April</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">20</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1944/1945" type="inclusive">1944, May-1945, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">21</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1945/1947" type="inclusive">1945, Dec.-1947, Aug.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">22</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947, Aug.-Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">23</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1947/1948" type="inclusive">1947, Dec.-1948, March</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">24</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1948" type="inclusive">1948, March-July</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">25</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1948" type="inclusive">1948, July-Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">26</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1948/1949" type="inclusive">1948, Nov.-1949, March</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">27</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949, April-Aug.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">28</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1949/1950" type="inclusive">1949, Aug.-1950, March</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">29</container>
+              <unittitle>Cash Journal, <unitdate calendar="gregorian" era="ce" normal="1950" type="inclusive">1950, March-July</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">30</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1913/1914" type="inclusive">1913, Aug.-1914, March</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">31</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1914" type="inclusive">1914, March-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">32</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1914/1915" type="inclusive">1914, Dec.-1915, Sept.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">33</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1915/1916" type="inclusive">1915, Sept.-1916, May</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">34</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1916" type="inclusive">1916, May-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">35</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1916/1917" type="inclusive">1916, Dec.-1917, June</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">36</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1917" type="inclusive">1917, June-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">37</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1917/1918" type="inclusive">1917, Dec.-1918, June</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">38</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1918" type="inclusive">1918, June-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">39</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1918/1919" type="inclusive">1918, Dec.-1919, July</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">40</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1919" type="inclusive">1919, July-Aug.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">41</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1919/1920" type="inclusive">1919, Aug.-1920, May</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">42</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1920/1921" type="inclusive">1920, May-1921, April</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">43</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1921" type="inclusive">1921, May-Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">44</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1921/1922" type="inclusive">1921, Nov.-1922, May</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">45</container>
+              <unittitle>Time Book- and Payroll, <unitdate calendar="gregorian" era="ce" normal="1922" type="inclusive">1922, May-Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">46</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1922/1923" type="inclusive">1922, Nov.-1923, May</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">47</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1923" type="inclusive">1923, May-Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">48</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1923/1924" type="inclusive">1923, Nov.-1924, June</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">49</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924, June-Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">50</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1924/1925" type="inclusive">1924, Nov.-1925, March</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">51</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925, March-June</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">52</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925, June-Oct.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">53</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1925/1926" type="inclusive">1925, Oct.-1926, Jan.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">54</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926, Jan.-April</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">55</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926, April-July</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">56</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926, Aug.-Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">57</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1926/1927" type="inclusive">1926, Nov.-1927, Feb.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">58</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1927" type="inclusive">1927, Feb.-May</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">59</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1927" type="inclusive">1927, May-Aug.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">60</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1927" type="inclusive">1927, Aug.-Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">61</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1927/1928" type="inclusive">1927, Nov.-1928, Feb.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">62</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1928" type="inclusive">1928, Feb.-May</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">63</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1928" type="inclusive">1928, May-July</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">64</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1928" type="inclusive">1928, July-Oct.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">65</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1928" type="inclusive">1928, Oct.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">66</container>
+              <unittitle>Time Book and Payroll,<unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929.</unitdate>Jan.-April</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">67</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929, April-June</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">68</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929, July-Sept.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">69</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929, Sept.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">70</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1929/1930" type="inclusive">1929, Dec.-1930, Feb.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">71</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">1930, Feb.-May</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">72</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">1930, May-Aug.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">73</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">1930, Aug.-Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">74</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1930/1931" type="inclusive">1930, Nov.-1931, Feb.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">75</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1931" type="inclusive">1931, March-June</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">76</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1931" type="inclusive">1931, June-Sept.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">77</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1931" type="inclusive">1931, Sept.-Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">78</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1931/1932" type="inclusive">1931, Dec.-1932, March</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">79</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932, March-July</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">80</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932, July-Oct.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">81</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1932/1933" type="inclusive">1932, Oct.-1933, Jan.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">82</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1933" type="inclusive">1933, Jan.-April</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">83</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1933" type="inclusive">1933, April-Aug.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">84</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1933" type="inclusive">1933, Aug.-Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">85</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1933/1934" type="inclusive">1933, Nov.-1934, Feb.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">86</container>
+              <unittitle>Time Book and Payroll, <unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934, Feb.-July</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">87</container>
+              <unittitle>Payroll, <unitdate calendar="gregorian" era="ce" normal="1922/1925" type="inclusive">1922, July-1925, May</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">88</container>
+              <unittitle>Payroll, <unitdate calendar="gregorian" era="ce" normal="1925/1927" type="inclusive">1925, May-1927, Oct.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">89</container>
+              <unittitle>Order Book for Labels, Bands, Riders, and Transfers, <unitdate calendar="gregorian" era="ce" normal="1926/1930" type="inclusive">1926-1930</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">90</container>
+              <unittitle>Sales Commission Book, <unitdate calendar="gregorian" era="ce" normal="1937/1949" type="inclusive">1937-1949</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">91</container>
+              <unittitle>Voucher Record, <unitdate calendar="gregorian" era="ce" normal="1913/1915" type="inclusive">1913, March-1915, Sept.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">92</container>
+              <unittitle>Voucher Record, <unitdate calendar="gregorian" era="ce" normal="1915/1917" type="inclusive">1915, Oct.-1917, Oct.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">93</container>
+              <unittitle>Voucher Record, <unitdate calendar="gregorian" era="ce" normal="1917/1919" type="inclusive">1917, Nov.-1919, Oct.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="volume">94</container>
+              <unittitle>Voucher Record, <unitdate calendar="gregorian" era="ce" normal="1919/1921" type="inclusive">1919, Nov.-1921, March</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

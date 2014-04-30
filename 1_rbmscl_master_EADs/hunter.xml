@@ -1,0 +1,4316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Jody Jones Hunter Collection of the Works of William Styron)//EN" url="http://library.duke.edu/rubenstein/findingaids/hunter/">hunter</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Jody
+			 Jones Hunter Collection of Works by William Styron,
+			 <date normal="1831/2001" type="inclusive" era="ce" calendar="gregorian">1831-2001</date></titleproper>
+        <author>Processed by: Don Sechler, Elizabeth
+			 Arnold; machine-readable finding aid created by: Don
+			 Sechler, Elizabeth Arnold</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <p><date era="ce" calendar="gregorian"> 2003</date> Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">002648541</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from
+		  paper by means of scanning and OCR; OCR file edited for
+		  typographical errors before encoding. Microsoft Word
+		  <lb/>Date of source: December 17, 1998 <lb/>Processed by
+		  Don Sechler December 17, 1998; Finding Aid encoded by Don
+		  Sechler, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University,
+		  <date calendar="gregorian" era="ce">December 17, 1998</date></creation>
+      <langusage>Description is in
+		  <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Jody Jones Hunter Collection of the Works of William Styron)//EN" "hunter.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce">June 11, 2003</date>
+        <item>Addition (2001-0056) made to electronic
+			 finding aid. Materials received as gift, March 16, 2001.
+			 Minimally processed by Elizabeth Arnold. Encoded by
+			 Elizabeth Arnold on June 11, 2003. Date span changed from
+			 1951-1998 to 1831-2001. Linear feet changed from 18.5 to
+			 19.5. Item count changed from 600 to 645.</item>
+      </change>
+<change>
+        <date calendar="gregorian" era="ce">June 11, 2003</date>
+        <item>Additions (2008-0081 and 2008-0325) added to electronic finding aid. </item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the Jody
+			 Jones Hunter Collection of Works by William Styron,
+			 <date calendar="gregorian" era="ce">1831-2001</date></titleproper>
+      <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham,
+		  North Carolina 27708-0185</publisher>
+
+      <p>(C) 2003 Duke University. All rights reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Jody Jones Hunter Collection of Works by William Styron 		  <unitdate calendar="gregorian" era="ce" normal="1831/2001" type="inclusive">1831-2001</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Hunter, Jody Jones</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>19.5 Linear Feet</extent>
+		  <extent>645 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname>
+      </repository>
+      <physloc label="Location">For current information on
+		  the location of these materials, please consult the
+		  Library's on-line catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Collection is open for research.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in this collection have
+			 not been transferred to Duke University. For more
+			 information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Jody Jones Hunter
+			 Collection of Works by William Styron, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The Jody Jones Hunter Collection of Works by
+			 William Styron was received as a gift by the David M. Rubenstein Rare Book &amp; Manuscript Library in 1998, 2001 and 2008.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Preliminary processing by Don Sechler</p>
+        <p>Completed December 17, 1998</p>
+        <p>Additions minimally processed by Elizabeth
+			 Arnold</p>
+        <p>Updated June 11, 2003</p>
+	  <p>Encoded by Don Sechler; Elizabeth Arnold</p>
+	<p>Finding aid updated to include unprocessed 2008 accessions by Alice Poffinberger, August 2, 2009.</p>
+        <p>This finding aid is NCEAD compliant.</p>
+        <p>This collection is unprocessed: materials may not have been ordered and described beyond their original condition.</p>
+      </processinfo>
+    </descgrp>
+    <!-- End of Finding Aid Header -->
+    <bioghist>
+      <head>Biographical Note</head>
+      <p>Hunter is a collector of works by certain southern
+		  authors taught by William Blackburn. William Styron is an
+		  award-winning author of American literature, including such
+		  works as
+		<title linktype="simple" render="italic">Sophie's Choice</title> and
+		<title linktype="simple" render="italic">The Confessions of Nat
+		  Turner</title>. Both are Duke University alumni.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The Jody Jones Hunter Collection of Works by
+		  William Styron includes first editions, limited editions,
+		  translations, and other editions, many of them autographed
+		  or inscribed, of the works of William Styron, along with
+		  published articles, correspondence, manuscripts, and
+		  related materials. The correspondence is chiefly letters
+		  written by Styron to Stuart Wright, the owner of Palaemon
+		  Press in Winston-Salem, N.C. and publisher of several
+		  limited editions of Styron's work. Also included with the
+		  collection is a carbon typescript of
+		<title linktype="simple" render="italic">Confessions of Nat
+		  Turner,</title> with holograph notes, and the original
+		typescript of Styron's recipe for southern fried chicken
+		from
+		<title linktype="simple" render="italic">The Artist's and Writer's
+		  Cookbook </title>(1961).</p>
+      <p>The addition (Acc# 2001-0056) consists largely of
+		  books (mostly first editions, some signed or inscribed) and
+		  printed material written by or about Styron, or containing
+		  his contributions (1951-2001). Also includes editions of
+		<title linktype="simple" render="italic">All the Finest Girls</title>
+		(2001), by Alexandra Styron (his youngest daughter); an
+		original manuscript review of
+		<title linktype="simple" render="italic">Sophie's Choice</title> (1979)
+		by Julian Symons; an original publisher's advertisement for
+
+		<title linktype="simple" render="italic">The Confessions of Nat
+		  Turner</title> (1967); an uncorrected proof of
+		<title linktype="simple" render="italic">Admiral Robert Penn Warren and
+		  the Snows of Winter: A Tribute</title> (1978?); and an
+		original holograph manuscript of Styron's 1977 review of
+		Philip Caputo's
+		<title linktype="simple" render="italic">A Rumor of War</title>
+		(1977).</p>
+	<p>Addition (08-081)(5 items, .1 lin. ft.; undated) comprises a signed, black-and-white photograph, and four pages of Styron's writing (two sheets are signed).</p>
+	<p>Addition (08-325)(4 items, .3 lin. ft.; dated 1982-1995 and undated) comprises two items of correspondence that are closed to researchers. Also includes a photograph and an undated screenplay, SET THIS HOUSE ON FIRE, that are open to researchers.</p>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+      <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <item><persname source="lcsh" encodinganalog="600">Styron, William, 1925-</persname></item>
+
+<item>
+          <persname source="lcsh" encodinganalog="600">Hunter, Jody Jones</persname>
+        </item>
+       
+       
+      
+        <item>
+          <persname source="lcsh" encodinganalog="600">Wright, Stuart T. </persname>
+        </item>
+        <item>
+          <subject source="lcsh" encodinganalog="650">American literature -- 20th century.
+				</subject>
+        </item>
+        <item>
+          <subject source="lcsh" encodinganalog="650">American literature -- Southern States.
+				</subject>
+        </item>
+        <item>
+          <subject source="lcsh" encodinganalog="650">Authors, American -- Southern States.
+				</subject>
+        </item>
+        <item>
+          <subject source="lcsh" encodinganalog="650">Authors, American -- 20th century.
+				</subject>
+        </item>
+        <item>
+          <subject source="lcsh" encodinganalog="650">Literature -- History and criticism.
+				</subject>
+        </item>
+        <item>
+          <subject source="lcsh" encodinganalog="650">Southampton Insurrection,
+				1831 -- Literature and the insurrection. </subject>
+        </item>
+      </list>
+    </controlaccess>
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle>Accession (1998-0553)</unittitle>
+        </did>
+      
+      <c02 level="subseries">
+        <did>
+          
+          <unittitle>
+            <title linktype="simple" render="italic">Lie Down in
+				  Darkness</title>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>First editions, translations, and other
+				editions, many signed and inscribed, of Styron's first
+				novel.</p>
+        </scopecontent>
+        <c03>
+          <did><container type="box">1</container>
+            <unittitle><title linktype="simple" render="italic">Lie Down in
+					 Darkness,</title> by William Styron,
+				  <corpname>Bobbs Merrill,</corpname><unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951.</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition, presentation copy.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Lie Down in
+					 Darkness,</title> by William Styron,
+				  <corpname>Bobbs Merrill,</corpname><unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition - Tipped in Letter - no dust
+				  jacket.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Lie Down in
+					 Darkness,</title> by William Styron,
+				  <corpname>Bobbs Merrill,</corpname><unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition, signed.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Lie Down in
+					 Darkness</title> (uncorrected proof), by William Styron,
+				  <corpname>Random House,</corpname><unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Lie Down in
+					 Darkness</title> (uncorrected proof), by William Styron,
+				  <corpname>Random House,</corpname><unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Slipcased.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Lie Down in
+					 Darkness,</title> by William Styron,
+				  <corpname>Vintage International,</corpname><unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Lie Down in
+					 Darkness,</title> by William Styron,
+				  <corpname>Picador,</corpname><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Un Lit De
+					 Tenebres,</title> by William Styron,
+				  <corpname>Gallimard,</corpname><unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>French edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Un Lit De
+					 Tenebres,</title> by William Styron,
+				  <corpname>Gallimard,</corpname>1986</unittitle>
+          </did>
+          <scopecontent>
+            <p>French edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">William Styron's Lie
+					 Down in Darkness: A Screenplay,</title> by
+				  <persname> Richard Yates,</persname><unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">1985</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Signed by Styron and Yates.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">William Styron's Lie
+					 Down in Darkness: A Screenplay,</title> by
+				  <persname>Richard Yates,</persname><unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">1985</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Inheritance of the
+					 Night: Early Drafts of 'Lie Down in Darkness,'</title>
+              <corpname>Duke University,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Inheritance of the
+					 Night: Early Drafts of 'Lie Down in Darkness,'</title>
+				  William Styron and
+				  <persname> James L.W. West III, </persname><corpname>Duke University,</corpname><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Slipcased - letter 'J' of 26 lettered
+				  copies.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Inheritance of the
+					 Night: Early Drafts of 'Lie Down in Darkness,'</title>
+				  William Styron and
+				  <persname>James L.W. West III, </persname><corpname>Duke University,</corpname><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>#3 of 250 copies signed by Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Inheritance of the
+					 Night: Early Drafts of 'Lie Down in Darkness,'</title>
+				  William Styron and
+				  <persname>James L.W. West III, </persname><corpname>Duke University,</corpname><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Trade edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Landscape in
+					 Nightmare: Studies in the Contemporary Novel,</title> by
+				  <persname>Jonathon Baumbach,</persname><unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <unittitle>
+            <title linktype="simple" render="italic">The Long
+				  March</title>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>First editions, first published versions,
+				translations, and other editions of Styron's novella.</p>
+        </scopecontent>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Discovery,</title> No.
+				  1,
+				  <unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Signed by Styron; "The Long March" on page
+				  221.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Discovery,</title> No.
+				  1,
+				  <unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>"The Long March" on page 221.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Long
+					 March,</title>
+              <corpname>Modern Library,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1956" type="inclusive">1956</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Signed.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Long
+					 March,</title>
+              <corpname>Modern Library,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1956" type="inclusive">1956</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Long
+					 March,</title>
+              <corpname>Vintage, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">ca. 1964</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Long
+					 March,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Long
+					 March,</title>
+              <corpname>Hamish Hamilton,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>British edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Long
+					 March,</title>
+              <corpname>Signet,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Long March and
+					 In the Clap Shack,</title>
+              <corpname>Plume,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Long March, Black
+					 Swan,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Long March and
+					 In the Clap Shack,</title>
+              <corpname>Vintage International,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Long
+					 March,</title>
+              <corpname>Picador,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">La Marche de
+					 Nuit,</title>
+              <corpname>Gallimard,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Pages uncut.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">La Marche de
+					 Nuit,</title>
+              <corpname> Gallimard,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Signed.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">La Marche de
+					 Nuit,</title>
+              <corpname>Gallimard,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Den Langa
+					 Marchen,</title>
+              <corpname> Wahlsrtom and
+					 Widstrand,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Swedish edition.</p>
+          </scopecontent>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <container type="box">2</container>
+          <unittitle>
+            <title linktype="simple" render="italic">Set This House on
+				  Fire</title>
+          </unittitle>
+        </did>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Set This House on
+					 Fire,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition, trial dust jacket.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Set This House on
+					 Fire,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition, signed.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Set This House on
+					 Fire,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition, signed.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Set This House on
+					 Fire,</title>
+              <corpname>Hamish Hamilton,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st British edition, signed.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Set This House on
+					 Fire,</title>
+              <corpname>Hamish Hamilton,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st British edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Set This House on
+					 Fire,</title>
+              <corpname>Vintage International,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Set This House on
+					 Fire,</title>
+              <corpname>Picador,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">A Roman Collection:
+					 Stories, Poems, and Other Good Pieces by the Writing
+					 Residents of The American Academy in Rome,</title> edited
+				  by
+				  <persname>Miller Williams,</persname><unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980.</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Excerpt from
+				<title linktype="simple" render="italic">Set This House on
+				  Fire.</title></p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">La Proie des
+					 Flammes,</title><corpname>Gallimard, </corpname><unitdate calendar="gregorian" era="ce" normal="1986/1988" type="inclusive">1986-1988</unitdate>(2 volumes)</unittitle>
+          </did>
+          <scopecontent>
+            <p>French paperback edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Esta Casa en
+					 Llamas,</title>
+              <corpname>Edhasa Sudamericana,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Reprint of
+				  <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate>spanish language edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Que o Fogo Consuma
+					 Esta Casa,</title>
+              <corpname>Publicacoes Dom Quixote,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988.</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <unittitle>
+            <title linktype="simple" render="italic">The Confessions of Nat
+				  Turner</title>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>First editions, translations, and other
+				editions of Styron's Pulitzer Prize-winning novel. Also
+				includes contemporary accounts of the
+				<famname>Turner </famname>rebellion, published
+				excerpts of the novel, and other related publications.</p>
+        </scopecontent>
+        <scopecontent>
+          <p>See also Box 14 (oversize).</p>
+        </scopecontent>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Confessions of Nat
+					 Turner,</title>
+              <corpname> Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition; presentation copy to
+				  <persname>James Jones </persname>and his wife
+
+				  <persname>Gloria.</persname></p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Confessions of Nat
+					 Turner,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>#23 of 500, signed, slipcased.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Confessions of Nat
+					 Turner,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Signed on tipped in leaf.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Confessions of Nat
+					 Turner,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Fourth printing, signed.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Confessions of Nat
+					 Turner,</title> (uncorrected proof)
+				  <corpname>Jonathan Cape,</corpname><unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Confessions of Nat
+					 Turner,</title>
+              <corpname>Jonathan Cape,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st British edition, with Pulitzer Prize
+				  wrap.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Confessions of Nat
+					 Turner,</title><corpname>Jonathan Cap</corpname>e,
+				  <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st British edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Confessions of Nat
+					 Turner,</title> [
+				  <corpname>Random House</corpname>]
+				  <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Pirated edition, photo offset from the
+				  Random House edition, signed.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Confessions of Nat
+					 Turner,</title> [
+				  <corpname>Random House</corpname>]
+				  <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Pirated edition, photo offset from the
+				  Random House edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Confessions of Nat
+					 Turner,</title>
+              <corpname>Modern Library,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Confessions of Nat
+					 Turner,</title>
+              <corpname>Vintage International,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Confessions of Nat
+					 Turner,</title>
+              <corpname>Modern Library,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <container type="box">3</container>
+            <unittitle>
+              <title linktype="simple" render="italic">The Confessions of Nat
+					 Turner,</title>
+              <corpname>Franklin Library,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Brown leather.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Les Confessions de Nat
+					 Turner,</title>
+              <corpname>Gallimard,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>#18 of 45 deluxe copies of 1st French
+				  edition. </p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Les Confessions de Nat
+					 Turner,</title><corpname>Gallimard, </corpname>Collection
+				  Soliel,
+				  <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>2nd French edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Les Confessions de Nat
+					 Turner,</title>
+              <corpname>Gallimard,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">As Confissoes de Nat
+					 Turner,</title>
+              <corpname>Rocco,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">1985</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Portuguese edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Literature of the
+					 American South: A Norton Anthology,</title>
+              <corpname>Norton,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Oxford Book of the
+					 American South,</title> edited by
+				  <persname>Edward L Ayers, </persname><corpname>Oxford,</corpname><unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">William Styron's Nat
+					 Turner: Ten Black Writer's Respond,</title> edited by
+				  <persname>John Henrik Clarke, </persname><corpname>Beacon Press,</corpname><unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">William Styron's Nat
+					 Turner: Ten Black Writer's Respond,</title> edited by
+				  <persname>John Henrik Clarke, </persname><corpname>Beacon Press,</corpname><unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">An Illustrated History
+					 of Black Americans,</title> by
+				  <persname>John Hope Franklin, </persname><corpname>Time-Life Books,</corpname><unitdate calendar="gregorian" era="ce" normal="1973" type="inclusive">1973.</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Vintage Reading
+					 Notebook,</title> Winter
+				  <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993,</unitdate>
+                     <corpname>Vintage,</corpname><unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Text of Styron's essay "Nat Turner
+				  Revisited."</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Dred: A Tale of the
+					 Great Dismal Swamp,</title> by
+				  <persname>Harriet Beecher Stowe,</persname><unitdate calendar="gregorian" era="ce" normal="1856" type="inclusive">1856,</unitdate>(2 volumes)</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Southampton
+					 Insurrection,</title> by
+				  <persname>William Sidney Drewry,</persname><unitdate calendar="gregorian" era="ce" normal="1900" type="inclusive">1900</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Nat Turner: Authentic
+					 and Impartial Narrative of the Tragical Scene Which Was
+					 Witnessed in Southampton County..,</title>
+              <corpname>Warner and West, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1831" type="inclusive">1831, Oct. 21</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition. An account of the
+				  <famname>Turner </famname>uprising published
+				  nine days before his capture.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Southampton and
+					 Charleston Slave Insurrections,</title> by
+				  <persname>Henry Bibb,</persname><unitdate calendar="gregorian" era="ce" normal="1849" type="inclusive">1849</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Great Gittin' Up
+					 Morning: A Biography of Denmark Vesey,</title> by
+				  <persname>John Oliver Killen</persname>s,
+				  <unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">1972</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Longest
+					 Memory,</title> by
+				  <persname>Fred D'Aguiar,</persname><unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Six Plays for the
+					 Negro Theater,</title> by
+				  <persname>Randolph Edmond</persname>s,
+				  <unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Frederick
+					 Douglass,</title> by
+				  <persname>William S. McFeely,</persname><unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Militant
+					 South,</title> by
+				  <persname>John Hope Franklin, </persname><corpname>Harvard University
+					 Press,</corpname><unitdate calendar="gregorian" era="ce" normal="1956" type="inclusive">1956</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Nat Turner's Slave
+					 Rebellion: The Environment, The Event, The Effects,</title>
+				  by
+				  <persname>Herbert Aptheker,</persname><unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Nat Turner's Slave
+					 Insurrection,</title> by
+				  <persname>F. Roy Johnson,</persname><unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Slave Testimony: Two
+					 Centuries of Letters, Speeches, Interviews, and
+					 Autobiographies,</title> by
+				  <persname>John W. Blassingame,</persname><unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Slavery Agitation in
+					 Virginia, 1829-1932, </title> by
+				  <persname>Theodore M. Whitfield, </persname><corpname>Johns Hopkins Press,</corpname><unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">1930</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">From Rebellion to
+					 Revolution,</title> by
+				  <persname>Eugene D. Genovese,</persname><unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Paris Review,</title>
+				  36, Winter
+				  <unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p><title linktype="simple" render="italic">Confessions of Nat
+				  Turner</title> excerpted.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Partisan
+					 Review,</title> Vol. XXV, No. 3, Summer
+				  <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Responses to
+				<title linktype="simple" render="italic">Nat Turner.</title></p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Southern Literary
+					 Journal,</title> Vol. II, No. 2, Spring
+				  <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Essay on
+				<title linktype="simple" render="italic">Nat Turner</title> by
+				<corpname>George Core.</corpname></p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Confessions of Nat
+					 Turner,</title> by
+				  <corpname>Alfred Celestine, </corpname><persname>The Many Press,</persname><unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Poems inspired by
+				<title linktype="simple" render="italic">Nat Turner.</title></p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">South Atlantic
+					 Quarterly,</title> Vol. 70, No. 1, Winter
+				  <unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Essay on
+				<title linktype="simple" render="italic">Nat Turner</title> by
+				<persname>William McGill.</persname></p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Harpers's
+					 Magazine,</title> Vol. 235, No.
+				  <unitdate calendar="gregorian" era="ce" normal="1408" type="inclusive">1408, September</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Lengthy excerpt of
+				<title linktype="simple" render="italic">Nat Turner.</title></p>
+          </scopecontent>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <container type="box">4</container>
+          <unittitle>
+            <title linktype="simple" render="italic">In the Clap
+				  Shack</title>
+          </unittitle>
+        </did>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">In the Clap
+					 Shack,</title>(uncorrected proof)
+				  <corpname>Random House,</corpname><unitdate calendar="gregorian" era="ce" normal="1973" type="inclusive">1973</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">In the Clap
+					 Shack,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1973" type="inclusive">1973</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition, signed.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">In the Clap
+					 Shack,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1973" type="inclusive">1973</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">In the Clap Shack and
+					 The Long March,</title>
+              <corpname>Plume,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <unittitle>
+            <title linktype="simple" render="italic">Sophie's
+				  Choice</title>
+          </unittitle>
+        </did>
+        <scopecontent>
+          <p>First editions, translations, and other
+				editions of Styron's novel. Also includes published
+				excerpts and related materials.</p>
+        </scopecontent>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Sophie's
+					 Choice,</title>
+              <corpname>Franklin Library,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Brown leather.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Sophie's
+					 Choice,</title> (uncorrected proof),
+				  <corpname>Random House,</corpname><unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Sophie's
+					 Choice,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Advance presentation edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Sophie's
+					 Choice,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Slipcased, signed limited edition, #490 of
+				  500.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Sophie's
+					 Choice,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st trade edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Sophie's
+					 Choice,</title> (Uncorrected proof),
+				  <corpname>Jonathan Cape,</corpname><unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Sophie's
+					 Choice,</title>
+              <corpname>Jonathan Cape,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st British edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Le Choix de
+					 Sophie,</title>
+              <corpname>Gallimard,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Sophie's
+					 Choice,</title>
+              <corpname>Vintage International,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Sophie's
+					 Choice,</title>
+              <corpname>Picador,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">La Proie des Flammes /
+					 Le Choix de Sophie,</title>
+              <corpname>Gallimard Biblos,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Le Choix de
+					 Sophie,</title>
+              <corpname>Gallimard,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1989/1990" type="inclusive">1989-90</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Two volumes.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Sofien
+					 Valinta,</title>
+              <corpname>Kunstannusokeyhtio
+					 Otavo,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st Finnish Edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Sophie's Val,</title>
+              <corpname>Whalstrom and
+					 Widstrand,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Sophie's
+					 Choice,</title>
+              <corpname>Corgi,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">La Decision de
+					 Sophie,</title>
+              <corpname>Grijalbo, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">ca. 1984</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <container type="box">5</container>
+            <unittitle><title linktype="simple" render="italic">Sophia,</title> Vol. I
+				  and II,
+				  <corpname>Edicao, </corpname><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Portuguese edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Writers on World War
+					 II: An Anthology,</title> edited by
+				  <persname>Mordecai Richler, </persname><corpname>Knopf,</corpname><unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">On Writers and
+					 Writing,</title> by
+				  <persname>John Gardner, </persname><corpname>Addison Wesley,</corpname><unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Contains review of
+				<title linktype="simple" render="italic">Sophie's
+				  Choice.</title></p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Sewanee
+					 Review,</title> Vol. CV, No. 3, Summer
+				  <unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Essay on the making of the movie "Sophie's
+				  Choice."</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Archive,</title>
+				  Vol. 89, No. 2, Spring
+				  <unitdate calendar="gregorian" era="ce" normal="1977" type="inclusive">1977</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Excerpt from
+				<title linktype="simple" render="italic">Sophie's
+				  Choice.</title></p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Girlfriends: 146
+					 Literary Heroines,</title><corpname>Lakin and Marley Rare Books,
+					 </corpname>Catalogue Four,
+				  <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <unittitle>
+            <title linktype="simple" render="italic">This Quiet Dust and
+				  Other Writings</title>
+          </unittitle>
+        </did>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">This Quiet
+					 Dust,</title> Random House,
+				  <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>(2 copies)</unittitle>
+          </did>
+          <scopecontent>
+            <p>Bound copy of essay used in promotion of
+				<title linktype="simple" render="italic">Confessions of Nat
+				  Turner.</title></p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">This Quiet Dust and
+					 Other Writings,</title> (uncorrected proof),
+				  <corpname>Random House,</corpname><unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">This Quiet Dust and
+					 Other Writings,</title>
+              <corpname> Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition, # 73 of 250, signed,
+				  slipcased.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">This Quiet Dust and
+					 Other Writings,</title><corpname>Random House,</corpname><unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982</unitdate>(2 copies)</unittitle>
+          </did>
+          <scopecontent>
+            <p>1st trade edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">This Quiet Dust and
+					 Other Writings,</title>
+              <corpname>Jonathan Cape,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st British edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">This Quiet Dust and
+					 Other Writings,</title>
+              <corpname>Vintage International,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Cette Paisible
+					 Poussiere et Autre Ecrits,</title>
+              <corpname>Gallimard,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">1985</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st French edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The South Today: 100
+					 Years After Appomattox,</title> edited by
+				  <persname>Willie Morris, </persname><corpname>Harper and Row,</corpname><unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Writers and
+					 Issues,</title> edited by
+				  <persname>Theodore Solotaroff, </persname><corpname>Signet,</corpname><unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Voices in Black and
+					 White: Writings on Race in America from Harper's
+					 Magazine</title>, edited by
+				  <persname>Katharine Whitmore, </persname><corpname>Franklin Square Press,</corpname><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Voices in Black and
+					 White: Writings on Race in America from Harper's
+					 Magazine,</title> edited by
+				  <persname>Katharine Whitmore, </persname><corpname>Franklin Square Press,</corpname><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st paperback edition.</p>
+          </scopecontent>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <unittitle>
+            <title linktype="simple" render="italic">Darkness
+				  Visible</title>
+          </unittitle>
+        </did>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Darkness
+					 Visible,</title>(uncorrected proof),
+				  <corpname>Random House,</corpname><unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>(2 copies)</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Darkness
+					 Visible,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Darkness
+					 Visible,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st large print edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Frost and Fire: 50
+					 Depressive and Manic Depressive Writers of Genius...A
+					 Celebration,</title> Catalogue Three,
+				  <corpname>Lakin and Marley Rare Books,
+					 </corpname>Spring
+				  <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <unittitle>
+            <title linktype="simple" render="italic">A Tidewater
+				  Morning</title>
+          </unittitle>
+        </did>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">A Tidewater
+					 Morning</title>,
+				  <corpname>Eurographica,</corpname><unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>#304 of 350 copies signed.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">A Tidewater
+					 Morning,</title> (uncorrected proof),
+				  <corpname>Random House,</corpname><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>(2 copies)</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">A Tidewater
+					 Morning,</title>
+              <corpname>Random House,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition, signed, #47 of 200
+				  slipcased.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">A Tidewater
+					 Morning,</title>
+              <corpname>Vintage International,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">A Tidewater
+					 Morning,</title>
+              <corpname>Picador,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <unittitle>Limited Editions</unittitle>
+        </did>
+        <scopecontent>
+          <p>Chiefly fine press editions of Styron's
+				writings. Some trade editions of collected works are also
+				included. See also Box 15 (oversize).</p>
+        </scopecontent>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Best American
+					 Short Stories 1979,</title> edited by
+				  <persname>Joyce Carol Oates, </persname><corpname>Houghton Mifflin,</corpname><unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Includes "Shadrach."</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Shadrach,</title>
+              <corpname>Sylvester and
+					 Orphanos,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Great Esquire Fiction:
+					 The Finest Stories from the 1st Fifty Years,</title> edited
+				  by
+				  <persname>L. Rust Hills, </persname><corpname>Penguin,</corpname><unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Paris Review
+					 Anthology,</title> edited by
+				  <persname>George Plimpton, </persname><corpname>Norton,</corpname><unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <container type="box">6</container>
+            <unittitle>
+              <title linktype="simple" render="italic">Christchurch,</title>
+              <corpname>Briar Patch Press,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1977" type="inclusive">1977</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Admiral Robert Penn
+					 Warren and The Snows of Winter,</title>
+              <corpname>Palaemon Press,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Galley proofs, signed by Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Admiral Robert Penn
+					 Warren and the Snows of Winter,</title>
+              <corpname>Palaemon Press,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition, letter 'R" of 26 lettered
+				  copies.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Admiral Robert Penn
+					 Warren and the Snows of Winter,</title>
+              <corpname>Palaemon Press,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>2nd edition, letter 'B' of 26 lettered
+				  copies.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Admiral Robert Penn
+					 Warren and the Snows of Winter,</title>
+              <corpname> Palaemon Press,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>2nd edition, number viii of 50 roman numeral
+				  copies.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Admiral Robert Penn
+					 Warren and the Snows of Winter,</title>
+              <corpname> Palaemon Press,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>2nd edition, number 39 of 100.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Admiral Robert Penn
+					 Warren and the Snows of Winter,</title>
+              <corpname>Palaemon Press,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>2nd edition, #53 of 100.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Great Fiction from
+					 Esquire Fortnightly,</title>
+              <corpname>Esquire,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Message from
+					 Auschwitz,</title><corpname>Press de al War</corpname>r,
+				  <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Letter 'O' of 26 lettered.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Message from
+					 Auschwitz,</title>
+              <corpname>Press de al Warr,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>#84 of 200 copies. </p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">An Address at the
+					 204th Commencement of Hampden-Sydney College, May 23,
+					 1980,</title>
+              <corpname>Hampden-Sydney College,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>#50 of 1000 copies.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Against Fear,</title>
+              <corpname> Palaemon Press,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">As He Lay Dead, A
+					 Bitter Grief,</title>
+              <corpname>Albondocani Press,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Letter 'Z' of 26 copies.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">As He Lay Dead, A
+					 Bitter Grief,</title>
+              <corpname>Albondocani Press,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>#237 of 300 copies.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Mr. Jefferson and Our
+					 Times,</title>
+              <corpname>Stuart Wright,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Signed, edition limited to 75 copies.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Letter to the Editor
+					 of the Paris Review,</title>
+              <corpname>Press de la Warr,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Letter 'L' of 26 copies.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Letter to the Editor
+					 of the Paris Review,</title>
+              <corpname>Press de la Warr,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>#16 of 26 copies.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Historic Houses:
+					 Thomas Wolfe Remembered,</title>
+              <corpname>Thomas Wolfe Memorial Historical
+					 Site,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Blankenship,</title>
+              <corpname>Press de la Warr,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>#2 of 100 copies.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Blankenship,</title>
+              <corpname>Press de la Warr,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>#14 of 100 copies.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">A Chance in a
+					 Million,</title><corpname>Press de al Warr,</corpname><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>(3 copies)</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Grateful Words About
+					 F. Scott Fitzgerald,</title>
+              <corpname>F. Scott Fitzgerald
+					 Society,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <container type="box">7</container>
+          <unittitle>Books and Periodicals Containing
+				Materials By Styron</unittitle>
+        </did>
+        <scopecontent>
+          <p>Published works containing writings by Styron,
+				chiefly short nonfiction pieces, interviews, forwards and
+				introductions, and cover "blurbs." For additional
+				periodicals see also Clippings, Box 13 (oversize)</p>
+        </scopecontent>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Writers
+					 Dreaming,</title> edited by
+				  <persname>Naomi Epel,</persname><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Stop Time,</title> by
+				  <persname>Frank Conroy,</persname><unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Blurb by Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Human Experience:
+					 Contemporary American and Soviet Fiction and Poetry</title>
+				  (proof),
+				  <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Forward by Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Conversations with
+					 William Styron,</title> edited by
+				  <persname>James L. W. West III,</persname><unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">1985</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Cloth edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Conversations with
+					 William Styron,</title> edited by
+				  <persname>James L. W. West III,</persname><unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">1985</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Paperback.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Arthur Miller and
+					 Company,</title> edited by
+				  <persname>Christopher Bigsby,</persname><unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Self-Portrait: Book
+					 People Picture Themselves,</title> edited by
+				  <persname>Burt Britton,</persname><unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">To Reach Eternity: The
+					 Letters of James Jones,</title> edited by
+				  <persname>George Hendrick,</persname><unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">At Random: The
+					 Reminiscences of Bennett Cerf,</title> by
+				  <persname>Bennett Cerf,</persname><unitdate calendar="gregorian" era="ce" normal="1977" type="inclusive">1977</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Doing Justice: A Trial
+					 Judge at Work,</title> by
+				  <persname> Robert Satter,</persname><unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Introduction by Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Authors Take Sides on
+					 Vietnam,</title> edited by
+				  <persname>Cecil Woolf,</persname><unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Selections from the
+					 First Two Issues of the New York Review of Books,
+					 Winter/Spring 1963,</title> edited by
+				  <persname>Robert B. Silvers,</persname><unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Proceedings of the
+					 American Academy and Institute of Arts and Letters,</title>
+				  Second Series, No. 41,
+				  <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Proceedings of the
+					 American Academy and Institute of Arts and Letters,</title>
+				  Second Series, No. 26,
+				  <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Proceedings of the
+					 American Academy and Institute of Arts and Letters,</title>
+				  Second Series, No. 21,
+				  <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Rushdie
+					 Letters,</title> edited by
+				  <persname>Steve McDonogh,</persname><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">One and Twenty: Duke
+					 Narrative and Verse, 924-1945,</title> edited by
+				  <persname>William Blackburn,</persname><unitdate calendar="gregorian" era="ce" normal="1945" type="inclusive">1945</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition, signed by Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">One and Twenty: Duke
+					 Narrative and Verse, 1924-1945,</title> edited by
+				  <persname>William Blackburn,</persname><unitdate calendar="gregorian" era="ce" normal="1945" type="inclusive">1945</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Under Twenty-Five:
+					 Duke Narrative and Verse, 1945-1962,</title> edited by
+				  <persname>William Blackburn,</persname><unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Big Love,</title>
+				  by
+				  <persname>Florence Aadland,</persname><unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Blurb and introduction by Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Fighting Words:
+					 Writers Lambast other Writers,</title> edited by
+				  <persname> James Charlton,</persname><unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Writers at Work, the
+					 Paris Review Interviews,</title> edited by
+				  <persname>Malcolm Cowley,</persname><unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Writers at Work, the
+					 Paris Review Interviews,</title> edited by
+				  <persname>Malcolm Cowley,</persname><unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>1st paperback edition.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">American
+					 Vanguard,1950,</title> edited by
+				  <persname>Charles Glicksberg,</persname><unitdate calendar="gregorian" era="ce" normal="1950" type="inclusive">1950</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Best Short Stories
+					 from the Paris Review,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Introduction by William Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <container type="box">8</container>
+            <unittitle><title linktype="simple" render="italic">Writers at Work, the
+					 Paris Review Interviews: Ninth Series</title> (uncorrected
+				  proof), edited by
+				  <persname>George Plimpton,</persname><unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Introduction by Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Writers at Work, the
+					 Paris Review Interviews: Ninth Series,</title> edited by
+				  <persname>George Plimpton,</persname><unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Introduction by Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Morning and The
+					 Evening,</title> by
+				  <persname>Joan Williams,</persname><unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Blurb by Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Peter Mathiessen: A
+					 Bibliography,</title> by
+				  <persname>D. Nicholas,</persname><unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Human Experience:
+					 Contemporary American and Soviet Fiction and
+					 Poetry,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Forward by Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">To Reach Eternity: The
+					 Letters of James Jones,</title> edited by
+				  <persname>George Hendrick,</persname><unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Double
+					 Exposure,</title> by
+				  <persname>Roddy McDowal</persname>l,
+				  <unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">On the
+					 Vineyard,</title> by
+				  <persname>Peter Simon,</persname><unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Artist's and
+					 Writer's Cookbook,</title> edited by
+				  <persname>Beryl Barr,</persname><unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">In the Kennedy
+					 Style,</title> by
+				  <persname>Letticia Baldrige,</persname><unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">First Words: Earliest
+					 Writing from Favorite Contemporary Authors,</title> edited
+				  by
+				  <persname>Paul Mandelbaum,</persname><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Workshop: A
+					 Spontaneous Approach to Literature,</title> by
+				  <persname> Robert Crotty,</persname><unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Means of
+					 Escape,</title> by
+				  <persname>Philip Caputo,</persname><unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">William Styron: A
+					 Descriptive Bibliography,</title> by
+				  <persname>James L.W. West III,</persname><unitdate calendar="gregorian" era="ce" normal="1977" type="inclusive">1977</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">In Solitude and In
+					 Company: The Writings of William Styron,</title> by
+				  <persname>James L.W. West III </persname>and
+				  <persname>Robert Byrd,</persname><unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Paris
+					 Review,</title> 106,
+				  <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988,</unitdate>Spring.</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Law and Disorder: The
+					 Chicago Convention and Its Aftermath,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">ca. 1968</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Essay by Styron.</p>
+          </scopecontent>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <unittitle>Books and Periodicals Containing
+				Materials about Styron</unittitle>
+        </did>
+        <scopecontent>
+          <p>Published interviews, short biographical
+				profiles, analysis, and photographs. Also includes two
+				works by Styron's wife, the poet Rose Burgunder Styron.</p>
+        </scopecontent>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Parting the
+					 Curtains,</title> by
+				  <persname>Dannye Romine Powell,</persname><unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Absurd Hero in
+					 American Fiction,</title> by
+				  <persname>David Galliway,</persname><unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Achievement of
+					 William Styron,</title> edited by
+				  <persname>Robert K. Morris,</persname><unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Novels of William
+					 Styron: From Harmony to History,</title> by
+				  <persname>Gavin Cologne-Brookes,</persname><unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Writer's Image:
+					 Literary Portraits,</title> by
+				  <persname>Jill Krementz,</persname><unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Images of the Southern
+					 Writer,</title> by
+				  <persname>Mark Morrow,</persname><unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">1985</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <container type="box">9</container>
+            <unittitle><title linktype="simple" render="italic">From Summer to
+					 Summer,</title> by
+				  <persname>Rose Burgunder Styron,</persname><unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Thieves
+					 Afternoon,</title> by
+				  <persname>Rose Burgunder Styron,</persname><unitdate calendar="gregorian" era="ce" normal="1973" type="inclusive">1973</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Southern
+					 Writers,</title> by
+				  <persname>William Starr,</persname><unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">A Likely Story: One
+					 Summer with Lillian Hellman,</title> (proof), by
+				  <persname>Rosemary Mahoney,</persname><unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Conversations with
+					 Arthur Miller,</title> edited by
+				  <persname>Matthew C. Roudane,</persname><unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">New York Days,</title>
+				  by
+				  <persname>Willie Morris,</persname><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Continual Pilgrimage:
+					 American Writers in Paris,</title><unitdate calendar="gregorian" era="ce" normal="1944/1960" type="inclusive">1944-1960,</unitdate>by
+				  <persname>Christopher
+					 Sawyer-Laucanno,</persname><unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Arthur Miller and
+					 Company,</title> edited by
+				  <persname>Christopher Bigsby,</persname><unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The American Literary
+					 Anthology,</title> edited by
+				  <persname>William Styron,</persname><unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Writer's
+					 World,</title> edited by
+				  <persname>Elizabeth Janeway,</persname><unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">A Writer's
+					 Capital,</title> by
+				  <persname>Louis Auchincloss,</persname><unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">1974</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">William
+					 Styron,</title> by
+				  <persname>Richard Pearce,</persname><unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate>(2
+				  copies)</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Writers
+					 Desk,</title> by
+				  <persname>Jill Krementz,</persname><unitdate calendar="gregorian" era="ce" normal="1996" type="inclusive">1996</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Writers Workshop:
+					 Study Guide,</title> edited by
+				  <persname>Beth Littlejohn,</persname><unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Old
+					 Gringo,</title> by
+				  <persname>Carlos Fuentes,</persname><unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Dedicated to Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The NPR Interviews,
+					 1995,</title> edited by
+				  <persname>Robert Siegel,</persname><unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Interview with Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Ploughshares,</title>
+				  Vol.1, No.3,
+				  <unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">1972</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Interview with Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">How They Met,</title>
+				  edited by
+				  <persname>Nancy Cobb,</persname><unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Savage
+					 Grace,</title>(uncorrected proof) by
+				  <persname>Natalie Robins </persname>and
+				  <persname>Steven M. L. Aronson,</persname><unitdate calendar="gregorian" era="ce" normal="1985" type="inclusive">1985</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Poet at the
+					 Piano,</title> by
+				  <persname>Michiko Kakutani,</persname><unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Terrains of the
+					 Heart,</title> by
+				  <persname>Willie Morris,</persname><unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Writers,</title>
+				  photographs by
+				  <persname>Sally Soames,</persname><unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Root of All
+					 Evil,</title> by
+				  <persname>John Kenny Crane,</persname><unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Words and
+					 Faces,</title> by
+				  <persname>Hiram Haydn,</persname><unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">1974</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <container type="box">10</container>
+          <unittitle>Clippings and Periodicals Containing
+				Materials by Styron</unittitle>
+        </did>
+        <scopecontent>
+          <p>Chiefly published excerpts of novels, arranged
+				by novel in chronological order, and short non-fiction
+				pieces by and about Styron. See also Box 13 (oversize).</p>
+        </scopecontent>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Set This House on
+					 Fire</title>
+            </unittitle>
+          </did>
+          <c04>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Paris
+						Review,</title> 22, Autumn-Winter,
+					 <unitdate calendar="gregorian" era="ce" normal="1959/1960" type="inclusive">1959-60</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Confession of Nat
+					 Turner</title>
+            </unittitle>
+          </did>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">The Nation,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967, Oct. 16</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Harper's
+						Magazine,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967, Sept.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Time,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967, Oct. 13</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">The Hollins
+						Critique,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>"Reflections on Nat Turner,"
+					 <persname>James T. Cleland,</persname><unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Long
+					 March</title>
+            </unittitle>
+          </did>
+          <c04>
+            <did>
+              <unittitle>Miscellaneous clippings
+					 </unittitle>
+              <physdesc>
+                <extent>(1
+					 folder)</extent>
+              </physdesc>
+            </did>
+          </c04>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Sophie's
+					 Choice</title>
+            </unittitle>
+          </did>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Esquire,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976, Sept.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Esquire,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976, Apr.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Newsweek,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979, May 20</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Moviegoer,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983 Jan.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Darkness
+					 Visible</title>
+            </unittitle>
+          </did>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Vanity Fair,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Duke
+						Magazine,</title><unitdate calendar="gregorian" era="ce" normal="1990/1991" type="inclusive">1990-1991,</unitdate>Dec.-Jan.</unittitle>
+            </did>
+          </c04>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Tidewater
+					 Morning</title>
+            </unittitle>
+          </did>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Esquire,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987, Aug.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle><corpname>Lord John Press
+						</corpname>Catalog,
+					 <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Dear Reader,</title>
+                <corpname>Square Books, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993, Sept.-Oct.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>Miscellaneous Writings by
+				  Styron</unittitle>
+          </did>
+          <c04>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The New
+						Republic,</title><unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959, Apr.</unitdate>6</unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Harper's
+						Magazine,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968, Apr.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Esquire,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Duke: To Cross a
+						Threshold,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Archive,</title><unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987,</unitdate>Spring</unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Esquire,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989, Apr.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">The Nation,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993, Jan. 4-11</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <container type="box">11</container>
+              <unittitle><title linktype="simple" render="italic">At Random,</title><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993,</unitdate>Fall</unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle><title linktype="simple" render="italic">At Random,</title><unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997,</unitdate>Spring</unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">The New
+						Yorker,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998, Aug. 17</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>Miscellaneous Writings about
+				  Styron</unittitle>
+          </did>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">New York,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980, Oct. 20</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Duke
+						Magazine,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984, July-Aug.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Duke
+						Magazine,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984, Sept.-Oct.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Esquire,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">The
+						Davidsonian,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986, Apr. 25</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Duke
+						Magazine,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990, Apr.-May</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Duke
+						Magazine,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">1992, Mar.-Apr.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Glimmer
+						Train,</title><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993,</unitdate>Winter</unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Dear Reader,</title>
+					 Square Books,
+					 <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993, Mar.-Apr.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>"Oxford Conference for the Book,"
+					 <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Southern
+						Register,</title><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993,</unitdate>Spring</unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Davidson
+						Journal,</title><unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994,</unitdate>Summer</unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Duke
+						Magazine,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995, Jan.-Feb.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Firsts,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1995" type="inclusive">1995, Feb.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Davidson
+						Journal,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1996" type="inclusive">1996, Winter</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>"A Conversation with William
+					 Styron," and "A Conversation with James West,"
+					 <unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>Printed from the internet in
+					 <unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997.</unitdate>
+                     </p>
+            </scopecontent>
+          </c04>
+          <c04>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Duke
+						Magazine,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997, July-Aug.</unitdate>
+                     </unittitle>
+            </did>
+          </c04>
+          <c04>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Southern
+						Register,</title><unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997,</unitdate>Summer</unittitle>
+            </did>
+          </c04>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <unittitle>Miscellaneous Manuscript Pages,
+				Correspondence, and Ephemera</unittitle>
+        </did>
+        <c03>
+          <did>
+            <unittitle>Two typed excerpts from
+				  <title linktype="simple" render="italic">The Confessions of Nat
+					 Turner,</title> signed by Styron,
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>Typed excerpt from
+				  <title linktype="simple" render="italic">Lie Down in
+					 Darkness,</title> signed by Styron,
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>Typed excerpt from
+				  <title linktype="simple" render="italic">This Quiet
+					 Dust,</title> signed by Styron,
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>Photograph of Styron, by Nancy
+				  Crampton; signed by Styron.</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>Correspondence with
+				  <persname>Vearl Moody </persname></unittitle>
+            <physdesc>
+              <extent>(3
+				  letters)</extent>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>One autographed postcard,
+				  <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979, May 30;</unitdate>Two autographed letters,
+				  <unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982, Nov. 3</unitdate>and
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>Correspondence with
+				  <persname>Stuart Wright, </persname><unitdate calendar="gregorian" era="ce" normal="1977/1984" type="inclusive">1977-1984</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(39
+				  letters)</extent>
+            </physdesc>
+          </did>
+          <scopecontent>
+            <p>Chiefly letters from Styron to Wright.
+				  Wright owned
+				  <corpname>Palaemon Press </corpname>in
+				  <geogname>Winston-Salem, </geogname>N.C. and
+				  published many limited editions of Styron's work. In some
+				  correspondence, Styron addresses Wright as Lt. Col. Stuart
+				  Wright and signs himself as Maj. Gen. William Styron,
+				  CSA.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>Miscellaneous Promotional Materials
+				  </unittitle>
+            <physdesc>
+              <extent>(1
+				  folder)</extent>
+            </physdesc>
+          </did>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <container type="box">12</container>
+          <unittitle>Audio and Video Recordings</unittitle>
+        </did>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">William Styron reading
+					 from 'Lie Down in Darkness,'</title>
+              <corpname>Caliope,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>33 1/3 rpm long playing 7" vinyl record.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">William Styron Reads
+					 His Works,</title>
+              <corpname>Jeffrey Norton Audio
+					 Forum,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Styron reads from
+				<title linktype="simple" render="italic">Nat Turner</title> and
+				<title linktype="simple" render="italic">The Long
+				  March.</title></p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>Writers Workshop,
+				  <corpname>Center for the Study of Southern
+					 Culture,</corpname><unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>VHS recording of Styron speaking to
+				  <persname>James Dickey's
+					 </persname>class.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>William Styron reading from
+				  <title linktype="simple" render="italic">Sophie's
+					 Choice,</title><unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Audio cassette of Styron reading at
+				  <corpname>Davidson College.</corpname></p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Darkness Visible: A
+					 Memoir of Madness,</title>
+              <corpname>Random House Sound
+					 Editions,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>2 audio cassettes, read by Styron.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>Conversation of William Styron,
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Home-recorded Beta cassette of a public
+				  television broadcast.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Lincoln Center Chamber
+					 Music,</title>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Home-recorded Beta cassette of a public
+				  television broadcast. Styron and
+				  <persname>Arthur Miller </persname>discuss
+				  music in their lives and work.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">William Styron, An
+					 American Masterpiece,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Home-recorded cassette of a 1-hour
+				  documentary. 2 copies - one Beta, one VHS.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Sophie's Choice," directed by
+				  <persname>Alan J. Pakula,</persname><unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Home-recorded Beta video cassette.</p>
+          </scopecontent>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">Sophie's
+					 Choice,</title> read by Norman Snow,
+				  <geogname>Random House Audiobooks,</geogname><unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>2 sets of 2 cassettes each.</p>
+          </scopecontent>
+        </c03>
+
+	<c03><did><unittitle><title render="italic" linktype="simple">Naked in New York</title>, 1994</unittitle></did>
+		<scopecontent>
+		<p>Styron has a cameo appearance.</p>
+		</scopecontent>
+		
+	</c03>
+	
+	
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <container type="box">13</container>
+          <unittitle>Clippings and Periodicals</unittitle>
+        </did>
+        <scopecontent>
+          <p>Clippings and oversize periodicals,
+				<unitdate calendar="gregorian" era="ce" normal="1951/1998" type="inclusive">1951-1998,</unitdate>and
+				<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>Chiefly reviews and profiles of Styron. Includes
+				some short non-fiction pieces by Styron. Listed
+				chronologically.</p>
+        </scopecontent>
+        <c03>
+          <did>
+            <unittitle>"William Styron,"
+				  <title linktype="simple" render="italic">New York Herald
+					 Tribune,</title><unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951, Sept.</unitdate>9,</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"A Rich, Moving Novel Introduces a
+				  Young Writer of Great Talent," by
+				  <persname>Howard Mumford Jones, </persname><title linktype="simple" render="italic">New York Herald
+					 Tribune,</title><unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951, Sept.</unitdate>9</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Talk With William Styron," by
+				  <persname>David Dempsey, </persname><title linktype="simple" render="italic">New York Times Book
+					 Review,</title><unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951, Sept.</unitdate>9</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"In a Place Where Live is a
+				  Stranger" by
+				  <persname>John W. Aldridge, </persname><title linktype="simple" render="italic">New York
+					 Times,</title><unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951, Sept.</unitdate>9</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Prose of Promise," by
+				  <persname>Harrison Smith, </persname><title linktype="simple" render="italic">Saturday
+					 Review,</title><unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952,</unitdate>Feb 16</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Mrs. Aadland's little girl,
+				  Beverly," by
+				  <persname>William Styron, </persname><title linktype="simple" render="italic">Esquire,</title><unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961, Nov.</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Editorial: Faulkner's Legacy:
+				  'Honor, Pity, Pride,'"
+				  <title linktype="simple" render="italic">Life Magazine,</title><unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962, July 20</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Catch $95,"
+				  <title linktype="simple" render="italic">Newsweek,</title><unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964, March</unitdate>9.</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Slave's Own Story of Virginia
+				  Revolt," by
+				  <persname>T.R. Gray, </persname><title linktype="simple" render="italic">The Washington
+					 Post,</title><unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967, Oct. 15</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"The Slave Who Became a Man," by
+				  <persname>Wilfred Sheed, </persname><title linktype="simple" render="italic">New York Times Book
+					 Review,</title><unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967, Oct.</unitdate>8</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"What People are Reading,"
+				  <title linktype="simple" render="italic">Book World,</title><unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967, Oct. 29</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Nat Turner's Confession," by T.R.
+				  Gray,
+				  <title linktype="simple" render="italic">New York Post,</title><unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967, Oct. 28</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"The Literary Attacks on Styron's
+				  Nat Turner,"
+				  <title linktype="simple" render="italic">The [Washington]
+					 Sunday Star,</title><unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968, Sept.</unitdate>1</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"In the Jungle," by
+				  <persname>William Styron, </persname><title linktype="simple" render="italic">The New York Review of
+					 Books,</title><unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968, Sept. 26</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"William Styron: Portrait of a Man
+				  Reading," interviewed by
+				  <persname>Charles Monaghan, </persname><title linktype="simple" render="italic">The Washington Post
+					 Book World,</title><unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968, Oct. 27</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"
+				  <persname>Truman Capote </persname>lists the
+				  books he will give his friends for Christmas,"
+				  <title linktype="simple" render="italic">The Washington Post
+					 Book World,</title><unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968, Dec.</unitdate>1</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Italian Poets Gets $10,000 prize;
+				  Styron is Cited for Nat Turner,"
+				  <title linktype="simple" render="italic">The New York
+					 Times,</title><unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970, Mar. 10</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Introduction," by William Styron,
+				  <title linktype="simple" render="italic">Taproot,</title><unitdate calendar="gregorian" era="ce" normal="1978/1979" type="inclusive">1978-1979,</unitdate>Winter</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Sophie's Choice: A Novel of Evil,"
+				  by
+				  <persname>John Gardner, </persname><title linktype="simple" render="italic">New York Times Book
+					 Review,</title><unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979, May 27</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Bestsellers"
+				  <title linktype="simple" render="italic">New York Times Book
+					 Review,</title><unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979, July 22</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Moujik 'n' Pulp Sandwich," by
+				  <persname>Lec Navarozov, </persname><title linktype="simple" render="italic">Chronicles of
+					 Culture,</title><unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979, Nov.-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Updike, Styron, and Chrichton
+				  Celebrate
+				  <geogname>Martha's Vineyard,</geogname>"
+				  <title linktype="simple" render="italic">The New York Times
+					 Magazine,</title><unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980, June 15</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Works in Progress,"
+				  <title linktype="simple" render="italic">New York Times Book
+					 Review,</title><unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982, June</unitdate>6</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Interview with William Styron," by
+				  <persname>Michiko Kakutani, </persname><title linktype="simple" render="italic">The New York Times
+					 Book Review,</title><unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982, Dec. 12</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Newsmakers,"
+				  <title linktype="simple" render="italic">Newsweek,</title><unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983, Feb. 18</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">New York Times Books
+					 Review,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983, Nov. 27</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Duke Annual Fund
+					 Report,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1986/1987" type="inclusive">1986-1987</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Historians take another look at the
+				  confessions of Nat Turner," by
+				  <persname>Debbie Selinsky, </persname><title linktype="simple" render="italic">The Duke
+					 Dialog,</title><unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987, May 29</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"In the Hours Before Hiroshima," by
+				  William Styron,
+				  <title linktype="simple" render="italic">The Archive,</title><unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987,</unitdate>Spring</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Nat Turner Revisited," by
+				  <persname>Dixie B. O'Conner, </persname><title linktype="simple" render="italic">Leader
+					 Magazine,</title><unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987, June</unitdate>4</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Arts and letters academy picks 3,"
+				  <title linktype="simple" render="italic">The [Memphis]
+					 Commercial Appeal,</title><unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987, Dec.</unitdate>7</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Duke Prof 'Imposes Order' On Work
+				  of William Styron," by
+				  <persname>Betty Hodges, </persname><title linktype="simple" render="italic">The Durham Morning
+					 Herald</title>,
+				  <unitdate calendar="gregorian" era="ce" normal="1988" type="inclusive">1988, Jan. 17</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"World Statement in Support of
+				  <persname>Salman Rushdie,</persname>"
+				  <title linktype="simple" render="italic">New York Review of
+					 Books,</title><unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989, April 13</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"How the death of Faulkner came to
+				  Life," by
+				  <persname>William Thomas, </persname><title linktype="simple" render="italic">The [Memphis]
+					 Commercial Appeal,</title><unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989, Aug.</unitdate>5</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Styron gift will launch NCSU fund,"
+
+				  <unitdate calendar="gregorian" era="ce" normal="1989" type="inclusive">1989</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Darkness Visible: 'A Howling
+				  Tempest in the Brain'" by
+				  <persname>Victoria Glendinning, </persname><title linktype="simple" render="italic">The New York Times
+					 Book Review,</title><unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990, Aug. 19</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"On William Blackburn and Creative
+				  Imagination," by
+				  <persname>William Styron, </persname><title linktype="simple" render="italic">The Duke
+					 Dialog,</title><unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991, Sept. 13</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Styron Speaks at Founders' Day,"
+				  <title linktype="simple" render="italic">The Duke
+					 Insider,</title><unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991, Nov.</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Novelist comes home to Duke," by
+				  <persname>David Folkenflik, </persname><title linktype="simple" render="italic">The Durham
+					 Herald-Sun,</title><unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991, Dec.</unitdate>6</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Solid short stories probe a
+				  family," by
+				  <persname>Frederic Koeppel, </persname><title linktype="simple" render="italic">The [Memphis]
+					 Commercial Appeal,</title><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993, Dec. 12</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Historical Fiction and the Facts,"
+				  <title linktype="simple" render="italic">Wilson
+					 Quarterly,</title><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993, Winter</unitdate> (2 copies)</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Disney can only mock slavery's
+				  pain," by William Styron,
+				  <title linktype="simple" render="italic">The [Memphis]
+					 Commercial Appeal,</title><unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994 Aug.</unitdate>7</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Exploring the Links Between
+				  Depression, Writers and Suicide," by
+				  <persname>William Grimes, </persname><title linktype="simple" render="italic">New York
+					 Times,</title><unitdate calendar="gregorian" era="ce" normal="1994" type="inclusive">1994, Nov. 14</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"A Wounded Healer: Review of Touched
+				  With Fire," by
+				  <persname>Marie Arana-Ward, </persname><title linktype="simple" render="italic">Book World,</title><unitdate calendar="gregorian" era="ce" normal="1996" type="inclusive">1996, Aug. 18</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Pulitzer-winning author donates
+				  manuscript, other items to Duke,"
+				  <title linktype="simple" render="italic">The Durham
+					 Herald-Sun,</title><unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997, May 29</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Library acquires Styron papers," by
+
+				  <persname>Noah Bartolucci, </persname><title linktype="simple" render="italic">The Duke
+					 Dialog,</title><unitdate calendar="gregorian" era="ce" normal="1997" type="inclusive">1997, June</unitdate>7</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Styron, Biographer Swap Tales,"
+				  <title linktype="simple" render="italic">The Raleigh News and
+					 Observer,</title><unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998, Mar. 29</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Review: William Styron: A Life," by
+
+				  <persname>Victor Strandberg, </persname><title linktype="simple" render="italic">The Raleigh News and
+					 Observer</title> ,
+				  <unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998, Mar. 29</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"The Confession of William Styron,"
+				  by
+				  <persname>Jason Wagner, </persname><title linktype="simple" render="italic">The Chronicle,</title><unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998, Mar. 30</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Review: William Styron: A Life," by
+
+				  <persname>Michale Pearson, </persname><title linktype="simple" render="italic">The Washington Post
+					 Book World,</title><unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998, May</unitdate>3</unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Film Review: 'Shadrach,'"
+				  <title linktype="simple" render="italic">The Wall Street
+					 Journal,</title><unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998, Sept. 25</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">The Faulkner
+					 Newsletter,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1998" type="inclusive">1998, Oct.-Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Stars Shine in 100th Archive," by
+				  <persname>Jon Hilsenrath, </persname><title linktype="simple" render="italic">The Duke
+					 Chronicle,</title><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"No, No!! Not A Kudo!!!" by
+				  <persname>Russell Baker, </persname><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Legal Scholar, Writer Urge
+				  Rejection of Bork,"
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Novelist Styron Addresses Graduates
+				  of Duke,"
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <container type="box">14</container>
+          <unittitle>
+            <title linktype="simple" render="italic">Confessions of Nat
+				  Turner</title>
+          </unittitle>
+        </did>
+        <c03>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Confessions of Nat
+					 Turner,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Carbon copy, with holograph corrections, of
+				  Styron's original typescript.</p>
+          </scopecontent>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <container type="box">15</container>
+          <unittitle>Limited Editions</unittitle>
+        </did>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Four Seasons:
+					 Essay by William Styron,</title> by
+				  <persname>Harold Altman, </persname><corpname>Pennsylvania State University
+					 Press,</corpname><unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <unittitle>Ephemera</unittitle>
+        </did>
+        <c03>
+          <did>
+            <unittitle>Photograph of William Styron and
+				  <persname>James Jones.</persname></unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>Large gray Hanes cotton T-shirt.
+				  Back reads, "'I still maintain that the times get precisely
+				  the literature that they deserve.' William Styron.
+				  <title linktype="simple" render="italic"> Paris Review,</title><unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953,</unitdate>"
+
+				  <unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle><title linktype="simple" render="italic">The Vanishing South:
+					 the Art of Hubert Shuptrine,</title><unitdate calendar="gregorian" era="ce" normal="1993" type="inclusive">1993</unitdate>Calendar with commentary by William
+				  Styron.</unittitle>
+          </did>
+        </c03>
+      </c02>
+      <c02 level="subseries">
+        <did>
+          <unittitle>Manuscripts </unittitle>
+        </did>
+        <c03>
+          <did>
+            <unittitle>Holograph manuscript page of an
+				  unidentified text, signed by Styron,
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+        <c03>
+          <did>
+            <unittitle>"Southern Fried Chicken," by William
+				  Styron,
+				  <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate>
+                  </unittitle>
+          </did>
+        </c03>
+      </c02>
+</c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Accession 2001-0056</unittitle>
+        </did>
+    
+          <c02>
+            <did> <container type="box">1</container>
+              <unittitle><title linktype="simple" render="italic">Lie Down in
+						Darkness</title>, Bobbs-Merrill,
+					 <unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>Third printing, with long inscription by
+					 Styron to reviewer
+					 <persname>Maxwell Giesmar</persname>;
+					 includes Geismar's holograph comments and marks of
+					 emphasis.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Confessions of
+						Nat Turner</title>, Random House,
+					 <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>First edition;
+					 <persname>Herbert Aptheker</persname>'s
+					 copy, signed by him and including his marks and annotations
+					 throughout.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Conversations with
+						Willie Morris</title>, University Press of Mississippi,
+					 <unitdate calendar="gregorian" era="ce" normal="2000" type="inclusive">2000</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>First edition; contains many mentions of
+					 Styron.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Remembering
+						Willie</title>, University Press of Mississippi,
+					 <unitdate calendar="gregorian" era="ce" normal="2000" type="inclusive">2000</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>First edition; includes Styron's
+				  <title linktype="simple" render="doublequote">It Cannot Be
+					 Long</title>.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Dog Eat Dog</title>,
+					 by
+					 <persname>Edward Bunker</persname>, St.
+					 Martin's Press,
+					 <unitdate calendar="gregorian" era="ce" normal="1996" type="inclusive">1996</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>First edition; introduction by Styron.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="italic">All the Finest
+						Girls</title>, by
+					 <persname>Alexandra Styron</persname>,
+					 Little, Brown,
+					 <unitdate calendar="gregorian" era="ce" normal="2001" type="inclusive">2001</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>First edition; signed by the author.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="italic">All the Finest
+						Girls</title>, by
+					 <persname>Alexandra Styron</persname>,
+					 Little, Brown,
+					 <unitdate calendar="gregorian" era="ce" normal="2001" type="inclusive">2001</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>Uncorrected proof in original green
+					 wrappers.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="italic">But Now I See: The
+						White Southern Racial Conversion Narrative</title>, by
+					 <persname>Fred Hobson</persname>, Louisiana
+					 State University Press,
+					 <unitdate calendar="gregorian" era="ce" normal="1999" type="inclusive">1999</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>Includes several mentions of Styron.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Onward!: 25 Years of
+						Advice, Exhortation, and Inspiration from America's Best
+						Commencement Speeches</title>, Scribner,
+					 <unitdate calendar="gregorian" era="ce" normal="2000" type="inclusive">2000</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>Includes excerpt from Styron's 1981
+					 commencement speech at Duke.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Indian
+						Country</title>, by
+					 <persname>Philip Caputo</persname>, Bantam,
+
+					 <unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>Styron's advance reading copy of the first
+					 edition.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Three Minutes or
+						Less: Life Lessons from America's Greatest Writers</title>,
+					 Bloomsbury,
+					 <unitdate calendar="gregorian" era="ce" normal="2000" type="inclusive">2000</unitdate>
+                     </unittitle>
+            </did>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Unholy Ghost:
+						Writers on Depression</title>, Morrow,
+					 <unitdate calendar="gregorian" era="ce" normal="2001" type="inclusive">2001</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>First edition; includes excerpt from
+					 Styron's
+				  <title linktype="simple" render="italic">Darkness
+					 Visible.</title></p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Dead Run: The Untold
+						Story of Dennis Stockton and America's Only Mass Escape
+						from Death Row</title>, Times Books,
+					 <unitdate calendar="gregorian" era="ce" normal="1999" type="inclusive">1999</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>First edition; introduction by Styron.</p>
+            </scopecontent>
+          </c02>
+    
+
+          <c02>
+            <did><container type="box">2</container>
+              <unittitle><title linktype="simple" render="italic">A Portrait of
+						Southern Writers: Photographs by Curt Richter</title>, Hill
+					 Street Press,
+					 <unitdate calendar="gregorian" era="ce" normal="2000" type="inclusive">2000</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>First edition, signed by the photographer;
+					 includes portrait of Styron.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="doublequote">A Word to the
+						Unwise</title>, Wall Street Journal,
+					 <unitdate calendar="gregorian" era="ce" normal="2000" type="inclusive">May 26, 2000</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>Review by
+					 <persname>Dave Shiflett</persname> of
+				  <title linktype="simple" render="italic">Onward!</title>
+				  book.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle>Printed material concerning
+					 <persname>Edward
+						Bunker</persname></unittitle>
+            </did>
+            <scopecontent>
+              <p/>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle>Printed material including
+					 articles by or about Styron</unittitle>
+            </did>
+            <c03>
+              <did>
+                <unittitle><title linktype="simple" render="italic">American
+						  Heritage</title>,
+						<unitdate calendar="gregorian" era="ce" normal="1992" type="inclusive">October 1992</unitdate> special issue</unittitle>
+              </did>
+            </c03>
+            <c03>
+              <did>
+                <unittitle><title linktype="simple" render="italic">The New
+						  Yorker</title>,
+						<unitdate calendar="gregorian" era="ce" normal="1999" type="inclusive">December 13, 1999</unitdate> issue</unittitle>
+              </did>
+            </c03>
+            <c03>
+              <did>
+                <unittitle><title linktype="simple" render="italic">Oxford
+						  American</title>,
+						<unitdate calendar="gregorian" era="ce" normal="1999" type="inclusive">September/October 1999</unitdate>
+						issue</unittitle>
+              </did>
+            </c03>
+            <c03>
+              <did>
+                <unittitle><title linktype="simple" render="italic">Southern Review of
+						  Literature</title>,
+						<unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">September 15, 1951</unitdate> issue</unittitle>
+              </did>
+            </c03>
+            <c03>
+              <did>
+                <unittitle><title linktype="simple" render="italic">Playboy</title>,
+						Vol. 15, No.12,
+						<unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">December 1968</unitdate>
+                        </unittitle>
+              </did>
+              <scopecontent>
+                <p/>
+              </scopecontent>
+            </c03>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="italic">An Evening with
+						William Styron</title>, program from gala tribute to Styron
+					 held at the Library of Virginia,
+					 <unitdate calendar="gregorian" era="ce" normal="2000" type="inclusive">December 2, 2000</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>Accompanied by articles printed from the
+					 internet about the event.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Admiral Robert Penn
+						Warren and the Snows of Winter, A Tribute</title>, by
+					 William Styron, Palaemon Press,
+					 <unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978?</unitdate>
+                     </unittitle>
+            </did>
+            <scopecontent>
+              <p>Uncorrected proof.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle>Original manuscript review of
+					 <title linktype="simple" render="italic">Sophie's
+						Choice</title>, by
+					 <persname>Julian
+						Symons</persname></unittitle>
+            </did>
+            <scopecontent>
+              <p>Published as
+				  <title linktype="simple" render="doublequote">The Penalties of
+					 Survival</title> in the [London]
+				  <title linktype="simple" render="italic">Times Literary
+					 Supplement</title>,
+				  <unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">November 30, 1979</unitdate>.</p>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle>Original camera-ready publisher's
+					 advertisement for
+					 <title linktype="simple" render="italic">The Confessions of
+						Nat Turner</title></unittitle>
+            </did>
+            <scopecontent>
+              <p/>
+            </scopecontent>
+          </c02>
+          <c02>
+            <did>
+              <unittitle>Original holograph manuscript of
+					 Styron's
+					 <unitdate calendar="gregorian" era="ce" normal="1977" type="inclusive">1977</unitdate>
+					 review of
+					 <title linktype="simple" render="italic">A Rumor of
+						War</title> by Philip Caputo </unittitle>
+            </did>
+            <scopecontent>
+              <p>First published in
+				  <title linktype="simple" render="italic">The New York Review of
+					 Books</title>,
+				  <unitdate calendar="gregorian" era="ce" normal="1977" type="inclusive">23 June 1977</unitdate>.</p>
+            </scopecontent>
+          </c02>
+   
+      </c01>
+<c01 level="series"><did>
+<unittitle id="s1">Accession 2008-0081 </unittitle>
+<physdesc><extent>(1 folder)</extent></physdesc>
+</did>
+<scopecontent>
+<p>One black-and-white signed photograph, and four pages of Styron's writing (two sheets are signed).</p>
+</scopecontent>
+</c01>
+
+
+<c01 level="series"><did>
+<unittitle id="s2">Accession 2008-0325 </unittitle>
+<physdesc><extent>(1 box and 1 folder)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Two items (in one folder) of correspondence that are closed to researchers. Also includes (1 box) a photograph and an undated screenplay, SET THIS HOUSE ON FIRE, that are open to researchers.</p>
+</scopecontent>
+</c01>
+    </dsc>
+  </archdesc>
+</ead>

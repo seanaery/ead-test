@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+   <eadheader audience="internal" findaidstatus="edited-full-draft" langencoding="iso639-2b" relatedencoding="Dublin Core" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//Duke University::Univeristy Archives//TEXT (US::ndd::::Henry J. Oosting papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/uaoosting/">uaoosting</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="title">Initial Guide to the Henry J. Oosting Papers,
+		<date type="span" normal="1919/1968" era="ce" calendar="gregorian">1919-1968
+		</date>
+            </titleproper>
+            <author encodinganalog="creator">Machine-readable finding aid created by: Jill Katte</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>University Archives<lb/>Duke University</publisher>
+            <address>
+
+
+               <addressline>Durham, N.C., U.S.A.</addressline>
+
+
+
+
+
+            </address>
+            <p>
+               <date normal="2002" encodinganalog="date" era="ce" calendar="gregorian"> 2002</date> Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+      <notestmt><note><p>Aleph Number: <num type="aleph">003205742</num></p></note></notestmt></filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+            <date era="ce" calendar="gregorian">Date of source: December 2002</date>
+         </creation>
+         <langusage>Finding aid written in
+		<language encodinganalog="language">English</language>
+         </langusage>
+      </profiledesc><!-- Location of <revisiondesc> if needed> -->
+
+
+
+      <revisiondesc>
+         <change>
+            <date normal="2006" era="ce" calendar="gregorian">05-01-2006</date>
+            <item>PUBLIC "-//Duke University::Univeristy Archives//TEXT (US::ndd::::Henry J. Oosting papers)//EN" uaoosting.xml converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item><item>Also, the top level of the finding aid (above the dsc) was changed to conform to the NC EAD Best Practice Guidelines. Within the dsc, dates for series were normalized.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Initial Guide to the Henry J. Oosting Papers, <date type="span" era="ce" calendar="gregorian">1919-1968</date>
+         </titleproper>
+         <publisher>Duke University<lb/>
+
+         </publisher>
+
+
+         <p>
+            <date normal="2002" era="ce" calendar="gregorian"> 2002</date> Duke University. All Rights Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC">
+      <did>
+         <head>Descriptive Summary</head>
+         <repository label="Repository" encodinganalog="710">
+            <corpname>University Archives, Duke University</corpname>
+         </repository>
+         <origination label="Creator">
+            <persname encodinganalog="100">Oosting, Henry J. (Henry John), 1903-1968.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Henry J. Oosting papers <unitdate normal="1919/1968" type="inclusive" era="ce" calendar="gregorian">1919-1968</unitdate></unittitle>
+
+
+ <langmaterial label="Language of Material" encodinganalog="546">Material in<language langcode="eng"> English</language>
+</langmaterial>
+
+         <physdesc label="Extent">
+            <extent encodinganalog="300">5,000 Items, </extent>
+            <extent>6.7 linear feet</extent>
+         </physdesc>
+         <physloc label="Location">For current information on the location of
+these materials, please consult the Duke University Archives.</physloc>
+
+	<abstract label="Abstract" encodinganalog="520">Correspondence, field notes, writings,photographs and other subject files of Henry J. Oosting, Professor of Botany and Chairman of the Department of Botany at Duke University from 1931 to 1962.  Major subjects include the ecology of virgin forests, vegetation on bare rocks, maritime vegetation in the Southeastern United States, North Carolina vegetation, the 1937 Louise A. Boyd expedition to Greenland with the American Geographical Society, the Victory Garden project in Durham, N.C., the Ecological Society of America, and the serial <title render="italic" linktype="simple">Ecological Monographs</title>. </abstract>
+
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict encodinganalog="506">
+            <head>Access Restrictions</head>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+
+            <p>Stored off-site; 48 hours advance notice is required for use.</p>
+         </accessrestrict>
+         <acqinfo encodinganalog="541">
+            <head>Acquisitions Information</head>
+            <p>Received from Department of Botany, May 26, 1994.  Accession UA2007-0019 was received in June 2007 from former professor Dwight Billings.  The diary was gifted in 1993.
+</p>
+         </acqinfo>
+         <prefercite encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Henry J. Oosting Papers, Duke University Archives, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <userestrict encodinganalog="500">
+            <head>Use Restrictions</head>
+            <p>Copyright for official University records is held by Duke University; all other copyright is retained by the authors of items in these papers, or their descendants, as stipulated by United States copyright law.</p>
+         </userestrict>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Jill Katte, June 2002, Fully processed by KimberlySims, April 2014</p>
+<p>Encoded by Jill Katte, December 2002</p>
+<p>Updated by Sherrie Bowser, June 2007</p>
+<p>Updated by Kim Sims, September 2011, April 2014</p>
+         <p>This finding aid is NCEAD compliant.</p>
+</processinfo>
+      </descgrp>
+      <bioghist encodinganalog="545$a">
+         <head>Biographical Note</head>
+         <p>Henry John Oosting, Professor of Botany and Chairman of the Department of Botany, worked at Duke University from 1931 to 1962.  He was born March 12, 1903 in Holland, Michigan to John H. and Minna Oosting.  He earned an A.B. from Hope College in 1925, an M.S. from Michigan State College in 1927, and a Ph.D. from the University of Minnesota in 1931.  Oosting joined the faculty of the Department of Botany at Duke University in 1931, and later served as Chairman of the Department.  His research interests included the ecology of virgin forests, vegetation on bare rocks, maritime vegetation in the Southeastern United States, and North Carolina vegetation.  In 1937, he served as ecologist for the Louise A. Boyd expedition to Greenland with the American Geographical Society, and he directed the Victory Garden project in Durham, N.C. in 1943.  Oosting actively participated in the Ecological Society of America and edited the serial <emph render="italic">Ecological Monographs</emph>.  Oosting retired from Duke University around 1962; he died on October 30, 1968.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Scope and Content Note</head>
+         <p>The papers include correspondence, field notes, and other research notes of Henry J. Oosting.  The collection is representative of Oosting's research in forest ecology, vegetation on bare rocks, and plants of North Carolina.  The papers also document his participation in the 1937 Louise A. Boyd Expedition to Greenland, his participation in the governance and research of the Highlands Biological Station (Highlands, N.C.), and his participation in the Ecological Society of America.  Much of the correspondence is between Oosting and colleagues at Duke University, including H. L. Blomquist and Lewis R. Anderson; colleagues throughout the United States; and former graduate students.  Other files include family correspondence, as well as reports and correspondence from the Duke University Research Council, 1949-1963.</p>
+<p>In June 2007, accession UA2007-0019 was added to the collection.  This accession includes photographs from the 1937 Louise A. Boyd Expedition to Greenland. Subjects featured are glaciers; Kjerulf Fjord; Tromso, Norway; Jan Mayen Island; Cape Alfred; Clavering Isle; landscape; and native plants. In addition to the individual photos there are also six annotated photo posters. Photos are by Louise A. Boyd. Also included is Oosting's diary. The diary includes his reactions and observations about his travel to Eastern Greenland and return through England during the summer of 1937 on the Louise A. Boyd Expedition.  
+</p>
+<p>Nitrate negatives were removed from the collection and placed in appropriate storage. Nitrate negatives of the Greenland expedition have been scanned but are not currently available electronically.</p>
+      </scopecontent>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         
+<c01 level="series"><did>
+<unittitle id="s1">Correspondence, <unitdate type="inclusive" normal="1919/1968">1919-1968</unitdate></unittitle>
+</did>
+<c02><did><container type="box">1</container><unittitle>A: Miscellaneous, 1959, 1962</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Peter H. Allen, 1956-1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Lewis E. Anderson, 1933-1965</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Nellie Beetham, 1956-1966</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Larry Carroll Bliss, 1953-1967</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>H. L. Blomquist, 1932</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Clair Brown, 1940</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>D. M. Brown, 1953</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>M. Buell, 1961-1967</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>C: Miscellaneous, 1936-1961, 1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>S. A. Cain, 1958</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>W. H. Camp, 1952</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>John Cantlon, 1953, 1965</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>J. E. Coaldrake, 1956-1957</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>E. Lendell Cockrum, 1967</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Charles Cooper, 1957-1967</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>W. S. Cooper, 1931-1966 (2 folders)</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Don Correll, 1935-1957</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>W. L. Culberson, 1952-1962</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>D: Miscellaneous, 1962, 1965, 1966</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>P. Dansereau, 1960</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>John Darling, 1963</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>J. H. Davis, 1953</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Department of the Army, 1967</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>W. B. Drew, 1940-1962</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Duke University, 1932-1961</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>E: Miscellaneous, 1961</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Frank Egler, 1940-1961</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>F: Miscellaneous, 1950, 1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Knut Faegri, 1960-1963</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Hugo Ferchau, 1956-1967</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Edward Flaccus, 1955-1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>R. F. Flint, 1937-1946</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Richard T. Forman, 1959-1966</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>W. H. Freeman and Co., 1946-1968 (2 folders)</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>G: Miscellaneous, 1953-1954, 1960, 1965, 1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Wendell Gauger, 1967</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Ben F. Graham, 1954-1964</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Great Lakes Colleges Association,  1962</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>H: Miscellaneous, 1965, 1967, 1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>R. M. Harper, 1939-1959</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Dexter W. Hess, 1952-1962</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Highlands Biological Station Executive Committee, 1966-1967</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>N. Hotchkiss, 1929-1944</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>R. R. Humphrey, 1932-1954</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Mary Humphreys, 1936-1964</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>I: Miscellaneous, 1960-1961</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>J: Miscellaneous, 1955</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Thomas Johnsen, Jr., 1955-1962 (surname spelled with an "e" and not "o")</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Philip L. Johnson, 1957-1966</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>K: Miscellaneous, 1961-1963, 1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Catherine Keever, 1957-1964</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Charles Kettering, 1964</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Lionel Klikoff, 1959-1967</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>President Douglas Knight, 1965-1966</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Jan Kornas, 1960-1966</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Norman E. Kowal, 1958-1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>L: Miscellaneous, 1953-1961, 1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>George LaRoi, 1958-1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Robert M. Linn, 1951-1967</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>R. B. Livingston, 1940-1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>M: Miscellaneous, 1962, 1966</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Alan F. Mark, 1958-1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>J. W. Marr, 1952-1956</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>James S. Martin, 1961-1962</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>James McCleary, 1960-1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>R. E. McDermott, 1954-1964</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Cal McMillan, 1959</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Rogers McVaugh, 1935-1957</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Harold Mooney, 1959-1966</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>T. B. Mowbray, 1963-1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Walter F. Mueggler, 1957-1961</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>N: Miscellaneous, 1961-1963, 1968</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>National Geographic Magazine, 1963</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>The Nature Conservancy, 1960</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Aubrey W. Naylor, 1958, 1966</unittitle></did></c02>
+<c02><did><container type="box">1</container><unittitle>Daniel Norris, 1955-1961</unittitle></did></c02>
+
+<c02><did><container type="box">2</container><unittitle>O: Miscellaneous, 1961-1962</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Charles E. Olmstead, 1942-1945</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Jan Kurt Oosting, 1939-1968</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Joy Oosting, 1942-1955</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Melvin Oosting, 1933-1940, undated</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Lauce Oosting, 1932-1937</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>William Owsley, 1963-1964</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>P: Miscellaneous, 1962, 1968</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>S. C. Pandeya, 1967</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Duncan Patten, 1958-1965</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>E. Gibbes Patton, 1953-1966</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Jane Philpott, 1956-1961</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>R. B. Platt, 1952-1967</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Nicholas Polunin, 1957</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Robert W. Powell, 1962-1963</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>F. W. Preston, 1953-1966, 1968</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Elsie Quarterman, 1953-1967</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>R: Miscellaneous, 1935-1962, 1968</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Patricia Raff, 1956</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Patricia Rand, 1962-1966</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Allen Rebuck, 1952-1966</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>J. F. Reed, 1934-1968</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Richard Rhoades, 1961-1967</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Patricia Roberts, 1954-1962</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>S: Miscellaneous, 1961-1962</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Wilf Schofield, 1956-1961</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>R. M. Schuster, 1954-1962</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>A. J. Sharp, 1942-1943</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Napier Shelton, 1960-1964</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>John P. Shontz, 1967-1968</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Ben Smith, 1968</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Harold St. John, 1940-1941, 1945</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>W. C. Steere, 1949, 1952</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>A. D. Stoesz, 1931-1956</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>T: Miscellaneous, 1919, 1948</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>A. Tamsalu, 1953, 1957</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Oswald Tippo, 1959</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>U: Miscellaneous, 1967</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>V: Miscellaneous, 1928-1967</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Olli Vaartaja, 1952</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Dr. H. P. van der Schyff, 1960</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>J. J. van Wyck, 1960-1967</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>V. Eugene Vivian, 1962-1967</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>W: Miscellaneous, 1966, 1968</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Richard Wagner, 1955-1966</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>P. F. Wareing, 1960-1961</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>John Warren, 1954-1964</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>A. Lincoln Washburn, 1937-1946</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>T. E. Weier, 1943</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Bruce Welch, 1959-1966</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>B. W. Wells, 1932-1954</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Philip Wells, 1958-1962</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>George Woodwell, 1953-1967</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Charley Wu, 1957-1958</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>John Yarborough, 1966, 1968</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Fredrick F. Yonkman, 1945, 1954</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>H. E. Young, 1959-1968</unittitle></did></c02>
+</c01>
+
+<c01 level="series"><did>
+<unittitle id="s2">Subject Files, <unitdate type="inclusive" normal="1924/1967">1924-1967</unitdate></unittitle>
+</did>
+<c02><did><container type="box">2</container><unittitle>Beaufort, 1947 Summer</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Botany Seminar on NC Vegetation, 1949</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Botany Space Committee (Duke), 1965</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Classroom Materials, 1962-1964</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>J. P. Decker, 1962</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Duke Forest: Checklist, 1943</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Duke Insurance, 1966 Mar. 25</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>East Campus Ad Hoc Committee, 1963</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Ecological Society, 1957, 1963</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Field Botany Class for High School Teachers, 1965-1966</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>M. L. Grant Photographs of Hawaii, 1934</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Grass Ecology, 1933</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Highlands Biological Station, 1957-1961 (3 folders)</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Highlands Biological Station: Research Committee, 1962</unittitle></did></c02>
+<c02><did><container type="box">2</container><unittitle>Highlands Biological Station: Gorge Grant, 1960-1964 (4 folders)</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Highlands Biological Station: Trustees, General Information, 1960-1965</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Lake Junaluska, 1934-1939</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Michigan State Sem. Bot., 1955</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Michigan State Surface Formation Map, 1924</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>National Science Foundation Application/Grant on Venus Fly-Trap, 1955-1958</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>National Science Foundation Grant on Venus Fly-Trap Photographs, circa 1957-1958</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>National Science Foundation Proposal for Gorge Research, 1963-1964</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>National Science Foundation, 1967 (3 folders)</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Natural Area Committee of Duke Univ., 1959-1963</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>N. C. Academy of Science, 1966</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>New Hampshire, Univ. of, 1962-1963</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Personal Data (CV, etc.)</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Pocomoke Swamp [Delaware] Photographs, undated</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Research Council (Duke), 1949-1958 (2 folders)</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Research Council (Duke), 1958-1963 (2 folders)</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Scientific Writing, 1960s</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>V. N. Sukachev, 1961-1962</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>TIAA/CREF, 1953</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>World of Nature Series, 1964-1967</unittitle></did></c02>
+
+</c01>
+
+<c01 level="series"><did>
+<unittitle id="s3">Research Files <unitdate type="inclusive" normal="1930/1967">1930-1967, undated</unitdate></unittitle>
+</did>
+
+<c02><did><container type="box">3</container><unittitle>Ham Lake: Soil Samples, 1930</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Photographs of Unidentified Research Trips (includes images of Oosting and colleagues), circa 1930s</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Potamogeton [Michigan], circa 1931</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Ham Lake: Soil and Mud Samples, circa 1932</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Ham Lake, circa 1933</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Pilot Mountain, 1934, 1942</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Atmometer and Soil, 1936</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Soil Moisture, 1936</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Jonathan Creek, 1936 June 26</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Field Ecology (Itasca), circa 1936</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Research Ideas: Problems, 1938, undated</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Wyoming Timberline (with photographs), 1948</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Wyoming Photographs, circa 1948</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Southeastern Conifers, circa early 1940s</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Burn Study: New Hope Creek, 1940-1967</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Transpiration, 1942</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Transect Study: Soil Moisture, 1944-1945</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Spruce-Fir-Medicine Bows, circa 1948-1949 (2 folders)</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Spruce-Fir-Medicine Bows Photographs, circa 1948-1949</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>White Pine, Blue Ridge Parkway, 1949</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Seedling Environment, 1951</unittitle></did></c02>
+<c02><did><container type="box">3</container><unittitle>Turkey Oak, 1952</unittitle></did></c02>
+
+<c02><did><container type="box">4</container><unittitle>Field Notes for Joyce Kilmer Forest Study (with photographs), 1953-1956 (3 folders)</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>Maritime Forest Data (with photographs), circa 1955</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>Hydrobiology Reading Notes, undated</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>Pulpwood Data [Maine], undated</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>Pulpwood Data [Maine] Photographs, undated</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>Research Notes, undated</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>Piedmont Review for Botany Rev., undated</unittitle></did></c02>
+</c01>
+
+<c01 level="series"><did>
+<unittitle id="s4">Writings, <unitdate type="inclusive" normal="1930/1960">circa 1930-circa 1960s, undated</unitdate></unittitle>
+</did>
+<c02><did><container type="box">4</container><unittitle>"Physical-Chemical Variables in a Minnesota Lake," circa 1930-1931</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>"A Limnological Study of Ham Lake with Special Emphasis Upon the Flowering Plants," 1931 June</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>"Distribution of the Genus Potamogeton in Michigan," 1931</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>"Distribution of Aquatic Flowering Plants in Relation to the Substratum," circa 1932-1933</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>"Ecology in Relation to Botany in General," 1950</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>"Ecological Processes and Vegetation of the Maritime Strand in the Southeastern United States," 1953-1954</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>"The Maritime Live Oak Forest in NC," (with Philippe F. Bourdeau) (with photographs), 1958, 1959 (2 folders)</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>"Responses of Venus Fly Trap (Dionea Muscipula) to Factors Involved in Its Endemism," (with Patricia Roberts), circa 1958</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>Outlines for talks, circa 1960s (2 folders)</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>Book Manuscript (rough, for 2nd edition), "The Study of Plant Communities," undated (9 folders)</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>Sampling, undated</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>List of Publications from 1932-1958</unittitle></did></c02>
+</c01>
+
+<c01 level="series"><did>
+<unittitle id="s5">Writings and Research, <unitdate type="inclusive" normal="1940/1955">1940-1955, undated</unitdate></unittitle>
+</did>
+<scopecontent>
+<p>This series title applies to folders which contained both research notes and writings. </p>
+</scopecontent>
+<c02><did><container type="box">4</container><unittitle>"Buried Viable Sees in a Sucessional Series of Olf Field and Forest Soils," (with Mary E. Humphreys), 1940</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>"The Establishment of a White Birch Community on Cutover Pulpwood Land in Northwestern Maine," (with John Reed), 1942</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>"Survival of Pine and Hardwood Seedlings in Forest and Open," (with P. J. Kramer and C. F. Korstian) (with photographs and negatives), 1952</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>"Microclimate and a Relic Stand of <emph render="italic">Tsuga Canadensis</emph> in the Lower Piedmont of North Carolina," (with D. W. Hess) (with photographs and negatives), 1955 </unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>"Tolerance to Salt Spray of Plants of Coastal Dunes," undated</unittitle></did></c02>
+</c01>
+<c01 level="series"><did>
+<unittitle id="s6">Greenland Expedition, <unitdate type="inclusive" normal="1936/1941">1936-1941</unitdate></unittitle>
+</did>
+<c02><did><container type="box">4</container><unittitle>Correspondence: Louise Boyd, 1937-1941 (2 folders)</unittitle></did></c02>
+<c02><did><container type="box">4</container><unittitle>Photographs (contact prints): Images taken by Louise Boyd, 1937 (3 of 4 folders)</unittitle></did></c02>
+
+<c02><did><container type="box">5</container><unittitle>Photographs (contact prints): Images taken by Louise Boyd, 1937 (1 of 4 folders)</unittitle></did></c02>
+<c02><did><container type="box">5</container><unittitle>Photographs of Moss Rings on Jan Mayen Island taken by Louise Boyd on her Artic Expedition, 1937; Letter, 1938 Apr. 15</unittitle></did></c02>
+<c02><did><container type="box">5</container><unittitle>Henry Oosting's Diary, 1937 Summer</unittitle></did></c02>
+<c02><did><container type="box">5</container><unittitle>Photographs by Henry Oosting and Others, 1937</unittitle></did></c02>
+<c02><did><container type="box">5</container><unittitle>Notes and Records, 1937 (2 folders)</unittitle></did></c02>
+<c02><did><container type="box">5</container><unittitle>Notes and Writings, 1937 (2 folders)</unittitle></did></c02>
+<c02><did><container type="box">5</container><unittitle>Printed Material and Maps, 1936; Miscellaneous Items, 1937</unittitle></did></c02>
+<c02><did><container type="box">5</container><unittitle>Personal Correspondence, 1937</unittitle></did></c02>
+<c02><did><container type="box">5</container><unittitle>Clippings, 1937</unittitle></did></c02>
+
+<c02><did><container type="opaperfolder">1</container><unittitle>Handmade Poster featuring Print Photographs with Identification, 1937 (loose prints were placed in an archival photograph sleeve)</unittitle></did></c02>
+</c01>
+
+<c01 level="series"><did>
+<unittitle id="s7">List of nitrate negatives segregated from the collection </unittitle>
+</did>
+<scopecontent>
+<p>The negatives are located off-site in a nitrate storage cabinet and cannot be accessed without prior approval by the University Archivist. Most, if not all, have prints available within the collection.</p>
+</scopecontent>
+<c02><did><container type="box">6</container><unittitle>Research Files: Wyoming, circa 1948</unittitle></did></c02>
+<c02><did><container type="box">6</container><unittitle>Research Files: Wyoming - Timberline</unittitle></did></c02>
+<c02><did><container type="box">6</container><unittitle>Research Files: Pulpwood Data (7 sleeves)</unittitle></did></c02>
+<c02><did><container type="box">6</container><unittitle>Greenland Expedition: 1937 (15 sleeve)</unittitle></did></c02>
+
+</c01>
+      </dsc>
+   </archdesc>
+</ead>

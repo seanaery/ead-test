@@ -1,0 +1,1926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::The Alexander Weinmann Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/weinmann/">weinmann</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Alexander Weinmann Papers,
+			 <date normal="1614/1986" type="inclusive" era="ce" calendar="gregorian">1614-1986</date></titleproper>
+        <author>Processed by: Dan Daily; machine-readable finding aid created
+			 by: Stephen Douglas Miller. Further edits by: Paula Jeannet
+			 Mangiafico.</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <p><date era="ce" calendar="gregorian"> 1994</date> Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">001582404</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from paper by means of
+		  scanning and OCR; OCR file edited for typographical errors before encoding.
+		  <lb/>Date of source: June 8, 1994 <lb/>Processed by: Dan Daily June 8, 1994;
+		  Finding Aid encoded by Stephen Douglas Miller, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University. Further editing by Paula Jeannet
+		  Mangiafico.
+		  <date calendar="gregorian" era="ce">March 21, 1997</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::The Alexander Weinmann Papers)//EN" "weinmann.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce">June 29, 1998</date>
+        <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the Alexander Weinmann Papers,
+			 <date calendar="gregorian" era="ce">1614-1986</date></titleproper>
+      <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke
+		  University<lb/>Durham, North Carolina</publisher>
+
+      <p>(C) 1994 Duke University. All rights reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title"> Alexander Weinmann papers 		  <unitdate calendar="gregorian" era="ce" normal="1614/1986" type="inclusive">1614-1986</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Weinmann, Alexander, 1901-1987</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>14 Linear Feet</extent>
+	  <extent>7,000 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+      </repository>
+      <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+      <langmaterial label="Languages">
+        <language langcode="ger">German, </language>
+        <language langcode="eng">and English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Portions of the Alexander Weinmann Papers are restricted.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in the Alexander Weinmann Papers have not
+			 been transferred to Duke University. For further information, see the section
+			 on copyright in the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library or consult a reference archivist. </p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Alexander Weinmann Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The Alexander Weinmann Papers (1614-1986) were purchased by the Duke
+			 University David M. Rubenstein Rare Book &amp; Manuscript Library in 1988. </p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by: Dan Daily</p>
+        <p>Completed June 8, 1994</p>
+	  <p>Encoded by Stephen Douglas Miller</p>
+        <p>This finding aid is NCEAD compliant.</p>
+      </processinfo>
+    </descgrp>
+    <bioghist>
+      <head>Biographical Note</head>
+      <chronlist>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1901, Feb. 20</date>
+          <event>Born, Vienna, Austria</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1948</date>
+          <event>Published
+				<title linktype="simple" render="italic">Werkverzeichnis Joseph
+				  Lanner</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1952</date>
+          <event>Published
+				<title linktype="simple" render="italic">Artaria and Co.</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1955</date>
+          <eventgrp>
+            <event>Received a doctorate in musicology, Innsbruck
+				  University</event>
+            <event>Completed
+				  <title linktype="simple" render="italic">Vollständiges Verlagsverzeichnis Artaria
+					 und Comp.</title> (Dissertation)</event>
+          </eventgrp>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1956</date>
+          <eventgrp>
+            <event>Published
+				  <title linktype="simple" render="italic">Werkverzeichnis Johann Strauss Vater und
+					 Sohn</title></event>
+            <event>Published
+				  <title linktype="simple" render="italic">Weiner Musikverleger und Musikalienhändler
+					 von Mozarts Zeit bis gegen 1860</title></event>
+          </eventgrp>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1964</date>
+          <event>Published
+				<title linktype="simple" render="italic">Franz Anton Hoffmeister</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1973</date>
+          <event>Published
+				<title linktype="simple" render="doublequote">'Das Grab' ein literarisch-musikalischer
+				  Bestseller</title> in
+				<title linktype="simple" render="italic">Österreichische Musikzeitschrift</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1987</date>
+          <event>Died, Vienna, Austria</event>
+        </chronitem>
+      </chronlist>
+      <p/>
+      <p>Weinmann's works in Viennese music publishing are included in the
+		<title linktype="simple" render="italic">Beiträge zur Geschichte des Alt-Weiner
+		  Musikverlages</title> series. He also published a number of articles in the
+		field of musicology in the
+		<title linktype="simple" render="italic">Österreichische Musikzeitschrift.</title> He was a
+		contributor to the
+		<title linktype="simple" render="italic">Répertoire international des sources
+		  musicales</title> and the
+		<title linktype="simple" render="italic">New Grove Dictionary of Music and
+		  Musicians,</title> and a co-editor of
+		<title linktype="simple" render="italic">L. von Köchel: Chronologisch-thematisches
+		  Verzeichnis sämtlicher Tonwerke Wolfgang Amadé Mozarts</title> (Sixth
+		Edition).</p>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The collection reflects Weinmann's extensive research in the history
+		  of Viennese music publishing and is a resource for study of publishing firms in
+		  Vienna as well as documenting Weinmann's bibliographical research. The Music
+		  Series includes title pages and parts of arrangements, focusing on Viennese
+		  publishers and composers, including Georg Druschetzky, Joseph Haydn, Johann
+		  Baptist Vanhal, Johann Josef Rösler, and Ferdinand Kauer, as well as Johann
+		  Sebastian Bach. Included in the Writings and Speeches Series are manuscript
+		  drafts of works related to Weinmann's bibliographies (published in the
+		<title linktype="simple" render="italic">Beiträge zur Geschichte des Alt-Weiner
+		  Musikverlages</title>) as well as bio-bibliographical and historical works. The
+		series also documents Weinmann's study of 19th century Viennese publishing
+		firms including Artaria and Company, Giovanni Cappi, Leopold Kozeluch, Franz
+		Anton Hoffmeister, Carlo and Pietro Mechetti, Tranquillo Mollo, Ignaz Sauer,
+		Johann Traeg, and Thaddäus Weigl. Series includes research by Weinmann's
+		brother, Ignaz Weinmann, on Franz Schubert.</p>
+      <p>The Research Notes Series consists of bibliographic references and
+		  citations, information about works and plate numbers; Weinmann's contributions
+		  to the
+		<title linktype="simple" render="italic">Répertoire international des sources
+		  musicales;</title> and
+		<title linktype="simple" render="italic">Wiener Zeitung</title> references. The Series also
+		concerns Weinmann's work as an editor of the sixth edition of the
+		<title linktype="simple" render="italic">Chronologisch-thematisches Verzeichnis sämtlicher
+		  Tonwerke Wolfgang Amadé Mozarts.</title> Anthony van Hoboken, Willi Boskovsky,
+		Franz Giegling, Anton Fietz, and Arthur Fiedler are among primary
+		correspondents in the collection. Weinmann also collected letters (originals
+		and copies) from persons and publishers he studied, including J.P. Gotthard,
+		Johann Strauss, Franz Xaver Süssmayr, and Tobias Haslinger.</p>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <item>
+          <persname>Druschetzky, Georg, 1745-1819</persname>
+        </item>
+        <item>
+          <persname>Haydn, Joseph, 1732-1808</persname>
+        </item>
+        <item>
+          <persname>Bach, Johann Sabastian, 1685-1750</persname>
+        </item>
+        <item>
+          <persname>Vanhal, Jan Baptist, 1739-1813</persname>
+        </item>
+        <item>
+          <persname>Rvsler, Johann Josef, 1771-1813</persname>
+        </item>
+        <item>
+          <persname>Kauer, Ferdinand, 1751-1831</persname>
+        </item>
+        <item>
+          <persname>Hoboken, Anthony van, 1881-</persname>
+        </item>
+        <item>
+          <persname>Boskovsky, Willi, 1909-1991</persname>
+        </item>
+        <item>
+          <persname>Giegling, Franz, 1921-</persname>
+        </item>
+        <item>
+          <persname>Fietz, Anton</persname>
+        </item>
+        <item>
+          <persname>Gotthard, J.P., 1839-1919</persname>
+        </item>
+        <item>
+          <persname>Strauss, Johann</persname>
+        </item>
+        <item>
+          <persname>Sussmayr, Franz Xaver</persname>
+        </item>
+        <item>
+          <persname>Haslinger, Tobias</persname>
+        </item>
+        <item>
+          <persname>Kozeluch, Leopold</persname>
+        </item>
+        <item>
+          <persname>Hoffmeister, Franz Anton</persname>
+        </item>
+        <item>
+          <persname>Mechetti, Carlo</persname>
+        </item>
+        <item>
+          <persname>Mechetti, Pietro</persname>
+        </item>
+        <item>
+          <persname>Mollo, Tranquillo</persname>
+        </item>
+        <item>
+          <persname>Sauer, Ignaz</persname>
+        </item>
+        <item>
+          <persname>Traeg, Johann, fl. 1782-1805</persname>
+        </item>
+        <item>
+          <persname>Weigl, Thaddaus</persname>
+        </item>
+        <item>
+          <persname>Weinmann, Ignaz</persname>
+        </item>
+        <item>
+          <persname>Schubert, Franz, 1797-1828</persname>
+        </item>
+        <item>
+          <corpname>Artaria and Company</corpname>
+        </item>
+        <item>
+          <corpname>Giovanni Cappi</corpname>
+        </item>
+        <item>
+          <persname>Anton Diabelli</persname>
+        </item>
+        <item>
+          <persname>Tobias Haslinger</persname>
+        </item>
+        <item>
+          <subject>Music -- Publishing -- Austria -- Vienna</subject>
+        </item>
+        <item>
+          <subject>Music -- Bio-bibliography</subject>
+        </item>
+      </list>
+    </controlaccess>
+
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle id="corr">Correspondence,
+				<unitdate calendar="gregorian" era="ce" normal="1614/1986" type="inclusive">1614-1986,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(bulk
+				<unitdate calendar="gregorian" era="ce" normal="1932/1986" type="bulk">1932-1986)</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Primarily correspondence between
+				<persname>Weinmann </persname>and other scholars, musicians,
+				conductors, and librarians. However, the early correspondence
+				<date calendar="gregorian" era="ce">(1614-1928)</date> is originals and copies of letters by
+				<persname>Franz Xaver Süssmayr, </persname><persname>Tobias Haslinger </persname>and
+				<persname>J.P. Gotthard </persname>which Weinmann collected.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1614/1986" type="inclusive">1614-1986, Feb. 14,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(28 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="writ">Writings and Speeches,
+				<unitdate calendar="gregorian" era="ce" normal="1931/1985" type="inclusive">1931-1985,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes typescripts and handwritten drafts of writings by
+				<persname>Weinmann, </persname>some works published in the
+			 <title linktype="simple" render="italic">Beiträge zur Geschichte des Alt-Wiener
+				Musikverlages</title> as well as extensive lists and notes. At the end is a
+			 chronological arrangement of works which were not directly or solely identified
+			 as pertaining to the composers or publishers. Arranged alphabetically by
+			 composers, publishers, and works.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>
+              <corpname>Artaria and Co.,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953,</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Beethoven,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Cappi,
+				  <unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Diabelli, Anton, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1954/1985" type="inclusive">1954-1985,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Druschetzky, Georg,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Eder, Joseph - Bermann, J., </persname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Fietz, Anton,</persname><unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">1950s</unitdate>-1979,
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>D-F</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="doublequote">Das Grab,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">1960s,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Haslinger, Tobias, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1943/1980" type="inclusive">1943-1980,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Haydn, Joseph, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1973/1982" type="inclusive">1973-1982,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Hoffmeister, Franz Anton,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1960/1985" type="inclusive">1960s-1985,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Kauer, Ferdinand, </persname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Kostbarkeiten aus Alt-Wien,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">1960s,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Lindemayr, Maurus,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1972/1976" type="inclusive">1972- 1976,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>G-L</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Mechetti, Carlo and Pietro,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Mollo, Tranquillo, </persname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>von Mosel, Ignaz Franz, </persname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Mozart, Leopold, </persname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Mozart, Wolfgang Amadeus,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1965/1985" type="inclusive">1965-1985, n.d</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Muller, Adolf, Hans-Christian, Heinrich
+					 Friedrich,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1977" type="inclusive">1977,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Pleyel, Ignaz, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1958/1977" type="inclusive">1958-1977</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Radio lectures, recording,
+				  <unitdate calendar="gregorian" era="ce" normal="1961/1980" type="inclusive">1961-1980,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>RISM,</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1967/1977" type="inclusive">1967- 1977,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <unittitle>
+              <persname>Sauer, Ignaz (and Leidesdor), </persname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Schubert, Franz, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1972/1985" type="inclusive">1972-1985,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Die Schubert-Sammlung im Musikarchiv der
+					 Benediltinerabtei Seitenstetten,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate>
+              <persname>(Ignaz Weinmann)</persname>
+            </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Die Schubert-Sammlung im Musikarchiv des
+					 Stiftes Seitenstetten,</title>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Steffan, Josef Anton, </persname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Strauss, Johann, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1948/1976" type="inclusive">1948-1976,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>S</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Traeg, Johann, </persname><unitdate calendar="gregorian" era="ce" normal="1977/1978" type="inclusive">1977-1978,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(3
+				  folders)</unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Weigl, Thaddäus,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <title linktype="simple" render="italic">Wiener Musikverlag <emph render="doublequote">Am Rande,</emph></title>
+              <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous,
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1931/1983" type="inclusive">1931-1983</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(8 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1984/1985" type="inclusive">1984- 1985,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(12 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="rese">Research Notes,
+				<unitdate calendar="gregorian" era="ce" normal="1823/1985" type="inclusive">1823-1985,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes bibliographic references, notes for publishers' and
+				composers' biographies, annotated printed material, information from
+			 <title linktype="simple" render="italic">Wiener Zeitung</title> about publishers, and
+			 other fragments of information pertaining to the publishers and composers whom
+			 Weinmann studied. These materials are arranged chronologically, but most of the
+			 material is undated. Following the chronological arrangement are materials and
+			 correspondence with Franz Giegling concerning the sixth edition of the
+			 <title linktype="simple" render="italic">Ludwig Ritter von Köchel:
+				Chronologisch-thematisches Verzeichnis sämtlicher Tonwerke Wolfgang Amadé
+				Mozarts</title> (Köchel-Verzeichnis). Both Weinmann and
+			 <persname>Giegling </persname>were editors of the Sixth Edition.</p>
+        </scopecontent>
+        <c02>
+          <did><container type="box">4</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1823/1985" type="inclusive">1823-1985,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(8 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">5</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(12 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Köchel-Verzeichnis:</persname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1957/1984" type="inclusive">1957- 1984</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(6 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Photographs,
+					 <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(4 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">6</container>
+            <unittitle>
+              <persname>Mozart, W. A., </persname>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1962/1985" type="inclusive">1962-1985</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Negatives, B-W,
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="musi">Music Series,
+				<unitdate calendar="gregorian" era="ce" normal="1601/1976" type="inclusive">1601-1976,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes arrangements, fragments, and title pages of published
+				music (originals and photocopies). Also contains manuscript examples prepared
+				by Weinmann. Arranged by format: paper, photographs, and negatives. Within each
+				format the materials are arranged alphabetically by composer, publisher, or
+				title. When holdings include more than one work by a composer or publisher,
+				works are arranged alphabetically by the title of the work.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Music Series: Paper</unittitle>
+          </did>
+          <accessrestrict>
+            <p>Portions of this series are restricted.</p>
+          </accessrestrict>
+          <c03>
+            <did>
+              <container type="box">6</container>
+              <unittitle>
+                <persname>Albrechtsberger, Anton, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">ca. 1976?</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Albrechtsberger, Johann Georg,</persname>
+                <date calendar="gregorian" era="ce"> 1976 (?), 1781- (?), </date>
+              </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Albrechtsberger, Johann Georg, </persname>
+                <date calendar="gregorian" era="ce">1786-(?)</date>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Artaria and Co., </corpname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Auber, Daniel, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Beethoven, Ludwig Von,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1828" type="inclusive">1828,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Cappi und Diabelli,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Das Grab,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1815" type="inclusive">1815-(?)</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Dessauer, Josef, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Diabelli, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Druschetzky, Georg, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Eybler, Joseph, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Fietz, Anton,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Hackel, Anton, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Haydn, Joseph, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Herold, F., </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Hoffmeister, Franz,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1839" type="inclusive">1839,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Kozeluch, Leopold, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Kreutzer, Rodolphe, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1601" type="inclusive">1601, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Liszt, Franz, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Lortzing, Gustave, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Mechetti, Carlo and Pietro, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Mollo, Tranquillo, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Mosel, J. F.,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1822" type="inclusive">1822,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Mozart, W. A.,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1847" type="inclusive">1847,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Müller, Adolf, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Pleyl, Ignaz, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1790" type="inclusive">1790, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Proch, Heinrich, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Resnitschek, I., </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Schubert, Franz, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Steffan, Joseph, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Strauss, Eduard und Anton,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1821" type="inclusive">1821</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Vanhal, Johann Baptist, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Vogel, Wilhelm, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Zechner,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Hymns,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Dance Music,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Songs,
+					 <unitdate calendar="gregorian" era="ce" normal="1854" type="inclusive">ca. 1854,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Various Composers, A-N,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">7</container>
+              <unittitle>Various composers, O-Z,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Title pages,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Anonymous,
+					 <unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987 [?]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Unidentified and miscellaneous fragments,
+					 <unitdate calendar="gregorian" era="ce" normal="1933/1952" type="inclusive">1933-1952 [?]</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Music Series: Photographs</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Anonymous with titles,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated:</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Allegro für Klavier und Violine,
+						  Concerto für Violoncello princ., 2 v, 2 ve, 2 0b, 2 Cor, Basso,</title>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Divertimentos </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><title linktype="simple" render="italic">Für die Viola d'Amor Cruittaré</title>
+						and
+						<title linktype="simple" render="italic">Kleine Stücke</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><title linktype="simple" render="italic">Recitativo</title> - Violino, Basso
+						and Organo
+						<title linktype="simple" render="italic">Sonata, Te Deum
+						  Royel</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><title linktype="simple" render="italic">Violino Solo</title> and
+						<title linktype="simple" render="italic">Violino Grand Trio</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Anonymous,
+						<unitdate calendar="gregorian" era="ce" normal="1820" type="inclusive">1820,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(3 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Beethoven, Ludwig Van, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Druschetsky, Georg, </persname>
+                <title linktype="simple" render="italic">Concerto in B and F.</title>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Druschetzky, Georg:</persname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Six Parthies,</title>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Grand Septetto,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1886" type="inclusive">1886</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><persname>Eybler, Giuseppe, </persname>n.d</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Haydn, Josef:</persname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Variatrone per ie Clavi
+						  Cembalo,</title>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>A-Z,
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Hoffmeister, Francesco, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Josephz, E. Lebas, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1760" type="inclusive">1760</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Klein, Henri, </persname>
+                <title linktype="simple" render="italic">Six Contre Danses,</title>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Licki, C. Georg, </persname>
+                <title linktype="simple" render="italic">Trio für Clarinette, Fagotte,
+						Horn,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1806" type="inclusive">1806</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">8</container>
+              <unittitle>
+                <persname>Mozart, W. A, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(6 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Rösler, Johann Josef, </persname>
+                <title linktype="simple" render="italic">Partita für 3 Bassethörner,</title>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Schubert, Franz:</persname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Compositionen, n.d</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Schubertiana,
+						<unitdate calendar="gregorian" era="ce" normal="1814/1973" type="inclusive">1814-1973</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Steffan, Joseph, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Allegro Vivace</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><title linktype="simple" render="italic">Un die Verklärte Theresia,</title>
+						1781</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Variazioni Combinate in
+						  C</title>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Variazioni Combinate per il Forte e
+						  Piano</title>
+                </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Druschetzky,
+					 <title linktype="simple" render="italic">Concerte,</title><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Tuma, Franz, </persname>
+                <title linktype="simple" render="italic">Stabar Mater,</title>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Vanhal, Johann:</persname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Unidentified,
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>A-Z,
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(3 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Wallfarths Gesanger,</title>
+					 1689</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Werner, Gregor Joseph, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1759" type="inclusive">1759</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Ziegler, Josef, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Various composers,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(5 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">9</container>
+              <unittitle>Miscellaneous, 1725,
+					 <unitdate calendar="gregorian" era="ce" normal="1867" type="inclusive">1867,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Various title pages,
+					 <unitdate calendar="gregorian" era="ce" normal="1766/1874" type="inclusive">1766- 1874,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Unidentified,
+					 <unitdate calendar="gregorian" era="ce" normal="1821/1869" type="inclusive">1821-1869,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(5 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Music Series: Negatives</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">10</container>
+              <unittitle>Negatives,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">11</container>
+              <unittitle>Negatives and miscellaneous,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="prin">Printed Material,
+				<unitdate calendar="gregorian" era="ce" normal="1871/1986" type="inclusive">1871-1986,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(bulk
+				<unitdate calendar="gregorian" era="ce" normal="1949/1985" type="bulk">1949-1985)</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Contains programs, brochures, photocopies, and annotations on
+				items pertaining to concerts and performances.</p>
+        </scopecontent>
+        <c02>
+          <did><container type="box">11</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1871/1975" type="inclusive">1871-1975,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(10 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">12</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1976/1986" type="inclusive">1976-1986,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(16 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="book">Books and Catalogs,
+				<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes photographs, photocopies, and negatives. Books are
+				arranged alphabetically by author and then chronologically. Catalogs and
+				Negatives are filed alphabetically by title.</p>
+        </scopecontent>
+        <c02>
+          <did><container type="box">12</container>
+            <unittitle>Books, </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Catalogs, </unittitle>
+            <physdesc>
+              <extent>(4 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Negatives </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="misc">Miscellaneous,
+				<unitdate calendar="gregorian" era="ce" normal="1701/1991" type="inclusive">1701-1991,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes clippings, phonograph records, photographs, and
+				negatives.</p>
+        </scopecontent>
+        <c02>
+          <did><container type="box">12</container>
+            <unittitle><unitdate calendar="gregorian" era="ce" normal="1701/1983" type="inclusive">1701-1983,</unitdate>undated</unittitle>
+            <physdesc>
+              <extent>(4 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">13</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Clippings,
+				  <unitdate calendar="gregorian" era="ce" normal="1933/1985" type="inclusive">1933- 1985,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Phonograph records.
+				  <unitdate calendar="gregorian" era="ce" normal="1960/1962" type="inclusive">1960- 1962,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Photographs,
+				  <unitdate calendar="gregorian" era="ce" normal="1730/1991" type="inclusive">1730-1991,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(4 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">14</container>
+            <unittitle>Negatives,
+				  <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(5 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="over">Oversize Material</unittitle>
+        </did>
+        <c02>
+          <did>
+            <unittitle>Writings and Speeches Series</unittitle>
+          </did>
+          
+<c03><did><container type="box">15</container>
+              <unittitle>
+                <corpname>Artaria and Company, </corpname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(4 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Diabelli, Anton, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Glöggl, F. X., </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Gotthard, J. P., </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Haslinger, Tobais, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Lithogr Institut nächst der Burg No. 2,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Mechetti, Carlo and Pietro, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Mollo, Tranquillo,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Mozart, Wolfgang Amadeus, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+<c03><did><container type="box">16</container>
+              <unittitle>
+                <persname>Müller, H. F., </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Rörich, Franz, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Senefelder,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>S. A. Steiner and Co., </corpname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Weigl, Thaddäus, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1954/1982" type="inclusive">1954-1982,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><unitdate calendar="gregorian" era="ce" type="inclusive">undated,</unitdate>1026-15451
+					 </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+<c02>
+          <did>
+            <unittitle>Miscellaneous Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">17</container>
+              <unittitle>Clippings,
+					 <unitdate calendar="gregorian" era="ce" normal="1929/1985" type="inclusive">ca. 1929-1985,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(6 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+
+        <c02>
+          <did>
+            <unittitle>Research Notes</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">18</container>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+
+        <c02>
+          <did>
+            <unittitle>Music Series</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">18</container>
+              <unittitle>Composers:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Mozart, Leopold </persname>
+                </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>A-Z,
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Schubert, Franz</persname>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>D-V</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Various composers,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Printed Material</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">18</container>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1826/1985" type="inclusive">1826-1985,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(8 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

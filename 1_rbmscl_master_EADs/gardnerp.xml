@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+   <eadheader audience="internal" langencoding="iso639-2b" findaidstatus="unverified-full-draft" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid publicid="-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Paris Cleveland Gardner Papers)//EN" countrycode="us" mainagencycode="ndd" url="http://library.duke.edu/rubenstein/findingaids/gardnerp/">gardnerp</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Paris Cleveland Gardner Papers, <date normal="1834/1976" type="inclusive" era="ce" calendar="gregorian">1834-1976</date>
+            </titleproper>
+            <author>Processed by: Steve Hensen; machine-readable finding aid created by: Stephen Douglas Miller</author>
+         </titlestmt>
+         <publicationstmt>
+            
+            <p>
+               <date era="ce" calendar="gregorian"> 1989</date>
+ Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+         <note><p>Aleph Number: <num type="aleph">000784972</num></p></note></notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from 
+paper by means of scanning and OCR; OCR file edited for typographical errors before encoding.
+<lb/>Date of source: January 10, 1989
+<lb/>Processed by: Steve Hensen
+ January 10, 1989; Finding Aid encoded by Stephen Douglas Miller, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University. 
+<date era="ce" calendar="gregorian">March 31, 1997</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005" era="ce" calendar="gregorian">09-09-2005</date>
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Paris Cleveland Gardner Papers)//EN" "gardnerp.sgm" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+		<item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date era="ce" calendar="gregorian">June 29, 1998</date>
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Paris Cleveland Gardner Papers, <date era="ce" calendar="gregorian">1834-1976</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>
+            
+            <lb/>Duke University<lb/>Durham, North Carolina</publisher>
+	
+         <p> 1989 Duke University. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">Paris Cleveland Gardner papers <unitdate normal="1834/1976" type="inclusive" era="ce" calendar="gregorian">1834-1976</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Gardner, Paris Cleveland, 1887-1974</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>5.4 Linear Feet</extent>
+		<extent>3,156 Items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+         </repository>
+         <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>  
+		<p>Collection is open for research.</p> 
+		<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p> 
+		<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>   
+		<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p> 
+ 	   </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The status of the copyright interests in these papers is unknown. For further information, see the section on copyright in the Regulations and Procedures of the Rubenstein Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], The Papers of Paris Cleveland Gardner, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The papers of Paris Cleveland Gardner, lawyer and politician of Cleveland County, N.C., and Washington, D.C., were acquired by the Rubenstein Library through gift in 1975.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by: Steve Hensen</p>
+            <p>Completed January 10, 1989</p>
+		<p>Encoded by Stephen Douglas Miller</p>
+		<p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp>
+      <bioghist>
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1887 Jan. 7 </date>
+               <event>Born, Shelby, Cleveland County, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1916 </date>
+               <event>LL.B., University of North Carolina.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1916-1924</date>
+               <event>Practiced law in Hominy, Osage County, OK</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1919</date>
+               <event>Married Tazewell Lloyd of Chapel Hill, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1924-1939</date>
+               <event>Practiced law in Shelby, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1926-1932</date>
+               <event>Solicitor of Recorder's Court, Cleveland County, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1939</date>
+               <event>Relocated to Chapel Hill, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1941-1962</date>
+               <event>Staff attorney, Federal Trade Commission, Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1974 Sept. 16 </date>
+               <event>Died, Chapel Hill, N.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The papers of Paris Cleveland Gardner span the years 1834 to 1976, though they fall chiefly in the period 1920 to 1951. They consist of correspondence, legal papers, case files, printed matter, and clippings.</p>
+         <p>Included are some papers relating to Gardner's personal life and affairs in Cleveland County, N.C., and in Oklahoma. Of particular interest is correspondence relating to local, state, and national Democratic Party politics and elections in North Carolina in the 1920s and 1930s. Correspondents of note in this group include Richard Fountain, O. Max Gardner, and Robert R. Reynolds. Also present are some case files relating to Gardner's private legal practice, including the 1917 case of Leroy Cowthen, a member of the International Workers of the World (I.W.W.) who was being harassed; the investigation of the Humphreys family claims to the title of a profitable oil field near Beaumont, Tex.; and a file on the Shelby (N.C.) Building and Loan Association. Also included in a file of miscellaneous material is some genealogical material on the Harman family.</p>
+         <p>By far the bulk of the papers are represented by the Federal Trade Commission files. As an attorney-examiner with the F.T.C. between 1941 and 1962, Gardner worked with cases involving alleged deceptive advertising practices in the print media and radio. The individual files contain factual summaries of evidence in each case as well as occasional recommendations for action.</p>
+         <p>While the files here probably do not represent a complete record of Gardner's work with the F.T.C., they do provide ample illustration of the methods and practices of the government as it attempted to regulate false and misleading advertising.</p>
+         <p>Most of the cases represented in these files went through the office of Gardner's superior, D. B. Gatling, who was Chief of the Division of Radio and Periodical Advertising. The F.T.C. files in the so-called <emph render="doublequote">Packets</emph> and Alphabetical Files contain documentation regarding routine complaints about mostly small proprietary companies, though there are exceptions - most notably, the series of files on the American Tobacco Company, relating principally to misuse and distortions of testimonials from tobacco buyers and smokers in advertising. For the most part, the cases in these files rarely went beyond the preliminary stages of investigation. The <emph render="doublequote">Secondary Review Files</emph> are generally more substantive, representing cases on which some sort of action was taken. Also included are some of Gardner's personnel files from the F.T.C. While the reason for their inclusion with the case files is not altogether clear, the original order and contents of these files has been maintained nevertheless.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p> 
+         <list type="simple">
+		<item>
+		   <persname>Gardner, Paris Cleveland, 1887-1974</persname>
+		</item>
+            <item>
+               <persname>Gardner, Oliver Max, 1882-1947</persname>
+            </item>
+            <item>
+               <famname>Humphrey family</famname>
+            </item>
+            <item>
+               <persname>Reynolds, Robert Rice, 1884-1963</persname>
+            </item>
+            <item>
+               <persname>Fountain, Richard Tillman, 1885-1945</persname>
+            </item>
+            <item>
+               <corpname>American Tobacco Company</corpname>
+            </item>
+            <item>
+               <corpname>Democratic Party (N.C.)</corpname>
+            </item>
+            <item>
+               <corpname>Industrial Workers of the World</corpname>
+            </item>
+            <item>
+               <corpname>United States.--Federal Trade Commission</corpname>
+            </item>
+            <item>
+               <subject>Deceptive advertising</subject>
+            </item>
+            <item>
+               <geogname>Cleveland County (N.C.)--Politics and government</geogname>
+            </item>
+            <item>
+               <subject>Advertising -- Tobacco trade</subject>
+            </item>
+            <item>
+               <subject>Lawyers -- North Carolina</subject>
+            </item>
+         </list>
+      </controlaccess>
+   
+
+
+ <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle id="info">Information Folder</unittitle>
+            </did>
+		<scopecontent>
+		<p>Contains biographical information on <persname>Gardner </persname>and his family; material on the structure and operations of the <corpname>F.T.C.</corpname></p>
+		</scopecontent>
+		
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="corr">Correspondence Series</unittitle>
+            </did>
+		 <scopecontent>
+               <p>Principally personal correspondence relating to real estate interests in <geogname>Oklahoma </geogname>and politics in <geogname>North Carolina </geogname>and <geogname>Cleveland County. </geogname>Arranged chronologically.</p>
+            </scopecontent>
+            <c02>
+               <did><container type="box">1</container>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1919-1943 </unitdate>and <unitdate type="inclusive" era="ce" calendar="gregorian">undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+		
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="lega">Legal Papers Series</unittitle>
+            </did>
+		<scopecontent>
+               <p>Includes correspondence, legal papers, clippings, and other papers relating to legal cases with which <persname>Gardner </persname>was involved. Arranged alphabetically.</p>
+            </scopecontent>
+            <c02>
+               <did><container type="box">1</container>
+                  <unittitle>
+                     <persname>Leroy Cowthen </persname>case,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1917</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Crowell </persname>vs. <persname>Crowell, </persname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1920-1924 </unitdate>and <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <famname>Humphreys </famname>family case, <unitdate type="inclusive" era="ce" calendar="gregorian">1834-1932</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Shelby and Cleveland County Building and Loan Association, </corpname>
+                     <persname>M. A. Gardner </persname>residence, <unitdate type="inclusive" era="ce" calendar="gregorian">1928-1929</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Legal papers, <unitdate type="inclusive" era="ce" calendar="gregorian">1926-1931 </unitdate>and <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="prin">Printed Materials Series</unittitle>
+            </did>
+		<scopecontent>
+               <p>Includes campaign brochures, broadsides, flyers, advertisements, sample ballots, printed speeches, etc., almost all from <geogname>North Carolina.</geogname>
+               </p>
+            </scopecontent>
+            <c02>
+               <did><container type="box">1</container>
+                  <unittitle>Printed materials, <unitdate type="inclusive" era="ce" calendar="gregorian">1918-1935 </unitdate>and <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="misc">Miscellany Series</unittitle>
+            </did>
+		<scopecontent>
+               <p>Includes <geogname>Cleveland County, N.C., </geogname>political lists, <famname>Harman </famname>family genealogical material, and other materials.</p>
+            </scopecontent>
+            <c02>
+               <did><container type="box">1</container>
+                  <unittitle>Miscellany, <unitdate type="inclusive" era="ce" calendar="gregorian">1926-1948 </unitdate>and <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               
+               <unittitle id="clip">Clippings Series</unittitle>
+            </did>
+            <c02>
+               <did><container type="box">2</container>
+                  <unittitle>Clippings, <unitdate type="inclusive" era="ce" calendar="gregorian">1918-1936 </unitdate>and <unitdate type="inclusive" era="ce" calendar="gregorian">undated </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="ftc">
+                  <corpname>F.T.C. </corpname>Files Series</unittitle>
+            </did>
+		<arrangement>
+               <p>Includes subseries: Packets, 1-13; Alpha Files, A-W; and Secondary Review Cases, <unitdate type="inclusive" era="ce" calendar="gregorian">1948-1951.</unitdate>
+               </p>
+            </arrangement>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Packets Subseries</unittitle>
+               </did>
+               <c03>
+                  <did><container type="box">2</container>
+                     <unittitle>Packet 1: <corpname>Active Clothing Co.; </corpname>
+                        <corpname>Allegany Oil Co.; </corpname>
+                        <corpname>American Cigarette and Cigar Co.; </corpname>
+                        <corpname>Aurex Corporation; </corpname>
+                        <corpname>B. T. Babbit, Inc.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 1: <corpname>Burbrooke Mfg. Co. et al.; </corpname>
+                        <corpname>Buschs; </corpname>
+                        <corpname>Colony House</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 1: Cosmetic industry</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>Packet 2: <corpname>Capital City College, Inc., et al.; </corpname>
+                        <corpname>Cello-Plastic Chemical Co.; </corpname>
+                        <corpname>Ceres Lunch, Inc.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 2: <corpname>M.A. Chapman &amp; Son; </corpname>
+                        <corpname>Chaston; </corpname>Cigarette Investigation</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 2: <corpname>Clean-Rite Vacuum Stores</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 2: <corpname>Clopay Corporation; </corpname>
+                        <corpname>Louis Cohen, et al.; </corpname>
+                        <corpname>Colorcrete Industries, Inc.; </corpname>
+                        <corpname>Colorthru Chemical; </corpname>
+                        <corpname>Combustion Service, Inc.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 2: <corpname>Combustion Service Co.; </corpname>
+                        <corpname>Comfort Manufacturing Co.; </corpname>
+                        <corpname>OOFC Retail Liquor Dealers Assoc.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 2: <corpname>Electrovox Company; </corpname>
+                        <corpname>Elmira Steel Co.; </corpname>
+                        <corpname>Emerson Drug Co.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle>Packet 3: <corpname>H.D. Fine, et al.; </corpname>
+                        <corpname>F.W. Fitch Co.;</corpname>
+                        <corpname> Forty Second Street Photo Shop; </corpname>
+                        <corpname>Francis Keil &amp; Son, Inc.; </corpname>
+                        <corpname>Freilay &amp; Sons, Inc.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 3: <corpname>General Electric Co.; </corpname>
+                        <corpname>General Motors; </corpname>
+                        <corpname>Globe Laboratories; </corpname>
+                        <persname>Louis Goldberg </persname>
+                        <corpname>(ACME Mail Order Houses); </corpname>
+                        <corpname>Good Value Bargain House</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 3: <corpname>Goulard &amp; Clean, Inc.; </corpname>
+                        <corpname>Gulf &amp; West Indies Co., Inc.; </corpname>
+                        <persname>Earl Hall </persname>
+                        <corpname>(United Watch Co.); </corpname>
+                        <corpname>Harding Glass Company</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 3: <corpname>Hercules Liquor Products Corp., N.Y.; </corpname>
+                        <corpname>C.L. Hoffman Corp.; </corpname>
+                        <corpname>Home Service Co., et al.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 3: <corpname>Hoover Manufacturing &amp; Sales Co.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 3: <persname>H. G. Hornbrook </persname>
+                        <corpname>(Apex Oil Product Co.); </corpname>
+                        <corpname>C. Howard Hunt Pen Co.; </corpname>
+                        <corpname>J.M. Hughes</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Packet 4: <corpname>International Research; </corpname>
+                        <corpname>Interstate Home Equipment Co., Inc.; </corpname>
+                        <corpname>Jackson Research Labs</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 4: <corpname>David Jacobs &amp; Allied News-Photo Service Corp.; </corpname>
+                        <corpname>B. Jadow Inc.; </corpname>
+                        <corpname>Kaplan &amp; Lacoff; Katz Drug Co.; </corpname>
+                        <corpname>Harry Kaufman, Inc.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 4: <corpname>Milton S., Kronheim &amp; Son, Inc., et al. </corpname>(second investigation); <corpname>Kruset</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 4: <corpname>The Kenyon Studies; </corpname>
+                        <corpname>Koh-I-Noor Pencil Co., et al.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 4: <corpname>Kopy Kat; </corpname>
+                        <corpname>The Korby Co.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 4: <corpname>Lane Drug Co.; </corpname>
+                        <corpname>Lee Products Co.; </corpname>
+                        <corpname>Lekas &amp; Drivas; </corpname>
+                        <corpname>Long's</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 4: <corpname>Lion Oil Refining Co.; </corpname>
+                        <corpname>London Handkerchief Co.; </corpname>
+                        <corpname>Londonderry, Inc.; </corpname>
+                        <corpname>MacMillan Petroleum Corp.; </corpname>
+                        <corpname>R. H. Macy &amp; Co.; </corpname>
+                        <corpname>Majestic Metal Novelty Co.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle>Packet 5: <corpname>Marco Company, Inc.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 5: <corpname>Mira-Glo Products, Inc.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 5: <corpname>Merck &amp; Co., Inc.; </corpname>
+                        <corpname>Nylo Company, Inc.; </corpname>
+                        <corpname>O'Cedar Corp.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 5: <corpname>Penn Poultry Service</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 5: <corpname>Perfect Brush Manufacturing Co.; </corpname>
+                        <corpname>Peter Morton Sportsware, Inc.; </corpname>
+                        <corpname>Printwell Co., et al.; </corpname>
+                        <corpname>C.W. Products Co.; </corpname>
+                        <corpname>Rex Remedy Co.; </corpname>
+                        <corpname>Rice Sticks Dry Goods Co.; </corpname>
+                        <corpname>A. Rabin; </corpname>
+                        <corpname>Ruckel Manufacturing Co.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 6: <persname>P.C. Gardner </persname>Medical Claim</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7 </container>
+                     <unittitle>Packet 7: <corpname>American Tobacco Co.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 8: <persname>Gardner, P. C. </persname>- Official Efficiency Rating; Application for Leave; Efficiency Rating; New and old forms of contact letters</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 8: Secondary Reviews, <unitdate type="inclusive" era="ce" calendar="gregorian">1949 July-1950 Mar. </unitdate>See also 12</unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle>Packet 8: <corpname>American Tobacco Co., </corpname>1</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 9: <corpname>American Tobacco Co., </corpname>2, interviews of witnesses</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 10: <corpname>American Tobacco Co., </corpname>3 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 10: <corpname>American Tobacco Co., </corpname>4</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 11: <corpname>Parr Vitamin Co., </corpname>et al.; <corpname>Pioneer Publications, Inc.; </corpname>
+                        <corpname>Sea Island Mills, Inc.; </corpname>
+                        <corpname>The Sealtex Co.; </corpname>
+                        <corpname>Searta Associates, Inc., </corpname>et al.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 11: <corpname>Siegel Rothschild Gans Brothers, Inc.; </corpname>
+                        <corpname>The Silex Co.; </corpname>
+                        <corpname>Somerville Mfg. Co.; </corpname>
+                        <corpname>Southern Chemical Co.; </corpname>
+                        <persname>Joseph Sperling</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 11: <corpname>Steelco Stainless Steel Co., Inc.; </corpname>
+                        <corpname>Stone-Tarlow Co., Inc.; </corpname>
+                        <corpname>Students Book Co.; </corpname>
+                        <corpname>E.Z. Suds Products Co.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 11: <corpname>The Sullivan Co.; </corpname>
+                        <corpname>Thomas B. Keen Co., </corpname>et al.; <corpname>Tomlinson of Highpoint</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle>Packet 12: <corpname>R.M. Taylor Co.; </corpname>
+                        <corpname>Turbanwav, Inc.; </corpname>
+                        <persname>William C. Tyson</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 13: Unnamed automobile dealers, 1:1</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 13: Unnamed automobile dealers, 1:2</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 13: Unnamed Tobacco Manufacturers; <corpname>United States Shoe Corp.;</corpname>
+                        <corpname> U.S. Surplus Commodities Co., Inc.; </corpname>
+                        <corpname>Vanleigh Furniture Co., Inc.; </corpname>
+                        <corpname>Vit-O-Cel Dietaids Co., </corpname>et al.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Packet 13: <corpname>Waldmere Hatcher,et al.; </corpname>
+                        <corpname>Walsh Refractories, Corp.; </corpname>
+                        <corpname>Washington Tobacco Co.; </corpname>
+                        <corpname>Western Electric Co., Inc.; </corpname>
+                        <corpname>Williams Gold Refining Co., Inc.; </corpname>
+                        <corpname>Willys-Overland Motors, Inc., </corpname>et al.; <corpname>Zenith Radio Corp.</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  
+                  <unittitle>Alphabetical Files Subseries</unittitle>
+               </did>
+               <c03>
+                  <did><container type="box">10</container>
+                     <unittitle>A-B: </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>The American Polish Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>American Tobacco Co. </corpname>(memo); </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Beaverton Bulbs; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Bristol-Meyers Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Builders Products </corpname>(Easter Small) trading as Builders Products; </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Burton Sales Co.</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>C: </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Chattanooga Medicine Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Certa-Vin Co.;</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Chicago Roller Skate Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Consumer Credit </corpname>vs. <persname>P.C. Gardner; </persname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Courant Distributing Co.;</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>D-F: </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Dandruff Corp.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Enterprise Paint;</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Florence Etta's Wyo-Min-Pro, Inc.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Foley &amp; Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Franksville Specialty Co.</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>G-H: </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Garlick-y Laboratories; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Gates Rubber Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Gum Laboratories, Inc.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>H-A-P-I-A Distributors; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>House of Marshall; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Hydro Power Sales, Inc.</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>J-L: </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Janney-Semple Hill &amp; Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Jewel Promotions; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Kelife Products, Inc.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Knomark Manufacturing Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Dr. Larson's Calf-Nipple Feeder</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>M: </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Marcellus Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Mils, Inc.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Milter Products; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Miner's Medicine Co., </corpname>et al.; </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Miss Ruth, Inc.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Mogelewsky</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11 </container>
+                     <unittitle>N: </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>New Book Company; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>New York Tailors</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>O-Sc: </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Oregon Drug Products; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Perma Plastic Products </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Pierce &amp; Stevens, Inc.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Premier Knitting Co., </corpname>et al.; </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Rest-Well Bed Board Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Ansel W. Robison Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Scientific Electric Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Scotch Woolen Mills; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>I Schwartz</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Sea:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Sears, Roebuck &amp; Co.</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Sem-Sw: </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>R.B. Sealer, Inc.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Shemano's Hair &amp; Scalp Method, Inc.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <emph render="doublequote">Slack Filled</emph>
+                           <persname>Griffin Smtih; </persname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Sonotone Corp.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Standard Chemical Mfg. Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Standard Dry Wall Products, Inc.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>H.A. Stuart Co.; </corpname>
+                           <corpname>H. Swartz; </corpname>
+                           <corpname>Sweet Brier, Inc.</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>T-V: </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Talbo, Inc.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Tecots Products Co., Inc.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>The Texas Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Theobald Industries; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Tower Eye Glass Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Townsend National Weekly, Inc.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Joseph Triner Corp.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Van Patton Pharmaceutical Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Viewtone Television and Radio Corp.</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>W:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>W &amp; M Products Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Whitehall Pharmacal Co.; </corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Wildroot Company, Inc.</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  
+                  <unittitle>Secondary Reviews Subseries</unittitle>
+               </did>
+               <c03>
+                  <did><container type="box">12</container>
+                     <unittitle>Secondary Reviews <unitdate type="inclusive" era="ce" calendar="gregorian">1948 Jan.-1950 July </unitdate> See also packet 8 for <date era="ce" calendar="gregorian">1950 Mar.</date>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(8 Folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13 </container>
+                     <unittitle>Secondary Reviews <unitdate type="inclusive" era="ce" calendar="gregorian">1950 Aug.-1951 Aug. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(7 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellany: Worksheets for <unitdate type="inclusive" era="ce" calendar="gregorian">1948-1951, </unitdate>Division of Radio and Periodical Advertising; Index of Active cases, <unitdate type="inclusive" era="ce" calendar="gregorian">1949 Feb.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellany: <subject>Independent Tobacco Experts Survey,</subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian"> 1941.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

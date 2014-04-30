@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::George Augustus Lofton Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/lofton/">lofton</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the George Augustus Lofton Papers, <date normal="1784/1941" type="inclusive" era="ce" calendar="gregorian">1784-1941</date></titleproper>
+        <author>Processed by: John Gribble; Assisted by: Alex Byrd, Brent Johanson, Rachel Pottinger; Machine-readable finding aid created by: Stephen Douglas Miller</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <p><date era="ce" calendar="gregorian"> 1993</date>
+ Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">001582407</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from
+paper by means of scanning and OCR; OCR file edited for typographical errors before encoding.
+<lb/>Date of source: November 15, 1993
+<lb/>Processed by: John Gribble; Assisted by: Alex Byrd, Brent Johanson, Rachel Pottinger
+ November 15, 1993; Finding Aid encoded by Stephen Douglas Miller, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.
+<date calendar="gregorian" era="ce">March 25, 1997</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::The George Augustus Lofton Papers)//EN" "lofton.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce">June 29, 1998</date>
+        <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the George Augustus Lofton Papers, <date calendar="gregorian" era="ce">1784-1941</date></titleproper>
+      <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham, North Carolina</publisher>
+
+      <p> 1993 Duke University. All rights reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">George Augustus Lofton papers <unitdate calendar="gregorian" era="ce" normal="1784/1941" type="inclusive">1784-1941</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Lofton, George Augustus, 1839-1914</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>14.2 Linear Feet</extent>
+<extent>1800 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+      </repository>
+      <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+	<accessrestrict>
+        <head>Access Restrictions</head>
+<p>Collection is open for research.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+	</accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in the Lofton Papers have not been transferred to Duke University. For further information, see the section on copyright in the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], The Papers of George Augusts Lofton, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The George Augustus Lofton Papers (1874-1941) were purchased by the David M. Rubenstein Rare Book &amp; Manuscript Library in 1989.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by: John Gribble; Assisted by: Alex Byrd, Brent Johanson, Rachel Pottinger</p>
+        <p>Completed November 15, 1993</p>
+	  <p>Encoded by Stephen Douglas Miller</p>
+        <p>This finding aid is NCEAD compliant.</p>
+      </processinfo>
+    </descgrp>
+    <bioghist>
+      <head>Biographical Note</head>
+      <chronlist>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1839, Dec. 25</date>
+          <event>Born, Panola County, Miss.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1861 - 1865</date>
+          <event>Served in the Confederate States of America, 9th Georgia Battalion Artillery</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1865- 1867</date>
+          <event>Principal, Wade Academy, Webster County, Ga.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1867- 1868</date>
+          <event>Admitted to bar; practiced at Americus, Ga.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1868- 1869</date>
+          <event>Ordained Baptist minister; pastor of several country churches in Georgia</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1870- 1872</date>
+          <event>Pastor, Dalton, Ga.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1871</date>
+          <event>A.M., Mercer University, Ga.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1872-1877</date>
+          <event>Pastor, First Church, Memphis, Tenn.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1873-1876</date>
+          <event>President, Southern Baptist Publishing Society</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1877-1884</date>
+          <event>Pastor, Third Church, St. Louis, Mo.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1880</date>
+          <event>D.D., Baylor University (Tex.)</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1885-1887</date>
+          <event>Pastor, Talladega, Ala.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1888</date>
+          <event>Pastor, Central Church, Nashville, Tenn.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1889</date>
+          <eventgrp>
+            <event>Moderator, Nashville Association of Baptist Churches</event>
+            <event>President, State Board Missions, Tenn.</event>
+            <event>Authored <title linktype="simple" render="italic">Character Sketches</title></event>
+          </eventgrp>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1897</date>
+          <event>Authored <title linktype="simple" render="italic">Harp of Life</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1899</date>
+          <event>Authored <title linktype="simple" render="italic">Baptist Reformation, 1611-1641, A.D.</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1900</date>
+          <event>LL.D., University of Nashville</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1902</date>
+          <event>Authored <title linktype="simple" render="italic">The Master Wheel</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1914, Dec.11</date>
+          <event>Died</event>
+        </chronitem>
+      </chronlist>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The George Augustus Lofton Papers span the years 1874-1941, although the bulk of the material dates from 1875-1900. They consist of correspondence, writings and sermons, clippings, book reviews, and printed materials. The collection principally relates to Lofton's career as a Baptist minister serving churches in Dalton, Gal; Memphis, Tenn. (First Church); St. Louis, Mo. (Third Church); Talladega, Ala.; and Nashville, Tenn. (Central Church). The collection mostly contains handwritten sermons and sermon notes, and includes little family or personal material, although a few family letters are in the Correspondence Series. The Correspondence Series, however, primarily contains letters critiquing Lofton's works, <title linktype="simple" render="italic">Review of the Question</title> and <title linktype="simple" render="italic">Bible Thoughts and Themes.</title> The Writings and Speeches Series documents Lofton's intellectual growth throughout his career as author and minister. This series also contains Lofton's published text, <title linktype="simple" render="italic">Character Sketches</title> (1890), and a manuscript draft of his autobiography titled, <title linktype="simple" render="doublequote">My Family Garden.</title> Lofton's sermons and sermon notes track both his spiritual development and writing skills throughout the years of his ministry. The sermon notes reveal his views on slavery, capital punishment, and foreign mission work. The Printed Materials Series includes published brochures and sermons written by Lofton and others, 1881-1914. The Miscellaneous Series contains an assortment of items from 1873-1940 including Lofton family photographs and other materials. Included are items pertaining to Baptist minister George Law Stewart and Dr. Adiel Sherwood.</p>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <item>
+          <persname>Sherwood, Adiel, 1791-1879. </persname>
+        </item>
+        <item>
+          <persname>Stewart, George L. </persname>
+        </item>
+        <item>
+          <subject>Mission -- sermons. </subject>
+        </item>
+        <item>
+          <subject>Authors, American -- Southern States. </subject>
+        </item>
+        <item>
+          <subject>Baptists -- Clergy. </subject>
+        </item>
+        <item>
+          <genreform>Sermons -- Baptist. </genreform>
+        </item>
+        <item>
+          <subject>Slavery -- United States -- Emancipation. </subject>
+        </item>
+        <item>
+          <subject>Capital punishment -- southern. </subject>
+        </item>
+      </list>
+    </controlaccess>
+
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle id="corr">Correspondence Series, <unitdate calendar="gregorian" era="ce" normal="1877/1921" type="inclusive">1877-1921,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box">1</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1877/1921" type="inclusive">1877-1921,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="writ">Writings and Speeches Series, <unitdate calendar="gregorian" era="ce" normal="1870/1900" type="inclusive">1870-1900,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <arrangement>
+          <p>Three subseries: Manuscripts, Sermons (arranged alphabetically), and Sermon Notes. <title linktype="simple" render="doublequote">My Family Garden</title> is a history of the <famname>Lofton </famname>family.</p>
+        </arrangement>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Manuscripts Subseries</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">1</container>
+              <unittitle>
+                <title linktype="simple" render="italic">Character Sketches,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1890" type="inclusive">1890</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Draft, <title linktype="simple" render="doublequote">My Family Garden,</title><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Sermons Subseries</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">A</title> - <title linktype="simple" render="italic">Accountability</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">2</container>
+              <unittitle><title linktype="simple" render="italic">Acquaintance</title> - <title linktype="simple" render="italic">Address</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Address</title> - <title linktype="simple" render="italic">All Important</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">The All Important Question</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">All in All</title> - <title linktype="simple" render="italic">Always</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">American</title> - <title linktype="simple" render="italic">Angel's</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Answer</title> - <title linktype="simple" render="italic">Atheistic</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Atonement</title> - <title linktype="simple" render="italic">Awakened</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">3</container>
+              <unittitle><title linktype="simple" render="italic">B</title> - <title linktype="simple" render="italic">Baptist</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Baptist Faith</title> - <title linktype="simple" render="italic">Barren Fig</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">The Baptist Trophy, 1876</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Bearing Each</title> - <title linktype="simple" render="italic">Besetting Son</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Best You Can</title> - <title linktype="simple" render="italic">Bible Doctrine</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Bible in the Public Schools</title> - <title linktype="simple" render="italic">Bible Theory of Sanctification</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Bible Thoughts and Themes for Young Men</title> - <title linktype="simple" render="italic">Blessedness of Giving</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">4</container>
+              <unittitle><title linktype="simple" render="italic">Blind Bartnaeus</title> - <title linktype="simple" render="italic">Boodle and Whiskey</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Bread of Life</title> - <title linktype="simple" render="italic">By-path Meadow</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Capital Punishment: The Law of God and Nature</title> - <title linktype="simple" render="italic">Causal Things Without Effect</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Causes of Spiritual Declension</title> - <title linktype="simple" render="italic">Child likeness: the Condition of Entrance Into God's Kingdom</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Christ at the Door</title> - <title linktype="simple" render="italic">Christ the Door</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Christ, the Only Personal...</title> - <title linktype="simple" render="italic">Christ's Example of Activity</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Christian Charity</title> - <title linktype="simple" render="italic">The Christian's High Vocation</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">5</container>
+              <unittitle><title linktype="simple" render="italic">The Christian's Prize</title> - <title linktype="simple" render="italic">Church Independence</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Church of the Living God</title> - <title linktype="simple" render="italic">Church Sunday Entertainment</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Cities of Refuge</title> - <title linktype="simple" render="italic">The Coming of Christ</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Coming Empire</title> - <title linktype="simple" render="italic">Communion with Christ</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Compassion of Christ</title> - <title linktype="simple" render="italic">The Condition of Revival</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Conditions of Spiritual Prosperity</title> - <title linktype="simple" render="italic">Conscience</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Consistency</title> - <title linktype="simple" render="italic">Crime and Misfortune of Ignorance</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">6</container>
+              <unittitle><title linktype="simple" render="italic">The Crisis of the Cross</title> - <title linktype="simple" render="italic">The City of Despair</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Crystallizing Force of Habit</title> - <title linktype="simple" render="italic">David's Sin</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">David's Sins</title> - <title linktype="simple" render="italic">Death and Judgment</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Debit Without Credit</title> - <title linktype="simple" render="italic">The Devil as an Angel of Light</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Devil's Shake</title> - <title linktype="simple" render="italic">Did Christ Come to Save the Gentiles</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Dignity and Moral Effect of Work</title> - <title linktype="simple" render="italic">The Divine Purchase</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Divine Evolution</title> - <title linktype="simple" render="italic">The Divine Pastoral of Ruth</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">7</container>
+              <unittitle><title linktype="simple" render="italic">The Divine Signet</title> - <title linktype="simple" render="italic">Doing and Knowing</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Doodle bug</title> - <title linktype="simple" render="italic">The Drunkard Maker</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Ecclesiastical Obedience to Pastoral Rule</title> - <title linktype="simple" render="italic">Efficient Service</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Efficiency of the Spirit</title> - <title linktype="simple" render="italic">Elijah and the Ravens</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Elijah No. 1</title> - <title linktype="simple" render="italic">Eloquence: A Virtue</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Exhalation of Joseph</title> - <title linktype="simple" render="italic">The Endowment of the Holy Spirit</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">8</container>
+              <unittitle><title linktype="simple" render="italic">Ephraim Joined to his Idol</title> - <title linktype="simple" render="italic">Essentials to Cross Bearing</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Esther's Faith and Courage</title> - <title linktype="simple" render="italic">Eternity</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Eternity of Hell</title> - <title linktype="simple" render="italic">Everybody's Doing It</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Evidence of Genuineness</title> - <title linktype="simple" render="italic">Excellency of the Knowledge of Christ</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Existing Errors Regarding Immorality and the Future State</title> - <title linktype="simple" render="italic">Faith the Only Medium of Grace</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Faith, the Result of Ordination</title> - <title linktype="simple" render="italic">Faithful in Little Things</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Faithful Saying</title> - <title linktype="simple" render="italic">The Fall of Satan</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">9</container>
+              <unittitle><title linktype="simple" render="italic">The Family Alter</title> - <title linktype="simple" render="italic">A Fast Young Man</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Fatal Fall and Final Triumph of Man</title> - <title linktype="simple" render="italic">The Final Triumph</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Final Fixedness of Habit</title> - <title linktype="simple" render="italic">The First Great Victory</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Fixed Heart</title> - <title linktype="simple" render="italic">Forgetting the Things Behind</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Forgiveness</title> - <title linktype="simple" render="italic">The Fountain and Issues of Life</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">10</container>
+              <unittitle><title linktype="simple" render="italic">The Friend of Publicans and Sinners</title> - <title linktype="simple" render="italic">The Fruitfulness of Death</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Full Assurance</title> - <title linktype="simple" render="italic">The Fullness of Christ 3</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Fullness of Christ 4</title> - <title linktype="simple" render="italic">Future Punishment</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Future Reward and Punishment Alike Eternal</title> - <title linktype="simple" render="italic">The Glory of the Cross</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Glory of the Cross</title> - <title linktype="simple" render="italic">Go Forward</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">God a Consuming Fire</title> - <title linktype="simple" render="italic">God's Good Things</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">God's Goodness a Motive to Repentance</title> - <title linktype="simple" render="italic">God's Kingdom and Righteousness First</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">11</container>
+              <unittitle><title linktype="simple" render="italic">God's Ownership and Service</title> - <title linktype="simple" render="italic">God's Peculiar People</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">God's People</title> - <title linktype="simple" render="italic">The Golden Calf</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Our Golden Calves</title> - <title linktype="simple" render="italic">Gospel Fishing</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Gospel Fountain</title> - <title linktype="simple" render="italic">The Grace of Compromise</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Grace of Liberality</title> - <title linktype="simple" render="italic">The Great Advocate</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Great Commandment</title> - <title linktype="simple" render="italic">Great is Diana of the Epliesiaus</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Great Invitation</title> - <title linktype="simple" render="italic">The Great Salvation</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">12</container>
+              <unittitle><title linktype="simple" render="italic">The Great Salvation</title> - <title linktype="simple" render="italic">The Great Supper</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Greatest Wrong</title> - <title linktype="simple" render="italic">Habitual Drinking</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Habitual Drinking and It's Remedy</title> - <title linktype="simple" render="italic">The Half Has Never Been Told</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Hardship of Sin</title> - <title linktype="simple" render="italic">Heaven</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Heavenly Citizenship</title> - <title linktype="simple" render="italic">Heredity</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The High Rock</title> - <title linktype="simple" render="italic">The Honor Christ</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">13</container>
+              <unittitle><title linktype="simple" render="italic">Hope</title> - <title linktype="simple" render="italic">How to Build the Church</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">How to Convert Sinners</title> - <title linktype="simple" render="italic">I Gave My Life for Thee</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Ignored and Discarded</title> - <title linktype="simple" render="italic">Immortality</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Immorality-Natural</title> - <title linktype="simple" render="italic">Immortality Typical II</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Immutability of God's Love in Christ</title> - <title linktype="simple" render="italic">The Impotency of the Sword</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Incompatible Witness</title> - <title linktype="simple" render="italic">Inferences from the Breckenridge Trial</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Insecurity</title> - <title linktype="simple" render="italic">Isaiah's Fig Potilla</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">14</container>
+              <unittitle><title linktype="simple" render="italic">The Jesus of the Age</title> - <title linktype="simple" render="italic">Is There at Hell...</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Is There a True Christianity in the World To Day</title> - <title linktype="simple" render="italic">John the Baptist</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">John's Gospel</title> - <title linktype="simple" render="italic">Joseph the Dreamer</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Joshua's Decided Religion</title> - <title linktype="simple" render="italic">The Judgment</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Judicial Blindness</title> - <title linktype="simple" render="italic">Knowing the Unknowable, Measuring the Immeasurable</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Knowledge of Christ</title> - <title linktype="simple" render="italic">The Last Enemy</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">15</container>
+              <unittitle>
+                <title linktype="simple" render="italic">The Last Enemy is Ours</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Last Judgment</title> - <title linktype="simple" render="italic">Lessons From the 1st Miracle</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Lessons From the Valley of the Dead</title> - <title linktype="simple" render="italic">Liberty: the Genius of Christianity</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Liberty, Part 1</title> - <title linktype="simple" render="italic">The Light of God's Countenance</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Lilly in the Bag</title> - <title linktype="simple" render="italic">Loathing God's Lightbread</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">16</container>
+              <unittitle><title linktype="simple" render="italic">Dr. Lofton's 19th Anniversary</title> - <title linktype="simple" render="italic">The Lord's Supper</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Loss of Moral Resistance</title> - <title linktype="simple" render="italic">Lot's Temptation</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Lot's Wife</title> - <title linktype="simple" render="italic">The Love of Christ...Part 2</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Love of Christ...</title> - <title linktype="simple" render="italic">Love's Epitome</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Love's Labor Not Lost</title> - <title linktype="simple" render="italic">Man's Fearful and Wonderful Being</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Man's First Commission</title> - <title linktype="simple" render="italic">Marriage</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">17</container>
+              <unittitle><title linktype="simple" render="italic">Me</title> - <title linktype="simple" render="italic">The Messicaic Symbolism of Great Pyramid</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Microscopic Observations</title> - <title linktype="simple" render="italic">The Mighty Minority</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Mighty to Save</title> - <title linktype="simple" render="italic">The Miracle of the (?) Demoniacs and Il-Lessions</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">A Miraculous Deliverance</title> - <title linktype="simple" render="italic">Mission of John the Baptist</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Missionary Zeal of Christianity</title> - <title linktype="simple" render="italic">Modern Paganism</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Modern Perils</title> - <title linktype="simple" render="italic">More to Follow</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">18</container>
+              <unittitle><title linktype="simple" render="italic">The Mother and the Model Child</title> - <title linktype="simple" render="italic">Municipal Righteousness</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Murder and Capital Punishment</title> - <title linktype="simple" render="italic">Nashville Under the Electric Laugh</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Nashville's Stumbling Blocks</title> - <title linktype="simple" render="italic">Nelson Merry Memorial</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The New Creature</title> - <title linktype="simple" render="italic">Ninth Anniversary Sermon</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">No Other Name</title> - <title linktype="simple" render="italic">Non-Resistance as a Force</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Not Ashamed of the Gospel</title> - <title linktype="simple" render="italic">Now</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">19</container>
+              <unittitle><title linktype="simple" render="italic">Obedience</title> - <title linktype="simple" render="italic">One Thing Needful</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Only Religion of Life...</title> - <title linktype="simple" render="italic">The Only Way</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Opportune Activity</title> - <title linktype="simple" render="italic">Our Home Mission Resources</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Our Institutions of Vice</title> - <title linktype="simple" render="italic">Our Superior Righteousness</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Our Sympathetic High Priest</title> - <title linktype="simple" render="italic">Parable of the Talents</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Passover</title> - <title linktype="simple" render="italic">Paul at Antioch</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Paul at Melita</title> - <title linktype="simple" render="italic">Paul in Rome</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">20</container>
+              <unittitle><title linktype="simple" render="italic">Paul in Shipwreck</title> - <title linktype="simple" render="italic">Paul's Encouragement at Corinth</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Paul's Good Fight</title> - <title linktype="simple" render="italic">Paul's Metaphors</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Paul's Metaphors</title>
+              </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Paul's Metaphors</title> - <title linktype="simple" render="italic">A Peculiar People</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Penitent's Prayer</title> - <title linktype="simple" render="italic">Perfection</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">21</container>
+              <unittitle><title linktype="simple" render="italic">Perfection</title> - <title linktype="simple" render="italic">Perseverance of All Saints</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Personal Effort</title> - <title linktype="simple" render="italic">Peter's Confession</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Peter's Deliverance</title> - <title linktype="simple" render="italic">The Philosophy of Fear</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Philosophy of Prayer</title> - <title linktype="simple" render="italic">Possibilities of Faith</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Possibilities Without Culture</title> - <title linktype="simple" render="italic">Power of Religious Education</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Power of the Holy Ghost</title> - <title linktype="simple" render="italic">Prayer</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Preacher in Politics</title> - <title linktype="simple" render="italic">Prejudice</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">22</container>
+              <unittitle><title linktype="simple" render="italic">Preservation of All Saints</title> - <title linktype="simple" render="italic">Procrastination</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Procrastination of Felix</title> - <title linktype="simple" render="italic">The Province of Faith</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Province of the Sword</title> - <title linktype="simple" render="italic">The Real Presence</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Reasoning Together</title> - <title linktype="simple" render="italic">Relation of Christianity to Law and Order</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Religion and Crime</title> - <title linktype="simple" render="italic">The Religious Memories of the Confederate Soldier</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Remarkable Conversations: Cornelius Remarkable Conversations: Saul</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">23</container>
+              <unittitle><title linktype="simple" render="italic">Remarkable Conversations: Simon Magus</title> - <title linktype="simple" render="italic">The Rending of the Veil</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Rending Veil</title> - <title linktype="simple" render="italic">Respect for the Sacred</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Responsibility According to Ability</title> - <title linktype="simple" render="italic">Resurrection f Lazarus</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Revitalization</title> - <title linktype="simple" render="italic">That Richmond Ring</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">23</container>
+              <unittitle><title linktype="simple" render="italic">The Rights of Property</title> - <title linktype="simple" render="italic">Running Against Hindrances</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Ruth</title> - <title linktype="simple" render="italic">The Safety of Loyalty</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Salvation and Security</title> - <title linktype="simple" render="italic">Sanctification</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">24</container>
+              <unittitle><title linktype="simple" render="italic">Saul a Persecutor</title> - <title linktype="simple" render="italic">Saved by Water</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Saving Others, Not Himself</title> - <title linktype="simple" render="italic">Science Falsely so Called</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Scriptural Figures Illustrative of the Spirit's Coming and Work</title> - <title linktype="simple" render="italic">Seeking God While He May be Found</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Seeking and Saving the Lost</title> - <title linktype="simple" render="italic">The Self Confident Fool</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Self Consecration Part 1</title> - <title linktype="simple" render="italic">Self Denial</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Self-Denial</title> - <title linktype="simple" render="italic">The Seven Beatitudes</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Shepard and the Sheep</title> - <title linktype="simple" render="italic">The Sin of Ignorance</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">25</container>
+              <unittitle><title linktype="simple" render="italic">The Sin Unto Death</title> - <title linktype="simple" render="italic">The Sinner's Self-Judgment</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Smitten Rock</title> - <title linktype="simple" render="italic">Solomon, a type of Christ</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Somewhat and the Few Things Which Ruin Churches</title> - <title linktype="simple" render="italic">Southern Baptist Convention</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Soul Winning as a Vocation</title> - <title linktype="simple" render="italic">The Spirit of Christ</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Spirit Power</title> - <title linktype="simple" render="italic">The Stone Before the Spulchur</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Stone Ezel</title> - <title linktype="simple" render="italic">Submission</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">26</container>
+              <unittitle><title linktype="simple" render="italic">Succession</title> - <title linktype="simple" render="italic">Sunday Schools</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Sunday Visitation</title> - <title linktype="simple" render="italic">The Sy (?) Woman</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Symmetrical Development</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Taffy</title> - <title linktype="simple" render="italic">The Test of Fidelity</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Test Question</title> - <title linktype="simple" render="italic">Thanksgiving</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Thanksgiving</title>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">27</container>
+              <unittitle><title linktype="simple" render="italic">Thanksgiving</title> - <title linktype="simple" render="italic">Things Settled</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Thinking and Believing</title> - <title linktype="simple" render="italic">Through Death to Life</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Thought That Turns</title> - <title linktype="simple" render="italic">To Day</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Tomorrow</title> - <title linktype="simple" render="italic">Training of Children</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Trail of Christ</title> - <title linktype="simple" render="italic">Trial of Abram's Faith</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Trinity of Graces</title> - <title linktype="simple" render="italic">My Trip to Europe 3</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">28</container>
+              <unittitle><title linktype="simple" render="italic">The Triumphant Cross</title> - <title linktype="simple" render="italic">Trust In God</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Truth as in Jesus</title> - <title linktype="simple" render="italic">the Two Ways</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Unanswerable Argument</title> - <title linktype="simple" render="italic">Universal Dominion of Christ</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Universality of Missions</title> - <title linktype="simple" render="italic">The Unrighteous Mammon</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Unused Forces Among Southern Baptist</title> - <title linktype="simple" render="italic">the Value of the Soul</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Value of Time</title> - <title linktype="simple" render="italic">Vanity Fair</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Verily! Verily!</title> - <title linktype="simple" render="italic">the Voice of Conscience</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">29</container>
+              <unittitle><title linktype="simple" render="italic">The Wages of Sin</title> - <title linktype="simple" render="italic">Walking on the Sea</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">A Wasted Life</title> - <title linktype="simple" render="italic">The Way, The Truth, The Life</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Way to Have More</title> - <title linktype="simple" render="italic">The Weeping Christ</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Weeping Mothers of Jerusalem</title> - <title linktype="simple" render="italic">On What Side Are You?</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">29</container>
+              <unittitle><title linktype="simple" render="italic">What Shall the Harvest Be</title> - <title linktype="simple" render="italic">Where Are We?</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Where Are We?</title> - <title linktype="simple" render="italic">Where Are We in Society?</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Where Are We In Discipline</title> - <title linktype="simple" render="italic">The Whole Bunch Sin Offering</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">30</container>
+              <unittitle><title linktype="simple" render="italic">Why Do I Do Right</title> - <title linktype="simple" render="italic">Without Excuse</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Witness of Christ</title> - <title linktype="simple" render="italic">Work</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Work of a Decade</title> - <title linktype="simple" render="italic">Worldliness and Its Remedy</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The World's Christmas</title> - <title linktype="simple" render="italic">The Young Man and His Difficulties</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Young Man and His Success</title> - <title linktype="simple" render="italic">The Youth of Saul</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Sermons, untitled </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">31</container>
+              <unittitle>Sermons, untitled </unittitle>
+              <physdesc>
+                <extent>(6 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Sermon Notes Subseries</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">32</container>
+              <unittitle><title linktype="simple" render="italic">Account of Francis Baupfield</title> - <title linktype="simple" render="italic">Attraction of the Cross</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Baptism</title> - <title linktype="simple" render="italic">Business</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Calling and Use of Men</title> - <title linktype="simple" render="italic">The Citizenship of Freedom</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Cleansing Blood</title> - <title linktype="simple" render="italic">Deeper Water</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Deity and Supremacy of Christ</title> - <title linktype="simple" render="italic">Driving nails for God</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">33</container>
+              <unittitle><title linktype="simple" render="italic">The Easy Yoke and the Light Burden</title> - <title linktype="simple" render="italic">Falling Into God's Hands Unprepared</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Fear of Opportunity</title> - <title linktype="simple" render="italic">The Glory of the Cross</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Golden Calf</title> - <title linktype="simple" render="italic">House Missions</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Hope of the Godless</title> - <title linktype="simple" render="italic">Is Life Worth Living</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Issues of Life</title> - <title linktype="simple" render="italic">Liberty</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Life Insurance</title> - <title linktype="simple" render="italic">Millennium</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">34</container>
+              <unittitle><title linktype="simple" render="italic">Ministerial Relief</title> - <title linktype="simple" render="italic">Our Bethels</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Our High Calling</title> - <title linktype="simple" render="italic">Prayer</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Predestination</title> - <title linktype="simple" render="italic">The Reasonable Hope</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Reign of God</title> - <title linktype="simple" render="italic">The Sin Unto Death</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Sliding from God</title> - <title linktype="simple" render="italic">The Sunrise of Christianity</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">35</container>
+              <unittitle><title linktype="simple" render="italic">The Temporal and the Eternal</title> - <title linktype="simple" render="italic">The Two Mays</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Unattained</title> - <title linktype="simple" render="italic">What Baptists Stand For</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">What is Prayer</title> - <title linktype="simple" render="italic">The World for Christ</title></unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="misc">Miscellaneous Series</unittitle>
+        </did>
+        <c02 level="file">
+          <did>
+            <container type="box">35</container>
+            <unittitle>Printed Material,<unitdate calendar="gregorian" era="ce" normal="1881/1914" type="inclusive">1881 - 1914,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02 level="file">
+          <did>
+            <container type="box">36</container>
+            <unittitle>Clippings,<unitdate calendar="gregorian" era="ce" normal="1889/1929" type="inclusive">1889 - 1920s,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Legal Papers and Family Photographs</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>General,<unitdate calendar="gregorian" era="ce" normal="1873/1912" type="inclusive">1873 - 1912,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Sherwood, Dr. Adiel, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Stewart, George L., </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1918/1940" type="inclusive">1918-1940,</unitdate>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

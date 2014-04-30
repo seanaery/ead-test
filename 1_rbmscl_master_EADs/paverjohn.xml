@@ -1,0 +1,4321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+	 <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::John Paver Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/paverjohn/">paverjohn</eadid>
+
+	 <filedesc>
+		<titlestmt>
+		  <titleproper>Guide to the John Paver Papers,
+			 <date normal="1920/1970" type="inclusive" era="ce" calendar="gregorian">1920-1979</date></titleproper>
+		  <author>Processed by: Lisa Stark; machine-readable finding aid created
+			 by: Lisa Stark</author>
+		</titlestmt>
+		<publicationstmt>
+		  <p>
+			 <date era="ce" calendar="gregorian"> 2001</date> Duke University. All Rights Reserved.</p>
+		</publicationstmt>
+		<notestmt>
+		  <note>
+			 <p>This finding aid is NCEAD compliant.</p>
+		  </note>
+		<note><p>Aleph Number: <num type="aleph">003121545</num></p></note></notestmt>
+	 </filedesc>
+	 <profiledesc>
+		<creation>Machine-readable finding aid derived from automated markup
+		  system. <lb/>Date of source: March 29, 2001 <lb/>Processed by Lisa Stark March
+		  29, 2001; Finding Aid encoded by Lisa Stark, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University,
+		  <date calendar="gregorian" era="ce">August 10, 2001</date></creation>
+		<langusage>Description is in <language>English.</language></langusage>
+	 </profiledesc>
+	 <revisiondesc>
+		<change>
+		  <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+
+		  <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::John Paver Papers)//EN" "paverjohn.xml" converted
+			 from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+		  <item>Also, the top level of the finding aid (above the dsc) changed to
+			 conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory
+			 Style Guide and in the NCEAD Best Practice Guidelines. Within the dsc, dates
+			 for series were normalized. These changes were made by Michelle Belden.</item>
+		  <item>Also, container TYPE and LABEL attribute values were standardized
+			 according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E.
+			 Bryan.</item>
+		  <item>The tag list inside index was changed to indexentry by Ruth E.
+			 Bryan.</item>
+		</change>
+	 </revisiondesc>
+  </eadheader>
+  <frontmatter>
+	 <titlepage>
+		<titleproper>Guide to the John Paver Papers, 1920-1979</titleproper>
+		<publisher> The John W. Hartman Center for Sales, Advertising &amp;
+		  Marketing History<lb/>David M. Rubenstein Rare Book &amp; Manuscript Library
+		  <lb/> Duke
+		  University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+
+		<p>
+		  <date era="ce" calendar="gregorian">(C) 2001</date> Duke University. All Rights Reserved.</p>
+	 </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+	 <did>
+		<head>Descriptive Summary</head>
+		<unittitle label="Title">John Paver papers 		  <unitdate calendar="gregorian" era="ce" normal="1920/1979" type="inclusive">1920-1979, bulk 1938-1971</unitdate></unittitle>
+		<origination label="Creator">
+		  <persname>Paver, John</persname> </origination>
+		<physdesc label="Extent"> <extent>33.1 Linear Feet</extent>
+		  <extent>16,105 Items</extent> </physdesc>
+		<repository label="Repository">
+		  <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname> </repository>
+		<physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+		<langmaterial label="Language"> <language langcode="eng">English.</language> </langmaterial>
+	 </did>
+	 <descgrp type="admininfo">
+		<head>Administrative Information</head>
+		
+		<altformavail type="digitalcollection">
+		<head>Online Items</head>
+		
+<p>Selected items from this collection have been digitized and are available in: <extref href="http://library.duke.edu/digitalcollections/paverjohn/" linktype="simple">John Paver Papers - Duke Digital Collections</extref></p>
+
+<p>Items from this collection have been described in a searchable online database: <extref href="http://library.duke.edu/digitalcollections/road/browse/paver/" linktype="simple"><emph render="bold">ROAD: Resource of Outdoor Advertising Descriptions</emph></extref></p>
+</altformavail>
+		
+		<accessrestrict>
+		  <head>Access Restrictions</head>
+		  <p>Collection is open for research.</p>
+		  <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+		  <p>All or portions of this collection may be housed off-site in
+			 Duke University's Library Service Center. There may be a 48-hour
+			 delay in obtaining these materials.</p>
+		  <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+		</accessrestrict>
+		<userestrict>
+		  <head>Use Restrictions</head>
+		  <p>The copyright interests in this collection have not been transferred
+			 to Duke University. For more information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+		</userestrict>
+		<prefercite>
+		  <head>Preferred Citation</head>
+		  <p>[Identification of item], John Paver Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+		</prefercite>
+		<acqinfo>
+		  <head>Provenance</head>
+		  <p>The John Paver Papers were transferred to the David M. Rubenstein Rare Book &amp; Manuscript Library from Fairleigh Dickinson University in
+			 1996.</p>
+		  <p>Processing of this collection was supported by the National
+			 Endowment for the Humanities.</p>
+		</acqinfo>
+		<processinfo>
+		  <head>Processing Information</head>
+		  <p>Processed by Lisa Stark</p>
+		  <p>Completed March 29, 2001</p>
+		  <p>Encoded by Lisa Stark</p>
+		  <p>Folder date spans were figured by sampling and so may not be
+			 strictly accurate for all materials in a particular folder.</p>
+		  <p>There was no meaningful arrangement to the collection when it came
+			 to the library, and so most organization has been imposed to approximate how
+			 Paver may have used the files. For instance, files obviously created during his
+			 tenure at the National Outdoor Advertising Bureau (NOAB) were pulled into a
+			 separate group of files by that name. Most individual folders hold a wide range
+			 of material types, such as manuscripts, photographs, and printed materials.
+			 Folder labels give an indication of most materials in a folder, but perhaps not
+			 all materials in the folder.</p>
+		  <p>All photographs, slides, and negatives were pulled from folders into
+			 their own series. Whenever a photograph had been filed with other papers, a
+			 photocopy was made of the photograph, and left with the papers to preserve
+			 context. Approximate dates on the backs of photos may not be accurate. They
+			 were usually entered into the image database when found, but could not be
+			 confirmed.</p>
+		  <p>Oversize materials were labeled with the same title as the folder
+			 from which they were pulled. Thus an oversize item may, for instance, have the
+			 title/label "Typescript" when the oversize item is actually a clipping, if
+			 "Typescript" is on the folder label from which the item originally came.</p>
+		  <p>Patrons should use caution since the collection still contains some
+			 rusty staples.</p>
+		  <p>This finding aid is NCEAD compliant.</p>
+
+		</processinfo>
+	 </descgrp>
+	 <bioghist>
+		<head>Biographical Note</head>
+		<chronlist>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1900 Jan. 15</date>
+			 <event>Born in Montgomery, Alabama</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1918 Oct.-Dec.</date>
+			 <event>Student Army Training Corps enlistee at University of
+				California when World War I armistice signed</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1924</date>
+			 <event>Graduated from Northwestern University (Evanston, Ill.) with a
+				Bachelor of Science degree</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1925</date>
+			 <event>Graduated from Northwestern with a degree in Civil
+				Engineering</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1925 Sept.-1927 Apr.</date>
+			 <event>Research Engineer at Sunland Sales Corporation</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1927 Apr.-1933 Jan.</date>
+			 <event>Chief Engineer-Secretary at the Outdoor Advertising
+				Association of America (OAAA)</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1933 Jan.-1936 Jan.</date>
+			 <event>Erskine Fellow and Research Associate for Miller McClintock at
+				Erskine Bureau for Street Traffic Research at Harvard University</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1936 Jan.-1937 Apr.</date>
+			 <event>Research Associate for McClintock at Advertising Research
+				Foundation</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1937 Apr.-1942 June</date>
+			 <event>Engineer and Manager of National Field Service Department at
+				National Outdoor Advertising Bureau (NOAB)</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1942 June-1944 June</date>
+			 <event>Major-Lieutenant Colonel in US Air Force during World War
+				II</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1944 Jul.-1945 Jan. 1</date>
+			 <event>Managing Director of Traffic Audit Bureau (TAB)</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1945 Jan. 1 -1962</date>
+			 <event>President and General Manager of NOAB</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1950</date>
+			 <event>Featured speaker at the national convention of the British
+				Poster Advertising Association</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1958</date>
+			 <event>Speaker again for the British Poster Advertising
+				Association</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1962</date>
+			 <event>Retired from NOAB</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1963</date>
+			 <event>Guest of honor and speaker at the European Association of
+				Outdoor Advertising in Paris</event>
+		  </chronitem>
+		  <chronitem>
+			 <date calendar="gregorian" era="ce">1972</date>
+			 <event>Died</event>
+		  </chronitem>
+		</chronlist>
+		<p>After retirement, Paver still promoted the establishment of an
+		  international organization to make use of poster advertising throughout the
+		  world and traveled extensively for this purpose. He worked closely with the
+		  British and London Poster Associations and the Outdoor Advertising Federation
+		  of Europe. Paver also published "My World War II Experiences" at some point
+		  before 1968. Only a few copies were created by printer, Harry Deckoff, of the
+		  Tribune Printing Company in New York</p>
+	 </bioghist>
+    <!--End of biohistory--><!--Begin scopecontent-->
+	 <scopecontent>
+		<head>Collection Overview</head>
+		<p>The John Paver Papers span the years 1920 through 1979, with the bulk
+		  of the collection dating from 1938 through the year 1971. The collection
+		  documents Paver's career in the outdoor advertising industry, especially his
+		  years as president of the National Outdoor Advertising Bureau (NOAB), and his
+		  work writing a textbook on the outdoor advertising medium. Series include the
+		<title linktype="simple" render="bold">Biographical Files Series</title>;
+
+		<title linktype="simple" render="bold">Writings and Speeches
+		  Series</title>;
+		<title linktype="simple" render="bold">NOAB Files Series</title>;
+		<title linktype="simple" render="bold">Subject Files Series</title>;
+		<title linktype="simple" render="bold">Personal Files Series</title>;
+		<title linktype="simple" render="bold">Miscellaneous Files
+		  Series</title>;
+		<title linktype="simple" render="bold">Photographs, Negatives, and Slides
+		  Series</title>; and
+		<title linktype="simple" render="bold">Oversize Materials</title>.
+		Researchers interested in the following subjects may find this collection
+		especially helpful: management in the advertising industry, more specifically
+		the outdoor advertising industry; the outdoor medium itself; and traffic and
+		advertising. Common formats in the collection include paper files such as
+		correspondence, meeting minutes, writings, memoranda, printed materials; and
+		photographic prints and negatives. The
+		<title linktype="simple" render="bold">Resource for Outdoor Advertising
+		  Descriptions (ROAD)</title> database, which holds searchable information about
+		the images in this and other outdoor advertising collections will be available
+		in early 2003.</p>
+		<p> Paver was instrumental in the establishment of standards for traffic
+		  measurement and, later, standards and the quality of billboards, topics all
+		  reflected in each of the collection's series, especially the
+		<title linktype="simple" render="bold">Writings and Speeches
+		  Series</title>, the
+		<title linktype="simple" render="bold">NOAB Files Series</title>, and the
+
+		<title linktype="simple" render="bold">Subject Files Series</title>. He
+		pioneered research determining the relationship between traffic or habitual
+		movement and trade activities. This work culminated in the publication,
+		<title linktype="simple" render="italic">Traffic and Trade</title>
+		(McGraw-Hill, 1935), co-authored with research associate Dr. Miller McClintock,
+		and in the founding of the industry authority for measuring outdoor advertising
+		circulation, the Traffic Audit Bureau (TAB). His contributions in the area of
+		window display (show windows) advertising, and, more generally, the outdoor
+		medium are significant as well; all are documented within the collection. A
+		large part of his career was spent in service to the National Outdoor
+		Advertising Bureau before and after World War II; he led the organization for
+		about seventeen years and became a prominent figure in the outdoor advertising
+		industry. The papers document well Paver's work on an outdoor advertising
+		textbook through draft copies and research materials. Through this activity,
+		Paver grew to become a respected authority on poster and painted display
+		advertising in the United States, and served as a speaker and consultant in the
+		last years of his life. For more detailed information about Paver's life and
+		career, see the
+		<title linktype="simple" render="bold">Biographical Note</title> above as
+		well as the
+		<title linktype="simple" render="bold">Biographical Files Series</title>.
+		All collection series are further described within the container list.</p>
+		<p>At the end of this finding aid is a list of publications removed from
+		  the collection and cataloged separately. Closely related collections in the
+		  David M. Rubenstein Rare Book &amp; Manuscript Library include the John Brennan
+		  Papers, the John Browning Papers, the Duplex Advertising Co. Records, the H.E.
+		  Fisk Collection of War Effort Mobilization Campaigns, the Outdoor Advertising
+		  Association of America Records, the Outdoor Advertising Poster Design
+		  Collection, the Outdoor Advertising Slide Library, the Garrett Orr Papers, the
+		  R.C. Maxwell Company Records, the Howard Scott Papers, and the Strobridge
+		  Lithography Company Photographs. </p>
+	 </scopecontent>
+    <!--End scopecontent--><!--Begin controlaccess-->
+	 <controlaccess>
+		<head>Subject Headings</head>
+		<p>These are searchable subject entries for this collection. Performing a
+		  search on these subjects in the Duke University Libraries online catalog will
+		  bring up other related research materials.</p>
+		<list type="simple">
+		  <item>
+			 <subject>Advertising -- Management</subject> </item>
+		  <item>
+			 <subject>Advertising -- Posters</subject> </item>
+		  <item>
+			 <subject>Advertising agencies</subject> </item>
+		  <item>
+			 <subject>Advertising executives</subject> </item>
+		  <item>
+			 <subject>Advertising layout and typography</subject> </item>
+		  <item>
+			 <subject>Advertising, Outdoor -- Design and
+				construction -- Standards</subject> </item>
+		  <item>
+			 <subject>Advertising, Outdoor -- Europe</subject> </item>
+		  <item>
+			 <subject>Advertising, Outdoor -- Law and legislation -- United
+				States</subject> </item>
+		  <item>
+			 <subject>Advertising, Outdoor -- Posters</subject> </item>
+		  <item>
+			 <subject>Advertising, Outdoor -- United States</subject> </item>
+		  <item>
+			 <subject>Billboards -- Design and construction -- Standards</subject>
+			 </item>
+		  <item>
+			 <subject>Billboards -- Europe</subject> </item>
+		  <item>
+			 <subject>Billboards -- United States</subject> </item>
+		  <item>
+			 <subject>Commercial art</subject> </item>
+		  <item>
+			 <subject>Commercial art -- United States</subject> </item>
+		  <item>
+			 <subject>Marketing</subject> </item>
+		  <item>
+			 <corpname>National Outdoor Advertising Bureau</corpname> </item>
+		  <item>
+			 <corpname>Outdoor Advertising Association of America</corpname>
+			 </item>
+		  <item>
+			 <persname>Paver, John</persname> </item>
+		  <item>
+			 <famname>Paver family</famname> </item>
+		  <item>
+			 <subject>Paver-Sills Traficounter</subject> </item>
+		  <item>
+			 <subject>Poster, American -- 20th century -- United States</subject>
+			 </item>
+		  <item>
+			 <subject>Posters -- Design</subject> </item>
+		  <item>
+			 <subject>Posters -- United States</subject> </item>
+		  <item>
+			 <subject>Show windows</subject> </item>
+		  <item>
+			 <subject>Signs and signboards</subject> </item>
+		  <item>
+			 <corpname>Traffic Audit Bureau</corpname> </item>
+		  <item>
+			 <subject>Traffic estimation</subject> </item>
+		  <item>
+			 <subject>Traffic flow</subject> </item>
+		  <item>
+			 <subject>Traffic surveys</subject> </item>
+		  <item>
+			 <corpname>United States. Air Force</corpname> </item>
+		  <item>
+			 <corpname>John W. Hartman Center for Sales, Advertising &amp;
+				Marketing History</corpname></item>
+		</list>
+	 </controlaccess>
+    <!--End controlaccess--><!--Begin container list--><!-- Sample of possible container list structure, actual markup depends upon the materials being described. --><!-- Use <genreform>, <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent> if needed. -->
+	 
+	 <dsc type="combined">
+		<head>Contents of Collection</head>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Biographical Files Series </unittitle>
+		  </did>
+		  <scopecontent>
+			 <p>(See also Legal Size Materials)</p>
+			 <p>The
+			 <title linktype="simple" render="bold">Biographical Files
+				Series</title> (
+			 <unitdate calendar="gregorian" era="ce" normal="1942/1969" type="inclusive">1942-1969</unitdate>) includes narratives typed and printed
+			 primarily for publication. Paver apparently wrote and rewrote the information
+			 in many different forms to suit individual purposes. Some documents include
+			 details of his work and military experience (
+			 <corpname>U.S. Air Force</corpname>), athletic experience, work
+			 performed for
+			 <subject>NOAB,</subject> as well as résumés, and
+			 <genreform>letters of congratulation and recommendation,</genreform>
+			 including items from
+			 <persname>Miller McClintock,</persname> J. Walter Thompson
+			 advertising executive
+			 <persname>Norman Strouse,</persname> and others. A publicity file
+			 holds articles and other printed materials containing various blurbs about
+			 Paver.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">1</container>
+				<unittitle>Miscellaneous Biographical Information</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1942/1964" type="inclusive">1942-1964</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1942/1967" type="inclusive">1942-1967</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1955/1962" type="inclusive">1955-1962</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1956/1968" type="inclusive">1956-1968</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>NOAB</corpname> Service,
+				  <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Publicity,
+				  <unitdate calendar="gregorian" era="ce" normal="1927/1965" type="inclusive">1927-1965</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Writings and Speeches Series</unittitle>
+		  </did>
+		  <scopecontent>
+			 <p>(See also Legal Size and Oversize Materials)</p>
+			 <p>The
+			 <title linktype="simple" render="bold">Writings and Speeches
+				Series</title> (
+			 <unitdate calendar="gregorian" era="ce" normal="1923/1972" type="inclusive">1923-1972</unitdate>) contains a mix of document formats. Much
+			 of the
+			 <genreform>correspondence, </genreform>
+			 <genreform>memoranda, </genreform> printed materials, and other
+			 non-manuscript items are presumed to relate to the drafts with which they are
+			 foldered--probably as research materials. The majority of the items in this
+			 series are draft pieces of Paver's planned textbook on the
+			 <subject>outdoor advertising medium,</subject> mostly in
+			 <genreform>holograph</genreform> (handwritten) or typescript formats,
+			 although the book was never published. Book segment titles were distinguished
+			 or subjects were assigned to folders wherever possible. The series is divided
+			 into two subseries, Writings and Speeches by Paver, and Writings and Speeches
+			 by Others. Paver's materials are further subdivided into three groups: (1)
+			 files created for his textbook, (2) speeches by Paver, and (3) miscellaneous
+			 writings by Paver. Writings and Speeches by Others contains far fewer items,
+			 but has similar groupings within it. Photographic materials from this series
+			 and all others have been removed to the
+			 <title linktype="simple" render="bold">Photographs, Negatives, and
+				Slides Series.</title> Photocopies of most photographs were left in original
+			 order to preserve context.</p>
+		  </scopecontent>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Writings and Speeches by Paver Subseries</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Textbook Files (alphabetical by subject)</unittitle>
+				</did>
+				<scopecontent>
+				  <p>Paver's textbook files are evidence of his efforts to create a
+					 comprehensive introduction and analysis of the
+					 <subject>outdoor medium.</subject> Folders with title- or
+					 subject-identified materials make up the initial alphabetical run. These are
+					 most often
+					 <genreform>typescripts with holograph edits,</genreform> but
+					 there are some
+					 <genreform>holograph manuscripts</genreform> as well. Included
+					 are long descriptions of both subjects and organizations such as "the
+					 <subject>advertising agency,</subject>" the
+					 <corpname>Advertising Council,</corpname> the
+					 <corpname>National Outdoor Advertising Bureau,</corpname> the
+					 <corpname>Traffic Audit Bureau,</corpname> the
+					 <corpname>Outdoor Advertising Association of
+						America,</corpname> the
+					 <corpname>American Association of Advertising
+						Agencies,</corpname> the
+					 <corpname>Advertising Research Foundation, </corpname>
+					 <subject>techniques of buying, </subject>
+					 <subject>art creation, </subject>
+					 <subject>writing advertising copy, </subject>
+					 <subject>market coverage, </subject>
+					 <subject>painted displays, </subject>
+					 <subject>public relations, </subject> and more general topics
+					 such as "
+					 <subject>Outdoor Advertising in the US.</subject>"</p>
+				</scopecontent>
+				<c04>
+				  <did>
+					 <container type="box">1</container>
+					 <unittitle>The
+						<subject>Advertising Agency, </subject>
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>The
+						<corpname>Advertising Council, </corpname>
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Advertising Research Foundation, </corpname> Old
+						Chapter XXI,
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>"American Association of Advertising Agencies,"
+						  </corpname>
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Art and Copy, Chapter XII,
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Association of National Advertisers </corpname> and
+
+						<corpname>NOAB, </corpname>
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<subject>Buying Techniques, </subject> Chapter VII,
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Cooperative Methods,
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<subject>Creation of Message </subject> Technique,
+						<genreform>Typescript Fragments with Holograph Edits,
+						  </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<subject>Determination of Allotments, </subject>
+						<genreform>Typescript </genreform> and Fragments,
+						<unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Discounts, Miscellaneous
+						<genreform>Typescript Fragments with Holograph Edits,
+						  </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971 and undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Discounts and
+						<subject>Pricing, </subject>
+						<genreform>Typescript Fragment, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Economical
+						<subject>Coverage </subject> Manuscripts,
+						<unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935,</unitdate> </unittitle>
+					 <physdesc> <extent>(3 folders)</extent> </physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Educational Programs,
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1961/1964" type="inclusive">1961-1964</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>"Effect of Freeways on the Outdoor Medium,"
+						<genreform>Typescript </genreform> and a
+						<geogname>Los Angeles </geogname> Survey,
+						<unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965 and undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Evolution of the Medium,
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Future of Outdoor Advertising,
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<subject>Media Selection, </subject>
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Media Volume Statistics,
+						<unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">up to 1965</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Merchandising,
+						<genreform>Typescript Fragments </genreform> and
+						<genreform>Sample Ads, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>MONI </corpname>
+						<corpname>(Metropolitan Outdoor Network, Inc.) </corpname>
+						and National Sales,
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<subject>Painted Display, </subject>
+						<subject>Pricing, </subject>
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<subject>Painted Displays, </subject>
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Public Relations,
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1963/1972" type="inclusive">1963-1972</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Public Relations/Criticism,
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1958/1968" type="inclusive">1958-1968</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Qualities of Outdoor Advertising,
+						<unitdate calendar="gregorian" era="ce" normal="1951/1964" type="inclusive">1951-1964</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<subject>Reach </subject>
+						<subject>Frequency, </subject>
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Traffic Audit Bureau </corpname>
+						<corpname>(TAB) </corpname> Program,
+						<unitdate calendar="gregorian" era="ce" normal="1964/1971" type="inclusive">1964-1971,</unitdate> </unittitle>
+					 <physdesc> <extent>(2 folders)</extent> </physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Traffic Audit Bureau </corpname>
+						<corpname>(TAB), </corpname> Typescript Copies,
+						<unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">1972 and undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<subject>Transportation Advertising, </subject>
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>United States,
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Users of Outdoor Advertising,
+						<genreform>Typescripts, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">2</container>
+					 <unittitle>Variation of Values,
+						<genreform>Holograph and Typescript Fragments with Holograph
+						  Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated,</unitdate> </unittitle>
+					 <physdesc> <extent>(2 folders)</extent> </physdesc>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle><lb/>Textbook Files (alphabetical by part of
+					 book)</unittitle>
+				</did>
+				<scopecontent>
+				  <p>The next alphabetical run within Paver's textbook files
+					 contains items comparable to the alphabetical by subject group, but is ordered
+					 by genre/book part. It includes portions Paver labeled as the
+					 <genreform>appendix, </genreform> illustrations, and more.
+					 There are
+					 <genreform>traffic flow graphs </genreform> and a
+					 <genreform>glossary </genreform> of industry terms helpful for
+					 the novice advertiser. In addition, there are
+					 <genreform>outlines, </genreform> questionnaire results, and a
+					 large number of
+					 <genreform>manuscript fragments. </genreform> Similar to the
+					 previous group, these files describe outdoor advertising in detail, but also
+					 highlight its importance in the world with fragments such as one titled,
+					 "Posters as a Visual Aid in Projecting America's Image to the World."
+					 <persname>Paver </persname> compared the medium to others,
+					 wrote about industry changes and
+					 <subject>outdoor advertising abroad, </subject> and discussed
+					 industry research.</p>
+				</scopecontent>
+				<c04>
+				  <did>
+					 <container type="box">2</container>
+					 <unittitle>Appendix,
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Forms,
+						<unitdate calendar="gregorian" era="ce" normal="1938/1968" type="inclusive">1938-1968</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<genreform>Glossary, </genreform>
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<genreform>Glossary, </genreform>
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<genreform>Illustrations, </genreform>Chapter 1,
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated,</unitdate> </unittitle>
+					 <physdesc> <extent>(2 folders)</extent> </physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<genreform>Illustrations, </genreform>Chapter X,
+						<unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958 and undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Illustrative Material,
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated,</unitdate> </unittitle>
+					 <physdesc> <extent>(2 folders)</extent> </physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<genreform>Negatives </genreform>for Book, Japan,
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<genreform>Outline </genreform>for Textbook,
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<genreform>Outline </genreform>for Advertising Techniques,
+						<unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Questionnaire Results,
+						<title linktype="simple" render="doublequote">The
+						  Medium,</title>
+						<unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Questionnaire Results,
+						<unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<genreform>Typescript Fragments
+						  </genreform>(Miscellaneous):</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1933/1962" type="inclusive">1933-1962</unitdate> </unittitle>
+						<physdesc> <extent>(2 folders)</extent> </physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1948/1962" type="inclusive">1948-1962 and undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1948/1963" type="inclusive">1948-1963 and undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1949/1958" type="inclusive">1949-1958</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1950/1968" type="inclusive">1950-1968</unitdate> </unittitle>
+						<physdesc> <extent>(4 folders)</extent> </physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953 and undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1955" type="inclusive">1955 and undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1960/1964" type="inclusive">1960-1964 and undated</unitdate> </unittitle>
+						<physdesc> <extent>(4 folders)</extent> </physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">3</container>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1960/1964" type="inclusive">1960-1964 and undated</unitdate> </unittitle>
+						<physdesc> <extent>(3 folders)</extent> </physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">1960-1969</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961 and undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962 and undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1962/1965" type="inclusive">1962-1965</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964 and undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1968/1970" type="inclusive">1968-1970</unitdate> </unittitle>
+						<physdesc> <extent>(2 folders)</extent> </physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+						<physdesc> <extent>(7 folders)</extent> </physdesc>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Volume II:</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <genreform>Table of Contents </genreform>
+						  <genreform>Typescripts </genreform>and Additional
+						  Fragments,
+						  <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <genreform>Typescript Fragments </genreform>Miscellaneous,
+						  <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960 and undated</unitdate> <lb/><lb/></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Speeches</genreform> </unittitle>
+				</did>
+				<scopecontent>
+				  <p>Paver's
+					 <genreform>speeches </genreform>reveal his broad knowledge of
+					 the
+					 <subject>outdoor advertising industry; </subject>he spoke on
+					 the medium in general as well as on more specific topics like
+					 <subject>traffic measurement. </subject> This group of
+					 materials is evidence of his many speaking engagements in his home state of
+					 Texas, as well as abroad for the British Poster Advertising Association and the
+					 Outdoor Advertising Association of Australia. Paver also presented to
+					 organizations such as state outdoor advertising associations, and to smaller
+					 groups including a student women's advertising club. A number of the speeches
+					 were obviously connected to his work with the
+					 <corpname>National Outdoor Advertising Bureau </corpname>or
+					 were at least given during his employment there. </p>
+				</scopecontent>
+				<c04>
+				  <did>
+					 <container type="box">3</container>
+					 <unittitle>Ad Club Speech,
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Austin
+						<genreform>Speech, </genreform>
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Australia
+						<genreform>Speech, </genreform>
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Australia
+						<genreform>Speech, </genreform>
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>British Poster Advertising Association
+						<genreform>Speech, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958 and undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">4</container>
+					 <unittitle>Canada
+						<genreform>Speech, </genreform>
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Houston
+						<genreform>Speech, </genreform>
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1954/1957" type="inclusive">1954-1957</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>International Congress
+						<genreform>Speech, </genreform>
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>NOAB
+						<genreform>Speeches, </genreform>
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Pennsylvania Meeting
+						<genreform>Speech, </genreform>
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Poster Advertising Association of Canada Meetings,
+						<genreform>Typescript With Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<genreform>Speeches, </genreform>Miscellaneous:</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1945/1954" type="inclusive">1945-1954</unitdate> </unittitle>
+						<physdesc> <extent>(4 folders)</extent> </physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1956/1959" type="inclusive">1956-1959</unitdate> </unittitle>
+						<physdesc> <extent>(3 folders)</extent> </physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate> </unittitle>
+						<physdesc> <extent>(2 folders)</extent> </physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1960/1961" type="inclusive">1960-1961</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate> </unittitle>
+						<physdesc> <extent>(5 folders)</extent> </physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962 and undated</unitdate> <lb/> <lb/> </unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Miscellaneous Writings</unittitle>
+				</did>
+				<scopecontent>
+				  <p>Miscellaneous writings by
+					 <persname>Paver, </persname>some going back to the beginnings
+					 of his advertising career, include files regarding his college thesis on
+					 <subject>transportation in Chicago, </subject>and
+				  <title linktype="simple" render="italic">Traffic and
+					 Trade</title> Research Report, a work completed at Harvard, 1934. There is a
+				  broader picture of the man in drafts of his World War II experiences and family
+				  history. </p>
+				</scopecontent>
+				<c04>
+				  <did>
+					 <container type="box">4</container>
+					 <unittitle>Chicago Subway College Thesis: </unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1923" type="inclusive">1923 and undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">5</container>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924 and undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">1924</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<persname>Paver </persname>History,
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">1972</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<persname>Paver </persname>History,
+						<genreform>Typescript, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Trade Articles,
+						<unitdate calendar="gregorian" era="ce" normal="1958/1961" type="inclusive">1958-1961</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title linktype="simple" render="italic">Traffic and
+						  Trade</title> Research Report,
+						<unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934</unitdate> </unittitle>
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Writings and Speeches by Others Subseries</unittitle>
+			 </did>
+			 <scopecontent>
+				<p>(See also Legal Size Materials)</p>
+				<p>
+				  <persname>Paver </persname>likely used these materials in his
+				  research and writings on the industry. Authors include advertising executives
+				  <persname>Norman Strouse </persname>and
+				  <persname>Kerwin Fulton. </persname> Topics such as
+				  <subject>advertising leasing, </subject>criticism and other
+				  problems facing the industry,
+				  <subject>advertising and war, </subject>
+				  <corpname>NOAB, </corpname>personnel, and
+				  <subject>European outdoor advertising </subject>are discussed.
+				  The files are primarily arranged alphabetically by author.</p>
+			 </scopecontent>
+			 <c03>
+				<did>
+				  <container type="box">5</container>
+				  <unittitle>
+					 <persname>Davidson, Craig, </persname>
+					 <subject>Advertising Agency-Media Relations, </subject>
+					 <unitdate calendar="gregorian" era="ce" normal="1945" type="inclusive">1945</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <persname>Fulton, Kerwin H. </persname>et al, Miscellaneous
+					 Writings,
+					 <unitdate calendar="gregorian" era="ce" normal="1938/1957" type="inclusive">1938-1957</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>[Henry], Leasing,
+					 <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <persname>Hopkins, Frank T. </persname>
+					 <genreform>Speeches, </genreform>
+					 <unitdate calendar="gregorian" era="ce" normal="1936/1940" type="inclusive">1936-1940</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <persname>Resor, Stanley, </persname>The Importance of Ideas in
+					 Selling,
+					 <unitdate calendar="gregorian" era="ce" normal="1936" type="inclusive">1936</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Speeches, </genreform>Miscellaneous:</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1941/1962" type="inclusive">1941-1962</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1945/1949" type="inclusive">1945-1949</unitdate> </unittitle>
+					 <physdesc> <extent>(2 folders)</extent> </physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1948/1952" type="inclusive">1948-1952</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1952/1958" type="inclusive">1952-1958</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1954" type="inclusive">1954</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1954/1956" type="inclusive">1954-1956</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Miscellaneous (Excerpts from TAB),
+						<unitdate calendar="gregorian" era="ce" normal="1965/1968" type="inclusive">1965-1968</unitdate> </unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Typescript Fragments </genreform>[by
+					 <persname>Cerrini?</persname>],
+					 <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>National Outdoor Advertising Bureau (NOAB) Files Series
+				</unittitle>
+		  </did>
+		  <scopecontent>
+			 <p>(See also Legal Size and Oversize Materials)</p>
+			 <p>The
+			 <title linktype="simple" render="bold">National Outdoor Advertising
+				Bureau (NOAB)</title>,
+			 <date calendar="gregorian" era="ce">ca. 1919-1970,</date> the
+			 organization with which
+			 <persname>Paver</persname> is most closely associated, was created to
+			 help advertisers obtain recognition by billboard owners and to handle
+			 arrangements for outdoor advertising. These files date from
+			 <unitdate calendar="gregorian" era="ce" normal="1925/1968" type="inclusive">1925 through 1968</unitdate>.
+			 <corpname>NOAB </corpname> was a cooperative organization owned
+			 exclusively by the advertising agency members and helped them with all phases
+			 of an outdoor campaign.
+			 <persname>Paver </persname> assumed leadership of the agency in
+			 <date calendar="gregorian" era="ce">1945, </date> and by
+			 <date calendar="gregorian" era="ce">1958 </date> it placed over $70
+			 million in contracts for painted displays, billboards, and other outdoor
+			 advertising. He directed the organization for about seventeen years, a time
+			 span reflected within the collection, but his time working for the
+			 <corpname>NOAB </corpname> Field Service Office in the late 1930s is
+			 also represented. The papers document his years of leadership through a variety
+			 of formats including
+			 <genreform>minutes of NOAB's executive committee </genreform> from
+			 1950 through the time of his retirement. He represented
+			 <corpname>NOAB </corpname> through correspondence and multiple
+			 speaking engagements, serving often as a cheerleader promoting the industry.
+			 The series is arranged alphabetically by subject, revealing information about
+			 his travels abroad, contract and policy information, the industry's view of
+			 <corpname>NOAB, </corpname>Paver's specific duties, poster rates and
+			 evaluation, and work for Standard Oil. Particular attention is paid to the
+			 <corpname>Traffic Audit Bureau </corpname>
+			 <corpname>(TAB) </corpname>which Paver helped to establish and later
+			 defend.
+			 <corpname>TAB </corpname>became the industry's body to measure
+			 circulation of outdoor advertising and is still in existence. Included also are
+			 several manuals, some printed materials and other items about or related to
+			 <corpname>NOAB.</corpname></p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">5</container>
+				<unittitle>Accounting Department and Tabulating Department
+				  <genreform>Manual, </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Australia Visit,
+				  <unitdate calendar="gregorian" era="ce" normal="1953/1960" type="inclusive">1953-1960</unitdate> </unittitle>
+				<physdesc> <extent>(2 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <persname>Brennan, John, </persname>
+				  <genreform>Correspondence, </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1949/1952" type="inclusive">1949-1952</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>Canadian Poster Association </corpname>Meeting,
+				  <unitdate calendar="gregorian" era="ce" normal="1958/1961" type="inclusive">1958-1961</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Contract Terms, Cancellation Clauses, etc.,
+				  <unitdate calendar="gregorian" era="ce" normal="1944/1961" type="inclusive">1944-1961 and undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Costs,
+				  <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <genreform>Executive Committee Meeting Minutes:</genreform>
+				  </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1950/1953" type="inclusive">1950-1953</unitdate> </unittitle>
+				  <physdesc> <extent>(2 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">6</container>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1954/1957" type="inclusive">1954-1957</unitdate> </unittitle>
+				  <physdesc> <extent>(2 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1958/1962" type="inclusive">1958-1962</unitdate> </unittitle>
+				  <physdesc> <extent>(2 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <genreform>Field Service Manual, </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Field Service Scenario,
+				  <unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>International Congress Research and Art Session,
+				  <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Legislation:</subject> </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1957/1968" type="inclusive">1957-1968</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Media Records,
+				  <unitdate calendar="gregorian" era="ce" normal="1954/1956" type="inclusive">1954-1956</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>NOAB, </corpname>Attitudes Toward and Status,
+				  <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960 and undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>NOAB </corpname>Facts,
+				  <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <genreform>Operation, Manual of:</genreform> </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1925/1962" type="inclusive">1925-1962</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1960/1961" type="inclusive">1960-1961</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <persname>Paver, </persname>Services Performed By,
+				  <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate> </unittitle>
+				<physdesc> <extent>(2 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <genreform>Personnel Manual, </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Policy Establishment, Report on Hartigan's Proposal,
+				  <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Poster Billing,
+				  <unitdate calendar="gregorian" era="ce" normal="1960/1961" type="inclusive">1960-1961</unitdate>[Manual?]</unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Poster Rate Book,
+				  <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964</unitdate> </unittitle>
+				<physdesc> <extent>(3 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Poster
+				  <subject>Showings</subject> Evaluation,
+				  <unitdate calendar="gregorian" era="ce" normal="1960/1967" type="inclusive">1960-1967</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Region One Annual Meeting (Portsmouth, N.H.),
+				  <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961 and undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Relationship to Agencies,
+				  <unitdate calendar="gregorian" era="ce" normal="1955" type="inclusive">1955</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Six-sheet </subject> and
+				  <subject>Three-sheet Poster </subject>Comments,
+				  <unitdate calendar="gregorian" era="ce" normal="1948/1962" type="inclusive">1948-1962</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Standard Oil File,
+				  <unitdate calendar="gregorian" era="ce" normal="1945/1953" type="inclusive">1945-1953</unitdate> </unittitle>
+				<physdesc> <extent>(2 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Statistical Department, Account Supervisor's
+				  <genreform>Manual, </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1960/1962" type="inclusive">1960-1962 and undated</unitdate> </unittitle>
+				<physdesc> <extent>(2 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">7</container>
+				<unittitle>Statistical Market Research,
+				  <unitdate calendar="gregorian" era="ce" normal="1947/1962" type="inclusive">1947-1962</unitdate> </unittitle>
+				<physdesc> <extent>(2 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>Traffic Audit Bureau </corpname>
+				  <corpname>(TAB)</corpname> History:</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1931/1963" type="inclusive">1931-1963</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1946/1965" type="inclusive">1946-1965</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1947/1952" type="inclusive">1947-1952</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Politz Study,
+					 <unitdate calendar="gregorian" era="ce" normal="1954" type="inclusive">1954</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>Traffic Audit Bureau </corpname>
+				  <corpname>(TAB) </corpname>Needs and Progress:</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1938/1959" type="inclusive">1938-1959</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1947/1957" type="inclusive">1947-1957</unitdate> </unittitle>
+				  <physdesc> <extent>(2 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1958/1961" type="inclusive">1958-1961</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>For Chapter on Media:</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1948" type="inclusive">1948</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1948/1961" type="inclusive">1948-1961</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1948/1963" type="inclusive">1948-1963</unitdate> </unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Operating Costs, "Personal,"
+					 <unitdate calendar="gregorian" era="ce" normal="1948" type="inclusive">1948</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>Traffic Audit Bureau </corpname>
+				  <corpname>(TAB)</corpname> Research Institute, Summer Pilot
+				  Study,
+				  <unitdate calendar="gregorian" era="ce" normal="1936/1965" type="inclusive">1936-1965</unitdate> </unittitle>
+				<physdesc> <extent>(2 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Traffic Counts, Los Angeles,
+				  <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Workshop, Chicago Outdoor,
+				  <unitdate calendar="gregorian" era="ce" normal="1953/1961" type="inclusive">1953-1961</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Subject Files Series</unittitle>
+		  </did>
+		  <scopecontent>
+			 <p>(See also Legal Size and Oversize Materials)</p>
+			 <p>The
+			 <title linktype="simple" render="bold">Subject Files Series </title>
+			 <unitdate calendar="gregorian" era="ce" normal="1920/1972" type="inclusive">(1920-1972)</unitdate> is arranged alphabetically by topic,
+			 proper name, or title, and contains a mix of formats including printed
+			 materials, writings,
+			 <genreform>correspondence, </genreform>and
+			 <genreform>maps. </genreform> Many folders appear to be collections
+			 of research materials for his writing, and all pertain to his professional
+			 activities although not always purely outdoor advertising. There are files
+			 relating to his window study performed in
+			 <geogname>Allentown, Pa., </geogname> traffic information for parts
+			 of his home state of Texas, auto safety and registration, his writing and
+			 publication plans, the
+			 <corpname>"Bull Penn" </corpname> professional organization,
+			 <subject>Canadian outdoor advertising, </subject> costs,
+			 <subject>advertising coverage, </subject> an international
+			 conference, Paver's traffic counting invention
+			 <subject>(Paver-Sills Traficounter), </subject>parking, Paver's work
+			 with research associate
+			 <persname>Leon Quera, </persname>awareness of outdoor advertising,
+			 <subject>regulation of the industry, </subject>
+			 <subject>billboard structure, </subject>
+			 <subject>traffic engineering </subject>and safety. Correspondents
+			 include the
+			 <corpname>British Poster Advertising Association </corpname>and other
+			 prominent industry figures such as
+			 <persname>Ben Egan, </persname>
+			 <persname>Karl Eller </persname>(Eller Media), and
+			 <persname>T. Walter Tyrrell.</persname></p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">7</container>
+				<unittitle>
+				  <corpname>Advertising Research Foundation, </corpname>
+				  <unitdate calendar="gregorian" era="ce" normal="1957" type="inclusive">1957 and undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <geogname>Allentown, Pa. </geogname>(See also Data):</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Maps </genreform>and Data,
+					 <unitdate calendar="gregorian" era="ce" normal="1936" type="inclusive">1936 and undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Statistical Tables, </genreform>
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Window Study,
+					 <unitdate calendar="gregorian" era="ce" normal="1936" type="inclusive">1936</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>American Marketing Association, </corpname>
+				  <unitdate calendar="gregorian" era="ce" normal="1962/1966" type="inclusive">1962-1966</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>American Security Council, </corpname>
+				  <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>A.N.A. </corpname>
+				  <corpname>[Association of National Advertisers?]</corpname>
+				  Members and Non-members,
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Audit Procedures,
+				  <unitdate calendar="gregorian" era="ce" normal="1933/1934" type="inclusive">1933-1934</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Austin Transportation Study,
+				  <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <geogname>Australia</geogname> and
+				  <geogname>Japan </geogname>
+				  <genreform>Correspondence,</genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1958/1961" type="inclusive">1958-1961</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Auto Registration Growth,
+				  <unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963 and undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>Auto Safety Foundation, </corpname>1969 </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Book
+				  <genreform>Correspondence: </genreform></unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1954/1964" type="inclusive">1954-1964</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1966/1968" type="inclusive">1966-1968</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <persname>Bowack, Charles, </persname>
+				  <unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>British Poster Advertising Association, </corpname>
+				  <unitdate calendar="gregorian" era="ce" normal="1962/1972" type="inclusive">1962-1972</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>Bull Penn:</corpname> </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1939/1949" type="inclusive">1939-1949</unitdate> </unittitle>
+				  <physdesc> <extent>(2 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">8</container>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1939/1949" type="inclusive">1939-1949</unitdate> </unittitle>
+				  <physdesc> <extent>(2 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1945/1959" type="inclusive">1945-1959</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Personnel,
+					 <unitdate calendar="gregorian" era="ce" normal="1949/1960" type="inclusive">1949-1960</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>C-V Rating,
+				  <unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">1930</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Canadian Methods,
+				  <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Cost of Outdoor Advertising, </subject>
+				  <unitdate calendar="gregorian" era="ce" normal="1933/1934" type="inclusive">1933-1934</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Cost of Outdoor vs. Newspaper, </subject>
+				  <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">[ca. 1962]</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Coverage and Capacity, </subject>
+				  <unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Coverage, </subject>
+				  <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960 and undated</unitdate> </unittitle>
+			 </did>
+			 <scopecontent>
+				<p>(See also Los Angeles, San Francisco, and Seattle)</p>
+			 </scopecontent>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Data, [Allentown, Pa.?]
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Driver Training Information,
+				  <unitdate calendar="gregorian" era="ce" normal="1968/1970" type="inclusive">1968-1970</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <persname>Egan, Ben </persname>-
+				  <genreform>Correspondence, </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1963/1965" type="inclusive">1963-1965</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <persname>Eller, Karl:</persname> </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Correspondence, </genreform>
+					 <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Correspondence </genreform>and
+					 <corpname>TAB</corpname> Reorganization,
+					 <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971 and undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Engineer Registration,
+				  <unitdate calendar="gregorian" era="ce" normal="1969/1970" type="inclusive">1969-1970</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Foreign
+				  <genreform>Correspondence,</genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Foreign Market Advertising: </subject> </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1963/1964" type="inclusive">1963-1964</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1964/1965" type="inclusive">1964-1965</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <geogname>Fresno </geogname>Growth Appraisal and Department of
+				  Commerce
+				  <genreform>Correspondence, </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1932/1936" type="inclusive">1932-1936</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Gasoline Business Survey,
+				  <unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">[1946?]</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <persname>Hendon, Don </persname>-
+				  <genreform>Correspondence, </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">1972</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <persname>Hodges, J. (M. Gen.), </persname>
+				  <unitdate calendar="gregorian" era="ce" normal="1962/1971" type="inclusive">1962-1971</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>Insurance Institute for Traffic Safety: </corpname>
+				  </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1967/1970" type="inclusive">1967-1970</unitdate> </unittitle>
+				  <physdesc> <extent>(2 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1970/1972" type="inclusive">1970-1972</unitdate> </unittitle>
+				  <physdesc> <extent>(2 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle> International Advertising,
+				  <unitdate calendar="gregorian" era="ce" normal="1960/1961" type="inclusive">1960-1961</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle> International Conference--
+				  <geogname>Toronto</geogname>--
+				  <genreform>Correspondence,</genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1958/1960" type="inclusive">1958-1960</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle> International Congress,
+				  <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle> International Congress--Publicity,
+				  <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle> International Congress--Slide
+				  <genreform>Correspondence, </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>International Executive Service Corp., </corpname>
+				  <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969 and undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle> International Poster Statistics,
+				  <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>London--Canada Study and Window Display Research,
+				  <unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <geogname>Los Angeles </geogname>Coverage: </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">9</container>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">[1961?]</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>McGraw-Hill </corpname>Agreements,
+				  <unitdate calendar="gregorian" era="ce" normal="1967/1968" type="inclusive">1967-1968</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Media and Advertising Costs,
+				  <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964 and undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Media Costs,
+				  <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Merchandising,
+				  <unitdate calendar="gregorian" era="ce" normal="1958/1964" type="inclusive">1958-1964</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>Mills and Rockley's Ltd., </corpname>
+				  <unitdate calendar="gregorian" era="ce" normal="1963/1966" type="inclusive">1963-1966</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>New Jersey State Survey,
+				  <unitdate calendar="gregorian" era="ce" normal="1934/1952" type="inclusive">1934-1952</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Newspaper vs. Outdoor,
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>Outdoor Advertising Association of America, </corpname>
+
+				  <unitdate calendar="gregorian" era="ce" normal="1960/1964" type="inclusive">1960-1964</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Paint Pricing History,
+				  <unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934 and undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Parking Terminals and Facilities Committee,
+				  <unitdate calendar="gregorian" era="ce" normal="1938/1940" type="inclusive">1938-1940</unitdate> </unittitle>
+				<physdesc> <extent>(2 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Paver--Sills Traficounter: </subject> </unittitle>
+			 </did>
+			 <scopecontent>
+				<p>(See also small round box within box 19)</p>
+			 </scopecontent>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1938/1941" type="inclusive">1938-1941</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1939" type="inclusive">[1939?]</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940 and undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1940/1941" type="inclusive">1940-1941 and undated</unitdate>
+					 </unittitle>
+				  <physdesc> <extent>(2 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Permissions,
+				  <unitdate calendar="gregorian" era="ce" normal="1964/1969" type="inclusive">1964-1969</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>Post Cereals, </corpname>
+				  <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">[1961?]</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>P.P.S. </corpname>
+				  <corpname>[Portable Parking Structures] Inc., </corpname>
+				  <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <genreform>Promotion Correspondence, </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1945/1946" type="inclusive">1945-1946</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <genreform>Publisher Correspondence, </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1967/1969" type="inclusive">1967-1969</unitdate> </unittitle>
+				<physdesc> <extent>(3 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <persname>Quera, Leon, </persname>
+				  <unitdate calendar="gregorian" era="ce" normal="1967/1970" type="inclusive">1967-1970</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <persname>Quera, Leon </persname>- "The Quera Mess:"</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1966/1969" type="inclusive">1966-1969</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1967/1968" type="inclusive">1967-1968</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Recognition / Awareness of Outdoor Advertising,
+				  <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Regulation of Industry:</subject> </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1961/1970" type="inclusive">1961-1970</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1964/1968" type="inclusive">1964-1968</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Regulation of Industry </subject> and
+				  <subject>OAAA, </subject>
+				  <unitdate calendar="gregorian" era="ce" normal="1965/1968" type="inclusive">1965-1968</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Remembrance and Forgetting, </subject>
+				  <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">[1960s?]</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Research Processes,
+				  <unitdate calendar="gregorian" era="ce" normal="1948/1963" type="inclusive">1948-1963</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Retail Store Locations,
+				  <unitdate calendar="gregorian" era="ce" normal="1936" type="inclusive">[1936?]</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Sales, Local,
+				  <unitdate calendar="gregorian" era="ce" normal="1959/1965" type="inclusive">1959-1965 and undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">10</container>
+				<unittitle>
+				  <geogname>San Francisco </geogname>
+				  <subject>Coverage </subject>-
+				  <geogname>Oakland, </geogname>
+				  <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <geogname>Seattle </geogname>
+				  <subject>Poster Coverage, </subject>
+				  <unitdate calendar="gregorian" era="ce" normal="1962/1965" type="inclusive">1962-1965</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <persname>Sills </persname>
+				  <genreform>Correspondence,</genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1958/1961" type="inclusive">1958-1961</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>Small Business Administration, </corpname>
+				  <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <persname>Standridge, R.H., </persname>
+				  <genreform>Correspondence, </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">1972</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Structural and
+				  <subject>Posting </subject>
+				  <genreform>Illustrations, </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1936/1970" type="inclusive">1936-1970</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <geogname>Texas:</geogname> </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Research League,
+					 <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>State Government,
+					 <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Tourist Development Agency, </corpname>
+					 <unitdate calendar="gregorian" era="ce" normal="1963/1971" type="inclusive">1963-1971</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Traffic </subject> and
+				  <subject>Parking Problem, </subject>
+				  <unitdate calendar="gregorian" era="ce" normal="1939/1967" type="inclusive">1939-1967 and undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <title linktype="simple" render="italic">Traffic and
+					 Trade</title> (Atwater
+				  <genreform>correspondence), </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1936/1959" type="inclusive">1936-1959</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Traffic Data,
+				  <geogname>Los Angeles, </geogname>
+				  <unitdate calendar="gregorian" era="ce" normal="1920/1936" type="inclusive">1920-1936</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Traffic Deaths, </subject>
+				  <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Traffic Engineering </subject>and Methods,
+				  <unitdate calendar="gregorian" era="ce" normal="1936" type="inclusive">1936</unitdate> (Data and Field Records,
+				  <geogname>Allentown, Pa.)</geogname></unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Traffic Formula--DEC vs. Reach,
+				  <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Traffic </subject>- Gulf Study,
+				  <unitdate calendar="gregorian" era="ce" normal="1936/1939" type="inclusive">1936-1939 and undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle> Traffic Miscellaneous,
+				  <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940 and undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Traffic Safety:</subject> </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1966/1968" type="inclusive">1966-1968</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1966/1971" type="inclusive">1966-1971</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1966/1970" type="inclusive">1966-1970</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Traffic Safety, </subject>
+				  <geogname>Austin </geogname>and
+				  <geogname>Texas: </geogname></unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate> </unittitle>
+				  <physdesc> <extent>(3 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1969/1971" type="inclusive">1969-1971</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Traffic </subject>Study,
+				  <unitdate calendar="gregorian" era="ce" normal="1940/1961" type="inclusive">1940-1961</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Traffic</subject> Summaries,
+				  <geogname>Oklahoma, </geogname>
+				  <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <persname>Tyrrell, T. Walter, </persname>
+				  <genreform>Correspondence:</genreform> </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1968/1970" type="inclusive">1968-1970</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1970/1972" type="inclusive">1970-1972</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Urban Development, </subject>
+				  <unitdate calendar="gregorian" era="ce" normal="1937/1964" type="inclusive">1937-1964</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Valuation,
+				  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Values of Outdoor Advertising,
+				  <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965 and undated</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Window Display </subject>Research,
+				  <unitdate calendar="gregorian" era="ce" normal="1936" type="inclusive">1936</unitdate> </unittitle>
+			 </did>
+			 <scopecontent>
+				<p>(See also Allentown, Pa., and London-Canada)</p>
+			 </scopecontent>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <persname>Wray, James R., </persname>
+				  <genreform>Correspondence, </genreform>
+				  <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>Yale University, </corpname>
+				  <corpname>Bureau of Highway Traffic, </corpname>
+				  <unitdate calendar="gregorian" era="ce" normal="1945/1961" type="inclusive">1945-1961</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Personal Files Series</unittitle>
+		  </did>
+		  <scopecontent>
+			 <p>(See also Legal Size and Oversize Materials)</p>
+			 <p>The
+			 <title linktype="simple" render="bold">Personal Files Series </title>
+
+			 <unitdate calendar="gregorian" era="ce" normal="1943/1979" type="inclusive">(1943-1979)</unitdate> reveals a wide breadth of activity
+			 beyond Paver's professional duties. Materials document relationships with
+			 family members as well as connections to such organizations as the
+			 <corpname>Freemasons, </corpname>Paver's church, and the
+			 <corpname>Chicago Athletic Association. </corpname>Most prominent is
+			 documentation of his time spent raising
+			 <subject>orchids, </subject>including
+			 <genreform>newsletters, </genreform>
+			 <genreform>photographs, </genreform>and
+			 <genreform>correspondence </genreform>with the American Orchid
+			 Society.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">10</container>
+				<unittitle>
+				  <corpname>Chicago Athletic Association, </corpname>
+				  <unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Church,
+				  <unitdate calendar="gregorian" era="ce" normal="1965/1967" type="inclusive">1965-1967</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <genreform>Correspondence: </genreform> </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1943/1968" type="inclusive">1943-1968</unitdate> </unittitle>
+				  <physdesc> <extent>(2 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">11</container>
+				  <unittitle>
+					 <unitdate calendar="gregorian" era="ce" normal="1958/1967" type="inclusive">1958-1967</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Davis, Guy W.,
+				  <unitdate calendar="gregorian" era="ce" normal="1963/1966" type="inclusive">1963-1966</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Freemasons,
+				  <unitdate calendar="gregorian" era="ce" normal="1964/1968" type="inclusive">1964-1968</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <geogname>Hawaii, </geogname>
+				  <unitdate calendar="gregorian" era="ce" normal="1962/1963" type="inclusive">1962-1963</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <geogname>Kauai, </geogname>
+				  <unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <geogname>Kauai </geogname>Development,
+				  <unitdate calendar="gregorian" era="ce" normal="1963/1964" type="inclusive">1963-1964</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <geogname>Kauai </geogname>Real Estate,
+				  <unitdate calendar="gregorian" era="ce" normal="1962/1963" type="inclusive">1962-1963</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Mine,
+				  <unitdate calendar="gregorian" era="ce" normal="1962/1967" type="inclusive">1962-1967</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Orchids:</subject> </unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>American Orchid Society, </corpname>
+					 <unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">1972</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Correspondence </genreform>and Lists,
+					 <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Correspondence </genreform>with Lager and Horrell,
+					 <unitdate calendar="gregorian" era="ce" normal="1956/1972" type="inclusive">1956-1972</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Cymbidiums,
+					 <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Garden Clubs,
+					 <unitdate calendar="gregorian" era="ce" normal="1967/1979" type="inclusive">1967-1979</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>...of Hawaii,
+					 <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Hawaii Island Chamber of Commerce, </corpname>
+					 <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Import Procedures,
+					 <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968 and undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>[Koalin?]--Prices,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>McBeans,
+					 <unitdate calendar="gregorian" era="ce" normal="1969/1970" type="inclusive">1969-1970</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Periodicals,
+					 <unitdate calendar="gregorian" era="ce" normal="1967/1972" type="inclusive">1967-1972</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Periodicals,
+					 <unitdate calendar="gregorian" era="ce" normal="1970/1972" type="inclusive">1970-1972</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Periodicals,
+					 <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Soil and Plant,
+					 <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Red Bud Trail Repair,
+				  <unitdate calendar="gregorian" era="ce" normal="1971/1972" type="inclusive">1971-1972</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Rotary Club,
+				  <unitdate calendar="gregorian" era="ce" normal="1970" type="inclusive">1970</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Rotary International,
+				  <unitdate calendar="gregorian" era="ce" normal="1968/1970" type="inclusive">1968-1970</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Solar Power, </subject>
+				  <unitdate calendar="gregorian" era="ce" normal="1966/1969" type="inclusive">1966-1969</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <subject>Solar Power, </subject>
+				  <unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>West Lake Hills,
+				  <unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate> </unittitle>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Miscellaneous Files Series</unittitle>
+		  </did>
+		  <scopecontent>
+			 <p>(See also Legal Size and Oversize Materials)</p>
+			 <p>The
+			 <title linktype="simple" render="bold">Miscellaneous Files
+				Series</title> contains additional materials for all of the previous series
+			 including
+			 <genreform>speeches, </genreform>
+			 <genreform>professional correspondence, </genreform>personal wartime
+			 correspondence, writings, printed materials, and
+			 <genreform>clippings. </genreform> These originally loose items were
+			 placed in unsorted folders for protection, but at the time of processing,
+			 resources were unavailable for item-level identification and sorting. Topics
+			 include
+			 <subject>outdoor advertising in the U.S. and abroad; </subject>
+			 <subject>traffic safety, </subject>circulation, and engineering;
+			 biographical materials;
+			 <corpname>TAB, </corpname>
+			 <corpname>OAAA, </corpname>and
+			 <corpname>NOAB; </corpname>military orders and service during WWII;
+			 <subject>outdoor advertising construction, </subject>
+			 <subject>product name recall, </subject>
+			 <subject>reach and frequency; costs; </subject>the
+			 <corpname>"Bull Penn;" </corpname>and orchids.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">11</container>
+				<unittitle>Miscellaneous (unsorted) Files </unittitle>
+				<physdesc> <extent>(11 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">12</container>
+				<unittitle>Miscellaneous (unsorted) Files </unittitle>
+				<physdesc> <extent>(21 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">13</container>
+				<unittitle>Miscellaneous (unsorted) Files </unittitle>
+				<physdesc> <extent>(25 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">14</container>
+				<unittitle>Miscellaneous (unsorted) Files </unittitle>
+				<physdesc> <extent>(19 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">15</container>
+				<unittitle>Miscellaneous (unsorted) Files </unittitle>
+				<physdesc> <extent>(39 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">16</container>
+				<unittitle>Miscellaneous (unsorted) Files </unittitle>
+				<physdesc> <extent>(11 folders)</extent> </physdesc>
+			 </did>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>
+				<genreform>Photographs, </genreform>
+				<genreform>Negatives, </genreform>and
+				<genreform>Slides </genreform>Series</unittitle>
+		  </did>
+		  <scopecontent>
+			 <p>The
+			 <title linktype="simple" render="bold">Photographs, Negatives, and
+				Slides Series </title>
+			 <unitdate calendar="gregorian" era="ce" normal="1920/1970" type="inclusive">(ca. 1920s-1970)</unitdate> contains over 300 items, pulled
+			 together from all other parts of the collection. A few
+			 <genreform>photographs </genreform>are from the
+			 <unitdate calendar="gregorian" era="ce" normal="1920/1929" type="inclusive">1920s,</unitdate> but the majority appear to have been taken
+			 in the
+			 <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">1950s</unitdate> and
+			 <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">1960s.</unitdate>They document a great deal of outdoor
+			 advertising mounted in that era, and also provide evidence of other areas of
+			 Paver's life such as his garden work. Most are undated (color or black and
+			 white)
+			 <genreform>photographs </genreform>of outdoor advertising, especially
+			 billboards, but there are also a large number of
+			 <genreform>portraits </genreform>of Paver from the
+			 <unitdate calendar="gregorian" era="ce" normal="1940/1949" type="inclusive">1940s</unitdate> and
+			 <unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">1950s.</unitdate> Some
+			 <genreform>photographs </genreform>show
+			 <subject>advertising artwork </subject>and artists at work on large
+			 <subject>painted displays, </subject>and some seem to form part of an
+			 office presentation. Other photograph subjects include office workers
+			 demonstrating particular activities; business gatherings of various sorts;
+			 advertising in Paris and an Asian city (perhaps in Japan), and a wedding
+			 gathering. Around 40 photographs show Paver's pool area, where he worked with
+			 and displayed his collection of orchids. </p>
+			 <p>More detailed information about all
+				<genreform>photographs, </genreform>
+				<genreform>slides, </genreform>and
+				<genreform>negatives </genreform>were entered into the
+			 <title linktype="simple" render="bold">Resource for Outdoor
+				Advertising Descriptions (ROAD)</title> database which will be available in
+			 early 2003. The database has the following information fields: image number,
+			 dates, image type, product category, company, product/brand, headline,
+			 advertisement type, posting company, image color, rural or city scene,
+			 ethnicity of some individuals, presence of women/children, famous persons,
+			 city, state, non-advertisement type, and additional notes. </p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">17</container>
+				<unittitle>Photographs and Slides </unittitle>
+				<physdesc> <extent>(117 pages of sleeves)</extent> </physdesc>
+			 </did>
+			 <scopecontent>
+				<p>[
+				<title linktype="simple" render="bold">ROAD Database</title>
+				Numbers: PAV0001-PAV0202]</p>
+			 </scopecontent>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">18</container>
+				<unittitle>Photographs, and Negatives </unittitle>
+				<physdesc> <extent>(55 pages of sleeves)</extent> </physdesc>
+			 </did>
+			 <scopecontent>
+				<p>[
+				<title linktype="simple" render="bold">ROAD Database</title>
+				Numbers: PAV0203-PAV0326]</p>
+			 </scopecontent>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Legal Size Materials</unittitle>
+		  </did>
+		  <scopecontent>
+			 <p>The Legal Size Materials include items from all of the other
+				series, except
+			 <title linktype="simple" render="bold">Photographs, Negatives, and
+				Slides</title>.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">19</container>
+				<unittitle>Biographical Information (see also <emph render="italic">series</emph>:
+				  <title linktype="simple" render="bold">Biographical
+					 Files):</title></unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Miscellaneous Biographical Information,
+					 <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962 and undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Writings and
+				  <genreform>Speeches </genreform>by
+				  <persname>Paver </persname>(see also <emph render="italic">series</emph>:
+				  <title linktype="simple" render="bold">Writings and Speeches
+					 </title>by
+				  <persname>Paver):</persname></unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Textbook Files:</unittitle>
+				</did>
+				<scopecontent>
+				  <p>(alphabetical by subject, and then by book segment)</p>
+				</scopecontent>
+				<c04>
+				  <did>
+					 <unittitle>Customized Buying, Fragments (miscellaneous),
+						<unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<subject>Painted Displays, </subject>
+						<genreform>Typescripts with Some Holograph Edits,
+						  </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Public Relations/Criticism,
+						<genreform>Typescript with Holograph Edits, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>TAB </corpname>Program,
+						<unitdate calendar="gregorian" era="ce" normal="1964/1971" type="inclusive">1964-1971</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Variation of Values--
+						<genreform>Holograph and Typescript Fragments with Holograph
+						  Edits </genreform></unittitle>
+					 <physdesc> <extent>(2 folders)</extent> </physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<genreform>Appendix, </genreform>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<genreform>Illustrations, </genreform>Chapter I,
+						<unitdate calendar="gregorian" era="ce" normal="1965/1968" type="inclusive">1965-1968</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Outline of Advertising Techniques,
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Outlines for Textbook,
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Questionnaire Results, "The Medium,"
+						<unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Questionnaire Results,
+						<unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Fragments (Miscellaneous): </unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1957" type="inclusive">1957 and undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">1960-1969</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1962/1965" type="inclusive">1962, 1965 and undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+						<physdesc> <extent>(2 folders)</extent> </physdesc>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<genreform>Typescript Fragments
+						  </genreform>(Miscellaneous):</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1933/1962" type="inclusive">1933-1962 and undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Volume II: Research Typescripts and Poster Site
+						Surveys,
+						<unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966 and undated</unitdate> </unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle> Speech Files:</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<genreform>Speeches, </genreform>Miscellaneous:</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1960/1961" type="inclusive">1960-1961</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962 and undated</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Miscellaneous Files:</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Economical Coverage Manuscripts,
+						<unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935</unitdate> </unittitle>
+					 <physdesc> <extent>(3 folders)</extent> </physdesc>
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Writings and Speeches by Others (see also
+				  <emph render="italic">series</emph>:
+				  <title linktype="simple" render="bold">Writings and Speeches by
+					 Others</title>):</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <persname>Dawson, Joe M., </persname>
+					 <genreform>Speeches </genreform>Miscellaneous,
+					 <unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <persname>Hopkins, Frank T., </persname>
+					 <genreform>Speeches, </genreform>
+					 <unitdate calendar="gregorian" era="ce" normal="1936/1940" type="inclusive">1936-1940</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Fragments, Miscellaneous,
+					 <unitdate calendar="gregorian" era="ce" normal="1963/1967" type="inclusive">1963-1967</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>National Outdoor Advertising Bureau </corpname>Files
+				  (see also <emph render="italic">series</emph>:
+				  <title linktype="simple" render="bold">National Outdoor
+					 Advertising Bureau </title>Files):</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Agency Study,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Market Research, Statistical,
+					 <unitdate calendar="gregorian" era="ce" normal="1945/1957" type="inclusive">1945-1957</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Newsletters, </genreform>
+					 <unitdate calendar="gregorian" era="ce" normal="1946/1947" type="inclusive">1946-1947 and undated</unitdate>
+					 </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>TAB </corpname>History,
+					 <unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>TAB Research Institute, </corpname>Summer Pilot
+					 Study,
+					 <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971 and undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Subject Files (see also <emph render="italic">series</emph>:
+				  <title linktype="simple" render="bold">Subject
+					 Files</title>):</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Book
+					 <genreform>Correspondence, </genreform>
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>British Poster Advertising Association, </corpname>
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Canadian Methods,
+					 <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Chicago Subway College Thesis,
+					 <unitdate calendar="gregorian" era="ce" normal="1923" type="inclusive">1923 and undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Cost of Outdoor Advertising,
+					 <unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">[1960s]</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Engineering Applications,
+					 <unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">[1966?]</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <subject>Foreign Market Advertising, </subject>
+					 <unitdate calendar="gregorian" era="ce" normal="1963/1966" type="inclusive">1963-1966</unitdate> </unittitle>
+				  <physdesc> <extent>(2 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>International Executive Service Office Corp.,
+						</corpname>
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>McGraw-Hill </corpname>Agreements,
+					 <unitdate calendar="gregorian" era="ce" normal="1967/1968" type="inclusive">1967-1968</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Media and Advertising Facts,
+					 <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Nokes, Thomas, undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Outdoor Advertising Association of America
+						</corpname>- Outdoor Advertising Regulations,
+					 <unitdate calendar="gregorian" era="ce" normal="1961/1970" type="inclusive">1961-1970</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>P.P.S. </corpname>
+					 <corpname>[Portable Parking Structures] Inc., </corpname>
+					 <unitdate calendar="gregorian" era="ce" normal="1969" type="inclusive">1969</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Phillips Foundation, </corpname>Correspondence
+					 Drafts,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <persname>Quera, Leon, </persname>
+					 <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <persname>Quera, Leon, </persname>"The Quera Mess,"
+					 <unitdate calendar="gregorian" era="ce" normal="1967/1968" type="inclusive">1967-1968</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Small Business Administration,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <persname>Standridge, R.H., </persname>
+					 <genreform>Correspondence, </genreform>
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>State-City
+					 <subject>Traffic Safety:</subject></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1951/1966" type="inclusive">[1951-1966 or later]</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate> </unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Texas Tourist Development Agency,
+					 <unitdate calendar="gregorian" era="ce" normal="1963/1971" type="inclusive">1963-1971</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Traffic Information,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Personal Files (see also <emph render="italic">series</emph>:
+				  <title linktype="simple" render="bold">Personal
+					 Files</title>):</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Church,
+					 <unitdate calendar="gregorian" era="ce" normal="1965/1967" type="inclusive">1965-1967</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <subject>Hawaii, </subject>
+					 <unitdate calendar="gregorian" era="ce" normal="1962/1963" type="inclusive">1962-1963</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <persname>Hodges, J. (M.Gen.), </persname>
+					 <unitdate calendar="gregorian" era="ce" normal="1962/1971" type="inclusive">1962-1971</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Kauai Development,
+					 <unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Kauai Real Estate,
+					 <unitdate calendar="gregorian" era="ce" normal="1962/1963" type="inclusive">1962-1963</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <subject>Orchids </subject>-
+					 <genreform>Correspondence </genreform>with Lager and Horrell,
+					 <unitdate calendar="gregorian" era="ce" normal="1956/1972" type="inclusive">1956-1972</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Orchids--Garden Clubs,
+					 <unitdate calendar="gregorian" era="ce" normal="1967" type="inclusive">1967</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Red Bud Trail Repair,
+					 <unitdate calendar="gregorian" era="ce" normal="1971/1972" type="inclusive">1971-1972</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>West Lake Hills,
+					 <unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Miscellaneous Files (see also <emph render="italic">series</emph>:
+				  <title linktype="simple" render="bold">Miscellaneous
+					 Files</title>):</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Miscellaneous </unittitle>
+				  <physdesc> <extent>(6 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">20</container>
+				  <unittitle>Miscellaneous </unittitle>
+				  <physdesc> <extent>(12 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <subject>Traficounter </subject>tape</unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Oversize Materials</unittitle>
+		  </did>
+		  <scopecontent>
+			 <p>The
+			 <title linktype="simple" render="bold">Oversize Materials</title>
+			 include items from all of the other series, except the
+			 <title linktype="simple" render="bold">Biographical Files
+				Series,</title> and the
+			 <title linktype="simple" render="bold">Photographs, Negatives, and
+				Slides Series.</title></p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<container type="box">21</container>
+				<unittitle>Writings and Speeches by Paver (see also
+				  <emph render="italic">series: </emph>
+				  <title linktype="simple" render="bold">Writings and Speeches by
+					 Paver</title>):</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Determination of Allotments,
+					 <genreform>Typescript </genreform>and Fragments,
+					 <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Media Selection,
+					 <genreform>Typescript with Holograph Edits, </genreform>
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>MONI </corpname>
+					 <corpname>[Metropolitan Outdoor Network, Inc.]</corpname> and
+					 National Sales,
+					 <genreform>Typescripts, </genreform>
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Public Relations,
+					 <genreform>Typescript with Holograph Edits, </genreform>
+					 <unitdate calendar="gregorian" era="ce" normal="1963/1972" type="inclusive">1963-1972</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Appendix,
+					 <unitdate calendar="gregorian" era="ce" normal="1936" type="inclusive">1936</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Forms,
+					 <unitdate calendar="gregorian" era="ce" normal="1938/1968" type="inclusive">1938-1968</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Typescript </genreform>Fragments
+					 (Misc.):</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1933/1962" type="inclusive">1933-1962</unitdate> </unittitle>
+					 <physdesc> <extent>(2 folders)</extent> </physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1960/1969" type="inclusive">1960-1969</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" normal="1963/1967" type="inclusive">1963-1967</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+					 <physdesc> <extent>(2 folders)</extent> </physdesc>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Volume II: Table of Contents,
+					 <genreform>Typescript </genreform>and Additional Fragments,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>
+				  <corpname>National Outdoor Advertising Bureau </corpname>Files
+				  (see also <emph render="italic">series: </emph>
+				  <title linktype="simple" render="bold">National Outdoor
+					 Advertising Bureau Files</title>):</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Poster Showings, Evaluation,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>TAB </corpname>
+					 <corpname>(Traffic Audit Bureau) </corpname>History,
+					 <unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929 and undated</unitdate> </unittitle>
+				  <physdesc> <extent>(2 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>TAB </corpname>
+					 <corpname>(Traffic Audit Bureau) </corpname>Needs and Progress,
+
+					 <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Subject Files (see also <emph render="italic">series:
+				  </emph>
+				  <title linktype="simple" render="bold">Subject
+					 Files</title>):</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>C-V Rating,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Chicago Subway College Thesis,
+					 <unitdate calendar="gregorian" era="ce" normal="1924" type="inclusive">[1924?],</unitdate>and State-City Traffic Safety,
+					 <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <genreform>Clippings, </genreform> </unittitle>
+				  <physdesc> <extent>1938-1969</extent> </physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Foreign Market Advertising,
+					 <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>London-Canada Study,
+					 <unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935 and undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Outdoor Advertising Values,
+					 <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964,</unitdate>and Traffic, Gulf Study,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Traffic Formula-DEC [Daily Effective Circulation] vs.
+					 Research,
+					 <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968 and undated,</unitdate>and Sales, Local,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Transportation Information,
+					 <unitdate calendar="gregorian" era="ce" normal="1939" type="inclusive">1939 and undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Valuation,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">22</container>
+				<unittitle>Personal Files (see also <emph render="italic">series:
+				  </emph>
+				  <title linktype="simple" render="bold">Personal
+					 Files</title>):</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Northwestern
+					 <genreform>Transcript, </genreform>
+					 <unitdate calendar="gregorian" era="ce" normal="1920/1925" type="inclusive">1920-1925</unitdate>and Publicity,
+					 <unitdate calendar="gregorian" era="ce" normal="1927/1965" type="inclusive">1927-1965</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Kauai,
+					 <unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate>and Hawaii,
+					 <unitdate calendar="gregorian" era="ce" normal="1962/1963" type="inclusive">1962-1963</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<unittitle>Miscellaneous Files (see also <emph render="italic">series: </emph>
+				  <title linktype="simple" render="bold">Miscellaneous
+					 Files</title>):</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Miscellaneous </unittitle>
+				  <physdesc> <extent>(7 folders)</extent> </physdesc>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<container label="Oversize Folder" type="opaperfolder">1</container>
+				<unittitle>Writings and Speeches (see also <emph render="italic">series: </emph>
+				  <title linktype="simple" render="bold">Writings and Speeches by
+					 Paver and Others):</title></unittitle>
+			 </did>
+			 <c03>
+				<did><container type="box">23</container>
+				  <unittitle>Chart,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did><container type="box">23</container>
+				  <unittitle>Variation of Values,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did>
+				<container type="box">23</container>
+				<unittitle>Subject Files (see also <emph render="italic">series:
+				  </emph>
+				  <title linktype="simple" render="bold">Subject
+					 Files</title>):</unittitle>
+			 </did>
+			 <c03>
+				<did><container type="box">23</container>
+				  <unittitle>
+					 <geogname>Allentown, Pa. </geogname>- Median Values of Homes;
+					 Purchasing Power; Family Card,
+					 <unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">1930 and undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did><container type="box">23</container>
+				  <unittitle>Audit Procedures,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">23</container>
+				  <unittitle>Detroit Market,
+					 <unitdate calendar="gregorian" era="ce" normal="1945" type="inclusive">1945 and undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did><container type="box">23</container>
+				  <unittitle>Maps:
+					 <geogname>Allentown, Pa., </geogname>
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did><container type="box">23</container>
+				  <unittitle>N.J. State Survey,
+					 <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did><container type="box">23</container>
+				  <unittitle>Traffic Summaries--Okla.,
+					 <unitdate calendar="gregorian" era="ce" normal="1957" type="inclusive">1957</unitdate> </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did><container type="box">23</container>
+				    <unittitle>Window Study--
+					 <geogname>Allentown, Pa., </geogname>
+					 <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938 and undated</unitdate> </unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02>
+			 <did><container type="box">23</container>
+				<unittitle>Miscellaneous Files (see also <emph render="italic">series: </emph>
+				  <title linktype="simple" render="bold">Miscellaneous
+					 Files</title>)</unittitle>
+			 </did>
+		  </c02>
+		</c01>
+	 </dsc>
+	 <separatedmaterial>
+		<head>Publications Removed from the John Paver Papers</head>
+		<p>Most cataloged separately and represented in the online catalog.</p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">
+				<date calendar="gregorian" era="ce" type="publication">1952</date>
+				Proceedings. Institute Of Traffic Engineers. Twenty-third Annual
+				Meeting.</title> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Action For Outdoor
+				Recreation For America.</title>, <imprint>
+			 <geogname>Washington, D.C.: </geogname>
+			 <publisher>Citizen's Committee For The Outdoor Recreation Resources
+				Review Commission Report, </publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1964</date>.</imprint></bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">All Media Evaluation
+				Study.</title>, <imprint>
+			 <geogname>New York: </geogname>
+			 <publisher>Sponsor Services Inc., </publisher>
+			 <date calendar="gregorian" era="ce" type="copyright">c1954.</date></imprint></bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">American Marketing
+				Journal,</title>
+			 <num>2, no. 3 </num> <imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(July
+				1935)</date>.</imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">BBDO Newsletter,</title>
+			 <imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(February
+				1966)</date> </imprint>
+			 <edition>75th Anniversary Edition.</edition> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Bulletin [of the] National
+				Council of State Garden Clubs, Inc.,</title>
+			 <num>12, no. 3 </num> <imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(1941).</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <persname role="author">Cass, Samuel, </persname>and
+			 <persname>Raymond DesJardins.</persname>
+			 <title linktype="simple" render="italic">Co-ordinated Transportation.
+				</title><imprint>
+			 <geogname>Conn.: </geogname>
+			 <publisher>Eno Foundation for Highway Traffic Control, </publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1956</date>.</imprint></bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <corpname>Cook County Board of Commissioners. </corpname>
+			 <title linktype="simple" render="italic">Moving Vehicle Method Of
+				Estimating Traffic Volumes and Speeds.</title>, <imprint>
+			 <geogname>Chicago: </geogname>
+			 <publisher>Inland Press Inc., </publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1956.</date></imprint></bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <persname>Davis, Clarence </persname>and
+			 <persname>Burkett Van Kirk. </persname>
+			 <title linktype="simple" render="italic">Some Rights Of Landowners
+				Adjacent To The Interstate Highway System.</title>
+			 <edition>Reprinted from Nebraska State Bar Journal </edition>
+			 <num>11, no. 1 </num><imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(January
+				1962).</date></imprint></bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Economic and Social Effects
+				of Highway Improvements...A Summary.</title> <imprint>
+			 <geogname>East Lansing, Mich.: </geogname>
+			 <publisher>Michigan State University Press, </publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1961.</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">The Executive: The Digest of
+				Current Literature for Top Management</title>
+			 <num>5, no. 3</num> <imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(August
+				1961).</date> </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple">IMSA Signal Magazine </title>
+			 <num>1, no. 1 </num> <imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(November-December 1965).</date> </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">IOA Outdoor Newsletter
+				[Institute of Outdoor Advertising]</title>
+			 <num>4, no. 3</num> <imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(March
+				1969).</date> </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">------------
+			 <num>4, no. 4 </num><imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(April
+				1969).</date></imprint></bibref> </p>
+		<p>
+		  <bibref linktype="simple">------------
+			 <num>4, no. 5 </num><imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(May
+				1969).</date></imprint></bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">The International
+				Advertiser</title>
+			 <num>3, no. 2 </num> <imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(February
+				1962).</date> </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <corpname>Joint Assembly and Senate Committee on the Scenic
+				Preservation of State Highways. </corpname>
+			 <title linktype="simple" render="italic">Report.</title> <imprint>
+			 <geogname>Sacramento: </geogname>
+			 <publisher>California State Printing Office, </publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1931.</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Journal of the American
+				Institute of Planners</title>
+			 <num>25, no. 2</num> <imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(May
+				1959).</date> </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <persname>Kettering, Charles F. </persname>
+			 <title linktype="simple" render="italic">Research and Social
+				Progress. Speech delivered at the Washington Award Banquet, Palmer
+				House,</title> <imprint>
+			 <geogname>Chicago, Illinois, </geogname>
+			 <date calendar="gregorian" era="ce">February 25, 1936.</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Library Classification and
+				Sample Bibliography of Traffic Engineering Materials.</title> <imprint>
+			 <geogname>New Haven, Conn.: </geogname>
+			 <publisher>Bureau For Street Traffic Research, Yale University,
+				</publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1940.</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple">A New Way to Buy Painted Outdoor
+				Advertising. </title> <imprint>
+			 <geogname>Detroit: </geogname>
+			 <publisher>Painted Outdoor Advertising Association, </publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1924.</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple">On Target</title>
+			 <num>2, no. 2</num> <imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(April
+				1969).</date> </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">------------
+			 <num>2, no. 3 </num><imprint>
+			 <date calendar="gregorian" era="ce">(June
+				1969).</date></imprint></bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Outdoor Advertiser</title>
+			 <num>14, no. 75</num> <imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(Sept.
+				1961).</date> </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">------------
+			 <num>14, no. 6</num><imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(July
+				1962).</date></imprint></bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Outdoor Advertising
+				News</title>
+			 <num>14, no. 1,</num> <imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(April
+				1960)</date> </imprint>
+			 <corpname>[Outdoor Advertising Association of Australia].</corpname>
+			 </bibref> </p>
+		<p>
+		  <bibref linktype="simple">------------
+			 <num>14, no.1</num><imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(July
+				1960)</date></imprint>
+			 <corpname>[Outdoor Advertising Association of
+				Australia].</corpname></bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple">Outdoor Advertising News</title>
+			 <num>54, no 11</num> <imprint>
+			 <date calendar="gregorian" era="ce">(Nov. 1963)</date> </imprint>
+			 <corpname>[Outdoor Advertising Association of America].</corpname>
+			 </bibref> </p>
+		<p>
+		  <bibref linktype="simple">------------
+			 <num>54, no. 11</num><imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(Nov.
+				1963).</date></imprint>
+			 <corpname>[Outdoor Advertising Association of
+				America].</corpname></bibref> </p>
+		<p>
+		  <bibref linktype="simple">------------
+			 <num>54, no. 12 </num><imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(Dec.
+				1963).</date></imprint>
+			 <corpname>[Outdoor Advertising Association of
+				America].</corpname></bibref> </p>
+		<p>
+		  <bibref linktype="simple">------------
+			 <num>55, no. 9 </num><imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(Sept.
+				1964).</date></imprint>
+			 <corpname>[Outdoor Advertising Association of
+				America].</corpname></bibref> </p>
+		<p>
+		  <bibref linktype="simple">------------
+			 <num>56, no. 10 </num><imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(Oct.
+				1965).</date></imprint>
+			 <corpname>[Outdoor Advertising Association of
+				America].</corpname></bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">The Outdoor Bulletin</title>
+
+			 <num>6, no. 12 </num> <imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(Dec.
+				1961).</date> </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">The Place of Advertising in
+				the Distributive System. </title> <imprint>
+			 <geogname>Los Angeles: </geogname>
+			 <publisher>E. J. Murphy.</publisher> </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Proper Locations for Bus
+				Stops: A Recommended Practice. </title> <imprint>
+			 <geogname>New Haven, Conn.: </geogname>
+			 <publisher>Institute of Traffic Engineers, </publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1954.</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Public Relations in Outdoor
+				Advertising.</title> <imprint>
+			 <geogname>Chicago: </geogname>
+			 <publisher>Outdoor Advertising Association of America,</publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1928.</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Public Roads</title>
+			 <num>30, no. 5</num><imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(Dec.
+				1958).</date></imprint> (2 copies)</bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Recommended Research Program
+				for Institute of Outdoor Advertising.</title> <imprint>
+			 <geogname>New York: </geogname>
+			 <publisher>Advertising Research Foundation, Inc., </publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1967.</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">A Report on Automation
+				Trends in the Modern Production Market.</title> <imprint>
+			 <geogname>Cleveland, Ohio: </geogname>
+			 <publisher>Penton Publications, </publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1966.</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Riksaffischering: Plats-och
+				Adressförteckning.</title> <imprint>
+			 <geogname>Stockholm: </geogname>
+			 <publisher>Wennergren-William A.B.</publisher> </imprint> </bibref>
+		  </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Roadside Protection: A Study
+				of the Problem and a Zoning Legislative Guide.</title> <imprint>
+			 <geogname>Washington, D.C.: </geogname>
+			 <publisher>American Automobile Association.</publisher> </imprint>
+			 </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Signs and Outdoor Display
+				Structures.</title> <imprint>
+			 <geogname>New York: </geogname>
+			 <publisher>American Standards Association, </publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1956.</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <persname>Suffrin, Harry. </persname>
+			 <title linktype="simple">This Canadian Food Chain Develops Several
+				Shopping Centers.</title> <imprint>
+			 <geogname>Conn.: </geogname>
+			 <publisher>Eno Foundation for Highway Traffic Control, </publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1956.</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">A Study of Human Response to
+				Visual Environments in Urban Areas.</title> <imprint>
+			 <publisher>Arthur D. Little, Inc., </publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1967.</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple">A Study of Techniques to Measure Response to
+				Urban Roadside Environments.</title> <imprint>
+			 <publisher>Arthur D. Little, Inc.</publisher> </imprint> </bibref>
+		  </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple">Summary of a Study by Arthur D. Little, Inc.
+				Measuring Human Response to the Environment of the Urban Roadside.</title>
+			 Commissioned by the <imprint>
+			 <publisher>Outdoor Advertising Association of America,</publisher>
+			 <date calendar="gregorian" era="ce" type="publication">1967.</date></imprint></bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Super Markets and
+				Self-Service Stores: A Study of Their Importance in 694 Cities.</title>
+			 <imprint>
+			 <publisher>Outdoor Advertising Inc., </publisher>
+			 <date calendar="gregorian" era="ce" type="copyright">c1946.</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">A Time for Keen Perspective:
+				Papers from the 1961 Region Conventions.</title> <imprint>
+			 <publisher>American Association of Advertising Agencies, </publisher>
+
+			 <date calendar="gregorian" era="ce" type="publication">1962.</date>
+			 </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Traffic Engineering</title>
+			 <num>28, no. 8</num> <imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(May
+				1958).</date> </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">------------
+			 <num>28, no. 11 </num><imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(Aug.
+				1958).</date></imprint></bibref> </p>
+		<p>
+		  <bibref linktype="simple">------------
+			 <num>31, no. 7</num><imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(April
+				1961).</date></imprint></bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple">Traffic Engineering and Control</title>
+			 <num>5, no. 11</num> <imprint>
+			 <date calendar="gregorian" era="ce">(March 1964).</date> </imprint>
+			 </bibref> </p>
+		<p>
+		  <bibref linktype="simple">
+			 <title linktype="simple" render="italic">Traffic Quarterly.</title>
+			 <num>Bulletin 10, no. 1</num> <imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(Jan.
+				1956).</date> </imprint> </bibref> </p>
+		<p>
+		  <bibref linktype="simple">------------
+			 <num>12, no. 12</num><imprint>
+			 <date calendar="gregorian" era="ce" type="publication">(April
+				1958).</date></imprint></bibref> </p>
+	 </separatedmaterial>
+  </archdesc>
+</ead>

@@ -1,0 +1,3740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+<eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::?)//EN" url="http://library.duke.edu/rubenstein/findingaids/sydnor/">sydnor</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Charles S. Sydnor Papers, <date normal="1729/1978" type="inclusive" era="ce" calendar="gregorian">1729-1978</date>and undated</titleproper>
+        <author>Processed by Janie Morris; Assisted by Daniel Daily; machine-readable finding aid
+created by
+Alvin Pollock</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <date era="ce" calendar="gregorian"> 1997</date>
+        <p>Duke University. All rights reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">001098648</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from MS Word.
+Date of source: <date calendar="gregorian" era="ce">November 9, 1992.</date></creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::[]::Charles S. Sydnor Papers)//EN" "sydnor.sgm"" "sydnor.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce">June 29, 1998</date>
+        <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the Charles S. Sydnor Papers, <date calendar="gregorian" era="ce">1729-1978 and undated</date></titleproper>
+      <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham, North Carolina 27708-0185</publisher>
+
+      <p> 1997 Duke University. All rights reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">Charles S. Sydnor papers <unitdate calendar="gregorian" era="ce" normal="1729/1978" type="inclusive">1729-1978 and undated</unitdate></unittitle>
+      <origination label="Creator"><persname>Sydnor, Charles S., 1898-1954</persname></origination>
+      <physdesc label="Extent">
+<extent>14.8 linear feet</extent>
+<extent>circa 11,159 items</extent>
+</physdesc>
+      <repository label="Repository">
+        <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+        <address>
+          <addressline>Durham, North Carolina 27708-0185</addressline>
+        </address>
+      </repository>
+      <physloc label="Location">For current information on the location
+of these
+materials, please consult the library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restriction</head>
+        <p>Part of the Teaching Files Series in this collection is restricted.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in the Charles S. Sydnor papers have not
+ been transferred to Duke University. For further information, see the
+ section on copyright in the Regulations and Procedures of the Rubenstein Library.</p>
+      </userestrict>
+      <prefercite>
+        <head>Preferred Citation</head>
+        <p>[Identification of item], Charles S. Sydnor Papers,
+David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+      </prefercite>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The Charles S. Sydnor Papers (1729-1978 and undated) were donated to the
+David M. Rubenstein Rare Book &amp; Manuscript Library in 1990 by members of the Sydnor
+ family.</p>
+      </acqinfo>
+	<processinfo>
+	<head>Processing Information</head>
+<p>Processed by Janie Morris</p>
+<p>Assisted by Daniel Daily</p>
+<p>Date Completed: November 9, 1992</p>
+<p>Encoded by Alvin Pollock</p>
+<p>Finding aid updated to include processed additions 2000-0302, 2002-0051, and 2008-0145 in July 2009 by Alice Poffinberger</p>
+	</processinfo>
+    </descgrp>
+    <bioghist>
+      <head>Biographical Note</head>
+      <chronlist>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1898, July 21</date>
+          <event>Born, Augusta, Ga.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1915</date>
+          <event>Graduated from Darlington School, Rome, Ga.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1918</date>
+          <event>B.A., Hampden-Sydney College, Hampden-Sydney,
+Va.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1919</date>
+          <event>Taught high school in Rome, Ga.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1919-1920</date>
+          <event>Taught at McCallie School, Chattanooga, Tenn.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1923</date>
+          <event>Ph.D., Johns Hopkins University</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1923-1925</date>
+          <event>Professor of History and Political Science, Hampden-Sydney
+College</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1924, June 12</date>
+          <event>Married Betty Brown</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1925-1936</date>
+          <event>Professor of History, University of Mississippi</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1935-1938</date>
+          <event>Member, Board of Editors, <title linktype="simple" render="italic">Journal of Southern History</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1936-1938</date>
+          <event>Associate professor of History, Duke University, Durham,
+N.C.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1938</date>
+          <event>Professor of History and Chairman of History Department,
+Duke University</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1939</date>
+          <event>President, Southern Historical Association</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1941-1944</date>
+          <event>Member, Executive Committee, North Carolina Literary and
+Historical Association</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1947-</date>
+          <event>Member, Board of Editors, <title linktype="simple" render="italic">South Atlantic Quarterly</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1948</date>
+          <event>Litt.D., Washington and Lee University, and Princeton
+University (1953)</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1949</date>
+          <event>President, North Carolina Literary and Historical
+Association</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1950</date>
+          <event>M.A., University of Oxford, Oxford, England</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1950-1951</date>
+          <event>Harold Vyvyan Harmsworth Professor of American History,
+University of Oxford</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1952-</date>
+          <event>Dean of Graduate School of Arts and Sciences, Duke
+University</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1953</date>
+          <event>LL.D., Davidson College, Davidson, N.C.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1954</date>
+          <event>Died (buried in Chattanooga, Tenn.)</event>
+        </chronitem>
+      </chronlist>
+      <p>Sydnor's publications include Mississippi History, Slavery in Mississippi, A Gentleman of the Old Natchez Region: Benjamin L. C. Wailes, The Development of Southern Sectionalism, 1819-1848 (Volume V of The History of the South), and Gentlemen Freeholders: Political Practices in Washington's Virginia.</p>
+      <p>Sydnor held visiting professorships at Emory (1925-1926), Johns Hopkins (1929, 1934), Duke (1935-1936), Cornell (1941), University of North Carolina (1949), and Harvard (1952) Universities. He was a member of the Presbyterian Church, the Council Institute of Early American History and Culture, the Advisory Committee of the Office of the Chief of Military History for the U.S. Army, the American Historical Association, and the American Mississippi Valley Historical Association. He received awards from the Social Science Research Council (1940) and the Library of Congress (1945-1946).</p>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The Charles S. Sydnor Papers roughly span the period 1729-1978, the bulk dated 1923 to 1954. They include correspondence, research notes, writings, printed materials, and clippings, chiefly relating to Sydnor's teaching career at Duke University, as well as at Harvard and Queen's College, Oxford. The collection also includes information about his involvement with various historical associations and committees, including the American Historical Association, Southern Historical Association, North Carolina Literary and Historical Association, and the Advisory Committee of the Office of the Chief of Military History for the United States Army. There is background information pertaining to his various writings, including <title linktype="simple" render="italic">The Development of Southern Sectionalism (Volume V of the work A History of the South)</title> (Baton Rouge, La., 1948), <title linktype="simple" render="italic">Gentleman Freeholders: Political Practices in Washington's Virginia</title> (Chapel Hill, N.C., 1952), <title linktype="simple" render="italic">A Gentleman of the Old Natchez Region: Benjamin L. C. Wailes</title> (Durham, N.C., 1938), <title linktype="simple" render="italic">Mississippi History</title> (New York, N.Y., 1930), and <title linktype="simple" render="italic">Slavery in Mississippi</title> (New York, N.Y., 1933). The papers contain notes and examinations for various history courses taught by Sydnor, student roll books, grade books, and papers. Additionally, there are a few notebooks and papers of Sydnor's while he was a student.</p>
+      <p>Materials relating to Sydnor's teaching career and participation in historical associations are found primarily in the Alphabetical Files Series and the Teaching Files Series. The information about Queen's College, University of Oxford, is located in the Alphabetical Files Series under Oxford. Information pertaining to his writings are found in the Writings and Speeches Series. Sydnor's own student notebooks and papers are found in the Miscellaneous Series. Topics highlighted include the Duke University Department of History during the late 1930s through the early 1950s, (Alphabetical Files Series); the writing and teaching of Southern history, particularly Mississippi history, (Writings and Speeches Series and Teaching Files Series); and the naturalist and planter, Benjamin L. C. Wailes (Writings and Speeches Series). A related collection in the Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library is the Benjamin L. C. Wailes Papers.</p>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <item>
+          <corpname>Duke University -- Faculty. </corpname>
+        </item>
+        <item>
+          <persname>Wailes, Benjamin Leonard Covington, 1797-1862. </persname>
+        </item>
+        <item>
+          <corpname>Queen's College (University of Oxford). </corpname>
+        </item>
+        <item>
+          <corpname>Duke University. Dept. of History. </corpname>
+        </item>
+        <item>
+          <corpname>Harvard University. Dept. of History. </corpname>
+        </item>
+        <item>
+          <corpname>American Historical Association. </corpname>
+        </item>
+        <item>
+          <corpname>North Carolina Literary and Historical Association. </corpname>
+        </item>
+        <item>
+          <corpname>United States. Dept. of the Army. Office of Military History. </corpname>
+        </item>
+        <item>
+          <corpname>Southern Historical Association. </corpname>
+        </item>
+       
+        <item>
+          <subject>Southern States -- History. </subject>
+        </item>
+        <item>
+          <subject>Southern States -- History -- Historiography. </subject>
+        </item>
+        <item>
+          <subject>Grading and marking (Students). </subject>
+        </item>
+        <item>
+          <subject>History teachers. </subject>
+        </item>
+        <item>
+          <subject>Mississippi -- History. </subject>
+        </item>
+        <item>
+          <subject>Virginia -- Politics and government -- Colonial period, ca. 1600-1775. </subject>
+        </item>
+        <item>
+          <subject>Virginia -- Politics and government -- 1775-1865. </subject>
+        </item>
+        <item>
+          <subject>Slavery -- Mississippi. </subject>
+        </item>
+        <item>
+          <subject>Slavery -- United States -- Condition of slaves. </subject>
+        </item>
+        <item>
+          <subject>Slaves -- United States -- Social conditions. </subject>
+        </item>
+      </list>
+    </controlaccess>
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle>Alphabetical Files Series,
+<unitdate calendar="gregorian" era="ce" normal="1862/1954" type="inclusive">1862-1954, undated</unitdate>
+                  <unitdate calendar="gregorian" era="ce" normal="1925/1954" type="bulk">(bulk 1925-1954).</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes correspondence, clippings, memoranda, and printed
+materials. Within this series are letters and documents which pertain to
+Sydnor's teaching posts at Duke University and elsewhere, his tenure as
+chairman of the History Department at Duke University, and his
+involvement in various professional societies. Also included are materials
+which document Sydnor's role as a member of the Advisory Committee
+of the Office of Chief of Military History for the United States Army.
+Arranged alphabetically by either correspondent or subject. </p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <unittitle>A,
+<unitdate calendar="gregorian" era="ce" normal="1936/1954" type="inclusive">1936-1954</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Abingdon-Cokesbury Press, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1700/1952" type="inclusive">1952, Mar. 17-April 8</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>American Historical
+Association:</corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">American History Abroad--Oxford,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1700/1951" type="inclusive">1951, May 17-July 13</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Programs,
+<unitdate calendar="gregorian" era="ce" normal="1927/1951" type="inclusive">1927-1951</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Andrews Raiders, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1800/1906" type="inclusive">1906, Sept. 18-20</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>B,
+<unitdate calendar="gregorian" era="ce" normal="1927/1954" type="inclusive">1927-1954, June, undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(5 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Bancroft Prize <persname>(John Krout), </persname><unitdate calendar="gregorian" era="ce" normal="1953/1954" type="inclusive">1953, Aug.-1954, Mar.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Boyd, William K., </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1938/1941" type="inclusive">1938-1941, undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <famname>Brown family, </famname>
+              <unitdate calendar="gregorian" era="ce" normal="1929/1954" type="inclusive">1929-1954</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>C,
+<unitdate calendar="gregorian" era="ce" normal="1926/1956" type="inclusive">1926-1956</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(5 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>Clippings:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1927/1955" type="inclusive">1927-1955</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Funeral, obituaries, Dr. Sydnor,
+<unitdate calendar="gregorian" era="ce" normal="1954" type="inclusive">1954</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Columbia University, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1954/1955" type="inclusive">1954-1955</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Commonwealth Fund, <persname>Sir Hector Hetheringtion, </persname><unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952, Oct. 1</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Condolence messages, Dr. Sydnor's death,
+<unitdate calendar="gregorian" era="ce" normal="1954" type="inclusive">1954</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Converse College, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Cornell </corpname>class roll,
+<unitdate calendar="gregorian" era="ce" normal="1941" type="inclusive">1941</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>D,
+<unitdate calendar="gregorian" era="ce" normal="1926/1953" type="inclusive">1926-1953</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Dancy Foundation Lectures Program, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1939" type="inclusive">1939</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Davidson College:</corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1942/1953" type="inclusive">1942-1953</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Honorary Degree (clippings),
+<unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Duke University Church, </corpname>Committee Reports,
+<unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Duke University. Department of
+History:</corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Academic salary data,
+<unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Application, appointment, and report forms,
+<unitdate calendar="gregorian" era="ce" normal="1947/1953" type="inclusive">1947-1953, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Catalogue material for
+<unitdate calendar="gregorian" era="ce" normal="1952/1954" type="inclusive">1953-1954, submitted 1952, Nov.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Class census reports, history,
+<unitdate calendar="gregorian" era="ce" normal="1952/1953" type="inclusive">1952, Fall-1953, Fall</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Department conference and officers,
+<unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Departmental meetings:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952, Oct. 14</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953, Jan. 8</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Diplomatic history, faculty position for,
+<unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Edens, A. Hollis, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1949/1953" type="inclusive">1949-1953</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Faculty, staff, course schedules, and office arrangements,
+<unitdate calendar="gregorian" era="ce" normal="1951/1953" type="inclusive">1951-1953</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Graduate bulletin material,
+<unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952, April</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Graduate fellowships at Duke, publication of theses,
+<unitdate calendar="gregorian" era="ce" normal="1952/1954" type="inclusive">1952-1954</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Graduate programs of students not majoring with Sydnor,
+<unitdate calendar="gregorian" era="ce" normal="1949/1953" type="inclusive">1949-1953</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Graduate school,
+<unitdate calendar="gregorian" era="ce" normal="1938/1953" type="inclusive">1938-1953</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><persname>Gross, Paul, </persname>Letters to and from about policy in
+history graduate programs,
+<unitdate calendar="gregorian" era="ce" normal="1949/1950" type="inclusive">1949-1950</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>History majors in <corpname>Trinity College, </corpname><unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953, Fall</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">Preparing Graduate Students for College
+Teaching,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1951/1952" type="inclusive">1951-1952</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Research topics, thesis subjects,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous,
+<unitdate calendar="gregorian" era="ce" normal="1952/1954" type="inclusive">1952-1954</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Duke University Library, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1951/1953" type="inclusive">1951-1953</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Duke University Library Council, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1939/1950" type="inclusive">1939-1950</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Duke University Research
+Council</corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1937/1954" type="inclusive">1937-1954</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Carnegie Foundation, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1948/1950" type="inclusive">1948-1950</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3</container>
+            <unittitle>E,
+<unitdate calendar="gregorian" era="ce" normal="1940/1951" type="inclusive">1940-1951</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>English-Speaking Union, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1950/1951" type="inclusive">1950-1951</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>F,
+<unitdate calendar="gregorian" era="ce" normal="1933/1952" type="inclusive">1933-1952</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Ferrell, Robert H., </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><persname>Fleming, Walter Lynwood, </persname>lectures, programs,
+<unitdate calendar="gregorian" era="ce" normal="1938/1949" type="inclusive">1938-1949</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Fulbright program,
+<unitdate calendar="gregorian" era="ce" normal="1950/1951" type="inclusive">1950-1951, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>G,
+<unitdate calendar="gregorian" era="ce" normal="1923/1953" type="inclusive">1923-1953, undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Gauhati University, Assam, India, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1951/1954" type="inclusive">1951-1954, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Glasgow, University of, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1950/1951" type="inclusive">1950-1951, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Green, Edward R. R., </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>H,
+<unitdate calendar="gregorian" era="ce" normal="1936/1969" type="inclusive">1936-1969, undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(4 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Hampden-Sydney College Alumni Fund, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Harvard University Summer
+School:</corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1951/1952" type="inclusive">1951-1952, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Housing,
+<unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Historical Society of North Carolina, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1945/1953" type="inclusive">1945-1953, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Home: <geogname>Oxford, Miss., </geogname><unitdate calendar="gregorian" era="ce" normal="1928" type="inclusive">1928, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>I,
+<unitdate calendar="gregorian" era="ce" normal="1934/1952" type="inclusive">1934-1952, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Income tax,
+<unitdate calendar="gregorian" era="ce" normal="1918/1930" type="inclusive">1918-1930</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>J,
+<unitdate calendar="gregorian" era="ce" normal="1926/1954" type="inclusive">1926-1954</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Jameson, R. D., </persname>
+              <corpname>Library of Congress,
+</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Johns Hopkins University, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1922/1923" type="inclusive">1922-1923</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Jordan, Charles E., </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1949/1952" type="inclusive">1949-1952, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>K,
+<unitdate calendar="gregorian" era="ce" normal="1925/1954" type="inclusive">1925-1954, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Kearns Fellows Homecoming,
+<unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>L,
+<unitdate calendar="gregorian" era="ce" normal="1920/1954" type="inclusive">1920-1954, undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Laprade, W. T., </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1950/1953" type="inclusive">1950-1953</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Library of Congress: </corpname>Grant in Aid,
+<unitdate calendar="gregorian" era="ce" normal="1945/1946" type="inclusive">1945-1946</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4</container>
+            <unittitle>M,
+<unitdate calendar="gregorian" era="ce" normal="1925/1954" type="inclusive">1925-1954</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Mc,
+<unitdate calendar="gregorian" era="ce" normal="1919/1972" type="inclusive">1919-1972</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <geogname>Mississippi, </geogname>
+              <unitdate calendar="gregorian" era="ce" normal="1935/1947" type="inclusive">1935-1947</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Mississippi Conference Historical Society, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Mississippi Historical Society, Biloxi, Miss., </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1953/1954" type="inclusive">1953-1954</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Mississippi Valley Historical Society: </corpname>Programs,
+<unitdate calendar="gregorian" era="ce" normal="1937/1947" type="inclusive">1937-1947</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Montgomery, Isaiah T., </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1929/1937" type="inclusive">1929-1937; undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Morrison, Samuel Eliot, </persname>
+              <title linktype="simple" render="italic">
+History as a Literary Art,</title>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>N,
+<unitdate calendar="gregorian" era="ce" normal="1935/1953" type="inclusive">1935-1953</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Nobel Peace Prize,
+<unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>North Carolina Literary and Historical Association, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1948/1952" type="inclusive">1948-1952</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>O,
+<unitdate calendar="gregorian" era="ce" normal="1929/1952" type="inclusive">1929-1952</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Oxford, University of, </corpname>and England: Miscellaneous,
+<unitdate calendar="gregorian" era="ce" normal="1950/1951" type="inclusive">1950-1951, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Oxford, University of: </corpname>Addresses about, notes for,
+<unitdate calendar="gregorian" era="ce" normal="1953/1954" type="inclusive">1953-1954, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Oxford, University of: </corpname>
+              <persname>Beloff, Max,
+</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1950/1951" type="inclusive">1950-1951</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Oxford, University of: </corpname>Correspondence,
+<unitdate calendar="gregorian" era="ce" normal="1950/1951" type="inclusive">1950-1951</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Oxford, University of, Queen's
+College:</corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1950/1953" type="inclusive">1950-1953</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Class rolls and notes,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Correspondence,
+<unitdate calendar="gregorian" era="ce" normal="1950" type="inclusive">1950</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Registrar, provost,
+<unitdate calendar="gregorian" era="ce" normal="1950" type="inclusive">1950</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous,
+<unitdate calendar="gregorian" era="ce" normal="1948/1951" type="inclusive">1948-1951</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>P,
+<unitdate calendar="gregorian" era="ce" normal="1930/1953" type="inclusive">1930-1953</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Phi Beta Kappa, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1939/1940" type="inclusive">1939-1940, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Pogue, Forrest C., </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1951/1952" type="inclusive">1951-1952</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Presbyterian Church, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1922/1954" type="inclusive">1922-1954</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">5</container>
+            <unittitle><corpname>Presbyterian Church in the United States: </corpname>Board of
+Education,
+<unitdate calendar="gregorian" era="ce" normal="1946/1952" type="inclusive">1946-1952</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Presbyterian Church, First (Durham, N.C.), </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1948/1954" type="inclusive">1948-1954</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Presbyterian Church Youth Literature,
+<unitdate calendar="gregorian" era="ce" normal="1943/1946" type="inclusive">1943-1946, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Princeton Conference of Historians, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1953/1953" type="inclusive">1953, Oct. 30-31</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Princeton University: </corpname>Honorary degree,
+<unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Q,
+<unitdate calendar="gregorian" era="ce" normal="1940/1952" type="inclusive">1940-1952</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>R,
+<unitdate calendar="gregorian" era="ce" normal="1930/1959" type="inclusive">1930-1959</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>S,
+<unitdate calendar="gregorian" era="ce" normal="1931/1956" type="inclusive">1931-1956</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(6 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Sabbatical:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1941/1953" type="inclusive">1941-1953, undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Fulbright grant,
+<unitdate calendar="gregorian" era="ce" normal="1949/1950" type="inclusive">1949-1950, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Huntington Library, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Salzburg Seminar in American Studies,
+<unitdate calendar="gregorian" era="ce" normal="1950/1952" type="inclusive">1950-1952, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Scotland, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Simon, F. E., </persname>
+              <title linktype="simple" render="doublequote">A Scientist
+Looks at America,</title>
+              <unitdate calendar="gregorian" era="ce" normal="1950/1951" type="inclusive">1950-1951</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Social Science Research Council, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1939/1953" type="inclusive">1939-1953, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Southern Historical Association: </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1934/1952" type="inclusive">1934-1952, undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(4 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">6</container>
+            <unittitle><corpname>Southern Historical Association: </corpname>Programs,
+<unitdate calendar="gregorian" era="ce" normal="1934/1951" type="inclusive">1934-1951</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>Southwestern Social Science Association: </corpname>Programs,
+<unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Sydnor family genealogy,
+<unitdate calendar="gregorian" era="ce" normal="1862/1952" type="inclusive">1862-1952</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>T,
+<unitdate calendar="gregorian" era="ce" normal="1934/1953" type="inclusive">1934-1953</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Theses written under the direction of Charles S. Sydnor: List of early theses
+written at Duke,
+<unitdate calendar="gregorian" era="ce" normal="1937/1953" type="inclusive">1937-1953, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Trinity College Historical
+Society:</corpname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1952/1954" type="inclusive">1952-1954</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Publications,
+<unitdate calendar="gregorian" era="ce" normal="1950/1953" type="inclusive">1950-1953</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>U,
+<unitdate calendar="gregorian" era="ce" normal="1932/1948" type="inclusive">1932-1948</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>United Educators,
+<unitdate calendar="gregorian" era="ce" normal="1934/1936" type="inclusive">1934-1936</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>United States Army </corpname>addresses and notes,
+<unitdate calendar="gregorian" era="ce" normal="1944" type="inclusive">1944, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><corpname>United States Army </corpname>History,
+<unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953, Feb.-Aug.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>United States Department of Education, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1952/1953" type="inclusive">1952-1953</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>United States. Department of the Army. Office of Military
+History, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1949/1953" type="inclusive">1949-1953</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>University of Chattanooga, Phi Beta Kappa, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935, Dec.</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>University of Michigan, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>University of Mississippi, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1927/1954" type="inclusive">1927-1954</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>University of North Carolina at Chapel Hill, Summer School,
+</corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>V,
+<unitdate calendar="gregorian" era="ce" normal="1926/1952" type="inclusive">1926-1952</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>W,
+<unitdate calendar="gregorian" era="ce" normal="1925/1954" type="inclusive">1925-1954</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <corpname>Washington and Lee University, </corpname>
+              <unitdate calendar="gregorian" era="ce" normal="1947/1949" type="inclusive">1947-1949</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Williams, William A., </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <geogname>Williamsburg:</geogname>
+            </unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Institute of Early American History and Culture, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1950/1953" type="inclusive">1950-1953</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(4 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>The Candidates,
+<unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>World Book Encyclopedia,
+<unitdate calendar="gregorian" era="ce" normal="1941/1947" type="inclusive">1941-1947</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>X-Z,
+<unitdate calendar="gregorian" era="ce" normal="1934/1958" type="inclusive">1934-1958</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Writings and Speeches Series,
+<unitdate calendar="gregorian" era="ce" normal="1729/1954" type="inclusive">1729-1954</unitdate>
+                  <unitdate calendar="gregorian" era="ce" normal="1923/1954" type="bulk">(bulk 1923-1954).</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes research materials and notes, as well as drafts and off-prints, which
+document the development of Sydnor's published works and addresses. Included are
+notes and drafts for Gentleman Freeholders: Political Practices in Washington's Virginia,
+and The Development of Southern Sectionalism, 1819-1849. A handwritten duplicate of a
+document, signed by James Madison on April 18, 1810, certifying the appointment of
+Levin Wailes as the Register for the Land Office of the United States for the western part
+of the Orleans Territory is among the oversize materials for this series (See OC:II:7).
+Included are research materials from the eighteenth and nineteenth centuries. The two
+major categories are Writings and Background Materials, each arranged alphabetically. At
+the end are Miscellaneous Materials. The background materials include Sydnor's research
+notes, but it has not been determined for which particular writing they were created.</p>
+        </scopecontent>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Writings</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><emph render="doublequote">Aristocracy and Politics in Revolutionary
+Virginia,</emph> American Historical Association/Southern Historical Association,
+<unitdate calendar="gregorian" era="ce" normal="1948" type="inclusive">1948</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Article mailing lists,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">The Beginning of Printing in Mississippi,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1934/1935" type="inclusive">1934-1935, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">The Biography of a Slave,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1826/1937" type="inclusive">1826-1937</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Blazer Lecture, <corpname>University of Kentucky, </corpname><unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><emph render="doublequote">B.L.C. Wailes, Scientist and Historian</emph>,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">The Christian as an Interpreter of History,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">ca. 1953</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">A Description of Seargeant S. Prentiss in
+1838,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1944/1945" type="inclusive">1944-1945</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">7</container>
+              <unittitle>
+                <title linktype="simple" render="italic">The Development of Southern Sectionalism,
+1819-1848:</title>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Stylesheet and outlines,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous notes,
+<unitdate calendar="gregorian" era="ce" normal="1918/1937" type="inclusive">1918-1937, undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(7 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Usage notes, contents, preface,
+<unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter I, <title linktype="simple" render="doublequote">The Awakened
+South</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter II, <title linktype="simple" render="doublequote">Location of Political
+Power</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter III, <title linktype="simple" render="doublequote">Enlightenment of Public
+Opinion</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter IV, <title linktype="simple" render="doublequote">Toward a More Perfect
+Society</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter V, <title linktype="simple" render="doublequote">Crises in Business and
+Politics</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter VI, <title linktype="simple" render="doublequote">From Economic Nationalism to Political
+Sectionalism</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter VII, <title linktype="simple" render="doublequote">End of the Virginia
+Dynasty</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter VIII, <title linktype="simple" render="doublequote">The Lower South Adopts States'
+Rights</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter IX, <title linktype="simple" render="doublequote">Bold Acts and Bolder
+Thoughts</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter X, <title linktype="simple" render="doublequote">Prologue to the End of
+Slavery</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter XI, <title linktype="simple" render="doublequote">Vicissitudes of an Agricultural
+Economy</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter XII, <title linktype="simple" render="doublequote">Movement Toward Political
+Democracy</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter XIII, <title linktype="simple" render="doublequote">Religion, Education,
+Literature</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter XIV, <title linktype="simple" render="doublequote">Political Weakness and Social
+Perfection</title></unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Preface, chapters I-XIII, revised </unittitle>
+                <physdesc>
+                  <extent>(14 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter XIV, <title linktype="simple" render="doublequote">Party Allegiance for Sectional
+Patriotism,</title> rev.</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapter XV, <title linktype="simple" render="doublequote">The Affirmation of Southern Perfection,
+</title> rev.</unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Fragment of a manuscript,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Illustrations,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(3 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Bibliography,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Legends and bibliography to accompany maps of presidential elections of 1824,
+1828, 1832,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Notes concerning maps of presidential elections,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Critical bibliography,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Index,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous,
+<unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Correspondence: <corpname>Louisiana State University Press, </corpname><unitdate calendar="gregorian" era="ce" normal="1939/1968" type="inclusive">1939-1968</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">8</container>
+              <unittitle>
+                <title linktype="simple" render="italic">The Development of Southern Sectionalism, 1819-1848:
+</title>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Reviews, clippings,
+<unitdate calendar="gregorian" era="ce" normal="1940/1951" type="inclusive">1940-1951, undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Mayflower Cup Award,
+<unitdate calendar="gregorian" era="ce" normal="1948/1949" type="inclusive">1948-1949</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Diary of a Journey in Arkansas in 1856, Mississippi
+Valley Historical Review,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935, Dec.</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Dictionary of American Biography (DAB):
+</title>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence,
+<unitdate calendar="gregorian" era="ce" normal="1927/1934" type="inclusive">1927-1934</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Featherston, W. S., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1928" type="inclusive">1928</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Foote, Henry S., </persname>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>George, James Z., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">1930</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Gordon, James, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">1930</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Leflore, Greenwood, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1931" type="inclusive">1931</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Martin, William T., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1933" type="inclusive">1933</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>McLautin, A. J., </persname>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>McRae, J. J., </persname>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Mayes, Edward, </persname>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Money, H. D., </persname>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Orr, J. A., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1930/1934" type="inclusive">1930-1934</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Poindexter, George, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1931" type="inclusive">1931</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Prentiss, S. S., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1931" type="inclusive">1931</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Sharkey, W. L., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1931/1935" type="inclusive">1931-1935</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Singleton, O. R., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Smith, James Argyle, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Stewart, Alexander Peter, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Stockdale, Thomas R., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Stone, John Marshall, </persname>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Thompson, Jacob, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1932/1934" type="inclusive">1932-1934</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Turner, Edward, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1933/1936" type="inclusive">1933-1936</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Vardaman, James K., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1933" type="inclusive">1933</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Wailes, B. L. C., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1933/1936" type="inclusive">1933-1936</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Walthall, E. C., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1933" type="inclusive">1933</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Williams, John Sharp, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1934/1935" type="inclusive">1934-1935</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Yerger, William, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Dissertation notes,
+<unitdate calendar="gregorian" era="ce" normal="1923" type="inclusive">1923?</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(4 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Essays on Law and Conscience in American History,</title> outline and notes,
+<unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Fleming lectures, Louisiana State University:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Carbons,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Correspondence, programs, <unitdate calendar="gregorian" era="ce" normal="1952/1954" type="inclusive">1952-1954</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Drafts and notes, <unitdate calendar="gregorian" era="ce" normal="1954" type="inclusive">1954, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">The Free Negro in Mississippi Before the Civil War,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1927/1935" type="inclusive">1927-1935</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Free negroes: Background material <unitdate calendar="gregorian" era="ce" normal="1705/1860" type="inclusive">1705-1860, undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">9</container>
+              <unittitle>Free negroes:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Notes relating to, <unitdate calendar="gregorian" era="ce" normal="1789/1941" type="inclusive">1789-1941, undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Transcribed letters and documents from the <corpname>Historical Society of Pennsylvania, </corpname><unitdate calendar="gregorian" era="ce" normal="1788/1938" type="inclusive">1788-1938</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Gentleman Freeholders:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Abbot notes, used in Ch. VI, <unitdate calendar="gregorian" era="ce" normal="1761/1775" type="inclusive">1761-1775, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Abbot's notes of House of Burgesses Committees, <unitdate calendar="gregorian" era="ce" normal="1761/1775" type="inclusive">1761-1775, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Background information, <unitdate calendar="gregorian" era="ce" normal="1947/1951" type="inclusive">1947-1951, undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Charles City and Northumberland County, Wicomico and South Farhan Notes, <unitdate calendar="gregorian" era="ce" normal="1703/1876" type="inclusive">1703-1876, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>A Collection of Plays and Poems by the late <persname>Colonel Robert
+Munford, </persname><unitdate calendar="gregorian" era="ce" normal="1798" type="inclusive">1798, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Contested Elections:</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>House of Burgesses Journals,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>
+                    <geogname>Virginia, </geogname>
+                    <unitdate calendar="gregorian" era="ce" normal="1948/1950" type="inclusive">1948-1950, undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>The County Court/Albermarle, Essex,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Dissenters, research and correspondence relating to,
+<unitdate calendar="gregorian" era="ce" normal="1948/1950" type="inclusive">1948-1950</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Justice of the Peace: Economic and social status,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Madison, James, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1923" type="inclusive">1923, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><persname>Madison, James, </persname>Papers: <corpname>Library of Congress, </corpname><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <emph render="doublequote">Percentages of Virginia Legislators Who Were
+Justices of the Peace,</emph>
+                  <unitdate calendar="gregorian" era="ce" normal="1776/1861" type="inclusive">1776-1861, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Potential film based on book,
+<unitdate calendar="gregorian" era="ce" normal="1952/1953" type="inclusive">1952-1953, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Political ladder in Washington's Virginia,
+<unitdate calendar="gregorian" era="ce" normal="1942/1952" type="inclusive">1942-1952, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Reviews,
+<unitdate calendar="gregorian" era="ce" normal="1952/1953" type="inclusive">1952-1953</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Tabulations of Virginia elections (1788),
+<unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Tucker-Coleman Papers, Colonial Williamsburg,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Virginia demographic information,
+<unitdate calendar="gregorian" era="ce" normal="1790/1948" type="inclusive">1790-1948</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Virginia elections, 1740s-1840s polls; F. Taylor's diary,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Virginia political leadership (1775-1800):</unittitle>
+              </did>
+              <c05>
+                <did>
+                  <unittitle>Sketches,
+<unitdate calendar="gregorian" era="ce" normal="1948" type="inclusive">1948, undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+              <c05>
+                <did>
+                  <unittitle>Rise to power of political leaders,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                           </unittitle>
+                </did>
+              </c05>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Preface and front pages,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Chapters I-IX (9 folders),
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Bibliographical note,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Appendix I-II (2 folders),
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Index,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Carbon of last copy lacking Ch. VI,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Index to,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Fragment of a manuscript,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">10</container>
+              <unittitle>
+                <title linktype="simple" render="italic">Gentleman
+Freeholders:</title>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence,
+<unitdate calendar="gregorian" era="ce" normal="1946/1956" type="inclusive">1946-1956, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">A Gentleman of the Old Natchez Region:
+</title>
+                <persname>Benjamin L. C. Wailes:</persname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Announcements and reviews,
+<unitdate calendar="gregorian" era="ce" normal="1938/1939" type="inclusive">1938-1939, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Maps, photographs, and tables,
+<unitdate calendar="gregorian" era="ce" normal="1922/1937" type="inclusive">1922-1937, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Notes,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(4 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Publication documents,
+<unitdate calendar="gregorian" era="ce" normal="1937" type="inclusive">1937, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Revision notes used,
+<unitdate calendar="gregorian" era="ce" normal="1891/1936" type="inclusive">1891-1936, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">Historical Activities in Mississippi in the Nineteenth
+Century,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1937" type="inclusive">1937</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">Historical Comments on American
+Democracy,</emph>
+                <corpname>Mississippi Historical Society, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1954" type="inclusive">1954, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="doublequote">Intellectual Activities in the Old Natchez
+District,</title>
+                <corpname>American Historical Association, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1936" type="inclusive">1936</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Lee, Guy A., </persname>
+                <title linktype="simple" render="doublequote">The Historian
+and the Federal Government,</title>
+                <corpname>American Historical Association,
+</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1949/1950" type="inclusive">1949-1950, n.d</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">Letter from Alexander M. Clayton Relative to Cuban
+Affairs,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">Letters from Franklin L. Riley to Herbert B. Adams (1894-1901),</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1935/1940" type="inclusive">1935-1940</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">Life Span of Mississippi Slaves,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1926/1930" type="inclusive">1926-1930</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Mississippi History:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Correspondence and corrections,
+<unitdate calendar="gregorian" era="ce" normal="1938/1940" type="inclusive">1938-1940</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Miscellaneous notes,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1925/1927" type="inclusive">1925-1927?</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Pictures, 1863-
+<unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">1930, undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">The Old South as a Laboratory for Cultural
+Analysis,</emph>
+                <corpname> University of Michigan, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">The Old South to the New,</emph>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">The One Party Period of American History,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1942/1946" type="inclusive">1942-1946</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><corpname>Phi Beta Kappa </corpname>address, <corpname>University of
+South Carolina, </corpname><unitdate calendar="gregorian" era="ce" normal="1949/1950" type="inclusive">1949-1950</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><emph render="doublequote">Political Leadership in Eighteenth-Century
+Virginia,</emph> published lecture,
+<unitdate calendar="gregorian" era="ce" normal="1950/1951" type="inclusive">1950-1951</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">Possibilities of a Historic Highway through
+Mississippi,</emph>
+                <corpname> University of Mississippi, </corpname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">A Possible Source of Calhoun's plan of
+Nullification,</emph>
+                <corpname> Mississippi Valley Historical Association,
+</corpname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><emph render="doublequote">Press Censorship in England, 1534-1603,</emph>
+ (dissertation),
+<unitdate calendar="gregorian" era="ce" normal="1923" type="inclusive">1923</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">Pursuing Fugitive Slaves,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1929/1935" type="inclusive">1929-1935</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><emph render="doublequote">Reducing the Risks in Politics</emph>: Address
+delivered at the Virginia State Library, <unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953, June 12</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Reviews:
+
+<unitdate calendar="gregorian" era="ce" normal="1931/1949" type="inclusive">1931-1949, n.d</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(4 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">11</container>
+              <unittitle>Reviews:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1931/1949" type="inclusive">1931-1949, undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(3 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1949/1952" type="inclusive">1949-1952, n.d,</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(3 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Roanoke World News,
+<unitdate calendar="gregorian" era="ce" normal="1923/1924" type="inclusive">1923-1924</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><emph render="doublequote">Second Thoughts and Suggestions,</emph> a
+contribution to Pennsylvania Conference on American Political History, Pennslyvania
+Magazine of History and Biography LXXII, 201-202, (Apr. 1948),
+<unitdate calendar="gregorian" era="ce" normal="1948" type="inclusive">1948</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">A Slave Owner and His Overseers,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1937" type="inclusive">1937</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Slavery in
+Mississippi:</title>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Background materials,
+<unitdate calendar="gregorian" era="ce" normal="1790/1932" type="inclusive">1790-1932, undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Bowle's Plantation <persname>(Mrs. Bem Price), </persname><unitdate calendar="gregorian" era="ce" normal="1850/1851" type="inclusive">1850-1851</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Correspondence relating to,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Devlin Diary,
+<unitdate calendar="gregorian" era="ce" normal="1836/1885" type="inclusive">1836-1885</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Finney slave trader letters,
+<unitdate calendar="gregorian" era="ce" normal="1836/1837" type="inclusive">1836-1837</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Leigh Plantation Account Book,
+<unitdate calendar="gregorian" era="ce" normal="1852/1853" type="inclusive">1852-1853</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Leigh Plantation Book,
+<unitdate calendar="gregorian" era="ce" normal="1852/1933" type="inclusive">1852-1933</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Reviews,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">The Southern Experiment in Writing Social
+History,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1944/1945" type="inclusive">1944-1945</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">The Southerner and the Laws,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1939" type="inclusive">1939, undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">State Geological Surveys in the Old South,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1939/1940" type="inclusive">1939-1940</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">Thomas Jefferson's Comments on the Report of the
+President's Commission on Higher Education,</emph>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Travels in the Old
+South:</title>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Background materials,
+<unitdate calendar="gregorian" era="ce" normal="1837/1906" type="inclusive">1837-1906, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Collaborators information,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Printer's copy with notes,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(4 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Unused research,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">12</container>
+              <unittitle>Voting in Early America:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Illustrations,
+<unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <persname>Wailes, B. L. C.:</persname>
+              </unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Address Delivered at... Jefferson College,
+<unitdate calendar="gregorian" era="ce" normal="1842" type="inclusive">1842</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Correspondence related to,
+<unitdate calendar="gregorian" era="ce" normal="1931/1934" type="inclusive">1931-1934</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Diary of,
+<unitdate calendar="gregorian" era="ce" normal="1853/1932" type="inclusive">1853-1932</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <emph render="doublequote">Inaugural Address Delivered at the first meeting of
+Adams Athenaeum 31 March 1825</emph>
+                </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><emph render="doublequote">Inaugural Address Read at the Historical Society of
+Mississippi by B.L.C. Wailes</emph> and related documents,
+<unitdate calendar="gregorian" era="ce" normal="1859/1934" type="inclusive">1859-1934, n.d</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">What the Historian Expects of an Archival Agency or
+Historical Society,</emph>
+                <corpname>Society of American Archivists, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1948" type="inclusive">1948</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Background Materials</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><geogname>Crockett Mss.: </geogname>Slavery and Reconstruction,
+<unitdate calendar="gregorian" era="ce" normal="1872" type="inclusive">1872</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Elections:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Presidential and state,
+<unitdate calendar="gregorian" era="ce" normal="1820" type="inclusive">1820</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Presidential,
+<unitdate calendar="gregorian" era="ce" normal="1824/1832" type="inclusive">1824-1832</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(3 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Statistics,
+<unitdate calendar="gregorian" era="ce" normal="1820/1860" type="inclusive">1820-1860</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Elizabeth Female Academy (Washington, Miss.), </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1936" type="inclusive">1936</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Estate of <persname>James K. Polk: </persname>Inventory,
+<unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Jefferson College, Washington, Miss., </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1936" type="inclusive">1936</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Justices of the Peace:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>North Carolina and Kentucky Legislatures, etc.,
+<unitdate calendar="gregorian" era="ce" normal="1820/1940" type="inclusive">1820-1940, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <geogname>Virginia, </geogname>
+                  <unitdate calendar="gregorian" era="ce" normal="1942/1945" type="inclusive">1942-1945, undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle><geogname>Virginia, </geogname>Justices, Summary sheets,
+<unitdate calendar="gregorian" era="ce" normal="1820" type="inclusive">1820, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <geogname>West Virginia, </geogname>
+                  <unitdate calendar="gregorian" era="ce" normal="1820" type="inclusive">1820, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Leadership after
+<unitdate calendar="gregorian" era="ce" normal="1865" type="inclusive">1865, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Map and election statistics and correspondence,
+<unitdate calendar="gregorian" era="ce" normal="1940/1941" type="inclusive">1940-1941</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Maps:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>City populations,
+<unitdate calendar="gregorian" era="ce" normal="1860/1936" type="inclusive">1860, 1936</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>County populations,
+<unitdate calendar="gregorian" era="ce" normal="1860/1936" type="inclusive">1860, 1936</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Natchez Institute, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1934/1935" type="inclusive">1934-1935</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Non-southern related materials,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">Notes and statistics on social and economic
+condition, 1819,</emph>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Paine Detected,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Popular prejudices and the historian, notes and research materials,
+<unitdate calendar="gregorian" era="ce" normal="1931/1949" type="inclusive">1931-1949, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">Religion, Education, Literature, etc.,</emph>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>The South after 1865,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <emph render="doublequote">South Carolina,</emph>
+                <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <geogname>South Carolina: Charleston, S.C., </geogname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><geogname>South Carolina </geogname>public records,
+<unitdate calendar="gregorian" era="ce" normal="1729/1748" type="inclusive">1729-1748</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Southern municipal directories and censuses before 1861,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Southern municipal ordinances and laws before 1861,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Southern Planter (Natchez),
+<unitdate calendar="gregorian" era="ce" normal="1842" type="inclusive">1842</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Southern political leadership before Jackson (except Virginia),
+<unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Southern towns:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Occupations: <geogname>Memphis, Charleston, S.C., Nashville, Louisville,
+</geogname><unitdate calendar="gregorian" era="ce" normal="1836/1860" type="inclusive">1836-1860, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Southwestern Journal,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1837/1838" type="inclusive">1837-1838</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><geogname>Virginia </geogname>counties,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Western farmer and gardener,
+<unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <corpname>Woodville Manufacturing Company, </corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1850/1935" type="inclusive">1850-1935</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Woodville Republican notes (mostly on poetry),
+<unitdate calendar="gregorian" era="ce" normal="1847/1848" type="inclusive">1847-1848</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Yellow fever, copy of letter owned by <persname>Mrs. James Andrews,
+</persname><corpname>University of North Carolina at Chapel Hill, </corpname><unitdate calendar="gregorian" era="ce" normal="1878" type="inclusive">1878</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous,
+<unitdate calendar="gregorian" era="ce" normal="1818/1953" type="inclusive">1818-1953, undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <container type="box">13</container>
+              <unittitle>13a Microfilm boxes:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>A Collection of Plays and Poems of the Late Colonel Robert Mumford,
+<unitdate calendar="gregorian" era="ce" normal="1798" type="inclusive">1798</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>[Mississippi General Assembly Senate Journals,
+<unitdate calendar="gregorian" era="ce" normal="1830/1839" type="inclusive">1830 November-1839 January.]</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>[Commission Book No.1,
+<unitdate calendar="gregorian" era="ce" normal="1787/1797" type="inclusive">ca. 1787-1797]</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>[Register of Justices and County Officers,
+<unitdate calendar="gregorian" era="ce" normal="1780/1822" type="inclusive">1780-1822]</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>[Register of Magistrates...
+<unitdate calendar="gregorian" era="ce" normal="1783/1811" type="inclusive">1783-1811]</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>[Register of Magistrates... 1852-1865]</unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>13b Index Cards:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>Mississippi Session Laws, Mississippi Senate and House,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Journals, Woodville Republican,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Miscellaneous Mississippi newspapers,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>13c Index Cards: Notes,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>13d Writings in American History, notes from,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Miscellaneous</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">14</container>
+              <unittitle>
+                <unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Notes for textbooks,
+<unitdate calendar="gregorian" era="ce" normal="1924/1930" type="inclusive">1924-1930</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(8 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Correspondence Series Series,
+<unitdate calendar="gregorian" era="ce" normal="1926/1956" type="inclusive">1926-1956</unitdate> and undated.
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Primarily correspondence to or from Sydnor concerning his career as a professor and
+as a historian. Also included are letters addressed to Mrs. Sydnor and some relating to
+Sydnor family matters. Arranged in chronological order by year.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">15</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1926/1955" type="inclusive">1926-1956 and undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(7 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Teaching Files Series,
+<unitdate calendar="gregorian" era="ce" normal="1923/1954" type="inclusive">1923-1954, undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes recommendations, course notes, class rolls, grade books, and student papers
+related to Sydnor's teaching posts at Duke University and elsewhere. The
+recommendations, student papers, and grade books are restricted. Arranged
+alphabetically, with the restricted files following the non-restricted materials.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <unittitle>
+              <emph render="doublequote">Duke University, Summer Session,</emph>
+              <unitdate calendar="gregorian" era="ce" normal="1952/1953" type="inclusive">1952-1953</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Examinations: History course,
+<unitdate calendar="gregorian" era="ce" normal="1924/1952" type="inclusive">1924-1952</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>History courses,
+<unitdate calendar="gregorian" era="ce" normal="1937/1954" type="inclusive">1937-1954, undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <emph render="doublequote">Social and Intellectual Development of the Old
+South,</emph>
+              <unitdate calendar="gregorian" era="ce" normal="1938/1945" type="inclusive">1938-1945</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle><emph render="doublequote">Teaching Load</emph> Committee Report,
+<unitdate calendar="gregorian" era="ce" normal="1939/1940" type="inclusive">1939-1940</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Miscellaneous Notes,
+<unitdate calendar="gregorian" era="ce" normal="1927" type="inclusive">1927, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Restricted</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Class rolls and grades:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <corpname>Duke University Summer Schools, </corpname>
+                  <unitdate calendar="gregorian" era="ce" normal="1935/1951" type="inclusive">1935-1951</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <corpname>Harvard Summer School, </corpname>
+                  <unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <corpname>Institute of Early American History and Culture, </corpname>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <corpname>University of North Carolina at Chapel Hill, </corpname>
+                  <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949, Summer</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Grade books,
+<unitdate calendar="gregorian" era="ce" normal="1923/1953" type="inclusive">1923-1953</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Graduate stipends:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1952/1954" type="inclusive">1952-1954</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Acceptances and rejections,
+<unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Students:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Abbot, William, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1949/1953" type="inclusive">1949-1953, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Braverman, Howard, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1949/1950" type="inclusive">1949-1950</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Cunningham, Noble E., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1949/1953" type="inclusive">1949-1953, undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Gescher, Dieter, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1951/1952" type="inclusive">1951-1952</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Harris, Robert L., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1949/1953" type="inclusive">1949-1953</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>King, Doris Elizabeth, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1949/1953" type="inclusive">1949-1953</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Malin, Morton V., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>McCain, Paul M., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1949/1950" type="inclusive">1949-1950</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Oliver, George B., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1949/1954" type="inclusive">1949-1954</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Petersen, Carsten Brink, </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Sisk, Glenn N., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1949/1950" type="inclusive">1949-1950</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Smith, Clarence McK., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1948/1953" type="inclusive">1948-1953</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <persname>Taylor, Orville W., </persname>
+                  <unitdate calendar="gregorian" era="ce" normal="1949/1953" type="inclusive">1949-1953</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Papers,
+<unitdate calendar="gregorian" era="ce" normal="1942/1953" type="inclusive">1942-1953</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Miscellaneous Series,
+<unitdate calendar="gregorian" era="ce" normal="1933/1971" type="inclusive">1933-1971</unitdate> and undated.
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Chiefly consists of clippings, pictures, and printed material documenting Sydnor's
+professional affiliations.</p>
+        </scopecontent>
+        <c02>
+          <did>
+            <container type="box">16</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1933/1978" type="inclusive">1933-1978</unitdate> and undated
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Clippings,
+<unitdate calendar="gregorian" era="ce" normal="1933/1971" type="inclusive">1933-1971</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>Sydnor:</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>Biographical information and pictures,
+<unitdate calendar="gregorian" era="ce" normal="1947/1955" type="inclusive">1947-1955, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Death,
+<unitdate calendar="gregorian" era="ce" normal="1954" type="inclusive">1954</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>List of publications,
+<unitdate calendar="gregorian" era="ce" normal="1936/1954" type="inclusive">1936-1954, undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Papers while a student:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1920/1945" type="inclusive">1920-1945, undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(5 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>Notebooks [1-17],
+<unitdate calendar="gregorian" era="ce" normal="1916/1921" type="inclusive">1916-1921, undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(4 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+<c03>
+            <did>
+              <unittitle>Papers while a student:</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>
+                  <unitdate calendar="gregorian" era="ce" normal="1920/1945" type="inclusive">1920-1945, undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(5 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+</c03>
+            <c03>
+              <did>
+                <unittitle>Article on Sydnor, undated, no author indicated
+                        </unittitle>
+                <physdesc>
+                  <extent>(1 folder)</extent>
+                </physdesc>
+              </did>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Oversize Materials</unittitle>
+        </did>
+        <c02>
+          <did>
+            <container type="box">17</container>
+            <unittitle>Alphabetical Files,
+
+<unitdate calendar="gregorian" era="ce" normal="1871/1953" type="inclusive">1871-1953, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">17</container>
+            <unittitle>Alphabetical Files,
+<unitdate calendar="gregorian" era="ce" normal="1927/1953" type="inclusive">1927-1953, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+             <container type="box">17</container>
+            <unittitle>Writings and Speeches,
+<unitdate calendar="gregorian" era="ce" normal="1820/1946" type="inclusive">1820-1946, undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+             <container type="box">17</container>
+            <unittitle>Writings and Speeches,
+<unitdate calendar="gregorian" era="ce" normal="1835/1952" type="inclusive">1835-1952</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+             <container type="box">17</container>
+            <unittitle>Teaching Files,
+<unitdate calendar="gregorian" era="ce" normal="1936/1951" type="inclusive">1936-1951</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+      </c01>
+    </dsc>
+  </archdesc>
+</ead>

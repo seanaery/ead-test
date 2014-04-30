@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+	<eadheader audience="internal" findaidstatus="unverified-full-draft" langencoding="iso639-2b"
+		scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1"
+		repositoryencoding="iso15511">
+		<eadid
+			publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Thomas F. Garbett Papers)//EN"
+			countrycode="us" mainagencycode="ndd"
+			url="http://library.duke.edu/rubenstein/findingaids/garbetthomas/">garbettthomas</eadid>
+
+		<filedesc>
+			<titlestmt>
+				<titleproper>Preliminary Guide to the Thomas F. Garbett Papers, <date
+						normal="1951/1992" type="inclusive" era="ce" calendar="gregorian">1951-1992
+					</date> and undated, bulk <date normal="1975/1985" type="bulk" era="ce"
+						calendar="gregorian"> 1975-1985</date>
+				</titleproper>
+				<author>Processed by: Kate Crassons; machine-readable finding aid created by:
+					Elizabeth Arnold</author>
+			</titlestmt>
+			<publicationstmt>
+				<p>
+					<date era="ce" calendar="gregorian"> 2003</date> Duke University. All Rights
+					Reserved.</p>
+			</publicationstmt>
+			<notestmt>
+				<note>
+					<p>Aleph Number: <num type="aleph">003193043</num></p>
+				</note>
+			</notestmt>
+		</filedesc>
+		<profiledesc>
+			<creation>Machine-readable finding aid derived from automated markup system. <lb/>Date
+				of source: May 2, 2003 <lb/>Processed by Kate Crassons May 2, 2003; Finding Aid
+				encoded by Elizabeth Arnold, David M. Rubenstein Rare Book &amp; Manuscript Library,
+				Duke University, <date era="ce" calendar="gregorian">May 12, 2003</date>
+			</creation>
+			<langusage>Description is in <language>English.</language>
+			</langusage>
+		</profiledesc>
+		<revisiondesc>
+			<change>
+				<date normal="2005" era="ce" calendar="gregorian">09-07-2005</date>
+				<item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT
+					(US::NDD::::Thomas F. Garbett Papers)//EN" "garbettthomas" converted from EAD
+					1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+				<item>Also, the top level of the finding aid (above the dsc) changed to conform to
+					current Rubenstein Library and NC EAD standards as laid out in the Inventory
+					Style Guide and in the NCEAD Best Practice Guidelines. Within the dsc, dates for
+					series were normalized. These changes were made by Michelle Belden.</item>
+				<item>Also, container TYPE and LABEL attribute values were standardized according to
+					the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E.
+					Bryan.</item>
+				<item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+			</change>
+		</revisiondesc>
+	</eadheader>
+	<frontmatter>
+		<titlepage>
+			<titleproper>Preliminary Guide to the Thomas F. Garbett Papers, <date era="ce"
+					calendar="gregorian">1951-1992 and undated, bulk 1975-1985</date>
+			</titleproper>
+			<publisher>
+				<lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University
+				<lb/> Durham, North Carolina 27708-0185 USA </publisher>
+			<p>
+				<date era="ce" calendar="gregorian"> 2003</date> Duke University. All Rights
+				Reserved.</p>
+		</titlepage>
+	</frontmatter>
+	<archdesc level="collection">
+		<did>
+			<head>Descriptive Summary</head>
+			<unittitle label="Title">Thomas F. Garbett papers <unitdate normal="1951/1992"
+					type="inclusive" era="ce" calendar="gregorian">1951-1992 and undated, bulk 1975-1985</unitdate></unittitle>
+			<origination label="Creator">
+				<persname>Garbett, Thomas F.</persname>
+			</origination>
+			<physdesc label="Extent">
+				<extent>7.6 Linear Feet</extent>
+				<extent>3450 Items</extent>
+			</physdesc>
+			<repository label="Repository">
+				<corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+					University</corpname>
+			</repository>
+			<physloc label="Location">For current information on the location of these materials,
+				please consult the Library's online catalog.</physloc>
+			<langmaterial label="Language">
+				<language langcode="eng">English.</language>
+			</langmaterial>
+		</did>
+		<descgrp type="admininfo">
+			<head>Administrative Information</head>
+			<accessrestrict>
+				<head>Access Restrictions</head>
+				<p>Collection is open for research.</p>
+				<p>Researchers must register and agree to copyright and privacy laws before using
+					this collection.</p>
+				<p>All or portions of this collection may be housed off-site in Duke University's
+					Library Service Center. There may be a 48-hour delay in obtaining these
+					materials.</p>
+				<p>Please contact Research Services staff before visiting the David M. Rubenstein
+					Rare Book &amp; Manuscript Library to use this collection.</p>
+			</accessrestrict>
+			<userestrict>
+				<head>Use Restrictions</head>
+				<p>The copyright interests in this collection have not been transferred to Duke
+					University. For more information, consult the copyright section of the
+					Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript
+					Library.</p>
+			</userestrict>
+			<prefercite>
+				<head>Preferred Citation</head>
+				<p>[Identification of item], Thomas F. Garbett Papers, David M. Rubenstein Rare Book
+					&amp; Manuscript Library, Duke University</p>
+			</prefercite>
+			<acqinfo>
+				<head>Provenance</head>
+				<p>The Thomas F. Garbett Papers were received by the David M. Rubenstein Rare Book
+					&amp; Manuscript Library as a gift in 2003.</p>
+			</acqinfo>
+			<processinfo>
+				<head>Processing Information</head>
+				<p>Processed by Kate Crassons</p>
+				<p>Completed May 2, 2003</p>
+				<p>Encoded by Elizabeth Arnold</p>
+				<p>This finding aid is NCEAD compliant.</p>
+				<p>This accession is unprocessed: materials may have not been ordered and described
+					beyond their original condition.</p>
+			</processinfo>
+		</descgrp>
+		<!-- End of finding aid header -->
+		<bioghist>
+			<head>Biographical Note</head>
+			<p>Advertising executive and author whose career included work at the Doyle Dane
+				Bernbach agency, where he was Senior Vice President, and Brouillard Communications,
+				Inc. (a division of the J. Walter Thompson Company).</p>
+		</bioghist>
+		<!--End of biohistory-->
+		<!--Begin scopecontent-->
+		<scopecontent>
+			<head>Collection Overview</head>
+			<p>Collection consists mainly of research files on various topics in corporate
+				advertising and those prepared for Garbett's book, <title render="italic"
+					linktype="simple">Corporate Advertising: the What, the Why, and the How</title>
+				(1981). Also contains miscellaneous files reflecting his work at Brouillard
+				Communications, including advertisements for Textron, inc., and Eaton Corporation,
+				as well as unsorted examples of corporate advertising taken from U.S. magazines and
+				newspapers. Acquired as part of the John W. Hartman Center for Sales, Advertising
+				&amp; Marketing History.</p>
+		</scopecontent>
+		<!--End scopecontent-->
+		<!--Begin controlaccess-->
+		<controlaccess>
+			<head>Subject Headings</head>
+			<p>These are searchable subject entries for this collection. Performing a search on
+				these subjects in the Duke University Libraries online catalog will bring up other
+				related research materials.</p>
+			<list type="simple">
+				<!-- Note:  <subject>, <persname>, <corpname>, <geogname>, <famname>, <genreform>, <occupation> used where applicable -->
+				<item>
+					<persname>Garbett, Thomas F.</persname>
+				</item>
+				<item>
+					<persname>Garbett, Thomas F. Corporate advertising</persname>
+				</item>
+				<item>
+					<corpname>Brouillard Communications, Inc</corpname>
+				</item>
+				<item>
+					<corpname>J. Walter Thompson Company</corpname>
+				</item>
+				<item>
+					<corpname>Eaton Corporation</corpname>
+				</item>
+				<item>
+					<corpname>Textron, inc</corpname>
+				</item>
+				<item>
+					<subject>Advertising agencies</subject>
+				</item>
+				<item>
+					<subject>Advertising agencies -- United States</subject>
+				</item>
+				<item>
+					<subject>Advertising agencies -- United States -- History</subject>
+				</item>
+				<item>
+					<subject>Institutional advertising</subject>
+				</item>
+				<item>
+					<subject>Advertising -- History</subject>
+				</item>
+				<item>
+					<corpname>John W. Hartman Center for Sales, Advertising &amp; Marketing History.
+					</corpname>
+				</item>
+			</list>
+		</controlaccess>
+		<!--End controlaccess-->
+		<!--Begin container list-->
+		<!-- Sample of possible container list structure, actual markup depends upon the materials being described. -->
+		<!-- Use <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent>, <admininfo><processinfo>, and <admininfo><accessrestrict> if needed. -->
+		<dsc type="combined">
+			<head>Contents of Collection</head>
+			<c01 level="series">
+				<did>
+					<unittitle>Accession 2003-0057</unittitle>
+				</did>
+				<!--Begin c02 Here-->
+				<c02>
+					<did>
+						<container type="box">1-4</container>
+						<unittitle>Contents of Boxes 1-4:</unittitle>
+					</did>
+					<processinfo>
+						<p>[Attention: Box 1 contains pictorial materials.]</p>
+						<p>[Technical Services staff may need to reformat newsprint in Boxes 2-4
+							before use.] </p>
+					</processinfo>
+					<c03>
+						<did>
+							<unittitle>Research material - Book Chapters</unittitle>
+						</did>
+					</c03>
+				</c02>
+				<c02>
+					<did>
+						<container type="box">5-9</container>
+						<unittitle>Content of Boxes 5-9:</unittitle>
+					</did>
+					<processinfo>
+						<p>[Technical Services staff may need to reformat newsprint in Boxes 5-7 and
+							9 before use.]</p>
+					</processinfo>
+					<c03>
+						<did>
+							<unittitle>Miscellaneous Research Material</unittitle>
+						</did>
+						<scopecontent>
+							<p>Includes articles, printed material including several issues of the
+									<title render="italic" linktype="simple">Public Relations
+									Journal</title> from the 1980s, reports, speeches, and
+								advertisements (some mounted on foam board).</p>
+						</scopecontent>
+					</c03>
+				</c02>
+				<c02>
+					<did>
+						<container type="box">10-11</container>
+						<unittitle>Content of Boxes 10-11:</unittitle>
+					</did>
+					<processinfo>
+						<p>[Technical Services staff may need to reformat newsprint in Box 10 before
+							use.]</p>
+					</processinfo>
+					<c03>
+						<did>
+							<unittitle>Numbered Research Material</unittitle>
+						</did>
+						<scopecontent>
+							<p>Miscellaneous material on corporate advertising organized by chapter
+								number, including articles, clippings, reports, advertisements, and
+								notes.</p>
+						</scopecontent>
+					</c03>
+				</c02>
+				<c02>
+					<did>
+						<container type="box">11-15</container>
+						<unittitle>Content of Boxes 11-15:</unittitle>
+					</did>
+					<processinfo>
+						<p>[Technical Services Staff may need to reformat newsprint in Boxes 12-15
+							before use.]</p>
+					</processinfo>
+					<c03>
+						<did>
+							<unittitle>Alphabetical Research Material</unittitle>
+						</did>
+						<scopecontent>
+							<p>Miscellaneous material on corporate advertising, organized by topic,
+								e.g., Advocacy Advertising, Measuring Effectiveness, Mission
+								Statements, and Company Name Changes. </p>
+						</scopecontent>
+					</c03>
+				</c02>
+				<c02>
+					<did>
+						<container type="box">16-17</container>
+						<unittitle>Contents of Boxes 16-17:</unittitle>
+					</did>
+					<processinfo>
+						<p>[Technical Services staff may need to reformat newsprint in Box 17 before
+							use.]</p>
+					</processinfo>
+					<c03>
+						<did>
+							<unittitle>Advertisements for Eaton Company and Textron</unittitle>
+						</did>
+					</c03>
+				</c02>
+				<c02>
+					<did>
+						<container type="box">18-19</container>
+						<unittitle>Contents of Boxes 18-19:</unittitle>
+					</did>
+					<processinfo>
+						<p>[Attention: Box 19 contains pictorial materials.]</p>
+						<p>[Technical Services staff may need to reformat newsprint in Boxes 18-19
+							before use.]</p>
+					</processinfo>
+					<c03>
+						<did>
+							<unittitle>Miscellaneous Advertisements</unittitle>
+						</did>
+						<scopecontent>
+							<p>Includes some advertisements mounted on foam board and clippings from
+								numerous publications, including the <title render="italic"
+									linktype="simple">Saturday Evening Post</title>.</p>
+						</scopecontent>
+					</c03>
+				</c02>
+			</c01>
+		</dsc>
+	</archdesc>
+</ead>

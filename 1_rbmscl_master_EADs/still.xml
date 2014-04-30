@@ -1,0 +1,1429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="external" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::William Grant Still Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/still/">still</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the William Grant Still Papers, <date normal="1877/1992" type="inclusive" era="ce" calendar="gregorian">1877-1992</date></titleproper>
+        <author>Processed by: Daniel Daily. Assisted by: Boyd Gibson, Sandra Hack Polaski, Stephen Zank, Rachel Sullivan, and Sallie Locke</author>
+      </titlestmt>
+      <publicationstmt>
+
+        <date era="ce" calendar="gregorian"> 1993</date>
+        <p>Copyright Duke University. All Rights Reserved.</p>
+      </publicationstmt>
+      <notestmt>
+        <note>
+          <p>This finding aid is NCEAD compliant.</p>
+        </note>
+      <note><p>Aleph Number: <num type="aleph">001801062</num></p></note></notestmt>
+    </filedesc>
+    <profiledesc>
+      <creation>Machine-readable finding aid derived from Microsoft Word 6.0 Files.
+<lb/>Processed by Daniel Daily; Assisted by Boyd Gibson, Sandra Hack Polaski, Stephen Zank, Rachel Sullivan, and Sallie Locke;
+Finding Aid encoded by Stephen Douglas Miller
+, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.
+January 8, 1997</creation>
+      <langusage>Description is in <language>English.</language></langusage>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+        <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::The William Grant Still Papers)//EN" "still.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+        <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+<item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item><item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+      </change>
+      <change>
+        <date calendar="gregorian" era="ce">June 29, 1998</date>
+        <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <frontmatter>
+    <titlepage>
+      <titleproper>Guide to the William Grant Still Papers, <date calendar="gregorian" era="ce">1877-1992</date></titleproper>
+      <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham, North Carolina</publisher>
+
+      <p> 1993 Duke University. All rights reserved.</p>
+    </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+    <did>
+      <head>Descriptive Summary</head>
+      <unittitle label="Title">William Grant Still papers <unitdate calendar="gregorian" era="ce" normal="1877/1992" type="inclusive">1877-1992</unitdate>
+         </unittitle>
+      <origination label="Creator">
+        <persname>Still, William Grant, 1895-1978</persname>
+      </origination>
+      <physdesc label="Extent">
+        <extent>12.0 Linear Feet</extent>
+	  <extent>circa 2,250 Items</extent>
+      </physdesc>
+      <repository label="Repository">
+        <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+      </repository>
+      <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+      <langmaterial label="Language">
+        <language langcode="eng">English.</language>
+      </langmaterial>
+    </did>
+    <descgrp type="admininfo">
+      <head>Administrative Information</head>
+      <accessrestrict>
+        <head>Access Restrictions</head>
+        <p>Duplication of the materials in the William Grant Still papers is restricted.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+      </accessrestrict>
+      <userestrict>
+        <head>Use Restrictions</head>
+        <p>The copyright interests in the William Grant Still papers have not been transferred to Duke University. For further information, see the section on copyright in the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      </userestrict>
+      <acqinfo>
+        <head>Provenance</head>
+        <p>The William Grant Still Papers (1877-1992) were purchased by Duke University in 1992.</p>
+      </acqinfo>
+      <processinfo>
+        <head>Processing Information</head>
+        <p>Processed by: Daniel Daily. Assisted by: Boyd Gibson, Sandra Hack Polaski, Stephen Zank, Rachel Sullivan, and Sallie Locke</p>
+        <p>Completed October 1, 1993</p>
+	  <p>Encoded by Stephen D. Miller</p>
+        <p>This finding aid is NCEAD compliant.</p>
+      </processinfo>
+    </descgrp>
+    <bioghist>
+      <head>Biographical Note</head>
+      <chronlist>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1895, May 11</date>
+          <event>Born in Woodville, Miss.</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1895</date>
+          <event>Moved to Little Rock, Ark. with mother, Carrie Fambro Still </event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1911</date>
+          <event>Matriculated at Wilberforce College </event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1915</date>
+          <event>Married Grace Bundy</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1916</date>
+          <eventgrp>
+            <event>Employed in music publishing company of W. C. Handy and Charles Pace (Memphis, Tenn.)</event>
+            <event>Played in W. C. Handy's band.</event>
+          </eventgrp>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1917</date>
+          <event>Entered Oberlin Conservatory</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1924</date>
+          <event>Composed <title linktype="simple" render="italic">Darker America</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1929</date>
+          <event>Composed <title linktype="simple" render="italic">Breath of a Rose</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1931</date>
+          <event>Rochester Philharmonic Orchestra performed <title linktype="simple" render="italic">Afro-American Symphony</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1935</date>
+          <event>Composed <title linktype="simple" render="italic">Kaintuck</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1934, 1935 and 1938</date>
+          <event>Won Guggenheim Fellowships</event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1938</date>
+          <eventgrp>
+            <event>Married Verna Arvey</event>
+            <event>Commissioned to compose music for the 1939 New York World's Fair</event>
+          </eventgrp>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1940</date>
+          <event>Arranged Katherine Garrison Chapin's poem, <title linktype="simple" render="italic">And They Lynched Him on a Tree</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1941</date>
+          <eventgrp>
+            <event>Composed <title linktype="simple" render="italic">Bayou Legend</title></event>
+            <event>Completed <title linktype="simple" render="italic">Troubled Island</title> (Libretto by Langston Hughes and Verna Arvey)</event>
+          </eventgrp>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1952</date>
+          <event>First full recording of <title linktype="simple" render="italic">Afro-American Symphony</title></event>
+        </chronitem>
+        <chronitem>
+          <date calendar="gregorian" era="ce">1978, Dec. 3</date>
+          <event>Died in Los Angeles</event>
+        </chronitem>
+      </chronlist>
+      <p>Orchestras, including the New York Philharmonic and the Chicago Symphony, have performed Still's works throughout the United States. He received honorary degrees from the University of Arkansas, Wilberforce College, and Bates College.</p>
+    </bioghist>
+    <scopecontent>
+      <head>Collection Overview</head>
+      <p>The William Grant Still Papers, 1877-1992, contain chiefly photocopies of music, writings, correspondence, diaries, pictures, printed material, clippings, and recordings, which primarily document his work as a composer. The collection relates to the historical and critical study of his music, as well as being a valuable source of arrangements for performances. Still's music gained recognition due to his ability to compose classical music which both reflected distinctive African-American as well as African influences. In addition, materials (primarily writings and librettos), created by Verna Arvey, Still's second wife, also form an integral part of the collection.</p>
+      <p>A substantial portion of the collection is comprised of music in manuscript and printed formats as well as in recorded formats, and is contained in the <ref linktype="simple" target="musi">
+Music series</ref> and <ref linktype="simple" target="reco">Recordings series</ref>. The collection does not contain all the music Still composed, however it does contain a substantial number of his works and can adequately support the research of Still's compositions. The various genres or mediums in which Still worked, including symphonies, operas, spirituals, songs, and chamber music are represented in the collection. Conductors' scores and published arrangements are included. Among the various publishers represented are Charles Pace and W.C. Handy Company and the J. Fischer and Brothers. Originals from these companies are present. Countee Cullen, Verna Arvey, Arna Bontemps, Langston Hughes, and Katherine Garrison Chapin are represented among those who wrote librettos or texts for Still's arrangements. Recordings for some of Still's works are available in compact disc, LP, and audio cassette formats. Included in the recordings are performances by Louis Kaufman, Peter Christ, Videmus, the William Grant Still Music Performing Arts Society, the Denver Symphony and San Francisco Symphony Orchestras, and other individual artists and orchestras.</p>
+      <p>Insofar as documenting Still's professional life, the diaries, writings, and correspondence are less complete than the music. Since gaps are evident within the diaries and correspondence, these materials do not provide a full and detailed understanding of Still's career development. However, some information pertaining to his work as well as his personal life is available. The <ref linktype="simple" target="writ">
+Writings series</ref> contains several articles by Still as well as biographical and critical works about Still and his music. This series also contains writings by Verna Arvey and Judith Anne Still. An autographed copy of Arvey's <title linktype="simple" render="italic">
+In One Lifetime</title> is included. The <ref linktype="simple" target="corr">Correspondence series</ref> includes letters between Still and Alain Locke as well as Still and Charles Burch. Within these exchanges, there is some discussion and criticism of Still's compositions, reflections on the problems confronting African-American musicians in the 1930s, and a discussion of the possibility of Still teaching at Howard University. Correspondence between Arvey and Carl Van Vechten is also included. The diaries of both Still and Verna Arvey primarily record daily activities. However, Still's diary entries from 1930 contain reflections on his faith and spirituality, his music, and his first marriage to Grace Bundy. Within the <ref linktype="simple" target="prin">
+Printed Materials</ref> and <ref linktype="simple" target="clip">Clippings series</ref> are programs and newspaper articles, many of which are originals, that document the performances and the wide acceptance of Still's music. </p>
+      <p>The <ref linktype="simple" target="scra">Scrapbooks series</ref> primarily contain Verna Arvey's collection of clippings which document political and social events between the 1940s and the early 1970s. These clippings demonstrate Verna Arvey's strong interest in the anti-Communist movements of the mid-twentieth century, primarily Senator Joseph McCarthy's investigations. The contents of these scrapbooks do not directly relate to William Grant Still's music. To a lesser extent the scrapbooks contain clippings pertaining to race and the status of African-Americans in the United States.</p>
+    </scopecontent>
+    <controlaccess>
+      <head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+      <list type="simple">
+        <item>
+          <persname>Arvey, Verna, 1910-. </persname>
+        </item>
+        <item>
+          <persname>Bontemps, Arna Wendell, 1902-1933. </persname>
+        </item>
+        <item>
+          <persname>Chapin, Katherine Garrison, 1890-1977. </persname>
+        </item>
+        <item>
+          <persname>Hughes, Langston, 1902-1967. </persname>
+        </item>
+        <item>
+          <persname>Kaufman, Louis, 1905- </persname>
+        </item>
+        <item>
+          <persname>Van Vechten, Carl, 1880-1964. </persname>
+        </item>
+        <item>
+          <persname>Burch, Charles. </persname>
+        </item>
+        <item>
+          <subject>Music -- 20th century. </subject>
+        </item>
+        <item>
+          <subject>Symphonies -- 20th century. </subject>
+        </item>
+        <item>
+          <subject>Orchestral music -- 20th century. </subject>
+        </item>
+        <item>
+          <subject>Opera -- 20th century. </subject>
+        </item>
+        <item>
+          <subject>Chamber music -- 20th century. </subject>
+        </item>
+        <item>
+          <subject>Spirituals (Songs). </subject>
+        </item>
+        <item>
+          <subject>Music -- Manuscripts -- United States. </subject>
+        </item>
+        <item>
+          <subject>Afro-American composers. </subject>
+        </item>
+        <item>
+          <genreform>Librettos. </genreform>
+        </item>
+        <item>
+          <genreform>Scores. </genreform>
+        </item>
+        <item>
+          <genreform>Opera. </genreform>
+        </item>
+        <item>
+          <genreform>Songs. </genreform>
+        </item>
+        <item>
+          <genreform>Diaries. </genreform>
+        </item>
+      </list>
+    </controlaccess>
+
+    <dsc type="combined">
+      <head>Contents of Collection</head>
+      <c01 level="series">
+        <did>
+          <unittitle id="corr">Correspondence, <unitdate calendar="gregorian" era="ce" normal="1924/1982" type="inclusive">1924-1982,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes photocopies of personal letters between <persname>Still </persname>and <persname>
+Alain Locke </persname>as well as letters between <persname>Still </persname>and <persname>Charles Burch. </persname> Correspondence between <persname>
+Verna Arvey </persname>and <persname>Carl Van Vechten </persname>is also included. <persname>
+Van Vechten </persname>was interested in photographing Still as well as acquiring Still manuscripts for the <corpname>
+James Weldon Johnson Collection </corpname>at <corpname>Yale University.</corpname></p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged chronologically.
+</p>
+        </arrangement>
+        <c02>
+          <did>
+            <container type="box">1</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1924/1982" type="inclusive">1924, June-1982, July,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="diar">Diaries, <unitdate calendar="gregorian" era="ce" normal="1928/1979" type="inclusive">1928-1979.</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Contains photocopies of the diaries and daybooks of Still and <persname>
+Verna Arvey. </persname> Still's diary entries, especially from<date calendar="gregorian" era="ce"> 1930,</date> disclose information about his relationship with his first wife <persname>
+Grace Bundy </persname>and family financial struggles. The diaries also provide some insights into the progression of his compositions. <persname>
+Arvey</persname>'s five-year diaries or daybooks record her daily activities. <persname>
+Arvey</persname>'s earlier daybooks are more complete than the copies from the <date calendar="gregorian" era="ce">
+1970s.</date></p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged in chronological order.</p>
+        </arrangement>
+        <c02>
+          <did><container type="box">1</container>
+            <unittitle>
+              <persname>Still, Verna Arvey, </persname>
+              <unitdate calendar="gregorian" era="ce" normal="1928/1979" type="inclusive">1928-1979</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(5 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>
+              <persname>Still, William Grant,</persname>
+              <unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">1930;</unitdate>
+              <unitdate calendar="gregorian" era="ce" normal="1939" type="inclusive">1939</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="scra">Scrapbooks, <unitdate calendar="gregorian" era="ce" normal="1877/1973" type="inclusive">1877-1973,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(bulk <unitdate calendar="gregorian" era="ce" normal="1953/1973" type="bulk">1953-1973).</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Photocopies of <persname>Verna Arvey</persname>'s "Racial-political-historical" scrapbook. The scrapbook primarily consists of articles from the <title linktype="simple" render="italic">
+Los Angeles Herald And Express</title> and chronicles various major political events, especially the <persname>
+McCarthy </persname>investigations.</p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged chronologically.</p>
+        </arrangement>
+        <c02>
+          <did>
+            <container type="box">2</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1877/1954" type="inclusive">1877-1954, Mar.</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(8 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">3
+</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1100/1957" type="inclusive">1957, May 11-1968, July 21</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(8 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">4
+</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1500/1968" type="inclusive">1968, Oct 15-1973, Jan. 23,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(7 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="prin">Printed Material, <unitdate calendar="gregorian" era="ce" normal="1930/1992" type="inclusive">1930-1992,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes programs and advertisements for various performances of <persname>
+William Grant Still</persname>'s music. Primarily original materials with some photocopies.</p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged in chronological order by year.</p>
+        </arrangement>
+        <c02>
+          <did><container type="box">4</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1930/1949" type="inclusive">1930-1949,</unitdate>
+              <unitdate calendar="gregorian" era="ce" normal="1940/1949" type="inclusive">1940s</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">5
+</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1954/1986" type="inclusive">1954-1986</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(8 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">6
+</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1987/1992" type="inclusive">1987-1992,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(4 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="clip">Clippings, <unitdate calendar="gregorian" era="ce" normal="1926/1989" type="inclusive">1926-1989,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes photocopies and originals of newspaper reviews of Still's music and performances of his works.</p>
+        </scopecontent>
+        <c02>
+          <did><container type="box">6</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1926/1992" type="inclusive">1926-1992,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(5 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="misc">Miscellaneous Series, <unitdate calendar="gregorian" era="ce" normal="1936/1989" type="inclusive">1936-1989,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Includes copies of <persname>Still </persname>and <persname>Avery</persname>'s wills and other legal documents, a statement of royalties, a puzzle, and proclamations recognizing Still. Chiefly photocopies.</p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged chronologically by year.</p>
+        </arrangement>
+        <c02>
+          <did><container type="box">6</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1936/1991" type="inclusive">1936-1991,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">7
+</container>
+            <unittitle>n.d
+</unittitle>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="writ">Writings, <unitdate calendar="gregorian" era="ce" normal="1929/1992" type="inclusive">1929-1992,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Primarily articles by Still and <persname>Verna Arvey, </persname>as well as books by <persname>
+Arvey </persname>and <persname>Judith Anne Still. </persname> Also included is an article by <persname>
+Langston Hughes </persname>pertaining to the libretto he wrote for <title linktype="simple" render="italic">
+Troubled Island,</title> and articles by <persname>Alain Locke. </persname> Includes original publications and photocopies, no manuscript drafts are present.</p>
+        </scopecontent>
+        <arrangement>
+          <p>Primarily, articles and shorter works are arranged in chronological order by year and precede the books which are also arranged chronologically.</p>
+        </arrangement>
+        <c02>
+          <did><container type="box">7</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1929/1985" type="inclusive">1929-1985</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(6 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">8
+</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1986/1992" type="inclusive">1986-1992,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(3 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>1941, <title linktype="simple" render="italic">Choreographic Music</title></unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <unittitle>1984, <title linktype="simple" render="italic">In One Lifetime</title></unittitle>
+          </did>
+        </c02>
+        <c02>
+          <did>
+            <container type="box">9
+</container>
+            <unittitle>1990, <title linktype="simple" render="italic">William Grant Still: A Voice High-Sounding</title></unittitle>
+            <physdesc>
+              <extent>(4 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="pict">Pictures, <unitdate calendar="gregorian" era="ce" normal="1911/1949" type="inclusive">1911-1949,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Contains black and white images of Still and his family. Some of the images capture moments in Still's professional career.</p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged in chronological order by year.</p>
+        </arrangement>
+        <c02>
+          <did><container type="box">9
+</container>
+            <unittitle>
+              <unitdate calendar="gregorian" era="ce" normal="1911/1949" type="inclusive">1911-1949,</unitdate>
+              <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+            <physdesc>
+              <extent>(2 folders)</extent>
+            </physdesc>
+          </did>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="musi">Music, <unitdate calendar="gregorian" era="ce" normal="1921/1991" type="inclusive">1921-1991,</unitdate>n.d
+</unittitle>
+        </did>
+        <scopecontent>
+          <p>Comprised of the following subseries: Ballets, Cantatas, Chamber Music, Operas, Orchestras, Piano, Spiritual Arrangements, Songs, and Miscellaneous. The subseries reflect the various genres of music composed by <persname>
+William Grant Still.</persname></p>
+        </scopecontent>
+        <arrangement>
+          <p>The subseries are arranged alphabetically and within each subseries the compositions are alphabetically by title. A complete list of the works within each genre has been prepared by a graduate student from the Duke University Department of Music and is in an information folder. The arrangement of the works in this collection is based upon that document, but does not follow it exactly. For further information, please consult a reference archivist. This series is comprised primarily of photocopies.</p>
+        </arrangement>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Ballets, <unitdate calendar="gregorian" era="ce" normal="1941" type="inclusive">1941 and undated</unitdate></unittitle>
+          </did>
+          <scopecontent>
+            <p>Includes the composer's notes for <title linktype="simple" render="italic">
+La Guiablesse</title> and the arrangement and play for <title linktype="simple" render="italic">The Sorcerer.</title></p>
+          </scopecontent>
+          <c03>
+            <did>
+              <container type="box">10
+</container>
+              <unittitle>D-S,<unitdate calendar="gregorian" era="ce" normal="1941" type="inclusive">1941,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>
+              <subject>Cantatas,</subject>
+              <unitdate calendar="gregorian" era="ce" normal="1931" type="inclusive">1931</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Contains a <corpname>J. Fischer and Bro. </corpname>original of <title linktype="simple" render="italic">
+And They Lynched Him on A Tree.</title></p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>A,<unitdate calendar="gregorian" era="ce" normal="1931" type="inclusive">1931</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle><subject>Chamber Music, </subject><unitdate calendar="gregorian" era="ce" normal="1936/1964" type="inclusive">1936-1964,</unitdate>(Oversize materials, <unitdate calendar="gregorian" era="ce" normal="1936/1966" type="inclusive">1936-1966,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated)</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Arrangements of Still's compositions by <persname>Anthony Griggs </persname>and <persname>
+Thomas Smith </persname>are included.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>A-W, <unitdate calendar="gregorian" era="ce" normal="1936/1991" type="inclusive">1936-1991,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(3 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle><subject>Operas,</subject><unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976,</unitdate>n.d (Oversize materials, <unitdate calendar="gregorian" era="ce" normal="1936/1963" type="inclusive">1936-1963,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated)</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Included is a signed and inscribed copy of <title linktype="simple" render="italic">
+Bayou Legend</title> and a conductor's score for <title linktype="simple" render="italic">The Pillar.</title> Librettists for the various works include <persname>
+Bruce Forsythe, </persname><persname>Langston Hughes, </persname><persname>Frank Sherwood, </persname>and <persname>
+Verna Arvey.</persname></p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">A Bayou Legend,</title><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(Libretto only)
+</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Troubled Island,</title><unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate> (Libretto by <persname>Langston Hughes)</persname></unittitle>
+              <physdesc>
+                <extent>(4 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Troubled Island,</title><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(Libretto only)
+</unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle><subject>Orchestras, </subject><unitdate calendar="gregorian" era="ce" normal="1937/1991" type="inclusive">1937-1991,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(Oversize materials, <unitdate calendar="gregorian" era="ce" normal="1935/1959" type="inclusive">1935-1959)</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Includes an original publication of <title linktype="simple" render="italic">Wood Notes</title> and works by other composers which were orchestrated by Still.
+</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <container type="box">11
+</container>
+              <unittitle>C-S, <unitdate calendar="gregorian" era="ce" normal="1937/1991" type="inclusive">1937-1991,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>
+              <subject>Piano, </subject>
+              <unitdate calendar="gregorian" era="ce" normal="1916/1972" type="inclusive">1916-1972</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Contains pieces primarily written for piano instrumentation.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>F-S, <unitdate calendar="gregorian" era="ce" normal="1916/1972" type="inclusive">1916-1972</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle><subject>Songs, </subject><unitdate calendar="gregorian" era="ce" normal="1928/1973" type="inclusive">1928-1973,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(Oversize materials <unitdate calendar="gregorian" era="ce" normal="1923/1943" type="inclusive">1923-1943,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated)</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Contains <title linktype="simple" render="italic">Songs of Separations, </title> for which lyrics were written by <persname>
+Langston Hughes, </persname><persname>Arna Bontemps, </persname><persname>Countee Cullen, </persname>and others. Other lyricists include <persname>
+Kate Chapin </persname>and <persname>Verna Arvey. </persname> Also includes <title linktype="simple" render="italic">
+From the Hearts of Women,</title><title linktype="simple" render="italic">Plainchant for America,</title><title linktype="simple" render="italic">
+Breath of A Rose,</title> and a collection of Still's songs in <title linktype="simple" render="italic">
+Twelve Negro Spirituals</title> published by <corpname>Handy Brothers Publishing. </corpname> Also contains folk songs composed by Still. </p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>A-W, <unitdate calendar="gregorian" era="ce" normal="1928/1973" type="inclusive">1928-1973,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(4 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle><subject>Spiritual arrangements, </subject><unitdate calendar="gregorian" era="ce" normal="1938/1981" type="inclusive">1938-1981,</unitdate>n.d (Oversize materials,<unitdate calendar="gregorian" era="ce" normal="1941" type="inclusive">1941,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated)</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Includes an original of <title linktype="simple" render="italic">Ah Got a Home In-A Dat Rock </title> printed by <persname>
+Charles Pace </persname>and <persname>W.C. Handy. </persname> Lyrics for some works were written by <persname>
+Verna Arvey. </persname> Contains some fragments.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>A-W, <unitdate calendar="gregorian" era="ce" normal="1938/1981" type="inclusive">1938-1981,</unitdate>n.d
+</unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle><subject>Symphonies, </subject><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(Oversize materials <unitdate calendar="gregorian" era="ce" normal="1928/1946" type="inclusive">1928-1946,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated)</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Includes full symphonies and symphonic poems, such as <title linktype="simple" render="italic">
+Darker America</title> and <title linktype="simple" render="italic">Kaintuck</title> The composer's notes for <title linktype="simple" render="italic">
+Symphony No.2</title> are present.</p>
+          </scopecontent>
+          <c03>
+            <did>
+              <unittitle>A-S, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(Oversize materials <unitdate calendar="gregorian" era="ce" normal="1947/1975" type="inclusive">1947-1975,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated)</unitdate>
+                  </unittitle>
+          </did>
+          <scopecontent>
+            <p>Contains band suites, solos pieces, sketches for <title linktype="simple" render="italic">
+Stormy Weather,</title><subject>children's music, </subject>and fragments.</p>
+          </scopecontent>
+          <arrangement>
+            <p> Arranged alphabetically by title.</p>
+          </arrangement>
+          <c03>
+            <did>
+              <unittitle>A-S, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 folders)</extent>
+              </physdesc>
+            </did>
+          </c03>
+<c03><did><container type="opaperfolder">1-2</container><unittitle>Miscellaneous</unittitle></did></c03>
+
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="over">Oversize Materials
+</unittitle>
+        </did>
+        <c02 level="subseries">
+          <did>
+            <unittitle><subject>Music </subject>Series
+</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle><subject>Ballets </subject>Subseries
+</unittitle>
+            </did>
+            <c04>
+              <did>
+                <container type="box">12
+</container>
+                <unittitle>B-T, <unitdate calendar="gregorian" era="ce" normal="1933/1938" type="inclusive">1933-1938,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(5 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><subject>Cantatas </subject>Subseries
+</unittitle>
+            </did>
+            <c04>
+              <did>
+                <container type="box">13
+</container>
+                <unittitle>A,<unitdate calendar="gregorian" era="ce" normal="1931" type="inclusive">1931</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><subject>Chamber Music </subject>Subseries
+</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>B-V, <unitdate calendar="gregorian" era="ce" normal="1936/1966" type="inclusive">1936-1966,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(5 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><subject>Operas </subject>Subseries
+</unittitle>
+            </did>
+            <c04>
+              <did>
+                <container type="box">14
+</container>
+                <unittitle>
+                  <title linktype="simple" render="italic">A Bayou Legend,</title>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(7 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Blue Steel,</title>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(3 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">15
+</container>
+                <unittitle>
+                  <title linktype="simple" render="italic">Blue Steel,</title>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(4 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Costaso,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1950" type="inclusive">1950</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(4 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">16
+</container>
+                <unittitle>
+                  <title linktype="simple" render="italic">Costaso,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1950" type="inclusive">1950</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(3 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">From the Furnace of the Sun,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1936" type="inclusive">1936</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Highway 1, U.S.A.,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(4 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">17
+</container>
+                <unittitle>
+                  <title linktype="simple" render="italic">Minette Fontaine,</title>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(6 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">Mota,</title>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(4 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">18
+</container>
+                <unittitle>
+                  <title linktype="simple" render="italic">Mota,</title>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(3 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>
+                  <title linktype="simple" render="italic">The Pillar,</title>
+                  <unitdate calendar="gregorian" era="ce" normal="1955" type="inclusive">1955,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(6 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">19
+</container>
+                <unittitle>
+                  <title linktype="simple" render="italic">Troubled Island,</title>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(7 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">20
+</container>
+                <unittitle>
+                  <title linktype="simple" render="italic">Troubled Island,</title>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Orchestras Subseries
+</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>A-Am, <unitdate calendar="gregorian" era="ce" normal="1935/1949" type="inclusive">1935-1949,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(4 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">21
+</container>
+                <unittitle>Ar-O, <unitdate calendar="gregorian" era="ce" normal="1922/1959" type="inclusive">1922-1959,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(7 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">22
+</container>
+                <unittitle>Pa-Y, <unitdate calendar="gregorian" era="ce" normal="1921/1959" type="inclusive">1921-1959,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(5 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><subject>Piano (music for) </subject>Subseries
+</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>A, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <unittitle>A-F, <unitdate calendar="gregorian" era="ce" normal="1923/1928" type="inclusive">1923-1928,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">23
+</container>
+                <unittitle>L-W, <unitdate calendar="gregorian" era="ce" normal="1937/1943" type="inclusive">1937-1943,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(6 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><subject>Spiritual Arrangements </subject>Series
+</unittitle>
+            </did>
+            <c04>
+              <did>
+                <container type="box">24
+</container>
+                <unittitle>G-S,<unitdate calendar="gregorian" era="ce" normal="1941" type="inclusive">1941,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><subject>Symphonies </subject>Subseries
+</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>A-S, <unitdate calendar="gregorian" era="ce" normal="1928/1946" type="inclusive">1928-1946,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(4 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+            <c04>
+              <did>
+                <container type="box">25
+</container>
+                <unittitle>S, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(2 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>Miscellaneous Subseries
+</unittitle>
+            </did>
+            <c04>
+              <did>
+                <unittitle>A-S, <unitdate calendar="gregorian" era="ce" normal="1947/1975" type="inclusive">1947-1975,</unitdate>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                <physdesc>
+                  <extent>(3 folders)</extent>
+                </physdesc>
+              </did>
+            </c04>
+          </c03>
+        </c02>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle id="reco">Recordings, <unitdate calendar="gregorian" era="ce" normal="1935/1991" type="inclusive">1935-1991,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+        <scopecontent>
+          <p>Primarily recordings of Still's music in audio cassettes, compact disc, and phonograph record formats. The recordings have been grouped together according to their respective formats. Recordings are arranged alphabetically within each format. The performing artists have been noted when they could be readily identified.</p>
+        </scopecontent>
+        <arrangement>
+          <p>Arranged alphabetically within each recording format.</p>
+        </arrangement>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Audio Tapes
+</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">26
+</container>
+              <unittitle><title linktype="simple" render="italic">Biography in Sound: Leopold Stowkowski,</title> Stowkowski, Leopold,<unitdate calendar="gregorian" era="ce" normal="1954" type="inclusive">1954</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Calvacade of American Music,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(4 tapes)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Ecosphere,</title> Agus, Ayke et al.,<unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Minette Fontaine,</title><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(2 tapes)
+</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">The Music of William Grant Still</title> (2 tapes)
+</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Oboist Peter Christ,</title><persname>
+Christ, Peter </persname>with the <corpname>Crystal Chamber Soloists,</corpname><unitdate calendar="gregorian" era="ce" normal="1979" type="inclusive">1979</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Our Musical Past-Vol. 5,</title> The Royal Philharmonic Orchestra,<unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Natalie Hinderas plays Piano Music,</title>
+                <persname>
+Hinderas, Natalie, </persname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Royal Philharmonic Orchestra,</title><corpname>
+The Royal Philharmonic Orchestra, </corpname>n.d
+</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Symphony No. 4, </title>
+                <corpname>
+The Denver Symphony, </corpname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Troubled Island, </title><unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>(2 tapes)
+</unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">William Grant Still, 1895-1978,</title><corpname>
+The North Arkansas Symphony Orchestra </corpname>et al., not before<unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">William Grant Still Conducts William Grant Still,</title>
+                <corpname>
+San Francisco Symphony Orchestra,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">William Grant Still Piano Music,</title> Dominguez, Albert, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">William Grant Still: Strings, Keyboard and Harp,</title><persname>
+Kaufman, Louis </persname>et al., <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">William Grant Still: Voices and Piano,</title>
+                <corpname>
+William Grant Still Performing Arts Society, </corpname>
+                <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Compact Discs
+</unittitle>
+          </did>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Africa: Piano Music of William Grant Still,</title>
+                <persname>
+Oldham, Denver, </persname>
+                <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Lenox Avenue: The Music of William Grant Still,</title><corpname>
+The CBS Symphony Orchestra </corpname>et al.,<unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Louis Kaufmann, Violin: Historic Recordings of 20th Century American Works,</title>
+                <persname>
+Kaufman, Louis,</persname>
+                <unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Oboist Peter Christ,</title><persname>
+Christ, Peter </persname>with the <corpname>Crystal Chamber soloists,</corpname><unitdate calendar="gregorian" era="ce" normal="1986" type="inclusive">1986</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Our Musical Past- Vol. 5, </title> The <corpname>
+Royal Philharmonic Orchestra,</corpname><unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">Walk as Children, </title>
+                <corpname>
+Northern Arizona University Chorale,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">Works by William Grant Still,</title> Videmus,<unitdate calendar="gregorian" era="ce" normal="1990" type="inclusive">1990</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+        <c02 level="subseries">
+          <did>
+            <unittitle>Phonograph Records
+</unittitle>
+          </did>
+          <c03>
+            <did>
+              <container type="box">27
+</container>
+              <unittitle>
+                <title linktype="simple" render="italic">Art Songs by Black Composers,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(2 LPs)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">CBS Records Black Composers Series,</title>
+                <unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987</unitdate>
+                     </unittitle>
+              <physdesc>
+                <extent>(9 LPs)</extent>
+              </physdesc>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">William Grant Still 1895-1978,</title>
+                <corpname>
+Ozark Chamber Players of the University Arkansas</corpname>
+              </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle>
+                <title linktype="simple" render="italic">William Grant Still Conducts William Grant Still, </title>
+                <corpname>
+San Francisco Symphony Orchestra,</corpname>
+                <unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">William Grant Still: Piano Music,</title> Albert Dominguez,<unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+          <c03>
+            <did>
+              <unittitle><title linktype="simple" render="italic">William Grant Still: Strings, Keyboard and Harp,</title><persname>
+Louis Kaufmann </persname>et al.,<unitdate calendar="gregorian" era="ce" normal="1987" type="inclusive">1987</unitdate>
+                     </unittitle>
+            </did>
+          </c03>
+        </c02>
+      </c01>
+      
+<c01 level="series"> <did>
+<container type="box">11</container>
+          <unittitle>Writings,<unitdate calendar="gregorian" era="ce" normal="1950" type="inclusive">1950</unitdate>
+               </unittitle>
+        </did>
+      </c01>
+      <c01 level="series">
+        <did>
+          <unittitle>Printed Material,<unitdate calendar="gregorian" era="ce" normal="1991" type="inclusive">1991,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+        </did>
+      </c01>
+
+    </dsc>
+  </archdesc>
+</ead>

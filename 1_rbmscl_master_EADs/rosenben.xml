@@ -1,0 +1,4797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead>
+  <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+	 <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Ben Rosen Papers, 1936-2006)//EN" url="http://library.duke.edu/rubenstein/findingaids/rosenben/">rosenben</eadid>
+
+	 <filedesc>
+		<titlestmt>
+		  <titleproper>Guide to the Ben Rosen Papers, <lb/>
+			 <date normal="1936/2006" era="ce" calendar="gregorian">1936-2006 and undated</date>, bulk
+			 <date era="ce" calendar="gregorian">1945-1991</date> </titleproper>
+		  <author>Processed by: Casey A. Jarrin and Richard Collier;
+			 machine-readable finding aid created by: Casey A. Jarrin and Richard
+			 Collier</author>
+		</titlestmt>
+		<publicationstmt>
+		  <publisher>The John W. Hartman Center for Sales, Advertising &amp;
+			 Marketing History<lb/>David M. Rubenstein Rare Book &amp; Manuscript Library
+			 <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+		  <p>
+			 <date normal="2006" encodinganalog="date" era="ce" calendar="gregorian"> 2006</date> Duke
+			 University. All Rights Reserved.</p>
+		</publicationstmt>
+		<notestmt>
+		  <note><p>Aleph Number: <num type="aleph">003833463</num></p></note></notestmt>
+	 </filedesc>
+	 <profiledesc>
+		<creation>Machine-readable finding aid derived from XML authoring
+		  program.<lb/>
+		  <date era="ce" calendar="gregorian">Date of source: May 2006</date><lb/>Processed by Casey A. Jarrin
+		  and Richard Collier, May 2006; Finding Aid encoded by Casey A. Jarrin and
+		  Richard Collier, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+		  University,
+		  <date era="ce" calendar="gregorian">May 2006</date> </creation>
+		<langusage>Description is in <language langcode="eng">English</language>
+		  </langusage>
+		<descrules>Finding aid was prepared using
+		  <title linktype="simple">DACS</title> and our local
+		  <title linktype="simple">Style Guide</title></descrules>
+	 </profiledesc>
+<!-- Location of <revisiondesc> if needed -->
+  </eadheader>
+  <frontmatter>
+	 <titlepage>
+		<titleproper>Guide to the Ben Rosen Papers, <lb/>
+		  <date type="span" era="ce" calendar="gregorian">1936-2006 and undated</date>, bulk
+		  <date era="ce" calendar="gregorian">1945-1991</date> </titleproper>
+		<publisher>The John W. Hartman Center for Sales, Advertising &amp;
+		  Marketing History<lb/>David M. Rubenstein Rare Book &amp; Manuscript Library
+		  <lb/>Duke University <lb/>
+		  Durham, North Carolina 27708-0185 USA </publisher>
+		<p>
+		  <date normal="2006" era="ce" calendar="gregorian"> 2006</date> Duke University. All Rights
+		  Reserved.</p>
+	 </titlepage>
+  </frontmatter>
+  <archdesc level="collection" relatedencoding="MARC">
+	 <did>
+		<head>Descriptive Summary</head>
+		<repository label="Repository">
+		  <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname></repository>
+		<origination label="Creator">
+		  <persname encodinganalog="100">Rosen, Ben</persname></origination>
+		<unittitle label="Title" encodinganalog="245">Ben Rosen papers 		  <unitdate normal="1936/2006" type="inclusive" era="ce" calendar="gregorian">1936-2006 and
+			 undated, bulk 1945-1991</unitdate></unittitle>
+		<langmaterial label="Language of Material" encodinganalog="546">Material
+		  in <language langcode="Eng"> English</language> </langmaterial>
+		<physdesc label="Extent"> <extent unit="linear feet" encodinganalog="300">65 Linear Feet</extent><lb/> <extent unit="items">7500 Items</extent> </physdesc>
+		<physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+		<abstract label="Abstract" encodinganalog="545">Ben Rosen is an American
+		  graphic designer and visual communications consultant. Rosen worked as a
+		  designer for J. Gordon Carr and Associates and the Blaine Thompson Company
+		  before founding his own firm, Ben Rosen Associates, in 1952, which specialized
+		  in corporate identity programs. Rosen is the author of three books on on
+		  graphic design and typography:
+		  <title render="italic" linktype="simple">Type and Typography</title> (1963);
+		  <title render="italic" linktype="simple">The Corporate Search for Visual Identity</title>
+		  (1970); and
+		  <title render="italic" linktype="simple">Digital Type Specimens</title>
+		  (1991).</abstract>
+		<abstract encodinganalog="520">The Ben Rosen Papers span the years 1936
+		  to 2006, with the bulk of the collection dating from 1945 through 1991, and
+		  document Rosen's sixty-year career in graphic design and visual communications
+		  consulting. The collection contains materials in a variety of formats,
+		  including correspondence, writings, graphic design and printed materials,
+		  sketches, presentation boards, photographs, and slides, that document design
+		  concepts and programs (corporate logos, letterhead, packaging, industrial
+		  design, promotion) Rosen developed, through his firm, Ben Rosen Associates, for
+		  clients including American Loose Leaf, CCMI McGraw-Hill, Equitable Life
+		  Assurance, Exxon/Esso, Food Fair Stores, IBM, Memorial Sloan-Kettering Cancer
+		  Center, North American Reinsurance, Philip Morris, Richardson-Vicks, Russ
+		  Berrie, and Tishman Realty and Construction. The collection also includes
+		  manuscripts and published editions of Rosen's books on graphic design and
+		  typography, and touches on several of Rosen's commmemorative projects,
+		  including a President Kennedy memorial, a United Nations 20th Anniversary book,
+		  and Rosen's submission to the World Trade Center Memorial design
+		  competition.</abstract>
+	 </did>
+	 <descgrp type="admininfo">
+		<head>Administrative Information</head>
+		<accessrestrict encodinganalog="506">
+		  <head>Access Restrictions</head>
+		  <p>Collection is restricted.</p>
+		  <p>Photographic negatives are closed to researchers. Consult Research
+			 Services regarding the availability of use prints.</p>
+		  <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+		  <p>All or portions of this collection may be housed off-site in
+			 Duke University's Library Service Center. There may be a 48-hour
+			 delay in obtaining these materials.</p>
+		  <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+		</accessrestrict>
+		<userestrict encodinganalog="540">
+		  <head>Copyright Notice</head>
+		  <p>The copyright interests in this collection have not been transferred
+			 to Duke University. For more information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+		</userestrict>
+		<prefercite>
+		  <head>Preferred Citation</head>
+		  <p>[Identification of item], Ben Rosen Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+		</prefercite>
+		<acqinfo encodinganalog="541">
+		  <head>Provenance</head>
+		  <p>The Ben Rosen Papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a gift in 2005. </p>
+		</acqinfo>
+		<processinfo>
+		  <head>Processing Information</head>
+		  <p>Processed by Casey A. Jarrin and Richard Collier, Oct. 2006</p>
+		  <p>Encoded by Casey A. Jarrin and Richard Collier</p>
+		  <p>Completed Nov. 2006</p>
+		  <p>Accessions 2005-0104, 2006-0008, and 2006-0019 were merged into one
+			 collection, described in this finding aid.</p>
+		  <p>Descriptive sources and standards used to create this inventory:
+		  <title render="italic" linktype="simple">DACS,</title> EAD, NCEAD guidelines, and our
+		  local
+		  <title render="italic" linktype="simple">Style Guide.</title></p>
+
+		</processinfo>
+	 </descgrp>
+
+	 <!-- End of finding aid header -->
+	 <bioghist>
+		<head>Biographical Note</head>
+<!--use "Historical Note" for organizational records.-->
+		<chronlist>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1920 Oct. 20</date>
+			 <event>Born in Detroit, Mich.</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1938</date>
+			 <eventgrp>
+				<event>Graduated Cass Technical High School, Detroit, Mich.</event>
+
+				<event>Enrolled in drawing and painting courses at the Society of
+				  Arts and Crafts, Detroit, Mich.</event>
+			 </eventgrp>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1938-1939</date>
+			 <event>Cranbrook Academy of Art, Bloomfield Hills, Mich.</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1939-1941</date>
+			 <event>Pratt Institute, New York, N.Y., program in advertising
+				design</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1941-1942</date>
+			 <event>Designer, J. Gordan Carr &amp; Associates</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1942 Aug.-1945 Oct.</date>
+			 <eventgrp>
+				<event>Aerial Motion Picture Photographer for the U.S. Army,
+				  stationed primarily in England</event>
+				<event>Co-founded a school of Art and Architecture for servicemen
+				  at Chalgrove Air Base in England; taught courses in drawing and design</event>
+				<event>Developed a proposal for the conversion of U.S. air bases
+				  into British housing; presented plan before British government
+				  ministers</event>
+			 </eventgrp>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1946-1947</date>
+			 <event> Art Director, Blaine Thompson Company, New York, N.Y.</event>
+
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1948-1953</date>
+			 <eventgrp>
+				<event>Freelance designer, J. Gordon Carr and Associates; projects
+				  included American Airlines, Benson &amp; Hedges, Pepsi, Shell Oil, Sky
+				  Chef</event>
+				<event>Package design, Robert Leonard Studio</event>
+			 </eventgrp>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1952</date>
+			 <event>Founded Ben Rosen Associates</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1952-1953</date>
+			 <event> Studio designer, Alan Berni and Associates</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1955</date>
+			 <eventgrp>
+				<event>Received New York State Teacher's License in Commercial
+				  Art/Package Design</event>
+				<event>Began teaching at the School of Visual Art, New York, N.Y.;
+				  developed and taught package design course</event>
+			 </eventgrp>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1963</date>
+			 <eventgrp>
+				<event>
+				  <title render="italic" linktype="simple">Type and Typography</title>
+				  published</event>
+				<event>Designed John F. Kennedy memorial document</event>
+			 </eventgrp>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">Late 1960s</date>
+			 <event>Lectured at Cooper Union, New York, N.Y.</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1970s</date>
+			 <event>Lectured at Pratt Phoenix Center, New York, N.Y.</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1970</date>
+			 <event>
+				<title render="italic" linktype="simple">The Corporate Search for Visual
+				  Identity</title> published</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1975</date>
+			 <event>Relocated Ben Rosen Associates from New York, N.Y. to
+				Ho-Ho-Kus, N. J.</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1977-1978</date>
+			 <event>Formed Ritta, Rosen &amp; Arnoldy, a consulting firm that
+				specialized in graphic design and corporate identity</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1980s-early 1990s</date>
+			 <event>Member, Arts Advisory Board, Bergen Community College</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1991</date>
+			 <event>
+				<title render="italic" linktype="simple">Digital Type Specimens</title>
+				published</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">1992</date>
+			 <event>Wrote Introduction to a new edition of Jan Tschichold's
+				<title render="italic" linktype="simple">Treasury of Alphabets and Lettering</title>
+				</event>
+		  </chronitem>
+		  <chronitem>
+			 <date era="ce" calendar="gregorian">2003</date>
+			 <event>Submitted design proposal to the World Trade Center memorial
+				competition</event>
+		  </chronitem>
+		</chronlist>
+
+
+	 </bioghist>
+<!--End of biohistory-->
+<!--Begin scopecontent-->
+	 <scopecontent>
+		<head>Collection Overview</head>
+		<p> The Ben Rosen Papers span the years 1936 to 2006, with the bulk of
+		  the collection dating from 1945 through 1991, and document Rosen's sixty-year
+		  career in graphic design and visual communications consulting. The collection
+		  contains materials in a variety of formats, including correspondence, writings,
+		  graphic design and printed materials, sketches, presentation boards,
+		  photographs, and slides, that document design concepts and programs (corporate
+		  logos, letterhead, packaging, industrial design, promotion). Rosen developed
+		  corporate visual identity programs and packaging designs, first as an employee
+		  of
+		  <corpname>J. Gordon Carr and Associates</corpname> and the
+		  <corpname>Blaine Thompson Company</corpname>, and later through his own
+		  firm,
+		  <corpname>Ben Rosen Associates</corpname>, for clients including
+		  <corpname>American Loose Leaf, CCMI McGraw-Hill, Equitable Life
+			 Assurance, Exxon/Esso, Food Fair Stores, IBM, Memorial Sloan-Kettering Cancer
+			 Center, North American Reinsurance, Philip Morris, Richardson-Vicks, Russ
+			 Berrie, and Tishman Realty and Construction</corpname>. The collection also
+		  includes manuscripts and published editions of Rosen's books on graphic design
+		  and typography:
+		<title render="italic" linktype="simple">Type and Typography</title> (1963);
+		<title render="italic" linktype="simple">The Corporate Search for Visual Identity</title>
+		(1970); and
+		<title render="italic" linktype="simple">Digital Type Specimens</title> (1991); and touches
+		on several of Rosen's commmemorative projects, including a memorial for
+		President John F. Kennedy, a United Nations 20th Anniversary book, and Rosen's
+		submission to the World Trade Center Memorial design competition. </p>
+		<p>The collection is organized into five series: <emph render="bold">Personal Files</emph>, <emph render="bold">Writings</emph>,
+		  <emph render="bold">Business Files</emph>, <emph render="bold">Client
+		  Files</emph>, and <emph render="bold">Photographic Materials</emph>. The
+		  <emph render="bold">Personal Files Series</emph> includes original student
+		  drawings and sketches from Rosen's years at Cranbrook and Pratt, and later
+		  artwork; World War II materials, primarily relating to Rosen's proposed plan to
+		  the British government for the conversion of U.S. military bases into postwar
+		  British housing; and limited biographical material. The <emph render="bold">Writings Series</emph> contains articles on package design and
+		  visual communications by Rosen and others; manuscripts, published volumes, and
+		  promotional materials for Rosen's books; and unpublished book concepts and
+		  manuscripts. The <emph render="bold">Business Files Series</emph> includes
+		  administrative records, new business presentations, reference files and
+		  scrapbooks of creative output from several advertising and graphic design firms
+		  where Rosen was an employee or partner. The <emph render="bold">Client Files
+		  Series</emph> consists primarily of visual communications design work for a
+		  number of clients, and materials relating to several commemorative projects.
+		  The <emph render="bold">Photographic Materials Series </emph> contains
+		  negatives, photographs, and slides documenting some of Rosen's designs.</p>
+	 </scopecontent>
+	 <processinfo>
+		<head>Processing Information.</head>
+		<p>Corporate visual identity encompasses a wide range of media and
+		  materials, from logos and letterhead designs to employee manuals, product
+		  packaging, architectural signage and company vehicle markings, and thus pose
+		  particular challenges for archival housing and description. Housing needs to
+		  accommodate the variety of formats have forced some related materials within
+		  the collection to be dispersed across a number of physical and descriptive
+		  locations. Where feasible, materials removed from their original locations in
+		  the collection have been indicated by a folder or item title appearing in
+		  brackets within the finding aid, to preserve the logical location of the item
+		  while pointing to its new physical location.</p>
+	 </processinfo>
+	 <relatedmaterial>
+		<head><emph render="bold">Related Material. </emph></head>
+		<p>Other materials related to this collection and American graphic design
+		  may be found in the <emph render="bold">Gene Federico Papers</emph> and
+		  <emph render="bold">Garrett Orr Papers</emph>. For material relating
+		  specifically to Philip Morris Company packaging and advertising, consult the
+		  <emph render="bold">J. Walter Thompson Co. Archives Corporation Vertical
+		  Files</emph>, the <emph render="bold">J. Walter Thompson Co. Archives Domestic
+		  Advertisements Collection</emph>. For general material on tobacco advertising,
+		  see the <emph render="bold">Sheldon Sosna Papers</emph> and the Liggett &amp;
+		  Myers Tobacco Company Records. For additional material on Exxon Corporation
+		  promotion and publicity, consult the <emph render="bold">Edgar Hatcher
+		  Papers</emph>, and the <emph render="bold">Louis H. Roddis Papers</emph>.</p>
+	 </relatedmaterial>
+<!--End scopecontent-->
+<!--Begin controlaccess-->
+	 <controlaccess>
+		<head>Subject Headings</head>
+		<p>These are searchable subject entries for this collection. Performing a
+		  search on these subjects in the Duke University Libraries online catalog will
+		  bring up other related research materials.</p>
+		<list type="simple">
+<!-- Note:  <subject encodinganalog="650" source="lcsh">, <persname encodinganalog="600" source="lcnaf">, <corpname encodinganalog="610">, <geogname encodinganalog="651" source="lcsh">, <famname encodinganalog="600" source="lcnaf">, <genreform encodinganalog="655" source="aat"> or <genreform encodinganalog="655" source="gmgpc">, <title encodinganalog="630" source="lcsh"> used where applicable -->
+		  <item>
+			 <persname encodinganalog="600" source="lcnaf">Rosen,
+				Ben</persname></item>
+		 
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Kennedy, John F. (John Fitzgerald),
+				1917-1963 -- Death and burial</subject></item>
+		  <item>
+			 <corpname encodinganalog="610">Ben Rosen Associates
+				(Firm)</corpname></item>
+		  <item>
+			 <corpname encodinganalog="610">Blaine Thompson Company
+				(Firm)</corpname></item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Advertising -- United
+				States</subject></item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Advertising
+				executives -- United States</subject></item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Advertising
+				agencies -- United States</subject></item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Advertising layout and
+				typography</subject></item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Advertising -- Brand name
+				products</subject></item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Advertising -- Cigarettes</subject></item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Graphic artists -- United
+				States</subject></item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Graphic design -- United
+				States</subject></item>
+		  <item>
+			 <subject encodinganalog="650" source="lcsh">Graphic design
+				(Typography)--United States</subject></item>
+		  <item>
+			 <corpname source="lcsh" encodinganalog="610">American Loose Leaf
+				Company (Firm)</corpname></item>
+		  <item>
+			 <corpname source="lcsh" encodinganalog="610">McGraw-Hill Publishing
+				Company</corpname></item>
+		  <item>
+			 <corpname source="lcsh" encodinganalog="610">Equitable Life Assurance
+				Society of the United States</corpname></item>
+		  <item>
+			 <corpname source="lcsh" encodinganalog="610">Exxon
+				Corporation</corpname></item>
+		  <item>
+			 <corpname source="lcsh" encodinganalog="610">Food Fair Stores, Inc.
+				(Firm)</corpname></item>
+		  <item>
+			 <corpname source="lcsh" encodinganalog="610">International Business
+				Machines Corporation</corpname></item>
+		  <item>
+			 <corpname source="lcsh" encodinganalog="610">Memorial Sloan-Kettering
+				Cancer Center</corpname></item>
+		  <item>
+			 <corpname source="lcsh" encodinganalog="610">North American
+				Reinsurance Corp</corpname></item>
+		  <item>
+			 <corpname source="lcsh" encodinganalog="610">Philip Morris
+				Incorporated</corpname></item>
+		  <item>
+			 <corpname source="lcsh" encodinganalog="610">Richardson-Vicks, Inc.
+				(Firm)</corpname></item>
+		  <item>
+			 <corpname source="lcsh" encodinganalog="610">Russ Berrie and Company,
+				Inc. (Firm)</corpname></item>
+		  <item>
+			 <corpname source="lcsh" encodinganalog="610">Tishman Realty and
+				Construction Company, Inc. (Firm)</corpname></item>
+		  <item>
+			 <genreform source="aat" encodinganalog="655">Photographs.
+				</genreform></item>
+		  <item>
+			 <genreform source="aat" encodinganalog="655">Proofs.
+				</genreform></item>
+		  <item>
+			 <genreform source="aat" encodinganalog="655">Sketches.
+				</genreform></item>
+		  <item>
+			 <genreform source="aat" encodinganalog="655">Slides.
+				</genreform></item>
+		  <item>
+			 <corpname encodinganalog="610">John W. Hartman Center for Sales,
+				Advertising &amp; Marketing History</corpname></item>
+		</list>
+	 </controlaccess>
+<!--End controlaccess-->
+<!--Begin container list-->
+<!-- Sample of possible container list structure, actual markup depends upon the materials being described. -->
+<!-- Use <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent>, <processinfo>, and <accessrestrict> if needed. -->
+	 
+	 <dsc type="combined">
+		<head>Contents of Collection</head>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Personal Files Series,
+				<unitdate type="inclusive" normal="1936/2006" era="ce" calendar="gregorian">1936-2006 and
+				  undated</unitdate></unittitle>
+			 <physdesc><extent>(5 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Includes original artwork Rosen completed, primarily while a
+				student at Cranbrook Academy and Pratt Institute (sketches, watercolors,
+				charcoals, various design projects). Also contains materials documenting
+				Rosen's service during World War II, primarily related to a proposal designed
+				by Rosen and fellow servicemen to convert U.S. military bases in England into
+				housing for British citizens. Also includes limited biographical material.
+				Arranged alphabetically.</p>
+		  </scopecontent>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Artwork</unittitle>
+			 </did>
+			 <c03 level="subseries">
+				<did>
+				  <unittitle>Early Work</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <container type="box">1</container>
+					 <unittitle>Cass Technical High School</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Portrait of Ben Rosen, by classmate Freda Zolzman,
+
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1936</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Cranbrook Academy</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Watercolors,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1938-1939</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">2</container>
+					 <unittitle>Pratt Institute</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Student studies,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1940-1941</unitdate></unittitle>
+						<physdesc><extent>(7 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03 level="subseries">
+				<did>
+				  <unittitle>Later Work</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <container type="box">3</container>
+					 <unittitle>Charcoals,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1963-1989</unitdate></unittitle>
+					 <physdesc><extent>(4 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Watercolors</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">Beach at Amagansett, Long
+							 Island,</title>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1972</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Painted postcard, undated</unittitle>
+					 </did>
+					 <scopecontent>
+						<p>Note on back of item reads <emph render="doublequote">One
+						  of many cards sent to friends, made on vacation trips.</emph></p>
+					 </scopecontent>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">Summer at Walled Lake,</title>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1955</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Biographical Material</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <container type="box">4</container>
+				  <unittitle>Anecdotes,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">2006-2007</unitdate></unittitle>
+				</did>
+				<scopecontent>
+				  <p>Includes memoirs on Rosen's art/design education and early
+					 career in New York; family/children; the redesign of the Shell Oil logo; the
+					 Kennedy assassination and the genesis of Rosen's design for a Kennedy memorial
+					 document, also in the collection.</p>
+				</scopecontent>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Award certificates,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1951-1969</unitdate></unittitle>
+				  <physdesc><extent>(2 folders; 1 folder removed to Box
+					 5)</extent></physdesc>
+				</did>
+				<scopecontent>
+				  <p>Awards from graphic design and packaging industry groups.</p>
+				</scopecontent>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Biographical sketches and résumés,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1970s and
+						undated</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Correspondence</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Professional,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1974 and
+						  undated</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Truman, Harry S.,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1971</unitdate></unittitle>
+				  </did>
+				  <scopecontent>
+					 <p>Copy of a note from Rosen and reply from the former
+						President.</p>
+				  </scopecontent>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>New York State Teacher's License for commercial art,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1955</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Résumés--other people,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">circa 1974 and
+						undated</unitdate></unittitle>
+				</did>
+				<scopecontent>
+				  <p>Includes drafts of résumés from Rosen's son, Ralph, and from
+					 Theodore Toole.</p>
+				</scopecontent>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>World War II materials</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Air base housing conversion program</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Clippings,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1945 and
+							 undated</unitdate></unittitle>
+						<physdesc><extent>(2 folders; 1 folder removed to Box
+						  5)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1945-1946</unitdate></unittitle>
+
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Photographs,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1928 and
+							 1944</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Presentation,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1945</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">5</container>
+					 <unittitle>
+						<corpname>Red Cross</corpname> poster submission,
+						undated</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Writings Series,
+				<unitdate type="inclusive" normal="1960/1999" era="ce" calendar="gregorian">1960-1999 and
+				  undated</unitdate></unittitle>
+			 <physdesc><extent>(9 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Includes articles and books by Rosen on package design and
+				typography, along with industry reviews of Rosen's design work. Bulk of series
+				is comprised of published book manuscripts, drafts, research, correspondence,
+				and accompanying promotional brochures and reviews for three books by Rosen:
+			 <title render="italic" linktype="simple">The Corporate Search for Visual
+				Identity</title>,
+			 <title render="italic" linktype="simple">Digital Type Specimens</title>,
+			 <title render="italic" linktype="simple">Type &amp; Typography</title>, along with
+			 materials relating to the
+			 <title render="italic" linktype="simple">Treasury of Alphabets</title> by Jan
+			 Tschichold, for which Rosen wrote the introduction. Also contains unpublished
+			 book concepts for two illustrated children's books, a graphic design project on
+			 visual identification, and teaching materials on package design and typography.
+			 Arranged alphabetically.</p>
+		  </scopecontent>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Articles</unittitle>
+			 </did>
+			 <c03 level="subseries">
+				<did>
+				  <unittitle>By Others</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <container type="box">6</container>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">Graphics Men Pick Best
+						  Packages,</title>
+						<title render="italic" linktype="simple"> Printers' Ink</title>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1960 Nov.</unitdate></unittitle>
+				  </did>
+				  <scopecontent>
+					 <p>Profiles Art Crayon package design by Rosen.</p>
+				  </scopecontent>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Package profiles/awards (as featured in
+						<title render="italic" linktype="simple">Consumer Packaging</title> and
+						American Institute of Graphic Arts publication),
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1960</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">RR &amp; A: Specialists in
+						  Corporate Identity and Graphic Design,</title>
+						<title render="italic" linktype="simple"> Commerce</title> magazine (published
+						by the Chamber of Commerce and Industry of Northern New Jersey),
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1979 Mar.</unitdate></unittitle>
+				  </did>
+				  <scopecontent>
+					 <p>Profile of design firm Rita, Rosen &amp; Arnoldy (RR &amp;
+						A), at which Ben Rosen was a principal.</p>
+				  </scopecontent>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Various short articles featuring Rosen-designed
+						packaging,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1961 and
+						  undated</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03 level="subseries">
+				<did>
+				  <unittitle>By Rosen</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <container type="box">6</container>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">Attractive Packaging and Display
+						  Can Blaze a Trail to Bigger Sales,</title>
+						<title render="italic" linktype="simple"> Home &amp; Garden</title>, 1961
+						Sept.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">Contemporary Packaging Termed
+						  Inept in Face of Technological Advancements,</title>
+						<title render="italic" linktype="simple"> Food &amp; Drug Packaging</title>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1962 May</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Ecology article (environmental responsibility,
+						climate change, lifestyle/policy reform), circa 1970s</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">How Can Deceptive Packaging Be
+						  Controlled Or Eliminated?</title> Part of
+						<title render="doublequote" linktype="simple">Sounding Board</title> editorial
+						feature,
+						<title render="italic" linktype="simple">Modern Packaging,</title> 1961
+						Oct.</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">How Inside-Out Merchandising
+						  Affects Hardware,</title>
+						<title render="italic" linktype="simple"> Hardware/Housewares,</title> 1961
+						Feb. (photocopy, original in Box 5)</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">Lettering and Type
+						  Trends,</title> review of
+						<persname>Mortimer Leach</persname>,
+						<title render="italic" linktype="simple">Letter Design in the Graphic
+						  Arts,</title> circa 1960</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">PRG (Public Relations Graphics):
+						  New Directions in Graphics,</title>
+						<title render="italic" linktype="simple"> Graphic Directions</title> (Art
+						Directors Club meeting, Denver),
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1965 Apr.</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">Task of Selection of Design Firm
+						  for Exxon Marketing/Identification Review,</title> draft, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">Too Many Manufacturers Make
+						  Packaging Errors,</title>
+						<title render="italic" linktype="simple">Food Field Reporter,</title>
+						<unitdate type="inclusive" era="ce" calendar="gregorian"> 1961 Aug. 14</unitdate>
+						(photocopy, original in Box 5)</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">Typography in Packaging,</title>
+						<title render="italic" linktype="simple"> Modern Packaging
+						  Encyclopedia</title>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1965</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Books</unittitle>
+			 </did>
+			 <c03 level="subseries">
+				<did>
+				  <unittitle>Published Work</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <container type="box">7</container>
+					 <unittitle>General</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Copy fitting and marking techniques,
+						  undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Expenses,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1989-1990</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Promotion,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1990-1992 and
+							 undated</unitdate></unittitle>
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Proposed 10-point marketing program for
+						  computer-oriented books,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1991</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Publisher questionnaires,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1988 and
+							 undated</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Releases,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1990</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Royalties,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1999</unitdate></unittitle>
+
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Van Nostrand Reinhold--Problems,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1990</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">8</container>
+					 <unittitle>
+						<title render="italic" linktype="simple">Corporate Search for Visual
+						  Identity</title></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Contract,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1967 and
+							 undated</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1970</unitdate></unittitle>
+
+						<physdesc><extent>(3 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Edits and corrections, undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Manuscripts</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>First draft and concept notes,
+							 undated</unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Original version,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1969</unitdate></unittitle>
+						  <physdesc><extent>(2 folders)</extent></physdesc>
+						</did>
+					 </c06>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Promotion,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1970 and
+							 undated</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Published first edition,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1970</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">9</container>
+						<unittitle>Research</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>Articles, undated</unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Interviews,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1969</unitdate></unittitle>
+						  <physdesc><extent>(15 folders)</extent></physdesc>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Notes and additions, undated</unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Preliminary research, undated</unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Questionnaire, undated</unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Reviews,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1971</unitdate></unittitle>
+
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="italic" linktype="simple">Digital Type
+						  Specimens</title></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Books sent,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1990-1991</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Copy for text showing, undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1990</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Edits,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1990 and
+							 undated</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Equipment pictures,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1988-1989</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">10</container>
+						<unittitle>Fonts, undated</unittitle>
+						<physdesc><extent>(6 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Manuscript drafts,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1990 and
+							 undated</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Miscellany to include, undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Outline, undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Promotion, Van Nostrand Reinhold, 1992</unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Published first edition,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1991</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="italic" linktype="simple">Small Commercial Buildings,</title>
+						Richard Snibbe,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1956</unitdate> (Book design
+						credited to Rosen)</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">11</container>
+					 <unittitle>
+						<title render="italic" linktype="simple">Treasury of Alphabets and
+						  Lettering</title>, Jan Tschichold (Introduction by Ben Rosen)</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Drafts of Introduction,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1989-1991</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Proofs,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1992</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Proposal and contract,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1988-1990</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Published edition,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1992</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="italic" linktype="simple">Type and
+						  Typography</title></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Contract,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1963</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1958-1964</unitdate></unittitle>
+
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>Letters to and from contributors,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1962-1963</unitdate></unittitle>
+						  <physdesc><extent>(2 folders)</extent></physdesc>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Letters to and from foundries,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1958-1963</unitdate></unittitle>
+						  <physdesc><extent>(2 folders)</extent></physdesc>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Letters to Reinhold,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1958-1963</unitdate></unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Letters to specialists,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1962-1963</unitdate></unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Lists of contributors,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1962-1963</unitdate></unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Manuscript drafts,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1963 and
+							 undated</unitdate></unittitle>
+						<physdesc><extent>(7 folders; 1 folder removed to Box
+						  13)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Notes and references,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1963 and
+							 undated</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Outline,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1963 and
+							 undated</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Production matters</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>Estimates,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1962 and
+								undated</unitdate></unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Face lists and space allocations,
+							 undated</unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Formatting, undated</unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <container type="box">12</container>
+						  <unittitle>Proofreader marks, undated</unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Record of included typefaces and sources,
+							 undated</unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Specifications and production costs,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1958-1960 and
+								undated</unitdate></unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Promotional materials, undated</unittitle>
+						<physdesc><extent>(4 folders; 1 folder removed to Box
+						  13)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Published edition,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1963</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Reprint authorizations,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1962-1963</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Research</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>Artwork/prints,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1963 and
+								undated</unitdate></unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Lists of type faces, undated</unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Sources for illustrations, Braille, etc.,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1963 and
+								undated</unitdate></unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Text copy sources,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1963 and
+								undated</unitdate></unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Type designers, undated</unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Type lists, early selections,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1957-1960 and
+								undated</unitdate></unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Unpublished and abandoned projects</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Industry books</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">Visual Identification</title>
+						  book, (corporate identification as a marketing tool)</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>Notes, circa early 1980s</unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Outline, circa early 1980s</unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Proposal,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1987</unitdate></unittitle>
+						  <physdesc><extent>(2 folders)</extent></physdesc>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <container type="box">13</container>
+						  <unittitle>Storyboard for television program proposal,
+							 undated</unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Children's books</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Alphabet book, notes and sketches,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1970</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">14</container>
+						<unittitle>Moustache book, notes and sketches,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1970</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Teaching materials</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <container type="box">14</container>
+				  <unittitle>Package Design course, syllabus/correspondence,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1955, 1966 and
+						undated</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Reference materials,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1945-1989</unitdate></unittitle>
+				  <physdesc><extent>(2 folders)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Teaching guide,
+					 <title render="doublequote" linktype="simple">Lettering and Type Style
+						Package,</title>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1985-1992 and
+						undated</unitdate></unittitle>
+				  <physdesc><extent>(2 folders)</extent></physdesc>
+				</did>
+			 </c03>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Business Files Series,
+				<unitdate type="inclusive" normal="1946/1995" era="ce" calendar="gregorian">1946-1995 and
+				  undated</unitdate></unittitle>
+			 <physdesc><extent>(9 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Includes correspondence, administrative files, new business
+				presentations, reference materials, and scrapbooks of creative examples. Firms
+				represented include Ben Rosen Associates, Ben Rosen Designer, and the Blaine
+				Thompson Company. Arranged alphabetically.</p>
+			 <p>Some large format materials have been removed from their original
+				locations in the collection and placed in Box 22. A dummy folder, indicated by
+				a title in brackets, has been inserted in the logical location to indicate
+				removal of the item.</p>
+		  </scopecontent>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Ben Rosen Associates</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <container type="box">14</container>
+				  <unittitle>Administrative</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Brochures, undated</unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				  <scopecontent>
+					 <p>Includes examples of brochures for Ritta, Rosen &amp;
+						Arnoldy firm</p>
+				  </scopecontent>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Business plan,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1970 and
+						  undated</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Control book of publicity and business mailings,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Correspondence,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1971-1975</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>[House promotional brochure designs, undated;
+						removed to Box 22.]</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Newsletter,
+						<title render="italic" linktype="simple">Corporate Identity,</title>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1969-1972</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>[New office announcement,
+						<title render="doublequote" linktype="simple">Soirée,</title> undated; removed
+						to Box 22.]</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Publicity program,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1970-1982</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Regulations and benefits,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1970</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Reorganization plan,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1971</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Reports, presentations, speeches</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Address to the Graphic Design class at Herron Art
+						  School, undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Address to the Haworth Men's Club,
+						  undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Notes on Purchasing Club Plan, undated</unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Presentation on Exxon Office Systems,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1981</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Supplementary recommendations for International
+						  Check Systems, 1969</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">15</container>
+						<unittitle>Visual Communications Center, undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Miscellaneous short speeches,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1964-1987</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>UPC/Postal bar codes and documentation,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1986 and
+						  undated</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Joint project with Paul Arthur,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1981-1983 and
+						undated</unitdate></unittitle>
+				  <physdesc><extent>(4 folders)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>New business proposals</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Bergen Community College,</corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1995</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>CCMI/McGraw-Hill,</corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1984</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Exxon,</corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Joint venture with
+						<corpname>Stewart &amp; Morrison,</corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1970-1971</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>N.J. Typesetting Co.,</corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1980</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Port Authority of New York &amp; New
+						  Jersey</corpname>, signage proposal,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1980-1986</unitdate></unittitle>
+					 <physdesc><extent>(1-4 of 6 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">16</container>
+					 <unittitle>
+						<corpname>Port Authority of New York &amp; New
+						  Jersey</corpname>, signage proposal,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1980-1986</unitdate></unittitle>
+					 <physdesc><extent>(5-6 of 6 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>United States Food and Drug Administration, food
+						package labeling format proposal,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1979</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Venture calendar/planner design,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">2001-2002</unitdate></unittitle>
+					 <physdesc><extent>(4 folders; 1 folder removed to Box
+						22.)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Other proposals, drafts and letters,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1969-1983 and
+						  undated</unitdate></unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Outside proposals,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1984</unitdate></unittitle>
+				  <physdesc><extent>(2 folders)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">17</container>
+				  <unittitle>Paper and cover stock samples,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">2001 and
+						undated</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>[Publication,
+					 <title render="doublequote" linktype="simple">What in the World is Packaging All
+						About?</title>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1955</unitdate>; removed to Box
+					 22.]</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Reference files</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Capability reports,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1971-1977</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">How To</title> design manuals,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1966 and
+						  undated</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Other designers' work</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <persname>Bass, Saul</persname></unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>
+							 <corpname>AT&amp;T</corpname> corporate identity program,
+							 undated</unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>
+							 <corpname>Celanese Corporation,</corpname>
+							 <title render="italic" linktype="simple"> Manual of Style</title>,
+							 undated</unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <persname>Beall, Lester,</persname>
+						  <corpname>Connecticut General</corpname> style book,
+						  undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Canadian National</corpname>
+						  <title render="italic" linktype="simple">Signs Manual,</title>
+						  undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <persname>Elanco, Don,</persname>
+						  <title render="italic" linktype="simple">Preliminary Corporate Identity
+							 Guidelines,</title> undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <persname>Lionni, Leo</persname>,
+						  <corpname>Olivetti</corpname> designs,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1952</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>National Association of Realtors, </corpname>
+						  <title render="italic" linktype="simple">Realtor Identification and
+							 Communications Standards Manual,</title>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1973</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Olivetti, </corpname>
+						  <title render="italic" linktype="simple">A Contemporary Image of Style and
+							 Industry,</title>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1962</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <persname>Rand, Paul</persname>,
+						  <corpname>Westinghouse</corpname> designs,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1961-1968 and
+							 undated</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Richardson-Vicks, </corpname>
+						  <title render="italic" linktype="simple">Corporate Identification Standards
+							 Manual,</title> undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>[Stoudard, Paul, calligraphy examples, undated;
+						  removed to Box 22.]</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Union Carbide, </corpname>
+						  <title render="italic" linktype="simple">Identification Manual</title>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1965</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">18</container>
+						<unittitle>
+						  <corpname>Varian Instrument Group, </corpname>
+						  <title render="italic" linktype="simple">Identity Standards Manual,</title>
+						  undated</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Ben Rosen, Designer</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Early freelance projects</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <container type="box">19</container>
+					 <unittitle>Book covers, circa late 1940s</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Brochures and mailings</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">Ben Rosen Designer,</title>
+						  undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">Contemporary Graphics,</title>
+						  undated</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Other designs, circa 1948-1952</unittitle>
+					 <physdesc><extent>(2 folders; 1 folder removed to Box
+						22.)</extent></physdesc>
+				  </did>
+				  <scopecontent>
+					 <p>Includes work for America's Future, Inc.,
+					 <title render="italic" linktype="simple">CHARM</title> magazine, C.J. Herrick
+					 &amp; Associates, Fabric Finishing Co.,
+					 <title render="italic" linktype="simple">House Beautiful</title>, and Sargent
+					 paints. </p>
+				  </scopecontent>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>World Trade Center Memorial</corpname> design
+					 competition,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">2003-2004</unitdate></unittitle>
+				  <physdesc><extent>(1-4 of 9 folders)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">20</container>
+				  <unittitle>
+					 <corpname>World Trade Center Memorial</corpname> design
+					 competition,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">2003-2004</unitdate>
+					 (continued)</unittitle>
+				  <physdesc><extent>(5-9 of 9 folders)</extent></physdesc>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>
+				  <corpname>Blaine Thompson Company</corpname></unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <container type="box">20</container>
+				  <unittitle>Advertisement proofs</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Celotex Corporation</corpname>,
+						<emph render="doublequote">Acousti-Celotex</emph> sound conditioning,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1948</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Facing Tile Institute</corpname>, circa
+						1947-1948</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Ingersoll-Rand Company</corpname> (pumps, drills,
+						compressors), circa 1947-1948</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Sales Affiliates, Inc.,</corpname> (Zotos
+						Machineless Permanent Wave hair treatment),
+						<unitdate type="inclusive" era="ce" calendar="gregorian"> 1940s</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Brochures</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>American Export Lines</corpname>, menu concepts,
+						circa 1947-1948</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Walter Haeger</corpname> rental brochure, circa
+						1947</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Scrapbooks and collected work</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <container type="box">21</container>
+				  <unittitle>Business cards, undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Logo designs, undated</unittitle>
+				  <physdesc><extent>(2 folders; 1 folder removed to Box
+					 22)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Scrapbooks,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1946-1995</unitdate></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Scrapbook 1</unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				  <scopecontent>
+					 <p>Includes original letterhead designs for
+						<corpname>Action Council for Better Cities, Ben Rosen
+						  Associates, Horizon House/Tishman Realty, ICOA Life Insurance, J. Gordon Carr
+						  &amp; Associates Architects, and Scully Brothers</corpname>.</p>
+				  </scopecontent>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Scrapbook 2</unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				  <scopecontent>
+					 <p>Includes original letterhead designs for
+						<corpname>Ben Rosen Associates, Intermark, North American
+						  Reinsurance, Richardson-Merrell, and Ritta, Rosen &amp; Arnoldy</corpname>.</p>
+
+				  </scopecontent>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Oversize materials</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <container type="box">22</container>
+				  <unittitle>Ben Rosen Associates</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Administrative--House promotional brochure designs,
+						undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Administrative--New office announcement,
+						<title render="doublequote" linktype="simple">Soirée,</title>
+						undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>New Business--Venture calendar/planner design,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">2001-2002</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Publication,
+						<title render="doublequote" linktype="simple">What in the World is Packaging
+						  All About?</title>
+						<unitdate type="inclusive" era="ce" calendar="gregorian"> 1955</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Reference--Paul Stoudard calligraphy examples,
+						undated</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Ben Rosen, Designer</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Other designs,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+						  1948-1952</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Scrapbooks and collected work</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Logo designs, undated</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Client Files Series,
+				<unitdate normal="1948/1988" type="inclusive" era="ce" calendar="gregorian">1948-1988 and
+				  undated,</unitdate> bulk
+				<unitdate normal="1968/1988" type="bulk" era="ce" calendar="gregorian">1968-1988</unitdate></unittitle>
+		  </did>
+		  <scopecontent>
+			 <p>Contains design concepts, sketches, presentation materials/display
+				boards, and final designs for a variety of visual communications projects, with
+				a focus on corporate identity programs and package design. Bulk of series
+				represents package design sketches, mock-ups, and finished products produced
+				for clients including
+				<corpname>American Loose Leaf, CCMI/McGraw-Hill, Equitable Life
+				  Assurance, Exxon, Gilbarco (subsidiary of Exxon/Esso), IBM, Memorial
+				  Sloan-Kettering Cancer Center, North American Reinsurance, Philip Morris,
+				  Richardson-Vicks, Russ Berrie, and Tishman Realty and Construction</corpname>.
+				Materials also touch on Rosen's work on projects for government and public
+				institutions, including a President Kennedy memorial document, a commemorative
+				book for the United Nations 20th anniversary, and Rosen's submission to the
+				World Trade Center Memorial design competition. </p>
+		  </scopecontent>
+		  <processinfo>
+			 <head>Processing Information.</head>
+			 <p>Corporate visual identity encompasses a wide range of media and
+				materials, from logos and letterhead designs to employee manuals, product
+				packaging, architectural signage and company vehicle markings, and thus pose
+				particular challenges for archival housing and description. The series is thus
+				organized into three format-based categories: <emph render="bold">Corporate
+				Identity Programs and Paper Records</emph>; <emph render="bold">Package Designs
+				and Layout Models</emph>; and <emph render="bold">Presentations, Sketches and
+				Architectural Models</emph>. Housing needs have caused materials for individual
+				clients to be dispersed across the categories; likewise, within each category,
+				housing issues have required further arrangements into small- and large-format
+				items. Where large format materials have been removed from their original
+				locations in the collection, a dummy folder, indicated by a title in brackets,
+				has been inserted to indicate removal of the item. Thereunder, items are
+				arranged alphabetically.</p>
+		  </processinfo>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Corporate Identity Programs and Paper Records,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1948-1988 and
+					 undated</unitdate></unittitle>
+			 </did>
+			 <scopecontent>
+				<p>Includes correspondence, planning documentation and designs for
+				  logos and small-format paper items such as letterheads, catalogs, corporate
+				  manuals and promotional materials. </p>
+			 </scopecontent>
+			 <c03>
+				<did>
+				  <container type="box">21</container>
+				  <unittitle>AAA Automobile Club of New York, logo concepts,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1950-1951</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Almar</corpname> rainwear, report and photograms,
+					 undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>American Book Company</corpname>,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1967</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>American Loose Leaf Company</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Catalog, with transparencies,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+						  1977-1978</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Concepts/Color charts,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+						  1977-1978</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">23</container>
+					 <unittitle><emph render="doublequote">Construction Kit,</emph>
+						<unitdate type="inclusive" era="ce" calendar="gregorian"> circa
+						  1977-1978</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Reports </unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Corporate identification and sales support program
+						  (with revisions),
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1976</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">Phase I: Preliminary Research
+							 Report,</title>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1976</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Asgrow Mandeville</corpname> (pre-seeded
+					 planters)</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Planter box design memo,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1973</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Preliminary report (draft),
+						<corpname>circa early 1970s</corpname></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Proposal/Recommendations report,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Axces</corpname>, logo concepts, undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>CCMI McGraw-Hill</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Binders</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle><emph render="doublequote">Call Pricer</emph> (PC
+						  software for long-distance service selections),
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1982-1986</unitdate></unittitle>
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle><emph render="doublequote">Master Planning
+						  Guide</emph></unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>Inserts,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+								1985-1986</unitdate></unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Promotion (concept sketches, final advertising
+							 with photos of binders),
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+								1985-1986</unitdate></unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <container type="box">24</container>
+						  <unittitle>Three-binder final version,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+								1985-1986</unitdate></unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="italic" linktype="simple">Planning Guide X-1: A Compact Guide
+							 to InterLATA Telecommunications Rates and Services</title>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1983</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">25</container>
+						<unittitle><emph render="doublequote">Q-Tel 1000,</emph>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> circa
+							 1982-1986</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Folders, circa 1982-1986</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Letterhead, circa 1985</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Newsletter designs</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="italic" linktype="simple">At the LATA level: The Only News
+							 Digest of Telecommunciations Activities on a State-to-State Basis</title>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1985</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="italic" linktype="simple">Impact: Analysis of Communication
+							 Common Carrier Changes and Competitive Offerings</title>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1985</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="italic" linktype="simple">This Month in Telecommunication:
+							 Monthly News Digest of Key Data Communications and Telephony Events</title>
+						  (designs/direct mail/promotion),
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1985</unitdate></unittitle>
+						<physdesc><extent>(3 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Newsletter logos/promotion,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1985</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Project proposal (timetable, financials, rough
+						sketches),
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1985</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Check Card Systems</corpname>, visual identity
+					 program, report and notes,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1971</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Coats and Clark</corpname>,
+					 <emph render="doublequote">Learn How to Crochet</emph> book design/content
+					 (sketches, concepts, reports),
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957-1958</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <title render="italic" linktype="simple">Consumers Union Report on Family
+						Planning</title> (Alan Guttmacher and Editors of Consumer Reports),
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1962</unitdate></unittitle>
+				  <physdesc><extent>(2 folders)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Cushing &amp; Nevell</corpname> (industrial
+					 designers)
+					 <title render="italic" linktype="simple">Design Procedure</title> manual,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <persname>Della Torre, Julie, </persname><emph render="doublequote">Storyteller</emph> logo designs,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1995 and
+						undated</unitdate></unittitle>
+				  <physdesc><extent>(2 folders)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Dinalon</corpname> (Swiss nail polish), promotional
+					 cards, undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>DSD</corpname>,
+					 <title render="italic" linktype="simple">Informatics Design Guide/Graphic
+						Standards</title>,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Eastern Airlines</corpname>, corporate identity
+					 redesign reference manual,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1966 and
+						undated</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>E. Ingraham Co. (Dreyfus), clock and watch dials,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1950</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Equitable Life Assurance Society of the United
+						States</corpname>, promotional materials, undated</unittitle>
+				  <physdesc><extent>(4 folders; 1 folder removed to Box
+					 61.)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">26</container>
+				  <unittitle>
+					 <corpname>Exxon</corpname>, corporate identification
+					 program</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Candidates</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Correspondence,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977-1978 and
+							 undated</unitdate></unittitle>
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>List of candidates/timetables,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977-1978</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Professional group lists (AIGA, PDC),
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1977 and
+							 undated</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Selection forms,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1978</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Consultant contracts and objectives (Ben Rosen
+						Associates),
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1977-1980 and
+						  undated</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Correspondence regarding presentations,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1977-1978</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Design firms</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Appraisal form, undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Presentation notes,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1978</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Design program</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Booklet,
+						  <title render="doublequote" linktype="simple">Exxon Marketing
+							 Exchange,</title>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1981
+							 Fall</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Contract and terms,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1980</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Contractor files
+						  <corpname>(Saul Bass/Herb Yaeger and
+							 Associates)</corpname></unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>Binders,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1978-1981</unitdate></unittitle>
+						  <physdesc><extent>(8 folders)</extent></physdesc>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Correspondence,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1980-1981</unitdate></unittitle>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <container type="box">27</container>
+						  <unittitle>
+							 <title render="italic" linktype="simple">Design Standards Manual</title>,
+							 undated</unittitle>
+						  <physdesc><extent>(4 folders)</extent></physdesc>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Reports,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1981</unitdate></unittitle>
+						</did>
+					 </c06>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Designer proposals</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Abraham Rothenberg Associates</corpname>,
+						  undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Alan Y. Taniguchi FAIA and Associates</corpname>,
+
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Anspach Grossman Portugal, Inc.</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1978</unitdate></unittitle>
+						<physdesc><extent>(3 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Byron Osterweil Associates</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Chajet Design Group</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+						<physdesc><extent>(2 folders; 1 folder removed to Box
+						  61.)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Cuccio Chieda &amp; Bell</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1978</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>David Chapman Design</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1978</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Design Research Unit</corpname>,
+						  undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Fujita Design</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Gerstman-Meyers, Inc.</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">28</container>
+						<unittitle>
+						  <corpname>Gregory Fossella Associates</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Hunter Straker Templeton Limited</corpname>,
+						  undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Landor Associates</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977-1978</unitdate></unittitle>
+
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Lou Dorfsman, Inc.</corpname>,
+						  undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Luth &amp; Katz</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Murtha, DeSola, Finsilver, Fiore,
+							 Inc.</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Pentagram</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Racila &amp; Vallarta Associates</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Sandgren Associates</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Saul Bass/Herb Yaeger &amp;
+							 Associates</corpname>, undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Schechter Group</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Siegel &amp; Gale</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">29</container>
+						<unittitle>
+						  <corpname>Stewart &amp; Morrison, Ltd.</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Unimark International</corpname>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>[
+						<title render="italic" linktype="simple">Esso Identification Guide</title>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1965</unitdate>; removed to Box
+						61.]</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Expense reports,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1977 and
+						  undated</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Exxon background reports,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1978-1979</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Name Development Project</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Preliminary presentation/correspondence,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1981-1982</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Preliminary progress report,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1982</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Reports and notes,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1982</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Office Systems, reports and presentations,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1981 and
+						  undated</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Presentation,
+						<title render="italic" linktype="simple">Report on Search for a Design
+						  Firm</title>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate></unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Press releases,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1977-1978</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Prospectus,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1977 Nov.</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Report drafts and correspondence,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1978</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Summary statements, circa late 1970s</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Food Fair Stores</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Cheq-List</corpname>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1973</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Correspondence,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1972-1973</unitdate></unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Coupons and advertisements,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1972-1973</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="italic" linktype="simple">Pantry Pride Monthly Planner</title>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1973</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">30</container>
+					 <unittitle>Presentation,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1973 and
+						  undated</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>GAF</corpname>, product catalog,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Gilbarco</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Corporate logo/typeface,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1968</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Fleet fueling, retail systems identification
+						programs,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1981-1982</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Mailings and signage designs, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Press release, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Promotion, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Slide presentation script,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1968</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Typography,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1968</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Visual identity program,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1968</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Green Mountain Marble Co.</corpname>, logo concepts,
+					 undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>IBM</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>632 model brochure concept,
+						<title render="doublequote" linktype="simple">Why Use Two. Now One Will
+						  Do,</title> undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Promotional brochures,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1956-1960 and
+						  undated</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>ICOA Life Insurance Company</corpname>, policy
+					 brochure and logo, undated </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Informatics</corpname>, user manuals,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>International Standard Brands</corpname>, design
+					 guide,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1970</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>J. Gordon Carr &amp; Associates</corpname>,
+					 informational booklet,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1956</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Jersey Millwork Company</corpname>, brochures,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1967</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>John F. Kennedy memorial</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Correspondence,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1963-1964</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>[Memorial document,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1964</unitdate>: removed to Box
+						62.]</unittitle>
+				  </did>
+				  <scopecontent>
+					 <p>Consists of a mounted copy of Kennedy's Inaugural
+						Address.</p>
+				  </scopecontent>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>John H. Muller Associates</corpname>, brochures,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">circa 1970s</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Kasandra</corpname> (tarot card/palm reader), logo
+					 concepts,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">circa 1987</unitdate></unittitle>
+				  <physdesc><extent>(3 folders; 1 folder removed to Box
+					 62.)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Key Query, logo concepts, undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Memorial Sloan-Kettering Cancer Center</corpname>,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1956-1970 and
+						undated</unitdate></unittitle>
+				  <physdesc><extent>(1-3 of 9 folders)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">31</container>
+				  <unittitle>
+					 <corpname>Memorial Sloan-Kettering Cancer Center</corpname>,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1956-1970 and undated</unitdate>
+					 (continued)</unittitle>
+				  <physdesc><extent>(4-9 of 9 folders; 1 folder removed to Box
+					 62.)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>[Morgan Press Collection at the Smithsonian,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">circa 1989</unitdate>]</unittitle>
+				  <physdesc><extent>(4 folders, removed to Box
+					 62.)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>National Aniline Division, Allied
+						Chemical</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Organic chemical data book,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1958</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Pharmaceutical catalog,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1955</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">32</container>
+				  <unittitle>
+					 <corpname>North American Reinsurance
+						Corporation</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Advertising campaign and collateral materials,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1975-1976</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Binder cover designs, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Corporate identity program materials,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1975-1978</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Holiday card, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Mailer,
+						<title render="doublequote" linktype="simple">Don't Call Us,</title>
+						undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Presentation,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1973</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Philip Morris</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="italic" linktype="simple">Graphic Standards Manual</title>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1971</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>[Posters, undated; removed to Box 62.]</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Publications</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">1%,</title>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1967</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Alfred E. Lynn 80th birthday book,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1966</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">Annual Review of the Cigarette
+							 Industry,</title>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1970</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">Business Review,</title>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1969</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">Call for Philip Morris,</title>
+						  undated</unittitle>
+					 </did>
+					 <scopecontent>
+						<p>Tribute to
+						  <persname>Johnny Roventini</persname>, Philip Morris'
+						  bellboy icon.</p>
+					 </scopecontent>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">Call News</title> newsletter,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1966</unitdate></unittitle>
+						<physdesc><extent>(3 folders; 2 folders removed to Box
+						  62.)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">Ciga-rithmetic,</title>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1971</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">33</container>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">Operations Center,</title>
+						  undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">This is Philip Morris,</title>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> circa
+							 1964</unitdate></unittitle>
+					 </did>
+					 <scopecontent>
+						<p>Booklet design received an award from AIGA.</p>
+					 </scopecontent>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="doublequote" linktype="simple">Who's Minding Your
+							 Store,</title>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1969</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Unified design program presentation,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1968</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Richardson-Vicks (formerly
+						Richardson-Merrill)</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Application forms and folders,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1981 and
+						  undated</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">Benefits Brief,</title>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1979</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Dental assistance plan,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1981 and
+						  1986</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Employee benefit program binder designs,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1981</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Employee handbook,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1981</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Employee savings plan,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1984 and
+						  1986</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Health insurance plan,
+						<unitdate type="inclusive" era="ce" calendar="gregorian"/></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Income protection program,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1981</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Individual retirement options trust plan,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1988</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Life insurance program,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1981</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Major medical, post-65 plan,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1988</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Publications</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="italic" linktype="simple">Consumer Products Gazette</title>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1987-1988</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">34</container>
+						<unittitle>
+						  <title render="italic" linktype="simple">Data Book</title>,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1974</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <title render="italic" linktype="simple">dialog</title> magazine,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1983-1985</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Relocation benefits brochure designs,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1981</unitdate></unittitle>
+					 <physdesc><extent>(4 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Retirement plan,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1984 and
+						  1986</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Richardson-Merrill</corpname> benefits brochures,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1979-1981 and
+						  undated</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Russ Berrie &amp; Co.</corpname> (toys)</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Logo button, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">Pilot Study Report: Beginning of
+						  Phase I - Corporate Identity Program,</title>
+						<unitdate type="inclusive" era="ce" calendar="gregorian"> 1978 Apr.</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Presentation by Ritta, Rosen &amp; Arnoldy
+						(design/marketing recommendations),
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1978</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Scully Brothers</corpname>, logo concepts,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1965</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Shell Oil</corpname>, logo concepts,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1948</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Sky Chef</corpname>, airline menu concepts,
+					 undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Sleep Sofas, etc.</corpname>, report on observations,
+
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1987</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Standard Brands</corpname>,
+					 <emph render="doublequote">Festival</emph> logo concepts,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">circa early
+						1970s</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Third Avenue Hardware Company</corpname>, logo
+					 concepts, undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Tishman Realty and Construction Co., Inc.</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Annual reports,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1962 and
+						  1964</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Brochure,
+						<title render="doublequote" linktype="simple">A Builder's Story,</title>
+						<unitdate type="inclusive" era="ce" calendar="gregorian"> 1960s</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>United Nations Association,
+					 <title render="italic" linktype="simple">UN 20</title> commemorative book,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1965</unitdate></unittitle>
+				  <physdesc><extent>(4 folders)</extent></physdesc>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Package Designs and Layout Models,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1977-1978 and
+					 undated</unitdate></unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <container type="box">35</container>
+				  <unittitle>American Loose Leaf Company, architectural model,
+					 headquarters replacement sign,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+						1977-1978</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Art Crayon Company, watercolor set,
+					 undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Asgrow Mandeville, pre-seeded planters,
+					 undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">36-38</container>
+				  <unittitle>Asgrow Mandeville, pre-seeded planters, undated
+					 (continued)</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">39</container>
+				  <unittitle>Barton Candy Company, holiday box, undated</unittitle>
+
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Creative Tools, Easydriver screwdriver set,
+					 undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">40</container>
+				  <unittitle>Dorset Laboratories</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Dorset Mills Bees' Wax, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Clear Sight <emph render="doublequote">20/20</emph>
+						lens cleaner, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Furniture Polish for Antiques, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Gingivite (gum treatment), undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Heavy Duty Feminine Hand Cleaner,
+						undated</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Exxon/Esso</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Exxon Office Systems headquarters sign,
+						undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">41-43</container>
+					 <unittitle>Super Premium Motor Oil, one-quart cans,
+						undated</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">44</container>
+				  <unittitle>
+					 <corpname>IBM</corpname>, 632 promotional cube,
+					 undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>International Standard Brands</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Flan Royal, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Royal Baking powder, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Royal Gelatin, undated</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">45</container>
+				  <unittitle>
+					 <corpname>Montclair Imports, Inc.</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Clairmont hair brush, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Dinalon nail care set, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Montclair Imperial hair brush, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Royal Sweden hair brush, undated</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Multiple brands, baking soda packaging</unittitle>
+				</did>
+				<scopecontent>
+				  <p>Includes A&amp;P, Food Town, Shoprite, and Waldbaum
+					 brands.</p>
+				</scopecontent>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Philip Morris</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <container type="box">4-486</container>
+					 <unittitle>Cigarette packaging</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">49</container>
+					 <unittitle>Cigarette, tobacco and chewing gum packaging,
+						undated</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Tishman Realty and Construction</corpname>, Horizon
+					 House sign model, undated</unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Presentations, Sketches and Architectural Models,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1984 and
+					 undated</unitdate></unittitle>
+			 </did>
+			 <scopecontent>
+				<p>Primarily large format materials used for design presentations,
+				  working drawings, and three-dimensional architectural models. </p>
+			 </scopecontent>
+			 <c03>
+				<did>
+				  <container type="box">50</container>
+				  <unittitle>
+					 <corpname>American Loose Leaf</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Architectural models (three-dimensional)</unittitle>
+
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Folding trade show booth,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1977-1978</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Varick Street showroom,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1977-1978</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">51</container>
+					 <unittitle>Presentation boards</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Binder floor rack concepts,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1977-1978</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Corporate building/structure,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1977-1978</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Letterhead/Forms,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1977-1978</unitdate></unittitle>
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Matchbook cover,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa 1977-1978</unitdate>
+						  </unittitle>
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Vehicle marking guides,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1977-1978</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>[Storyboard, undated; removed to Box
+						63.]</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Typeface studies/sketches,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+						  1977-1978</unitdate></unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">52</container>
+				  <unittitle>
+					 <corpname>Butterworth Inc.</corpname>, design guide/logo
+					 studies,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1980</unitdate></unittitle>
+				  <physdesc><extent>(2 folders)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>CCMI McGraw-Hill</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Corporate identity redesign, presentation boards,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1984</unitdate></unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Q-Tel 1000 Guide, advertisement sketch/dog
+						photograph,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1984</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Check Card Systems/Entre International (Interchec,
+					 Excheqr), corporate identity program</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Final presentation boards (check, credit card,
+						folder designs),
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1965</unitdate> </unittitle>
+
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Letterhead/Logo designs,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1965</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Storyboard,
+						<title render="doublequote" linktype="simple">Rough presentation for two to
+						  four minute strip with color and sound,</title>
+						<unitdate type="inclusive" era="ce" calendar="gregorian"> circa 1965</unitdate></unittitle>
+
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Creative Tools Inc.</corpname>, Easydriver
+					 screwdriver packaging/promotional sketches, undated </unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">53</container>
+				  <unittitle>
+					 <corpname>Exxon/Esso</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Presentation boards/materials</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Exxon Office Systems (EOS), circa late
+						  1970s</unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>
+							 <title render="doublequote" linktype="simple">Presentation 1: Photographs,
+								Sign/Office Models, Sketches,</title> undated</unittitle>
+						  <physdesc><extent>(3 folders; 1 folder removed to Box
+							 63.)</extent></physdesc>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>
+							 <title render="doublequote" linktype="simple">Presentation 2: Branch
+								Offices, Reception Areas, Overall Sign Recommendations,</title>
+							 undated</unittitle>
+						  <physdesc><extent>(3 folders)</extent></physdesc>
+						</did>
+					 </c06>
+					 <c06>
+						<did>
+						  <container type="box">54</container>
+						  <unittitle>Signage studies</unittitle>
+						</did>
+						<c07>
+						  <did>
+							 <unittitle>Blueprint,
+								<unitdate type="inclusive" era="ce" calendar="gregorian">1981</unitdate></unittitle>
+						  </did>
+						</c07>
+						<c07>
+						  <did>
+							 <unittitle>Final presentation boards, undated</unittitle>
+
+						  </did>
+						</c07>
+						<c07>
+						  <did>
+							 <unittitle>Sketches, undated</unittitle>
+						  </did>
+						</c07>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Various boards, undated</unittitle>
+						  <physdesc><extent>(2 folders)</extent></physdesc>
+						</did>
+					 </c06>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Name Development Project, undated</unittitle>
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Uniflo</corpname> gasoline,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1976-1977</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">55</container>
+				  <unittitle>
+					 <corpname>Food Fair Stores</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Cheq-List presentations,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1972</unitdate></unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Storyboards,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1972</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">56</container>
+				  <unittitle>
+					 <corpname>Gilbarco</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Logo (company mark/logotype),
+						<unitdate type="inclusive" era="ce" calendar="gregorian"> circa
+						  1960s</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Presentation boards</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Corporate identity program (regional offices, gas
+						  pumps, promotion),
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1960s</unitdate></unittitle>
+						<physdesc><extent>(2 folders)</extent></physdesc>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<container type="box">57</container>
+						<unittitle>International regional offices/corporate
+						  organization charts,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1960s</unitdate></unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Vehicle designs (Gilbarco Canada, Australia,
+						  Brazil, Suisse),
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1960s</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Typeface samples, undated</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">58</container>
+				  <unittitle>
+					 <corpname>Jeffrey Furniture</corpname> catalog,
+					 <title render="doublequote" linktype="simple">New Designs in Business
+						Furniture,</title>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1965</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>John H. Muller &amp; Associates</corpname> brochure,
+					 <title render="doublequote" linktype="simple">Research Center at Stevens</title>
+					 (Hoboken, N.J.), undated</unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>North American Reinsurance
+						Corporation</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Advertisement proofs,
+						<title render="doublequote" linktype="simple">When Opportunity Knocks</title>
+						campaign,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1970s</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Alphabet designs and logo announcement,
+						undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Letterhead,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+						  1975-1978</unitdate></unittitle>
+					 <physdesc><extent>(3 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">59</container>
+					 <unittitle>Master mechanical art logo,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+						  1975-1978</unitdate></unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Presentation, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Transparencies,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+						  1975-1978</unitdate></unittitle>
+					 <physdesc><extent>(2 folders; 1 folder removed to Box
+						63.)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Typography, undated</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <container type="box">60</container>
+				  <unittitle>
+					 <corpname>Richardson-Vicks (formerly
+						Richardson-Merrill)</corpname>, newsletter designs,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1977-1978</unitdate></unittitle>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Russ Berrie</corpname>, letterhead and logo designs,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1974</unitdate></unittitle>
+				  <physdesc><extent>(3 folders)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>
+					 <corpname>Tishman Realty and Construction</corpname>, property
+					 brochures/mailings</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Bromley Hall </corpname>(Ohio University),
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1960s</unitdate></unittitle>
+
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Gateway Towers</corpname> (Pittsburgh, Penn.),
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1960s</unitdate></unittitle>
+
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Horizon House</corpname> (N.J.),
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1960s</unitdate></unittitle>
+
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Tower East</corpname> (New York, N.J.),
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1960s</unitdate></unittitle>
+
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Oversize Materials</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <unittitle>Corporate Identity Programs and Paper
+					 Records</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <container type="box">61</container>
+					 <unittitle>
+						<corpname>Equitable Life Assurance</corpname>, Gateway Center
+						(Pittsburgh, Penn.) booklet,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1964</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Exxon/Esso</corpname>
+						<title render="italic" linktype="simple">Identification Guide</title>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1965</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">62</container>
+					 <unittitle>John F. Kennedy memorial document,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1964</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Kasandra, logo concepts,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1987</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Memorial Sloan-Kettering Cancer Center</corpname>,
+						newsletter,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1970</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Morgan Press Collection at the Smithsonian,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1989</unitdate></unittitle>
+					 <physdesc><extent>(4 folders)</extent></physdesc>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Presentations, Sketches and Architectural
+					 Models</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <container type="box">63</container>
+					 <unittitle>American Loose Leaf, storyboard, undated</unittitle>
+
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Exxon Office Systems, presentation,
+						undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>North American Reinsurance Corporation,
+						transparencies,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+						  1975-1978</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle>Photographic Materials Series,
+				<unitdate type="inclusive" normal="1946/1990" era="ce" calendar="gregorian">1946-1990 and
+				  undated</unitdate> [RESTRICTED]</unittitle>
+			 <physdesc><extent>(3 boxes)</extent></physdesc>
+		  </did>
+		  <scopecontent>
+			 <p>Primarily documents graphic design projects completed for
+				corporate clients including
+				<corpname>Exxon/Esso, Gilbarco, IBM, Philip Morris, and Russ
+				  Berrie</corpname>. Some slides correspond to three-dimensional packages in the
+				<emph render="bold">Graphic Design Series</emph>, for clients including Art
+				Crayon Company, Asgrow-Mandeville, Dorset Laboratories, and Standard Brands.
+				Also contains photographs of typographical artifacts (Arabic, Chinese, Greek,
+				Persian) used for the book
+			 <title render="italic" linktype="simple">Type and Typography</title>, as well as slides
+			 used for Ben Rosen Associates promotional presentations and for book project
+			 promotion. Arranged in three categories--negatives, photographs, and
+			 slides--and alphabetically therein by client or subject.</p>
+		  </scopecontent>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Negatives (CLOSED)</unittitle>
+			 </did>
+			 <scopecontent>
+				<p>Prints do not exist for all negatives.</p>
+			 </scopecontent>
+			 <accessrestrict>
+				<p>Restrictions on access: Negatives are closed to researchers.
+				  Consult research services about the availability of use prints.</p>
+			 </accessrestrict>
+			 <c03>
+				<did>
+				  <container type="box">64</container>
+				  <unittitle>Books</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="italic" linktype="simple">Corporate Search for Visual
+						  Identity</title>,
+						<title render="italic" linktype="simple">Type and Typography</title>, book
+						covers and promotion, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="italic" linktype="simple">Type and Typography</title>,
+						<emph render="doublequote">Classic Pages</emph> manuscripts,
+						undated</unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Clients</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Barton's</corpname> holiday candy,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1956</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>IBM</corpname> (632 model), cube design, contact
+						sheet/negatives,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+						  1955-1957</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Philip Morris</corpname>, package concepts,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1960s</unitdate></unittitle>
+
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Sargent</corpname>, <emph render="doublequote">Color Festival,</emph> undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Various packaging (Royal Sweden, Royal Flan,
+						Will-Hold rollers), undated</unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>UPC symbol/Postal reply bar codes,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1990 and
+						undated</unitdate></unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Photographs</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <container type="box">65</container>
+				  <unittitle>
+					 <corpname>Ben Rosen Associates</corpname></unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>Ben Rosen with Alan Friedoerg (Montclair Imports),
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1960s</unitdate></unittitle>
+
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Office (drafting tables),
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa 1950s</unitdate></unittitle>
+
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Portraits,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+						  1960s-1970s</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Books</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="italic" linktype="simple">Type and Typography</title>,
+						<emph render="doublequote">Classic Pages,</emph>
+						<unitdate type="inclusive" era="ce" calendar="gregorian"> 1963-1985 and
+						  undated</unitdate></unittitle>
+					 <physdesc><extent>(6 folders)</extent></physdesc>
+				  </did>
+				  <scopecontent>
+					 <p>Includes photographs of Greek, Arabic, Mesopotamian,
+						Egyptian, Chinese, French, and Persian stone sculptures/artifacts/inscriptions.
+						Artifacts date from the ninth century B.C.E. through the twentieth century C.E.
+						Photographs originally obtained from the Library of Congress, the Pierpont
+						Morgan Library, the Metropolitan Museum of Art, and the American Museum of
+						Natural History.</p>
+				  </scopecontent>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Clients (graphic design and packaging)</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Art Crayon Company</corpname>, colored chalk,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1959</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Barton's</corpname> holiday candy box,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1956</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Ben-Mont Papers</corpname></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle><emph render="doublequote">Art-Craft</emph>
+						  holiday gift wrap displays, undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Display/Road signs, undated</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Coats &amp; Clark</corpname>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1957-1958</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Equitable Life Assurance Company</corpname>,
+						Gateway Building,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+						  1965-1967</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Exxon/Esso</corpname>, gas station models/mock-ups,
+
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1980</unitdate></unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>IBM</corpname> 632 model, cube design/promotion,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+						  1955-1957</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>International Standard Brands</corpname>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa early
+						  1970s</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Karo</corpname> syrup, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Marvella Pearls</corpname>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1949</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Memorial Sloan-Kettering Cancer Center</corpname>,
+						publications,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">circa late
+						  1960s</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Montclair Imports</corpname></unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Dinalon</corpname> lotion, undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>
+						  <corpname>Royal Sweden</corpname> brushes,
+						  <corpname>Wil-hold</corpname> magnetic rollers,
+						  undated</unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Philip Morris</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Packaging for chewing tobacco (Old Delft, Field
+						  and Stream),
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa
+							 1960s</unitdate></unittitle>
+					 </did>
+					 <c06>
+						<did>
+						  <unittitle>Cigarettes</unittitle>
+						</did>
+						<c07>
+						  <did>
+							 <unittitle>
+								<corpname>Benson &amp; Hedges (Parliament, Virginia
+								  Rounds, Stag cigarettes; Royal Amber tobacco), </corpname>
+								<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+								  1960s</unitdate></unittitle>
+						  </did>
+						</c07>
+						<c07>
+						  <did>
+							 <unittitle>Holiday cartons
+								<corpname>(Marlboro, Alpine, Philip Morris King
+								  Size)</corpname>,
+								<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+								  1960s</unitdate></unittitle>
+						  </did>
+						</c07>
+						<c07>
+						  <did>
+							 <unittitle>Package concepts, Various, circa
+								1960s</unittitle>
+						  </did>
+						</c07>
+					 </c06>
+					 <c06>
+						<did>
+						  <unittitle>Cigars</unittitle>
+						</did>
+						<c07>
+						  <did>
+							 <unittitle>
+								<corpname>Benson &amp; Hedges (Gold Band,
+								  Merit)</corpname>,
+								<unitdate type="inclusive" era="ce" calendar="gregorian">circa
+								  1960s</unitdate></unittitle>
+						  </did>
+						</c07>
+					 </c06>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Publication,
+						  <title render="italic" linktype="simple">Call News</title> front page,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1966</unitdate></unittitle>
+					 </did>
+				  </c05>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Pleetway</corpname> (sleepwear),
+						undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Shell Oil Co.</corpname>, antifreeze can packaging,
+						undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Sky Chef</corpname>, <emph render="doublequote">Good Morning</emph> menus,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1946</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Tishman Realty and Construction (Horizon House,
+						  Tower East)</corpname>, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Various</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Blaine Thompson clients, beauty products,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1947-1948</unitdate></unittitle>
+
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Other, undated</unittitle>
+					 </did>
+					 <scopecontent>
+						<p>Includes
+						  <corpname>Carstairs Whiskey, Trommer's Beer,
+							 Simon's</corpname>.</p>
+					 </scopecontent>
+				  </c05>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Original artwork, undated</unittitle>
+				</did>
+				<scopecontent>
+				  <p>Includes family portraits and studies of paintings by
+					 prominent artists such as Klimt, Homer, Stella, and Leonardo.</p>
+				</scopecontent>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>unidentified research materials, undated</unittitle>
+				</did>
+			 </c03>
+		  </c02>
+		  <c02 level="subseries">
+			 <did>
+				<unittitle>Slides</unittitle>
+			 </did>
+			 <c03>
+				<did>
+				  <container type="box">66</container>
+				  <unittitle>Ben Rosen Associates, undated</unittitle>
+				  <physdesc><extent>(2 folders)</extent></physdesc>
+				</did>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Books</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="italic" linktype="simple">Corporate Search for Visual
+						  Identity</title>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1971 and
+						  undated</unitdate></unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<title render="italic" linktype="simple">Type and Typography</title>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1971</unitdate></unittitle>
+				  </did>
+				</c04>
+			 </c03>
+			 <c03>
+				<did>
+				  <unittitle>Clients</unittitle>
+				</did>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>American Loose Leaf</corpname>, undated</unittitle>
+
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Art Crayon Company,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1959</unitdate>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1979 and
+						  undated</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Asgrow Mandeville</corpname>, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Ben-Mont Papers</corpname>, factory approach
+						signs/packaging,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1958-1959</unitdate></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Check Card Systems (CCS/ICS)</corpname>,
+						presentations/designs, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Creative Tools</corpname>,
+						<title render="doublequote" linktype="simple">Easydriver</title> mini
+						screwdrivers, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>(Dorset Laboratories Dorset/Toole),
+						undated</unittitle>
+					 <physdesc><extent>(3 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Exxon, undated</corpname></unittitle>
+					 <physdesc><extent>(3 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Gilbarco</corpname>,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1979 and
+						  undated</unitdate></unittitle>
+					 <physdesc><extent>(7 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>IBM</corpname>, undated</unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Montclair</corpname>, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>North American Reinsurance</corpname>,
+						undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <container type="box">67</container>
+					 <unittitle>
+						<corpname>Philip Morris</corpname>, undated</unittitle>
+					 <physdesc><extent>(8 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Pleetway</corpname>, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Richardson-Merrill (Richardson-Vicks)</corpname>,
+						undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Russ Berrie</corpname>, undated</unittitle>
+					 <physdesc><extent>(7 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Sky Chef</corpname>, undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Standard Brands (Royal Baking Powder)</corpname>,
+						undated</unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Tishman Realty and Construction</corpname>,
+						undated</unittitle>
+					 <physdesc><extent>(2 folders)</extent></physdesc>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>United Nations Association</corpname>,
+						<emph render="doublequote">USA 1956</emph></unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>Various</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Alcoholic beverage holiday packaging
+						  <corpname>(Smirnoff Vodka, Carstairs Whisky, Park &amp;
+							 Tilford Whisky)</corpname>, undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Beauty/Cosmetics, undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Book jackets/exhibits, undated</unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Miscellaneous,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">circa early
+							 1950s</unitdate></unittitle>
+					 </did>
+					 <scopecontent>
+						<p>Includes Jersey-Millbrook, Karo syrup, National
+						  Pharmaceuticals, and Pepperell sheets.</p>
+					 </scopecontent>
+				  </c05>
+				</c04>
+			 </c03>
+		  </c02>
+		</c01>
+	 </dsc>
+  </archdesc>
+</ead>

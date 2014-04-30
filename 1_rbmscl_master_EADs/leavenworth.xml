@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead><eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+
+<eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Leavenworth Family Papers, 1733-1927 and undated)//EN" url="http://library.duke.edu/rubenstein/findingaids/leavenworth/">leavenworth</eadid>
+<filedesc>
+	<titlestmt>
+		<titleproper>Guide to the Leavenworth Family Papers,
+			<date normal="1733/1927" era="ce" calendar="gregorian">1733-1927</date> and undated
+		</titleproper>
+		<author>Processed by: Rubenstein Library Staff; machine-readable finding aid created by: Jane Metters and Carrie Mills</author>
+	</titlestmt>
+
+	<publicationstmt>
+	<publisher><lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, N.C., USA </publisher> 
+		<p><date normal="2011" encodinganalog="date" era="ce" calendar="gregorian"> 2011</date> Duke University. All Rights Reserved.</p>
+	</publicationstmt>
+
+	<notestmt>
+	<note><p>Aleph Number: <num type="aleph">000864928</num></p></note></notestmt>
+</filedesc>
+
+<profiledesc>
+	<creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+		<date era="ce" calendar="gregorian">Date of source: July 2011</date><lb/>Processed by Rubenstein Library Staff, 1967 and 1989; finding aid encoded by Jane Metters and Carrie Mills, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, <date era="ce" calendar="gregorian">July 2011</date></creation>
+
+	<langusage>Description is in <language langcode="eng">English</language></langusage>
+
+	<descrules>Finding aid was prepared using <title linktype="simple">DACS</title> and local <title linktype="simple">Style Guide</title></descrules>  
+
+</profiledesc>
+<!-- Location of <revisiondesc> if needed -->
+</eadheader>
+
+<frontmatter>
+<titlepage>
+<titleproper>Guide to the Leavenworth Family Papers, <date type="span" era="ce" calendar="gregorian">1733-1927</date> and undated</titleproper>
+<publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+<p><date normal="2011" era="ce" calendar="gregorian">(C) 2011</date> Duke University. All Rights Reserved.</p>
+</titlepage>
+</frontmatter>
+
+<archdesc level="collection" relatedencoding="MARC">
+<did>
+<head>Descriptive Summary</head>
+<repository label="Repository"> 
+<corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname></repository> 
+<origination label="Creator"><famname encodinganalog="100">Leavenworth family</famname></origination>
+<unittitle label="Title" encodinganalog="245">Leavenworth Family papers <unitdate normal="1733/1934" type="inclusive" era="ce" calendar="gregorian">1733-1927 and undated</unitdate></unittitle>
+
+<langmaterial label="Language of Material" encodinganalog="546">Material in <language langcode="eng"> English and Latin</language>
+</langmaterial>
+
+<physdesc label="Extent">
+<extent unit="linear feet" encodinganalog="300">20.0 Linear Feet</extent><lb/> 
+<extent unit="items">2838 Items</extent>
+</physdesc>
+
+<physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc> 
+
+
+<abstract label="Abstract" encodinganalog="545">Family originally from Connecticut; later settled in Petersburg, Virginia.</abstract>
+
+<abstract encodinganalog="520">Correspondence, journals, memorandum books, sermons, an autograph album (1822), and other papers of Abner Johnson Leavenworth and of his son, Frederick P. Leavenworth. Sermons comprise about half of the manuscript collection. Includes pre-Civil War letters from theological students in Connecticut, Massachusetts, and New York; a tuition ledger for the Van Buren, Arkansas Female Seminary (1860-1862); and genealogical information on the Leavenworth family. Correspondents include Calvin Colton, Harrison Gray, Otis Dwight, Jeremiah Evarts, Samuel Lee, Benjamin Palmer, and Noah Porter.</abstract>
+
+</did>
+
+<descgrp type="admininfo">
+<head>Administrative Information</head>
+
+<accessrestrict encodinganalog="506">
+<head>Access Restrictions</head><p>Collection is open for research.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p><p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+</accessrestrict>
+
+<userestrict encodinganalog="540">
+<head>Copyright Notice</head>
+<p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+</userestrict>
+
+<prefercite> 
+		  <head>Preferred Citation</head> 
+		  <p>[Identification of item], Leavenworth Family Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p> 
+		</prefercite> 
+
+<acqinfo encodinganalog="541">
+<head>Provenance</head>
+<p>The Leavenworth Family Papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a gift in 1933-1970. 
+</p>
+</acqinfo>
+
+
+<processinfo>
+<head>Processing Information</head>
+<p>Processed by Rubenstein Library Staff, 1989</p>
+<p>Encoded by Jane Metters, Meghan Lyon, and Carrie Mills, July 2011</p>
+
+<p>This collection is minimally processed: materials may not have been ordered and described beyond their original condition.</p>
+<p>Descriptive sources and standards used to create this inventory: <title render="italic" linktype="simple">DACS,</title> EAD, NCEAD guidelines, and local <title render="italic" linktype="simple">Style Guide.</title></p>
+<p>This finding aid is NCEAD compliant.</p>
+</processinfo>
+</descgrp>
+
+<!--end of finding aid header-->
+
+<!-- Use "Bioghist Tags" clip here for Bio/Hist information. -->
+<bioghist>
+<head>Biographical Note</head>
+
+<p>Abner Johnson Leavenworth was the second son born to Frederick Leavenworth (1766-1840) and Fanny Johnson (1776-1852) on July 12, 1803 in Waterbury, Connecticut. Leavenworth taught theological studies in Andover, Massachusetts and New Haven, Connecticut and ministered in Waterbury and Bristol, Connecticut; Charlotte, North Carolina; and Warrentown and Petersburg, Virginia. Later he was connected with girls' schools in North Carolina and Virginia. He died on February 12, 1869 at the age of 65.</p>
+<chronlist>
+<head>Chronology List of Abner Johnson Leavenworth</head>
+<chronitem>
+<date era="ce" calendar="gregorian">1803 Jul. 12</date>
+<event>Born in Waterbury, C.T.</event>
+</chronitem>
+<chronitem>
+<date era="ce" calendar="gregorian">1825</date>
+<event>Graduated from Amhearst College</event>
+</chronitem>
+<chronitem>
+<date era="ce" calendar="gregorian">1828 Apr. 22</date>
+<event>Graduated from Andover Seminary</event>
+</chronitem>
+<chronitem>
+<date era="ce" calendar="gregorian">1829 Dec. 16</date>
+<event>Ordained as pastor at Congregational church in Bristol, C.T.</event>
+</chronitem>
+<chronitem>
+<date era="ce" calendar="gregorian">1831 Jun. 14</date>
+<event>Married Elizabeth Manning Peabody of Salem, M.A.</event>
+</chronitem>
+<chronitem>
+<date era="ce" calendar="gregorian">1832</date>
+<event>Moved to Charlotte, N.C.</event>
+</chronitem>
+<chronitem>
+<date era="ce" calendar="gregorian">1833 Jun. 13</date>
+<event>Son, Frederick P. Leavenworth, was born</event>
+</chronitem>
+<chronitem>
+<date era="ce" calendar="gregorian">1838</date>
+<event>Moved to Warrinton, V.A. and established school</event>
+</chronitem>
+<chronitem>
+<date era="ce" calendar="gregorian">1839</date>
+<event>Moved to Peterburg, V.A.; pastor of High Street Church</event>
+</chronitem>
+<chronitem>
+<date era="ce" calendar="gregorian">1841</date>
+<event>Wife, Elizabeth, died</event>
+</chronitem>
+<chronitem>
+<date era="ce" calendar="gregorian">1869 Feb. 12</date>
+<event>Died at the age of 65 in Petersburg, V.A.</event>
+</chronitem>
+</chronlist>
+
+<p>Frederick Peabody Leavenworth (born 1833) was a railroad engineer of Petersburg, Va., and Shreveport, La. He was put in charge of inspection of materials for the Marshall Railroad. He also served as treasurer to the Blue Ridge Springs Co. of Petersburg. Just prior to the start of the Civil War, Frederick traveled through the Midwest United States, exploring Minnesota, Arkansas, and Missouri.</p>
+
+
+<!-- Use Chronlist Tags clip here for Chronology -->
+
+</bioghist>
+<!-- Use "Scopecontent Start" clip here for scope/content info. Col. Lev, and arrangement information. -->
+<scopecontent>
+<head>Collection Overview</head>
+
+<p>The Leavenworth Family Papers cover 1733 to 1927 with the bulk of the manuscripts from the 1820s to the 1880s. The collection predominately consists of the sermons of Abner Johnson Leavenworth (1803-1869) as well as both his correspondence and that of his son, Frederick Peabody Leavenworth (1833-). Sermons date from as early as 1826 and extend through the Civil War period.</p>
+
+<p>The correspondence of Abner Johnson Leavenworth deals largely with religious and missionary topics. Additional topics covered in both Abner and Frederick's correspondence include Civil War and Reconstruction in Petersburg, V.A. </p>
+
+<p>The diaries of Frederick Leavenworth begin in 1857 with comments on the Minnesota Territory. Leavenworth was in St. Peter, Nicolett County, and visited St. Paul. He illustrated the diary with sketches of the Falls of Minnehaha; Mendota, Minnesota; the Indian Warrior, Iron Elk; and Fort Snelling. In 1860, Leavenworth went to Van Buren, Arkansas, and opened a school. He illustrates with a sketch of Van Buren and with a sketch of the <emph render="italic">C.S.S.Ponchartrain</emph> (p. 23). The diary has no entries between 1860 and February, 1862, when the Civil War reached Van Buren (p. 36) and refugees from Missouri were passing through Van Buren. Leavenworth refers to the Confederate officers, troops, and wounded in a general way. He became involved in the Quartermaster Corps and arrived at Fort Smith (p. 51) on March 26, 1862. Here he makes quarterly reports, has corn shelled, and refers to Confederate troop movements. He goes to Arkadelphia in June, 1862 (p. 66). Finally on August 1, 1862, he is commissioned Captain of Artillery and Ordnance, takes charge of the foundry at Shreveport, Louisiana, and establishes another at Jefferson, Texas. He describes briefly (pp. 108-109) the effect of the surrender of General Taylor as the Confederate forces disintegrate Confederate supplies are distributed. Captain Leavenworth turns over his Confederate property to the agent of the U.S. Treasury. By September, 1865, he is engaged to work as engineer in charge of inspection of materials for the Marshall Railroad.</p>
+
+<p>Additional materials include an extensive geneaology of the Leavenworth family; a copy of Civil War letters to Mrs. E. A. Skelton; a letter dated July 13, 1864 concerning the death of James Addison Porter before Atlanta, Georgia, and the fighting near Atlanta; a few religious pamphlets entitled "Reasons to Not Be a Baptist" and "Condition and Character of Females in Pagan and Mohammedan Countries;" and a scrapbook, 1835-1868, compiled by Abner Johnson Leavenworth.</p>
+
+<!-- OPTIONAL: Use Arrangement clip here for Collection Arrangement section -->
+
+</scopecontent>
+<!-- Use "Controlaccess Tags" clip here for control access information. -->
+<controlaccess>
+<head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+<list type="simple">
+<item><persname source="lcsh" encodinganalog="600">Leavenworth, Abner Johnson, 1803-1869</persname></item>
+<item><persname source="lcsh" encodinganalog="600">Leavenworth, Frederick</persname></item>
+<item><famname source="lcsh" encodinganalog="600">Leavenworth family</famname></item>
+<item><corpname source="lcsh" encodinganalog="610">Van Buren Female Seminary (Van Buren, Ark.)</corpname></item>
+<item><subject source="lcsh" encodinganalog="650">Presbyterian Church -- Clergy -- Correspondence</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Presbyterian Church -- Sermons</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Seminarians</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Women -- Education -- Southern States</subject></item>
+<item><geogname source="lcsh" encodinganalog="651">Petersburg (Va.)--History -- Siege, 1864-1865</geogname></item>
+<item><geogname source="lcsh" encodinganalog="651">United States -- History -- Civil War, 1861-1865 -- Personal narratives, Confederate</geogname></item>
+</list>
+</controlaccess>
+<!-- OPTIONAL: Separated material -->
+
+<relatedmaterial>
+<head>Related Material</head>
+
+
+<archref linktype="simple">
+<unittitle label="Collection"><extref href="http://ead.lib.virginia.edu/vivaead/published/wm/viw00009.frame" linktype="simple">Abner Johnson Leavenworth Papers</extref></unittitle>
+<repository label="Repository">Manuscripts and Rare Books Department, Swem Library, College of William and Mary</repository>
+</archref>
+
+<archref linktype="simple">
+<unittitle label="Collection"><extref href="http://www.lib.unc.edu/mss/inv/l/Leavenworth,Frederick_Peabody.html" linktype="simple">Frederick Peabody Leavenworth Papers</extref></unittitle>
+<repository label="Repository">Southern Historical Collection, The Wilson Library, University of North Carolina at Chapel Hill</repository>
+</archref>
+
+</relatedmaterial>
+
+<dsc type="combined">
+
+<head>Contents of Collection</head>
+
+<!-- Enter Container List Here -->
+
+<c01 level="series">
+<did>
+<unittitle id="s1">Manuscripts Series, <unitdate type="inclusive" normal="1812/1905" era="ce" calendar="gregorian">1812-1905</unitdate> and undated</unittitle>
+<physdesc><extent>(12 boxes)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Series includes correspondence, genealogy, sermons, notes, and journals. Manuscripts have been divided into two sections: correspondence and other papers have been sorted apart from sermons. Each portion of the series has been arranged chronologically. Materials in box 9 and 12 are fragile.</p>
+</scopecontent>
+
+	<c02><did><container type="box">1</container><unittitle>Genealogy</unittitle><physdesc><extent>(1 folder)</extent></physdesc></did></c02>
+	<c02><did><unittitle>Letters and papers, 1812-1853</unittitle><physdesc><extent>(8 folders)</extent></physdesc></did></c02>
+
+
+	<c02><did><container type="box">2</container><unittitle>Letters and papers, 1854-1862</unittitle><physdesc><extent>(8 folders)</extent></physdesc></did></c02>
+
+
+	<c02><did><container type="box">3</container><unittitle>Letters and papers, 1863-1879</unittitle><physdesc><extent>(9 folders)</extent></physdesc></did></c02>
+
+
+	<c02><did><container type="box">4</container><unittitle>Letters and papers, 1880-1890</unittitle><physdesc><extent>(5 folders)</extent></physdesc></did></c02>
+	<c02><did><unittitle>Letters and papers, undated</unittitle><physdesc><extent>(3 folders)</extent></physdesc></did></c02>
+
+
+	<c02><did><container type="box">5</container><unittitle>Sermons, 1826-1830</unittitle></did></c02>
+
+
+	<c02><did><container type="box">6</container><unittitle>Sermons, 1831-1841</unittitle></did></c02>
+
+
+	<c02><did><container type="box">7</container><unittitle>Sermons, 1842-1867</unittitle><physdesc><extent>(7 folders)</extent></physdesc></did></c02>
+
+
+	<c02><did><container type="box">8</container><unittitle>Sermons, undated</unittitle><physdesc><extent>(8 folders)</extent></physdesc></did></c02>
+
+
+	<c02><did><container type="box">9</container><unittitle>Sermon outlines</unittitle><physdesc><extent>(3 folders)</extent></physdesc></did></c02>
+	<c02><did><unittitle>Christian Almanac, undated</unittitle></did></c02>
+
+	<c02><did><container type="box">10</container><unittitle>Correspondence</unittitle><physdesc><extent>(27 folders)</extent></physdesc></did></c02>
+
+
+	<c02><did><container type="box">11</container><unittitle>Correspondence</unittitle><physdesc><extent>(3 folders)</extent></physdesc></did></c02>
+	<c02><did><unittitle>Announcements and invitations, 1848-1909</unittitle><physdesc><extent>(1 folder)</extent></physdesc></did></c02>
+	<c02><did><unittitle>Bills and receipts, 1808-1927</unittitle><physdesc><extent>(5 folders)</extent></physdesc></did></c02>
+	<c02><did><unittitle>Miscellaneous</unittitle><physdesc><extent>(3 folders)</extent></physdesc></did></c02>
+	<c02><did><unittitle>Printed materials, 1820-1920</unittitle><physdesc><extent>(6 folders)</extent></physdesc></did></c02>
+	<c02><did><unittitle>Surveying papers, 1830-1910</unittitle><physdesc><extent>(9 folders)</extent></physdesc></did></c02>
+	<c02><did><unittitle>Legal papers, 1733-1910</unittitle><physdesc><extent>(3 folders)</extent></physdesc></did></c02>
+
+
+	<c02><did><container type="box">12</container><unittitle>Frederick P. Leavenworth's journals, 1857-1865, 1888, 1890</unittitle><physdesc><extent>(3 items)</extent></physdesc></did></c02>
+<c02><did><unittitle>Catalogue of a Private Library, undated</unittitle></did></c02>
+<c02><did><unittitle>Condition and Character of Females in Pagan and Mohammedan Countries, undated</unittitle></did></c02>
+<c02><did><unittitle>The Conversion of Sinners: A Common Christian Duty</unittitle></did></c02>
+<c02><did><unittitle>Reasons for Not Being a Baptist, 1834</unittitle></did></c02>
+<c02><did><unittitle>Financial papers, 1815-1924</unittitle><physdesc><extent>(3 folders)</extent></physdesc></did></c02>
+<c02><did><unittitle>Miscellaneous papers, 1859-1870s and undated</unittitle><physdesc><extent>(2 folders)</extent></physdesc></did></c02>
+<c02><did><unittitle>Processing information</unittitle></did></c02>
+
+</c01>
+
+<c01 level="series">
+<did>
+<unittitle id="s2">Memorandum Books and Ledgers Series, <unitdate type="inclusive" normal="1822/1915" era="ce" calendar="gregorian">1822-1915</unitdate></unittitle>
+<physdesc><extent>(12 volumes/boxes)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Bound volumes and manuscripts from Abner Johnson and Frederick Peabody Leavenworth.</p>
+</scopecontent>
+
+
+	<c02 level="subseries">
+	<did>
+	<unittitle>Abner Johnson Leavenworth, <unitdate type="inclusive" era="ce" calendar="gregorian">1822-1868</unitdate></unittitle>
+	</did>
+
+		<c03><did><container type="volume">S:2221</container><unittitle>Autograph Album, 1822; Waterbury, Connecticut</unittitle></did></c03>
+		<c03><did><container type="volume">S:2222</container><unittitle>Memorandum Book, 1847; Petersburg, Virginia</unittitle></did></c03>
+		<c03><did><container type="volume">S:2223</container><unittitle>Memorandum Book, 1865-1868; Petersburg, Virginia</unittitle></did></c03>
+		<c03><did><container type="volume">S:2224</container><unittitle>Memorandum Book, 1866-1868; Petersburg, Virginia</unittitle></did></c03>
+
+	</c02>
+
+
+	<c02 level="subseries">
+	<did>
+	<unittitle>Frederick P. Leavenworth, <unitdate type="inclusive" era="ce" calendar="gregorian">1851-1915</unitdate></unittitle>
+	</did>
+
+		<c03><did><container type="volume">M:2225</container><unittitle>Copy of Inventory of Personalty at Blue Ridge Springs, October 24, 1883; Blue Ridge Springs, Virginia</unittitle></did></c03>
+		<c03><did><container type="volume">S:2226</container><unittitle>Excerpts dedicated to his father, July 5, 1851; New Haven, Connecticut</unittitle></did></c03>
+		<c03><did><container type="volume">L:2227</container><unittitle>Tuition ledger for Van Buren Female Seminary, 1860-1862; Van Buren, Arkansas</unittitle></did></c03>
+		<c03><did><container type="volume">S:2228</container><unittitle>Memoranda of the Leavenworths, 1865 [Genealogy]; Petersburg, Virginia</unittitle></did></c03>
+		<c03><did><container type="volume">S:2229</container><unittitle>Memorandum Book, June 7-September 7, 1894; Petersburg, Virginia</unittitle></did></c03>
+		<c03><did><container type="volume">S:2230</container><unittitle>Memorandum Book, January 1907-April 1908; Petersburg, Virginia</unittitle></did></c03>
+		<c03><did><container type="volume">S:2231</container><unittitle>Memorandum Book, 1910; Jordan's Point, Prince George Co., Virginia</unittitle></did></c03>
+		<c03><did><container type="volume">S:2232</container><unittitle>Memorandum Book, 1915; Petersburg, Virginia</unittitle></did></c03>
+
+	</c02>
+
+</c01>
+
+<c01 level="series"><did>
+<unittitle id="s3">Oversize Materials</unittitle>
+<physdesc><extent>(1 folder)</extent></physdesc>
+</did>
+<c02><did><container type="folder">1</container><unittitle>Letters and papers</unittitle></did></c02>
+
+</c01>
+
+
+
+
+</dsc>
+</archdesc>
+</ead>

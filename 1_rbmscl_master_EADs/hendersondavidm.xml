@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
+<ead><eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+
+<eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::David M. Henderson Papers, 1964-1989)//EN" url="http://library.duke.edu/digitalcollections/rbmscl/hendersondavidm/inv/">hendersondavidm</eadid>
+<filedesc>
+	<titlestmt>
+		<titleproper>Guide to the David M. Henderson Papers,
+			<date normal="1964/1989" era="ce" calendar="gregorian">1964-1989 and undated</date>
+		</titleproper>
+		<author>Processed by: Caroline Muglia; machine-readable finding aid created by: Caroline Muglia and Carrie Mills</author>
+	</titlestmt>
+
+	<publicationstmt>
+	<publisher><lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+		<p><date normal="2010" encodinganalog="date" era="ce" calendar="gregorian"> 2010</date> Duke University. All Rights Reserved.</p>
+	</publicationstmt>
+
+	<notestmt>
+	<note><p>Aleph Number: <num type="aleph">002582773</num></p></note></notestmt>
+</filedesc>
+
+<profiledesc>
+	<creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+		<date era="ce" calendar="gregorian">Date of source: April 2010</date><lb/>Processed by Caroline Muglia, March 2010; finding aid encoded by Caroline Muglia and Carrie Mills, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, <date era="ce" calendar="gregorian">April 2010</date>
+
+
+	</creation>
+	<langusage>Description is in
+		<language langcode="eng">English</language>
+	</langusage>
+
+	<descrules>Finding aid was prepared using
+		  <title linktype="simple">DACS</title> and local
+		  <title linktype="simple">Style Guide</title></descrules>
+
+</profiledesc>
+<!-- Location of <revisiondesc> if needed -->
+</eadheader>
+<frontmatter>
+<titlepage>
+<titleproper>Guide to the David M. Henderson Papers, <date type="span" era="ce" calendar="gregorian">1964-1989 and undated</date>
+</titleproper>
+<publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+<p><date normal="2010" era="ce" calendar="gregorian">(C) 2010</date> Duke University. All Rights Reserved.</p>
+</titlepage>
+</frontmatter>
+
+<archdesc level="collection" relatedencoding="MARC">
+<did>
+<head>Descriptive Summary</head>
+<repository label="Repository">
+<corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname></repository>
+<origination label="Creator"><persname encodinganalog="100">Henderson, David Martin.</persname></origination>
+<unittitle label="Title" encodinganalog="245">David M. Henderson papers <unitdate normal="1967/1989" type="inclusive" era="ce" calendar="gregorian">1964-1989 and undated</unitdate>
+</unittitle>
+
+<langmaterial label="Language of Material" encodinganalog="546">Material in <language langcode="eng"> English</language> and
+<language langcode="spa"> Spanish.</language>
+</langmaterial>
+
+<physdesc label="Extent">
+
+<extent unit="linear feet" encodinganalog="300">4.2 Linear Feet</extent><lb/>
+<extent unit="items">Approximately 2,625 Items</extent>
+</physdesc>
+
+<physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+
+
+<abstract label="Abstract" encodinganalog="545">David Martin Henderson graduated from Duke University in 1968.  While based in Durham, North Carolina, he served as a newspaper editor and a long-time local, state-wide and national political activist.</abstract>
+
+
+<abstract encodinganalog="520">The David Martin Henderson Papers spans 1964-1989 and consists of correspondence and subject files containing letters, newspapers, clippings, pamphlets, broadsides, and internal organizational documents, all pertaining to Henderson's activities as a student radical at Duke University and a community organizer in Durham, N.C.  Subjects covered by his papers include anti-war movements, Black Power, communism, G.I. rights, labor, Leninism, Marxism, women's liberation, Students for a Democratic Society and other affiliations.</abstract>
+
+</did>
+
+<descgrp type="admininfo">
+<head>Administrative Information</head>
+
+<accessrestrict encodinganalog="506">
+<head>Access Restrictions</head><p>Collection is restricted.</p>
+<p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center.  The library may require up to  48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+</accessrestrict>
+
+<userestrict encodinganalog="540">
+<head>Copyright Notice</head>
+<p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+</userestrict>
+
+<prefercite>
+		  <head>Preferred Citation</head>
+		  <p>[Identification of item], David M. Henderson Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+		</prefercite>
+<acqinfo encodinganalog="541">
+<head>Provenance</head>
+<p>The David M. Henderson Papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a
+gift from 1972-1989.
+</p>
+</acqinfo>
+
+
+<processinfo>
+<head>Processing Information</head>
+<p>Processed by Caroline Muglia, March 2010</p>
+<p>Encoded by Caroline Muglia and Carrie Mills, April 2010 and May 2011</p>
+<p>Accessions 72-60, 89-030, and all other accessions from 1972-1977 were merged into one collection, described in this finding aid.
+</p>
+<p>Descriptive sources and standards used to create this inventory: <title render="italic" linktype="simple">DACS,</title> EAD, NCEAD guidelines, and local <title render="italic" linktype="simple">Style Guide.</title></p>
+<p>This finding aid is NCEAD compliant.</p>
+</processinfo>
+</descgrp>
+
+<!--end of finding aid header-->
+<bioghist>
+<head>Biographical Note</head>
+
+<p>Originally from Texas, David Martin Henderson graduated from Duke University in 1968. As a political activist and newspaper editor, Henderson became involved in radical and activist organizations at Duke and in the city of Durham, NC; and was also active on a national scale in several organizations, political parties, and conferences. </p>
+
+</bioghist>
+
+<scopecontent>
+<head>Collection Overview</head>
+
+<p>The David Martin Henderson Papers span the years 1964 to 1989, and contain organizational papers, correspondence, pamphlets, leaflets and broadsides concerning student organizations at Duke, UNC-Chapel Hill, and Harvard; personal correspondence between Henderson and family members (restricted); and printed material and correspondence concerning a number of other organizations, parties, and conferences, among them the North American Congress on Latin America (1967-1974), the Progressive Labor Party (1973-1976), and other organizations advocating communism and opposing U.S. foreign policy in Latin America and elsewhere. Much of the material was circulated by the Students for a Democratic Society (SDS) and its affiliates at Duke, the Student Liberation Front and its successor, Praxis. The collection concerns such topics as student governance and political action; race relations at Duke and in Durham; the Reserve Officers Training Corps; labor unions and city and campus workers; the movement to end the war in Vietnam; and socialist and communist organizations active at the time.  Printed material includes items concerning the Southern Students Organizing Committee; two copies of the <title render="italic" linktype="simple">Socialist Worker</title>, the newspaper of the North Carolina Socialist Union for which Henderson was an editor; typed and mimeographed papers of the North Carolina Socialist Union which was succeeded in Durham by the Progressive Workers Committee; the first issue of <title render="italic" linktype="simple">Proletarian Cause</title> and draft articles for that publication. Authors including Tom Hayden and Stokeley Carmichael are represented in the papers along with several administrators of University of North Carolina, Chapel Hill.</p>
+</scopecontent>
+
+<controlaccess>
+<head>Subject Headings</head>
+<p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+<list type="simple">
+<item><persname source="lcsh" encodinganalog="600">Carmichael, Stokely</persname></item>
+<item><persname source="lcsh" encodinganalog="600">Hayden, Tom</persname></item>
+<item><persname source="lcsh" encodinganalog="600">Henderson, David Martin</persname></item>
+<item><corpname source="lcsh" encodinganalog="610">Duke University -- Employees</corpname></item>
+<item><corpname source="lcsh" encodinganalog="650">Duke University -- Students -- Political activity</corpname></item>
+<item><corpname source="lcsh" encodinganalog="650">Harvard University -- Students -- Political activity</corpname></item>
+<item><corpname source="lcsh" encodinganalog="650">North American Congress on Latin America</corpname></item>
+<item><corpname source="lcsh" encodinganalog="650">North Carolina Socialist Union</corpname></item>
+<item><corpname source="lcsh" encodinganalog="650">Southern Student Organizing Committee (Nashville, Tenn.)</corpname></item>
+<item><corpname source="lcsh" encodinganalog="650">Students for a Democratic Society (U.S.)</corpname></item>
+<item><corpname source="lcsh" encodinganalog="610">United States. Army. Reserve Officers' Training Corps. </corpname></item>
+<item><corpname source="lcsh" encodinganalog="650">University of North Carolina at Chapel Hill -- Students -- Political activity</corpname></item>
+<item><subject source="lcsh" encodinganalog="650">College students -- Political activity -- United States</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Communism -- United States -- Societies, etc</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Labor unions-United States -- History</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Newspaper editors -- North Carolina</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Political activists -- United States</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Progressive Labor Party</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Proletarian Cause</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Radicals -- United States</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Radicalism -- United States</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Social Worker (N.C.)</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Socialism -- United States</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Student movements -- Massachusetts</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Student movements -- North Carolina</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Universities and colleges -- Employees</subject></item>
+<item><subject source="lcsh" encodinganalog="650">Vietnam War, 1961-1975 -- Protest movements</subject></item>
+<item><geogname source="lcsh" encodinganalog="651">Durham (N.C.)-Race relations</geogname></item>
+<item><geogname source="lcsh" encodinganalog="650">United States -- Foreign relations -- Latin America</geogname></item>
+<item><geogname source="lcsh" encodinganalog="651">United States -- Social conditions -- 1960-1980</geogname></item>
+</list>
+</controlaccess>
+
+<dsc type="combined">
+
+<c01 level="series">
+<head>Contents of Collection</head>
+
+<did>
+<unittitle id="s1">Correspondence Series, <unitdate type="inclusive" normal="1964/1986" era="ce" calendar="gregorian">1964-1986 and undated</unitdate> (RESTRICTED)</unittitle>
+<physdesc><extent>(2 boxes)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Correspondence Series consists of hand-written and typed correspondence of Henderson's mother, father, brother and other family members. Also consists of correspondence with friends, work colleagues and more. Related to the correspondence includes newspaper clippings and various other materials.</p>
+</scopecontent>
+<accessrestrict>
+<p>RESTRICTED: Series is restricted; materials may only be used with donor's written permission.</p>
+</accessrestrict>
+
+<c02 level="file"><did><container type="box">1</container><unittitle>Correspondence, 1964 Sept.-Oct.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1964 Nov.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1965 Jan.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1965 Feb.-March</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1965 Apr.-May</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1965 Aug.-Oct.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1965 Nov.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1966 Jan.-Sept.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1967 Apr.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1968 Jan.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1969 Mar.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1970 Jan.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1971 Jan.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1972 Jan.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1973 Jan.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1974 Feb.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><container type="box">2</container><unittitle>Correspondence, 1975 Jan.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1976 Jan.-Nov.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1977 Jan.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1978 Mar. 1979-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1980 Feb.-Nov.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1981 Jan.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1982 Jan.-Aug.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1982 Aug.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1983 Jan.-June</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1983 July-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1984 Jan.-June.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1984 July.-Dec.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, 1985 Jan.-1986 Aug.</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, undated</unittitle></did></c02>
+<c02 level="file"><did><unittitle>Correspondence, undated</unittitle></did></c02>
+</c01>
+
+
+<c01 level="series">
+<did>
+<unittitle id="s2">Subject File Series, <unitdate type="inclusive" normal="1964/1989" era="ce" calendar="gregorian">1964-1989 and undated</unitdate></unittitle>
+<physdesc><extent>(6 boxes)</extent></physdesc>
+</did>
+<scopecontent>
+<p>Houses materials including ephemera, internal organizational materials, financial materials, school writings, and fugitive literature.  Authors including Tom Hayden, Stokeley Carmichael, and University of North Carolina, Chapel Hill administrators such as J. Carlyle Sitterson and C.O. Cathey are represented as well.</p>
+</scopecontent>
+
+<c02 level="file"><did><container type="box">3</container><unittitle>Africa Research Group, 1969-1970</unittitle></did><scopecontent>
+<p>Includes one copy each of <title render="italic" linktype="simple">Radical Study Guide</title>; <title render="italic" linktype="simple">International Dependency in the 1970's: How America underdevelops the world. A State of the Empire Report</title>, and <title render="italic" linktype="simple">African Studies in America-The Extended Family: A Tribal Analysis of U.S. Africanists: Who They Are; Why to Fight Them</title>.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Canadian Party of Labour, 1975-1976</unittitle></did><scopecontent>
+<p>Consists of one copy of <title render="italic" linktype="simple">The Canadian Party of Labour Handbook</title> and <title render="italic" linktype="simple">The "Scientific" Killers and Who Sent for Them: A Communist Response to Theories of "Overpopulation."</title> Also includes program and list of workshops for the International Communist Conference of Workers held in Detroit, Michigan from January 24-25, 1976.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Clippings, 1976</unittitle></did><scopecontent>
+<p>Consists of one Letter to the Editor written by Henderson published February 11, 1976 in an unidentified newspaper.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Committee Against Racism, 1975-1976</unittitle></did><scopecontent>
+<p>Includes one copy of <title render="italic" linktype="simple">INCAR and the Struggle Against Racism</title>, a report entitled <title render="doublequote" linktype="simple">Report of the CAR Work: A Critical Evaluation,</title> and a stock letter regarding regional organization meetings.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Communist Conference, 1975-1976</unittitle></did><scopecontent>
+<p>Houses bi-monthly bulletins numbered 1, 2, 3, 6, and 8 published by the Communist Conference, originally called the Trade Union Conference.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Communist League, 1969-1972 Aug.</unittitle></did><scopecontent>
+<p>Consists of one copy each of <title render="italic" linktype="simple">Communist League New Member Outline</title>; <title render="italic" linktype="simple">Labor Reports: Draft, 1971</title>; volume 2, number 2 of <title render="italic" linktype="simple">Proletariat: A Theoretical Journal Published by the Communist League</title>. Also houses two copies of the <title render="italic" linktype="simple">People's Tribune</title> from April and August, 1972, and a collection of documents adopted by the second congress of the Communist League in January 1969.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Communist League, 1972 Sept.-Dec.</unittitle></did><scopecontent>
+<p>Includes one copy of <title render="italic" linktype="simple">Negro National Colonial Question</title> in addition to volume 2, number 1 of <title render="italic" linktype="simple">Proletariat: A Theoretical Journal Published by the Communist League</title>. Also contains the September 1972 edition of the <title render="italic" linktype="simple">People's Tribune</title>; a Western Union mailgram requesting contact; and a document entitled, <title render="doublequote" linktype="simple">Call for a Conference of North American Marxist Leninists Issued by the Preparatory Committee for the Conference-November 19, 1972.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Durham, N.C., 1970</unittitle></did><scopecontent>
+<p>Includes one flyer, newspaper clippings, letter from the City-wide Strike Support Committee, and related materials.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Durham County Hospital, undated</unittitle></did><scopecontent>
+<p>Consists of one flyer produced by the North Carolina Socialist Union calling on citizens to resist the plan to construct a new Durham County Hospital.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Duke University, 1969 Feb.-Oct.</unittitle></did><scopecontent>
+<p>Houses newspaper clippings and one full newspaper dated from May 13, 1969 of <title render="italic" linktype="simple">The Duke Chronicle.</title> Contains an SDS meeting agenda; one sermon by Rev. Dr. Howard C. Wilkinson entitled <title render="doublequote" linktype="simple">Plain Talk About Our University;</title> Duke Student Union materials; one open letter to the R.O.T.C. from the Student Liberation Front; one hand-written letter to the Central Committee; and four flyers related to Local Union 1199/RWDSU/AFL-CIO, National Organizing Committee of Hospital and Nursing Home Employees.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Duke University, undated</unittitle></did><scopecontent>
+<p>Consists of flyers related to R.O.T.C and anti-war; SDS flyers related to women workers, non-academic workers, racism, and CIA Recruiters; Local Union 1199 flyer related to Johns Hopkins Workers; newspaper clippings; an open letter regarding non-academic employees; one essay related to the Free University Departmental Unions; and one hand-written note.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Duke University, undated</unittitle></did><scopecontent>
+<p>Includes flyers related to race relations, neighborhood relations, the vigil, <title render="doublequote" linktype="simple">Knightwatch,</title> and workers and unions. Also contains one draft article; one essay related to Student Government; one SLAM meeting flyer; and one pamphlet entitled <title render="italic" linktype="simple">The Blacks Have Left Duke. Where Do You Stand?</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Education, 1972 and undated</unittitle></did><scopecontent>
+<p>Contains two copies of the <title render="italic" linktype="simple">Freedom Press</title>, one dated September 1972 and the other October 1972. Also includes two essays entitled <title render="doublequote" linktype="simple">University Analysis</title> and <title render="doublequote" linktype="simple">The Faculty--Our Ally or Theirs?</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Financial Records, 1969 and undated</unittitle></did><scopecontent>
+<p>Consists of various records and statements from student groups, individuals and <title render="italic" linktype="simple">The Duke Chronicle.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Georgia Communist League, 1967-1972 and undated</unittitle></did><scopecontent>
+<p>Includes a pamphlet entitled <title render="doublequote" linktype="simple">On the Questions of Stalin: Reference Material for the Study of 'A Great Historical Document';</title> a Workers' Books catalog from 1972; a receipt of books purchased from Workers' Books by Henderson in 1971; two issues of <title render="italic" linktype="simple">Spark</title> dated July 2, 1971 and October 10, 1971; an internal edition of the <title render="italic" linktype="simple">Spark</title> and two copies of <title render="doublequote" linktype="simple">The Vanguard Party: The Invincible Weapon of the Working Class.</title> Also includes a collection of undated essays with the following titles: <title render="doublequote" linktype="simple">The Urgent Tasks of our Movement,</title> <title render="doublequote" linktype="simple">The Fight for a New Party and our Political Tasks,</title> <title render="doublequote" linktype="simple">Armed Struggle vs. Peaceful Transition to Socialism,</title> <title render="doublequote" linktype="simple">Revolution at the Role of SCEF,</title> and <title render="doublequote" linktype="simple">Call for a Conference to Establish a Southern Editorial Board for the Marxist-Leninist Journal.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>G.I. Rights, 1968-1969</unittitle></did><scopecontent>
+<p>Houses one pamphlet entitled <title render="italic" linktype="simple">Two GIs in the Struggle</title> published by SDS; copies of speeches and press statements compiled by <title render="doublequote" linktype="simple">American Deserters Committee;</title> newspaper clippings; materials from <title render="doublequote" linktype="simple">Resistance,</title> <title render="doublequote" linktype="simple">Fort Hood Three Defense Committee,</title> <title render="doublequote" linktype="simple">United Anti-War Mobilization Front (UAWMF),</title> <title render="doublequote" linktype="simple">Southern Student Organizing Committee (SSOC),</title> <title render="doublequote" linktype="simple">Veterans for Peace in Vietnam,</title> <title render="doublequote" linktype="simple">GIs United Against The War in Vietnam, </title><title render="doublequote" linktype="simple">The Young Socialist Alliance in Chapel Hill and Durham,</title> and the <title render="doublequote" linktype="simple">GI-Civilian Mobilization for Peace.</title> Also contains newsletter <title render="italic" linktype="simple">Mobilizer: To Get U.S. Out of Vietnam; </title> and correspondence from U.S. Department of the Army and one pamphlet entitled <title render="italic" linktype="simple">Judgment at Fort Jackson: The Trial of Howard Levy M.D.</title> reprinted from <title render="doublequote" linktype="simple">Christianity and Crisis.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Harvard University, 1969-1970</unittitle></did><scopecontent>
+<p>Includes statements from the Harvard-Radcliffe SDS, Harvard Progressive Labor Party, The Cambridge Peace and Freedom Party, and one statement related to the <title render="doublequote" linktype="simple">Committee of Fifteen.</title> Also contains pamphlet entitled <title render="italic" linktype="simple">Harvard, Urban Imperialist</title> produced by the Anti-expansion Anti-R.O.T.C Strike Steering Committee.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Harvard University, 1969-1970</unittitle></did><scopecontent>
+<p>Consists of statements by Harvard-Radcliffe SDS and the <title render="doublequote" linktype="simple">Anti-expansion Anti-R.O.T.C Strike Steering Committee.</title> Also includes newspaper clipping and one pamphlet entitled <title render="italic" linktype="simple">Free Speech at Harvard: An Answer to Various Deans</title> produced by the <title render="doublequote" linktype="simple">Progressive Labor Party.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Helsinki International Student Week, 1967</unittitle></did><scopecontent>
+<p>One bound volume entitled <title render="italic" linktype="simple">The 6th Helsinki International Student Week, September 21-October 1, 1967</title>.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Journal Correspondence, 1972</unittitle></did><scopecontent>
+<p>Consists of a collection of letters to and from Henderson regarding various publications and meetings of the Communist League.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><container type="box">4</container><unittitle>Labor, 1967-1970</unittitle></did><scopecontent>
+<p>Contains worker contract. Also contains one pamphlet entitled <title render="italic" linktype="simple">Corporate Profits and the Wage Gap</title> reprinted from AFL-CIO American Federationist. Includes newspaper clipping from <title render="italic" linktype="simple">The Washington Post; </title> letters from AfSCME, AFL-CIO and City-wide Strike Support Committee; flyers pertaining to workers in Greensboro, NC and boycotts for Valleydale Meat Products; statements from UNC-Duke SDS; and one 16-page student essay titled<title render="doublequote" linktype="simple"> The Engineer.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Labor, 1967-1970</unittitle></did><scopecontent>
+<p>Houses one 16-page essay titled <title render="doublequote" linktype="simple">The Resort Hotel Bellman: Report of a Participant Observer.</title> Contains statements from SDS at Austin, Brandeis, Columbia-Barnard, Harvard-Radcliffe, MIT, New School, NYU, UCLA, Yale, and Bay Area Spartacist League Chapters. Also contains statement from Student Labor Action Project (SLAP); flyers related to G.E. workers distributed by Praxis; and one copy of <title render="italic" linktype="simple">City Employees Newsletter Local 1194.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Labor, 1967-1970 and undated</unittitle></did><scopecontent>
+<p>Includes pamphlets entitled <title render="italic" linktype="simple">On Strike: State Senate Scabs on Boston Strikers!</title> and <title render="italic" linktype="simple">Two Ways to Fight-For the Bosses...Or Against Them!</title> both produced by Cambridge Peace and Freedom Party. Contains SDS materials related to G.E. Workers and Vietnam; materials from AFL-CIO and Local Union 1199 Chapter at Mount Sinai Medical Center; a first edition of <title render="italic" linktype="simple">The Red Metalworker;</title> and newspaper clipping from <title render="italic" linktype="simple">The Durham Morning Herald.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Labor, 1970-1976</unittitle></did><scopecontent>
+<p>Consists of one copy of <title render="italic" linktype="simple">Grow: A New Movement in the White South</title>, which includes information on the activities of Bob Zellner, in addition to several copies of <title render="italic" linktype="simple">Meatcutters' Rank-and-File News</title>, <title render="italic" linktype="simple">The G.E. Organizer</title>, and <title render="italic" linktype="simple">Gold Kist Rank-and-File News</title>. Several fliers relate to organizing Local 465. There is one paper entitled <title render="doublequote" linktype="simple">Ad Hoc Caucus Against Class Collaboration: Short Statement on Principle and Program.</title> Also includes one copy of <title render="italic" linktype="simple">UE Southern Voice: Newspaper of the UE Southern Conference</title> and a February 23, 1971 <title render="italic" linktype="simple">Duke Chronicle</title> article entitled <title render="doublequote" linktype="simple">Bringing the student-working alliance home.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Labor, <title render="italic" linktype="simple">1199 Drug and Hospital News,</title>
+ 1969</unittitle></did><scopecontent>
+<p>Contains three issues from May-July 1969.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Legal, 1972</unittitle></did><scopecontent>
+<p>Includes one letter from the Durham Police Department returning $1 to Henderson.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Miscellaneous, 1966-1970</unittitle></did><scopecontent>
+<p>Consists of pamphlet entitled <title render="italic" linktype="simple">Power and Racism</title> by Stokeley Carmichael; one newsletter from <title render="doublequote" linktype="simple">Rent Control Referendum</title> entitled <title render="italic" linktype="simple">Stay and Fight;</title> one catalog from <title render="doublequote" linktype="simple">China Publications;</title> one newsletter entitled <title render="italic" linktype="simple">Dateline=Ithaca.</title>Also includes a Graduate Student Directory List; letters; one illustration; one flyer; one Community VISTA volunteer application; and one newspaper clipping from <title render="italic" linktype="simple">The Baltimore Sun.</title> </p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Miscellaneous, 1967-1975 and undated</unittitle></did><scopecontent>
+<p>Includes <title render="italic" linktype="simple">White Blindspot</title> by J. H. Kagin; two copies of <title render="italic" linktype="simple">White Blindspot and Can White Radicals be Radicalized?</title> by Noel Ignatin; one copy of <title render="italic" linktype="simple">The Tupamaros: Urban Guerrilla Warfare in Uruguay</title>; numbers 4 and 5 of <title render="italic" linktype="simple">Tricontinental: North American Edition</title>; one issue of the <title render="italic" linktype="simple">Louisville Red Banner</title> and an order form for the Peoples Press. Also includes two essays: <title render="doublequote" linktype="simple">Can American Workers Make a Socialist Revolution?</title> and <title render="doublequote" linktype="simple">Biblical Reflections on Viet Nam.</title> There is a copy of City of Durham Housing Standards and three fliers selling poetry and photographs from Cuba, Vietnam, and Latin America.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Miscellaneous, undated</unittitle></did><scopecontent>
+<p>Contains flyers related to G.E. strikers; pamphlet from <title render="doublequote" linktype="simple">Young Socialist Alliance;</title>  booklists; conference materials; statement from social and student groups; newspaper clippings from <title render="italic" linktype="simple">The Durham Morning Herald;</title> and literature entitled <title render="italic" linktype="simple">Revolutionary Youth Movement </title>published by <title render="doublequote" linktype="simple">Radical Education Project.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Miscellaneous, undated</unittitle></did><scopecontent>
+<p>Consists of three birthday cards to Henderson.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>New England Free Press, undated</unittitle></did><scopecontent>
+<p>Houses two different pamphlets entitled <title render="italic" linktype="simple">Radical Literature for the Movement from the New England Free Press.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>North American Congress on Latin America, 1967-1968</unittitle></did><scopecontent>
+<p>Volume I, issues 1-10 and volume II, issues 1-8 of the <title render="italic" linktype="simple">North American Congress on Latin America (NACLA) Newsletter.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>North American Congress on Latin America, 1969-1970 Apr.</unittitle></did><scopecontent>
+<p>Volume II, issues 9-10; volume III, issues 1-10 and volume IV, issues 1-2 of <title render="italic" linktype="simple">NACLA Newsletter.</title> Also includes one copy of <title render="italic" linktype="simple">The Hanna Industrial Complex</title>.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>North American Congress on Latin America, 1970 May-Dec.</unittitle></did><scopecontent>
+<p>Volume IV, issues 3-8 of <title render="italic" linktype="simple">NACLA Newsletter</title>. Folder also consists of one copy each of <title render="italic" linktype="simple">Subliminal Warfare: The Role of Latin American Studies</title> and <title render="italic" linktype="simple">The University-Military-Police Complex: A Directory and Related Documents</title>.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>North American Congress on Latin America, 1971</unittitle></did><scopecontent>
+<p>Volume IV, issues 9-10; volume V, issues 1, 3-8 of <title render="italic" linktype="simple">NACLA Newsletter</title>. The newsletter changes its name to <title render="italic" linktype="simple">NACLA'S Latin American and Empire Report</title> with volume V, issue 7.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><container type="box">5</container><unittitle>North American Congress on Latin America, 1972 </unittitle></did><scopecontent>
+<p>Volume VI, issues 1-10 of <title render="italic" linktype="simple">NACLA'S Latin American and Empire Report</title>.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>North American Congress on Latin America, 1973</unittitle></did><scopecontent>
+<p>Volume VII, issues 1, 4-10 of <title render="italic" linktype="simple">NACLA'S Latin American and Empire Report</title>.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>North American Congress on Latin America, 1974</unittitle></did><scopecontent>
+<p>Volume VIII, issues 1-4 and 6-10 of <title render="italic" linktype="simple">NACLA'S Latin American and Empire Report</title>. </p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>North Carolina Socialist Union, 1972 Jan.-June</unittitle></did><scopecontent>
+<p>Includes financial statements, various flyers, hand-written and typed letters, and internal documents regarding the organization.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>North Carolina Socialist Union, 1972 July-Aug.</unittitle></did><scopecontent>
+<p>Consists of one copy of the<title render="italic" linktype="simple"> Socialist Worker; </title>agendas and minutes from meetings; and hand-written notes.</p>
+</scopecontent>
+</c02>
+<c02 level="file"><did><unittitle>North Carolina Socialist Union, 1972 Sept.-Nov.</unittitle></did><scopecontent>
+<p>Contains two copies of the <title render="italic" linktype="simple">Socialist Worker;</title> and agendas, minutes, reports and resolutions from meetings. Also includes one essay and hand-written meeting notes.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>North Carolina Socialist Union, undated</unittitle></did><scopecontent>
+<p>Includes organizational materials; magazine clippings; open letters; hand-written letters; and various flyers. Also contains four pamphlets entitled <title render="italic" linktype="simple">Mississippi vs. North Carolina: Lowest Wages,</title> <title render="italic" linktype="simple">Overtime-Who Benefits?,</title><title render="italic" linktype="simple">Taxes-Who Pays?,</title> and <title render="italic" linktype="simple">Workers are Dying Trying to Earn a Living.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>North Carolina Socialist Union, 1972 Sept.-Oct.,"Socialist Worker" </unittitle></did><scopecontent>
+<p>Houses <title render="italic" linktype="simple">Socialist Worker</title> from September and October 1972.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Occupational Safety and Health, 1972-1974 and undated</unittitle></did><scopecontent>
+<p>Includes one copy of <title render="italic" linktype="simple">Health Hazards in the Workplace</title>; two copies of a <title render="italic" linktype="simple">Health/PAC Bulletin</title>; a <title render="italic" linktype="simple">Washington Post</title> special on hospitals; number 4 of the <title render="italic" linktype="simple">Occupational Health Project Report</title>; one issue of <title render="italic" linktype="simple">Mountain Life and Work</title>; an occupational safety pamphlet put together by Durham Area Conference on Occupational Health and Safety; correspondence and fliers regarding Burlington, North Carolina service workers, and a collection of handwritten notes and business cards. Also a collection of registration cards from a 1963 Occupational Safety conference.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>October League, 1971-1972</unittitle></did><scopecontent>
+<p>Consists of ten copies of <title render="italic" linktype="simple">The Red Worker</title> from 1971-1972; the first issue of <title render="italic" linktype="simple">The Call</title>, one copy of <title render="italic" linktype="simple">Women Hold Up Half the Sky</title>; several copies of <title render="italic" linktype="simple">The Red Metalworker</title>. Also one copy of <title render="italic" linktype="simple">Have You Heard?: ELA Community Newsletter</title> and three newsletters from October League (one is titled <title render="italic" linktype="simple">Ignition!</title>, though the group latter changed the name to <title render="italic" linktype="simple">Blowout!</title>). There are also two internal documents from the group: <title render="doublequote" linktype="simple">Proposal for Consolidation of Unity with the October League</title> and <title render="doublequote" linktype="simple">Draft of the Political Statement of Unity.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><container type="box">6</container><unittitle><title render="italic" linktype="simple">The Philadelphia Free Press</title>, 1972</unittitle></did><scopecontent>
+<p>Consists of oversized material including one copy<title render="italic" linktype="simple"> The Philadelphia Free Press </title>newspaper dated November 1972. Also includes one pamphlet entitled <title render="italic" linktype="simple">The Spirit of George Jackson: The Life of George Jackson and the Truth About Prisons and Prisoners in America.</title> Contains one subscription letter. </p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Praxis, 1969-1970 and undated</unittitle></did><scopecontent>
+<p>Consists of financial records, various flyers related to Vietnam, internal documents and essays related to Socialism.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Progressive Labor Party, 1973 Jan.-Apr.</unittitle></did><scopecontent>
+<p>Houses six <title render="italic" linktype="simple">Progressive Labor Party Convention Bulletins </title>numbering 1-6.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Progressive Labor Party, 1973 May-June</unittitle></did><scopecontent>
+<p>Houses five <title render="italic" linktype="simple">Progressive Labor Party Convention Bulletins</title> numbering 7-11.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Progressive Labor Party, 1973 July</unittitle></did><scopecontent>
+<p>Houses three <title render="italic" linktype="simple">Progressive Labor Party Convention Bulletins </title>numbering 12A-12C. Contains Convention Reports.  Also includes administrative and records reports.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Progressive Labor Party, 1973 Aug.-Sept.</unittitle></did><scopecontent>
+<p>Contains oversized materials including four-page newspaper titled <title render="italic" linktype="simple">Special PLP Bulletin on the Current Class Struggle in Auto;</title> and <title render="italic" linktype="simple">Internal Bulletin</title> number 2.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Progressive Labor Party, 1974</unittitle></did><scopecontent>
+<p>Includes four <title render="italic" linktype="simple">Progressive Labor Party Internal Bulletins;</title> one copy of <title render="italic" linktype="simple">Challenge: The Revolutionary Communist Newspaper;</title> two letters; and one report on unemployment.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Progressive Labor Party, 1975</unittitle></did><scopecontent>
+<p>Consists of three reports including two reports from National Committee Meetings, and an Internal Bulletin dated November 3; three pamphlets entitled <title render="italic" linktype="simple">March on May Day: The Fight for the Shorter Work-Day,</title><title render="italic" linktype="simple">Thunder in the Mines: The Miller UMW Machine-Blue-print for Fascism,</title> and <title render="italic" linktype="simple">Win With Marxism-Leninism (Triunfemos con el Marxismo-Leninismo);</title>  and several other bulletins.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Progressive Labor Party, 1976 Jan.-Aug.</unittitle></did><scopecontent>
+<p>Includes several newsletters including <title render="italic" linktype="simple">Tobacco Workers Caucus Fight Back!, </title><title render="italic" linktype="simple"> Challenge,The G.E. Spark!, </title><title render="italic" linktype="simple"> On the Line, </title> and <title render="italic" linktype="simple">The Duke Workers Solidarity.</title> Also contains newspaper clippings; an essay related to tobacco workers; a letter from the May Day Committee; and a 1976 issue of National Committee Report.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Progressive Labor Party, 1976</unittitle></did><scopecontent>
+<p>Houses one pamphlet entitled <title render="italic" linktype="simple">A Connecticut Communist in a Kangaroo Court: Fighting Fascism in the Public Schools. </title>Also includes one newsletter from <title render="italic" linktype="simple">North Carolina Hard Times Prison Project.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Progressive Labor Party, undated</unittitle></did><scopecontent>
+<p>Contains two National Committee Reports from May 25-26 and Aug.1-3 Meetings; one Bulletin entitled Second Progress Report From Minnesota NPW; letters; one Special Edition copy of <title render="italic" linktype="simple">Challenge;</title> and a draft cover of <title render="italic" linktype="simple">Challenge.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Progressive Workers' Committee, 1973</unittitle></did><scopecontent>
+<p>Houses internal documents including Minutes, financial records, and inventory lists. </p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Progressive Workers' Committee, 1974</unittitle></did><scopecontent>
+<p>Consists of internal documents including minutes, financial records, and section committee reports. Also includes one General Bulletin.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Proletarian Cause, Black Liberation, 1971-1972</unittitle></did><scopecontent>
+<p>Houses three draft articles ranging from 4-28 pages.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Proletarian Cause, Communism, 1971-1972</unittitle></did><scopecontent>
+<p>Includes hand-written notes; three materials related to The White Blindspot; one essay entitled <title render="doublequote" linktype="simple">The Easy Road to Socialism: A Critique of the Communist Party Program;</title>  and two essay drafts related to worker conditions.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><container type="box">7</container><unittitle>Proletarian Cause, Editorial Drafts, 1971-1972</unittitle></did><scopecontent>
+<p>Contains draft editorial statements, internal documents, article proposals, and one open letter.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Proletarian Cause, Labor, 1971-1972</unittitle></did><scopecontent>
+<p>Houses five pamphlets entitled <title render="italic" linktype="simple">Reform vs. Revolutionary Struggle in the Labor Movement,</title> <title render="italic" linktype="simple">Mass Revolutionary Organization For the Workplace,</title> <title render="italic" linktype="simple">The Anti-Marxist-Leninist Trend in the Progressive Labor Party,</title> <title render="italic" linktype="simple">The Split in the Working Class and The Building of Fascist Labor Fronts,</title> and <title render="italic" linktype="simple">'Left' Opportunism-Twin Brother of Revisionism.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Proletarian Cause, Marxism-Leninism, 1971-1972</unittitle></did><scopecontent>
+<p>Consists of draft articles; one letter; and one 48-page essay titled <title render="doublequote" linktype="simple">The Crisis of U.S. Imperialism and the Prospects for Socialist Revolution in the '70s.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Proletarian Cause, Marxism-Leninism, 1971-1972</unittitle></did><scopecontent>
+<p>Contains draft articles including <title render="italic" linktype="simple">In the Working-Class Movement From 1900- World War I,</title> <title render="italic" linktype="simple">Unity for the Revolution,</title> <title render="italic" linktype="simple">The U.S. Revolution Will Triumph Without Jean-Francois Revel or the Ford Motor Company;</title> and an untitled essay related to women and Marxism. Also includes one letter titled <title render="doublequote" linktype="simple">Build A Strong Marxist-Leninist Journal in Support of Open Debate Among Marxist-Leninists.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Proletarian Cause, Southern Editorial Board, 1971-1972</unittitle></did><scopecontent>
+<p>Contains internal documents and letters from Louisville Association of Communist Workers, Durham Collective, and Georgia Communist League (Marxist-Leninist).</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Proletarian Cause, U.S. Imperialism and China, 1971-1972</unittitle></did><scopecontent>
+<p>Includes draft essays titled <title render="doublequote" linktype="simple">Working Class Unity and The National Question,</title><title render="doublequote" linktype="simple">The Needs of the U.S. Revolution, 1971-1972,</title><title render="doublequote" linktype="simple">Nixon's Visit,</title> and an untitled essay related to the New Economic Policy.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Proletarian Cause, "Proletarian Cause", Sept. 1972</unittitle></did><scopecontent>
+<p>Houses one copy <title render="italic" linktype="simple">Proletarian Cause: Journal of Marxism-Leninism-Mao Tsetung Thought</title> dated September 1972.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Gary F. Pugh, 1971</unittitle></did><scopecontent>
+<p>Houses 32-page school paper entitled <title render="doublequote" linktype="simple">The Soviet Worker In The Era Of Stalin (The Early Years: 1928-1937).</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Radical Education Project, 1967, 1968</unittitle></did><scopecontent>
+<p>Includes two pamphlets including <title render="italic" linktype="simple">The U.A.W. Settles With Ford: Sellout and Insurgency in the Auto Industry</title> and <title render="italic" linktype="simple">Labor and the South: Black Workers Set Against White-Strike Broken</title> reprinted from Southern Patriot.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle><title render="italic" linktype="simple">The Red Papers</title>, 1972</unittitle></did><scopecontent>
+<p>Houses five issues of <title render="italic" linktype="simple">The Red Papers</title> published by Bay Area Revolutionary Union.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle><title render="italic" linktype="simple">Renaissance</title>, Mar.-May 1969</unittitle></did><scopecontent>
+<p>Contains three issues of <title render="italic" linktype="simple">Renaissance: Newsletter of Duke Young Americans for Freedom</title> including March 12, 1969; April 29, 1969; and May 8, 1969.  The May 8, 1969 issue is a special issue that focuses on the R.O.T.C. student protest. </p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Revolutionary Union, 1972</unittitle></did><scopecontent>
+<p>Consists of oversized items including eight-page newspaper titled <title render="italic" linktype="simple">Victory Through Our Struggle, Not Through the Elections!</title> Also includes one issue titled <title render="italic" linktype="simple">What Is Communism?</title> published by Bay Area Revolutionary Union.  The focus of the issue is on China.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>R.O.T.C., 1969</unittitle></did><scopecontent>
+<p>Contains letter to Duke students and two drafts of letters written by Student Liberation Front; two posters and newspaper articles from <title render="italic" linktype="simple">The Duke Chronicle</title> and <title render="italic" linktype="simple">The Durham Morning Herald</title> ranging from April 15, 1969 to May 11, 1969; and Volume 1, Number 1 issue of <title render="italic" linktype="simple">The Duke No-No </title>dated May 8, 197*.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Southern Student Organizing Committee (SSOC), 1963-1969 and undated</unittitle></did><scopecontent>
+<p>Houses fourteen pamphlets reprinted from various sources and distributed by the SSOC. The titles include: <title render="italic" linktype="simple">The Power of the Dixiecrats</title> by Tom Hayden; <title render="italic" linktype="simple">A Conversation-Jobs, Machines, and People</title> by Ralph Helstein, Gerard Piel and Robert Theobald; <title render="italic" linktype="simple">Southern Mountain Tradition</title> by Callie Cantrel and Luke Larmen; <title render="italic" linktype="simple">Folk Hereos and Protest</title> by D.T.; <title render="italic" linktype="simple">Power and Racism</title> by Stokeley Carmichael; <title render="italic" linktype="simple">Poverty and Affluence in Appalachia</title> by Harry M. Caudill; <title render="italic" linktype="simple">West Virginia Wonderland</title> by William C. Blizzard; <title render="italic" linktype="simple">The Southern Tenant Farmer's Union</title> by H.L. Mitchell; <title render="italic" linktype="simple">Look Out Liberals: Wallace Power Gonna Get You!</title> by Paul Valentine; <title render="italic" linktype="simple">The Southern Populist Movement, 1891-1896: A Political Analysis</title> by Bruce Palmer; <title render="italic" linktype="simple">The KKK as an Exploited Class</title> by Joe Neal; <title render="italic" linktype="simple">The South as an Underdeveloped Country</title> by Robb Burlage; <title render="italic" linktype="simple">An Analysis of American Racism</title> by Frank H. Joyce; and <title render="italic" linktype="simple">Mississippi's Economics and Mississippi's 'New Image'?</title> by Mike Bruland.  Also contains subscription letters; campus mailing schedule; Radical Southern History Conference agenda; bibliographies; contact lists; one tour schedule; one position paper; a report to the Student Liberation Front; and a work list.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Students For A Democratic Society (SDS), 1968-1970</unittitle></did><scopecontent>
+<p>Includes 31-page pamphlet entitled <title render="italic" linktype="simple">SDS Work-in 1968:Towards A Worker-Student Alliance.</title> Contains a 4-page pamphlet entitled <title render="italic" linktype="simple">Reserve Liberal Training Corps (a play) and Suggestions for Building a Guerrilla Theatre Group</title> produced by the Radical Arts Troupe of Berkeley SDS. Also consists of several types of membership cards; meeting flyers announcing the regional conference and actions; essays entitled <title render="doublequote" linktype="simple">The Fight For Women's Liberation,</title> and <title render="doublequote" linktype="simple">Build A Movement to Smash ROTC</title>, produced by the University; an essay that focuses on educational system; and communication from University of Utah Chapter.  Contains flyers: <title render="doublequote" linktype="simple">Wanted for Exploitation, Racism and Murder! Columbia, the Boss!</title> produced by Columbia University Chapter; and <title render="doublequote" linktype="simple">Free All Political Prisoners</title>. </p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Students For A Democratic Society (SDS) Local, 1970</unittitle></did><scopecontent>
+<p>Includes handwritten meeting notes.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Student Liberation Front, 1969 and undated</unittitle></did><scopecontent>
+<p>Contains financial records, Policy Conference notes, by-laws, handwritten letter and notes; and one <title render="italic" linktype="simple">Radical Newspaper </title>broadside dated December 15 1969. Also includes Duke University account materials of Gary F. Pugh.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>University of North Carolina, Chapel Hill, 1969-1970</unittitle></did><scopecontent>
+<p>Contains letters from J. Carlyle Sitterson, Chancellor; and C.O. Cathey, Dean of Student Affairs.  Also includes Company Recruiting Visit List, Workers' strike (cafeteria workers) flyers, anti-racism flyers, anti-war flyer, and articles from <title render="italic" linktype="simple">The Durham Sun</title> and <title render="italic" linktype="simple">The Durham Morning Herald.</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Vietnam, 1969</unittitle></did><scopecontent>
+<p>Contains flyers with topics including anti-war, military budget, anti-imperialism, and G.I.'s against the war.  Contains conference paper titled <title render="doublequote" linktype="simple">Converting the Anti-War Movement</title> written by the SDS Labor Committees.  Contains eight-page newspaper titled <title render="italic" linktype="simple">Fire(Forces of Internationalist Revolutionary Energy).</title></p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Women's Liberation, undated</unittitle></did><scopecontent>
+<p>Houses essays titled <title render="doublequote" linktype="simple">The Political Economy Of Women's Liberation</title> by Margaret Benston and <title render="doublequote" linktype="simple">The Fight For Women's Liberation.</title> Also contains handwritten notes on female liberation and proposals for the organization.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Workers' Action Movement (WAM), 1973-1975 and undated</unittitle></did><scopecontent>
+<p>Consists of flyers with topics including anti-racism, movie viewing, Local 465, May Day, and support for New York City workers; two issues of <title render="italic" linktype="simple">Workers' Action!;</title> and seven issues of <title render="italic" linktype="simple">WAM Newsletter</title> with topics including Meat Cutters, Duke Workers and General Electric.</p>
+</scopecontent>
+</c02>
+
+<c02 level="file"><did><unittitle>Writings, 1961 Jan.-1962 Jan.</unittitle></did><scopecontent>
+<p>Includes Henderson's handwritten school assignments for Beta English II Periods with Professor notes and grades.</p>
+</scopecontent>
+</c02>
+
+
+<c02 level="file"><did><container type="box">8</container><unittitle>Oversized Materials</unittitle></did><scopecontent>
+<p>Houses two newspapers including a 12-page <title render="italic" linktype="simple">Trenton Rank and File,</title> from July 1972; and the first issue of <title render="italic" linktype="simple">The Call</title> produced by The October League.  This 20-page issue includes articles in English and Spanish.</p>
+</scopecontent>
+</c02>
+
+</c01>
+
+</dsc>
+</archdesc>
+</ead>

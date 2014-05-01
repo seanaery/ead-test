@@ -1,0 +1,5236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" langencoding="iso639-2b" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Evsey D. Domar Papers)//EN" countrycode="us" mainagencycode="ndd" url="http://library.duke.edu/rubenstein/findingaids/domar/">domar</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Evsey D. Domar
+			 Papers, <date normal="1939/1995" type="inclusive" era="ce" calendar="gregorian">1939-1995 and undated</date> (bulk <date normal="1957/1989" type="bulk" era="ce" calendar="gregorian">1957-1989</date>)</titleproper>
+            <author>Processed by: Sandeep Mody and Paula
+			 Jeannet Mangiafico; machine-readable finding aid created
+			 by: Paula Jeannet Mangiafico and Lisa Stark</author>
+         </titlestmt>
+         <publicationstmt>
+            <p>
+               <date era="ce" calendar="gregorian"> 2000</date> Duke University. All Rights
+			 Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002342983</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from
+		  automated markup system. <lb/>Date of source: December 15,
+		  1999 <lb/>Processed by Sandeep Mody and Paula Jeannet
+		  Mangiafico December 15, 1999; Finding Aid encoded by Paula
+		  Jeannet Mangiafico and Lisa Stark, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University,
+		  <date era="ce" calendar="gregorian">July-August 2000</date>
+         </creation>
+         <langusage>Description is in
+		  <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005" era="ce" calendar="gregorian">08-18-2005</date>
+            <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT
+		(US::NDD::::Evsey D. Domar Papers)//EN" "domar.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Evsey D. Domar Papers,
+		  1939-1995 and undated (bulk 1957-1989)</titleproper>
+         <publisher> David M. Rubenstein Rare Book &amp; Manuscript Library <lb/>
+            <lb/> Duke
+		  University <lb/> Durham, North Carolina 27708-0185 USA
+		  </publisher>
+         <p>
+            <date era="ce" calendar="gregorian"> 2000</date> Duke University. All Rights
+		  Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">Evsey D. Domar papers 		  <unitdate normal="1939/1995" type="inclusive" era="ce" calendar="gregorian">1939-1995 and undated, bulk 1957-1989</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Domar, Evsey D.</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>27.5 Linear Feet</extent>
+            <extent>20,625 Items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <physloc label="Location">For current information on
+		  the location of these materials, please consult the
+		  Library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>
+            <p>Parts of the collection are restricted.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The copyright interests in this collection have
+			 not been transferred to Duke University. For more
+			 information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Evsey D. Domar Papers,
+			 David M. Rubenstein Rare Book &amp; Manuscript Library,
+			 Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The papers were received as a bequest from the
+			 estate of Evsey Domar in 1997.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Sandeep Mody and Paula Jeannet
+			 Mangiafico</p>
+            <p>Completed December 15, 1999</p>
+            <p>Encoded by Paula Jeannet Mangiafico and Lisa
+				Stark</p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp><!-- End of finding aid header -->
+      <bioghist>
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1914, April 16</date>
+               <event>Born in Lodz, Russia (now Poland), given
+				name was Joshua Domashevitsky</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1939</date>
+               <event>B.A., University of California at Los
+				Angeles</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1941</date>
+               <event>M.A., Mathematical Statistics, University
+				of Michigan</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1943</date>
+               <event>M.A., Economics, Harvard
+				University</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1943-1946</date>
+               <event>Economist, Board of Governors of the
+				Federal Reserve System</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1944</date>
+               <event>Published
+				<title xlink:type="simple" render="doublequote" xlink:href="">Proportional income
+				  taxation and risk-taking,</title> with R. A. Musgrave, in
+				<title xlink:type="simple" render="italic" xlink:href="">Quarterly Journal of
+				  Economics</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1946</date>
+               <event>Married Carola Rosenthal</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1946-1947</date>
+               <event>Assistant Professor of Economics, Carnegie
+				Institute of Technology</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1947</date>
+               <event>Ph.D. Economics, Harvard
+				University.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1947-1948</date>
+               <event>Assistant Professor in the Dept. of
+				Economics and Research Associate in the Cowles Commission,
+				University of Chicago</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1948-1955</date>
+               <event>Associate Professor of Political Economy,
+				Johns Hopkins University</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1949-1951</date>
+               <event>Director of Russian Studies, Operations
+				Research Office, Johns Hopkins University</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1951-1955</date>
+               <event>Visiting Associate Professor, Russian
+				Institute, Columbia University</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1951-1981</date>
+               <event>Consultant, Rand Corporation</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1954-1958</date>
+               <event>Consultant of Foreign Studies, Research
+				Fellowship Program, The Ford Foundation</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1955-1958</date>
+               <event>Professor of Political Economy, Johns
+				Hopkins University</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1956-1959</date>
+               <event>Consultant, Brookings Institute</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1957</date>
+               <event>Published Essays in the
+				<title xlink:type="simple" render="italic" xlink:href="">Theory of Economic
+				  Growth</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1958-1972</date>
+               <event>Professor of Economics, Massachusetts
+				Institute of Technology</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1963-</date>
+               <event>Editorial Board,
+				<title xlink:type="simple" render="italic" xlink:href="">American
+				  Economist</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1961-1962</date>
+               <event>Consultant, Institute of Defense
+				Analysis</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1966</date>
+               <event>Published
+				<title xlink:type="simple" render="doublequote" xlink:href="">The Soviet collective
+				  farm as a producer cooperative,</title>
+                  <title xlink:type="simple" render="italic" xlink:href="">American Economic
+				  Review</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1967-1969</date>
+               <event>Consultant, National Science
+				Foundation</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1970</date>
+               <event>Published
+				<title xlink:type="simple" render="doublequote" xlink:href="">The causes of slavery or
+				  serfdom: a hypothesis,</title>
+                  <title xlink:type="simple" render="italic" xlink:href="">Journal of Economic
+				  History</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1972-1984</date>
+               <event>Ford International Professor of Economics,
+				Massachusetts Institute of Technology</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1976-1982</date>
+               <event>Editorial Board,
+				<title xlink:type="simple" render="italic" xlink:href="">Journal of Comparative
+				  Economics</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1984</date>
+               <event>Retired from MIT</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1986-1990</date>
+               <event>Visiting Professor, Brandeis
+				University</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1989</date>
+               <event>Published
+				<title xlink:type="simple" render="italic" xlink:href="">Capitalism, Socialism,
+				  and Serfdom</title>
+               </event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The papers of Evsey Domar span the years 1939
+		  through 1995, with the bulk of the papers being dated
+		  between 1957 and 1989. The collection consists chiefly of
+		  professional correspondence between Domar and his
+		  colleagues, with smaller groups of materials consisting of
+		  writings; research materials; printed materials; speeches
+		  and lectures; and course materials relating to Domar's
+		  teaching career. Although Domar was interested in a wide
+		  range of subjects in the fields of
+		  <subject>economics</subject> and
+		  <subject>political science,</subject> the papers in
+		  this collection chiefly address his work on
+		  <subject>serfdom</subject> and
+		  <subject>slavery,</subject> particularly in
+		  <geogname>Russia;</geogname> the
+		  <subject>economics of socialist systems of
+			 government;</subject> the
+		  <subject>economics of agriculture;</subject> and
+		  theories of
+		  <subject>productivity</subject> and
+		  <subject>efficiency.</subject> Other minor topics
+		  include
+		  <subject>macroeconomics;</subject> the economies of
+
+		  <geogname>Yugoslavia</geogname> and
+		  <geogname>Lithuania;</geogname>
+            <subject>value-added tax systems;</subject>
+            <subject>economic development,</subject> and
+		  <subject>growth</subject> in general, and the
+		  <subject>American economy.</subject>
+         </p>
+         <p>The <emph render="bold">Correspondence
+		  Series</emph> consists of professional correspondence
+		  concerning recommendations, papers, publishing, trip
+		  planning and reports, invitation responses, and other
+		  academic affairs. Frequently Domar exchanged comments on
+		  papers and other writings with fellow colleagues and former
+		  students. Important correspondents include Don Patinkin,
+		  Mark Perlman, Allan Brown, Alexander Gerschenkron, Lauchlin
+		  Currie, Alvin Hansen, Joan Robinson, and many others.</p>
+         <p>The <emph render="bold">Research Materials
+		  Series</emph> contains papers documenting Domar's research
+		  on serfdom and slavery (particularly in Russia);
+		  productivity and efficiency; value-added taxes; and other
+		  topics. Several papers discuss the economies of Yugoslavia
+		  and Lithuania. Includes many graphs and tables relating to
+		  Domar's published and unpublished work. There are very few
+		  papers by other individuals.</p>
+         <p>The <emph render="bold">Printed Materials
+		  Series</emph> is made up of mostly hardcover books from
+		  Domar's personal library. Most are editions or translations
+		  of his own published works, but there are several works by
+		  other authors. Includes microfilm of 1904 Russian work on
+		  unknown subject matter, and 1980 translation of 1861
+		  Russian work on serfdom in Russia.</p>
+         <p>The <emph render="bold">Course Materials
+		  Series</emph> contains lecture notes and other materials
+		  related to Domar's extensive teaching career in economics.
+		  Two notebooks from 1939 and 1940 reveal aspects of his
+		  student years</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <subject>Agriculture-Economic
+				aspects</subject>
+            </item>
+            <item>
+               <subject>Slavery-Economic
+				aspects</subject>
+            </item>
+            <item>
+               <subject>Serfdom-Russia</subject>
+            </item>
+            <item>
+               <geogname>Russia-Economic
+				conditions</geogname>
+            </item>
+            <item>
+               <subject>Economics-Study and
+				teaching</subject>
+            </item>
+            <item>
+               <subject>Comparative economics</subject>
+            </item>
+            <item>
+               <subject>Socialism-Economic
+				aspects</subject>
+            </item>
+            <item>
+               <geogname>Russia-History</geogname>
+            </item>
+            <item>
+               <subject>Economists-United
+				States-Correspondence</subject>
+            </item>
+            <item>
+               <subject>Economic development</subject>
+            </item>
+            <item>
+               <subject>Value-added tax</subject>
+            </item>
+            <item>
+               <subject>Macroeconomics</subject>
+            </item>
+            <item>
+               <persname>Patinkin, Don</persname>
+            </item>
+            <item>
+               <persname>Perlman, Mark</persname>
+            </item>
+            <item>
+               <persname>Currie, Lauchlin
+				Bernard</persname>
+            </item>
+            <item>
+               <persname>Gerschenkron,
+				Alexander</persname>
+            </item>
+            <item>
+               <persname>Hansen, Alvin Harvey,
+				1887-</persname>
+            </item>
+            <item>
+               <persname>Brown, Alan A.</persname>
+            </item>
+            <item>
+               <persname>Robinson, Joan, 1903-</persname>
+            </item>
+            <item>
+               <persname>Domar, Evsey D.</persname>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle>Correspondence,
+				<unitdate normal="1940/1999" type="inclusive" era="ce" calendar="gregorian">
+				  1940s-1990s</unitdate> and undated
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Chiefly professional correspondence covering a
+				wide array of topics, including recommendations,
+				discussions of papers, publishing, trip planning and
+				reports, invitation responses, and other academic affairs.
+				Arranged in alphabetical order. Folders with a single
+				letter as a heading (e.g., A-General) contain general
+				correspondence separately filed by Domar, possibly in his
+				home files.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>A-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Aa-Al (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Aa-Al (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>A-D</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Am-Az</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>American Council of Learned
+					 Societies: </corpname>Trip Report and
+				  Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>American Economist:
+					 </corpname>Short Speech and Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>American Economic Association
+					 </corpname>
+                     <archref xlink:type="simple" xlink:href="">
+                        <physdesc>
+                           <extent>(5
+						folders)</extent>
+                        </physdesc>
+                     </archref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>American Economic Review:
+					 </corpname>Review of Papers and Correspondence
+				  <archref xlink:type="simple" xlink:href="">
+                        <physdesc>
+                           <extent>(3
+						folders)</extent>
+                        </physdesc>
+                     </archref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>American Philosophical
+					 Society</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Association for Comparative
+					 Economics </corpname>
+                     <archref xlink:type="simple" xlink:href="">
+                        <physdesc>
+                           <extent>(2
+						folders)</extent>
+                        </physdesc>
+                     </archref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Association for Comparative
+					 Economic Studies</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Association for the Study of
+					 Soviet-Type Economics: </corpname>Papers and Correspondence
+
+				  <archref xlink:type="simple" xlink:href="">
+                        <physdesc>
+                           <extent>(2
+						folders)</extent>
+                        </physdesc>
+                     </archref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Albert Ando</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Australia</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>B-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>B-Bk (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>B-Bk (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bl-Br (1 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bl-Br (2 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bl-Br (3 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Br-Bz (1 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Br-Bz (2 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Br-Bz (3 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Battelle Memorial
+					 Institute</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Bella Balassa:
+					 </persname>Discussion Paper by Domar</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Batelle Memorial Institute
+					 </corpname>Paper</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Abram
+					 Bergson</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Joseph
+					 Berliner</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>B.H. Blackwell LTD.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Herbert Block
+					 </persname>Paper</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Diren
+					 Bodenhorn</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bogota,
+				  <geogname>Colombia </geogname>(1 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Bogota,
+				  <geogname>Colombia </geogname>(2 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Boston College, </corpname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1974</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Brandeis
+					 University</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Brazil: </geogname>Letters and
+				  Miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Brigham Young
+					 University</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>University of British
+					 Colombia</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Brookings
+					 Institution</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Alan Brown, </persname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Brown University, </corpname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1962-1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Helena Brus:
+					 </persname>Evaluation</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ca-Cm (1 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ca-Cm (2 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ca-Cm (3 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>E. Cary Brown, </persname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1956-1972</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cm-Cz (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cm-Cz (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of California
+					 Berkley</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of California Davis:
+					 </corpname>Appraisal Letters</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of California Los
+					 Angeles</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of California Santa
+					 Barbara</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of California Santa
+					 Cruz</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of California
+					 </corpname>Other Campuses</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of California
+					 Press</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Committee on Comparative Urban
+					 Economics</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Dominion Bureau of Statistics
+				  <geogname>Canada</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Alan Carlin</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Allan M. Carter
+					 </persname>Paper</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Center for the Advanced Study of
+					 Behavioral Sciences: </corpname>Correspondence and
+				  Miscellaneous
+				  <archref xlink:type="simple" xlink:href="">
+                        <physdesc>
+                           <extent>(3
+						folders)</extent>
+                        </physdesc>
+                     </archref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Central Intelligence
+					 Agency</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Janet Chapman: </persname>Paper
+				  Review by Domar</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Hg-Scheong
+					 Cheung</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of
+					 Chicago</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of Chicago
+					 Press</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>China </geogname>Correspondence
+				  After the Trip</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>China </geogname>Correspondence
+				  Before and During the Trip</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>John Chipman</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Carl Crist</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of
+					 Cincinnati</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Claremont Graduate School
+					 </corpname>and
+				  <corpname>CAL Tech</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Clark
+					 University</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>David Collander
+					 </persname>Interview with Domar and Paper</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Colby
+					 College</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of Colorado
+					 </corpname>and Economics Institute</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>
+                     <geogname>Colombia </geogname>University (1
+				  of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Colombia </geogname>University (2
+				  of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Committee on Scholarly Communication
+				  with
+				  <geogname>China</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Committee on Ways and
+					 Means</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Conference Board of Associated
+					 Research Councils</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Conference on Research of
+				  <subject>Income </subject>and
+				  <subject>Wealth</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Lauchlin
+					 Currie</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Bruno Cutilli: </persname>Foreign
+				  Language Paper and Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Czechoslovakia</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>D-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Da-Dm (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Da-Dm (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Dn-Dz (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Dn-Dz (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Laura D'Andrea: </persname>Papers
+				  and Recommendations</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Michael Dohan: </persname>Thesis
+				  Outline and Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Dinko Dubravcic
+					 </persname>Paper</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Duke
+					 University</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Elizabeth Durbin: </persname>Paper
+				  and Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>E-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>E (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>E (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Economic History
+					 Association</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>European History
+					 </subject>Conference in Aix,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The
+				  <corpname>Economic
+					 Journal</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Economic Society:
+					 </corpname>Correspondence and Paper</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Alexander
+					 Eckstein</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Warren Eason</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Alexander
+					 Erlich</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Robert
+					 Eisner</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Herbert
+					 Evans</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>F-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Fa-Fm (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Fa-Fm (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Fn-Fz (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Fn-Fz (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Soloman
+					 Fabricant</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Federal Reserve Bank of New
+					 York</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Federal Reserve
+					 Board</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>George
+					 Feiwal</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>David Felix: </persname>Statement
+				  of
+				  <geogname>Vietnam</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Finland</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Ford Foundation:
+					 </corpname>Correspondence and Proposals (1 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Ford Foundation:
+					 </corpname>Correspondence and Proposals (2 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Fordham University: </corpname>Site
+				  Visit Report</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Foreign Visitors and
+				  Economics</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Margery
+					 Foster</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Four Continent Book
+				  Corporation</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>France</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Edward Fried
+					 </persname>Report</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>G-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>G (1 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>G (2 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>G (3 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Joshua S.
+					 Gans</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Germany</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Greg
+					 Grossman</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Guggenheim Foundation:
+					 </corpname>Evaluations</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Alexander
+					 Gerschenkron</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>H (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>H (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ha-He (1 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ha-He (2 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ha-He (3 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hf-Hz (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hf-Hz (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Alvin Hansen</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Michael J. Hare: </persname>Paper
+				  and Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Seymour
+					 Harris</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Harvard University
+					 Press</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Harvard University:
+					 </corpname>Miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Harvard University: </corpname>
+                     <geogname>Russian </geogname>Research Center
+				  Papers and Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Oli Gawrylyshyn:
+					 </persname>Recommendation Letters and
+				  Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Derek Healey</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>W. P. Hogan</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>F. D.
+					 Holzman</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of Hong Kong:
+					 </corpname>External Evaluation (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of Hong Kong:
+					 </corpname>External Evaluation (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Branko Horvat:
+					 </persname>Correspondence and Papers</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Bert
+					 Hoselitz</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>H. D.
+					 Huggins</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Hungary</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Holland
+					 Hunter</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>I (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>I (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of Illinois
+					 </corpname>and
+				  <corpname>University of Illinois
+					 </corpname>Chicago</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Indiana University:
+					 </corpname>Correspondence and External Review
+				  Papers</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Institute for Defense
+					 Analysis</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Institute for International
+					 Education</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>International Association for
+					 Research on Income and Wealth</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>International Bank for
+					 Reconstruction and Development</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>International Economic
+					 Association</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>International Research and
+					 Exchanges Board</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Inter-University Committee on
+				  <geogname>Russian </geogname>Travel Grants (1
+				  of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Inter-University Committee on
+				  <geogname>Russian </geogname>Travel Grants (2
+				  of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Israel </geogname>(1 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Israel </geogname>(2 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Dwight
+					 Israelsen</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>J-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>J</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Senator Henry
+					 Jackson</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Japan</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>John Hopkins
+					 University</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Joint Committee on Slavic
+					 Studies</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Joint Economic Committee:
+					 </corpname> Testimony and Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Journal of Comparative
+					 Economics</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Journal of Economic
+					 History</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Journal of Social and Biological
+					 Structures</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Journal of Political
+					 Economy</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Karl
+					 Jungenfelt</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>K-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ka-Kel (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ka-Kel (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Kem-Kz (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Kem-Kz (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Edward Kane:
+					 </persname>Correspondence and Papers</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Norman
+					 Kaplan</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Daniel
+					 Kazmer</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Murray Kemp</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>John W.
+					 Kendrick</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Senator Edward
+					 Kennedy</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>T. S. Khachaturov:
+					 </persname>Correspondence and Papers (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>T. S. Khachaturov:
+					 </persname>Correspondence and Papers (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Boris
+					 Khazanon</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Charles
+					 Kinderberger</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Emine Kiray:
+					 </persname>Recommendation Letters (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Emine Kiray:
+					 </persname>Recommendation Letters (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Simon Kuznets:
+					 </persname>Correspondence and Bibliography</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Oldrich Kyn</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>L-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>La-Le (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>La-Le (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lf-Lz </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Letters to the Editor</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Herbert Levine: </persname>Draft
+				  Proposal for the Institute for the Study of the
+				  <geogname>Soviet Union</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>M-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ma-Md (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ma-Md (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Me-Mz (1 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Me-Mz (2 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Me-Mz (3 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>MC and MAC</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Michael Manove: </persname>Paper
+				  and Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>McGraw Hill Book Company</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of
+					 Maine</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>
+                     <corpname>Machinery and Allied Products
+					 Institute: </corpname>Paper and Correspondence </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>David W.
+					 Maxwell</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>James A.
+					 Maxwell</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Michael Mazur: </persname>Thesis
+				  Proposal and Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Merrill Center for Economics:
+					 </corpname>Conference on the Economics of
+				  <subject>Education</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Lloyd
+					 Metzler</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of Michigan
+					 </corpname>(1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of Michigan
+					 </corpname>(2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Middlebury
+					 College</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Michigan State
+					 University</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Milena
+					 Jovicic</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>James Miller</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of
+					 Minnesota</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>John Montias</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Basil Moore</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Amotz Morag: </persname>Paper and
+				  Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Selma
+					 Mushkin</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Richard Musgrave:
+					 </persname>Bibliography of Articles on the Economics of
+				  <geogname>Taxation </geogname>and
+				  Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>N-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Na-Nem</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Nem-Nz (1 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Nem-Nz (2 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Nem-Nz (3 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tamas Nagy</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>National Bureau of Economic
+					 Research: </corpname>Conference Minutes and Correspondence
+				  (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>National Bureau of Economic
+					 Research: </corpname>Conference Minutes and Correspondence
+				  (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Egon
+					 Neuberger</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>State University of New York at
+					 Albany </corpname>(1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>State University of New York at
+					 Albany </corpname>(2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Jurg Niehans</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Northwestern
+					 University</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>O-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>O (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>O (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Oklahoma City
+					 University</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Anders
+					 Olgaard</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Mancur Olson</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Omicron Delta Epsilon </corpname>(1
+				  of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Omicron Delta Epsilon </corpname>(2
+				  of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>University of
+					 Oregon</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Oriental Research
+					 Partners</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Osterwell Prize in
+				  Economics</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>P-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pa-Ph (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pa-Ph (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pi-Pz (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pi-Pz (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Mary Painter</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>William
+					 Parker</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Don Patikin</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Felipe Pazos</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>
+                     <persname>Austin Peck</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of
+					 Pennsylvania</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Edith
+					 Penrose</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Mark Perlman</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Boris Pesek</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>John
+					 Pettengill</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Philippines</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Anna Polorna</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Richard
+					 Portes</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>M. M. Postan</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Princeton
+					 University</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>O. Prochazka</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Stanfor Pulrang:
+					 </persname>Correspondence and Paper</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Q</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Quarterly Journal of Economics:
+					 </corpname>Referee Comments, Proposals, and
+				  Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>R-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ra-Re</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Re-Rz (1 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Re-Rz (2 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Re-Rz (3 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The
+				  <corpname>RAND Corporation, </corpname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1969</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Review of Economics and
+					 Statistics</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of Rhode
+					 Island</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Rice
+					 University</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Joan
+					 Robinson</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Rockefeller
+					 Foundation</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Spain </geogname>and
+				  <geogname>Portugal </geogname>Visit,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Robert V.
+					 Roosa</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Rochester Conference on the
+				  Application of Mathematical Methods to
+				  <subject>Soviet Economic </subject>
+                     <subject>Planning,</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1965</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Romania</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Stephan
+					 Royez</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Rutgers
+					 University</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>S-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Soviet Union</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Frank
+					 Spooner</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Nicolas
+					 Spuler</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Ivan Mateev
+					 Stefanov</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The
+				  <corpname>Stockholm School of
+					 Economics</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Vladimir Stoikov: </persname>Paper
+				  and Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Paul
+					 Streeten</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Subcommittee on the Grants of the
+				  Joint Committee on
+				  <subject>Slavic Studies</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Barry E.
+					 Supple</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Kund Erik </persname>
+                     <persname>Svendsen</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Sweden: </geogname>Correspondence
+				  with Various Professors</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Swedish Royal Academy of
+					 Sciences</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Syracuse University
+					 </corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>T-General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>T (1 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>T (2 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>T (3 of 3)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Peter Temin</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of
+					 Toronto</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Tulane
+					 University</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Pavel Turcan</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Turkey</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>U</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>United Malayan Banking
+					 Corporation</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>United
+					 Nations</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>
+                     <corpname>Department of Education
+					 </corpname>Conference: Various Documents and
+				  Correspondence,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1964</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>US Government Agencies</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>V</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Vanderbilt
+					 University</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>W-We (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>W-We (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wh-Wz (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wh-Wz (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Martin Weitzman: </persname>
+                     <corpname>Cowles Commission </corpname>Paper
+				  and Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Wellesley
+					 College</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>University of Western
+					 Ontario</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Wolf's
+					 </persname>Manuscript</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Woodrow Wilson
+				  Fellowships</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Yale University </corpname>(1 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Yale University </corpname>(2 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Yugoslavia</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>X, Y, and Z</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Research Materials,
+				<unitdate normal="1944/1995" type="inclusive" era="ce" calendar="gregorian">1944-1995
+				  </unitdate>and undated
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Papers documenting Domar's research in
+				<subject>serfdom </subject>and
+				<subject>slavery </subject>(particularly in
+				<geogname>Russia), </geogname>comparative
+				<subject>productivity </subject>and
+				<subject>efficiency, </subject>
+                  <subject>value-added taxes, </subject>and other
+				topics. Includes many computations and charts relating to
+				Domar's published and unpublished work. Also contains
+				series of notecards on various subjects.</p>
+            </scopecontent>
+            <scopecontent>
+               <p>Files are in Domar's original order. </p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>
+                     <subject>"Index Number Tournament":
+					 </subject>Computations</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>"Index Number
+					 Tournament"</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Index of
+				  <subject>Industrial
+					 Production</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>"Index Number Tournament":
+					 </subject>Manuscript</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>"Index Number Tournament":
+					 </subject>Derivations</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>"Soviet </geogname>Postwar
+				  <subject>Economic Growth </subject>and
+				  Capital
+				  <subject>Labor </subject>Substitution,"
+				  <persname>Walter l.
+					 Weitzman</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>"Index Number Tournament":
+					 </subject>Manuscript,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1966</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"On the Measurement of
+				  <subject>Comparative Efficiency" </subject>(1
+				  of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"On the Measurement of
+				  <subject>Comparative Efficiency" </subject>(2
+				  of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>East-West
+				  <subject>Trade</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>"Comparative Productivity
+					 </subject>and
+				  <subject>Efficiency </subject>in the
+				  <geogname>USSR," </geogname>
+                     <persname>Abram
+					 Bergson</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"On Total
+				  <subject>Productivity </subject>and All
+				  That"</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"Total
+				  <subject>Productivity </subject>and the
+				  Quality of
+				  <subject>Capital"</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>"Efficiency </subject>of the
+				  <geogname>Soviet </geogname>Economy,"
+				  <persname>Joseph
+					 Berliner</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>On the Measurement of Technological
+				  Progress</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>How to Compare the B Index in One
+				  Lesson</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Reflections on
+				  <subject>Economic
+					 Development</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Technological Progress
+				  Project</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Production
+					 </geogname>Functions</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Notes on
+				  <geogname>Productivity</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Productivity
+					 </geogname>Study</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Review of
+				  <persname>Kendrick's
+					 </persname>Article</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Slavery </subject>Papers
+				  <archref xlink:type="simple" xlink:href="">
+                        <physdesc>
+                           <extent>(6
+						folders)</extent>
+                        </physdesc>
+                     </archref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"The Causes of
+				  <subject>Slavery: </subject>A Hypothesis"
+				  (draft copy)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Economic Development Institute
+					 </corpname>Lectures,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1969
+					 </unitdate>(1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Economic Development Institute
+					 </corpname>Lectures,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1969
+					 </unitdate>(2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bergson's Table</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Lectures Given in
+				  <geogname>England, </geogname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1952-1953</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Education </subject>and
+				  <subject>Research:
+					 </subject>General</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Contributions of
+				  <subject>Federal Expenditures </subject>to
+				  <subject>Economic Growth </subject>and
+				  <subject>Stability: </subject>Congressional
+				  Joint Committee on the Economic Report,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1957</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lectures on the
+				  <subject>Soviet Economy, </subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1957-1986
+					 </unitdate>(1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lectures on the
+				  <subject>Soviet Economy, </subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1957-1986
+					 </unitdate>(2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Soviet Economic
+					 Development</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lectures on
+				  <geogname>Russian </geogname>
+                     <subject>Serfdom,</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1988</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Chayan </persname>Book
+				  Reviews</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Bensosan-Butt's </persname>Book
+				  Review</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Price </subject>and
+				  <subject>Wage </subject>Policy: Joint
+				  Congressional Committee,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1957</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Feldman's
+					 </subject>Model</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>CORFU Paper on
+				  <subject>Capital
+					 Coefficients</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Mt. Holyoke
+					 </corpname>Lectures</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lecture: "On the State of the
+				  <subject>American Economy,"</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1974</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lecture: "The Problem of
+				  <subject>Economic Growth: </subject>To Grow
+				  or Not to Grow"</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lessons from
+				  <subject>Growth Models,</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1974</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Cowles Commission
+					 </corpname>Discussion Paper,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Comments on Professor
+				  <persname>Kuznet's </persname>Paper:
+				  "International Differences in
+				  <subject>Capital </subject>Foundation and
+				  Financing,"
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1953</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lecture:
+				  <title xlink:type="simple" render="doublequote" xlink:href="">Economics and the
+					 Modern University,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lecture: "The Rise of
+				  <subject>Meritocracy,"</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"Poor Mr.
+				  <persname>Nixon"</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Various Papers</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trip to
+				  <geogname>USSR,</geogname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>USSR </geogname>Travel Notes (1 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>USSR </geogname>Travel Notes (2 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Soviet </geogname>Materials on
+				  Economists</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Soviet </geogname>Teaching of
+				  Economics</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Yugoslavia</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>USSR </geogname>Miscellaneous Trip
+				  (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>USSR </geogname>Miscellaneous Trip
+				  (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>"Depreciation,
+					 </subject>Replacement, and
+				  <subject>Growth </subject>Mathematical
+				  Appendix"</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"The Effect of
+				  <subject>Foreign Investment </subject>on the
+				  Balance of Payments"</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"The Case for Accelerated
+				  <subject>Depreciation: </subject>Mathematical
+				  Appendix"</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Serfdom </subject>Defivations and
+				  Calculations and Notes (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Serfdom </subject>Defivations and
+				  Calculations and Notes (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Serfdom </subject>Graphs</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"On the profitability on
+				  <geogname>Russian </geogname>
+                     <subject>Serfdom,"</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian"> 1984</unitdate>
+				  (Miscellaneous)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">January
+						1984</unitdate> (Draft Paper)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">May
+						1984</unitdate> (Draft Paper)`</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1984</unitdate>
+					 (Legal Aspects)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Foreign Economic
+					 Development</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Current
+					 Research</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>"Were
+				  <geogname>Russian </geogname>
+                     <subject>Serfs </subject>Overcharged for
+				  Their Land in 1861?:" Draft Copies and Notes</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Model C Calculations</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Serfdom: </subject>
+                     <geogname>Russian </geogname>Publications
+				  <archref xlink:type="simple" xlink:href="">
+                        <physdesc>
+                           <extent>(4
+						folders)</extent>
+                        </physdesc>
+                     </archref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Serfdom: </subject>Various Papers (1
+				  of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Serfdom: </subject>Various Papers (2
+				  of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Serfdom: </subject>Reprints of
+				  <geogname>Russian </geogname>Publications and
+				  Redemption
+				  <subject>Prices</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Serfdom </subject>Sales Data
+				  <archref xlink:type="simple" xlink:href="">
+                        <physdesc>
+                           <extent>(3
+						folders)</extent>
+                        </physdesc>
+                     </archref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Serfdom </subject>Unweighted
+				  Regressions</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Various
+				  <subject>Serfdom </subject>Tables</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Serfdom: </subject>Redemption
+				  <subject>Prices </subject>Tables and
+				  Notes</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>On the
+				  <subject>Probability </subject>of
+				  <geogname>Russian </geogname>
+                     <subject>Serfdom: </subject>Statistical
+				  Appendix</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Data List</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>On the Probability of
+				  <geogname>Russian </geogname>
+                     <subject>Serfdom </subject>
+                     <archref xlink:type="simple" xlink:href="">
+                        <physdesc>
+                           <extent>(4
+						folders)</extent>
+                        </physdesc>:</archref>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Appendix Calculations</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Draft Comments</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Original Charts</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence and
+					 Notes</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Effect of the
+				  <subject>Interest Rate </subject>(1 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Effect of the
+				  <subject>Interest Rate </subject>(2 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Problem of Empire's Models
+				  <archref xlink:type="simple" xlink:href="">
+                        <physdesc>
+                           <extent>(3
+						folders)</extent>
+                        </physdesc>
+                     </archref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>On the
+				  <subject>Probability </subject>of
+				  <geogname>Russian </geogname>
+                     <subject>Serfdom: </subject>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Working Paper,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">
+						1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Earlier Drafts</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Notes, and Mathematical
+					 Models</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence and Draft
+					 Paper</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous Notes and
+					 Papers</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Research Statistics
+					 </subject>Results:
+				  <archref xlink:type="simple" xlink:href="">
+                        <physdesc>
+                           <extent>(4
+						folders)</extent>
+                        </physdesc>
+                     </archref>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Serf and Land Prices</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Classes and
+					 Distribution</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Land </subject>Total and Per
+					 Soul</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Various
+				  <corpname>Federal Reserve </corpname>board
+				  papers by Domar,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1944-1946</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Value-Added Tax </subject> --
+				  Derivations</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Value-Added Tax </subject> --
+				  Research Papers (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Value-Added Tax </subject> --
+				  Research Papers (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Value-Added Tax </subject> --
+				  Derivations</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Tax </subject>Timing
+				  Derivation</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"On the Pyramiding of the
+				  <subject>Value-Added
+					 Tax"</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Value-Added
+					 Tax</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"The Economics of
+				  <geogname>Soviet </geogname>
+                     <subject>Foreign Trade Policy,"</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Expansion </subject>and
+				  <subject>Employment,</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1947</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"Does the Timing of the
+				  <subject>Tax </subject>Payment Matter?":
+				  Correspondence, Manuscript, and Research Papers,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1994</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"If I Were
+				  <persname>George Washington: </persname>A
+				  Suggested Dissertation Topic"</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>"Jewish History </subject>in One
+				  Lesson"</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Book Reviews of Journals
+				  <archref xlink:type="simple" xlink:href="">
+                        <physdesc>
+                           <extent>(5
+						folders)</extent>
+                        </physdesc>
+                     </archref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Index Project</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bibliography:
+				  Russian-English</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"The Rise of
+				  <geogname>Lithuania"</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>II-C through II-D</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Beginning</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Not
+					 Used</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>World Country
+				  Bibliography</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"Bibliography on
+				  <subject>Serfdom"</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous
+				  <subject>Serf</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>World Country
+				  Bibliography</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The Future of
+				  <subject>Serfs</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Miscellaneous Lectures on the
+				  <subject>Soviet Economy, </subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1989-1992</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Value-Added Tax
+					 </subject>Calculations</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">The Blind Men and the
+					 Elephant: An Essay on Isms,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1988</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Writings By Others
+				  <archref xlink:type="simple" xlink:href="">
+                        <physdesc>
+                           <extent>(3
+						folders)</extent>
+                        </physdesc>
+                     </archref>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Home and Office
+					 Books</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"Reflections on
+				  <subject>Perestroika,"</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1995</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"On
+				  <subject>Deficits </subject>and
+				  <subject>Debts"</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous
+				  <subject>Serfdom</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous
+				  <subject>Slavery</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous Subject
+				  Headings</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous Notecards</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Serfdom </subject>Notes (1 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Serfdom </subject>Notes (2 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Russian </geogname>History
+				  Notecards</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Mailing List - untitled</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"Elephant Mailings"
+				  Cards</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Slavery/Serfdom </subject>Note
+				  Cards</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Slavery/Serfdom </subject>Note
+				  Cards</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Comparative Studies Note
+				  Cards</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"Empire" Bibliography</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"Empire" Note Cards</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Untitled Note Cards</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Printed Materials,
+				<unitdate normal="1904/1989" type="inclusive" era="ce" calendar="gregorian">1904-1989
+				  </unitdate>and undated(bulk
+				<unitdate normal="1957/1989" type="bulk" era="ce" calendar="gregorian">1957-1989</unitdate>)</unittitle>
+            </did>
+            <scopecontent>
+               <p>Mostly hardcover books from Domar's personal
+				library. Some relate to his research interests while others
+				are editions or translations of his own published works.
+				Includes microfilm of
+				<unitdate type="inclusive" era="ce" calendar="gregorian"> 1904</unitdate>
+                  <geogname>Russian </geogname>work on unknown
+				subject matter, and
+				<unitdate type="inclusive" era="ce" calendar="gregorian"> 1980</unitdate>
+				translation of
+				<unitdate type="inclusive" era="ce" calendar="gregorian"> 1861</unitdate>
+                  <geogname> Russian </geogname>work on
+				<subject>serfdom </subject>in
+				<geogname>Russia.</geogname>
+               </p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Eseje o teorii ekonomickeho rastu,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1966</unitdate>
+				  (Essays in the Theory of
+				  <subject>Economic Growth,</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate>)
+				  (two copies)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Essays in the Theory of
+				  <subject>Economic Growth,</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1957</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>History of
+				  <subject>Political Economy,</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Capitalism, </subject>
+                     <subject>socialism, </subject>and
+				  <subject>serfdom,</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1989</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Szkice z teorii wzrostu
+				  gospodarczego,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate>
+				  (Essays in the Theory of
+				  <subject>Economic Growth,</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate>)
+				  (two copies)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Essays in the Theory of
+				  <subject>Economic Growth,</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate>
+				  (Japanese edition,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1959</unitdate>)
+				  (two copies)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Profitti imposta e investimenti
+				  (Essays in the Theory of
+				  <subject>Economic Growth,</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1957</unitdate>)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The Determinants of
+				  <subject>Russian State Income, </subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1800-1914:
+					 </unitdate> An Economic Analysis, Volume 1,
+				  <persname>L. Dwight Israelsen,</persname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The
+				  <subject>Serf </subject>Population in
+				  <geogname>Russia, </geogname>
+                     <persname>A. Troynitskiy,</persname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian"> 1861</unitdate>
+				  (Translated in
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1980</unitdate>)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The Fall and Rise of the American
+				  Academic Establishment: The Revolution of 1960-2020 [
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1971?</unitdate>]
+				  (three copies) [Domar?]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The Comparative Performance of
+				  Social and Private Organizations: The Case of Postwar
+				  <subject>Yugoslav Agriculture, </subject>M.
+				  L. Boyd,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1984</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Microfilm (reel): "Microfilm of
+				  Duvtpueb's [sp?] Book,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1904</unitdate>"
+				  <geogname>(Russian
+					 </geogname>work)</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Course Materials,
+				<unitdate normal="1939/1985" type="inclusive" era="ce" calendar="gregorian">1939-1985
+				  </unitdate>and undated
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Lecture notes and texts, reading lists,
+				workshop materials, exam questions, and other materials
+				related to Domar's teaching career.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>
+                     <corpname>Wellsley College
+					 </corpname>Teaching</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Comparative Economic Systems:
+					 </subject>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Reading Lists,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1982-1983
+						</unitdate>(1 of 6)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Reading Lists,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1956-1982
+						</unitdate>(2 of 6)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Reading Lists and Student
+					 Bibliographies (3 of 6)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>The Cost of the
+					 <subject>Great Depression </subject>(4 of
+					 6)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Government Percentages (5 of
+					 6)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Questionnaire (6 of 6)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Capitalizing </subject>
+                     <subject>Socialism </subject>and
+				  <subject>Growth:</subject>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Reading List (1 of 9)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Reading List (2 of 9)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Socialism </subject>(3 of
+					 9)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Capitalism </subject>(4 of
+					 9)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Growth </subject>(5 of
+					 9)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Growth </subject>(6 of
+					 9)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Reading List (7 of 9)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Examinations (8 of 9)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Examinations (9 of 9)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"A Note on Interindustry
+				  <subject>Wage </subject>Differentials in
+				  <geogname>Yugoslavia </geogname>and the
+				  <geogname>US" </geogname>by
+				  <persname>Clifford
+					 Donn</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Workshop in
+				  <subject>Comparative Economic
+					 Systems</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Macroeconomics </subject>Reading
+				  List,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>National
+				  <subject>Income </subject>Problem</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Macroeconomics </subject>Reference
+				  Tables</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Macroeconomics </subject>Lecture
+				  Notes, Exam, and Paper:
+				  <subject>"Stability </subject>Without
+				  Planning: The
+				  <subject>American
+					 Expansion"</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Computation of
+				  <subject>Gross National Product </subject>and
+				  Its Components</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Macroeconomics </subject>
+                     <subject>Interest Rate </subject>Lecture
+				  Notes</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Macroeconomics </subject>Annual Cost
+				  of
+				  <subject>Capital</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The Definition of
+				  <subject>Money </subject>and the Money
+				  Illusion of Real Balance Effects</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Macroeconomics Price
+					 </subject>Flexibility and
+				  <subject>Employment </subject>Lecture
+				  Notes</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"Fiscal and
+				  <subject>Monetary Policy: </subject>The
+				  Burden of the
+				  <subject>Federal Debt"</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Elementary Economics Lecture
+				  Notes</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Macroeconomics </subject>Old Reading
+				  List</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Elementary Economics
+				  Exams</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">16</container>
+                  <unittitle>Economics of the
+				  <geogname>Soviet Union </geogname>and
+				  <geogname>China: </geogname>Reading Lists,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1964-1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Economics of the
+				  <geogname>Soviet Union </geogname>and
+				  <geogname>China: </geogname>Reading Lists,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1985</unitdate>
+				  and
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ditto Materials</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Problems of
+				  <geogname>Russian </geogname>Economic
+				  History:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Reading List,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1981-1984
+						</unitdate>(1 of 8)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Reading List,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1980
+						</unitdate>(2 of 8)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>From Peter I to
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1861:
+						</unitdate>Notes and Papers (3 of 8)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>From Peter I to
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1861:
+						</unitdate>Notes and Papers (4 of 8)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>From Emancipation to Revolution:
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1861-1917:
+						</unitdate>Notes (5 of 8)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Kievan and Appanage Periods: Parts
+					 I-II: Lecture Notes and Papers (6 of 8)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Development of
+					 <subject>Serfdom: </subject>16th and 17th
+					 Centuries: Part III: Lecture Notes and Papers (7 of
+					 8)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Article Reprints (8 of
+					 8)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Soviet
+					 Agriculture</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Soviet Planning:
+					 </subject>Investment Dervisions</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Russian </geogname>Economics:
+				  Reading List</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Topics of
+				  <subject>Economic History:
+					 </subject>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Reading List,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1980-1982</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Reading List,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1980-1983</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Money</subject>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Agrarian Relations </subject>and
+					 Enclosures: Notes and Papers</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Slavery </subject>and
+					 <subject>Serfdom: </subject>Papers and
+					 Graphs</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Notes</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Black Death,</subject>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ph.D. Examinations:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Macroeconomics</subject>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Microeconomics</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Economic Developments</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Fiscal Economics</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>John Hopkins
+					 University</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Economic History</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Comparative Economic Systems,
+					 Socialism, and Economic Development</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Macroeconomics: </subject>Final
+				  Exam</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Problems in
+				  <geogname>Russian </geogname>Economic
+				  History: Examinations</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Examination:
+				  <subject>Public Finance </subject>and
+				  <subject>Fiscal Policy</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Final Exam: John Hopkins, Stanford,
+				  and University of Michigan</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Final Examination:
+				  <subject>Business
+					 Cycles</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous
+				  Examinations</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>UCLA Teaching</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stockholm Teaching</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Student Evaluations (1 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Student Evaluations (2 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Consumer Markets: </subject>Fact
+				  Sheets</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Undergraduate
+				  <subject>Macroeconomics</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">17</container>
+                  <unittitle>
+                     <subject>Macroeconomics:
+					 </subject>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>The
+					 <subject>Balanced Budget
+						</subject>Multiplies</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Aggregate Algebraic
+					 Problems</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Questionnaire on the Theory of
+					 National
+					 <subject>Income </subject>and
+					 <subject>Employment</subject>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Theory of National
+					 <subject>Income </subject>and
+					 <subject>Employment</subject>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Keynesian and Classical
+					 Models</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Consumption
+						</subject>Function</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>National Budgets</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Investment
+						</subject>Decisions</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Input-Output Tables (1 of
+					 2)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Input-Output Tables (2 of
+					 2)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Business Cycles</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>National Budget </subject>Table,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1953-1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Uses of Net
+					 <subject>Corporate Income, </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1950-1959</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Difference Equations</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Data on
+				  <subject>Income </subject>and
+				  <subject>Savings</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Topics in
+				  <subject>Economic
+					 History</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Course Notes</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Elementary Relationships in
+				  <subject>Microeconomics</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Economic Growth </subject>and
+				  <subject>Development</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Fiscal and
+				  <subject>Monetary
+					 Policy</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Distribution of
+				  <subject>Tax </subject>Payments
+				  Table</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"On the Optimal Compensation of a
+				  <subject>Socialist </subject>Managee"
+				  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"On the Optimal Compensation of a
+				  <subject>Socialist
+					 </subject>Manager"</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"On the Optimal Compensation of a
+				  <subject>Socialist
+					 </subject>Manager"</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"The Effect of a Proportional
+				  Subsidy on a
+				  <subject>Tax </subject>on the Quality and
+				  Quantity of Output" (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"The Effect of a Proportional
+				  Subsidy on a
+				  <subject>Tax </subject>on the Quality and
+				  Quantity of Output" (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>"Poor Old
+				  <subject>Capitalism"</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Planning and
+				  <subject>Market Relations: </subject>IEA
+				  Meeting,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1970</unitdate>
+				  (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Planning and
+				  <subject>Market Relations: </subject>IEA
+				  Meeting,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1970</unitdate>
+				  (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>"Stability </subject>Without
+				  Planning?" (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>"Stability </subject>Without
+				  Planning?" (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stencils for Courses</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Topics in
+				  <subject>Economic History:
+					 </subject>Examinations</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Macroeconomics:
+					 </subject>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Examination (1 of 3)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Final Exams (2 of 3)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Student Evaluations (3 of
+					 3)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Harvard Teaching</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Latrobe University (Australia)
+				  Teaching</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Russian </geogname>
+                     <subject>Economic History:
+					 </subject>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Reading List,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">
+						1984</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Reading List,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">
+						1985</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">18</container>
+                  <unittitle>Domar's Course Notebook:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Mathematical Theory of
+					 <subject>Probability: </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1939-1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Calculus </subject>of Finite
+					 Differences,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1939-1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Statistics,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1939-1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Advanced Calculus
+					 Theory</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Introduction to the Theory of
+					 <subject>Point Sets, </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1939-1940</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Math 114a</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Essays in
+				  <subject>Economics of
+					 Expansion</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bibliographies</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Curriculum Vitae of Evsey Domar,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1973</unitdate>
+				  and
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1985</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Biographical:
+				  <title xlink:type="simple" render="doublequote" xlink:href="">Jews in Harbin</title>
+				  Interview with Domar</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Mexico </geogname>Travel (1 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Mexico </geogname>Travel (2 of
+				  2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Biographical:
+				  <title xlink:type="simple" render="doublequote" xlink:href="">The Story of My
+					 Thesis</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous Travel</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Various Research and Thesis
+				  Topics</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>USSR </geogname>Travel</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Soviet Union
+					 </geogname>Trip</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trip to
+				  <geogname>USSR,</geogname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian"> 1971</unitdate>
+				  (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trip to
+				  <geogname>USSR,</geogname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian"> 1971</unitdate>
+				  (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Boris Khazanov </persname>Resume,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">
+					 1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Humorous Speech Given for Retirement
+				  of
+				  <persname>Barbara
+					 Kligelnhagen</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Article Reference to
+				  Domar</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Photographs (Portraits of Domar)
+				  <archref xlink:type="simple" xlink:href="">
+                        <physdesc>
+                           <extent>(3
+						items)</extent>
+                        </physdesc>
+                     </archref>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Oversize Material</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="opaperfolder">Folder 1</container>
+                  <unittitle>Research Materials and Writings</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

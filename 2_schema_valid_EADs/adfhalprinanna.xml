@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" publicid="-//American Dance Festival Archives//TEXT (US::ndd::Anna Halprin Papers, 1957-1995)//EN" url="http://library.duke.edu/rubenstein/findingaids/adfhalprinanna/">adfhalprinanna</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Anna Halprin Papers,
+		<date normal="1957/1995" era="ce" calendar="gregorian">1957-1995</date>
+            </titleproper>
+            <author>Processed by: Rachel Cotterman; machine-readable finding aid created by: Dean Jeffrey</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>
+               <lb/>American Dance Festival Archives<lb/> Durham, N.C., USA </publisher>
+            <p>
+               <date normal="2008" encodinganalog="date" era="ce" calendar="gregorian">2008</date> Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note type="ncead">
+               <p>This finding aid is NCEAD compliant.</p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+            <date era="ce" calendar="gregorian">Date of source: July 2009</date>
+         </creation>
+         <langusage>Description is in
+		<language langcode="eng">English</language>
+         </langusage>
+         <descrules>Finding aid was prepared using <title xlink:type="simple" xlink:href="">DACS</title>
+         </descrules>
+      </profiledesc><!-- Location of <revisiondesc> if needed -->
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Anna Halprin Papers, <date type="span" era="ce" calendar="gregorian">1957-1995</date>
+         </titleproper>
+         <publisher>American Dance Festival Archives<lb/>
+Box 90772<lb/>
+Durham, North Carolina, 27708-0772 USA<lb/>
+Phone: 919-684-6402<lb/>
+Fax: 919-684-5459<lb/>
+Email: adfarchives@americandancefestival.org
+</publisher>
+         <p>
+            <date normal="2009" era="ce" calendar="gregorian">© 2009</date> American Dance Festival. All Rights Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC">
+      <did>
+         <head>Descriptive Summary</head>
+         <repository label="Repository">
+            <corpname>American Dance Festival Archives<lb/>
+            </corpname>
+            <address>
+               <addressline>Box 90772<lb/>
+               </addressline>
+               <addressline>Durham, North Carolina, 27708-0772 USA<lb/>
+               </addressline>
+               <addressline>Phone: 919-684-6402<lb/>
+               </addressline>
+               <addressline>Fax: 919-684-5459<lb/>
+               </addressline>
+               <addressline>Email: adfarchives@americandancefestival.org</addressline>
+            </address>
+         </repository>
+         <origination label="Creator">
+            <persname encodinganalog="100">Halprin, Anna.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Anna Halprin papers <unitdate normal="1957/1995" type="inclusive" era="ce" calendar="gregorian">1957-1995</unitdate>
+         </unittitle>
+         <langmaterial label="Language of Material" encodinganalog="546">Material in <language langcode="eng">English</language>
+         </langmaterial>
+         <physdesc label="Extent">
+            <extent unit="linear feet" encodinganalog="300">1.33 linear feet</extent>
+            <lb/>
+            <extent unit="archival boxes">2 boxes</extent>
+         </physdesc>
+         <physloc label="Location">For current information on the location of
+		  these materials, please consult the ADF Archives.</physloc>
+         <abstract label="Abstract" encodinganalog="545">Anna Halprin (b. 1920) is a pioneering dancer and choreographer of the post-modern dance movement. She founded the San Francisco Dancer's Workshop in 1955 as a center for movement training, artistic experimentation, and public participatory events open to the local community. Halprin has created 150 full-length dance theater works and is the recipient of numerous awards including the 1997 Samuel H. Scripps Award for Lifetime Achievement in Modern Dance from the American Dance Festival. Her students include Meredith Monk, Trisha Brown, Yvonne Rainer, Simone Forti, Ruth Emmerson, Sally Gross, and many others.
+</abstract>
+         <abstract encodinganalog="520">Collection includes books, magazines, photographic prints, clippings, flyers, written correspondence, programs, essays, and other printed materials.</abstract>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict encodinganalog="506">
+            <head>Access Restrictions</head>
+            <p>Patrons must sign the Acknowledgement of Legal Responsibility and Privacy Rights form before using this collection.</p>
+            <p>Collection is open for research.</p>
+            <p>In off-site storage; 48 hours advance notice is required for use.</p>
+         </accessrestrict>
+         <userestrict encodinganalog="540">
+            <head>Copyright Notice</head>
+            <p>Copyright for official American Dance Festival administrative records is held by the American Dance Festival; all other copyright is retained by the authors of items in these papers, or their descendants, as stipulated by United States copyright law.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Anna Halprin Papers, American Dance Festival Archives.</p>
+         </prefercite>
+         <acqinfo encodinganalog="541">
+            <head>Acquisitions Information</head>
+            <p>The Anna Halprin Papers were received by the American Dance Festival as a gift.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Rachel Cotterman, June 2009</p>
+            <p>Encoded by Dean Jeffrey, June 2009</p>
+         </processinfo>
+      </descgrp><!-- Enter each paragraph of the bioghist in separate p elements. -->
+      <bioghist>
+         <head>Biographical Note</head>
+         <p>Anna Halprin (b. 1920) is a pioneering dancer and choreographer of the post-modern dance movement. She enrolled in the University of Wisconsin in the late 1930s where she studied with Margaret D'Houbler and developed a strong interest in collaboration and improvisation in response to more formalized modern dance techniques. Over her long career, Halprin has stretched the perceived boundaries of dance to include theater, visual art, myth, ritual, and individual and collective healing. She founded the San Francisco Dancer's Workshop in 1955 as a center for movement training, artistic experimentation, and public participatory events open to the local community. Large-scale public pieces such as <title xlink:type="simple" render="italic" xlink:href="">Circle the Earth</title> and <title xlink:type="simple" render="italic" xlink:href="">Myths</title> demonstrated the development of Halprin's unique expressive and transformative arts technique. Halprin's own battle with cancer has deepened her interest in dance as a tool for transforming the suffering of age, illness, and death. In 1978 she co-founded the Tamalpa Institue with her daughter Daria as a research and educational non-profit in the field of movement-based healing arts. Halprin has created 150 full-length dance theater works and is the recipient of numerous awards including the 1997 Samuel H. Scripps Award for Lifetime Achievement in Modern Dance from the American Dance Festival. She is the co-creator of the RSVP Cycle, a creative methodology that can be applied to many disciplines beyond dance. Her students include Meredith Monk, Trisha Brown, Yvonne Rainer, Simone Forti, Ruth Emmerson, Sally Gross, and many others.</p><!-- use "Chronlist Tags" here if there is a chronology -->
+      </bioghist><!-- Enter each paragraph of the scopecontent and arrangement in separate p elements. -->
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection includes books, magazines, photographic prints, clippings, flyers, written correspondence, programs, essays, and other printed materials.</p>
+         <arrangement>
+            <head>Collection Arrangement</head>
+            <p>The Anna Halprin Papers are organized into three series: Publications, Festival Programs, and Subject Files. 
+</p>
+         </arrangement>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname source="lcsh" encodinganalog="600">Halprin, Anna</persname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">San Francisco Dancers’ Workshop</corpname>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Choreographers -- United States</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Modern Dance -- United States</subject>
+            </item>
+         </list>
+      </controlaccess><!-- Use separated materials and related materials clips here to enter in information -->
+      <dsc type="combined">
+         <head>Contents of Collection</head><!-- use component levels clips to enter in the description of subordinate components -->
+         <c01 level="series">
+            <did>
+               <unittitle id="s1">Publications, <unitdate type="inclusive" normal="1957/1995" era="ce" calendar="gregorian">1957-1995 and undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>17 Folders</extent>
+               </physdesc>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Publications by Anna Halprin, <unitdate type="inclusive" normal="1975/1995" era="ce" calendar="gregorian">1975-1995 and undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">OS1</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Dancers' Workshop</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Movement Ritual I</title>, 1975</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Citydance: Anna Halprin &amp; San Francisco Dancers' Workshop 1977</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Discovering Dance,</title>
+                        <title xlink:type="simple" render="italic" xlink:href="">Lomi School Bulletin</title>, Summer 1981</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Circle the Earth Manual</title>, 1987</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Movement Ritual</title>, 1990</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Moving Toward Life: Five Decades of Transformational Dance</title>, 1995 (hardcover)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Moving Toward Life: Five Decades of Transformational Dance</title>, 1995 (softcover)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Dance as a Healing Art: A Teacher's Guide &amp; Support Manual for People with Cancer</title>, 1997</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Publications about Anna Halprin, <unitdate type="inclusive" normal="1957/1963" era="ce" calendar="gregorian">1957-1963</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Close-Up of Modern Dance Today: The Private Teacher,</title>
+                        <title xlink:type="simple" render="italic" xlink:href="">Dance Magazine</title>, December 1957</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Anna Halprin, Fresnans to Dance,</title>
+                        <title xlink:type="simple" render="italic" xlink:href="">California Crossroads</title>, May 1960</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">I Balletti di Ann Helprin,</title>
+                        <title xlink:type="simple" render="italic" xlink:href="">Sipario</title>, 1963</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Manifold Applications,</title> by Jack Anderson, <title xlink:type="simple" render="italic" xlink:href="">Dance Magazine</title>, April 1963 (2 copies)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">La Nueva Coreografia Americana,</title> by Giordano Falzoni, <title xlink:type="simple" render="italic" xlink:href="">Mondo Occidentale</title>, 1963</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Publications collected by Anna Halprin, <unitdate type="inclusive" normal="1966/1988" era="ce" calendar="gregorian">1966-1988</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Impulse: Current Trends</title>, 1966</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Something That's Happening: A Portrait of the Sausalito School District</title>, 1968</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Human Potential</title>, Winter 1987/1988</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s2">Festival Programs, <unitdate type="inclusive" normal="1963/1965" era="ce" calendar="gregorian">1963-1965</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>6 Folders</extent>
+               </physdesc>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Muzicki Biennale Zagreb, 1963 (2 copies)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>La Biennale de Venezia Music Festival, 1963</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Teatro Delle Arti, 1963</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>UCLA Concerts, Improvisation Festival, 1964</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Muzicki Biennale Zagreb Bulletin, 1965 (2 copies)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stockholms Festspel, 1965 (book and 2 copies bulletin)</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s3">Subject Files, <unitdate type="inclusive" normal="1963/1985" era="ce" calendar="gregorian">1963-1985 and undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>32 Folders</extent>
+               </physdesc>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Biographical Information</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Anna Halprin at ADF</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Healing Arts</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Dancer's Workshop Draft, Christmas 1973</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Reviews from Early Years</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tamalpa Institute</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Education, <unitdate type="inclusive" normal="1967" era="ce" calendar="gregorian">1967 and undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Writings, 1967</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Movement Ritual</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Performances and Community Events, <unitdate type="inclusive" normal="1963/1985" era="ce" calendar="gregorian">1963-1985 and undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Kadosh</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>American Dance Season, ANTA Theater, 1955</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Apartment 6</title>, 1963</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Five-Legged Stool</title>, 1964</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Birds of America</title>, 1964</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Parades and Changes</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Myths</title>, 1970</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Hunter College Performance, 1970</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Male-Female Rituals</title>, 1974</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Trace Dance</title>, 1977</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Search for Living Myths and Rituals, 1981</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">In the Mountain, On the Mountain</title>, 1981-1985</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Citydance</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">OS1</container>
+                     <unittitle>Experiments in the Environment Workshop</unittitle>
+                  </did>
+               </c03>
+               <c03 level="subseries">
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Circle the Earth</title>, <unitdate type="inclusive" normal="1985/1991" era="ce" calendar="gregorian">1985-1991 and undated</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">1</container>
+                        <unittitle> Flyers and Programs</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Writings and Reviews</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>San Francisco Dancers' Workshop, <unitdate type="inclusive" normal="1965/1979" era="ce" calendar="gregorian">1965-1979 and undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Annual Reports 1965-1967</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Documentation Summer 1974</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Documentation Winter 1975</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Information Packet, 1976</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Reach out Program Documentation, 1979</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Philosophy</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Publicity</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Performances</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

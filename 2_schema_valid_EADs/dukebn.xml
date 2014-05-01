@@ -1,0 +1,3681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" langencoding="iso639-2b" findaidstatus="unverified-full-draft" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid publicid="-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::Benjamin Newton Duke Papers)//EN" countrycode="us" url="http://library.duke.edu/rubenstein/findingaids/dukebn/" mainagencycode="ndd">dukebn</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Benjamin Newton Duke Papers, <date normal="1834/1984" era="ce" calendar="gregorian">1834-1984, </date>
+               <date normal="1884/1929" type="bulk" era="ce" calendar="gregorian">bulk 1884-1929.</date>
+            </titleproper>
+            <author>Processed by Madeleine Bagwell Perez; machine-readable finding aid created by
+Rachel Pottinger</author>
+         </titlestmt>
+         <publicationstmt>
+            <date era="ce" calendar="gregorian"> 1997</date>
+            <p>Duke University. All rights reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000849851</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from MS Word.
+Date of source: <date era="ce" calendar="gregorian">June 30, 1991.</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005" era="ce" calendar="gregorian">08-18-2005</date>
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::Benjamin Newton Duke Papers)//EN" "dukebn.sgm" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date era="ce" calendar="gregorian">June 29, 1998</date>
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Benjamin Newton Duke Papers, <date era="ce" calendar="gregorian">1834-1984</date>, bulk 1884-1929.
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>
+            <lb/>Duke University<lb/>Durham, North Carolina 27708-0185</publisher>
+         <p> 1997 Duke University. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">The Benjamin Newton Duke papers <unitdate normal="1834/1984" type="inclusive" era="ce" calendar="gregorian">1834-1984 </unitdate>
+            <unitdate normal="1884/1929" type="bulk" era="ce" calendar="gregorian">bulk 1884-1929.</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Duke, Benjamin Newton</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>69 Linear Feet</extent>
+            <extent>Approximately 50,850 Items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+            <address>
+               <addressline>Durham, North Carolina 27708-0185</addressline>
+            </address>
+         </repository>
+         <physloc label="Location">For current information on the location of these
+materials, please consult the library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+         <abstract encodinganalog="545" label="Abstract">Benjamin Newton Duke (1855-1929) was the primary philanthropist in the Duke family and the eldest of Washington Duke's sons.  He held a leadership role in several of the family companies, and was instrumental in founding Duke University.</abstract>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The copyright interests in these papers have not been transferred to
+Duke University. The Benjamin Newton Duke papers were processed
+with support from The Duke Endowment.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Benjamin Newton Duke Papers,
+David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The papers of Benjamin Newton Duke, tobacco manufacturer,
+industrialist and philanthropist, have been received from a variety of
+sources over an extended period of time. While acquisition information
+about the bulk of the collection is unrecorded, it is believed that it was
+given by his daughter, Mary Duke Biddle. Additions to the collection
+were made by Mary Duke Biddle, 1939; Alexander H. Sands, Jr., 1940-
+1941, 1953; R.D. Graham, 1950; Mrs. Lucy Cole Durham, 1951; Mrs.
+James H. Semans (Mary Duke Biddle Trent Semans), 1961-1972; Bud
+Alexander, 1970; Duke University Archives, 1980; and Julia Wightman,
+1990.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Madeleine Bagwell Perez</p>
+            <p>Completed June 30, 1991</p>
+            <p>Encoded by Rachel Pottinger</p>
+            <p>This finding aid is NCEAD compliant.</p>
+            <p>Processing Note: In 1991 the Benjamin Newton Duke Papers were reprocessed
+through the support of The Duke Endowment. At that time the collection
+was arranged by distinct series and the papers reboxed and refoldered.
+While much of the Correspondence and Financial Papers Series follow
+their original order, some rearrangement has been done throughout the
+collection.</p>
+            <p>Volumes, once shelved separately, have been integrated into the
+collection. Examples include: letterbooks, check stubs, stock ledgers,
+oversized memorials, etc.</p>
+            <p>During the reprocessing, duplicate printed material was removed.
+Additionally, three hymn books, once belonging to Benjamin and Sarah
+Duke, have been transferred to the Rare Book Collection. These hymnals
+are for the worship services of the Methodist Episcopal Church, South,
+and date from 1878 and 1889.</p>
+         </processinfo>
+      </descgrp>
+      <bioghist>
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1855, Apr. 27</date>
+               <event>Born to Washington and Artelia Roney Duke; Orange Co., N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1856</date>
+               <event>Brother, James Buchanan Duke, born</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1858</date>
+               <event>Mother, Artelia Roney Duke, died of typhoid</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1871</date>
+               <event>Enrolled New Garden School (later Guilford College), near Greensboro, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1874</date>
+               <event>Father moved family to Durham proper</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1877, Feb. 21</date>
+               <event>Married Sarah Pearson Angier</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1878</date>
+               <event>Duke, Sons and Company established</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">188?, Oct. 3</date>
+               <event>Son, George Washington Duke, born. Died at age 2 or 3</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1884, Dec. 8</date>
+               <event>Son, Angier Buchanan Duke, born</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1887, Nov. 16</date>
+               <event>daughter, Mary Lillian Duke, born</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1889</date>
+               <event>Elected member Board of Trustees, Trinity College</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1890-?</date>
+               <event>Director, American Tobacco Company</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1891</date>
+               <event>Brought William A. Erwinto Durham. Established Erwin Mills</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1893-1922</date>
+               <event>President, The Fidelity Bank of Durham, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1898</date>
+               <event>Delegate, General Conference, Methodist Episcopal Church, South, Baltimore, Md.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1905, June 22</date>
+               <event>Southern Power Company established by Benjamin N. and James B. Duke, (later Duke Power Company)</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1905, May 8</date>
+               <event>Father, Washington Duke, died</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1923, Sept. 3</date>
+               <event>Son, Angier Buchanan Duke, died</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1925, Oct. 10</date>
+               <event>Brother, James Buchanan Duke, died</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1929, Jan. 8</date>
+               <event>Died New York City. Buried in family mausoleum at Maplewood Cemetery, Durham, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1936</date>
+               <event>Remains removed to the Memorial Chapel of Duke University Chapel along with those of father, Washington Duke, and brother, James Buchanan Duke</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1936, Sept. 3</date>
+               <event>Wife, Sarah Pearson Angier Duke, died</event>
+            </chronitem>
+         </chronlist>
+         <p>Benjamin Newton Duke took a leading role in the development of the
+tobacco, textile and hydroelectric power industries in North Carolina. He
+served as president of Citizens National Bank in Durham, N.C., and of
+the Southern Railway Company. Along with his brother, James
+Buchanan Duke, and their partner, George Washington Watts, Benjamin
+Duke held substantial investments in a variety of enterprises throughout
+the United States.</p>
+         <p>Benjamin Duke took a primary role in conducting the Duke family's
+philanthropies from the late 1880s until his death. Between 1892 and
+1927 it is estimated he contributed to over 400 organizations or
+institutions, including churches, hospitals, orphanages, schools and
+universities. This does not take into account assistance given to relatives
+and other individuals.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The papers of Benjamin Newton Duke span the years 1834 to 1984, though the bulk of the papers date from 1884 to 1929.
+The collection is arranged into seven series: Correspondence; Financial Papers; Legal Papers; Pictures; Richard B.
+Arrington Papers; Alexander H. Sands, Jr., Papers; and Miscellaneous Papers. The collection reflects the financial,
+philanthropic, and social interests of Benjamin Newton Duke and his family. Its primary focus is the family's business dealings
+including their involvement in the development and growth of tobacco manufacturing, textiles, and hydroelectric power in the
+southern United States. Philanthropic interests are well represented throughout the collection and include education, social
+welfare, the Methodist Church (South) as well as individuals. Personal and family relationships, though less well-documented,
+are primarily related to social activities revolving around their homes in Durham, N.C., New York City, and winter trips to
+Florida. Besides Benjamin Newton Duke, other family members represented in this collection include: James Buchanan
+Duke, Washington Duke, Sarah Pearson Angier Duke, Angier Buchanan Duke, Mary Duke Biddle, Anthony J. Drexel Biddle,
+and other Duke, Angier, Biddle, Roney, and Lyons relatives.</p>
+         <p>The majority of the letters in the Correspondence Series are concerned with business and philanthropic interests. The
+day-to-day affairs of Mr. Duke and his family were handled through personal secretaries or agents in either the New York or
+Durham, N.C., business offices, and much of the correspondence reflects this. Over the years these agents included: Richard
+B. Arrington, Miss E. A. Childs, Alexander H. Sands, Jr., and J.E. Stagg.</p>
+         <p>Mr. Duke's business interests centered on tobacco manufacturing, banking, textiles, mining, transportation, and hydroelectric
+power in North Carolina and throughout the United States. His primary business partners were Washington Duke (his father),
+James Buchanan Duke (his brother), George Washington Watts and William A. Erwin. The major companies represented in
+the Correspondence Series include: W. Duke, Sons and Company; Allen and Company; American Tobacco
+Company; British-American Tobacco Company; Liggett and Meyers Tobacco Company; R.J. Reynolds Tobacco
+Company; Citizens National Bank of Durham, N.C.; Bank of Harnett, N.C.; The Fidelity Bank of Durham, N.C.; Guaranty
+Trust Company of New York; Erwin Cotton Mills; Cannon Manufacturing Company; Mayo Mills; Odell Manufacturing
+Company; Southern Cotton Oil Company; Durham Fertilizer Company; Jim Butler Tonopah Mining Company; Republic Iron
+and Steel Company; Seaboard Air Line Railway; Dallas Cable Railroad; Kansas City, Mexico &amp; Orient Railway
+Company; Durham and Southern Railway Company; Georgia Railway and Power Company; Durham Electric Lighting
+Company; Spray Water and Power Company; and Southern Power Company (later Duke Power Company). Other
+investments included real estate, spring and mineral water companies, and the motion picture industry. The latter is represented
+by letters and minutes (1915) of The National Drama Corporation (founded by Thomas Dixon) to produce a movie entitled
+Fall of a Nation, a sequel to Birth of a Nation.</p>
+         <p>Mr. Duke's philanthropic interests were equally as numerous as his business interests. The Correspondence Series reflects his
+generosity to both black and white institutions and individuals. Major support was given to schools, churches and social welfare
+agencies. Among those supported were Trinity College (later Duke University), Greensboro Female College, Louisburg Female
+College, Kittrell College, Elon College, Lincoln Memorial University, North Carolina College for Negroes, The Bingham
+School,Trinity Church, Main Street Church,West Durham Methodist Church, National Religious Training School and
+Chatauqua for the Colored Race, Oxford Orphan Asylum, the Salvation Army, the Durham Y.M.C.A. and Y.W.C.A., and
+Lincoln Hospital.</p>
+         <p>Personal letters in the Correspondence Series reflect the activities and interests of a socially prominent family during the 19th
+and early 20th centuries. Also shown is Mr. Duke's support of various relatives over the years. Family members represented
+include: Benjamin Newton Duke,James Buchanan Duke, Sarah Pearson Angier Duke, Angier Buchanan Duke, Mary Duke
+Biddle, and Anthony J. Drexel Biddle. Additional letters are from members of the Duke, Angier,Biddle, Roney and Lyons
+families, as well as a variety of friends, acquaintances and strangers seeking his financial assistance. Among the personal
+correspondence is a response concerning the Julian Shakespeare Carr/Daniel Lindsey Russell gubernatorial campaign (1896)
+and a series of letters from son-in-law Anthony J. Drexel Biddle (over Christmas/New Years 1918-1919) concerning
+demobilization and the League of Nations.</p>
+         <p>The Financial Papers Series complements information found in the Correspondence Series and pertains to the purchase
+and sale of stock, household expenses, farm expenditures, bills, Mr. Duke's contributions and gifts, transactions for the
+purchase and repair of automobiles, and the building and furnishing of Duke homes in New York and North Carolina. This
+series is also an excellent source for examples of 19th-century advertising artwork. Secretary/agents managed the personal
+expenses and investment portfolios of Benjamin Newton Duke, Sarah Pearson Angier Duke,Angier Buchanan Duke, and Mary
+Duke Biddlein addition to Mr. Duke's business and philanthropic affairs as reflected in this series. Household expenses for the
+Duke homes in New York City and Four Acresin Durham, N.C., as well as upkeep of the Duke Farmin Orange County,
+N.C., were handled through these agents. Stock transactions were handled through a number of brokers, including: Daniel
+O'Dell &amp; Company, Dominick &amp; Dominick, Halstead &amp; Hagemeyer, and Moore &amp; Schley.</p>
+         <p>Topical files in the Financial Papers Series concern stock transactions, personal family accounts and charitable contributions.
+Early minute books and stock certificates for the Alaska Dredging and Power Company and the Solomon River Hydraulic
+Mining Company, and the stocks, bonds, and dividend records for the Southern Investment Company of Canada, Ltd., are
+included in this series. To a lesser degree, the Financial Papers Series deals with business affairs of Washington Duke. A
+cashbook for W. Duke, Sons and Company (1891) also includes trial balances for both Washington Duke (1893-1897) and
+Benjamin Duke (1893-1897). Brodie L. Duke's involvement with W. Duke, Sons and Company is shown in an account book
+pertaining to tobacco purchases (1876-1878) and also in the Correspondence Series (1890s). The interrelationship of the
+business dealings of Benjamin and James Duke can be found throughout the collection.</p>
+         <p>Property transactions in Orange County and Durham, N.C.,are found in the Legal Papers Series. Beginning in 1834 the
+records include deeds and plats and contain the names of early families in Durham. Other records in this series include charters
+for various businesses; papers regarding the Kimball Town Company, a milltown in Marion County, Tenn. (1890); a legal brief
+concerning a lawsuit brought by Richard Wrightin 1891; and a copy of Washington Duke's will (1905).</p>
+         <p>Albums, in the Pictures Series, contain primarily cabinet cards inserted in Victorian binders. Most of these photographs date
+from the late 1800s and are of Duke family members, including Angier and Lyon relatives. Other persons included are Bishop
+Charles Betts Galloway, Reverend William S. Black, Arthur H. Merritt, and President and Mrs. Grover Cleveland. In addition
+to the albums in this series, there are individual photographs of Mary Duke Biddle, Angier Buchanan Duke, Benjamin Newton
+Duke, Cordelia Biddle Duke, Sarah Pearson Angier Duke and Washington Duke dating from the 1880s to 1920s. Group
+pictures taken on the boardwalk (1924) in Atlantic City, N.J., also include James Buchanan Duke, Robert Lee Flowers and
+Lily Parrish Flowers. Other photographs are of Professor Dowd, John Acero Angier, James Haywood Southgate, and Reuben
+Oscar Everett. Photographs also represent buildings and property. There is a large group of photographs of the Duke Farm in
+Orange County, N.C., ca. 1910-1919. (See also information folder with inventory.) Benjamin Newton Duke's Durham home
+"Four Acres" is represented by two sets of exterior and interior photographs, ca. 1910 and 1961.</p>
+         <p>The Richard B. Arrington Papers Series is composed of the personal papers of Benjamin Newton Duke's personal
+secretary and business agent, who worked in the New York office. This series is comprised of letters, letterbook, accounts,
+check stubs, and receipts. Correspondence covers two periods: 1903-1907 and 1911-1914. From 1903to 1907 the major
+focus is building and furnishing a house on Ridgeview Road in White Plains, N.Y. From 1911 the emphasis is on Mr.
+Arrington's business interests, including stock transactions and insurance. Since Richard Arrington died April 17, 1913, the
+remainder of the correspondence (1913-1914) concerns his estate. His wife, Ethel Lewis Arrington,carried on much of his
+personal business during this period. The accounts, check stubs and receipts pertain to Mr. Arrington's general business
+activities; the major focus is on stock transactions especially of the Piedmont Syndicate. Much of his business parallels his work
+for Benjamin Newton Duke.</p>
+         <p>The Alexander H. Sands, Jr., Papers Series contains personal papers belonging to another of Benjamin Newton Duke's
+secretary/agents in his New Yorkoffice. The series includes letters, letterbooks, account book, check registers, check stubs, a
+daybook, ledger and receipts. The correspondence, 1910-1918, primarily concerns Mr. Sands's family matters and personal
+business interests. He also supported both his parents, Mary Harvey Sands and Tucker K. Sands. Alexander H. Sands's
+business papers, like those of Richard Arrington, often parallel his work for Benjamin Newton Duke. In addition to detailing
+stock transactions and other business, these records include an account book of the Southern Audit Company of New York,
+Inc., for 1914-1915,of which Sands was a partner.</p>
+         <p>Of primary interest in the Miscellaneous Series is a diary, 1927-1929, of Sarah Pearson Angier Duke, including entries for
+Benjamin Newton Duke's lengthy illness and death. A folder on family genealogy includes notes on the baptisms of Benjamin
+and Sarah Duke'schildren. Other files pertain to the funerals of Benjamin Newtonand Sarah Pearson Angier Duke, memorials
+for Angier Buchanan Duke and James Buchanan Duke,and tributes to Benjamin Newton Duke made during his lifetime and
+after his death. The bulk of the Miscellaneous Series includes information on many of the businesses in which Mr. Duke had
+an interest. Examples include The American Tobacco Company; Dixie Fire Insurance Company;Great Falls Power Company;
+Jim Butler Tonopah Mining Company; Kansas City, Mexico and Orient Railway Company;and Seaboard Air Line Railway.
+General files will be found on banking, churches, cotton mills, mining, public utilities, and social welfare agencies. All of these
+businesses are well represented in both the Correspondence and the Financial Papers Series.</p>
+         <p>Related collections in the Rubenstein Library are the James Buchanan Duke Papers, the Washington Duke Papers,
+and the Semans Family Papers. In addition to correspondence, these collections contain many photographs of Duke family
+members. The Duke University Archives is another source of information on the relationship of the Duke family to Duke
+University.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname>Duke, Sarah Pearson Angier, 1856-1936</persname>
+            </item>
+            <item>
+               <corpname>Trinity College (Durham, N.C.).</corpname>
+            </item>
+            <item>
+               <corpname>W. Duke, Sons and Company (Durham, N.C.).</corpname>
+            </item>
+            <item>
+               <corpname>American Tobacco Company</corpname>
+            </item>
+            <item>
+               <corpname>Erwin Mills (Durham, N.C).</corpname>
+            </item>
+            <item>
+               <corpname>Mayo Mills</corpname>
+            </item>
+            <item>
+               <corpname>Durham Electric Lighting Company</corpname>
+            </item>
+            <item>
+               <corpname>Spray Water Power and Land Company</corpname>
+            </item>
+            <item>
+               <corpname>Dallas Cable Railroad</corpname>
+            </item>
+            <item>
+               <corpname>Durham Fertilizer Company</corpname>
+            </item>
+            <item>
+               <corpname>Alaska Dredging and Power Company</corpname>
+            </item>
+            <item>
+               <corpname>Solomon River Hydraulic Mining Company</corpname>
+            </item>
+            <item>
+               <subject>Governors -- North Carolina -- Election</subject>
+            </item>
+            <item>
+               <subject>Tobacco industry -- North Carolina</subject>
+            </item>
+            <item>
+               <subject>Electric utilities -- North Carolina</subject>
+            </item>
+            <item>
+               <subject>Universities and colleges -- North Carolina</subject>
+            </item>
+            <item>
+               <geogname>North Carolina -- Industries</geogname>
+            </item>
+            <item>
+               <subject>Banks and banking -- North Carolina</subject>
+            </item>
+            <item>
+               <persname>Duke, Benjamin Newton</persname>
+            </item>
+            <item>
+               <persname>Duke, Angier Buchanan, 1884-1923</persname>
+            </item>
+            <item>
+               <persname>Biddle, Mary Duke 1887-1960</persname>
+            </item>
+            <item>
+               <persname>Biddle, Anthony Joseph Drexel, 1896-1961</persname>
+            </item>
+            <item>
+               <persname>Arrington, Richard B., d. 1913</persname>
+            </item>
+            <item>
+               <persname>Sands, Alexander H. 1891-1960</persname>
+            </item>
+            <item>
+               <genreform>Photographs </genreform>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle>Correspondence Series,
+<unitdate normal="1871/1941" type="inclusive" era="ce" calendar="gregorian">1871-1941, undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(77 containers)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Letters, letterbooks, receipts, bills, memoranda, telegrams, minutes, and printed reports related to the financial, philanthropic, and personal interests of Benjamin Newton Duke. Correspondence is arranged in two categories: letters and letterbooks. These are filed chronologically with letterbooks following letters. The fragile letterbooks (1892-1923) consist of bound carbon-copies of outgoing correspondence.</p>
+            </scopecontent>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Letters</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1872-1891 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(16 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1892 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(14 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1893, Jan.-Sept. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(14 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1893, Oct.-1894, July </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(13 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1894, Aug.-1895, Mar. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(16 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1895, Apr.-Nov. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(16 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1895, Dec.-1896, May </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(16 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1896, June-Dec. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(16 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1897, Jan.-Sept. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(19 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1897, Oct.-1898, May </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(15 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1898, June-Dec. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(17 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1899, Jan.-July </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(15 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1899, Aug.-1900, Jan. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(15 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1900, Feb.-Oct. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(17 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1900, Nov.-1901, Apr. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(15 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1901, May-Oct. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(14 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1901, Nov.-1902, Mar. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(17 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1902, Apr.-Aug. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(16 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1902, Sept.-1902, Dec. 20 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(12 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">20</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1903, Jan.-Apr. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(12 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1903, May-Sept. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(15 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">22</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1903, Oct.-1904, Mar. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(16 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">23</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1904, Apr.-Sept. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(16 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1904, Oct.-1905, Mar. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(15 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1905, Apr.-Aug. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(13 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">26</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1905, Sept.-Dec. </unitdate>and undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">27</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1906, Jan.-Apr. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(17 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">28</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1906, May-Oct. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(18 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">29</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1906, Nov.-1907, Mar. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(17 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">30</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1907, Apr.-Sept. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(17 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">31</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1907, Oct.-1908, Feb. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(17 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1908, Mar.-June </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(14 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1908, July-1908, Oct. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(14 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1908, Nov.-1909, Feb. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(14 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">35</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1909, Mar.-July </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(17 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">36</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1909, Aug.-Nov. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(16 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">37</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1909, Dec.-1910, Mar. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(17 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">38</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1910, Apr.-1910, June </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(12 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">39</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1910, July-Sept. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(15 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">40</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1910, Oct.-Dec. </unitdate>and undated </unittitle>
+                     <physdesc>
+                        <extent>(18 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">41</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1911, Jan.-Mar. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(16 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">42</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1911, Apr.-June </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(14 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1911, July-Nov. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(14 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">44</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1911, Dec.-1912, Jan. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(12 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1912, Feb.-Apr. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(14 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1912, May-July </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(12 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1912, Aug.-Nov. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(15 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">48</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1912, Dec.-1913, Feb. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(13 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">49</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1913, Mar.-Apr. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(10 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">50</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1913, May-July </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(15 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">51</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1913, Aug.-Oct. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(14 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">52</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1913, Nov.-1914, Jan. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(13 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">53</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1914, Feb.-Apr. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(14 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">54</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1914, May-July </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(14 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">55</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1914, Aug.-Oct. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(13 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">56</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1914, Nov.-1915, Jan. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(14 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">57</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1915, Feb.-Apr. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(12 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">58</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1915, May-Aug. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(13 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">59</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1915, Sept.-Dec. </unitdate>and undated </unittitle>
+                     <physdesc>
+                        <extent>(15 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">60</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1916, Jan.-May </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(21 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">61</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1918, June-1923, Dec. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(20 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">62</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1924, Jan.-1928, Dec. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(13 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">63</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1929-1941, </unitdate>undated </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Condolences, <unitdate era="ce" calendar="gregorian">1923-1924: </unitdate>
+                        <persname role="corr"> Angier B. Duke, </persname>A-Z </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Letterbooks</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">64</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1892, Apr. 7-1894, Aug. 29 </unitdate>(3 vols.)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">65</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1894, Aug. 29-1895, Nov. 11 </unitdate>(2 vols.)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">66</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1895, Nov. 11-1897, May 7 </unitdate>(3 vols.)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">67</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1897, May 8-1901, Mar. 18 </unitdate>(3 vols.)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">68</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1901, Mar. 19-1910, May 6 </unitdate>(3 vols.)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">69</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1910, May 9-1911, May 17 </unitdate>(3 vols.) </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">70</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1911, May 18-1912, July 15 </unitdate>(2 vols.)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">71</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1912, July 16-1913, Sept. 20 </unitdate>(2 vols.)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">72</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1913, Sept. 17-1915, Apr. 8 </unitdate>(2 vols.)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">73</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1915, Apr. 12-1916, Sept. 18 </unitdate>(2 vols.)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">74</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">916, Sept. 18-1917, Sept. 11 </unitdate>(2 vols.)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">75</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1917, Sept. 12-1918, Apr. 25 </unitdate>(1 vol.)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">76</container>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1911, Mar. 17-1923, Apr. 21 </unitdate>(3 vols.)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Financial Papers,
+<unitdate normal="1884/1924" type="inclusive" era="ce" calendar="gregorian">1884-1924, undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(46 containers)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Reflects the scope of the personal, business and philanthropic interests of Benjamin Newton Duke. Types of records from Mr. Duke's Durham and New York offices include bills, charitable contributions, check stubs, invoices, statements of accounts, tax statements, minutes, receipts, stock transactions, trial balances, household and petty cash accounts. Bills and receipts are arranged chronologically at the beginning of the series. The remaining papers are arranged alphabetically by topic or type of record.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">77</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1884-1899, Aug. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(17 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">78</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1899, Sept.-1900, Aug. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(13 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">79</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1900, Sept.-1901, May </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(16 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">80</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1901, June-1902, Mar. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(17 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">81</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1902, Apr.-1902, Nov. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(16 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">82</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1902, Dec.-1904, Apr. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(17 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">83</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1904, May-1905, Sept. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(15 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">84</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1905, Oct.-1906, July </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(14 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">85</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1906, Aug.-1907, May </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(14 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">86</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1907, June -1908, Apr. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(12 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">87</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1908, May-Dec. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(15 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">88</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1909, Jan.-July </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(13 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">89</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1909, Aug.-1910, Jan. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(14 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">90</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1910, Feb.-June </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(10 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">91</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1910, July-Nov. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(10 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">92</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1910, Dec.-1911, Apr. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(13 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">93</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1911, May-Oct. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(12 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">94</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1911, Nov.-1912, Feb. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(10 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">95</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1912, Mar.-June </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(8 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">96</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1912, July-Oct. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(8 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">97</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1912, Nov.-1913, Feb. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(10 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">98</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1913, Mar.-May </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(8 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">99</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1913, June-Aug. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(9 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">100</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1913, Sept.-Nov. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(9 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">101</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1913, Dec.-1914, Mar. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(11 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">102</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1914, Apr.-June </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(9 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">103</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1914, July-Oct. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(9 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">104</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1914, Nov.-1915, Feb. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(10 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">105</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1915, Mar.-July </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(10 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">106</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1915, Aug.-1916, Jan. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(12 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">107</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1916, Feb.-Dec. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(12 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">108</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1917, Jan.-Dec. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(13 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">109</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1918, Jan.-1919, Dec. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(12 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">110</container>
+                  <unittitle>
+                     <unitdate era="ce" calendar="gregorian">1920, Jan.-1924, </unitdate>undated </unittitle>
+                  <physdesc>
+                     <extent>(13 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">111</container>
+                  <unittitle>Accounts:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>William H. Butler--</persname>
+                        <corpname> Tobacco Stemmer Stock,</corpname>ca.
+<unitdate era="ce" calendar="gregorian">1913</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Benjamin Newton Duke </persname>with: </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Alfred de Cordova &amp; Co., </corpname>ca.
+<unitdate era="ce" calendar="gregorian">1898-1911</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Daniel O'Dell &amp; Co., </corpname>
+                           <unitdate era="ce" calendar="gregorian">1912-1913</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>The Farmers' Loan &amp; Trust Co., </corpname>
+                           <unitdate era="ce" calendar="gregorian">1891-1892</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Fellowes, Davis &amp; Co., </corpname>
+                           <unitdate era="ce" calendar="gregorian">1898-1899</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Halsted &amp; Harrison, </corpname>
+                           <unitdate era="ce" calendar="gregorian">1907-1917</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Moore &amp; Schley, </corpname>
+                           <unitdate era="ce" calendar="gregorian">1912-1913</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Newburger, Henderson &amp; Loeb, </corpname>
+                           <unitdate era="ce" calendar="gregorian">1908, 1913</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Raymond, Pynchon &amp; Co., </corpname>
+                           <unitdate era="ce" calendar="gregorian">1913, Feb.-June</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Brodie L. Duke--</persname>Tobacco Purchases,
+<unitdate era="ce" calendar="gregorian">1876, Oct.-1878, Jan.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>James B. Duke </persname>with: </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Banks and Trust Companies., </corpname>
+                           <unitdate era="ce" calendar="gregorian">1913</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Southern Power Co., </corpname>
+                           <unitdate era="ce" calendar="gregorian">1913</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Sarah Pearson Angier Duke </persname>with: </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <persname>Benjamin Newton Duke, </persname>
+                           <unitdate era="ce" calendar="gregorian">1916-1917</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>The Fidelity Bank, </corpname>
+                           <unitdate era="ce" calendar="gregorian">1916-1922, </unitdate>undated </unittitle>
+                        <physdesc>
+                           <extent>(3 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Guaranty Trust Co. of New York, </corpname>
+                           <unitdate era="ce" calendar="gregorian">1916-1922</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">112</container>
+                  <unittitle>Assets/Liabilities: <persname>Benjamin N. Duke, </persname>ca.
+<unitdate era="ce" calendar="gregorian">1913</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cash Statements:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>James B. Duke: </persname>
+                        <corpname> Southern Power Co.,</corpname>
+                        <unitdate era="ce" calendar="gregorian">1913, June-Sept.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Benjamin N. Duke </persname>and family,
+<unitdate era="ce" calendar="gregorian">1917, Jan.-May</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Charitable Contributions: <unitdate era="ce" calendar="gregorian">1892-1928, </unitdate>undated (typescript lists)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Gifts to family members: <famname>(Roney-Duke </famname>families),
+<unitdate era="ce" calendar="gregorian">1925-1927</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Insurance policies,
+<unitdate era="ce" calendar="gregorian">1913-1914</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Additional oversize materials in Box 149.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Rents: <corpname>Marc Anthony Apartments, </corpname>
+                     <unitdate era="ce" calendar="gregorian">1913, July-Dec.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stock certificates,
+<unitdate era="ce" calendar="gregorian">1887-1917</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stock transactions:</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Oversize materials in Box 149.</p>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1913,1914, </unitdate>undated (by broker)</unittitle>
+                  </did>
+                  <scopecontent>
+                     <p>Oversize materials in Box 149.</p>
+                  </scopecontent>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate era="ce" calendar="gregorian">1909-1919, </unitdate>undated (by stock) </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tax Statements,
+<unitdate era="ce" calendar="gregorian">1914-1926</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trial balances:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Angier B. Duke, </persname>
+                        <unitdate era="ce" calendar="gregorian">1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Benjamin Newton Duke,</persname>
+                        <unitdate era="ce" calendar="gregorian">1912-1914 </unitdate>(see also Box 113, <corpname>W. Duke, Sons &amp; Co. </corpname>Cashbook)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>James B. Duke, </persname>
+                     <unitdate era="ce" calendar="gregorian">1912-1914 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous,
+<unitdate era="ce" calendar="gregorian">1914</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">113</container>
+                  <unittitle>
+                     <corpname>Alaska Dredging and Power Co.:</corpname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Minute book,
+<unitdate era="ce" calendar="gregorian">1907-1908</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Stock certificates book,
+<unitdate era="ce" calendar="gregorian">1907</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Duke Farm, </corpname>
+                     <geogname> Orange Co., N.C., </geogname>Expenditures,
+<unitdate era="ce" calendar="gregorian">1897-1909</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Solomon River Hydraulic Mining Co.: </corpname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Minutes, by-laws, incorporation,
+<unitdate era="ce" calendar="gregorian">1905</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Common stock, <unitdate era="ce" calendar="gregorian">1905, </unitdate>Preferred stock,
+<unitdate era="ce" calendar="gregorian">1905-1906</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>W. Duke, Sons &amp; Co. </corpname>Cashbook,
+<unitdate era="ce" calendar="gregorian">1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">114</container>
+                  <unittitle>Check Stubs:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>A.J.D. Biddle, Jr., </persname>
+                        <unitdate era="ce" calendar="gregorian">1919 </unitdate>(1 vol.)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Mary Duke Biddle, </persname>
+                        <unitdate era="ce" calendar="gregorian">1915-1918 </unitdate>(1 vol.)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Angier B. Duke, </persname>
+                        <unitdate era="ce" calendar="gregorian">1914-1917 </unitdate>(4 vols.)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">115</container>
+                  <unittitle>Check Stubs: <persname>Angier B. Duke, </persname>
+                     <unitdate era="ce" calendar="gregorian">1917-1918 </unitdate>(4 vols.)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">116</container>
+                  <unittitle>Check Stubs: <persname>Benjamin N. Duke, </persname>
+                     <unitdate era="ce" calendar="gregorian">1901-1918 </unitdate>(4 vols.)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">117</container>
+                  <unittitle>Deposit slips,
+<unitdate era="ce" calendar="gregorian">1915-1918</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">118</container>
+                  <unittitle>Invoice book (disbound),
+<unitdate era="ce" calendar="gregorian">1892-1893</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">119</container>
+                  <unittitle>Invoice book (disbound),
+<unitdate era="ce" calendar="gregorian">1893-1898</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">120</container>
+                  <unittitle>Invoice book (disbound),
+<unitdate era="ce" calendar="gregorian">1893-1898</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">121</container>
+                  <unittitle>Stock journal,
+<unitdate era="ce" calendar="gregorian">1899-1901</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">122</container>
+                  <unittitle>Stock ledger,
+<unitdate era="ce" calendar="gregorian">1899-1901</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Legal Papers Series,
+<unitdate normal="1834/1928" type="inclusive" era="ce" calendar="gregorian">1834-1928, undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(2 containers)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Majority pertain to property transactions of various people, including Benjamin Newton Duke, in Orange County and Durham, N.C. Other papers include charters for businesses, insurance policies, a legal brief, and a copy of Washington Duke's will. Arranged alphabetically.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">123</container>
+                  <unittitle>Agreements: <corpname>Southern Railway Co.</corpname>--water pipeline, electric lights for <persname>B.N. Duke, </persname>
+                     <unitdate era="ce" calendar="gregorian">1900, 1902</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Asheville Ice and Coal Co., </corpname>Act to Incorporate,
+<unitdate era="ce" calendar="gregorian">1891, May 2</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Complaint: <persname>Richard H. Wright </persname>against <persname>J.B. Duke,</persname>
+                     <persname>B.N. Duke, </persname>
+                     <persname> B.L. Duke, </persname>
+                     <persname>G.W. Hill, </persname>
+                     <unitdate era="ce" calendar="gregorian">1891 </unitdate>(summons)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Contract:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>H.J. Blauvent, </persname>Architect, and <persname>B.N. Duke,</persname>
+                        <unitdate era="ce" calendar="gregorian">1901</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Conservatory of Music: specifications for heating, <unitdate era="ce" calendar="gregorian">1899 </unitdate>(see also OC:II:4)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Methodist Church, </corpname>
+                        <geogname> Durham, N.C.,</geogname>undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Deeds, <unitdate era="ce" calendar="gregorian">1834-1918, </unitdate>undated </unittitle>
+                  <physdesc>
+                     <extent>(16 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Land plats, <unitdate era="ce" calendar="gregorian">1884-1912, </unitdate>undated (see also OC:II:4)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">124</container>
+                  <unittitle>
+                     <persname>Doris Duke </persname>Trust: Indenture and deed of trust, <unitdate era="ce" calendar="gregorian">1924;</unitdate>additions,
+<unitdate era="ce" calendar="gregorian">1925</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Estate: <persname>Angier B. Duke, </persname>
+                     <unitdate era="ce" calendar="gregorian">1926 </unitdate>(distribution)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Fidelity and Deposit Co. of Maryland: </corpname>bond,
+<unitdate era="ce" calendar="gregorian">1894-1905</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stock transactions,
+<unitdate era="ce" calendar="gregorian">1896-1900</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trust funds: <persname>Washington Duke, </persname>for: </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Annie and Robert Duke, </persname>
+                        <unitdate era="ce" calendar="gregorian">1904, Oct. 10</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Family servants,
+<unitdate era="ce" calendar="gregorian">1904, Oct. 10</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trust Indenture: <persname>Benjamin N. Duke </persname>to <persname>Allen,</persname>
+                     <persname>Flowers, </persname>
+                     <persname>Sands,</persname>
+                     <unitdate era="ce" calendar="gregorian">1926</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Will: <persname>Washington Duke, </persname>
+                     <unitdate era="ce" calendar="gregorian">1905 </unitdate>(transcript copy)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Will/Estate: <persname>Benjamin N. Duke, </persname>
+                     <unitdate era="ce" calendar="gregorian">1926-1930</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Pictures Series, <unitdate normal="1870/1927" type="inclusive" era="ce" calendar="gregorian">1870s-1927</unitdate>, <unitdate normal="1960/1969" type="inclusive" era="ce" calendar="gregorian">1960s</unitdate>, undated</unittitle>
+               <physdesc>
+                  <extent>6 containers</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Photographs and blueprints. Photographs include family albums, a series of views of the Duke Farm in Orange County and Four Acres in Durham, and individuals. Blueprints include the Pigeon River Power Plant Project, Duke Farm stables, and an addition to the Southern Conservatory of Music. Arranged by category: albums, people, and buildings.</p>
+            </scopecontent>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Albums</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">125</container>
+                     <unittitle>Albums, ca. <unitdate era="ce" calendar="gregorian">1870s-1900s </unitdate>(1 vol.) </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">126</container>
+                     <unittitle>Albums, ca. <unitdate era="ce" calendar="gregorian">1870s-1900s </unitdate>(1 vol.) </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">127</container>
+                     <unittitle>
+                        <corpname>Duke farm, </corpname>
+                        <geogname> Orange County, N.C.,</geogname>
+                        <unitdate era="ce" calendar="gregorian">1910-1919, </unitdate>
+                        <unitdate era="ce" calendar="gregorian">1985, </unitdate>undated </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>People</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">128</container>
+                     <unittitle>
+                        <persname>Biddle, Mary Duke, </persname>ca.
+<unitdate era="ce" calendar="gregorian">1897-1910</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Duke, Angier Buchanan, </persname>ca.
+<unitdate era="ce" calendar="gregorian">1890s-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Duke, Benjamin Newton:</persname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>ca.
+<unitdate era="ce" calendar="gregorian">1880s-1920s</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>With wife, <persname>Sarah, </persname>
+                           <geogname> St. Petersburg, Fla.,</geogname>
+                           <unitdate era="ce" calendar="gregorian">1914</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Birthday party, ca.
+<unitdate era="ce" calendar="gregorian">1916</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Funeral,
+<unitdate era="ce" calendar="gregorian">1929</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>With others, <geogname>Lookout Mountain, Tenn., </geogname>
+                           <unitdate era="ce" calendar="gregorian">1892</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Duke, Cordelia Biddle </persname>with children: <persname>Angier Biddle</persname>and <persname>Anthony Drexel Duke </persname>and <persname>Mary Duke Biddle, </persname>ca.
+<unitdate era="ce" calendar="gregorian">1920</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Duke, Sarah Pearson Angier, </persname>ca. <unitdate era="ce" calendar="gregorian">1870s-1920s </unitdate>(see also OC:II:4)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Duke, Washington </persname>with great-grandchildren, ca.
+<unitdate era="ce" calendar="gregorian">1900</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>People:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <geogname>Atlantic City--Boardwalk, </geogname>
+                           <unitdate era="ce" calendar="gregorian">1924 </unitdate>(includes <persname>B.N. Duke, </persname>
+                           <persname> J.B. Duke, </persname>
+                           <persname>M.D. Biddle,</persname>
+                           <persname> Lily Parrish Flowers, </persname>
+                           <persname>Robert Lee Flowers)</persname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Miscellaneous, ca. <unitdate era="ce" calendar="gregorian">1890s-1896 </unitdate>(includes <persname>Prof. Doud,</persname>
+                           <persname>J.B. Duke, </persname>
+                           <persname> John Acero Angier,</persname>
+                           <persname>James Haywood Southgate, </persname>
+                           <persname>Reuben Oscar Everett)</persname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Unidentified, undated</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Portraits (photographs of) <persname>Lady Georgiana North, </persname>
+                        <persname>Lady Mary Reynolds, </persname>undated </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Buildings</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Buildings (including houses), ca. <unitdate era="ce" calendar="gregorian">1896, </unitdate>ca. <unitdate era="ce" calendar="gregorian">1912, </unitdate>undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Carriage House/Stable: <persname>H.J. Blauvelt, </persname>architect for <persname>B.N. Duke, </persname>ca.
+<unitdate era="ce" calendar="gregorian">1910-1920s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Church(es) and cemetery, <unitdate era="ce" calendar="gregorian">1986, </unitdate>undated (includes <persname>Moses Hester's</persname>Church)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Duke University, East Campus, </corpname>construction, ca.
+<unitdate era="ce" calendar="gregorian">1925</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Duke's Chapel, construction,
+<unitdate era="ce" calendar="gregorian">1926</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <geogname>Fairview, Durham, N.C., </geogname>ca.
+<unitdate era="ce" calendar="gregorian">1890s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <geogname>Four Acres (</geogname>exteriors), ca.
+<unitdate era="ce" calendar="gregorian">1910 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">129</container>
+                     <unittitle>
+                        <geogname>Four Acres:</geogname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Prior to demolition,
+<unitdate era="ce" calendar="gregorian">1961</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Exteriors, including gardens, undated</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Irvington-on-the-Hudson, </corpname>
+                        <geogname> Tarrytown, N.Y.,</geogname>undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Kittrell College: B.N. Duke Library, </corpname>
+                        <unitdate era="ce" calendar="gregorian">1969 </unitdate>(color slides)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Limestone College, </corpname>
+                        <geogname> Gaffney, S.C.,</geogname>
+                        <unitdate era="ce" calendar="gregorian">1926</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <geogname>New Hope Creek: </geogname>
+                        <corpname> Duke Quarry (</corpname>near <geogname>Hillsborough), </geogname>ca.
+<unitdate era="ce" calendar="gregorian">1926</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Roney </persname>family: Birthplace of <persname>Artelia (Roney) Duke,</persname>including <geogname>Boyd's Creek </geogname>and <geogname>Stonewall Spring,</geogname>ca.
+<unitdate era="ce" calendar="gregorian">1920s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Underpass, <geogname>Chapel Hill St., Durham, N.C., </geogname>construction,
+<unitdate era="ce" calendar="gregorian">1926, June</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Y.W.C.A., </corpname>
+                        <geogname> Durham, N.C.,</geogname>
+                        <unitdate era="ce" calendar="gregorian">1927</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">130</container>
+                     <unittitle>Fragile:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Mirror with photographs attached <persname>( Washington Duke </persname>and his children, <persname>Mary</persname>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <persname>Duke Lyon, </persname>
+                           <persname> Brodie L. Duke,</persname>
+                           <persname>James B. Duke, </persname>
+                           <persname> Benjamin Newton Duke),</persname>undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Photograph: <persname>B.N. Duke, </persname>
+                           <persname> Sarah Duke,</persname>undated</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Richard B. Arrington Papers Series,
+<unitdate normal="1905/1914" type="inclusive" era="ce" calendar="gregorian">1905-1914</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(2 containers)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Relates to personal and financial interests of Arrington, secretary and business agent for Benjamin Newton Duke. Much of the correspondence, including enclosed bills and receipts, relates to the construction of his home in White Plains, N.Y. Business papers concern his stock dealings and after his death, his estate. The correspondence is arranged chronologically, followed by the letterbook. Papers related to financial interests are arranged alphabetically.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">131</container>
+                  <unittitle>Correspondence,
+<unitdate era="ce" calendar="gregorian">1905, Nov. 9-1914, Apr. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(11 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">132</container>
+                  <unittitle>Letterbook,
+<unitdate era="ce" calendar="gregorian">1903, Dec. 16-1906, Aug. 3</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Financial papers:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Accounts,
+<unitdate era="ce" calendar="gregorian">1907-1913</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Check stubs,
+<unitdate era="ce" calendar="gregorian">1913, Mar.-Apr.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Receipts,
+<unitdate era="ce" calendar="gregorian">1905-1913 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Alexander H. Sands, Jr., Papers Series,
+<unitdate normal="1910/1918" type="inclusive" era="ce" calendar="gregorian">1910-1918</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(6 containers)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>A secretary/business agent for Benjamin Newton Duke, these papers relate to Mr. Sands's personal and financial interests. Much of the correspondence is concerned with his business interests and the support of his wife and his parents. Business papers include check registers, check stubs, and receipts. Correspondence is arranged chronologically, followed by the letterbook. Business records are arranged alphabetically.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">133</container>
+                  <unittitle>Correspondence,
+<unitdate era="ce" calendar="gregorian">1910, Apr.-1915</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">134</container>
+                  <unittitle>Letterbooks, <unitdate era="ce" calendar="gregorian">1910-1918 </unitdate>(2 vols.) </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">135</container>
+                  <unittitle>Financial Papers:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Accounts: <corpname>Southern Audit Co. of New York, Inc.,</corpname>
+                        <unitdate era="ce" calendar="gregorian">1914-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Check registers:
+<unitdate era="ce" calendar="gregorian">1912-1918</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">136</container>
+                  <unittitle>Financial Papers: Check stubs,
+<unitdate era="ce" calendar="gregorian">1910, Apr.-1915</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">137</container>
+                  <unittitle>Financial Papers:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Check stubs, <unitdate era="ce" calendar="gregorian">1915-1917 </unitdate>(5 vols.) </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Reyhing &amp; Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">138</container>
+                  <unittitle>Financial Papers:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Daybook,
+<unitdate era="ce" calendar="gregorian">1914-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Ledger,
+<unitdate era="ce" calendar="gregorian">1914-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Receipts,
+<unitdate era="ce" calendar="gregorian">1913-1915 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Miscellaneous Papers Series,
+<unitdate normal="1880/1984" type="inclusive" era="ce" calendar="gregorian">1880-1984, undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(7 containers)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Includes Sarah Pearson Angier Duke's diary (1927-1929); clippings; genealogical material; material pertaining to funerals, memorials, and tributes; printed material; scrapbook; recipes; and tobacco/cigarette flavorings. Arranged alphabetically by subject or type of material. Printed material is arranged alphabetically by company name and relates to business and philanthropic interests throughout the United States.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">139</container>
+                  <unittitle>
+                     <corpname>Alpha Tau Omega Fraternity, </corpname>
+                     <unitdate era="ce" calendar="gregorian">1904 </unitdate>(Pledge class?)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bible: New Testament, undated: <persname>C.L. Mitchell </persname>to <persname>R.L. Flowers, </persname>
+                     <unitdate era="ce" calendar="gregorian">1925</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Clippings, <unitdate era="ce" calendar="gregorian">1890-1984, </unitdate>undated </unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Clothing pattern: See OC:II:4 Miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Diary, <unitdate era="ce" calendar="gregorian">1927-1929 </unitdate>
+                     <persname>(Sarah Pearson Angier Duke)</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Diploma: <corpname>Trinity Park High School, </corpname>
+                     <unitdate era="ce" calendar="gregorian">1903, June</unitdate>
+                     <persname>(Mary Lillian Duke) </persname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>See: OC:II:4 Miscellaneous</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Funeral:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Benjamin N. Duke, </persname>
+                        <unitdate era="ce" calendar="gregorian">1929 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Sarah Pearson Angier Duke, </persname>
+                        <unitdate era="ce" calendar="gregorian">1936</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Genealogical information: <persname>Duke </persname>family, <unitdate era="ce" calendar="gregorian">1916-1937,</unitdate>undated</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">140</container>
+                  <unittitle>Memorials:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Angier B. Duke, </persname>
+                        <unitdate era="ce" calendar="gregorian">1923-1924 </unitdate>(includes <persname>Plato Tracy Durham </persname>Poem) </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>James Buchanan Duke, </persname>
+                        <unitdate era="ce" calendar="gregorian">1926 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Poetry (Misc.), undated includes prayer, <unitdate era="ce" calendar="gregorian">1907 </unitdate>
+                     <persname>( John C. Kilgo </persname>to <persname>B.N. Duke)</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Printed Material:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>American Cigar Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1913-1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>American Machine and Foundry Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1912-1913</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>American Snuff Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1905-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>The American Tobacco Co.:</corpname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate era="ce" calendar="gregorian">1890-1915</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Code book, #6 (
+<unitdate era="ce" calendar="gregorian">1902)</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>American Trust Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1907-1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>American Type Founders Co, </corpname>
+                        <unitdate era="ce" calendar="gregorian">1898-1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">141</container>
+                  <unittitle>Printed Material:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Bank of Harnett, Duke, N.C., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1906-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Banking, <unitdate era="ce" calendar="gregorian">1906-1915, </unitdate>undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>British-American Tobacco Co., Ltd., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1912-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Canal Bank &amp; Trust Co., </corpname>
+                        <geogname> New Orleans,</geogname>
+                        <unitdate era="ce" calendar="gregorian">1914-1916</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>The Chatham and Phenix National Bank of N.Y.,</corpname>
+                        <unitdate era="ce" calendar="gregorian">1911-1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Churches,
+<unitdate era="ce" calendar="gregorian">1887-1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>The Citizens National Bank of Durham, N.C., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1905-1911</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Colleges, Schools, Universities,
+<unitdate era="ce" calendar="gregorian">1901-1940 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Consolidated Tobacco Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1903</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Cotton Mills, </corpname>
+                        <unitdate era="ce" calendar="gregorian">1894-1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Dixie Fire Insurance Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1907-1916</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>The Fidelity Bank of Durham, N.C.: </corpname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate era="ce" calendar="gregorian">1905-1919</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Plaque,
+<unitdate era="ce" calendar="gregorian">1922</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>George W. Helme Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1911-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Georgia Railway and Power Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1914-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>German-American National Bank of New Orleans,</corpname>
+                        <unitdate era="ce" calendar="gregorian">1911-1913</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Great Falls Power Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1911-1913</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Guaranty Trust Co. of N.Y., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1910-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>The Hanover National Bank of N.Y.C., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1912-1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Hudson and Manhattan Railroad Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1911-1916</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">142</container>
+                  <unittitle>Printed Material:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Imperial Tobacco Co.:</corpname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Canada, Ltd., </corpname>
+                           <unitdate era="ce" calendar="gregorian">1914-1915</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <geogname>Great Britain and Ireland, </geogname>
+                           <unitdate era="ce" calendar="gregorian">1914</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Insurance, <unitdate era="ce" calendar="gregorian">1906-1915, </unitdate>undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Jim Butler Tonopah Mining Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1904-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Kansas City, Mexico and Orient Railway Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1905-1914,</unitdate>undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Liggett and Meyers Tobacco Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1911-1918</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Lincoln Memorial University, </corpname>
+                        <unitdate era="ce" calendar="gregorian">1927-1939 </unitdate>(see also oversize material)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>MacAndrews and Forbes Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1912-1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Masonic journal,
+<unitdate era="ce" calendar="gregorian">1902, 1936-1939</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Mellon National Bank, </corpname>
+                        <unitdate era="ce" calendar="gregorian">1913-1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Mining,
+<unitdate era="ce" calendar="gregorian">1902-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous businesses, <unitdate era="ce" calendar="gregorian">1901-1915, </unitdate>undated </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Moore &amp; Schley: </corpname>Code Books #2, #3,
+<unitdate era="ce" calendar="gregorian">1906</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Morton Trust Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1900-1910</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>National Bank of Commerce in New York,</corpname>
+                        <unitdate era="ce" calendar="gregorian">1912-1916</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>North Carolina Society of New York, </corpname>
+                        <unitdate era="ce" calendar="gregorian">1913-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Odell Manufacturing Co., </corpname>
+                        <geogname> Concord, N.C.,</geogname>
+                        <unitdate era="ce" calendar="gregorian">1908, </unitdate>undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">143</container>
+                  <unittitle>Printed Material:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>P. Lorillard Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1911-1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Peace Congress, </corpname>
+                        <unitdate era="ce" calendar="gregorian">1908, </unitdate>undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Porto Rican American Tobacco Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1912-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Public Utilities,
+<unitdate era="ce" calendar="gregorian">1911-1916</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>R.J. Reynolds Tobacco Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1912-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Railroads,
+<unitdate era="ce" calendar="gregorian">1904-1915 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Real Estate,
+<unitdate era="ce" calendar="gregorian">1901-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Republic Iron and Steel Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1899-1913</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Seaboard Air Line Railway, </corpname>
+                        <unitdate era="ce" calendar="gregorian">1900-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>The Second National Bank:</corpname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>City of <geogname>N.Y., </geogname>
+                           <unitdate era="ce" calendar="gregorian">1908-1915</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <geogname>Somerville, N.J., </geogname>
+                           <unitdate era="ce" calendar="gregorian">1912-1915</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Social Welfare agencies, </corpname>
+                        <unitdate era="ce" calendar="gregorian">1904-1923, </unitdate>undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>The Southern Cotton Oil Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1907-1908</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Southern Pacific Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1909-1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Southern Power Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1909-1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Southern Railway Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1906-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Tobacco, <unitdate era="ce" calendar="gregorian">1880-1912, </unitdate>undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Union Exchange Bank, </corpname>
+                        <unitdate era="ce" calendar="gregorian">1903-1914</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Virginia-Carolina Chemical Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1900-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Weyman-Bruton Co., </corpname>
+                        <unitdate era="ce" calendar="gregorian">1912-1918</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Chronological file, <unitdate era="ce" calendar="gregorian">1880-1964, </unitdate>undated </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">144</container>
+                  <unittitle>Recipes: <persname>Sarah Pearson Angier Duke, </persname>ca.
+<unitdate era="ce" calendar="gregorian">1880s-1930s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Scrapbook: Theater record, <unitdate era="ce" calendar="gregorian">1898-1899 </unitdate>
+                     <persname>( Mary Lillian Duke)</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tobacco/Cigarette flavorings,
+<unitdate era="ce" calendar="gregorian">1896</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tributes: <persname>Benjamin Newton Duke (</persname>see also oversize material)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Chanticleer, <unitdate era="ce" calendar="gregorian">1913 </unitdate>(vol. 2)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>A Celebration of the Life of <persname>B.N. Duke, </persname>
+                        <unitdate era="ce" calendar="gregorian">1979:</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Audiotape (reel-to-reel master)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Photographs</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Printed material</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">145</container>
+                  <unittitle>Tributes: A Celebration of the Life of <persname>B.N. Duke, </persname>
+                     <unitdate era="ce" calendar="gregorian">1979 </unitdate>(2 presentation sets)</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Oversize Material Series</unittitle>
+            </did>
+            <scopecontent>
+               <p>Oversize materials in Box 149 and in OC:II:4.</p>
+            </scopecontent>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Financial Papers Series</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Stocks, Bonds and Dividends Record,
+<unitdate era="ce" calendar="gregorian">1912-1918:</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">149</container>
+                        <unittitle>
+                           <persname>Angier B. Duke, </persname>
+                           <persname> Mary Duke Biddle,</persname>
+                           <persname>Sarah Pearson Duke, </persname>
+                           <persname> Anthony J.D. Biddle, Jr.</persname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Stocks, Bonds and Dividends Record,
+<unitdate era="ce" calendar="gregorian">1892-1918:</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">149</container>
+                        <unittitle>
+                           <persname>Benjamin N. Duke</persname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Stocks, Bonds and Dividends Record,
+<unitdate era="ce" calendar="gregorian">1913-1915:</unitdate>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">149</container>
+                        <unittitle>
+                           <corpname>Southern Investment Co. of Canada, Ltd.</corpname>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Miscellaneous Series</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">149</container>
+                     <unittitle>Clippings, <unitdate era="ce" calendar="gregorian">1902, </unitdate>undated (scrapbook)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">149</container>
+                     <unittitle>Funeral: In Memoriam, <unitdate era="ce" calendar="gregorian">1929 </unitdate>(condolences, clippings, telegrams, etc. on the death of <persname>Benjamin Newton Duke)</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Tribute: <persname>Benjamin Newton Duke </persname>on his birthday <unitdate era="ce" calendar="gregorian">April 27, 1923,</unitdate>by <corpname>Trinity College: </corpname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">149</container>
+                        <unittitle>Vol. 1: Correspondence;</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <container type="box">149</container>
+                        <unittitle>Vol. 2: <corpname>Trinity College </corpname>photographs. </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">149</container>
+                  <unittitle>Correspondence Series</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">149</container>
+                     <unittitle>Plats (removed from correspondence),
+<unitdate era="ce" calendar="gregorian">1902-1905, 1907, 1909, 1912-1913</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Financial Papers Series: Miscellaneous</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">149</container>
+                     <unittitle>Account [unidentified rental property],
+<unitdate era="ce" calendar="gregorian">1914-1915</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">149</container>
+                     <unittitle>Blueprint map of <geogname>North Carolina/South Carolina, </geogname>undated (unidentified, may be of power plant sites)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">149</container>
+                     <unittitle>
+                        <corpname>First National Bank of Winston, N.C. </corpname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">149</container>
+                        <unittitle>Balance at close of business
+<unitdate era="ce" calendar="gregorian">July 5, 1893</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>The Pullman Co.: </corpname>Commissary supplies for private coach:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">149</container>
+                        <unittitle>
+                           <corpname>Grassmere, </corpname>
+                           <unitdate era="ce" calendar="gregorian">March-April 1906</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Pictures Series</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">149</container>
+                     <unittitle>
+                        <persname>Duke, Sarah Pearson Angier, </persname>ca. <unitdate era="ce" calendar="gregorian">1890s, 1906 </unitdate>(oval portraits)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="opaperfolder">1</container>
+                     <unittitle>
+                        <corpname>Duke Farms, Orange Co., N.C., (</corpname>Plat), undated. Hand-drawn.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">149</container>
+                     <unittitle>
+                        <corpname>Duke Farms, Stables, Orange Co., N.C., and New York, N.Y. (2 folders)</corpname>
+                        <unitdate era="ce" calendar="gregorian">1901</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">149</container>
+                     <unittitle>
+                        <corpname>Pigeon River Power Plant: </corpname>Project Plans,
+<unitdate era="ce" calendar="gregorian">1923</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="opaperfolder">3</container>
+                     <unittitle>
+                        <corpname>Southern Conservatory of Music (</corpname>addition), undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">149</container>
+                  <unittitle>Miscellaneous Series</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">149</container>
+                     <unittitle>Clothing pattern, <persname>Benjamin Newton Duke, </persname>undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">149</container>
+                     <unittitle>Diploma: <corpname>Trinity Park High School, </corpname>
+                        <unitdate era="ce" calendar="gregorian">June 6, 1903</unitdate>
+                        <persname>(Mary Duke Biddle) </persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">149</container>
+                     <unittitle>
+                        <corpname>Lincoln Memorial University: </corpname>Honorary degree to <persname>Benjamin Newton Duke, </persname>undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">149</container>
+                     <unittitle>
+                        <corpname>Oglethorpe University: </corpname>Honorary degree to <persname>Benjamin Newton Duke,</persname>
+                        <unitdate era="ce" calendar="gregorian">May 30, 1926</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">149</container>
+                     <unittitle>Resolution of Thanks: <corpname>Oxford Orphan Asylum </corpname>to <persname>Benjamin Newton Duke, </persname>undated </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="opaperfolder">2</container>
+                     <unittitle>Resolution of Appreciation to <persname>Mr. and Mrs. B.N. Duke </persname>from guests at <corpname>Cateret Lodge, </corpname>
+                        <unitdate era="ce" calendar="gregorian">Jan. 1, 1903</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

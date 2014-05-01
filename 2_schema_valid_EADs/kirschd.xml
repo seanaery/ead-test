@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Dan Kirsch papers, 1975-2004)//EN" url="http://library.duke.edu/rubenstein/findingaids/kirschd/">kirschd</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Dan Kirsch papers,
+		<date normal="1975/2004" era="ce" calendar="gregorian">1975-2004</date>
+            </titleproper>
+            <author>Processed by: Christian Ferney, John Mayrose, Rubenstein Library staff; machine-readable finding aid created by: John Mayrose</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>
+               <lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+            <p>
+               <date normal="2007" encodinganalog="date" era="ce" calendar="gregorian"> 2007</date> Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">003448691</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+            <date era="ce" calendar="gregorian">Date of source: October 2007</date>
+            <lb/>Processed by Christian Ferney, John Mayrose, Rubenstein Library staff, October 2007; Finding Aid encoded by John Mayrose, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, <date era="ce" calendar="gregorian">October 2007</date>
+         </creation>
+         <langusage>Description is in
+		<language langcode="eng">English</language>
+         </langusage>
+         <descrules>Finding aid was prepared using
+		  <title xlink:type="simple" xlink:href="">DACS</title> and our local
+		  <title xlink:type="simple" xlink:href="">Style Guide</title>
+         </descrules>
+      </profiledesc><!-- Location of <revisiondesc> if needed -->
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Dan Kirsch papers, <date type="span" era="ce" calendar="gregorian">1975-2004</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/>Duke
+		  University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+         <p>
+            <date normal="2007" era="ce" calendar="gregorian"> 2007</date> Duke University. All Rights Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC">
+      <did>
+         <head>Descriptive Summary</head>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname>
+         </repository>
+         <origination label="Creator">
+            <persname encodinganalog="100">Kirsch, Dan</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Dan Kirsch papers <unitdate normal="1975/2004" type="inclusive" era="ce" calendar="gregorian">1975-2004</unitdate>
+         </unittitle>
+         <langmaterial label="Language of Material" encodinganalog="546">Material in <language langcode="eng"> English</language>
+         </langmaterial>
+         <physdesc label="Extent">
+            <extent unit="linear feet" encodinganalog="300">19.1 Linear Feet</extent>
+            <lb/>
+            <extent unit="items">10,840 Items</extent>
+         </physdesc>
+         <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+         <abstract label="Abstract" encodinganalog="545">Activist, community organizer, and theater director. Executive director of Charlotte's Lesbian and Gay Community Center. He also founded One Voice, a gay, lesbian and gay-affirmative chorus in Charlotte, NC, and OutCharlotte, an annual cultural festival that celebrated LGBT culture through theater, dance, music, visual art, film and video.</abstract>
+         <abstract encodinganalog="520">Collection documents the activities of Dan Kirsch and his work with various North Carolina gay and lesbian organizations. Organizations represented in the collection include One Voice, the N.C. Lesbian and Gay Pride Board, PELAG, Time Out Youth, OutCharlotte, NC Pride, and The Lesbian and Gay Community Center of Charlotte.
+</abstract>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict encodinganalog="506">
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict encodinganalog="540">
+            <head>Copyright Notice</head>
+            <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Dan Kirsch Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</p>
+         </prefercite>
+         <acqinfo encodinganalog="541">
+            <head>Provenance</head>
+            <p>The Dan Kirsch papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a
+gift in 2005, 2007, and 2009.
+</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Christian Ferney, John Mayrose, Rubenstein Library staff, October 2007</p>
+            <p>Encoded by John Mayrose, October 2007</p>
+            <p>Updated by Meghan Lyon, August 2009</p>
+            <p>This collection is minimally processed: materials may not have been ordered and described beyond their original condition.
+</p>
+            <p>Descriptive sources and standards used to create this inventory: <title xlink:type="simple" render="italic" xlink:href="">DACS,</title> EAD, NCEAD guidelines, and our local <title xlink:type="simple" render="italic" xlink:href="">Style Guide.</title>
+            </p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp>
+      <bioghist>
+         <head>Biographical Note</head>
+         <p>Activist, community organizer, and theater director. Executive director of Charlotte's Lesbian and Gay Community Center. He also founded <corpname>One Voice</corpname>, a gay, lesbian and gay-affirmative chorus in <geogname>Charlotte, NC</geogname>, and <corpname>OutCharlotte</corpname>, an annual cultural festival that celebrated LGBT culture through theater, dance, music, visual art, film and video.</p><!-- Use Chronlist Tags clip here for Chronology -->
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Accession (2005-0037) (21 boxes) documents the activities of N.C. gay and lesbian organizations. Includes correspondence, newsletters, programs, flyers, and organizational material from One Voice; organizational material, correspondence, programs, invitations, minutes, registration records, financial records (bulk 1994) from <title xlink:type="simple" render="italic" xlink:href="">Music &amp; Message</title>, the Gala Choruses Leadership Conference (Sept. 2-4, 1994 in Charlotte); correspondence, newsletters, clippings, financial records (1993-1996), minutes, and administrative records for the <corpname>N.C. Lesbian and Gay Pride Board</corpname>; fund raising material for the AIDS fund raiser <title xlink:type="simple" render="italic" xlink:href="">Heart Strings</title> (June 15, 1992), and <corpname>Pelag</corpname> benefit <title xlink:type="simple" render="italic" xlink:href="">Our Family Celebration</title> (Oct. 12, 1991); and files, promotional materials, newsletters, clippings, minutes, and financial records about a N.C. Lesbian and Gay Pride event, 1994. Also included are posters, t-shirts, 14 VHS video tapes, 1 CD-Rom, 50 photographs, and 25 slides.</p>
+         <p>Accession (2007-0079) (1600 items; 3 lin. ft.; dated 1991-2002) contains organization files and correspondence for <corpname>Time Out Youth</corpname>, an organization for lesbian, gay, and bisexual youth; financial and organizational files for OutCharlotte (1995-1998); NC Pride files; conference materials; and clippings from local publications including the <title xlink:type="simple" render="italic" xlink:href="">Charlotte Observer</title>, <title xlink:type="simple" render="italic" xlink:href="">Creative Loafing</title>, and <title xlink:type="simple" render="italic" xlink:href="">The Leader</title>. Also included are 2 CD-Rs containing audio clips of interviews, 15 Hi8 video cassettes, 9 VHS tapes, 4 audio cassettes, and photographs. Acquired as part of the Sallie Bingham Center for Women's History and Culture. </p>
+         <p>Accession (2009-0173) (2500 items; 3.6 lin. ft.; dated 1999-2004) includes materials from the planning and construction of The Lesbian and Gay Community Center in Charlotte, NC. Also includes The Center program files, administrative materials, board meeting minutes, publicity, and volunteer information.</p><!-- OPTIONAL: Use Arrangement clip here for Collection Arrangement section -->
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname source="lcsh" encodinganalog="600">Kirsch, Dan</persname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">OutCharlotte</corpname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Time Out Youth</corpname>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Gay communities -- North Carolina</subject>
+            </item>
+            <item>
+               <geogname source="lcsh" encodinganalog="651">Charlotte (N.C.)</geogname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">The Lesbian and Gay Community Center (Charlotte, N.C.)</corpname>
+            </item>
+            <item>
+               <genreform source="aat" encodinganalog="655">Photographs</genreform>
+            </item>
+            <item>
+               <genreform source="aat" encodinganalog="655">Videocassettes</genreform>
+            </item>
+            <item>
+               <genreform source="aat" encodinganalog="655">Audiocassettes</genreform>
+            </item>
+            <item>
+               <genreform source="aat" encodinganalog="655">CD-Rs</genreform>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Sallie Bingham Center for Women's History and Culture</corpname>
+            </item>
+         </list>
+      </controlaccess><!-- OPTIONAL: Separated material --><!-- OPTIONAL: Related material -->
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle id="s1">Accession (2005-0037)</unittitle>
+               <physdesc>
+                  <extent>(21 Boxes)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>The 2005 accession documents the activities of N.C. gay and lesbian organizations. Includes correspondence, newsletters, programs, flyers, and organizational material from One Voice; organizational material, correspondence, programs, invitations, minutes, registration records, financial records (bulk 1994) from <title xlink:type="simple" render="italic" xlink:href="">Music &amp; Message</title>, the Gala Choruses Leadership Conference (Sept. 2-4, 1994 in Charlotte); correspondence, newsletters, clippings, financial records (1993-1996), minutes, and administrative records for the <corpname>N.C. Lesbian and Gay Pride Board</corpname>; fund raising material for the AIDS fund raiser <title xlink:type="simple" render="italic" xlink:href="">Heart Strings</title> (June 15, 1992), and <corpname>Pelag</corpname> benefit <title xlink:type="simple" render="italic" xlink:href="">Our Family Celebration</title> (Oct. 12, 1991); and files, promotional materials, newsletters, clippings, minutes, and financial records about a N.C. Lesbian and Gay Pride event, 1994. Also included are posters, t-shirts, 14 VHS video tapes, 1 CD-Rom, 50 photographs, and 25 slides.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>One Voice membership, financial records, correspondence, and programs</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>One Voice records</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>GALA records</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>One Voice records, advertisements, and printed material</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>One Voice records, programs, and printed material</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>NC Pride records</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>GALA handbook</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>NC Pride files and printed material</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>NC Pride files, records and printed material</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>NC Pride files and photographs</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>NC Pride files, records and printed material</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>NC Pride files, political and support group files, <title xlink:type="simple" render="italic" xlink:href="">Heartstrings</title> script, printed material</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Heartstrings</title> and <title xlink:type="simple" render="italic" xlink:href="">Our Family Celebration</title> papers</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>GALA files</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Music &amp; Message</title> files</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>GALA and workshop files</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>GALA, workshop, and conference files</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>GALA files</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">16</container>
+                  <unittitle>GALA conference files</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">17</container>
+                  <unittitle>NC Pride files</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">18</container>
+                  <unittitle>NC Pride files and related materials</unittitle>
+                  <physdesc>
+                     <extent>(2 buttons; 3 drink insulators)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">19</container>
+                  <unittitle>One Voice files</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Videocassettes</unittitle>
+                  <physdesc>
+                     <extent>(9 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Compact disc</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">20</container>
+                  <unittitle>T-shirts</unittitle>
+                  <physdesc>
+                     <extent>(3 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Painting</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">21</container>
+                  <unittitle>Gay Pride files, <unitdate type="inclusive" era="ce" calendar="gregorian">1994</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Videocassettes</unittitle>
+                  <physdesc>
+                     <extent>(5 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s2">Accession (2007-0079)</unittitle>
+               <physdesc>
+                  <extent>(5 Boxes)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>The 2007 addition (dated 1991-2002) contains organization files and correspondence for <corpname>Time Out Youth</corpname>, an organization for lesbian, gay, and bisexual youth; financial and organizational files for OutCharlotte (1995-1998); NC Pride files; conference materials; and clippings from local publications including the <title xlink:type="simple" render="italic" xlink:href="">Charlotte Observer</title>, <title xlink:type="simple" render="italic" xlink:href="">Creative Loafing</title>, and <title xlink:type="simple" render="italic" xlink:href="">The Leader</title>. Also included are 2 CD-Rs containing audio clips of interviews, 15 Hi8 video cassettes, 9 VHS tapes, 4 audio cassettes, and photographs.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">22</container>
+                  <unittitle>OutCharlotte files, <unitdate type="inclusive" era="ce" calendar="gregorian">1995-1997</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Financial, workshop, board and committee files</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">23</container>
+                  <unittitle>OutCharlotte files, <unitdate type="inclusive" era="ce" calendar="gregorian">1997-1998</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Financial, workshop, strategic plans, board and committee files</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">24</container>
+                  <unittitle>Photographs</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Time Out Youth files</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Clippings</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">25</container>
+                  <unittitle>Videocassettes</unittitle>
+                  <physdesc>
+                     <extent>(9 VHS tapes; 15 Hi8 tapes)</extent>
+                  </physdesc>
+               </did>
+               <processinfo>
+                  <p>[Technical Services staff need to reformat for use copies of videotapes before use.]</p>
+               </processinfo>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Audiocassettes</unittitle>
+                  <physdesc>
+                     <extent>(4 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>CD-Rs</unittitle>
+                  <physdesc>
+                     <extent>(2 items)</extent>
+                  </physdesc>
+               </did>
+               <processinfo>
+                  <p>[Technical Services staff need to reformat for use copies of audiocassettes before use.]</p>
+               </processinfo>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">26</container>
+                  <unittitle>Clippings</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">The <emph render="doublequote">Bear</emph> Men of Charlotte</title> calendar, 1992</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s3">Accession (2009-0173)</unittitle>
+               <physdesc>
+                  <extent>(6 boxes)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Addition (2009-0173) (2500 items; 3.6 lin. ft.; dated 1998-2004) includes materials from the planning and construction of The Lesbian and Gay Community Center in Charlotte, NC. Also includes The Center program files, administrative materials, board meeting minutes, publicity, and volunteer information.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <unittitle>Center Leadership Trust</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Center Leadership Sustainers</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous correspondence and photographs, 2003-2004</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Volunteers</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Originals/forms</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Center calendars of events, 2003</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous, 2001-2002 (2 folders)</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes correspondence, city maps, essays and articles, sign-up sheets, photographs, event planning materials, and drafts from The Center.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">28</container>
+                  <unittitle>Miscellaneous, 2002</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes contact and member lists, drafts of press releases, and correspondence.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Center publications and newsletters, 2002</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous administration materials: job duties, internal policies, board applications</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Donor research, 1998-2003</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Community Center Kickoff, 2000-2001 (2 folders)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Richard Florida event (UNC Charlotte), 2003</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>National Gay and Lesbian Funding Partnership, 2004</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Other organization publications and brochures, 2003-2004</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Front and Center training packet</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tenant meeting originals, 2003-2004</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Board files, 2002 (3 folders)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Board files, 2003 (5 folders)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">29</container>
+                  <unittitle>Board files, 2004</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Press releases, 2002</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Programs and events</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Center film series, 2003</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Center art commission from John W. Love Jr. and Willie Little</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>ReachOut/Creative Development and Support, 2001-2002</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Artists/Gallery</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Faith traditions, 2003</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Leadership Training Day, 2002</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Building 1401 central renovation</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">30</container>
+                  <unittitle>Center construction, 2002</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Facilities, 2002</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Community center space</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Community Center Planning Committee, 1998-2002 (5 folders)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">31</container>
+                  <unittitle>Community Center Study/Planning Committee, 1999-2001</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Project transition to Center, 2002</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Center Leadership Trust</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>City Council/County Commissioners, 2003</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tenant correspondence, 2002</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s4">Oversize</unittitle>
+               <physdesc>
+                  <extent>(1 folder)</extent>
+               </physdesc>
+            </did>
+            <c02>
+               <did>
+                  <container type="opaperfolder">1</container>
+                  <unittitle>Miscellaneous</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

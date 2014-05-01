@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   
+   <eadheader findaidstatus="published" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b">
+      <eadid countrycode="US" mainagencycode="US-NcD" publicid="-//University Archives//TEXT (US::NDD::::Duke University Improv Records)//EN" url="http://library.duke.edu/rubenstein/findingaids/uadui/">uadui</eadid>
+      <filedesc>
+         
+         <titlestmt>
+            
+            <titleproper>Guide to the Duke University Improv Records, 1997 - 2001</titleproper>
+            
+            <author>Processed by: Emily Glenn; machine-readable finding aid created by: Jill Katte</author>
+         
+         </titlestmt>
+         
+         <publicationstmt>
+            <publisher>Duke University. University Archives</publisher>
+            <address>
+               <addressline>Duke University</addressline>
+               <addressline>Durham, NC 27708-0185 U.S.A.</addressline>
+               <addressline>919-660-5822</addressline>
+               <addressline>special-collections@duke.edu</addressline>
+            </address>
+            <date>2003</date>
+         </publicationstmt>
+         
+         <notestmt>
+            
+            <note>
+               
+               <p>Aleph Number: <num type="aleph">003258672</num>
+               
+               </p>
+            
+            </note>
+         
+         </notestmt>
+      
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from automated markup system. Date of source: January 2003 Processed by Emily Glenn January 2003; Finding Aid encoded by Jill Katte, University Archives, Duke University, September 2003<date>September 2003</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date>2014</date>
+            <item>Converted from dtd to schema and transformed with AT-import-fixer.xsl</item>
+         </change>
+         <change>
+            
+            <date normal="2006" era="ce" calendar="gregorian">05-01-2006</date>
+            
+            <item>PUBLIC "-//University
+		Archives//TEXT (US::NDD::::Duke University Improv
+		Records)//EN" uadui.xml converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            
+            <item>Also, the top level of the finding aid (above the dsc) was changed to conform to the NC EAD Best Practice Guidelines. Within the dsc, dates for series were normalized.</item>
+         
+         </change>
+      </revisiondesc>
+   </eadheader>
+   
+   
+   <archdesc level="collection" relatedencoding="MARC">
+      
+      <did>
+         <unittitle encodinganalog="245" label="Title">Duke
+		  University Improv records 		  <unitdate encodinganalog="245" normal="1997/2001" type="inclusive" era="ce" calendar="gregorian">1997 - 2001</unitdate>
+         
+         </unittitle>
+         <origination label="Creator">
+            
+            <corpname encodinganalog="110">Duke University
+			 Improv.</corpname>
+         
+         </origination>
+         <physdesc label="Extent">
+            
+            <extent>1.0 linear feet</extent>
+            
+            <extent>Extent: 1,000 Items</extent>
+         
+         </physdesc>
+         <repository encodinganalog="852" label="Repository">
+            
+            <corpname>Duke University. University Archives</corpname>
+         
+         </repository>
+         <physloc label="Location">For current information on
+		  the location of these materials, please consult University
+		  Archives, Duke University.</physloc>
+         <abstract>Duke
+		  University Improv is an improvisational comedy group
+		  composed of Duke students. The group formed in 1997.
+		  Records include printed e-mail correspondence, photographs,
+		  scripts, clippings, publicity fliers, and rosters. Major
+		  subjects include Duke University student activities,
+		  entertainment at Duke University, improvisational comedy,
+		  and acting. Materials range in date from 1997 to 2001.
+		   
+            English.
+         </abstract>
+         <langmaterial label="Language of Materials">English.</langmaterial>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <unitid>uadui</unitid>
+         <note label="Language of Materials">
+            <p>Language: English.</p>
+         </note>
+      </did>
+      
+      <descgrp type="admininfo">
+         
+         <head>Administrative Information</head>
+         
+         <accessrestrict encodinganalog="506">
+            
+            <head>Access Restrictions</head>
+            
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            
+            <p>In accordance with the Family Education Rights
+			 and Privacy Act of 1974 as amended, Duke University permits
+			 students to inspect their education records and limits the
+			 disclosure of personally identifiable information from
+			 education records.</p>
+            
+            <p>In off-site storage; 48 hours advance notice is
+			 required for use.</p>
+         
+         </accessrestrict>
+         
+         <userestrict encodinganalog="540">
+            
+            <head>Use Restrictions</head>
+            
+            <p>Copyright for Official University records is
+			 held by Duke University; all other copyright is retained by
+			 the authors of items in these papers, or their descendants,
+			 as stipulated by United States copyright law.</p>
+         
+         </userestrict>
+         
+         <prefercite encodinganalog="524">
+            
+            <head>Preferred Citation</head>
+            
+            <p>[Identification of item], Duke University Improv
+			 Records, Duke University Archives, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         
+         </prefercite>
+         
+         <acqinfo encodinganalog="541">
+            
+            <head>Provenance</head>
+            
+            <p>The Duke University Improv Records was received
+			 by the University Archives as a transfer in 2000.</p>
+         
+         </acqinfo>
+         
+         <processinfo>
+            
+            <head>Processing Information</head>
+            
+            <p>Processed by Emily Glenn</p>
+            
+            <p>Completed January 2003</p>
+            
+            <p>Encoded by Jill Katte, September 2003</p>
+            
+         
+         </processinfo>
+      
+      </descgrp><!-- End of finding aid header -->
+      
+      <bioghist encodinganalog="545">
+         
+         <head>Historical Note</head>
+         
+         <p>Duke University Improv, an improvisational comedy
+		  group made of Duke University undergraduates, was formed in
+		  February 1997, after a dormitory talent show on East
+		  Campus. In late 1996, East Campus held an "East Campus
+		  Extravaganza" at Reynolds Theater in the Bryan Center. Each
+		  dormitory on East Campus was to showcase its talent for the
+		  show; judges would award a pool table to the winners.
+		  Members of Gilbert-Addoms dormitory created a
+		  "mock-appella" group to enter the contest and sing parodies
+		  of the Speak of the Devil and Pitchfork songs. During
+		  preparation for this event, Sean Loughlin and Matt Kolavick
+		  met Cason Carter; the three became part of a 10-person
+		  group. The group claims to have not prepared much for the
+		  show, but their performance captivated the audience and
+		  they won the pool table for Gilbert-Addoms dormitory. One
+		  song, "Breakfast at The Marketplace", was a hit that would
+		  resurface in later performances. </p>
+         
+         <p> After the East Campus Extravaganza, several
+		  residents in Gilbert-Addoms and Randolph (plus one person
+		  from Alspaugh) talked during the year about creating an
+		  improvisational comedy group. They were impressed by the
+		  television show
+		<title xlink:type="simple" render="doublequote">Whose Line is it
+		  Anyway</title> and Duke University orientation week's
+		Comedy Spots. In February 1997, John Grant and Sean
+		Loughlin called a meeting in Gilbert-Addoms hall. The
+		founding eight members of Improv were: Harris Brodsky,
+		Cason Carter, John Grant, Scott Hecker, Sean Loughlin, Matt
+		Kovalick, Porter Mason, and Nupur Mehta. </p>
+         
+         <p> The new group called themselves DUI: Duke
+		  University Improv and claim to have had some rough
+		  beginnings. But by spring 1997, DUI performed ten times on
+		  campus and conceived the idea for the Big Show, a
+		  successful variety and benefit show. Porter Mason, Scott
+		  Hecker, and Cason Carter were discussing their families and
+		  discovered that cancer had affected them all. DUI was doing
+		  well financially, and with no costs, they could produce a
+		  benefit show that they would call the "Big Show". All
+		  proceeds would be donated to the Scott Carter Foundation
+		  for Cancer Research in memory of Cason's brother, Scott,
+		  who died from bone cancer. Over the next three years,
+		  Improv produced three Big Show events and raised
+		  approximately $25,000 for cancer research. Improv made two
+		  trips to Tulsa, Oklahoma to perform in benefit shows and
+		  present checks to the Scott Carter Foundation for Cancer
+		  Research. </p>
+         
+         <p> Additional performances were a Big Show III
+		  sell-out in Page Auditorium featuring local celebrities,
+		  Christmas Shows, Mystery Shows, and Duke Parent's Weekend
+		  shows. Improv also made their mark on the Duke University
+		  campus in The Chronicle as the subjects of many letters to
+		  the editor and an in-person comedy showdown with "Monday,
+		  Monday" columnists, The Tossed Salad Men. In the community,
+		  Improv performed for the Durham Academy, television's Cable
+		  13 channel, and students at the University of North
+		  Carolina at Chapel Hill, University of Virginia, and
+		  Georgetown University. </p>
+         
+         <p> As of 2003, DUI is currently active on campus and
+		  continues to perform the Big Show and well as a new Little
+		  Big Show. </p>
+      
+      </bioghist>
+      
+      <scopecontent>
+         
+         <head>Collection Overview</head>
+         
+         <p>Contains printed email correspondence,
+		  photographs, clippings, publicity fliers, scripts, and a
+		  rosters of the Duke University Improv comedy group from
+		  1997-2000. </p>
+      
+      </scopecontent>
+      
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These and related materials may be accessed under
+		  the following subject headings in the Duke University
+		  Libraries online catalog.</p>
+         <subject encodinganalog="650">Comedy</subject>
+         <corpname encodinganalog="610">Duke University Improv</corpname>
+         <corpname encodinganalog="610">Duke University -- Students</corpname>
+         <subject encodinganalog="650">Improvisation (Acting)</subject>
+      </controlaccess><!-- Sample of possible container list structure, actual markup depends upon the materials being described. -->
+      
+      <dsc type="combined">
+         
+         <head>Contents of Collection</head>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Correspondence,
+				June 1999-May
+				  2000.</unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Contains printed e-mail correspondence between
+				Improv members. The emails are organizational, creative,
+				and generally demonstrate the humor of the group. Ordered
+				by date. </p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">1</container>
+                  
+                  <container type="folder">1</container>
+                  
+                  <unittitle>Correspondence (e-mail),
+				  June
+					 1999-September 1999
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">2</container>
+                  
+                  <unittitle>Correspondence (e-mail),
+				  October 1999-May
+					 2000
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Photographs,
+				1998-2000
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Contains photographs of performances and some
+				composites of the group. Ordered by date.</p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">3</container>
+                  
+                  <unittitle>Big Show I,
+				  April 17,
+					 1998
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">4</container>
+                  
+                  <unittitle>Scott Carter Foundation,
+				  August
+					 1998
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">5</container>
+                  
+                  <unittitle>Big Show II,
+				  April 16,
+					 1999
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">6</container>
+                  
+                  <unittitle>General,
+				  Spring
+					 1999
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">7</container>
+                  
+                  <unittitle>Scott Carter Foundation,
+				  August
+					 1999
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">8</container>
+                  
+                  <unittitle>Lady Blue Shows,
+				  1998 and
+				  1999
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">9</container>
+                  
+                  <unittitle>Edens Quad,
+				  1999
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">10</container>
+                  
+                  <unittitle>Big Show III,
+				  April 14,
+					 2000
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Performance materials,
+				1999-2000
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Contains notes and scripts used in
+				performances. Ordered by date.</p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">11</container>
+                  
+                  <unittitle>Christmas Show,
+				  December
+					 1999
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">12</container>
+                  
+                  <unittitle>Big Show III,
+				  April 14,
+					 2000
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">13</container>
+                  
+                  <unittitle>Mystery Show, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01>
+            
+            <did>
+               
+               <unittitle>Press and clippings,
+				1998-2001.</unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Contains fliers, newspaper clippings, press
+				releases, and reviews of shows. One article from 2001
+				(folder 18) describes the post-graduation activities of
+				founding Improv members. Ordered by date. </p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">14</container>
+                  
+                  <unittitle>University of Virginia,
+				  January 24,
+					 1998
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">15</container>
+                  
+                  <unittitle>Big Show I,
+				  April 17,
+					 1998
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">16</container>
+                  
+                  <unittitle>Big Show II,
+				  April 16,
+					 1999
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">17</container>
+                  
+                  <unittitle>Big Show III,
+				  April 14,
+					 2000
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">18</container>
+                  
+                  <unittitle>Miscellaneous press</unittitle>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01>
+            
+            <did>
+               
+               <unittitle>History and membership,
+				1997-2000.</unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Contains the first rehearsal roster, letters
+				to The Chronicle regarding the "Monday, Monday" column by
+				the Tossed Salad Men, an application to join Improv, and
+				letters to the Editor regarding racist language in an
+				Improv performance. Ordered by date. </p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">19</container>
+                  
+                  <unittitle>Rehearsal roster,
+				  February
+					 1997
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">20</container>
+                  
+                  <unittitle>Letters to
+				  <title xlink:type="simple" render="italic">The Chronicle</title>:
+				  Tossed Salad Men,
+				  April
+					 1998
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">21</container>
+                  
+                  <unittitle>Auditions application, ca.
+				  1998
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">22</container>
+                  
+                  <unittitle>Letters to
+				  <title xlink:type="simple" render="italic">The Chronicle</title>:
+				  Middle East and Terrorism,
+				  April
+					 2000
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="folder">23</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">Creation Story of
+					 DUI,</title> by Matt Kovalick,
+				  May
+					 2000
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+      
+      </dsc>
+   
+   </archdesc>
+
+</ead>

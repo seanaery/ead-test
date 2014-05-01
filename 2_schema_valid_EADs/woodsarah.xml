@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Sarah Wood Zine Collection, 1990s)//EN" url="http://library.duke.edu/rubenstein/findingaids/woodsarah/">woodsarah</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Sarah Wood Zine Collection,
+		<date normal="1990/1999" era="ce" calendar="gregorian">1990s</date>
+            </titleproper>
+            <author>Processed by: Amy Leigh Hagardorn and Amy McDonald; machine-readable finding aid created by: Amy McDonald</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>
+               <lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, N.C., USA</publisher>
+            <p>
+               <date normal="2008" encodinganalog="date" era="ce" calendar="gregorian"> 2008</date> Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">003157746</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+            <date era="ce" calendar="gregorian">Date of source: February 2008</date>
+            <lb/>Processed by Amy Leigh Hagardorn and Amy McDonald; Finding Aid encoded by Amy McDonald, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, <date era="ce" calendar="gregorian">February 2008</date>
+         </creation>
+         <langusage>Description is in
+		<language langcode="eng">English</language>
+         </langusage>
+         <descrules>Finding aid was prepared using
+		  <title xlink:type="simple" xlink:href="">DACS</title> and our local
+		  <title xlink:type="simple" xlink:href="">Style Guide</title>
+         </descrules>
+      </profiledesc><!-- Location of <revisiondesc> if needed -->
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Sarah Wood Zine Collection, 1990s
+</titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/>Duke
+		 University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+         <p>
+            <date normal="2008" era="ce" calendar="gregorian"> 2008</date> Duke University. All Rights Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC">
+      <did>
+         <head>Descriptive Summary</head>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname>
+         </repository>
+         <origination label="Creator">
+            <persname encodinganalog="100">Wood, Sarah (collector)</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Sarah Wood Zine collection <unitdate normal="1990/1999" type="inclusive" era="ce" calendar="gregorian">1990s</unitdate>
+         </unittitle>
+         <langmaterial label="Language of Material" encodinganalog="546">Material in <language langcode="eng"> English</language>
+         </langmaterial>
+         <physdesc label="Extent">
+            <extent unit="linear feet" encodinganalog="300">2.0 Linear Feet</extent>
+            <lb/>
+            <extent unit="items">150 Items</extent>
+         </physdesc>
+         <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+         <abstract label="Abstract" encodinganalog="545">Sarah Wood was the co-owner of GERLL Press, a zine distro based in Chicago, Ill., in the early to mid-1990s.</abstract>
+         <abstract encodinganalog="520">The collection consists of about 150 zines self-published by women and girls, largely in the United States. Subjects include feminism, the riot grrrl movement, body image and consciousness, women’s health, women athletes, sexual abuse, television and film, poetry and short stories, rock music and punk music, violence against women, sexual identity, homosexuality, and bisexuality. Acquired as part of the Sallie Bingham Center for Women’s History and Culture.</abstract>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict encodinganalog="506">
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict encodinganalog="540">
+            <head>Copyright Notice</head>
+            <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Sarah Wood Zine Collection, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</p>
+         </prefercite>
+         <acqinfo encodinganalog="541">
+            <head>Provenance</head>
+            <p>The Sarah Wood Zine Collection was received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a gift in 2003.
+</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Amy Leigh Hagardorn and Amy McDonald</p>
+            <p>Completed July 2006</p>
+            <p>Encoded by Amy McDonald, February 2008</p>
+            <p>Accession 2003-0005 is described in this finding aid.
+</p>
+            <p>Descriptive sources and standards used to create this inventory: <title xlink:type="simple" render="italic" xlink:href="">DACS,</title> EAD, NCEAD guidelines, and our local <title xlink:type="simple" render="italic" xlink:href="">Style Guide.</title>
+            </p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp><!--end of finding aid header-->
+      <bioghist>
+         <head>Biographical Note</head>
+         <p>
+            <persname>Sarah Wood</persname>, along with her friend <persname>Kelly Curry</persname>, founded and owned GERLL (Girls Empowered Resisting Labels and Limits) Press, a zine distro based in <geogname>Chicago</geogname>, Ill., in the early to mid-1990s.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The collection consists of about 150 <genreform>zines</genreform> self-published by women and girls, largely in the <geogname>United States</geogname>. Many of these zines come directly from the <corpname>GERLL Press</corpname> inventory, or were submitted to Wood and Curry by their authors to be considered for sale through the distro. Subjects include <subject>feminism</subject>,  the <subject>riot grrrl movement</subject>, <subject>body image and consciousness</subject>, <subject>women’s health</subject>, <subject>women athletes</subject>, <subject>sexual abuse</subject>, <subject>television</subject> and <subject>film</subject>, <genreform>poetry</genreform> and <genreform>short stories</genreform>, <subject>rock music</subject> and <subject>punk music</subject>, <subject>violence against women</subject>, <subject>sexual identity</subject>, <subject>homosexuality</subject>, and <subject>bisexuality</subject>. Acquired as part of the Sallie Bingham Center for Women’s History and Culture.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname source="lcsh" encodinganalog="600">Wood, Sarah, collector</persname>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Feminism -- United States</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Fanzines</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Comic books, strips, etc</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Women -- Comic books, strips, etc</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Self-publishing</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Underground press publications -- United States</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Periodicals -- Publishing -- United States</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Homosexuality</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Sexual orientation</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Women poets</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Abused women</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Women athletes -- United States</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Women’s periodicals, American</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Women -- United States -- Social conditions</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Women -- Health and hygiene -- United States</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Women -- Psychology</subject>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Sallie Bingham Center for Women's History and Culture</corpname>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="collection">
+            <did>
+               <unittitle id="s1">Sarah Wood Zine Collection,<unitdate type="inclusive" normal="1990/1999" era="ce" calendar="gregorian"> 1990s</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>4 Boxes</extent>
+               </physdesc>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>20 Bus</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>A Voila</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Action Girl Guide</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Action Girl Newsletter</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Amelia Jane</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Another Lo-Fi Xtravaganza</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>April Fools' Day</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Art Babe</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Backchat</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bi-Girl World</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bloody Knuckles Club</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Boy Food</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bust</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Busy Bea's Bush</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Butterfly</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cake Walk</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cherub</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cheshire</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The Completion of Circles</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Conscious Clit</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Creme Brulee</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cross My Heart</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Dead Jackie Susann Quarterly</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Design #816</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Discharge</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Don't Dis Dolly</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Doris</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Exile</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Fantastic Fanzine</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Femme Flicke</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Fern</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Fix Me</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Flatter!</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The Flying Bitch Sisters Present: 1,267,984 Blender Recipies [sic]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Function</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Funkapotamus</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Geek Girl</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Get Off My Property</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Gift Idea</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Girl Fiend</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Girljock</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Girlwonder / Slam Book for the Midwest Girl Fest</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Gogglebox</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Graham Cracker Cereal</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Granny</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Grope</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Growing Pains</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Gunk</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hamster Man</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hands Off</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Healing Stone</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hemlock</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>How to Buy Second Hand Guitars and Amps Without Getting Ripped Off (By Dumb Boys)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hunger Strike</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hungry Girl</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>I Heart Me</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>I Am Intimate with Anger</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The I Hate Brenda Newsletter</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>I Know What You Did to Me</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>I'll Make a Deal with You</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Impossible Schizoid Girl</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>I'm a Dimpled Lunatic</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>I'm So Fucking Beautiful</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>It's a Grrrl</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>I've Got Angels in My Head</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Jigsaw</unittitle>
+               </did>
+               <scopecontent>
+                  <p>The folder contains a handwritten letter from Tobi Vail, the author of Jigsaw and the drummer for the band Bikini Kill.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Jungle Gym</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Just Like a Girl</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Just One Match</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Lardass</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Letters to Michelle</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Liar</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Libel / Spirals Upwards</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Looking Straight Down</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Love Is . . . Love Isn't</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Mad Planet</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Mad Woman</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Mama Girl</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Marika</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Men Speaking Out on Men and Sexism</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Mons of Venus</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ms. America</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Mudflap</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>My Last Nerve</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Nerd Girl</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>No Longer Silent</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ooompa! Ooompa!</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Oppression Song</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pacifier</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pirate Radio Kills the Ruling Class Stars</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Please Don't Hit Beneath the Belt</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Power Candy</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pretty in Peach</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Queenie</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Rage Against</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Resist Psychic Death!</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Riot Gear</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Riotemptresses</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Riot Grrrl Press Catalogue</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Rollerderby</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ruckus</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Runt</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Sacred Places</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Safety Pin</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Satanic Toasters</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Saturnine's Smile</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Secret Weapon</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Septophilia Records</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Six Degrees of Separation</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Sky Flying By</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Smart Like Eve</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Songs of a Dead Boy</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Sourpuss</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Sparkly Kitty Stickers</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Splatterspleen</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Square One</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stifled</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Super Girl</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Sweetarts Fanzine</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Taking No for an Answer</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Taylor's Daughter</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tease</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>That Girl</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>There's a Boy in the Girls' Bathroom</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Totally Hair Barbie</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Turtle Wax</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Two Weeks</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Under Control</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>[Untitled]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Up Yours</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Velvet Grass</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>War</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The Weeds</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>What is Riot Grrrl?</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>What You Can Learn from a Glamour Girl</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wiglet</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wild Honey Pie</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wives Tales</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Written on a Body</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Yours Truly Comix</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Do It Yourself Abortion</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Riot Grrrl Flyers</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Take Back Your Life</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Towards an Anti-Racist Feminism</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>What is Riot Grrrrl?</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Youth Greens Pamphlets</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Correspondence </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

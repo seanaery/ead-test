@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Michael Ivanovitch Rostovtzeff Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/rostov/">rostov</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Michael Ivanovitch
+			 Rostovtzeff Papers,
+			 <date normal="1897/1968" type="inclusive" era="ce" calendar="gregorian">1897-1968</date>
+            </titleproper>
+            <author>Daniel Daily assisted by Sallie Locke and
+			 Brent Johanson</author>
+         </titlestmt>
+         <publicationstmt>
+            <p>
+               <date era="ce" calendar="gregorian"> 1993</date> Duke University. All Rights
+			 Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>This finding aid is NCEAD compliant.</p>
+            </note>
+            <note>
+               <p>Aleph Number: <num type="aleph">001076404</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from
+		  Microsoft Word files. <lb/>Date of source: unknown.
+		  <lb/>Processed by: Daniel Daily assisted by Sallie Locke
+		  and Brent Johanson; Finding aid encoded by Daniel Pitti,
+		  University of California, Berkeley, and Stephen Miller,
+		  Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</creation>
+         <langusage>Description is in
+		  <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Michael Ivanovitch Rostovtzeff Papers)//EN" "rostov.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date calendar="gregorian" era="ce">June 29, 1998</date>
+            <item>Updated to EAD Version 1.0 from EAD Beta by
+			 Stephen Miller</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Michael Ivanovitch
+			 Rostovtzeff Papers,
+			 <date calendar="gregorian" era="ce">1897-1968</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham,
+		  North Carolina</publisher>
+         <p>(C) 1996 Duke University</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <origination label="Creator">
+            <persname>Rostovtzeff, Michael Ivanovitch,
+			 1870-1952</persname>
+         </origination>
+         <unittitle label="Title">Michael Ivanovitch
+		  Rostovtzeff papers 		  <unitdate calendar="gregorian" era="ce" normal="1897/1968" type="inclusive">1897-1968</unitdate>
+         </unittitle>
+         <physdesc label="Extent">
+            <extent>4.5 linear feet</extent>
+            <extent>2,500 items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>Duke University. Special Collections
+			 Library.</corpname>
+         </repository>
+         <langmaterial label="Languages">
+            <language langcode="eng">English, </language>
+            <language langcode="lat">Latin, </language>
+            <language langcode="fre">French, </language>
+            <language langcode="ger">German, </language>
+            <language langcode="spa">Spanish or Castilian, </language>
+            <language langcode="rus">Russian, </language>
+            <language langcode="ita">and Italian.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The copyright interests in the Michael I.
+			 Rostovtzeff papers have not been transferred to Duke
+			 University. For further information, see the section on
+			 copyright in the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library. </p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Michael Ivanovitch
+			 Rostovtzeff Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The Michael I. Rostovtzeff Papers (1897-1968)
+			 were donated to the Rubenstein Library in 1992 by
+			 the American Society of Papyrologists.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by: Daniel Daily</p>
+            <p>Assisted by: Sallie Locke and Brent Johanson</p>
+            <p>Date Completed: Nov. 20, 1992</p>
+            <p>Encoded by: Daniel Pitti and Stephen Miller</p>
+         </processinfo>
+      </descgrp>
+      <bioghist>
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1870, Nov. 10</date>
+               <event>Born, Zhitomir (the Ukraine), Russia
+				</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1888</date>
+               <event>Graduated from the First Classical
+				Gymnasium, Kiev, Russia</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1892</date>
+               <event>B.A., University of St. Petersburg
+				</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1899</date>
+               <event>Master of Latin Literature, University of
+				St. Petersburg </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1901</date>
+               <event>Married Sophie M. Kulezycki </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1903</date>
+               <event>Doctor of Latin Literature, University of
+				St. Petersburg </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1905-1918 </date>
+               <event>Member, Constitutional Democratic
+				Party</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1916-1919</date>
+               <event>Member, Russian Academy of
+				Sciences</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1918</date>
+               <event>Emigrated to Great Britain </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1918-1920</date>
+               <event>Lecturer, Queen's College, Oxford
+				University </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1920-1925</date>
+               <event>Professor of Ancient History, University
+				of Wisconsin, Madison, Wis. </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1925-1939 </date>
+               <event>Sterling Professor of Ancient History,
+				Yale University</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1926-1927</date>
+               <event>Published
+				<title xlink:type="simple" render="italic" xlink:href="">A History of the Ancient
+				  World</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1926</date>
+               <event>Published
+				<title xlink:type="simple" render="italic" xlink:href="">The Social and Economic
+				  History of the Roman Empire</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1928-1937</date>
+               <event>Director of the Yale University Expedition
+				at Dura-Europos </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1938</date>
+               <event>Published
+				<title xlink:type="simple" render="italic" xlink:href="">Dura-Europos and Its
+				  Art</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1939</date>
+               <event>Appointed Director of Archaeological
+				Studies, Yale University</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1941</date>
+               <event>Published
+				<title xlink:type="simple" render="italic" xlink:href="">The Social and Economic
+				  History of the Hellenistic World</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1944 </date>
+               <event>Appointed as the Sterling Professor of
+				Ancient History and Classical Archaeology, Emeritus
+				</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1952, Oct. 20</date>
+               <event>Died, New Haven, Conn.</event>
+            </chronitem>
+         </chronlist>
+         <p>Professor Rostovtzeff received honorary degrees
+		  from the University of Leipzig (1909), Oxford University
+		  (1919), University of Wisconsin (1924), Cambridge
+		  University (1934), Harvard University (1936), Athens
+		  University (1937), and the University of Chicago (1941). He
+		  was also a member of numerous national academies and
+		  learned societies, both in the United States and Europe.
+		  Included among these are Phi Beta Kappa, the American
+		  Academy of Arts and Sciences, the American Philological
+		  Society, La Pontificia Accademia Romana di Archeologia,
+		  Academie des Inscriptions et Belles Lettres, and the Polish
+		  Academy of Science. </p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The Michael I. Rostovtzeff Papers span the years
+		  1897 to 1968 with the bulk dated 1926 to 1954. The
+		  collection chiefly consists of the correspondence of
+		  Michael Rostovtzeff and C. Bradford Welles, a colleague of
+		  Rostovtzeff's at Yale University, with other scholars in the
+		  fields of ancient history, archaeology, and philology.
+		  Other materials include autobiographical writings by
+		  Rostovtzeff, photographs, financial papers, and clippings.
+		  The papers primarily reflect Michael Rostovtzeff's tenure as
+		  a faculty member of the Classics Department at Yale
+		  University. </p>
+         <p>The Papers of Michael I. Rostovtzeff provide
+		  information on the scholarly study of the ancient world
+		  during the first half of the twentieth century. In the
+		  Correspondence Series, letters from scholars in England,
+		  America, and Europe focus on matters of historical
+		  interpretation, archaeological work at Dura-Europos, and
+		  philological analysis. Notable scholars include Rene
+		  Mouterde, W. W. Tarn, Franz Cumont, Athur D. Nock, Vincenzo
+		  Arangio-Ruiz, Tadeusz Zielinski, Walter Otto, and Fritz
+		  Heichelheim. </p>
+         <p>The Biographical Materials Subseries contains
+		  Rostovtzeff's narrative of the Provisional Government's fall
+		  during the Russian Revolution of 1917, his opposition to
+		  Bolshevism, and his eventual emigration from Russia. The
+		  Correspondence Series also documents Rostovtzeff's
+		  assistance to European scholars seeking teaching and
+		  research positions in the United States during World War
+		  II. A number of letters between Rostovtzeff and Alvin
+		  Johnson, Director of the New School for Social Research,
+		  concern efforts by Johnson to identify refugee scholars for
+		  faculty positions at the New School for Social Research.
+		  </p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname>Rostovtzeff, Michael Ivanovitch,
+				1870-1952</persname>
+            </item>
+            <item>
+               <persname>Welles, C. Bradford (Charles Bradford)
+				1901-</persname>
+            </item>
+            <item>
+               <corpname>Yale
+				University -- Faculty</corpname>
+            </item>
+            <item>
+               <corpname>Yale University -- Dept. of
+				Classics</corpname>
+            </item>
+            <item>
+               <corpname>New School for Social Research (New
+				York, N.Y.).</corpname>
+            </item>
+            <item>
+               <persname>Johnson, Alvin Saunders,
+				1874-</persname>
+            </item>
+            <item>
+               <persname>Heichelheim, Fritz M. (Fritz
+				Moritz).</persname>
+            </item>
+            <item>
+               <persname>Otto, Walter Gustav Albrecht,
+				1878-1941</persname>
+            </item>
+            <item>
+               <persname>Arangio-Ruiz, Vincenzo,
+				1884-1964</persname>
+            </item>
+            <item>
+               <persname>Mouterde, Rene,
+				1880-1961</persname>
+            </item>
+            <item>
+               <persname>Nock, Arthur Darby,
+				1902-</persname>
+            </item>
+            <item>
+               <persname>Cumont, Franz Valery Marie,
+				1868-1947</persname>
+            </item>
+            <item>
+               <persname>Bickerman, E. J. (Elias Joseph),
+				1897-</persname>
+            </item>
+            <item>
+               <persname>Tarn, W. W. (William Woodthorpe),
+				1869-1957</persname>
+            </item>
+            <item>
+               <persname>Zielinski, Tadeusz,
+				1859-1944</persname>
+            </item>
+            <item>
+               <subject>History, Ancient</subject>
+            </item>
+            <item>
+               <subject>Excavations (Archaeology)--Dura-Europos
+				(Ancient City).</subject>
+            </item>
+            <item>
+               <subject>Russia -- History -- Revolution,
+				1917-1921</subject>
+            </item>
+            <item>
+               <subject>World War,
+				1939-1945 -- Refugees</subject>
+            </item>
+            <item>
+               <subject>Refugees, Political -- 20th
+				Century</subject>
+            </item>
+            <item>
+               <geogname>Dura-Europos (Ancient
+				City).</geogname>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle>Correspondence Series,
+				<unitdate calendar="gregorian" era="ce" normal="1918/1968" type="inclusive">1918-1968, undated</unitdate>
+                  <unitdate calendar="gregorian" era="ce" normal="1926/1954" type="bulk">(bulk 1926-1954).</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Divided into three subseries: Individuals,
+				Subjects, and Languages. Letters to and from an individual,
+				or letters pertaining to a subject may be located within
+				more than one subseries. Correspondence in English, Latin,
+				French, German, Spanish, Russian, and Italian is scattered
+				throughout the subseries. </p>
+            </scopecontent>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Correspondence: Individuals
+				  Subseries,
+				  <unitdate calendar="gregorian" era="ce" normal="1921/1968" type="inclusive">1921-1968, undated</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1926/1954" type="inclusive">(bulk 1926-1954).</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Consists of letters to Rostovtzeff or copies
+				  of letters sent by him. Included are letters which did not
+				  originate from, nor were addressed to Professor Rostovtzeff,
+				  including a substantial number of letters either to or from
+
+				  <persname>C. Bradford Welles. </persname>Many
+				  of the letters pertain to Professor Rostovtzeff's teaching
+				  positions at
+				  <corpname>Oxford University, </corpname>the
+				  <corpname>University of Wisconsin,
+					 </corpname>and
+				  <corpname>Yale University;</corpname> his
+				  study of ancient history; and his work as Director of the
+				  Yale Expedition at
+				  <geogname>Dura-Europos.</geogname>
+                  </p>
+                  <arrangement>
+                     <p>Arranged alphabetically by correspondent,
+					 organization or society. Arranged chronologically under the
+					 correspondent when there is more than one letter to or from
+					 a correspondent. Following the A-Z arrangement are folders
+					 arranged alphabetically by surname. </p>
+                  </arrangement>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle>A:
+					 <unitdate calendar="gregorian" era="ce" normal="1934/1955" type="inclusive">1934, Oct.-1955, June</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>B-C:
+					 <unitdate calendar="gregorian" era="ce" normal="1937/1947" type="inclusive">1937, Apr.-1947, July</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>D-F:
+					 <unitdate calendar="gregorian" era="ce" normal="1936/1953" type="inclusive">1936, Dec.-1953, Jan., undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>G-J:
+					 <unitdate calendar="gregorian" era="ce" normal="1932/1953" type="inclusive">1932, Feb.-1953, May , undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>K:
+					 <unitdate calendar="gregorian" era="ce" normal="1921/1954" type="inclusive">1921, May-1954, Aug.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>L:
+					 <unitdate calendar="gregorian" era="ce" normal="1936/1948" type="inclusive">1936, Mar.-1948, Jan.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>M:
+					 <unitdate calendar="gregorian" era="ce" normal="1925/1954" type="inclusive">1925, Sept.-1954, Dec., undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>N-O:
+					 <unitdate calendar="gregorian" era="ce" normal="1934/1960" type="inclusive">1934, Jan.-1960, May</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>P:
+					 <unitdate calendar="gregorian" era="ce" normal="1932/1968" type="inclusive">1932, Jan.-1968, Mar.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle> R-Sc:
+					 <unitdate calendar="gregorian" era="ce" normal="1920/1963" type="inclusive">1920s, 1936, Sept.-1963, Dec., undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Se: 1930,
+					 <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">Feb.-1965, Sept.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Sh-Sn:
+					 <unitdate calendar="gregorian" era="ce" normal="1933/1964" type="inclusive">1933, Jan.-1964, May, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Soc:
+					 <unitdate calendar="gregorian" era="ce" normal="1936/1964" type="inclusive">1936, Sept.-1964, Jan.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Sok-Sz:
+					 <unitdate calendar="gregorian" era="ce" normal="1933/1965" type="inclusive">1933, May-1965, Feb., undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>T-Z:
+					 <unitdate calendar="gregorian" era="ce" normal="1931/1962" type="inclusive">1931, Mar.-1962, Oct.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Arangio-Ruiz, Vicenzo,
+						</persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1938/1953" type="inclusive">1938, Feb.-1953, May</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Cumont, Franz, </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1927/1939" type="inclusive">1927, Feb.-1939, Oct.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Heichelheim, Fritz M.,
+						</persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1933/1942" type="inclusive">1933, Jan.-1942, Sept.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Mouterde, Rene, </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1934/1960" type="inclusive">1934, Nov.-July, 1960, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Nock, Arthur and C. Bradford
+						Welles,</persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1932/1963" type="inclusive">1932, May-1963, Jan.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)
+					 </extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Otto, Walter, </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1934/1948" type="inclusive">1934, Nov.-1948, June, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Rostovtzeff, Michael I.,
+						</persname>and Russian relatives,
+					 <unitdate calendar="gregorian" era="ce" normal="1918/1941" type="inclusive">1918-1941, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Rostovtzeff, Michael I.,
+						</persname>letters not sent to the addressees,
+					 <unitdate calendar="gregorian" era="ce" normal="1942/1950" type="inclusive">1942, Sept.-1950, June, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Rostovtzeff, Michael I.
+						</persname>to
+					 <persname>C. Bradford Welles, </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1930/1946" type="inclusive">1930, May-1946, Oct., undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent> (2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Rostovtzeff, Sophie, </persname>
+					 Sympathy letters to,
+					 <unitdate calendar="gregorian" era="ce" normal="1952/1953" type="inclusive">1952, Oct.-1953, Jan., undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent> (2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Rostovtzeff, Sophie </persname> to
+
+					 <persname>C. Bradford Welles, </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1944/1954" type="inclusive">1944, Oct.-1954, June</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Schubart, Wilhelm, </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1933/1960" type="inclusive">1933, Jan.-1960, Aug., undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Welles, C. Bradford </persname>
+					 and
+					 <persname>Mrs. F.S. Merrill, </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1944/1946" type="inclusive">1944, Sept.-1946, July</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Welles, C. Bradford </persname>
+					 to
+					 <persname>Michael I. Rostovtzeff,
+						</persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1930/1946" type="inclusive">1930, Nov.-1946, July</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Welles, C. Bradford </persname>
+					 and
+					 <persname>Mariano San Nicolo, </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1933/1955" type="inclusive">1933, Aug.-1955, May</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Welles, C. Bradford </persname>
+					 and
+					 <persname>W. W. Tarn,</persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1939/1954" type="inclusive">1939, Feb.-1954, Dec., undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Welles, C. Bradford </persname>
+					 and
+					 <persname>Toll, Nina,</persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1932/1936" type="inclusive">1932, Nov.-1936, July 2</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Wilammitz to
+					 <persname>Michael I. Rostovtzeff,</persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1926/1930" type="inclusive">1926, May,-1930, July</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Zielinski, Tadeusz, </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1929/1940" type="inclusive">1929, Apr.-1940, June</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Correspondence: Subjects Subseries
+				  <unitdate calendar="gregorian" era="ce" normal="1918/1966" type="inclusive">1918-1966, undated</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1926/1950" type="inclusive">(bulk 1926-1950).</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes correspondence concerning
+				  Rostovtzeff's contribution to
+				<title xlink:type="simple" render="italic" xlink:href="">The Cambridge Ancient
+				  History.</title> Also contains other correspondence from
+				publishers in
+				<geogname>England,</geogname> as well as in
+				<geogname>Germany </geogname>and
+				<geogname>France, </geogname>concerning the
+				publication of Rostovtzeff's works. Correspondence from the
+				British publishers comment on the effects of
+				<subject>World War II </subject>upon publishing
+				and everyday life. </p>
+                  <p>The focus of a substantial number of letters
+				  is Professor Rostovtzeff's efforts to aid refugee European
+				  scholars in obtaining faculty positions in the
+				  <geogname>United States </geogname>during
+				  <subject>World War II.</subject>
+                  </p>
+                  <arrangement>
+                     <p>Arranged alphabetically. </p>
+                  </arrangement>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href=""> The Cambridge
+						Ancient History,</title>
+                        <unitdate calendar="gregorian" era="ce" normal="1926/1933" type="inclusive">1926, June-1933, Mar., undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)
+					 </extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>The Clarendon Press, </corpname>
+                        <unitdate calendar="gregorian" era="ce" normal="1926/1942" type="inclusive">1926, June-1942, Sept. undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent> (2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Harvard University:</corpname>
+					 Offer of an appointment as a university professor,
+					 <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Harvard University, The Dumbarton
+						Oaks Research Library and Collection, </corpname>
+                        <unitdate calendar="gregorian" era="ce" normal="1940/1950" type="inclusive">1940, Aug.-1950, Nov.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Princeton: </corpname>Advisory
+					 Council to the Department of Classics,
+					 <unitdate calendar="gregorian" era="ce" normal="1947/1966" type="inclusive">1947, July-1966, Dec.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Publications: French</subject>
+					 correspondence,
+					 <unitdate calendar="gregorian" era="ce" normal="1923/1939" type="inclusive">1923, Dec.-1939, Aug.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Publications: German</subject>
+					 correspondence,
+					 <unitdate calendar="gregorian" era="ce" normal="1928/1939" type="inclusive">1928, Apr.-1939, July</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Recommendations by
+					 <persname>Rostovtzeff, Michael I.,
+						</persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1936/1950" type="inclusive">1936, Nov.-1950, Jan. (Restricted)</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Refugee scholars:
+					 <persname>Bickerman, Elias, </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1939/1942" type="inclusive">1939, Apr.-1942, Jan.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Refugee scholars: Curriculum
+					 vitae,
+					 <unitdate calendar="gregorian" era="ce" normal="1938/1941" type="inclusive">1938-1941; n.d</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Refugee scholars:
+					 <subject>English, French, German, and
+						Italian languages, </subject>
+                        <unitdate calendar="gregorian" era="ce" normal="1937/1942" type="inclusive">1937-1942, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Refugee scholars:
+					 <persname>Johnson, Alvin, </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1940/1941" type="inclusive">1940, Aug.-1941, Apr.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Refugee scholars:
+					 <subject>Slavic, French, and Italian
+						languages, </subject>
+                        <unitdate calendar="gregorian" era="ce" normal="1929/1943" type="inclusive">1929-1943, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>University appointments,
+					 <unitdate calendar="gregorian" era="ce" normal="1918/1944" type="inclusive">1918, Apr.-1944, June.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Yale </corpname>Research Funds,
+					 <unitdate calendar="gregorian" era="ce" normal="1938/1943" type="inclusive">1938, Aug.-1943, May</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Correspondence: Languages Subseries,
+
+				  <unitdate calendar="gregorian" era="ce" normal="1920/1951" type="inclusive">1920-1951</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Primarily letters received by Rostovtzeff
+				  from scholars in
+				  <geogname>Great Britain</geogname> and
+				  <geogname>Europe. </geogname>Contains
+				  correspondence in English, French, German, Italian, Latin,
+				  Russian, and Spanish. Included are letters concerning
+				  Rostovtzeff's archaeological work at
+				  <geogname> Dura-Europos </geogname>and
+				  matters of historical interpretation and philological
+				  analysis. Included in the German correspondence are letters
+				  from scholars hoping to emigrate from
+				  <geogname>Germany </geogname>due to political
+				  changes after
+				  <subject>World War I</subject> or
+				  anti-semitism. A letter dated
+				  <date calendar="gregorian" era="ce">April 15, 1938 </date>is written from a
+				  concentration camp in
+				  <geogname>Germany </geogname>and describes
+				  the conditions within the camp. In the Russian
+				  correspondence, the topics of the letters include
+				  humanitarian aid to people in
+				  <geogname>Russia, </geogname>censorship of
+				  mail, and archaeology.</p>
+                  <arrangement>
+                     <p>Arranged alphabetically by language and
+					 chronologically within each language. </p>
+                  </arrangement>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>English,
+					 <unitdate calendar="gregorian" era="ce" normal="1921/1951" type="inclusive">1921, Dec.-1951, Nov., undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(9
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>French, <unitdate calendar="gregorian" era="ce" normal="1926/1944" type="inclusive">1920, Nov.-1950, Feb., undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>German,
+					 <unitdate calendar="gregorian" era="ce" normal="1926/1944" type="inclusive">1926, May-1944, Jan.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Italian,
+					 <unitdate calendar="gregorian" era="ce" normal="1927/1940" type="inclusive">July, 1927-May, 1940, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Latin,
+					 <unitdate calendar="gregorian" era="ce" normal="1926/1939" type="inclusive">March, 1926-1939, 1930s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>Russian,
+					 <unitdate calendar="gregorian" era="ce" normal="1920/1949" type="inclusive">1920-1945, 1940s, undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Spanish,
+					 <unitdate calendar="gregorian" era="ce" normal="1940/1946" type="inclusive">1940, Sept.-1946, Feb.</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Miscellaneous Series,
+				<unitdate calendar="gregorian" era="ce" normal="1897/1961" type="inclusive">1897-1961, undated</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Comprised of five subseries Biographical
+				Materials, Pictures, Writings, Financial Papers, and
+				General. Each subseries primarily documents Rostovtzeff's
+				professional affiliations.</p>
+            </scopecontent>
+            <c02 level="subseries">
+               <did>
+                  <unittitle> Biographical Materials Subseries,
+				  <unitdate calendar="gregorian" era="ce" normal="1918/1954" type="inclusive">1918-1954 and undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>Awards and honors,
+					 <unitdate calendar="gregorian" era="ce" normal="1918/1951" type="inclusive">1918-1951</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Autobiographical Writings,
+					 <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940; undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Curriculum vitae and lists of
+					 publications,
+					 <unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Obituary notices, clippings,
+					 <unitdate calendar="gregorian" era="ce" normal="1952/1963" type="inclusive">1952-1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Obituary notices,
+					 <unitdate calendar="gregorian" era="ce" normal="1952/1954" type="inclusive">1952-1954, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Pictures Subseries,
+				  <unitdate calendar="gregorian" era="ce" normal="1909/1941" type="inclusive">1909-1941 and undated</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Primarily black and white photographs.
+				  Subjects include
+				  <persname>Michael and Sophie Rostovtzeff,
+					 </persname>scenes in
+				  <geogname>Russia, </geogname>and
+				  archaeological sites, possibly
+				  <geogname>Dura-Europos.</geogname>
+                  </p>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>
+                        <persname>Rostovtzeff, Michael I.,
+						</persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1926/1933" type="inclusive">1926-1933, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Rostovtzeff, Michael I.,
+						</persname>and colleagues,
+					 <unitdate calendar="gregorian" era="ce" normal="1931/1941" type="inclusive">1931-1941, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Rostovtzeff, Michael I.,
+						</persname>and
+					 <geogname>Russia, </geogname>
+                        <unitdate calendar="gregorian" era="ce" normal="1909" type="inclusive">1909, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Rostovtzeff, Michael I. and
+						Sophie, </persname>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Writings Subseries,
+				  <unitdate calendar="gregorian" era="ce" normal="1926/1961" type="inclusive">1926-1961</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes offprints, typed drafts, and
+				  clippings of reviews for
+				<title xlink:type="simple" render="italic" xlink:href="">The Social and Economic
+				  History of the Roman Empire</title> and
+				<title xlink:type="simple" render="italic" xlink:href="">The Social and Economic
+				  History of the Hellenistic World,</title> and a first
+				edition of
+				<persname>Samuel Eliot Morison's </persname>
+                     <title xlink:type="simple" render="italic" xlink:href="">The Scholar in
+				  America.</title>
+                  </p>
+                  <arrangement>
+                     <p>Arranged chronologically.</p>
+                  </arrangement>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1926/1961" type="inclusive">1926-1961</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Financial Papers Subseries,
+				  <unitdate calendar="gregorian" era="ce" normal="1921/1932" type="inclusive">1921-1932 and undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>Papyri and antiquities, accounts
+					 and purchases,
+					 <unitdate calendar="gregorian" era="ce" normal="1930/1932" type="inclusive">1930-1932, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Publications, accounts and
+					 receipts relating to,
+					 <unitdate calendar="gregorian" era="ce" normal="1921/1932" type="inclusive">1921-1932, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>General Subseries,
+				  <unitdate calendar="gregorian" era="ce" normal="1897/1952" type="inclusive">1897-1952, undated</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes notes for a lecture series and the
+				  preparation of a bibliography of Rostovtzeff's works.</p>
+                  <arrangement>
+                     <p>Arranged chronologically.</p>
+                  </arrangement>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1897/1952" type="inclusive">1897-1952</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="collection">
+            <did>
+               <unittitle>Oversized Materials</unittitle>
+            </did>
+            <c02 level="series">
+               <did>
+                  <container type="opaperfolder" label="Oversize Cabinet">OC:III:1
+				  </container>
+                  <unittitle>Correspondence Series</unittitle>
+               </did>
+               <c03 level="subseries">
+                  <did>
+                     <unittitle>Individuals Subseries,
+					 <unitdate calendar="gregorian" era="ce" normal="1927/1962" type="inclusive">1927-1962</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="subseries">
+                  <did>
+                     <unittitle>Subjects Subseries,
+					 <unitdate calendar="gregorian" era="ce" normal="1929/1950" type="inclusive">1929-1950</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="series">
+               <did>
+                  <unittitle>Miscellaneous Series </unittitle>
+               </did>
+               <c03 level="subseries">
+                  <did>
+                     <unittitle>Biographic Materials Subseries,
+					 <unitdate calendar="gregorian" era="ce" normal="1918/1953" type="inclusive">1918-1953, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="subseries">
+                  <did>
+                     <unittitle>Writings Subseries,
+					 <unitdate calendar="gregorian" era="ce" normal="1941/1942" type="inclusive">1941-1942, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="subseries">
+                  <did>
+                     <unittitle>Financial Papers Subseries,
+					 <unitdate calendar="gregorian" era="ce" normal="1931" type="inclusive">1931</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03 level="subseries">
+                  <did>
+                     <unittitle>General Subseries,
+					 <unitdate calendar="gregorian" era="ce" normal="1919/1943" type="inclusive">1919, 1943, and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

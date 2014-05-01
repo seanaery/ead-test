@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Duke Family Papers, 1885-1992)//EN" url="http://library.duke.edu/rubenstein/findingaids/uadukefamilypapers/">uadukefamilypapers</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Duke Family Papers,
+			<date normal="1885/1992" era="ce" calendar="gregorian">1885-1992 (bulk 1892-1927)</date>
+            </titleproper>
+            <author>Processed by: Mary Samouelian; machine-readable finding aid created by: Mary Samouelian</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>
+               <lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+            <p>
+               <date normal="2010" encodinganalog="date" era="ce" calendar="gregorian"> 2010</date> Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">004190498</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+            <date era="ce" calendar="gregorian">Date of source: August 2010</date>
+            <lb/>Processed by Mary Samouelian, July 2010; finding aid encoded by Mary Samouelian, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, <date era="ce" calendar="gregorian">August 2010</date>
+         </creation>
+         <langusage>Description is in
+		<language langcode="eng">English</language>
+         </langusage>
+         <descrules>Finding aid was prepared using
+		  <title xlink:type="simple" xlink:href="">DACS</title> and local
+		  <title xlink:type="simple" xlink:href="">Style Guide</title>
+         </descrules>
+      </profiledesc><!-- Location of <revisiondesc> if needed -->
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Duke Family Papers, <date type="span" era="ce" calendar="gregorian">1885-1992 (bulk 1892-1927)</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+         <p>
+            <date normal="2010" era="ce" calendar="gregorian">(C) 2010</date> Duke University. All Rights Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC">
+      <did>
+         <head>Descriptive Summary</head>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname>
+         </repository>
+         <origination label="Creator">
+            <famname encodinganalog="100">Duke family</famname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Duke Family papers <unitdate normal="1885/1992" type="inclusive" era="ce" calendar="gregorian">1885-1992 (bulk 1892-1927)</unitdate>
+         </unittitle>
+         <langmaterial label="Language of Material" encodinganalog="546">Material in <language langcode="eng"> English</language>
+         </langmaterial>
+         <physdesc label="Extent">
+            <extent unit="linear feet" encodinganalog="300">9.0 Linear Feet</extent>
+            <lb/>
+            <extent unit="items">approx. 3,000 Items</extent>
+         </physdesc>
+         <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+         <abstract label="Abstract" encodinganalog="545">James Buchanan (J.B.) Duke (1856-1925) was known for his business acumen, especially in national and international tobacco industries and hydroelectric power. He was married twice, first to Lillian McCredy, who he divorced in 1906 and then Nanaline Holt Inman, who was his spouse from 1907 until his death in 1925.</abstract>
+         <abstract encodinganalog="520">This collection primarily documents James B. Duke's business and personal activities. Materials include business and personal correspondence, invoices and receipts for both business and personal purchases, financial and legal reports, the last will and testaments of both James B. and Nanaline Duke, and materials documenting the divorce proceedings of J.B. and Lillian McCredy Duke. Miscellaneous records include a booklet tracing the Duke family geneaology.</abstract>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict encodinganalog="506">
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use. Due to the fragility of the architectural records, The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict encodinganalog="540">
+            <head>Copyright Notice</head>
+            <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Duke Family Papers, Doris Duke Charitable Foundation Historical Archives, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo encodinganalog="541">
+            <head>Provenance</head>
+            <p>The Duke Family Papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a donation from the Doris Duke Charitable Foundation in June 2009.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Mary Samouelian, July 2010</p>
+            <p>Encoded by Mary Samouelian, August 2010</p>
+            <p>Accession UA2009-0030 is described in this finding aid.</p>
+            <p>Descriptive sources and standards used to create this inventory: <title xlink:type="simple" render="italic" xlink:href="">DACS,</title> EAD, NCEAD guidelines, and local <title xlink:type="simple" render="italic" xlink:href="">Style Guide.</title>
+            </p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp><!--end of finding aid header-->
+      <bioghist>
+         <head>Biographical Note</head>
+         <p>James Buchanan (J.B.) Duke (1856-1925) was known for his business acumen, especially in national and international tobacco industries and hydroelectric power. He was married twice, first to Lillian McCredy, whom he divorced in 1906 and then Nanaline Holt Inman, who was his spouse from 1907 until his death in 1925.</p><!-- Use Chronlist Tags clip here for Chronology -->
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The Duke Family Papers (formerly DKFM) are part of the Doris Duke Charitable Foundation Historical Archives which were donated to the Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library by the Doris Duke Charitable Foundation.  The collection spans the years 1885 to 1992, although the bulk of the material dates from the 1890s to the mid-1920s. The collection is arranged into six series: Correspondence, Financial Records, Legal Records, Miscellaneous Records, the Divorce Proceedings of James B. Duke and Lillian McCredy Duke, and Architectural Records. The collection primarily documents James B. Duke's business and personal activities. The correspondence is a combination of business and personal letters, with many of the personal letters related to his philanthropy, such as requests from individuals for financial aid and other forms of assistance or favors, such as making investments and employment. Financial records include invoices and receipts for his businesses such as the British American Tobacco Company and the Raritan Power Co., and purchases for his Fifth Avenue mansion in New York City, Duke Farms in New Jersey, and other personal belongings such as furniture, clothing, and jewelry. The collection also documents the administration of the Estate of James B. Duke, including legal proceedings stemming from claims made against the estate after the will of James B. Duke had been executed. A quarter of the collection focuses on the divorce of J.B. Duke and his first wife Lillian, including statements and affidavits of witnesses involved in the divorce proceedings.Miscellaneous records include a booklet tracing the Duke family geneaology and the Duke Name Project including incomplete names of Duke family members. The architectural records include one drawing for J.B. Duke's home in Charlotte, North Carolina. The remaining architectural records document the residence of Walker P. Inman. The materials in this collection are arranged loosely in chronological order.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <subject source="lcsh" encodinganalog="650">American Tobacco Company -- History</subject>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Duke, James Buchanan, 1856-1925</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Duke, Lillian McCredy</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Duke, Nanaline Holt Inman</persname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Duke Endowment</corpname>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Duke family</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Tobacco Industry -- North Carolina</subject>
+            </item>
+         </list>
+      </controlaccess><!-- OPTIONAL: Separated material -->
+      <relatedmaterial>
+         <head>Related Material</head>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle label="Collection">James B. Duke and Lillian McCredy Duke Divorce Papers, 1904-1906</unittitle>
+            <repository label="Repository">Duke University Archives/David M. Rubenstein Rare Book &amp; Manuscript Library</repository>
+         </archref>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle label="Collection">James Buchanan Duke Papers, 1777-1990</unittitle>
+            <repository label="Repository">Duke University Archives/David M. Rubenstein Rare Book &amp; Manuscript Library</repository>
+         </archref>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle label="Collection">Duke Endowment Reference Collection, 1964-ongoing</unittitle>
+            <repository label="Repository">Duke University Archives/David M. Rubenstein Rare Book &amp; Manuscript Library</repository>
+         </archref>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle label="Collection">Washington Duke Papers, 1764-1987</unittitle>
+            <repository label="Repository">Duke University Archives/David M. Rubenstein Rare Book &amp; Manuscript Library</repository>
+         </archref>
+      </relatedmaterial>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle id="s1">Correspondence, <unitdate type="inclusive" normal="1892/1920" era="ce" calendar="gregorian">1892-1920</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>This series contains a mixture of business and personal correspondence. Business correspondence topics include American Tobacco Co., daily transactions, solicitations for donations, and other business ventures. Personal correspondence includes matters related to Duke Farms and personal letters from immediate and distant family members. Correspondence is generally to/from J.B. Duke, but includes correspondence to and from immediate family members such as Nanaline Duke (Mrs. J.B.), Benjamin Duke, Angier Biddle Duke, and Mary Duke.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>Correspondence relating to J.B. Duke’s purchases of automobiles. 1906, 1913</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>Correspondence sent to J.B. Duke from Cary H. Whitaker, Pastor, The Methodist Protestant Church, Graham, N.C. In this letter, Pastor Whitaker requests financial aid from Mr. Duke for the repair of the Church building. He also informs him that one of Washington Duke’s wives is buried in the Church cemetery. J.B.Duke responds by sending a $25 donation. November 2–6, 1908</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>Correspondence relating to various topics including J.B. Duke’s projects. Includes work by Trumbauer at 1 E. 78th St. 1912–1914</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>Correspondence sent to J.B. Duke from Ethel Arrington requesting financial aid from Mr. Duke. Duke responds by sending a $20 donation. November 9–11, 1913</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>Correspondence to Benjamin Duke regarding a variety of matters including donation requests and thank yous for donations. 1914–1915</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>Correspondence sent to J.B. Duke from nephew Buchanan Duke. January 15, 1915</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>Correspondence between Benjamin Duke and J.B. Duke. 1892–1899</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>Correspondence relating to a variety of matters concerning J.B. Duke, solicitations of companies, speeding warnings from N.J. to J.B. Duke, and invitations to social events. 1894, 1905–1908, 1914–1915</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">9</container>
+                  <unittitle>Correspondence and other materials relating to operations and business matters of the American Tobacco Co. 1896–1904</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10</container>
+                  <unittitle>Correspondence and other materials relating to operations and business matters of the American Tobacco Co. 1897–1910</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">11</container>
+                  <unittitle>Correspondence relating to J.B. Duke’s stock subscriptions to Virginia-Carolina Chemical Company, Richmond, VA. File includes materials relating to lawsuit against company. Includes balance sheets. 1897–1912</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">12</container>
+                  <unittitle>Correspondence and other materials relating to operations and business matters of the American Tobacco Co. and British American Tobacco Co. 1900–1904</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">13</container>
+                  <unittitle>Correspondence and related materials concerning J.B. Duke’s business matters. Includes purchase of statues for Duke Farms and greenhouses. 1901–1913</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">14</container>
+                  <unittitle>Correspondence, business, relating to J.B. Duke’s daily activities, transactions, and relationships. 1903–1911</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">1</container>
+                  <unittitle>Correspondence and related materials concerning a variety of business and personal matters. Includes telegram to Miss Duke from “Daddy,” investments, and insurance. Includes letters to/from N. Duke and letters from Famous Players Film Co. 1905–1952</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">2</container>
+                  <unittitle>Correspondence relating to J.B. Duke covering a variety of topics including donation requests, securities, sale of house at 1009 5th Ave., Raritan Water Co., etc. 1907–1916</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">3</container>
+                  <unittitle>Correspondence relating to Mary Duke’s wedding at Duke Farms on June 16, 1915, legal suit, May Inman Gray v. Harriett F. Brandon et al., and other matters. 1908–1915</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">4</container>
+                  <unittitle>Correspondence, business, relating to J.B. Duke’s daily activities, transactions, and relationships. 1912</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">5</container>
+                  <unittitle>Correspondence, business, relating to J.B. Duke’s daily activities, transactions, and relationships. 1913</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">1</container>
+                  <unittitle>Personal correspondence from various Duke family members, 1912-1915</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">2</container>
+                  <unittitle>Correspondence, business, relating to J.B. Duke’s daily activities, transactions, and relationships. 1914</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">3</container>
+                  <unittitle>Correspondence relating to a variety of matters including quarterly dividends, notices from the Catawba Power Company, curtains in the NY house, notice to stockholders of the Chester Power Company, and other business matters. 1914</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">4</container>
+                  <unittitle>Correspondence, business, relating to J.B. Duke’s daily activities, transactions, and relationships. 1915</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">5</container>
+                  <unittitle>Correspondence, business, relating to J.B. Duke’s daily activities, transactions, and relationships. 1915–1916</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">6</container>
+                  <unittitle>Letter inviting Nanaline Duke to serve on the Board of Trustees of The Society of the New York Hospital. December 22, 1920</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s2">Financial Records, <unitdate type="inclusive" normal="1892/1962" era="ce" calendar="gregorian">1892-1962</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>This series contains both personal and business financial records. Personal financial records include invoices and receipts for jewelry purchased by Nanaline Duke, home furnishings, art, and interior design records for the Duke's Fifth Avenue mansion,and clothes and toys for daughter Doris. Business financial records consist of invoices, receipts, and related materials from J.B. Duke's business affairs, including receipts for purchases made by the British American Tobacco Co., Ltd. Also in the series are journals and ledgers for the Southern Investment Co. of Canada Limited and the wages of employees, office and miscellaneous salaries from 1919–1950.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">1</container>
+                  <unittitle>Receipts relating to a variety of purchases including some personal expenses (jewelry repairs, doctors), Raritan Water Power Co. 1892, 1903–1915</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">2</container>
+                  <unittitle>Invoices from Fifth Avenue Auction Room. 1901</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">3</container>
+                  <unittitle>Invoices and receipts for purchases from various dealers. 1901–1914</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">4</container>
+                  <unittitle>Invoices of jewelry purchases made by Mr. and Mrs. J.B. Duke from Tiffany &amp;
+ Co. 1902-1911</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">5</container>
+                  <unittitle>Invoices for purchases made by J.B. Duke. 1902–1912</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">6</container>
+                  <unittitle>Invoices and receipts for purchases from R.J. Horner &amp;
+ Co. 1905–1907</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">7</container>
+                  <unittitle>Invoices and receipts for purchases from Gilman Collamore &amp;
+ Co. 1906–1911</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">8</container>
+                  <unittitle>Invoice for a Louis XVI panel from E. Spencer Hall &amp;
+ Co. 1908</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">9</container>
+                  <unittitle>Invoices and receipts for purchases made from Elsie de Wolfe. 1908–1909</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">10</container>
+                  <unittitle>Invoices and receipts for purchases made from A. Miller. 1908–1911</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">11</container>
+                  <unittitle>Invoices for furniture purchased by Mrs. J.B. Duke at E. Dreyfus in N.Y.C. File includes other invoices for furniture &amp;
+ furnishing purchases made by Nanaline Duke. 1908–1913</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">12</container>
+                  <unittitle>Estimate for interior design services for Mrs. J.B. Duke at 1009 Fifth Avenue. 1909</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">13</container>
+                  <unittitle>Invoices and receipts for purchases made from Rowatt &amp;
+ Lyon, Ltd. 1910</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">14</container>
+                  <unittitle>Receipt for shipping of grandfather clock from England to U.S.A. for J.B. Duke. 1910</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">15</container>
+                  <unittitle>Receipts - lunch orders for J.B. Duke, 1910-1911</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">16</container>
+                  <unittitle>Invoices and receipts for purchases made from M. Knoedler &amp;
+ Co. 1910–1912</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">17</container>
+                  <unittitle>Invoices and receipts for a variety of services including baby clothes and doctor’s bills for Doris Duke, car repairs, golf course, and other business transactions. 1911–1914</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">1</container>
+                  <unittitle>Invoice for voyage aboard the Lusitania to London from New York for Mr. and Mrs. J.B. Duke, Infant, Maid, Nurse, Mrs. Florine Holt, and Miss Gertrude Nevins for October 4, 1913. Includes invoice for voyage aboard S.S. Olympic for Charles F. Meier on May 3, 1913. April 21–22, 1913</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">2</container>
+                  <unittitle>Account receipts for transactions from accounts held by Florine Holt and Nanaline Duke with the Farmers’ Loan and Trust Co. 1913</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">3</container>
+                  <unittitle>Invoices for clothing items for J.B. Duke and Doris Duke. Includes invoices for toys purchased for Doris Duke. Also includes an invoice for services rendered by a wet nurse from Schott’s Wet Nurse Agency. 1913–1915</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">4</container>
+                  <unittitle>Estimate of George Weston, deceased, worth and related materials. George Weston worked at 1 E. 78th St. for Nanaline Duke. 1932</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">5</container>
+                  <unittitle>Nanaline Duke and Doris Duke’s N.Y. State Unemployment Insurance Fund Returns. 1951–1962</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">6</container>
+                  <unittitle>Income tax returns for J.B. Duke. April 10, 1895</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">7</container>
+                  <unittitle>Invoices, receipts, and related materials concerning J.B. Duke’s business affairs. 1903–1904</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">8</container>
+                  <unittitle>Invoices and statements for purchases made by J.B. Duke and the Raritan Power Co. Includes insurance policies for RWPC. 1904–1913 (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">9</container>
+                  <unittitle>Invoices and statements for purchases made by J.B. Duke and the Raritan Power Co. Includes insurance policies for RWPC. 1904–1913 (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">10</container>
+                  <unittitle>Invoices, receipts, and related materials concerning J.B. Duke’s business affairs. 1905</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">11</container>
+                  <unittitle>Invoices, receipts, and related materials concerning J.B. Duke’s business affairs. 1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">12</container>
+                  <unittitle>Business related records including shares of stock and meeting notices, 1906-1916</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">13</container>
+                  <unittitle>Invoices, receipts, and related materials concerning J.B. Duke’s business affairs. 1907</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">14</container>
+                  <unittitle>Invoices, receipts, and related materials concerning J.B. Duke’s business affairs. 1908</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">15</container>
+                  <unittitle>Invoices, receipts, and related materials concerning J.B. Duke’s business affairs. 1909</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">16</container>
+                  <unittitle>Invoices, receipts, and related materials concerning J.B. Duke’s business affairs. 1910</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">17</container>
+                  <unittitle>Receipts for purchases made by the British American Tobacco Co., Ltd. 1910</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">18</container>
+                  <unittitle>Invoices, receipts, and related materials concerning J.B. Duke’s business affairs. 1911</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">19</container>
+                  <unittitle>Invoices, receipts, and related materials concerning J.B. Duke’s business affairs. 1912</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">20</container>
+                  <unittitle>Invoices, receipts, and related materials concerning J.B. Duke’s business affairs. 1913–1917</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Southern Investment Co. of Canada Limited, Ledger. 1913–1914</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Southern Investment Co. of Canada Limited, Journal. 1913–1916</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Southern Investment Co. of Canada Limited, Cashbook, Vouchers, and Checks. 1913–1916</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Wages of Employees, Office and Miscellaneous Salaries. October 1919–1950</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s3">Legal Records, <unitdate type="inclusive" normal="1885/1955" era="ce" calendar="gregorian">1885-1955</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Materials contained in this series relate to both personal and business matters. Personal records include insurance policies and the last will and testaments of both J.B. Duke and Nanaline Duke. Business records include a complaint filed by Richard H. Wright against James B. Duke, Benjamin N. Duke, Brodie L. Duke, and George W. Watts regarding the sale of the W. Duke, Sons &amp; Co.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">1</container>
+                  <unittitle>Insurance policies for automobiles owned by J.B. Duke. 1908–1912</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">2</container>
+                  <unittitle>Lease, J.B. Duke and Olney B. Mairs for Duke’s rental of 1009 Fifth Ave. September 23, 1914</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">3</container>
+                  <unittitle>Insurance policy from Fireman’s Fund to J.B. Duke for robes, blankets, driving and livery garments, and other clothing contained at Nos. 73–75 E. 89th St., Borough of Manhattan, City of N.Y. November 4, 1915</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">4</container>
+                  <unittitle>Indenture and Deed of Trust of Personalty establishing The Duke Endowment. Also, includes addition of thereto by Will of J.B. Duke. 1924–1925</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">5</container>
+                  <unittitle>Last Will and Testament of J.B. Duke (1924) and Codicil (1925). 1924–1925</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">6</container>
+                  <unittitle>Explanation and breakdown of J.B. Duke’s Will and the four Trusts it set up as written by W.R. Perkins. October 26, 1925</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">7</container>
+                  <unittitle>Receipt for Legacy and Refunding Bond “In the Matter of the Estate of J.B. Duke, Deceased.” 1926</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">8</container>
+                  <unittitle>“Determination by the Executors of J.B. Duke, Deceased, of those Entitled to Participate in the Distribution to be Made Under Item VI of the Last Will and Testament of Said Descendant and of the Amounts they are, Respectively, Entitled to Receive.” October 5, 1927</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">9</container>
+                  <unittitle>Petition of First Accounting "In the Matter of the Estate of James B. Duke, Deceased." Somerset County Orphans’ Court. 1927</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">10</container>
+                  <unittitle>Appraisal, household furniture and furnishings, at J.B. Duke’s home in Myers Park, Charlotte, N.C. Home also called Lynnewood. 1927</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">11</container>
+                  <unittitle>Order allowing Final Account “In the Matter of the Estate of James B. Duke.” June 15, 1934</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">12</container>
+                  <unittitle>Last Will and Testament of Nanaline H. Duke. June 3, 1955</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">13</container>
+                  <unittitle>Complaint filed by Richard H. Wright against James B. Duke, Benjamin N. Duke, Brodie L. Duke, and George W. Watts regarding the sale of the W. Duke, Sons &amp;
+ Co. 1885</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">14</container>
+                  <unittitle>Legal brief for “The United States of America against The American Tobacco Company and others.” November 7, 1908</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">15</container>
+                  <unittitle>Proxy authorizing Thomas J. Maloney, William B. Rhett, and Thomas S. Fuller to vote as Nanaline H. Duke’s Proxy at the annual P. Lorillard Company stockholders meeting. 1915</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">16</container>
+                  <unittitle>Copies of legal appraisal in the Estate of James B. Duke, deceased, 1925 Dec, 1926 Jan</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s4">Miscellaneous Records, <unitdate type="inclusive" normal="1893/1977" era="ce" calendar="gregorian">1893-1977</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>This small series consists of a variety of Duke family related records including a booklet tracing the Duke family geneaology and two logbooks for "Yacht Doris".</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">1</container>
+                  <unittitle>Report, “Duke’s Four Homes: Black Architect Designs Buildings at Duke University.” Written by Archival Consultant, Inc. 1989</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">2</container>
+                  <unittitle>Report of the Trustees of The Mary Duke Biddle Foundation. 1992</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">3</container>
+                  <unittitle>Booklet tracing the Duke family genealogy. c. 1920s</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">4</container>
+                  <unittitle>Poem eulogizing Angier Buchanan Duke by Plato Tracy Durham, "Aue Atque Vale, Frater! To Angier Buchanan Duke." September 1923</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">5</container>
+                  <unittitle>Duke Name Project listing incomplete names of Duke family members. c. 1960s</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">6</container>
+                  <unittitle>Card from flowers sent to Miss Duke for Nanaline H. Duke’s funeral. 1961</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <container type="folder">7</container>
+                  <unittitle>Newspaper clippings on the death of James B. Duke from The World, The News and Observer, and ". . . Daily News." October 18–28, 1925</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Logbook, "Yacht Doris." October 1927–April 1928</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Logbook, "Yacht Doris." April 1928–May 1928</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <container type="folder">1</container>
+                  <unittitle>Family crest for Edward Duke, circa 1730s</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <container type="folder">2</container>
+                  <unittitle>Correspondence sent to J.B. Duke relating to various topics including tobacco and donations, 1893-1913</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <container type="folder">3</container>
+                  <unittitle>Photograph of unknown individual included in "Appraisal of the furnishings of the residence of J.B. Duke, 1 East 78th Street, New York City", 1922 Feb 4</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <container type="folder">4</container>
+                  <unittitle>Invoices of art and furnishings, jewelry purchased. Includes inventories of several estates and a letter to Walker Inman, 1928-1944, 1977</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <container type="folder">5</container>
+                  <unittitle>Program, Duke University Founders' Day Observing The One Hundredth Anniversary of the Birth of James Buchanan Duke, 1956 Dec 11</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <container type="folder">6</container>
+                  <unittitle>Civil Action against the Trust Indenture by J.B. Duke, 1974</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <container type="folder">7</container>
+                  <unittitle>Christmas card from Nanaline Duke to Mary Duke Biddle, undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s5">Divorce Proceedings, James B. Duke v. Lillian Duke, <unitdate type="inclusive" normal="1892/1907" era="ce" calendar="gregorian">1892-1907</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>This series contains a variety of documents leading up to, during and after the divorce of J.B. Duke and his first wife Lillian. Documents include detective reports recording the activities of Mrs. Duke, statements and affidavits of witnesses involved in the divorce proceedings, cables (written in code) sent and received to and from J.B. Duke , most likely between him and detectives, and petitions, opinions, and legal notices relating to the divorce.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <container type="folder">1</container>
+                  <unittitle>Cables and keys to coded cables to and from J.B. Duke, most likely between himself and detectives. Detectives’ correspondence with J.B. Duke about Mrs. Duke’s activities while J.B. Duke was in London. 1905</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <container type="folder">2</container>
+                  <unittitle>Reports of activities of Mr. and Mrs. J.B. Duke and Mary Smith affadavit, 1905</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <container type="folder">3</container>
+                  <unittitle>Cables sent and received by W.M. Fuller, J. Parker, and A.H. Burroughs. Some cables written in code. 1905</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <container type="folder">4</container>
+                  <unittitle>Cables sent and received by J.B. Duke (to and from people other than Mrs. Duke). 1905–1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <container type="folder">5</container>
+                  <unittitle>Correspondence and memoranda relating to legal work by J.B. Duke’s lawyers for his divorce case. 1905–1906 (1 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <container type="folder">6</container>
+                  <unittitle>Correspondence and memoranda relating to legal work by J.B. Duke’s lawyers for his divorce case. 1905–1906 (2 of 2)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <container type="folder">7</container>
+                  <unittitle>Materials, including cables to and from J.B. Duke and Lillian McCredy between one another, and testimony from a witness in the Lillian McCredy v. William McCredy divorce proceeding. 1892, 1905</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <container type="folder">8</container>
+                  <unittitle>Court of Common Pleas, N.Y., Lillian McCredy v. William McCredy. January 14, 1893</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <container type="folder">9</container>
+                  <unittitle>Legal Brief For Respondent, J.B. Duke, for the Court of Errors and Appeals. 1905</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <container type="folder">10</container>
+                  <unittitle>Legal notices requesting the appearance of witnesses in the J.B. Duke v. Lillian Duke divorce proceedings. 1905</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <container type="folder">11</container>
+                  <unittitle>Petitions of J.B. Duke, Lillian Duke, Frank T. Huntoon and others related to divorce proceedings. 1905</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">1</container>
+                  <unittitle>Selection of legal notices, petitions, orders, and answers relating to the J.B. Duke v. Lillian Duke divorce in Chancery of N.J. 1905</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">2</container>
+                  <unittitle>Statement of J.B. Duke as to Christmas presents, gifts, etc. made by him on various occasions. 1905–1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">3</container>
+                  <unittitle>Statements and affidavits of witnesses involved in the J.B. Duke v. Lillian Duke divorce proceedings. 1905–1906 (1 of 8)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">4</container>
+                  <unittitle>Statements and affidavits of witnesses involved in the J.B. Duke v. Lillian Duke divorce proceedings. 1905–1906 (2 of 8)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">5</container>
+                  <unittitle>Statements and affidavits of witnesses involved in the J.B. Duke v. Lillian Duke divorce proceedings. 1905–1906 (3 of 8)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">6</container>
+                  <unittitle>Statements and affidavits of witnesses involved in the J.B. Duke v. Lillian Duke divorce proceedings. 1905–1906 (4 of 8)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">7</container>
+                  <unittitle>Statements and affidavits of witnesses involved in the J.B. Duke v. Lillian Duke divorce proceedings. 1905–1906 (5 of 8)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">8</container>
+                  <unittitle>Statements and affidavits of witnesses involved in the J.B. Duke v. Lillian Duke divorce proceedings. 1905–1906 (6 of 8)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">9</container>
+                  <unittitle>Statements and affidavits of witnesses involved in the J.B. Duke v. Lillian Duke divorce proceedings. 1905–1906 (7 of 8)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">12</container>
+                  <container type="folder">10</container>
+                  <unittitle>Statements and affidavits of witnesses involved in the J.B. Duke v. Lillian Duke divorce proceedings. 1905–1906 (8 of 8)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">1</container>
+                  <unittitle>Statements of Duke servants, Mary Fahey, Ingred Anderson, and Ellie Sutlon for divorce proceedings. 1905–1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">2</container>
+                  <unittitle>Testimonies of detectives hired to observe and record Mrs. Duke’s activities. 1905–1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">3</container>
+                  <unittitle>Application of J.B. Duke for subpoenas and subpoenas to specific witnesses. 1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">4</container>
+                  <unittitle>Deposition, Herbert W. Knight On Petition for Divorce, J.B. Duke v. Lillian Duke. 1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">5</container>
+                  <unittitle>Memoranda of Authorities concerning Writ of Error to the Supreme Court of the U.S., J.B. Duke v. Lillian Duke. 1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">6</container>
+                  <unittitle>Opinion, “On petition for divorce on the ground of adultery, charged with Huntoon, who appeared under the statue and was made a defendant. Final hearing on bill, answer and proof.” 1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">7</container>
+                  <unittitle>Decree of Affirmance between J.B. Duke, Lillian Duke, and Frank T. Huntoon from the N.J. Court of Errors and Appeals. June 17, 1907</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">8</container>
+                  <unittitle>Preparatory material and summary of related legal suits that were tried under the Act of 1902, Chapter 157. This was the statute that Duke v. Duke was brought against. 1905</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">9</container>
+                  <unittitle>Accounts and logs of Mr. and Mrs. Duke’s whereabouts (according to detectives?). June 1905–July 1905, November 1905–January 1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">10</container>
+                  <unittitle>Reports of operatives hired to record the daily activities of Mrs. L. Duke. October 1905–December 1905, May 1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">11</container>
+                  <unittitle>Reports of operatives hired to record the daily activities of Mrs. L. Duke. January 1906–March 1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">12</container>
+                  <unittitle>Reports of operatives hired to record the daily activities of Mrs. L. Duke. April 1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">13</container>
+                  <unittitle>Summary, J.B. Duke v. Lillian Duke, Court of Error and Appeals. Vol. II. 1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">14</container>
+                  <unittitle>Publication, New York Inquirer, “Notes on Society and Other Matters” (January 19, 1906), and other newspaper articles. 1905–1906</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <container type="folder">15</container>
+                  <unittitle>James B. Duke copy of The American Tobacco Company Agreement and By-Laws, 1908 Mar</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s6">Architectural Records, <unitdate type="inclusive" normal="1920/1935" era="ce" calendar="gregorian">Circa 1920s, 1935</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>The architectural records include one drawing for J.B. Duke's home in Charlotte, North Carolina. The remaining architectural records document the residence of Walker P. Inman in Georgetown County, South Carolina.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM1</container>
+                  <unittitle>Partial First Floor Plan, Residence for James B. Duke, Charlotte, NC. Charles C. Hook, architect. [1920s]. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM2</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Plot Plan, Sheet 1. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM2</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Cellar Plan, Sheet 2. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM2</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., First Floor Plan, Sheet 3. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM2</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Second Floor Plan, Sheet 4A. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM2</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., North Elevation, Sheet 5. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM2</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., South or River Elevation, Sheet 6. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM2</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., East Elevation, West Elevation, Sheet 7. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM2</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Section Looking through West Wing, Sheet 8. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM2</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Plans, Sheet 9A. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM2</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Elevations and Sections, Sheet 10A. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM2</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Plans-Elevations &amp; Section, Sheet 11. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM3</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Section through Guest Room No.1 Looking East, Section through Dining Room Looking West Towards Kitchen, Sheet No. 500. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM3</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Living Room, Sheet No. 501. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM3</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Gun Room &amp; Dining Room, Sheet No. 502. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM3</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Gallery-Entrance &amp; Stair Hall, Sheet No. 503. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM3</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Typical Window Detail (also fixing cornice heights), Sheet No. 504. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM3</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Electric Plans, Sheet No. 700. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM3</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., First Floor Electric Plan, Sheet No. 701. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM3</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Garage Electric Plan, Sheet No. 702. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM3</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., F.S. Typical Window Detail, Sheet No. 1000. Wyeth &amp; King, architects. 1935 Jun 1. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM3</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Cellar Plan, Drg. No. HP-1. Wyeth &amp; King, architects. 1935 May 25. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM3</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., First Floor Plan, Drg. No. HP-2. Wyeth &amp; King, architects. 1935 May 25. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM3</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Second Floor Plan, Drg. No. HP-1. Wyeth &amp; King, architects. 1935 May 25. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM3</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., First Floor Plumbing &amp; Heating, Drg. No. HP-4. Wyeth &amp; King, architects. 1935 May 25. Blueprint. </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="opaperfolder" label="Ovsz. Folder">DKFM3</container>
+                  <unittitle>Residence of Walker P. Inman, Esq., Georgetown County, S.C., Second Floor Plumbing &amp; Heating, Drg. No. HP-5. Wyeth &amp; King, architects. 1935 May 25. Blueprint. </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

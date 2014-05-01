@@ -1,0 +1,6271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   
+   <eadheader findaidstatus="published" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b">
+      <eadid countrycode="US" mainagencycode="US-NcD" publicid="-//University Archives//TEXT (US::NDD::::William Kenneth Boyd Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/uaboyd/">uaboyd</eadid>
+      <filedesc>
+         
+         <titlestmt>
+            
+            <titleproper>Guide to the William Kenneth Boyd Papers, 1851 - 1956</titleproper>
+            
+            <author>Processed by: Valerie Gillispie; machine-readable finding aid created by: Valerie Gillispie</author>
+         
+         </titlestmt>
+         
+         <publicationstmt>
+            <publisher>Duke University. University Archives</publisher>
+            <address>
+               <addressline>Duke University</addressline>
+               <addressline>Durham, NC 27708-0185 U.S.A.</addressline>
+               <addressline>919-660-5822</addressline>
+               <addressline>special-collections@duke.edu</addressline>
+            </address>
+            <date>2005</date>
+         </publicationstmt>
+         
+         <notestmt>
+            
+            <note>
+               
+               <p>Aleph Number: <num type="aleph">003445480</num>
+               
+               </p>
+            
+            </note>
+         
+         </notestmt>
+      
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from automated markup system. Date of source: May 20, 2005 Processed by Valerie Gillispie May 20, 2005; Finding Aid encoded by Valerie Gillispie, University Archives, Duke University, May 27, 2005<date>May 27, 2005</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date>2014</date>
+            <item>Converted from dtd to schema and transformed with AT-import-fixer.xsl</item>
+         </change>
+         <change>
+            
+            <date normal="2006" era="ce" calendar="gregorian">05-01-2006</date>
+            
+            <item>PUBLIC "-//University Archives//TEXT
+		(US::NDD::::William Kenneth Boyd Papers)//EN" "uaboyd.xml converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            
+            <item>Also, the top level of the finding aid (above the dsc) was changed to conform to the NC EAD Best Practice Guidelines. Within the dsc, dates for series were normalized.</item>
+         
+         </change>
+      </revisiondesc>
+   </eadheader>
+   
+   
+   <archdesc level="collection" relatedencoding="MARC">
+      
+      <did>
+         <unittitle encodinganalog="245" label="Title">William Kenneth Boyd papers 		  <unitdate encodinganalog="245" normal="1851/1956" type="inclusive" era="ce" calendar="gregorian">1851 - 1956</unitdate>
+         
+         </unittitle>
+         <origination label="Creator">
+            
+            <persname encodinganalog="100">Boyd, William Kenneth, 1879-1938</persname>
+         
+         </origination>
+         <physdesc label="Extent">
+            
+            <extent>20 linear feet,</extent>
+            
+            <extent>Extent: 20000 Items</extent>
+         
+         </physdesc>
+         <repository encodinganalog="852" label="Repository">
+            
+            <corpname>Duke University. University Archives</corpname>
+         
+         </repository>
+         <physloc label="Location">For current information on the location of these materials, please
+		  consult University Archives, Duke University.</physloc>
+         <abstract>William Kenneth Boyd (1879-1938) was a
+		  historian, professor, and director of the library at Duke University. During his career at Duke and
+		  Trinity College, he published widely and helped to collect and preserve personal papers and books
+		  about Southern and North Carolina history. The William Kenneth Boyd papers include correspondence,
+		  diaries, financial and legal materials, writings, notes, student papers, photographs (including
+		  tintypes), and other materials related to the personal and professional life of Boyd. Major
+		  correspondents include N. B. McDowell, Pat LeGrand, Marion Colley, and John Spencer Bassett. There
+		  are also letters from W. E. B. Du Bois and other prominent African Americans.  
+            English.
+         </abstract>
+         <langmaterial label="Language of Materials">English.</langmaterial>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <unitid>uaboyd</unitid>
+         <note label="Language of Materials">
+            <p>Language: English.</p>
+         </note>
+      </did>
+      
+      <descgrp type="admininfo">
+         
+         <head>Administrative Information</head>
+         
+         <accessrestrict encodinganalog="506">
+            
+            <head>Access Restrictions</head>
+            
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            
+            <p>In off-site storage; 48 hours advance notice is required for use.</p>
+         
+         </accessrestrict>
+         
+         <userestrict encodinganalog="540">
+            
+            <head>Use Restrictions</head>
+            
+            <p>Copyright for Official University records is held by Duke University; all other
+			 copyright is retained by the authors of items in these papers, or their descendants, as stipulated
+			 by United States copyright law.</p>
+         
+         </userestrict>
+         
+         <prefercite encodinganalog="524">
+            
+            <head>Preferred Citation</head>
+            
+            <p>[Identification of item], William Kenneth Boyd Papers, University Archives, Duke
+			 University.</p>
+         
+         </prefercite>
+         
+         <acqinfo encodinganalog="541">
+            
+            <head>Provenance</head>
+            
+            <p>The William Kenneth Boyd Papers were received by the University Archives as gifts from
+			 1948-1978.</p>
+         
+         </acqinfo>
+         
+         <processinfo>
+            
+            <head>Processing Information</head>
+            
+            <p>Processed by Valerie Gillispie</p>
+            
+            <p>Completed May 20, 2005</p>
+            
+            <p>Encoded by Valerie Gillispie, May 27, 2005</p>
+            
+         
+         </processinfo>
+      
+      </descgrp><!-- End of finding aid header -->
+      
+      <bioghist encodinganalog="545">
+         
+         <head>Biographical Note</head>
+         
+         <p>William Kenneth Boyd was born on January 10, 1879, in Curryville, Missouri, the son of
+		  Reverend Harvey Marshall and Mary Elizabeth Black Boyd. He grew up in Weaverville, North Carolina.
+		  Boyd began attending Trinity College (later part of Duke University) in Durham, North Carolina in
+		  1895, and he received an A.B. degree in 1897 and an M.A. degree in 1898. He served as an assistant
+		  to Professor John Spencer Bassett while he completed his M.A. degree, and he then worked as a
+		  history teacher at Trinity Park School, a high school on the Trinity College campus. From 1900 to
+		  1902, Boyd was an adjunct professor of history at Trinity College.</p>
+         
+         <p>After receiving his Ph.D. from Columbia University in 1906, Boyd returned to teach at
+		  Trinity College. He had a strong interest in regional and southern history, and published
+		  extensively on these topics. Among his publications were
+		<title xlink:type="simple" render="italic">A Selected Bibliography and Syllabus of the History of the South,
+		  1584-1876</title> (with Robert P. Brooks),
+		<title xlink:type="simple" render="italic">A Syllabus of North Carolina History, 1584-1896</title> (with J. G.
+		deRoulhac Hamilton),
+		<title xlink:type="simple" render="italic">The Federal Period, 1783-1860</title> (part of a three volume set on
+		North Carolina history), and
+		<title xlink:type="simple" render="italic">The Story of Durham, City of the New South</title>. He also co-edited
+		the
+		<title xlink:type="simple" render="italic">South Atlantic Quarterly</title> from 1919-1929, a journal founded by
+		his mentor, Bassett. </p>
+         
+         <p>In addition to his historical writing and teaching, Boyd actively collected materials for
+		  the library. Through the funding of the Flowers family, he made the Flowers Collection of southern
+		  Americana one of the pre-eminent collections of manuscript and research materials in the country.
+		  Boyd served as director of the libraries from 1930 to 1934. In addition to purchasing materials, he
+		  encouraged his students to look for materials in their own homes and hometowns that could be added
+		  to Trinity College's and later Duke University's collections. </p>
+         
+         <p>Boyd died on January 19, 1938. He was married to Pat LeGrand from 1908 until 1924, when
+		  she passed away. The couple had one daughter, Mary Elizabeth, who married Duke history professor
+		  William B. Hamilton in 1938. William Kenneth Boyd remarried in 1931 to journalist Marion
+		  Colley.</p>
+      
+      </bioghist>
+      
+      <scopecontent>
+         
+         <head>Collection Overview</head>
+         
+         <p>The William Kenneth Boyd papers include correspondence, diaries, financial and legal
+		  materials, writings, notes, student papers, photographs (including tintypes), and other materials
+		  related to the personal and professional life of Boyd. The collection is arranged into seven
+		  series.</p>
+         
+         <p>The first series, Personal, includes family materials like diaries, financial and legal
+		  materials, and other family writings. The diaries were written by Boyd's first wife and his
+		  daughter. The second series, Correspondence, includes personal, History Department, and Library and
+		  Flowers Collection correspondence. Major personal correspondents include N.B. McDowell, Pat
+		  LeGrand, Marion Colley, and John Spencer Bassett. Of particular interest in the personal
+		  correspondence are some letters Boyd exchanged with prominent African-Americans, including W. E. B.
+		  Du Bois, in 1899. The History Department and Library and Flowers Collection correspondence discuss
+		  research and administrative activities in these two areas of Duke University.</p>
+         
+         <p>The third series, Writings, includes published and unpublished articles and books by Boyd.
+		  The fourth series, Notes, includes research and lecture notes taken by Boyd. The topics of both
+		  Writings and Notes tend to be about Southern and specifically North Carolina history. The next
+		  series, Teaching, primarily includes student papers about Southern and North Carolina history. The
+		  Library series includes administrative papers from when Boyd directed the library at Duke. The last
+		  series, Photographs, features family photographs, most of which are tintypes in excellent
+		  condition.</p>
+      
+      </scopecontent>
+      
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These and related materials may be accessed under the following subject headings in the
+		  Duke University Libraries online catalog.</p>
+         <persname encodinganalog="600">Bassett, John Spencer, 1867-1928</persname>
+         <famname encodinganalog="600">Boyd family</famname>
+         <persname encodinganalog="600">Boyd, Pat LeGrand</persname>
+         <persname encodinganalog="600">Boyd, William Kenneth, 1879-1938</persname>
+         <genreform encodinganalog="655">Diaries</genreform>
+         <persname encodinganalog="600">Du Bois, W. E. B. (William Edward Burghardt), 1868-1963</persname>
+         <corpname encodinganalog="610">Duke University. Dept. of History -- Faculty</corpname>
+         <corpname encodinganalog="610">Duke University -- Faculty</corpname>
+         <corpname encodinganalog="610">Duke University. Library</corpname>
+         <corpname encodinganalog="610">Duke University -- Students</corpname>
+         <subject encodinganalog="650">Manuscripts -- Collectors and collecting -- North Carolina</subject>
+         <persname encodinganalog="600">McDowell, Nannie Black</persname>
+         <geogname encodinganalog="651">North Carolina -- History -- 19th century</geogname>
+         <geogname encodinganalog="651">North Carolina -- History -- 20th century</geogname>
+         <genreform encodinganalog="655">Photographs</genreform>
+         <subject encodinganalog="650">Race relations -- History -- 19th century</subject>
+         <subject encodinganalog="650">Race relations -- History -- 20th century</subject>
+         <geogname encodinganalog="651">Southern States -- History -- 19th century</geogname>
+         <geogname encodinganalog="651">Southern States -- History -- 20th century</geogname>
+         <genreform encodinganalog="655">Tintypes</genreform>
+         <corpname encodinganalog="610">Trinity College (Durham, N.C.)--Faculty</corpname>
+      </controlaccess><!-- Sample of possible container list structure, actual markup depends upon the materials being described. -->
+      
+      <dsc type="combined">
+         
+         <head>Contents of Collection</head>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Personal,
+				1866-1946
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>The Personal series contains the personal and family materials of William Kenneth
+				Boyd. Included are financial and legal materials; diaries written by Boyd's first wife, Pat LeGrand
+				and his daughter, Mary Elizabeth Boyd; materials related to Boyd's funeral; and pieces of creative
+				writing. Materials are arranged alphabetically.</p>
+            
+            </scopecontent>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="box">1</container>
+                  
+                  <container type="folder">1</container>
+                  
+                  <unittitle>Account book,
+				  1935-1936
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">2</container>
+                  
+                  <unittitle>Account books,
+				  circa 1936, 1946
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">3</container>
+                  
+                  <unittitle>Childhood writings,
+				  1888-1892
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">4</container>
+                  
+                  <unittitle>Desk book,
+				  1937
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">5</container>
+                  
+                  <unittitle>Diary of Mary Elizabeth Boyd,
+				  1920
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">6</container>
+                  
+                  <unittitle>Diary of Mary Elizabeth Boyd,
+				  1930-1931
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">7</container>
+                  
+                  <unittitle>Diary of Pat LeGrand Boyd, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="Oversize-Box">41</container>
+                  
+                  <container type="folder">8</container>
+                  
+                  <unittitle>Drawings and maps, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">9</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">Early Printers' Marks</title> by Mary Elizabeth Boyd,
+				  circa 1930-1939
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">10</container>
+                  
+                  <unittitle>Family history</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">11</container>
+                  
+                  <unittitle>Financial documents,
+				  1866-1922
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="Oversize-Box">41</container>
+                  
+                  <container type="folder">12</container>
+                  
+                  <unittitle>Legal documents,
+				  1885-1939
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">13</container>
+                  
+                  <unittitle>List of wedding presents, by Pat Le Grand</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">14</container>
+                  
+                  <unittitle>Memorials for William K. Boyd,
+				  1938
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">15</container>
+                  
+                  <unittitle>Poetry and stories, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Correspondence,
+				1851-1956
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>The Correspondence series is arranged into three main sections. The first section,
+				Personal, contains correspondence to and from Boyd with family members and friends. His aunt, N. B.
+				McDowell, a faculty member at Weaverville College, wrote to Boyd frequently while he attended
+				Trinity College and afterward. Boyd also corresponded frequently with his first wife, Pat LeGrand,
+				second wife, Marion Colley, and mentor, John Spencer Bassett. The correspondence for the latter two
+				is filed separately in folders at the end of the personal correspondence. The rest of the materials
+				are arranged chronologically. Of note in this section are letters Boyd sent and received from
+				prominent African-Americans, including W. E. B. Du Bois, in 1899.</p>
+               
+               <p>The second section of the correspondence is History Department correspondence, sent
+				and received while Boyd was a faculty member in the Duke Department of History. It includes letters
+				sent to and from members of the Duke History Department as well as historians at other
+				institutions. The correspondence is arranged chronologically.</p>
+               
+               <p>The third section is Library and Flowers Collection correspondence, and mainly stems
+				from Boyd's service as director of the library at Duke. Most of the letters document Boyd's attempt
+				to purchase or otherwise acquire personal papers and rare books from individuals and dealers across
+				the South. These materials are arranged chronologically.</p>
+            
+            </scopecontent>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>Personal</unittitle>
+               
+               </did>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">16</container>
+                     
+                     <unittitle>
+                        1851-1882
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">17</container>
+                     
+                     <unittitle>
+                        1883
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">18</container>
+                     
+                     <unittitle>
+                        1884-1891
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">2</container>
+                     
+                     <container type="folder">19</container>
+                     
+                     <unittitle>
+                        1892-1895
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">20</container>
+                     
+                     <unittitle>
+                        January 1896-May 1896
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">21</container>
+                     
+                     <unittitle>
+                        September 1896-October 1896
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">22</container>
+                     
+                     <unittitle>
+                        November 1896-December 1896
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">23</container>
+                     
+                     <unittitle>
+                        January 1897-February 1897
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">24</container>
+                     
+                     <unittitle>
+                        March 1897-May 1897
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">25</container>
+                     
+                     <unittitle>
+                        June 1897-September 1897
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">26</container>
+                     
+                     <unittitle>
+                        October 1897-December 1897
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">27</container>
+                     
+                     <unittitle>
+                        January 1898-February 1898
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">3</container>
+                     
+                     <container type="folder">28</container>
+                     
+                     <unittitle>
+                        March 1898-April 1898
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">29</container>
+                     
+                     <unittitle>
+                        May 1898-June 1898
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">30</container>
+                     
+                     <unittitle>
+                        August 1898-October 1898
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">31</container>
+                     
+                     <unittitle>
+                        November 1898-December 1898
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">32</container>
+                     
+                     <unittitle>
+                        January 1899-March 1899
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">33</container>
+                     
+                     <unittitle>
+                        April 1899-December 1899
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">34</container>
+                     
+                     <unittitle>
+                        January 1900-June 1900
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">35</container>
+                     
+                     <unittitle>
+                        July 1900-June 1901
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">36</container>
+                     
+                     <unittitle>
+                        September 1901-December 1901
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">37</container>
+                     
+                     <unittitle>
+                        January 1902-May 1902
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">4</container>
+                     
+                     <container type="folder">38</container>
+                     
+                     <unittitle>
+                        July 1902-December 1902
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">39</container>
+                     
+                     <unittitle>
+                        January 1903-July 1903
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">40</container>
+                     
+                     <unittitle>
+                        August 1903-December 1903
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">41</container>
+                     
+                     <unittitle>
+                        January 1904-March 1904
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">42</container>
+                     
+                     <unittitle>
+                        April 1904-June 1904
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">43</container>
+                     
+                     <unittitle>
+                        July 1904-December 1904
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">44</container>
+                     
+                     <unittitle>
+                        January 1905-April 1905
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">45</container>
+                     
+                     <unittitle>
+                        May 1905-December 1905
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">5</container>
+                     
+                     <container type="folder">46</container>
+                     
+                     <unittitle>
+                        February 1906-September 1906
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">47</container>
+                     
+                     <unittitle>
+                        October 1906-December 1906
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">48</container>
+                     
+                     <unittitle>
+                        January 1907-June 1907
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">49</container>
+                     
+                     <unittitle>
+                        July 1907
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">50</container>
+                     
+                     <unittitle>
+                        August 1907
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">51</container>
+                     
+                     <unittitle>
+                        September 1907
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">52</container>
+                     
+                     <unittitle>
+                        October 1907
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">53</container>
+                     
+                     <unittitle>
+                        November 1907
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">54</container>
+                     
+                     <unittitle>
+                        December 1907
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">6</container>
+                     
+                     <container type="folder">55</container>
+                     
+                     <unittitle>
+                        January 1908
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">56</container>
+                     
+                     <unittitle>
+                        February 1908
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">57</container>
+                     
+                     <unittitle>
+                        March 1908
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">58</container>
+                     
+                     <unittitle>
+                        April 1908
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">59</container>
+                     
+                     <unittitle>
+                        May 1908
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">60</container>
+                     
+                     <unittitle>
+                        June 1908
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">61</container>
+                     
+                     <unittitle>
+                        July 1908
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">62</container>
+                     
+                     <unittitle>
+                        August 1908
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">63</container>
+                     
+                     <unittitle>
+                        September 1908
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">7</container>
+                     
+                     <container type="folder">64</container>
+                     
+                     <unittitle>
+                        October 1908
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">65</container>
+                     
+                     <unittitle>
+                        November 1908
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">66</container>
+                     
+                     <unittitle>
+                        December 1908
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">67</container>
+                     
+                     <unittitle>
+                        1909
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">68</container>
+                     
+                     <unittitle>
+                        1910
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">69</container>
+                     
+                     <unittitle>
+                        1911-1912
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">70</container>
+                     
+                     <unittitle>
+                        1913-1914
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">71</container>
+                     
+                     <unittitle>
+                        1915
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">72</container>
+                     
+                     <unittitle>
+                        1916-1917
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">73</container>
+                     
+                     <unittitle>
+                        1918
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">74</container>
+                     
+                     <unittitle>
+                        1919
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">75</container>
+                     
+                     <unittitle>
+                        1920
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">76</container>
+                     
+                     <unittitle>
+                        1921
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">8</container>
+                     
+                     <container type="folder">77</container>
+                     
+                     <unittitle>
+                        1922-1923
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">78</container>
+                     
+                     <unittitle>
+                        February 1924, July 1924
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">79</container>
+                     
+                     <unittitle>
+                        August 1924
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">80</container>
+                     
+                     <unittitle>
+                        September 1924
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">81</container>
+                     
+                     <unittitle>
+                        October 1924-November 1929
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">82</container>
+                     
+                     <unittitle>
+                        February 1930-February 1956
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">83-84</container>
+                     
+                     <unittitle>Undated</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">85</container>
+                     
+                     <unittitle>John Spencer Bassett,
+					 October 1904-April 1926
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">9</container>
+                     
+                     <container type="folder">86</container>
+                     
+                     <unittitle>Marion T. Colley,
+					 July 1930-December 1930
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>History Department</unittitle>
+               
+               </did>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">87</container>
+                     
+                     <unittitle>
+                        1898-1906
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">88</container>
+                     
+                     <unittitle>
+                        1907-1908
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">89</container>
+                     
+                     <unittitle>
+                        1909-1911
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">90</container>
+                     
+                     <unittitle>
+                        1912
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">91</container>
+                     
+                     <unittitle>
+                        1913
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">92</container>
+                     
+                     <unittitle>
+                        1914
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">93</container>
+                     
+                     <unittitle>
+                        1915
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">94</container>
+                     
+                     <unittitle>
+                        1916
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">95</container>
+                     
+                     <unittitle>
+                        1917
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">10</container>
+                     
+                     <container type="folder">96</container>
+                     
+                     <unittitle>
+                        January 1918-June 1918
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">97</container>
+                     
+                     <unittitle>
+                        July 1918-December 1918
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">98</container>
+                     
+                     <unittitle>
+                        January 1919-June 1919
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">99</container>
+                     
+                     <unittitle>
+                        July 1919-December 1919
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">100</container>
+                     
+                     <unittitle>
+                        1920
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">101</container>
+                     
+                     <unittitle>
+                        1921
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">102</container>
+                     
+                     <unittitle>
+                        January 1922-June 1922
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">103</container>
+                     
+                     <unittitle>
+                        July 1922-December 1922
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">11</container>
+                     
+                     <container type="folder">104</container>
+                     
+                     <unittitle>
+                        January 1923-June 1923
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">105</container>
+                     
+                     <unittitle>
+                        July 1923-December 1923
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">106</container>
+                     
+                     <unittitle>
+                        1924
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">107</container>
+                     
+                     <unittitle>
+                        1925
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">108</container>
+                     
+                     <unittitle>
+                        1926
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">109</container>
+                     
+                     <unittitle>
+                        January 1927-February 1927
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">110</container>
+                     
+                     <unittitle>
+                        March 1927
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">111</container>
+                     
+                     <unittitle>
+                        April 1927
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">12</container>
+                     
+                     <container type="folder">112</container>
+                     
+                     <unittitle>
+                        May 1927-October 1927
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">113</container>
+                     
+                     <unittitle>
+                        November 1927
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">114</container>
+                     
+                     <unittitle>
+                        December 1927-January 1928
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">115</container>
+                     
+                     <unittitle>
+                        February 1928-March 1928
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">116</container>
+                     
+                     <unittitle>
+                        April 1928-May 1928
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">117</container>
+                     
+                     <unittitle>
+                        June 1928-December 1928
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">118</container>
+                     
+                     <unittitle>
+                        January 1929-February 1929
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">119</container>
+                     
+                     <unittitle>
+                        March 1929-April 1929
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">120</container>
+                     
+                     <unittitle>
+                        May 1929-September 1929
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">13</container>
+                     
+                     <container type="folder">121</container>
+                     
+                     <unittitle>
+                        October 1929-December 1929
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">122</container>
+                     
+                     <unittitle>
+                        January 1930-February 1930
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">123</container>
+                     
+                     <unittitle>
+                        March 1930
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">124</container>
+                     
+                     <unittitle>
+                        April 1930-May 1930
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">125</container>
+                     
+                     <unittitle>
+                        June 1930-July 1930
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">126</container>
+                     
+                     <unittitle>
+                        August 1930-September 1930
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">127</container>
+                     
+                     <unittitle>
+                        October 1930-December 1930
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">128</container>
+                     
+                     <unittitle>
+                        January 1931-April 1931
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">14</container>
+                     
+                     <container type="folder">129</container>
+                     
+                     <unittitle>
+                        May 1931-August 1931
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">130</container>
+                     
+                     <unittitle>
+                        September 1931-December 1931
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">131</container>
+                     
+                     <unittitle>
+                        January 1932-February 1932
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">132</container>
+                     
+                     <unittitle>
+                        March 1932-May 1932
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">133</container>
+                     
+                     <unittitle>
+                        June 1932-November 1932
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">134</container>
+                     
+                     <unittitle>
+                        December 1932-February 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">135</container>
+                     
+                     <unittitle>
+                        March 1933-August 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">136</container>
+                     
+                     <unittitle>
+                        September 1933-November 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">137</container>
+                     
+                     <unittitle>
+                        December 1933-February 1934
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">15</container>
+                     
+                     <container type="folder">138</container>
+                     
+                     <unittitle>
+                        March 1934-July 1934
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">139</container>
+                     
+                     <unittitle>
+                        August 1934-December 1934
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">140</container>
+                     
+                     <unittitle>
+                        January 1935-April 1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">141</container>
+                     
+                     <unittitle>
+                        May 1935-August 1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">142</container>
+                     
+                     <unittitle>
+                        September 1935-December 1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">143</container>
+                     
+                     <unittitle>
+                        January 1936-March 1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">144</container>
+                     
+                     <unittitle>
+                        April 1936-June 1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">145</container>
+                     
+                     <unittitle>
+                        July 1936-September 1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">146</container>
+                     
+                     <unittitle>
+                        October 1936-December 1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">16</container>
+                     
+                     <container type="folder">147</container>
+                     
+                     <unittitle>
+                        January 1937-March 1937
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">148</container>
+                     
+                     <unittitle>
+                        April 1937-January 1938
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">149</container>
+                     
+                     <unittitle>Undated</unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>Library and Flowers Collection</unittitle>
+               
+               </did>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">150</container>
+                     
+                     <unittitle>
+                        1908-1920
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">151</container>
+                     
+                     <unittitle>
+                        1921
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">152</container>
+                     
+                     <unittitle>
+                        1922-1925
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">153</container>
+                     
+                     <unittitle>
+                        1926-1927
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">154</container>
+                     
+                     <unittitle>
+                        1928
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">155</container>
+                     
+                     <unittitle>
+                        January 1929-March 1929
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">17</container>
+                     
+                     <container type="folder">156</container>
+                     
+                     <unittitle>
+                        April 1929-June 1929
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">157</container>
+                     
+                     <unittitle>
+                        July 1929-December 1929
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">158</container>
+                     
+                     <unittitle>
+                        January 1930-March 1930
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">159</container>
+                     
+                     <unittitle>
+                        April 1930-May 1930
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">160</container>
+                     
+                     <unittitle>
+                        June 1930-July 1930
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">161</container>
+                     
+                     <unittitle>
+                        August 1930-September 1930
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">162</container>
+                     
+                     <unittitle>
+                        October 1930-December 1930
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">163</container>
+                     
+                     <unittitle>
+                        January 1931-March 1931
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">18</container>
+                     
+                     <container type="folder">164</container>
+                     
+                     <unittitle>
+                        April 1931-May 1931
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">165</container>
+                     
+                     <unittitle>
+                        June 1931-July 1931
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">166</container>
+                     
+                     <unittitle>
+                        August 1931-September 1931
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">167</container>
+                     
+                     <unittitle>
+                        October 1931-November 1931
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">168</container>
+                     
+                     <unittitle>
+                        December 1931
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">169</container>
+                     
+                     <unittitle>
+                        January 1932
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">170</container>
+                     
+                     <unittitle>
+                        February 1932
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">19</container>
+                     
+                     <container type="folder">171</container>
+                     
+                     <unittitle>
+                        March 1932
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">172</container>
+                     
+                     <unittitle>
+                        April 1932
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">173</container>
+                     
+                     <unittitle>
+                        May 1932
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">174</container>
+                     
+                     <unittitle>
+                        June 1932
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">175</container>
+                     
+                     <unittitle>
+                        July 1932
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">176</container>
+                     
+                     <unittitle>
+                        August 1932-October 1932
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">177</container>
+                     
+                     <unittitle>
+                        November 1932
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">20</container>
+                     
+                     <container type="folder">178</container>
+                     
+                     <unittitle>
+                        December 1932
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">179</container>
+                     
+                     <unittitle>
+                        January 1933-February 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">180</container>
+                     
+                     <unittitle>
+                        March 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">181</container>
+                     
+                     <unittitle>
+                        April 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">182</container>
+                     
+                     <unittitle>
+                        May 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">183</container>
+                     
+                     <unittitle>
+                        June 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">184</container>
+                     
+                     <unittitle>
+                        July 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">185</container>
+                     
+                     <unittitle>
+                        August 1933-September 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">186</container>
+                     
+                     <unittitle>
+                        October 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">21</container>
+                     
+                     <container type="folder">187</container>
+                     
+                     <unittitle>
+                        November 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">188</container>
+                     
+                     <unittitle>
+                        December 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">189</container>
+                     
+                     <unittitle>
+                        January 1934
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">190</container>
+                     
+                     <unittitle>
+                        February 1934-April 1934
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">191</container>
+                     
+                     <unittitle>
+                        May 1934-July 1934
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">192</container>
+                     
+                     <unittitle>
+                        August 1934-September 1934
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">193</container>
+                     
+                     <unittitle>
+                        October 1934
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">194</container>
+                     
+                     <unittitle>
+                        November 1934-December 1934
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">22</container>
+                     
+                     <container type="folder">195</container>
+                     
+                     <unittitle>
+                        January 1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">196</container>
+                     
+                     <unittitle>
+                        February 1935-March 1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">197</container>
+                     
+                     <unittitle>
+                        April 1935-May 1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">198</container>
+                     
+                     <unittitle>
+                        June 1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">199</container>
+                     
+                     <unittitle>
+                        July 1935-September 1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">200</container>
+                     
+                     <unittitle>
+                        October 1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">201</container>
+                     
+                     <unittitle>
+                        November 1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">202</container>
+                     
+                     <unittitle>
+                        December 1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">203</container>
+                     
+                     <unittitle>
+                        January 1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">23</container>
+                     
+                     <container type="folder">204</container>
+                     
+                     <unittitle>
+                        February 1936-March 1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">205</container>
+                     
+                     <unittitle>
+                        April 1936-May 1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">206</container>
+                     
+                     <unittitle>
+                        June 1936-August 1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">207</container>
+                     
+                     <unittitle>
+                        September 1936-October 1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">208</container>
+                     
+                     <unittitle>
+                        November 1936-December 1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">209</container>
+                     
+                     <unittitle>
+                        January 1937-February 1937
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">210</container>
+                     
+                     <unittitle>
+                        March 1937-April 1937
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">211</container>
+                     
+                     <unittitle>
+                        May 1937-June 1937
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">212</container>
+                     
+                     <unittitle>
+                        July 1937-August 1938
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">24</container>
+                     
+                     <container type="folder">213-214</container>
+                     
+                     <unittitle>Undated</unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Writings,
+				1905-1938
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>The Writings series includes published pieces, unpublished manuscripts, and drafts of
+				Boyd's articles and books. His interest in southern, and especially North Carolina, history is
+				evident in these materials, as is his interest in colonial America. The writings are arranged
+				alphabetically by title.</p>
+            
+            </scopecontent>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">215</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">The American Revolution and Reform in the South,</title>
+                     1923
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">216</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">The Antecedents of the North Carolina Convention of
+					 1835,</title>
+                     1910
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">217</container>
+                  
+                  <unittitle>Bibliography of Tallyrand draft, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">218</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="italic">Boyd Family Journal,</title>
+                     March 1925, November 1926
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">219</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">Currency and Banking in North Carolina, 1790-1836,</title>
+				  undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">220</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">Documents and Comments on Benefit of Clergy as Applied to
+					 slaves,</title>
+                     October 1923
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">221</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">Documents and Letters Concerning Lincoln and Fort
+					 Sumter,</title> undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">222</container>
+                  
+                  <unittitle>Drafts on southern history and public education in Virginia,
+				  undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">223</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">The Ecclesiastical Edicts of the Theodosian Code,</title>
+                     1905
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">224</container>
+                  
+                  <unittitle>English-American relations, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">225-226</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="italic">The Federal Period</title> draft, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="box">25</container>
+                  
+                  <container type="folder">227</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="italic">The Federal Period</title> draft, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">228</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">The Finances of the North Carolina Literary Fund,</title>
+                     1914
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">229</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">The Flowers Collection</title> draft, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">230</container>
+                  
+                  <unittitle>History of N.C. Federal Period, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">231-232</container>
+                  
+                  <unittitle>History of Trinity College draft, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">233</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">History of Trinity College,</title> undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">234-235</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="italic">History of the South</title> draft chapters,
+				  undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">236</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">Jeffersonian Ideals - Reform of the State
+					 Constitution,</title> undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">237</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">The Literature of N.C. History</title> draft,
+				  undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">238</container>
+                  
+                  <unittitle>Medieval Universities, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">239</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">Memoirs of a Book Hunter,</title>
+                     circa 1937-1938
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">240</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">Methodist Expansion . . .,</title>
+                     circa 1915
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">241</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">Military Aspects of the Revolution,</title>
+				  undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">242</container>
+                  
+                  <unittitle>Miscellaneous, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="box">26</container>
+                  
+                  <container type="folder">243</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">The Movement for Public Education,</title> undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">244</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">North Carolina on the Eve of Secession, </title>
+                     1912
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">245</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">Pietism, Methodism, and the Great Awakening,</title>
+				  undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">246</container>
+                  
+                  <unittitle>Religious Feeling in 18th-19th Centuries, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">247</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">Robert E. Lee,</title> undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">248</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">A Selected Bibliography and Syllabus of the History of the
+					 South,</title>
+                     June 1918
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">249</container>
+                  
+                  <unittitle>Slavery Debates, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">250</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">Some Phases of Educational History in the South Since
+					 1865,</title>
+                     1914
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">251-252</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="italic">The Story of Durham</title> proof,
+				  circa 1925
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">253</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="italic">The Story of Durham</title> proof, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="box">27</container>
+                  
+                  <container type="folder">254</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="doublequote">A Syllabus of North Carolina History, 1584-1876,</title>
+                     1913 (with J.G. de Roulhac
+				  Hamilton)</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">255</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="italic">Then and Now,</title>
+                     March 1924
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="Oversize-Box">41</container>
+                  
+                  <container type="folder">256</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="italic">W. W. Holden</title> draft, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">257</container>
+                  
+                  <unittitle>
+                     
+                     <title xlink:type="simple" render="italic">William W. Holden</title> drafts, undated</unittitle>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Notes, undated</unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>The Notes series includes primarily handwritten notes used by Boyd in his research and
+				lectures. If there was any indication that the notes were used primarily for lecture or research,
+				this has been indicated. Notes are arranged into Lecture, Research, and General sections, and
+				alphabetically within these sections. Sometimes multiple subjects were filed together, and this
+				arrangement has been preserved.</p>
+               
+               <p>Please note that many of these notes were taken on paper which is now fairly brittle.
+				Patrons should use care in handling these materials.</p>
+            
+            </scopecontent>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>Lecture</unittitle>
+               
+               </did>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">258</container>
+                     
+                     <unittitle>Emancipation, Lincoln, Civil War</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">259-260</container>
+                     
+                     <unittitle>English history, Virginia</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">261-262</container>
+                     
+                     <unittitle>English history, Reformation</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">28</container>
+                     
+                     <container type="folder">263-264</container>
+                     
+                     <unittitle>English history, Reformation</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">265</container>
+                     
+                     <unittitle>Georgia, North Carolina, British Colonial System, Clergy</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">266-267</container>
+                     
+                     <unittitle>North Carolina, South Carolina, Slavery</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">268</container>
+                     
+                     <unittitle>Notes,
+					 1870-1900
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">269-270</container>
+                     
+                     <unittitle>Revolution in Virginia and North Carolina, the Durham area</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">29</container>
+                     
+                     <container type="folder">271</container>
+                     
+                     <unittitle>Slavery</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">272</container>
+                     
+                     <unittitle>Slavery, Carolinas during pre-Constitutional and Constitutional
+					 periods</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">273</container>
+                     
+                     <unittitle>Slavery, Jay Treaty, and S.C. finance</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">274</container>
+                     
+                     <unittitle>Slavery, political and social theories of Thomas Jefferson</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">275</container>
+                     
+                     <unittitle>Southern history</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">276-277</container>
+                     
+                     <unittitle>Southern history and slavery</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">278</container>
+                     
+                     <unittitle>Spanish exploration and French Colonial System</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">30</container>
+                     
+                     <container type="folder">279-282</container>
+                     
+                     <unittitle>Virginia, Jefferson, Jackson, War of 1812</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">283-284</container>
+                     
+                     <unittitle>Virginia's social and religious development, English history</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">31</container>
+                     
+                     <container type="folder">285-286</container>
+                     
+                     <unittitle>Virginia, South Carolina, manuscript list</unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>Research</unittitle>
+               
+               </did>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">287</container>
+                     
+                     <unittitle>Jurisprudence notebook</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">288</container>
+                     
+                     <unittitle>North Carolina history notebook</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">289</container>
+                     
+                     <unittitle>Virginia</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">290</container>
+                     
+                     <unittitle>Virginia education, federal relations, and bibliography</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">291-293</container>
+                     
+                     <unittitle>Miscellaneous notebook</unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>General</unittitle>
+               
+               </did>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">32</container>
+                     
+                     <container type="folder">294</container>
+                     
+                     <unittitle>American History</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">295</container>
+                     
+                     <unittitle>Bibliographies, Southern history in the 1790s-1800s</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">296</container>
+                     
+                     <unittitle>Byron</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">297</container>
+                     
+                     <unittitle>Civil War</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">298-299</container>
+                     
+                     <unittitle>Cotton Revolution, slave economy</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">300</container>
+                     
+                     <unittitle>Education in the South</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">301</container>
+                     
+                     <unittitle>English History--17th century</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">33</container>
+                     
+                     <container type="folder">302</container>
+                     
+                     <unittitle>English History--17th century</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">303</container>
+                     
+                     <unittitle>Jurisprudence, European law</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">304</container>
+                     
+                     <unittitle>Labor, 17th century</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">305</container>
+                     
+                     <unittitle>Monroe Doctrine, Bibliography of
+					 <title xlink:type="simple" render="doublequote">Economics of the Plantation</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">306-307</container>
+                     
+                     <unittitle>North Carolina, South Carolina</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">308</container>
+                     
+                     <unittitle>Outlines of North Carolina history, Southern history,
+					 Reconstruction</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">309</container>
+                     
+                     <unittitle>Lee Slater Overman</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">310</container>
+                     
+                     <unittitle>Population and wealth, North Carolina, South Carolina, Alabama</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">34</container>
+                     
+                     <container type="folder">311-312</container>
+                     
+                     <unittitle>Post-Revolution history, financial situation, Articles of
+					 Confederation</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">313</container>
+                     
+                     <unittitle>Protestant Revolt</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">314</container>
+                     
+                     <unittitle>Revolution, causes of</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">315-316</container>
+                     
+                     <unittitle>Slavery</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">317</container>
+                     
+                     <unittitle>Slavery -
+ Virginia</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">35</container>
+                     
+                     <container type="folder">318</container>
+                     
+                     <unittitle>Slavery, William Gaston, North Carolina</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">319</container>
+                     
+                     <unittitle>Southern Agriculture</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">320-321</container>
+                     
+                     <unittitle>Southern economic systems, Virginia</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">322</container>
+                     
+                     <unittitle>Virginia and Civil War</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">323</container>
+                     
+                     <unittitle>Virginia, North Carolina, Militia</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">324</container>
+                     
+                     <unittitle>William Washington Flowers</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">325-327</container>
+                     
+                     <unittitle>Miscellaneous</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">36</container>
+                     
+                     <container type="folder">328-331</container>
+                     
+                     <unittitle>Miscellaneous</unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Teaching,
+				circa 1911-1936
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>The Teaching series primarily consists of student papers, along with a few
+				administrative documents related to the Duke Department of History. The student papers mainly focus
+				on southern history, especially the history of North Carolina. They are arranged alphabetically by
+				the authors' last names.</p>
+            
+            </scopecontent>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="Oversize-Box">41</container>
+                  
+                  <container type="folder">332</container>
+                  
+                  <unittitle>Committee on the College and Durham</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>Duke Dept. of History</unittitle>
+               
+               </did>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">333</container>
+                     
+                     <unittitle>Faculty Committee on Research</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">334</container>
+                     
+                     <unittitle>Interest in International Studies</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">335</container>
+                     
+                     <unittitle>Resolutions and Memoranda</unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="folder">336</container>
+                  
+                  <unittitle>Notebooks</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>Student Papers</unittitle>
+               
+               </did>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">337</container>
+                     
+                     <unittitle>Airheart, Georgia,
+					 <title xlink:type="simple" render="doublequote">The Early Humanitarian Movement in N.C.</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">338</container>
+                     
+                     <unittitle>Allen, Elizabeth,
+					 <title xlink:type="simple" render="doublequote">A History of Bute County</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">339</container>
+                     
+                     <unittitle>Allen, L. C.,
+					 <title xlink:type="simple" render="doublequote">Supreme Court and Slavery in North
+						Carolina</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">37</container>
+                     
+                     <container type="folder">340</container>
+                     
+                     <unittitle>Anderson, A. R.,
+					 <title xlink:type="simple" render="doublequote">Iredell County</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">341</container>
+                     
+                     <unittitle>Anonymous,
+					 <title xlink:type="simple" render="doublequote">Agriculture</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">342</container>
+                     
+                     <unittitle>Anonymous,
+					 <title xlink:type="simple" render="doublequote">Commercial Coercion and War</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">343</container>
+                     
+                     <unittitle>Anonymous,
+					 <title xlink:type="simple" render="doublequote">A History of Lowe's Grove</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">344</container>
+                     
+                     <unittitle>Anonymous,
+					 <title xlink:type="simple" render="doublequote">North Carolina in the National Slave Controversy,
+						1787-1820</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">345</container>
+                     
+                     <unittitle>Anonymous,
+					 <title xlink:type="simple" render="doublequote">North Carolina in the War of 1812</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">346</container>
+                     
+                     <unittitle>Anonymous,
+					 <title xlink:type="simple" render="doublequote">North Carolina: Transformation from 1827 to
+						1927</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">347</container>
+                     
+                     <unittitle>Anonymous,
+					 <title xlink:type="simple" render="doublequote">The Political Careers of General Alfred Dockery and William
+						L. Steele of Richmond County</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">348</container>
+                     
+                     <unittitle>Anonymous,
+					 <title xlink:type="simple" render="doublequote">Reconstruction in North Carolina</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">349</container>
+                     
+                     <unittitle>Anonymous,
+					 <title xlink:type="simple" render="doublequote">The Rise of the Humanitarian Movement in North
+						Carolina</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">350</container>
+                     
+                     <unittitle>Anonymous,
+					 <title xlink:type="simple" render="doublequote">Share Cropping</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">351</container>
+                     
+                     <unittitle>Anonymous, Untitled</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">352</container>
+                     
+                     <unittitle>Barnard, B. W.,
+					 <title xlink:type="simple" render="doublequote">Constitutional and Judicial Decisions of the N.C. Supreme
+						Court to 1820,</title>
+                        1915
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">353</container>
+                     
+                     <unittitle>Barnard, B. W.,
+					 <title xlink:type="simple" render="doublequote">The Development of Western North Carolina Prior to
+						1836,</title>
+                        January 19, 1914
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">354</container>
+                     
+                     <unittitle>Barnard, B. W.,
+					 <title xlink:type="simple" render="doublequote">The Opening and Regulation of Roads in Western North
+						Carolina through 1836,</title>
+                        May 20, 1914
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">355</container>
+                     
+                     <unittitle>Boling, F. J.,
+					 <title xlink:type="simple" render="doublequote">County Government in North Carolina,</title>
+                        Spring 1923
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">356</container>
+                     
+                     <unittitle>Brantley, Mary Powell,
+					 <title xlink:type="simple" render="doublequote">The Agrarian Problem in North Carolina,
+						1865-1890</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">357</container>
+                     
+                     <unittitle>Brigman, Floyd,
+					 <title xlink:type="simple" render="doublequote">The Tobacco Industry in the 18th Century</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">358</container>
+                     
+                     <unittitle>Broadway, Blanche,
+					 <title xlink:type="simple" render="doublequote">The Sherman Anti-Trust Act and Supreme Court
+						Decisions,</title>
+                        February 18, 1926
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">359</container>
+                     
+                     <unittitle>Brock, Nellie,
+					 <title xlink:type="simple" render="doublequote">Bedford Brown</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">360</container>
+                     
+                     <unittitle>Brown, Helen M.,
+					 <title xlink:type="simple" render="doublequote">The War of the Regulation</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">361</container>
+                     
+                     <unittitle>Bryant, Lillian P.,
+					 <title xlink:type="simple" render="doublequote">History of Durham County,</title>
+                        April 27, 1923
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">362</container>
+                     
+                     <unittitle>Bullock, James Dempsey,
+					 <title xlink:type="simple" render="doublequote">Early Wilson</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">363</container>
+                     
+                     <unittitle>Butler, Julia,
+					 <title xlink:type="simple" render="doublequote">Southern Critics of Southern Agriculture before
+						1860,</title>
+                        May 30, 1923
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">364</container>
+                     
+                     <unittitle>Carmichael, Maude,
+					 <title xlink:type="simple" render="doublequote">Arkansas Slavery: From a Legal and Economic
+						Standpoint</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">38</container>
+                     
+                     <container type="folder">365</container>
+                     
+                     <unittitle>Chaffin, Nora C.,
+					 <title xlink:type="simple" render="doublequote">Church Schools in North Carolina before 1860 with Attitude
+						of North Carolina Methodism toward education before 1860,</title>
+                        May 27, 1924
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">366</container>
+                     
+                     <unittitle>Craft, E. P. C.,
+					 <title xlink:type="simple" render="doublequote">Naval Operations along the coast of North Carolina during
+						the Civil War</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">367</container>
+                     
+                     <unittitle>Daly, Louise Haskell,
+					 <title xlink:type="simple" render="doublequote">Life of Langdon Cheves</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">368</container>
+                     
+                     <unittitle>Daniel, G. M.,
+					 <title xlink:type="simple" render="doublequote">Newspaper Side-Lights on Slavery in N.C.,</title>
+                        April 25, 1911
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">369</container>
+                     
+                     <unittitle>Delap, Simeon Alexander,
+					 <title xlink:type="simple" render="doublequote">The Populist Party in North Carolina</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">370</container>
+                     
+                     <unittitle>DeMond, Robert O.,
+					 <title xlink:type="simple" render="doublequote">Loyalists of N.C. in the Early Period of the American
+						Revolution,</title>
+                        July 20, 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">371</container>
+                     
+                     <unittitle>DeMond, Robert O.,
+					 <title xlink:type="simple" render="doublequote">Occupational Classification of the Loyalists of North
+						Carolina</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">372</container>
+                     
+                     <unittitle>Douglas, Clarence D.,
+					 <title xlink:type="simple" render="doublequote">Conscription and the Writ of Habeas Corpus in North Carolina
+						During the Civil War,</title>
+                        May 1, 1918
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">373</container>
+                     
+                     <unittitle>Farrar, P. G.,
+					 <title xlink:type="simple" render="doublequote">Chatham County</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">374</container>
+                     
+                     <unittitle>Farris, J. J.,
+					 <title xlink:type="simple" render="doublequote">Lincoln's 10% Governments</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">375</container>
+                     
+                     <unittitle>Ficklen, J. R.,
+					 <title xlink:type="simple" render="doublequote">History of Reconstruction in Louisiana (through
+						1868)</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">376</container>
+                     
+                     <unittitle>Foerster, Alma P.,
+					 <title xlink:type="simple" render="doublequote">Reconstruction in Georgia,</title>
+                        February 1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">377</container>
+                     
+                     <unittitle>Frank, Margaret,
+					 <title xlink:type="simple" render="doublequote">The Japanese Problem in California</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">378</container>
+                     
+                     <unittitle>Goebel, Wallace B.,
+					 <title xlink:type="simple" render="doublequote">Wake Forest College prior to the Civil War,</title>
+                        May 1925
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">379</container>
+                     
+                     <unittitle>Greenberg, Henry Clay,
+					 <title xlink:type="simple" render="doublequote">Party Methods and Organization in North Carolina from
+						1789-1860,</title>
+                        May 1, 1917
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">380</container>
+                     
+                     <unittitle>Grier, Lew A.,
+					 <title xlink:type="simple" render="doublequote">The Ku Klux Klan in South Carolina,</title>
+                        1914
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">381</container>
+                     
+                     <unittitle>Griffin, Frederick R., Jr.,
+					 <title xlink:type="simple" render="doublequote">Northern Unitarian Agencies in Southern Social Progress
+						since 1870,</title>
+                        January 17, 1928
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">382</container>
+                     
+                     <unittitle>Grigg, J. H.,
+					 <title xlink:type="simple" render="doublequote">The Cherokee Indians in North Carolina</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">383</container>
+                     
+                     <unittitle>Grigg, W. Q.,
+					 <title xlink:type="simple" render="doublequote">What England Thought of North Carolina (colonial
+						period),</title>
+                        May 30, 1923
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">384</container>
+                     
+                     <unittitle>Guy, John A.,
+					 <title xlink:type="simple" render="doublequote">Some Aspects of Southern Agriculture, 1865-1900,</title>
+                        Summer 1933
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">385</container>
+                     
+                     <unittitle>Haynes, H. U.,
+					 <title xlink:type="simple" render="doublequote">Quit Rent Controversy in North Carolina</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">386</container>
+                     
+                     <unittitle>Henderson, Alfred J.,
+					 <title xlink:type="simple" render="doublequote">Farm Tenancy in the South,</title>
+                        May 11, 1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">39</container>
+                     
+                     <container type="folder">387</container>
+                     
+                     <unittitle>Henry, Frances,
+					 <title xlink:type="simple" render="doublequote">North Carolina's Political Sentiments from 1859 to
+						Secession</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">388</container>
+                     
+                     <unittitle>Hunt, Lessie W.,
+					 <title xlink:type="simple" render="doublequote">The Legal Protection of Slavery</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">389</container>
+                     
+                     <unittitle>Jackson, J. L.,
+					 <title xlink:type="simple" render="doublequote">Jeffersonian Religion,</title>
+                        1923
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">390</container>
+                     
+                     <unittitle>Jones, R. L.,
+					 <title xlink:type="simple" render="doublequote">Origin of the Deaf, Dumb, Blind, and Insane Institutions of
+						North Carolina up to 1860</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">391</container>
+                     
+                     <unittitle>Joslin, Vinnie R.,
+					 <title xlink:type="simple" render="doublequote">The Abolition Movement in Ohio before 1840</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">392</container>
+                     
+                     <unittitle>Koontz, Louis K.,
+					 <title xlink:type="simple" render="doublequote">Two Studies in 19th Century
+						Humanitarianism</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">393</container>
+                     
+                     <unittitle>Luthin, Reinhard H.,
+					 <title xlink:type="simple" render="doublequote">Robert J. Walker and the Purchase of Alaska,</title>
+                        1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">394</container>
+                     
+                     <unittitle>Luthin, Reinhard Henry,
+					 <title xlink:type="simple" render="doublequote">The Virginia-New York Slavery Controversy,</title>
+                        1839-1842
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">395</container>
+                     
+                     <unittitle>MacFadyen, Elizabeth Ann,
+					 <title xlink:type="simple" render="doublequote">The Medical Administration of the Confederacy,</title>
+                        January 1932
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">396</container>
+                     
+                     <unittitle>Manchester, Alan K.,
+					 <title xlink:type="simple" render="doublequote">Land Tenure in the South Since the Civil War</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">397</container>
+                     
+                     <unittitle>Maxwell, Nancy Isobel,
+					 <title xlink:type="simple" render="doublequote">The Quit-Rent Problem in North Carolina during the Colonial
+						Period, 1633-1775</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">398</container>
+                     
+                     <unittitle>McGrady, N. M.,
+					 <title xlink:type="simple" render="doublequote">History of Mecklenburg County, 1860-1880,</title>
+                        May 30, 1916
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">399</container>
+                     
+                     <unittitle>McKinney, C. M.,
+					 <title xlink:type="simple" render="doublequote">Sherman in North Carolina</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">400</container>
+                     
+                     <unittitle>Morgan, W. H.,
+					 <title xlink:type="simple" render="doublequote">Edward Stanley</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">401</container>
+                     
+                     <unittitle>Moss, Cora,
+					 <title xlink:type="simple" render="doublequote">Civil War and Reconstruction in Granville
+						County</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">402</container>
+                     
+                     <unittitle>Osborne, M. A.,
+					 <title xlink:type="simple" render="doublequote">A Financial History of Trinity College,</title>
+                        April 20, 1915
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">403</container>
+                     
+                     <unittitle>Parker, R. E.
+					 <title xlink:type="simple" render="doublequote">The Economics of Cotton Production in the Old South,</title>
+                        January 16, 1915
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">404</container>
+                     
+                     <unittitle>Petty, Clarall,
+					 <title xlink:type="simple" render="doublequote">The British Government and the Slave Trade,</title>
+                        May 21, 1928
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">405</container>
+                     
+                     <unittitle>Pickens, Marhall I.,
+					 <title xlink:type="simple" render="doublequote">The United States Government and the Klu Klux
+						Klan</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">406</container>
+                     
+                     <unittitle>Pleasants, Milton R.,
+					 <title xlink:type="simple" render="doublequote">Manufacturing in North Carolina before 1860</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">407</container>
+                     
+                     <unittitle>Ramsey, C. M.,
+					 <title xlink:type="simple" render="doublequote">The Methodist Church During Reconstruction,</title>
+                        May 28, 1919
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">408</container>
+                     
+                     <unittitle>Reap, Charles A.,
+					 <title xlink:type="simple" render="doublequote">History of Taxation in North Carolina (From the Early Colony
+						to Reconstruction</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">409</container>
+                     
+                     <unittitle>Robbins, Jewell,
+					 <title xlink:type="simple" render="doublequote">Alfred Dockery</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">410</container>
+                     
+                     <unittitle>Sasser, Roxie J.,
+					 <title xlink:type="simple" render="doublequote">History of Lebanon Township, Durham County,
+						N.C.</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">411</container>
+                     
+                     <unittitle>Shockly, Iva,
+					 <title xlink:type="simple" render="doublequote">The History of Public Schools in North Carolina Down to
+						1860</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">412</container>
+                     
+                     <unittitle>Sikes, Earl R.,
+					 <title xlink:type="simple" render="doublequote">The Privileges of the Lower House of the General Assembly,
+						and its Conflicts with the Executive Authority from 1665-1776,</title>
+                        1913
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="box">40</container>
+                     
+                     <container type="folder">413</container>
+                     
+                     <unittitle>Smith, Allen C.,
+					 <title xlink:type="simple" render="doublequote">Rufus B. Bullock in Georgia Politics,</title>
+                        July 17, 1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">414</container>
+                     
+                     <unittitle>Smith, H. P.,
+					 <title xlink:type="simple" render="doublequote">Edward Henry Harriman,</title>
+                        1926
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">415</container>
+                     
+                     <unittitle>Snodgrass, Annie Lee,
+					 <title xlink:type="simple" render="doublequote">Transmontane Virginia in the Crisis, 1860-1861</title>
+                        July 14, 1934
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">416</container>
+                     
+                     <unittitle>Sparks, Dade,
+					 <title xlink:type="simple" render="doublequote">Virginia and South Carolina: contrasted socially and
+						politically</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">417</container>
+                     
+                     <unittitle>Swaringen, Lucile,
+					 <title xlink:type="simple" render="doublequote">The History of the Growth of Durham City Schools,</title>
+                        circa 1923
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">418</container>
+                     
+                     <unittitle>Taylor, Lucy,
+					 <title xlink:type="simple" render="doublequote">The Constitution of 1776 and its reforms</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">419</container>
+                     
+                     <unittitle>Thompson, J. M.,
+					 <title xlink:type="simple" render="doublequote">The Attitude of North Carolinian Whigs Towards Slavery
+						Extension, 1845-1850</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">420</container>
+                     
+                     <unittitle>Starnes, W. F.,
+					 <title xlink:type="simple" render="doublequote">Public Education in North Carolina, 1840-1865</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">421</container>
+                     
+                     <unittitle>Thompson, Jessie,
+					 <title xlink:type="simple" render="doublequote">Social Agencies and Social Control in North
+						Carolina</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">422</container>
+                     
+                     <unittitle>Ware, Fred,
+					 <title xlink:type="simple" render="doublequote">The Grange Movement,</title>
+                        November 24, 1924
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03 level="file">
+                  
+                  <did>
+                     
+                     <container type="folder">423</container>
+                     
+                     <unittitle>Williford, Annie Mary,
+					 <title xlink:type="simple" render="doublequote">Prelim Exam in Southern History: the South,</title>
+                        January 31, 1934
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Library,
+				1923-1933
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>The Library series is a small group of papers related to Boyd's efforts to expand and
+				improve the collections of the library at Duke University. Materials are arranged in alphabetical
+				order.</p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">40</container>
+                  
+                  <container type="folder">424</container>
+                  
+                  <unittitle>American Historical Association Executive Council and Survey</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">40</container>
+                  
+                  <container type="folder">425</container>
+                  
+                  <unittitle>Index of Editors and Publishers</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">40</container>
+                  
+                  <container type="folder">426</container>
+                  
+                  <unittitle>Louis S. Moore books</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">40</container>
+                  
+                  <container type="folder">427-428</container>
+                  
+                  <unittitle>Newspaper Checklist</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">40</container>
+                  
+                  <container type="folder">429</container>
+                  
+                  <unittitle>Report, 1932</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">40</container>
+                  
+                  <container type="folder">430</container>
+                  
+                  <unittitle>Salaries, 1932-1933</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">40</container>
+                  
+                  <container type="folder">431</container>
+                  
+                  <unittitle>Survey of History Students</unittitle>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Photographs, undated</unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>The Photographs series consists mainly of what are presumably family photographs, most
+				of which are unidentified. Many appear to be from Missouri, where many of Boyd's family members
+				lived. Also included are some photographs of Boyd as a young man. Approximately three-quarters of
+				the photographs are tintypes, and many are in excellent condition and serve as fine examples of the
+				medium.</p>
+            
+            </scopecontent>
+            
+            <c02 level="file">
+               
+               <did>
+                  
+                  <container type="box">42</container>
+                  
+                  <unittitle>Approximately 100 photographs</unittitle>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+      
+      </dsc>
+      
+      <relatedmaterial>
+         
+         <head>Related Material</head>
+         
+         <archref xlink:type="simple">
+            
+            <unittitle>George Washington Flowers Collection of Southern Americana</unittitle>
+            
+            <repository>Rare Books, Manuscripts, and Special Collections Library, Duke
+				University</repository>
+         
+         </archref>
+         
+         <archref xlink:type="simple">
+            
+            <unittitle>George Washington Flowers Collection of Southern Americana records</unittitle>
+            
+            <repository>Duke University Archives</repository>
+         
+         </archref>
+      
+      </relatedmaterial>
+   
+   </archdesc>
+
+</ead>

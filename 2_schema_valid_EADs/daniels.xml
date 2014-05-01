@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" langencoding="iso639-2b" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid publicid="-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Josephus Daniels Papers)//EN" countrycode="us" mainagencycode="ndd" url="http://library.duke.edu/rubenstein/findingaids/daniels/">daniels</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Josephus Daniels Papers, <date normal="1904/1954" type="inclusive" era="ce" calendar="gregorian">1904-1954</date>
+            </titleproper>
+            <author>Processed by: Janie C. Morris; machine-readable finding aid created by: Stephen Douglas Miller</author>
+         </titlestmt>
+         <publicationstmt>
+            <p>
+               <date era="ce" calendar="gregorian"> 1987</date>
+ Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">000784868</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from
+paper by means of scanning and OCR; OCR file edited for typographical errors before encoding.
+<lb/>Date of source: November 20, 1987
+
+<lb/>Processed by: Janie C. Morris
+ November 20, 1987; Finding Aid encoded by Stephen Douglas Miller, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.
+<date era="ce" calendar="gregorian">April 1, 1997</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005" era="ce" calendar="gregorian">08-18-2005</date>
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Josephus Daniels Papers)//EN" "daniels.sgm" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date era="ce" calendar="gregorian">June 29, 1998</date>
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Josephus Daniels Papers, <date era="ce" calendar="gregorian">1904-1954</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>
+            <lb/>Duke University<lb/>Durham, North Carolina</publisher>
+         <p> 1987 Duke University. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">Josephus Daniels papers <unitdate normal="1904/1954" type="inclusive" era="ce" calendar="gregorian">1904-1954</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Daniels, Josephus, 1904-1954</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>11.6 Linear Feet</extent>
+            <extent>22,300 Items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+         </repository>
+         <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The status of the copyright interests in the papers of Josephus Daniels is unknown. For further information, see the section on copyright in the Regulations and Procedures of the Rubenstein Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], The Papers of Josephus Daniels, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The papers of Josephus Daniels (1904-1954), Secretary of the Navy, Ambassador to Mexico, and editor of the Raleigh News and Observer were acquired through purchase from 1954 to 1981.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by: Janie C. Morris</p>
+            <p>Completed November 20, 1987</p>
+            <p>Encoded by Stephen Douglas Miller</p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp>
+      <bioghist>
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1862, May 18</date>
+               <event>Born, Washington, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1880-1893 </date>
+               <event>Edited newspapers in Wilson, Kinston, and Raleigh, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1885 </date>
+               <event>Attended University of North Carolina summer law school; passed bar examination (never practiced)</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1887-1893</date>
+               <event>State printer for N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1888 </date>
+               <event>Married Adelaide Worth Bagley</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1893-1895 </date>
+               <event>Chief of Appointment Division, U.S. Department of the Interior, Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1894-1913</date>
+               <event>Editor, Raleigh (N.C.) News and Observer</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1896-1916</date>
+               <event>Member of the Democratic National Committee from N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1898</date>
+               <event>Publication of <title xlink:type="simple" render="italic" xlink:href="">The First Fallen Hero. a Biographical Sketch of Worth Bagley. Ensign, U.S.N.</title> (Norfolk, Va., S. W. Bowman.)</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1905</date>
+               <event>Completed purchase of the controlling interest in the <title xlink:type="simple" render="italic" xlink:href="">News and Observer</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1912</date>
+               <event>Chief, Publicity Bureau, Woodrow Wilson campaign</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1913-1921</date>
+               <event>U.S. Secretary of the Navy</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1919</date>
+               <event>Publication of <title xlink:type="simple" render="italic" xlink:href="">The Navy and the Nation; War-Time Addresses</title> (New York, G. H. Doran Co.)</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1921 - 1933</date>
+               <event>Editor, <title xlink:type="simple" render="italic" xlink:href="">News and Observer</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1922</date>
+               <event>Publication of <title xlink:type="simple" render="italic" xlink:href="">Our Navy at War</title> (Washington, Pictorial Bureau.)</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1924</date>
+               <event>Publication of <title xlink:type="simple" render="italic" xlink:href="">The Life of Woodrow Wilson. 1856-1924</title> (Philadelphia, J. C. Winston Co.)</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1933-1941</date>
+               <event>U.S. Ambassador to Mexico</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1939</date>
+               <event>Publication of <title xlink:type="simple" render="italic" xlink:href="">Tar Heel Editor</title> (Chapel Hill, University of North Carolina Press.), first volume of memoirs</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1941</date>
+               <event>Publication of <title xlink:type="simple" render="italic" xlink:href="">Editor in Politics</title> (Chapel Hill, University of North Carolina Press.) second volume of memoirs</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1942-1948</date>
+               <event>Editor, <title xlink:type="simple" render="italic" xlink:href="">News and Observer</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1944</date>
+               <event>Publication of <title xlink:type="simple" render="italic" xlink:href="">The Wilson Era: Years of Peace. 1910-1917</title> (Chapel Hill, University of North Carolina Press.)</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1946</date>
+               <event>Publication of <title xlink:type="simple" render="italic" xlink:href="">The Wilson Era: Years of War and After, 1917-1923</title> (Chapel Hill, University of North Carolina Press.)</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1947</date>
+               <event>Publication of <title xlink:type="simple" render="italic" xlink:href="">Shirt-Sleeve Diplomat</title> (Chapel Hill, University of North Carolina Press.), third volume of memoirs</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1948, Jan. 15</date>
+               <event>Died, Raleigh N.C.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The papers of Josephus Daniels span the period 1904-1954. However, the bulk of the material begins in 1913, while he was Secretary of the Navy in the Wilson administration, and continues until 1942 just after he resigned as Ambassador to Mexico.</p>
+         <p>The majority of the Daniels papers (approximately 330,000 items) are located in the Manuscript Division of the Library of Congress. There are, therefore, gaps in Duke's collection. For example, although the Letterbooks, Telegrams, and Pressbooks series cover the period 1913-1921, when Daniels was Secretary of the Navy, there are many months which are not represented in the collection.</p>
+         <p>The correspondence series covers the period 1917-1951, but primarily dates from 1929 to 1942. It includes personal and business correspondence on a variety of topics. Several letters are from the period when Daniels was U.S. Ambassador to Mexico and relate to claims negotiations between the United States and Mexico. Most of the correspondence from this period, however, relates to Daniels' resignation as ambassador (1942 Jan. 20), with many letters expressing regret at his decision. One such letter (1941 Oct. 31) is from President Roosevelt. There are also a few scattered notes from Eleanor Roosevelt indicating the warm relationship the Daniels family had with the Roosevelts.</p>
+         <p>Other correspondence concerns the management of the News and Observer and reflects Daniels' political views and civic interests. It also includes correspondence relating to his assistance in securing military commissions, the naming of ships, and other causes. Both the Correspondence and Clippings series contain information about a 1942 editorial in which Daniels condemned the military policy whereby privates were not allowed to date nurses, who were commissioned as second lieutenants. Several people wrote to Daniels applauding this viewpoint.</p>
+         <p>Also of note are a few letters (1924) from Atlee Pomerene, special counsel for the government, during the period he was investigating major figures in the Teapot Dome oil scandal. There are also many tributes in 1947 paid to Daniels upon his 85th birthday, including a telegram from Harry S Truman, and letters of condolence upon the death of his mother and wife.</p>
+         <p>Daniels' correspondents, in addition to those mentioned above, include a wide range of public and elected officials including governors, congressmen, cabinet members, and newspaper editors.</p>
+         <p>The Letterbooks (34 volumes), Telegrams (2 volumes) and Pressbooks (4 volumes) comprise the bulk of the collection (ca. 17,000 items) and cover the period when Daniels was U.S. Secretary of the Navy. Many are official communications stemming from his position, but there are a few personal letters as well. Most of the communiques relate to naval policies, procedures, personnel, and practices. Included are letters relating to Naval Academy appointments, Civil Service jurisdiction, the commissioning and naming of ships, and various naval ceremonial occasions.</p>
+         <p>Correspondents routinely include President Wilson, his secretary Joseph P. Tumulty, cabinet members, congressmen, and naval officers. Many letters written to the White House and to congressmen concern specific individuals and their requests for naval promotions, commissions, or recommendations for the Naval Academy.</p>
+         <p>The earliest material in this series concerns events surrounding the American occupation of Veracruz, Mexico in 1914, including lists of the dead and wounded, as well as information regarding ship movements. Speeches and excerpts from Daniels' speeches are also found in some of the press volumes.</p>
+         <p>Issues reflected in Daniels' correspondence while U.S. Secretary of the Navy include general strengthening of the Navy, particularly on the West Coast; a dispute (1916-1917) regarding the Armor Plate Board and the building of naval vessels at navy yards; naval oil reserves (including a letter of 1917 June 29 to Edward Doheny); Daniels' general concern with the moral welfare of sailors and soldiers as reflected in his efforts to have liquor sales and brothels forbidden in places where men were training for naval service; and a dispute in 1917 with the Navy League regarding the commandant of the Mare Island Navy Yard.</p>
+         <p>Personal letters relate primarily to Daniels' active involvement in the Democratic Party and the management of the <title xlink:type="simple" render="italic" xlink:href="">News and Observer.</title> Daniels served as publicity chair for the campaigns of both William Jennings Bryan and Woodrow Wilson. There are numerous letters and telegrams referring to the presidential campaign of 1916 and an analysis by Daniels of why the Democrats lost the 1920 presidential election.</p>
+         <p>Letters near the end of his tenure as Secretary of the Navy indicate that Daniels would assume more responsibility for the newspaper once he was back in Raleigh. In early 1921, he began to solicit information from naval officers primarily regarding their view of how the Navy functioned in various areas during World War I. He wrote that he was planning to write a series of articles for the National Newspaper Service of Chicago about the Navy's efforts during the war. Among the people to whom Daniels wrote frequently were Secretary of War Newton D. Baker and Senator Benjamin R. Tillman of South Carolina.</p>
+         <p>The Speeches, Writings, and Related Material, Topical Series, Clippings, Miscellany, and Photograph Series comprise the remainder of the collection.</p>
+         <p>The "Mexico" subseries in the Topical Series contains information about the relationship between the United States and Mexico on a number of issues, including the petroleum industry, commerce, and a "Memorandum for the Ambassador" outlining steps that may have been taken by the United States government during the early months of 1917 to determine where Mexico would stand in the event the United States entered World War I. Information for this memorandum was taken from Embassy archives and is undated. There are also some papers in this series relating to his tenure on the Board of Trustees Executive Committee at the University of North Carolina at Chapel Hill.</p>
+         <p>The Photograph Series contains: views of Mexico; pictures of Daniels; Lee Slater Overman, Senator from N. C., 1903-1933; Major General Smedley Darlington Butler; Martin H. Glynn, Gov. of New York; and other unidentified persons.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <corpname>United States. Navy</corpname>
+            </item>
+            <item>
+               <subject>Navy-yards and naval stations -- United States</subject>
+            </item>
+            <item>
+               <subject>Shipbuilding -- United States</subject>
+            </item>
+            <item>
+               <persname>Wilson, Woodrow, 1856-1924</persname>
+            </item>
+            <item>
+               <persname>Tumulty, Joseph Patrick, 1879-1954</persname>
+            </item>
+            <item>
+               <corpname>United States. Navy -- Military life</corpname>
+            </item>
+            <item>
+               <corpname>United States. Navy -- Equipment</corpname>
+            </item>
+            <item>
+               <corpname>United States. Navy -- Recruiting, enlistment, etc</corpname>
+            </item>
+            <item>
+               <corpname>United States. Navy -- Appointments and retirements</corpname>
+            </item>
+            <item>
+               <corpname>United States. Navy -- Weapons systems</corpname>
+            </item>
+            <item>
+               <corpname>United States Naval Academy</corpname>
+            </item>
+            <item>
+               <persname>Daniels, Josephus, 1904-1954</persname>
+            </item>
+            <item>
+               <persname>Baker, Newton D. (Newton Diehl), 1871-1937</persname>
+            </item>
+            <item>
+               <persname>Tillman, Benjamin Ryan, 1847-1918</persname>
+            </item>
+            <item>
+               <subject>Petroleum -- United States -- Reserves</subject>
+            </item>
+            <item>
+               <subject>Teapot Dome Scandal, 1921-1924</subject>
+            </item>
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">The News and Observer.</title>
+            </item>
+            <item>
+               <geogname>United States -- Foreign relations -- Mexico</geogname>
+            </item>
+            <item>
+               <geogname>Mexico -- Foreign relations -- United States</geogname>
+            </item>
+            <item>
+               <geogname>Veracruz Llave (Mexico)--History -- American occupation, 1914</geogname>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <container type="box">1</container>
+               <unittitle>Information Folder</unittitle>
+            </did>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Correspondence, <unitdate normal="1917/1951" type="inclusive" era="ce" calendar="gregorian">1917-1951 </unitdate>
+                  <unitdate normal="1929/1942" type="bulk" era="ce" calendar="gregorian">bulk 1929-1942</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Business and personal correspondence on a variety of topics and issues including naval policies, appointments and commissions, requests for assistance, speaking engagements, his period as U.S. Ambassador to <geogname>Mexico, </geogname>management of the <corpname>News and Observer, </corpname>civic and political involvements, and condolences after the deaths of his mother and wife. Arranged chronologically.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1917, Aug. 2-1929, Oct. 3-10 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1929, Oct. 11-1941, Oct. 22 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1941, Oct. 23-Nov. 27 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1941, Nov. 28-Dec. 31 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1942, Jan. 1-Apr. 10 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1942, Apr. 11-1945, May 17 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1945, May 18-1951, June 5 </unitdate>and undated </unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Letterbooks, <unitdate normal="1915/1921" type="inclusive" era="ce" calendar="gregorian">1915-1921; </unitdate>Telegrams, <unitdate normal="1916/1920" type="inclusive" era="ce" calendar="gregorian">1916-1920; </unitdate>Pressbooks, <unitdate normal="1913/1918" type="inclusive" era="ce" calendar="gregorian">1913-1918. </unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>40 Volumes.</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Chiefly official communications maintained while <persname>Daniels </persname>was <corpname>U.S. Secretary of the Navy, </corpname>relating to naval policies, procedures, personnel, and appropriations. The period covered includes the period of unrest in <geogname>Mexico </geogname>which resulted in the <geogname>United States </geogname>occupation of <geogname>Veracruz </geogname>in<date era="ce" calendar="gregorian"> 1914</date>and portions of <subject>World War I. </subject>Persons <persname>Daniels </persname>corresponded with include <persname>President Wilson, </persname>members of the <corpname>White House </corpname>staff, naval officers, cabinet members, and congressmen. Also includes a few items of personal correspondence. An alphabetical list of correspondents appears in front of each volume with the exception of the pressbooks. Sometimes entries are indexed by the office the person held (such as <subject>Attorney General), </subject>rather than under the person's name. Pressbooks contain primarily press notices. Arranged chiefly chronologically within each volume.</p>
+            </scopecontent>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Letterbooks</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1915, July 31-Oct. 26 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 volumes)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1915, Oct. 16-1916, Jan. 7 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent> (3 volumes)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1916, Jan . 6-Mar. 29</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent> (3 volumes)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1916, June 1-Sept. 21 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent> (3 volumes)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1916, Sept. 21-1917, Jan. 19 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 volumes)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1917, Jan. 19-Mar. 14 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent> (2 volumes)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1917, Mar. 14-May 9 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 volumes)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1917, May 24-June 29 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 volumes)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1917, June 29-July 31 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent> (2 volumes)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1917, July 31-Aug. 21 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 volumes)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1917, Aug. 22-1920, June 4 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 volumes)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1920, June 4-Sept. 22 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 volumes)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">20</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1920, Sept. 22-1921, Feb. 23</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent> (3 volumes)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Telegrams</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1916, July 22-1920, Nov. 1 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent> (2 volumes)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Pressbooks</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">22</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1913, Mar. 6-1914, Jan. 6</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">23</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1914, Jan. 5-May 22</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1914, May 22-Dec. 19</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1916, Jan. 11-1918, June 6</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Speeches, Writings, Related Materials, <unitdate normal="1919/1946" type="inclusive" era="ce" calendar="gregorian">1919-1946 </unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Primarily speeches and extracts from speeches delivered while <persname>Daniels </persname>was <corpname>Secretary of the Navy. </corpname>Includes talks given to troops who fought in <subject>World War I, </subject>numerous naval functions, college commencements, political events, speeches honoring individuals, and numerous other occasions. Also speeches by other individuals, some of them honoring Daniels and fragments of speeches by unidentified persons. Arranged chronologically.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">26</container>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1919, Mar.-Dec. </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(7 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <unittitle>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1920-1946 </unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(7 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">28</container>
+                  <unittitle>Undated and Miscellany </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Various speakers, <unitdate type="inclusive" era="ce" calendar="gregorian">1919-1944 </unitdate>and Undated</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Unidentified Speakers, <unitdate type="inclusive" era="ce" calendar="gregorian">1933-1946 </unitdate>and undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Topical Series,<unitdate normal="1914/1945" type="inclusive" era="ce" calendar="gregorian">1914-1945 and undated. </unitdate>
+               </unittitle>
+            </did>
+            <arrangement>
+               <p>This series is divided into three subseries, the <corpname>Navy, </corpname>
+                  <geogname>Mexico, </geogname>and the <corpname>University of North Carolina at Chapel Hill. </corpname>Papers are arranged chronologically within each topic.</p>
+            </arrangement>
+            <c02>
+               <did>
+                  <container type="box">28</container>
+                  <unittitle>Navy, <unitdate type="inclusive" era="ce" calendar="gregorian">1914-1945 </unitdate>and undated </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>Chiefly relates to the leasing of naval oil lands, including printed information about the investigation by <persname>Senator Thomas J. Walsh, </persname>that led to the uncovering of the <subject>Teapot Dome </subject>oil scandal. Also plans of the day on board the <corpname>U.S.S. Rushmore </corpname>for <date era="ce" calendar="gregorian">Nov. 1944-June 1945.</date> It is unclear how these plans relate to <persname>Daniels, </persname>but may be records of one of his sons who served in the <corpname>Marine Corps </corpname>during <subject>World War II.</subject>
+                  </p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Mexico, <unitdate type="inclusive" era="ce" calendar="gregorian">1935-1941 </unitdate>and undated</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Consists of memorandums regarding relations between <geogname>Mexico </geogname>and the <geogname>United States </geogname>on a number of issues, a list of American ambassadors to <geogname>Mexico </geogname>from <date era="ce" calendar="gregorian">1899</date> to Daniels' tenure, and other miscellany items.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>University of North Carolina at Chapel Hill, <unitdate type="inclusive" era="ce" calendar="gregorian">1940-1946 Apr. </unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">29</container>
+                  <unittitle>
+                     <corpname>University of North Carolina at Chapel Hill, </corpname>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1946, May-1954 and undated</unitdate>
+                  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes <corpname>Board of Trustee Executive Committee </corpname>minutes, correspondence, reports, printed material, and other papers related to the university during <persname>Daniels</persname>' membership on the <corpname>Board of Trustees.</corpname>
+                  </p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Clippings </unittitle>
+               <physdesc>
+                  <extent>(2 folders)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Includes reviews of his works <title xlink:type="simple" render="italic" xlink:href="">The Wilson Era: Years of Peace, <date era="ce" calendar="gregorian">1910-1917,</date>
+                  </title>
+                  <date era="ce" calendar="gregorian">(1944)</date> and <title xlink:type="simple" render="italic" xlink:href="">The Wilson Era: Years of War and After. <date era="ce" calendar="gregorian">1917-1923,</date>
+                  </title>
+                  <date era="ce" calendar="gregorian">(1946)</date> and articles about various speeches he made. Others date from the period when <persname>Daniels </persname>was Secretary of the <corpname>Navy </corpname>and Ambassador to <geogname>Mexico </geogname>(a few from <subject>Spanish newspapers). </subject>Also some written upon Daniels' return to <geogname>Raleigh </geogname>to edit the <corpname>News and Observer </corpname>and the occasion of his 85th birthday. </p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">29</container>
+                  <unittitle>Clippings</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Miscellany, <unitdate normal="1904/1947" type="inclusive" era="ce" calendar="gregorian">1904-1947 </unitdate>and undated </unittitle>
+               <physdesc>
+                  <extent>(2 folders)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Papers relating to <subject>North Carolina Home-Coming Week </subject>(Oct. 14-19, <date era="ce" calendar="gregorian"> 1929</date> ) of which <persname>Daniels </persname>was Vice-Chair, book reviews of <title xlink:type="simple" render="italic" xlink:href="">The Wilson Era: Years of Peace, <date era="ce" calendar="gregorian">1910-1917</date>
+                  </title> and <title xlink:type="simple" render="italic" xlink:href="">The Wilson Era: Years of War and After, <date era="ce" calendar="gregorian">1917-1923,</date>
+                  </title> a report on the Battle of <geogname>Munroe Farm, </geogname>now called Battlefield Farm, near <geogname>Fort Bragg, N.C., </geogname>and other miscellaneous papers. Arranged chronologically. </p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">29</container>
+                  <unittitle>Miscellany</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Photographs,<unitdate normal="1933" type="inclusive" era="ce" calendar="gregorian"> 1933 </unitdate>and undated </unittitle>
+               <physdesc>
+                  <extent>(2 folders)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Includes views of <geogname>Mexico, </geogname>photographs of <persname>Daniels, </persname>and other political and military figures, and several unidentified persons. </p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">29</container>
+                  <unittitle>Photographs</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,1838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::George Augustus Lofton Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/lofton/">lofton</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the George Augustus Lofton Papers, <date normal="1784/1941" type="inclusive" era="ce" calendar="gregorian">1784-1941</date>
+            </titleproper>
+            <author>Processed by: John Gribble; Assisted by: Alex Byrd, Brent Johanson, Rachel Pottinger; Machine-readable finding aid created by: Stephen Douglas Miller</author>
+         </titlestmt>
+         <publicationstmt>
+            <p>
+               <date era="ce" calendar="gregorian"> 1993</date>
+ Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>This finding aid is NCEAD compliant.</p>
+            </note>
+            <note>
+               <p>Aleph Number: <num type="aleph">001582407</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from
+paper by means of scanning and OCR; OCR file edited for typographical errors before encoding.
+<lb/>Date of source: November 15, 1993
+<lb/>Processed by: John Gribble; Assisted by: Alex Byrd, Brent Johanson, Rachel Pottinger
+ November 15, 1993; Finding Aid encoded by Stephen Douglas Miller, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.
+<date calendar="gregorian" era="ce">March 25, 1997</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::The George Augustus Lofton Papers)//EN" "lofton.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date calendar="gregorian" era="ce">June 29, 1998</date>
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the George Augustus Lofton Papers, <date calendar="gregorian" era="ce">1784-1941</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham, North Carolina</publisher>
+         <p> 1993 Duke University. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">George Augustus Lofton papers <unitdate calendar="gregorian" era="ce" normal="1784/1941" type="inclusive">1784-1941</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Lofton, George Augustus, 1839-1914</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>14.2 Linear Feet</extent>
+            <extent>1800 Items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+         </repository>
+         <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The copyright interests in the Lofton Papers have not been transferred to Duke University. For further information, see the section on copyright in the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], The Papers of George Augusts Lofton, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The George Augustus Lofton Papers (1874-1941) were purchased by the David M. Rubenstein Rare Book &amp; Manuscript Library in 1989.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by: John Gribble; Assisted by: Alex Byrd, Brent Johanson, Rachel Pottinger</p>
+            <p>Completed November 15, 1993</p>
+            <p>Encoded by Stephen Douglas Miller</p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp>
+      <bioghist>
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1839, Dec. 25</date>
+               <event>Born, Panola County, Miss.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1861 - 1865</date>
+               <event>Served in the Confederate States of America, 9th Georgia Battalion Artillery</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1865- 1867</date>
+               <event>Principal, Wade Academy, Webster County, Ga.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1867- 1868</date>
+               <event>Admitted to bar; practiced at Americus, Ga.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1868- 1869</date>
+               <event>Ordained Baptist minister; pastor of several country churches in Georgia</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1870- 1872</date>
+               <event>Pastor, Dalton, Ga.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1871</date>
+               <event>A.M., Mercer University, Ga.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1872-1877</date>
+               <event>Pastor, First Church, Memphis, Tenn.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1873-1876</date>
+               <event>President, Southern Baptist Publishing Society</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1877-1884</date>
+               <event>Pastor, Third Church, St. Louis, Mo.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1880</date>
+               <event>D.D., Baylor University (Tex.)</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1885-1887</date>
+               <event>Pastor, Talladega, Ala.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1888</date>
+               <event>Pastor, Central Church, Nashville, Tenn.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1889</date>
+               <eventgrp>
+                  <event>Moderator, Nashville Association of Baptist Churches</event>
+                  <event>President, State Board Missions, Tenn.</event>
+                  <event>Authored <title xlink:type="simple" render="italic" xlink:href="">Character Sketches</title>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1897</date>
+               <event>Authored <title xlink:type="simple" render="italic" xlink:href="">Harp of Life</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1899</date>
+               <event>Authored <title xlink:type="simple" render="italic" xlink:href="">Baptist Reformation, 1611-1641, A.D.</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1900</date>
+               <event>LL.D., University of Nashville</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1902</date>
+               <event>Authored <title xlink:type="simple" render="italic" xlink:href="">The Master Wheel</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1914, Dec.11</date>
+               <event>Died</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The George Augustus Lofton Papers span the years 1874-1941, although the bulk of the material dates from 1875-1900. They consist of correspondence, writings and sermons, clippings, book reviews, and printed materials. The collection principally relates to Lofton's career as a Baptist minister serving churches in Dalton, Gal; Memphis, Tenn. (First Church); St. Louis, Mo. (Third Church); Talladega, Ala.; and Nashville, Tenn. (Central Church). The collection mostly contains handwritten sermons and sermon notes, and includes little family or personal material, although a few family letters are in the Correspondence Series. The Correspondence Series, however, primarily contains letters critiquing Lofton's works, <title xlink:type="simple" render="italic" xlink:href="">Review of the Question</title> and <title xlink:type="simple" render="italic" xlink:href="">Bible Thoughts and Themes.</title> The Writings and Speeches Series documents Lofton's intellectual growth throughout his career as author and minister. This series also contains Lofton's published text, <title xlink:type="simple" render="italic" xlink:href="">Character Sketches</title> (1890), and a manuscript draft of his autobiography titled, <title xlink:type="simple" render="doublequote" xlink:href="">My Family Garden.</title> Lofton's sermons and sermon notes track both his spiritual development and writing skills throughout the years of his ministry. The sermon notes reveal his views on slavery, capital punishment, and foreign mission work. The Printed Materials Series includes published brochures and sermons written by Lofton and others, 1881-1914. The Miscellaneous Series contains an assortment of items from 1873-1940 including Lofton family photographs and other materials. Included are items pertaining to Baptist minister George Law Stewart and Dr. Adiel Sherwood.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname>Sherwood, Adiel, 1791-1879. </persname>
+            </item>
+            <item>
+               <persname>Stewart, George L. </persname>
+            </item>
+            <item>
+               <subject>Mission -- sermons. </subject>
+            </item>
+            <item>
+               <subject>Authors, American -- Southern States. </subject>
+            </item>
+            <item>
+               <subject>Baptists -- Clergy. </subject>
+            </item>
+            <item>
+               <genreform>Sermons -- Baptist. </genreform>
+            </item>
+            <item>
+               <subject>Slavery -- United States -- Emancipation. </subject>
+            </item>
+            <item>
+               <subject>Capital punishment -- southern. </subject>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle id="corr">Correspondence Series, <unitdate calendar="gregorian" era="ce" normal="1877/1921" type="inclusive">1877-1921,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1877/1921" type="inclusive">1877-1921,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="writ">Writings and Speeches Series, <unitdate calendar="gregorian" era="ce" normal="1870/1900" type="inclusive">1870-1900,</unitdate>
+                  <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+               </unittitle>
+            </did>
+            <arrangement>
+               <p>Three subseries: Manuscripts, Sermons (arranged alphabetically), and Sermon Notes. <title xlink:type="simple" render="doublequote" xlink:href="">My Family Garden</title> is a history of the <famname>Lofton </famname>family.</p>
+            </arrangement>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Manuscripts Subseries</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Character Sketches,</title>
+                        <unitdate calendar="gregorian" era="ce" normal="1890" type="inclusive">1890</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Draft, <title xlink:type="simple" render="doublequote" xlink:href="">My Family Garden,</title>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Sermons Subseries</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">A</title> - <title xlink:type="simple" render="italic" xlink:href="">Accountability</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Acquaintance</title> - <title xlink:type="simple" render="italic" xlink:href="">Address</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Address</title> - <title xlink:type="simple" render="italic" xlink:href="">All Important</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The All Important Question</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">All in All</title> - <title xlink:type="simple" render="italic" xlink:href="">Always</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">American</title> - <title xlink:type="simple" render="italic" xlink:href="">Angel's</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Answer</title> - <title xlink:type="simple" render="italic" xlink:href="">Atheistic</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Atonement</title> - <title xlink:type="simple" render="italic" xlink:href="">Awakened</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">B</title> - <title xlink:type="simple" render="italic" xlink:href="">Baptist</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Baptist Faith</title> - <title xlink:type="simple" render="italic" xlink:href="">Barren Fig</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Baptist Trophy, 1876</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Bearing Each</title> - <title xlink:type="simple" render="italic" xlink:href="">Besetting Son</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Best You Can</title> - <title xlink:type="simple" render="italic" xlink:href="">Bible Doctrine</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Bible in the Public Schools</title> - <title xlink:type="simple" render="italic" xlink:href="">Bible Theory of Sanctification</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Bible Thoughts and Themes for Young Men</title> - <title xlink:type="simple" render="italic" xlink:href="">Blessedness of Giving</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Blind Bartnaeus</title> - <title xlink:type="simple" render="italic" xlink:href="">Boodle and Whiskey</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Bread of Life</title> - <title xlink:type="simple" render="italic" xlink:href="">By-path Meadow</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Capital Punishment: The Law of God and Nature</title> - <title xlink:type="simple" render="italic" xlink:href="">Causal Things Without Effect</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Causes of Spiritual Declension</title> - <title xlink:type="simple" render="italic" xlink:href="">Child likeness: the Condition of Entrance Into God's Kingdom</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Christ at the Door</title> - <title xlink:type="simple" render="italic" xlink:href="">Christ the Door</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Christ, the Only Personal...</title> - <title xlink:type="simple" render="italic" xlink:href="">Christ's Example of Activity</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Christian Charity</title> - <title xlink:type="simple" render="italic" xlink:href="">The Christian's High Vocation</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Christian's Prize</title> - <title xlink:type="simple" render="italic" xlink:href="">Church Independence</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Church of the Living God</title> - <title xlink:type="simple" render="italic" xlink:href="">Church Sunday Entertainment</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Cities of Refuge</title> - <title xlink:type="simple" render="italic" xlink:href="">The Coming of Christ</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Coming Empire</title> - <title xlink:type="simple" render="italic" xlink:href="">Communion with Christ</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Compassion of Christ</title> - <title xlink:type="simple" render="italic" xlink:href="">The Condition of Revival</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Conditions of Spiritual Prosperity</title> - <title xlink:type="simple" render="italic" xlink:href="">Conscience</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Consistency</title> - <title xlink:type="simple" render="italic" xlink:href="">Crime and Misfortune of Ignorance</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Crisis of the Cross</title> - <title xlink:type="simple" render="italic" xlink:href="">The City of Despair</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Crystallizing Force of Habit</title> - <title xlink:type="simple" render="italic" xlink:href="">David's Sin</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">David's Sins</title> - <title xlink:type="simple" render="italic" xlink:href="">Death and Judgment</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Debit Without Credit</title> - <title xlink:type="simple" render="italic" xlink:href="">The Devil as an Angel of Light</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Devil's Shake</title> - <title xlink:type="simple" render="italic" xlink:href="">Did Christ Come to Save the Gentiles</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Dignity and Moral Effect of Work</title> - <title xlink:type="simple" render="italic" xlink:href="">The Divine Purchase</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Divine Evolution</title> - <title xlink:type="simple" render="italic" xlink:href="">The Divine Pastoral of Ruth</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Divine Signet</title> - <title xlink:type="simple" render="italic" xlink:href="">Doing and Knowing</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Doodle bug</title> - <title xlink:type="simple" render="italic" xlink:href="">The Drunkard Maker</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Ecclesiastical Obedience to Pastoral Rule</title> - <title xlink:type="simple" render="italic" xlink:href="">Efficient Service</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Efficiency of the Spirit</title> - <title xlink:type="simple" render="italic" xlink:href="">Elijah and the Ravens</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Elijah No. 1</title> - <title xlink:type="simple" render="italic" xlink:href="">Eloquence: A Virtue</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Exhalation of Joseph</title> - <title xlink:type="simple" render="italic" xlink:href="">The Endowment of the Holy Spirit</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Ephraim Joined to his Idol</title> - <title xlink:type="simple" render="italic" xlink:href="">Essentials to Cross Bearing</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Esther's Faith and Courage</title> - <title xlink:type="simple" render="italic" xlink:href="">Eternity</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Eternity of Hell</title> - <title xlink:type="simple" render="italic" xlink:href="">Everybody's Doing It</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Evidence of Genuineness</title> - <title xlink:type="simple" render="italic" xlink:href="">Excellency of the Knowledge of Christ</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Existing Errors Regarding Immorality and the Future State</title> - <title xlink:type="simple" render="italic" xlink:href="">Faith the Only Medium of Grace</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Faith, the Result of Ordination</title> - <title xlink:type="simple" render="italic" xlink:href="">Faithful in Little Things</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Faithful Saying</title> - <title xlink:type="simple" render="italic" xlink:href="">The Fall of Satan</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Family Alter</title> - <title xlink:type="simple" render="italic" xlink:href="">A Fast Young Man</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Fatal Fall and Final Triumph of Man</title> - <title xlink:type="simple" render="italic" xlink:href="">The Final Triumph</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Final Fixedness of Habit</title> - <title xlink:type="simple" render="italic" xlink:href="">The First Great Victory</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Fixed Heart</title> - <title xlink:type="simple" render="italic" xlink:href="">Forgetting the Things Behind</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Forgiveness</title> - <title xlink:type="simple" render="italic" xlink:href="">The Fountain and Issues of Life</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Friend of Publicans and Sinners</title> - <title xlink:type="simple" render="italic" xlink:href="">The Fruitfulness of Death</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Full Assurance</title> - <title xlink:type="simple" render="italic" xlink:href="">The Fullness of Christ 3</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Fullness of Christ 4</title> - <title xlink:type="simple" render="italic" xlink:href="">Future Punishment</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Future Reward and Punishment Alike Eternal</title> - <title xlink:type="simple" render="italic" xlink:href="">The Glory of the Cross</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Glory of the Cross</title> - <title xlink:type="simple" render="italic" xlink:href="">Go Forward</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">God a Consuming Fire</title> - <title xlink:type="simple" render="italic" xlink:href="">God's Good Things</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">God's Goodness a Motive to Repentance</title> - <title xlink:type="simple" render="italic" xlink:href="">God's Kingdom and Righteousness First</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">God's Ownership and Service</title> - <title xlink:type="simple" render="italic" xlink:href="">God's Peculiar People</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">God's People</title> - <title xlink:type="simple" render="italic" xlink:href="">The Golden Calf</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Our Golden Calves</title> - <title xlink:type="simple" render="italic" xlink:href="">Gospel Fishing</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Gospel Fountain</title> - <title xlink:type="simple" render="italic" xlink:href="">The Grace of Compromise</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Grace of Liberality</title> - <title xlink:type="simple" render="italic" xlink:href="">The Great Advocate</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Great Commandment</title> - <title xlink:type="simple" render="italic" xlink:href="">Great is Diana of the Epliesiaus</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Great Invitation</title> - <title xlink:type="simple" render="italic" xlink:href="">The Great Salvation</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Great Salvation</title> - <title xlink:type="simple" render="italic" xlink:href="">The Great Supper</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Greatest Wrong</title> - <title xlink:type="simple" render="italic" xlink:href="">Habitual Drinking</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Habitual Drinking and It's Remedy</title> - <title xlink:type="simple" render="italic" xlink:href="">The Half Has Never Been Told</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Hardship of Sin</title> - <title xlink:type="simple" render="italic" xlink:href="">Heaven</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Heavenly Citizenship</title> - <title xlink:type="simple" render="italic" xlink:href="">Heredity</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The High Rock</title> - <title xlink:type="simple" render="italic" xlink:href="">The Honor Christ</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Hope</title> - <title xlink:type="simple" render="italic" xlink:href="">How to Build the Church</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">How to Convert Sinners</title> - <title xlink:type="simple" render="italic" xlink:href="">I Gave My Life for Thee</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Ignored and Discarded</title> - <title xlink:type="simple" render="italic" xlink:href="">Immortality</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Immorality-Natural</title> - <title xlink:type="simple" render="italic" xlink:href="">Immortality Typical II</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Immutability of God's Love in Christ</title> - <title xlink:type="simple" render="italic" xlink:href="">The Impotency of the Sword</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Incompatible Witness</title> - <title xlink:type="simple" render="italic" xlink:href="">Inferences from the Breckenridge Trial</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Insecurity</title> - <title xlink:type="simple" render="italic" xlink:href="">Isaiah's Fig Potilla</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Jesus of the Age</title> - <title xlink:type="simple" render="italic" xlink:href="">Is There at Hell...</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Is There a True Christianity in the World To Day</title> - <title xlink:type="simple" render="italic" xlink:href="">John the Baptist</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">John's Gospel</title> - <title xlink:type="simple" render="italic" xlink:href="">Joseph the Dreamer</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Joshua's Decided Religion</title> - <title xlink:type="simple" render="italic" xlink:href="">The Judgment</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Judicial Blindness</title> - <title xlink:type="simple" render="italic" xlink:href="">Knowing the Unknowable, Measuring the Immeasurable</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Knowledge of Christ</title> - <title xlink:type="simple" render="italic" xlink:href="">The Last Enemy</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Last Enemy is Ours</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Last Judgment</title> - <title xlink:type="simple" render="italic" xlink:href="">Lessons From the 1st Miracle</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Lessons From the Valley of the Dead</title> - <title xlink:type="simple" render="italic" xlink:href="">Liberty: the Genius of Christianity</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Liberty, Part 1</title> - <title xlink:type="simple" render="italic" xlink:href="">The Light of God's Countenance</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Lilly in the Bag</title> - <title xlink:type="simple" render="italic" xlink:href="">Loathing God's Lightbread</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Dr. Lofton's 19th Anniversary</title> - <title xlink:type="simple" render="italic" xlink:href="">The Lord's Supper</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Loss of Moral Resistance</title> - <title xlink:type="simple" render="italic" xlink:href="">Lot's Temptation</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Lot's Wife</title> - <title xlink:type="simple" render="italic" xlink:href="">The Love of Christ...Part 2</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Love of Christ...</title> - <title xlink:type="simple" render="italic" xlink:href="">Love's Epitome</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Love's Labor Not Lost</title> - <title xlink:type="simple" render="italic" xlink:href="">Man's Fearful and Wonderful Being</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Man's First Commission</title> - <title xlink:type="simple" render="italic" xlink:href="">Marriage</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Me</title> - <title xlink:type="simple" render="italic" xlink:href="">The Messicaic Symbolism of Great Pyramid</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Microscopic Observations</title> - <title xlink:type="simple" render="italic" xlink:href="">The Mighty Minority</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Mighty to Save</title> - <title xlink:type="simple" render="italic" xlink:href="">The Miracle of the (?) Demoniacs and Il-Lessions</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">A Miraculous Deliverance</title> - <title xlink:type="simple" render="italic" xlink:href="">Mission of John the Baptist</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Missionary Zeal of Christianity</title> - <title xlink:type="simple" render="italic" xlink:href="">Modern Paganism</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Modern Perils</title> - <title xlink:type="simple" render="italic" xlink:href="">More to Follow</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Mother and the Model Child</title> - <title xlink:type="simple" render="italic" xlink:href="">Municipal Righteousness</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Murder and Capital Punishment</title> - <title xlink:type="simple" render="italic" xlink:href="">Nashville Under the Electric Laugh</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Nashville's Stumbling Blocks</title> - <title xlink:type="simple" render="italic" xlink:href="">Nelson Merry Memorial</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The New Creature</title> - <title xlink:type="simple" render="italic" xlink:href="">Ninth Anniversary Sermon</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">No Other Name</title> - <title xlink:type="simple" render="italic" xlink:href="">Non-Resistance as a Force</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Not Ashamed of the Gospel</title> - <title xlink:type="simple" render="italic" xlink:href="">Now</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Obedience</title> - <title xlink:type="simple" render="italic" xlink:href="">One Thing Needful</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Only Religion of Life...</title> - <title xlink:type="simple" render="italic" xlink:href="">The Only Way</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Opportune Activity</title> - <title xlink:type="simple" render="italic" xlink:href="">Our Home Mission Resources</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Our Institutions of Vice</title> - <title xlink:type="simple" render="italic" xlink:href="">Our Superior Righteousness</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Our Sympathetic High Priest</title> - <title xlink:type="simple" render="italic" xlink:href="">Parable of the Talents</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Passover</title> - <title xlink:type="simple" render="italic" xlink:href="">Paul at Antioch</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Paul at Melita</title> - <title xlink:type="simple" render="italic" xlink:href="">Paul in Rome</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">20</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Paul in Shipwreck</title> - <title xlink:type="simple" render="italic" xlink:href="">Paul's Encouragement at Corinth</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Paul's Good Fight</title> - <title xlink:type="simple" render="italic" xlink:href="">Paul's Metaphors</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Paul's Metaphors</title>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Paul's Metaphors</title> - <title xlink:type="simple" render="italic" xlink:href="">A Peculiar People</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Penitent's Prayer</title> - <title xlink:type="simple" render="italic" xlink:href="">Perfection</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Perfection</title> - <title xlink:type="simple" render="italic" xlink:href="">Perseverance of All Saints</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Personal Effort</title> - <title xlink:type="simple" render="italic" xlink:href="">Peter's Confession</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Peter's Deliverance</title> - <title xlink:type="simple" render="italic" xlink:href="">The Philosophy of Fear</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Philosophy of Prayer</title> - <title xlink:type="simple" render="italic" xlink:href="">Possibilities of Faith</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Possibilities Without Culture</title> - <title xlink:type="simple" render="italic" xlink:href="">Power of Religious Education</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Power of the Holy Ghost</title> - <title xlink:type="simple" render="italic" xlink:href="">Prayer</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Preacher in Politics</title> - <title xlink:type="simple" render="italic" xlink:href="">Prejudice</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">22</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Preservation of All Saints</title> - <title xlink:type="simple" render="italic" xlink:href="">Procrastination</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Procrastination of Felix</title> - <title xlink:type="simple" render="italic" xlink:href="">The Province of Faith</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Province of the Sword</title> - <title xlink:type="simple" render="italic" xlink:href="">The Real Presence</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Reasoning Together</title> - <title xlink:type="simple" render="italic" xlink:href="">Relation of Christianity to Law and Order</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Religion and Crime</title> - <title xlink:type="simple" render="italic" xlink:href="">The Religious Memories of the Confederate Soldier</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Remarkable Conversations: Cornelius Remarkable Conversations: Saul</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">23</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Remarkable Conversations: Simon Magus</title> - <title xlink:type="simple" render="italic" xlink:href="">The Rending of the Veil</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Rending Veil</title> - <title xlink:type="simple" render="italic" xlink:href="">Respect for the Sacred</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Responsibility According to Ability</title> - <title xlink:type="simple" render="italic" xlink:href="">Resurrection f Lazarus</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Revitalization</title> - <title xlink:type="simple" render="italic" xlink:href="">That Richmond Ring</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">23</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Rights of Property</title> - <title xlink:type="simple" render="italic" xlink:href="">Running Against Hindrances</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Ruth</title> - <title xlink:type="simple" render="italic" xlink:href="">The Safety of Loyalty</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Salvation and Security</title> - <title xlink:type="simple" render="italic" xlink:href="">Sanctification</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Saul a Persecutor</title> - <title xlink:type="simple" render="italic" xlink:href="">Saved by Water</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Saving Others, Not Himself</title> - <title xlink:type="simple" render="italic" xlink:href="">Science Falsely so Called</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Scriptural Figures Illustrative of the Spirit's Coming and Work</title> - <title xlink:type="simple" render="italic" xlink:href="">Seeking God While He May be Found</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Seeking and Saving the Lost</title> - <title xlink:type="simple" render="italic" xlink:href="">The Self Confident Fool</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Self Consecration Part 1</title> - <title xlink:type="simple" render="italic" xlink:href="">Self Denial</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Self-Denial</title> - <title xlink:type="simple" render="italic" xlink:href="">The Seven Beatitudes</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Shepard and the Sheep</title> - <title xlink:type="simple" render="italic" xlink:href="">The Sin of Ignorance</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Sin Unto Death</title> - <title xlink:type="simple" render="italic" xlink:href="">The Sinner's Self-Judgment</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Smitten Rock</title> - <title xlink:type="simple" render="italic" xlink:href="">Solomon, a type of Christ</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Somewhat and the Few Things Which Ruin Churches</title> - <title xlink:type="simple" render="italic" xlink:href="">Southern Baptist Convention</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Soul Winning as a Vocation</title> - <title xlink:type="simple" render="italic" xlink:href="">The Spirit of Christ</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Spirit Power</title> - <title xlink:type="simple" render="italic" xlink:href="">The Stone Before the Spulchur</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Stone Ezel</title> - <title xlink:type="simple" render="italic" xlink:href="">Submission</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">26</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Succession</title> - <title xlink:type="simple" render="italic" xlink:href="">Sunday Schools</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Sunday Visitation</title> - <title xlink:type="simple" render="italic" xlink:href="">The Sy (?) Woman</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Symmetrical Development</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Taffy</title> - <title xlink:type="simple" render="italic" xlink:href="">The Test of Fidelity</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Test Question</title> - <title xlink:type="simple" render="italic" xlink:href="">Thanksgiving</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Thanksgiving</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">27</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Thanksgiving</title> - <title xlink:type="simple" render="italic" xlink:href="">Things Settled</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Thinking and Believing</title> - <title xlink:type="simple" render="italic" xlink:href="">Through Death to Life</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Thought That Turns</title> - <title xlink:type="simple" render="italic" xlink:href="">To Day</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Tomorrow</title> - <title xlink:type="simple" render="italic" xlink:href="">Training of Children</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Trail of Christ</title> - <title xlink:type="simple" render="italic" xlink:href="">Trial of Abram's Faith</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Trinity of Graces</title> - <title xlink:type="simple" render="italic" xlink:href="">My Trip to Europe 3</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">28</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Triumphant Cross</title> - <title xlink:type="simple" render="italic" xlink:href="">Trust In God</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Truth as in Jesus</title> - <title xlink:type="simple" render="italic" xlink:href="">the Two Ways</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Unanswerable Argument</title> - <title xlink:type="simple" render="italic" xlink:href="">Universal Dominion of Christ</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Universality of Missions</title> - <title xlink:type="simple" render="italic" xlink:href="">The Unrighteous Mammon</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Unused Forces Among Southern Baptist</title> - <title xlink:type="simple" render="italic" xlink:href="">the Value of the Soul</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Value of Time</title> - <title xlink:type="simple" render="italic" xlink:href="">Vanity Fair</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Verily! Verily!</title> - <title xlink:type="simple" render="italic" xlink:href="">the Voice of Conscience</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">29</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Wages of Sin</title> - <title xlink:type="simple" render="italic" xlink:href="">Walking on the Sea</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">A Wasted Life</title> - <title xlink:type="simple" render="italic" xlink:href="">The Way, The Truth, The Life</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Way to Have More</title> - <title xlink:type="simple" render="italic" xlink:href="">The Weeping Christ</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Weeping Mothers of Jerusalem</title> - <title xlink:type="simple" render="italic" xlink:href="">On What Side Are You?</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">29</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">What Shall the Harvest Be</title> - <title xlink:type="simple" render="italic" xlink:href="">Where Are We?</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Where Are We?</title> - <title xlink:type="simple" render="italic" xlink:href="">Where Are We in Society?</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Where Are We In Discipline</title> - <title xlink:type="simple" render="italic" xlink:href="">The Whole Bunch Sin Offering</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">30</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Why Do I Do Right</title> - <title xlink:type="simple" render="italic" xlink:href="">Without Excuse</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Witness of Christ</title> - <title xlink:type="simple" render="italic" xlink:href="">Work</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Work of a Decade</title> - <title xlink:type="simple" render="italic" xlink:href="">Worldliness and Its Remedy</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The World's Christmas</title> - <title xlink:type="simple" render="italic" xlink:href="">The Young Man and His Difficulties</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Young Man and His Success</title> - <title xlink:type="simple" render="italic" xlink:href="">The Youth of Saul</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Sermons, untitled </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">31</container>
+                     <unittitle>Sermons, untitled </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Sermon Notes Subseries</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Account of Francis Baupfield</title> - <title xlink:type="simple" render="italic" xlink:href="">Attraction of the Cross</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Baptism</title> - <title xlink:type="simple" render="italic" xlink:href="">Business</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Calling and Use of Men</title> - <title xlink:type="simple" render="italic" xlink:href="">The Citizenship of Freedom</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Cleansing Blood</title> - <title xlink:type="simple" render="italic" xlink:href="">Deeper Water</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Deity and Supremacy of Christ</title> - <title xlink:type="simple" render="italic" xlink:href="">Driving nails for God</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Easy Yoke and the Light Burden</title> - <title xlink:type="simple" render="italic" xlink:href="">Falling Into God's Hands Unprepared</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Fear of Opportunity</title> - <title xlink:type="simple" render="italic" xlink:href="">The Glory of the Cross</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Golden Calf</title> - <title xlink:type="simple" render="italic" xlink:href="">House Missions</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Hope of the Godless</title> - <title xlink:type="simple" render="italic" xlink:href="">Is Life Worth Living</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Issues of Life</title> - <title xlink:type="simple" render="italic" xlink:href="">Liberty</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Life Insurance</title> - <title xlink:type="simple" render="italic" xlink:href="">Millennium</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Ministerial Relief</title> - <title xlink:type="simple" render="italic" xlink:href="">Our Bethels</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Our High Calling</title> - <title xlink:type="simple" render="italic" xlink:href="">Prayer</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Predestination</title> - <title xlink:type="simple" render="italic" xlink:href="">The Reasonable Hope</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Reign of God</title> - <title xlink:type="simple" render="italic" xlink:href="">The Sin Unto Death</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Sliding from God</title> - <title xlink:type="simple" render="italic" xlink:href="">The Sunrise of Christianity</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">35</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Temporal and the Eternal</title> - <title xlink:type="simple" render="italic" xlink:href="">The Two Mays</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Unattained</title> - <title xlink:type="simple" render="italic" xlink:href="">What Baptists Stand For</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">What is Prayer</title> - <title xlink:type="simple" render="italic" xlink:href="">The World for Christ</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="misc">Miscellaneous Series</unittitle>
+            </did>
+            <c02 level="file">
+               <did>
+                  <container type="box">35</container>
+                  <unittitle>Printed Material,<unitdate calendar="gregorian" era="ce" normal="1881/1914" type="inclusive">1881 - 1914,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">36</container>
+                  <unittitle>Clippings,<unitdate calendar="gregorian" era="ce" normal="1889/1929" type="inclusive">1889 - 1920s,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Legal Papers and Family Photographs</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>General,<unitdate calendar="gregorian" era="ce" normal="1873/1912" type="inclusive">1873 - 1912,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Sherwood, Dr. Adiel, </persname>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Stewart, George L., </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1918/1940" type="inclusive">1918-1940,</unitdate>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::George Way Harley Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/harley/">harley</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the George Way Harley Papers, <date normal="1911/1975" type="normal" era="ce" calendar="gregorian">1911-1975</date>
+            </titleproper>
+            <author>Processed by: Steven L. Hensen; machine-readable finding aid created by: Stephen Douglas Miller</author>
+         </titlestmt>
+         <publicationstmt>
+            <p>
+               <date calendar="gregorian" era="ce"> 1987</date>
+ Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>This finding aid is NCEAD compliant.</p>
+            </note>
+            <note>
+               <p>Aleph Number: <num type="aleph">000759679</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from
+paper by means of scanning and OCR; OCR file edited for typographical errors before encoding.
+<lb/>Date of source: June 26, 1987
+<lb/>Processed by: Steven L. Hensen
+ June 26, 1987; Finding Aid encoded by Stephen Douglas Miller, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.
+<date calendar="gregorian" era="ce">March 28, 1997</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::George Way Harley Papers)//EN" "harley.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date calendar="gregorian" era="ce">June 29, 1998</date>
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the George Way Harley Papers, <date calendar="gregorian" era="ce">1911-1975</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham, North Carolina</publisher>
+         <p> 1987 Duke University. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">George Way Harley papers <unitdate calendar="gregorian" era="ce" normal="1911/1975" type="inclusive">1911-1975</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Harley, George Way, 1894-1966</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>5 Linear Feet</extent>
+            <extent>2,500 Items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+         </repository>
+         <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The copyright interests in the papers of George W. and Winifred J. Harley are reserved to their heirs under the provisions of U.S. copyright law (Title 17, U.S.C.). For further information, see the section on copyright in the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], The Papers of George Way Harley, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The papers of George Way Harley (1894-1966), missionary and physician, and his wife Winifred Jewell Harley were deposited in the Rubenstein Library by Mrs. Winifred J. Harley, 1973-1977; converted to a gift in September 1986.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by: Steven L. Hensen</p>
+            <p>Completed June 26, 1987</p>
+            <p>Encoded by Stephen Douglas Miller</p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp>
+      <bioghist>
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1894, Aug. 8</date>
+               <event>Born, Asheville, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1916</date>
+               <event>A.B., Trinity College, Durham, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1916-1918</date>
+               <event>Teacher, North Carolina high schools</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1923</date>
+               <event>M.D., Yale University</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1923, Aug. 4</date>
+               <event>Married Winifred Frances Jewell</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1924</date>
+               <event>Superintendent, Harrington Hospital, Grenfell Mission, Labrador</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1925</date>
+               <event>Diploma, Tropical Medicine and Hygiene, London School of Tropical Medicine and Hygiene</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1926-1960</date>
+               <event>Founder and superintendent, Ganta Mission, Ganta, Liberia</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1932-1962</date>
+               <event>Research Associate in Anthropology, Peabody Museum, Harvard University</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1938</date>
+               <event>Ph.D., Kennedy School of Missions, Hartford Seminary Foundation</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1945-1946</date>
+               <event>Special consultant to Foreign Economic Administration in Liberia, U.S. Dept. of State</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1957</date>
+               <event>L.H.D., Duke University</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1960, Apr.</date>
+               <event>Retired from Ganta Mission and returned to U.S.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1966, Nov. 7</date>
+               <event>Died, Lancaster, Va.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The papers of George Way Harley span the years 1911 to 1975 though the bulk of them are from 1925 to 1960. The papers relate principally to the life and work of George W. and Winifred J. Harley at the mission they founded and supervised at Ganta, Liberia and include diaries and journals, correspondence, writings and notes, miscellaneous personal and subject files, account books, notebooks, scrapbooks, albums, photographs, printed materials, clippings, diplomas, certificates, memorabilia, and other papers.</p>
+         <p>Shortly after George W. Harley graduated from Trinity College (later Duke University) in 1916, he went to Yale to attend medical school, where he met his future wife, Winifred Frances Jewell. Responding to calls to mission work heard at the First Methodist Church in New Haven, and after receiving his M.D. in 1923, Harley and his wife left the U.S. under the auspices of the Board of Foreign Missions of the Methodist Episcopal Church. After a short time studying in London, they were sent to Ganta, in the Liberian interior, where they established a medical mission and industrial school.</p>
+         <p>During the next 35 years spent at Ganta Mission, Dr. Harley built a medical dispensary, hospital, church, school, several residences and shops, as well as a leper village and two <emph render="doublequote">sick villages.</emph> In addition to his medical work, Dr. Harley was also very involved and interested in the industrial training and teaching of the local Liberian people, as well as local anthropology, art, native medicine, mapping, meteorology, and other scientific interests. On his death in 1966, Liberia declared a national day of mourning and President William V.S. Tubman issued a proclamation praising the long service of Dr. Harley on behalf of Liberia and its people.</p>
+         <p>The correspondence of George W. and Winifred J. Harley forms the largest portion of these papers. Included are many letters to members of their respective families (letters from family members being notably absent) detailing the daily life and struggles of mission work as well as more official correspondence with the Board of Foreign Missions of the Methodist Episcopal Church and scholarly correspondence relating to Dr. Harley's scientific work, particularly his relationship with the Peabody Museum of Harvard University in conducting anthropological field work and collecting botanical and entomological specimens. Also included in the correspondence are letters reflecting in a general way on the impact of World War II in Liberia and the operations of the plantations of the Firestone Rubber Company.</p>
+         <p>The writings found in these papers consist of holograph and typewritten drafts and notes on a variety of subjects. Included are articles of both popular and scholarly interest focusing, not surprisingly, on various aspects of Harley's experience and work at the mission and in Liberia. Of particular note are a copy of Harley's 1938 Ph.D. dissertation, <title xlink:type="simple" render="italic" xlink:href="">Native African Medicine</title> and two drafts of Mrs. Harley's memoirs of her life with George Harley.</p>
+         <p>The Miscellany files in these papers consist of notes, minutes, printed and near-print material, and other papers relating to a particular subject, such as Dr. Harley's participation in the work of the Advisory Council on Health of the Republic of Liberia or his work with the Foreign Economic Administration. Also included are Dr. Harley's notes in his research on trypanosomiasis (<emph render="doublequote">sleeping sickness</emph>), biographical and personal files on Dr. and Mrs. Harley, rainfall statistics, notes on the Mano language, and miscellaneous notes and papers relating to the Liberian timber and mining industries.</p>
+         <p>Rounding out the papers are a series of account books and notebooks, relating primarily to personal and mission finances; clippings and printed matter relating to the Harleys in particular and to Liberia in general; scrapbooks and photo albums, the latter focused principally on the Harley's post-retirement years; and a series of certificates, awards, and diplomas.</p>
+         <p>Correspondents of note include Thomas Smith Donohugh, E. A. Hooton, George Schwab, and William V. S. Tubman.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname>Donohugh, Thomas Smith, b. 1875</persname>
+            </item>
+            <item>
+               <persname>Hooton, Earnest Albert, 1887-1954</persname>
+            </item>
+            <item>
+               <persname>Schwab, George</persname>
+            </item>
+            <item>
+               <persname>Tubman, William V. S., 1895-1971</persname>
+            </item>
+            <item>
+               <corpname>Methodist Episcopal Church.--Board of Foreign Missions</corpname>
+            </item>
+            <item>
+               <corpname>Peabody Museum of American Archaeology and Ethnology</corpname>
+            </item>
+            <item>
+               <corpname>Firestone Rubber Company</corpname>
+            </item>
+            <item>
+               <corpname>United States.--Foreign Economic Administration</corpname>
+            </item>
+            <item>
+               <subject>Mano (African Tribe).</subject>
+            </item>
+            <item>
+               <subject>Tropical medicine</subject>
+            </item>
+            <item>
+               <subject>Missions, Medical</subject>
+            </item>
+            <item>
+               <subject>Art, Liberian</subject>
+            </item>
+            <item>
+               <subject>Missions -- Liberia</subject>
+            </item>
+            <item>
+               <subject>Anthropology -- Liberia</subject>
+            </item>
+            <item>
+               <subject>World War, 1939-1945 -- Liberia</subject>
+            </item>
+            <item>
+               <subject>Medicine -- Practice -- Liberia</subject>
+            </item>
+            <item>
+               <geogname>Liberia -- History 1874-1944</geogname>
+            </item>
+            <item>
+               <geogname>Liberia -- History 1944-1971</geogname>
+            </item>
+            <item>
+               <subject>Medicine, Primitive</subject>
+            </item>
+            <item>
+               <persname>Harley, Winifred Jewell, 1895-</persname>
+            </item>
+            <item>
+               <persname>Harley, George Way, 1894-1966</persname>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle id="diar">Diaries and Journals, 1925-1960</unittitle>
+            </did>
+            <scopecontent>
+               <p>Except for a rather full journal of the <famname>Harleys</famname>'
+early years at the <geogname>Ganta Mission </geogname>
+                  <unitdate calendar="gregorian" era="ce" normal="1925/1927" type="inclusive">(1925-1927),</unitdate>most of the diaries are sporadic with usually brief entries. Some are little more than calendars. Arranged chronologically.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1925/1929" type="inclusive">1925; 1925-1927; 1929</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1931/1939" type="inclusive">1931, 1932, 1939, 1939</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1933/1936" type="inclusive">1933; 1934; 1936</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1944/1960" type="inclusive">1944-45; 1946; 1948; 1953; 1956 and 1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="corr">Correspondence, <unitdate calendar="gregorian" era="ce" normal="1918/1975" type="inclusive">1918-1975</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Letters, postcards telegrams, greeting cards, and mimeographed holiday <emph render="doublequote">newsletters.</emph> Includes many retained copies of letters sent. Correspondence relates to personal, family, and mission business. There is little correspondence for some of the years the Harleeys were on furlough. Arrange chronologically.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1918/1924" type="inclusive">1918-1924</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925 Jan.-July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925 Aug.-Dec.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1926" type="inclusive">1926</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1927" type="inclusive">1927</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1928" type="inclusive">1928</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1930/1931" type="inclusive">1930-1931</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1933" type="inclusive">1933</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1935/1936" type="inclusive">1935-1936</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1937/1939" type="inclusive">1937-1939</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1940/1942" type="inclusive">1940-1942</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1943/1944" type="inclusive">1943-1944</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>1945</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1946/1949" type="inclusive">1946-1949</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1950/1952" type="inclusive">1950-1952</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1953/1956" type="inclusive">1953-1956</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <emph render="doublequote">Letters dictated,</emph>
+                     <unitdate calendar="gregorian" era="ce" normal="1953/1955" type="inclusive">1953 July-1955 May</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1957/1959" type="inclusive">1957-1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1962/1963" type="inclusive">1962-1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1964/1965" type="inclusive">1964-1965</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1967/1975" type="inclusive">1967-1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Undated and fragments</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="writ">Writings and Notes, <unitdate calendar="gregorian" era="ce" normal="1916/1972" type="inclusive">1916-1972</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Includes handwritten and typescript drafts and notes for college papers, scholarly and popular articles, theses and dissertations, memoirs, and speeches. The topics include travel and description, medicine, anthropology, and mission work. Most of the writings are undated, though some were subsequently published. Reprints of some published works are included. Arranged alphabetically by title.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">As I See It Now,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Asheville,</title> [<unitdate calendar="gregorian" era="ce" normal="1916" type="inclusive">1916</unitdate>]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>[Autobiography]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">A Boy With Ten Homes</title> [<unitdate calendar="gregorian" era="ce" normal="1916" type="inclusive">ca. 1916</unitdate>]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Brickyard,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Charles Alfred</title> [<unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">ca. 1932</unitdate>]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Cool Springs,</title> [<unitdate calendar="gregorian" era="ce" normal="1916" type="inclusive">1916</unitdate>]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Doctor Eaton</title> [<unitdate calendar="gregorian" era="ce" normal="1916" type="inclusive">ca. 1916</unitdate>]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Fighting Joe,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1916" type="inclusive">1916</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Ganta Dispensary Patients,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1933" type="inclusive">1933</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Ganta Mission Evangelists,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Ganta Mission Workshops,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">History of Ganta Mission to 1960</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Jack of All Trades,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1958/1959" type="inclusive">1958-1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">A Kid Brother's Luck,</title> [<unitdate calendar="gregorian" era="ce" normal="1916" type="inclusive">ca. 1916</unitdate>]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Kwambli Goes to School,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Liberia; The People and Custom,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>[Mission problems....], <unitdate calendar="gregorian" era="ce" normal="1930" type="inclusive">ca. 1930</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Monrovia to Sanoquell,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Native African Medicine,</title> Ph.D. Thesis, <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>pp. 1-140</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>pp. 141-299</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>pp. 300-419</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">The Northern Messenger,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1940" type="inclusive">1940</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Notes on the Economic Botany of Central Liberia</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Notes on the Poro in Liberia,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1941" type="inclusive">1941</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Occidental Medicine in Prim. Soc.,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">A Person,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1916" type="inclusive">1916</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Personal History,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Powell and Carter,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Razor Society,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Readers' Digest</title> Interview, <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Roads and Trails in Liberia,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Sandy,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Schoolhouse,</title> [<unitdate calendar="gregorian" era="ce" normal="1937" type="inclusive">1937?</unitdate>]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Sixteen Buck Shot,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">ca. 1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Snake Cult of Wanyanwegi</title> (by <persname>Frederick G. Carnochan)</persname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">The Snake Societies,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Some Background Data Concerning Ganta Mission,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>[Speech], <persname>Lincoln University, </persname>
+                     <unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Studies in Remedies Used by the Liberian Native,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Suture Closure Patterns in the Chimpanzee,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Teen-Agers in West Africa with Special Reference to Liberia,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">There Are No Secrets,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">A Third of a Century with George Way Harley in Liberia,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1972" type="inclusive">1972;</unitdate>corrected ms. By <persname>Winifred J. Harley </persname>(working title: <title xlink:type="simple" render="doublequote" xlink:href="">The Winds of God Were Moving Through the Palms)</title>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>corrected ms. (second version)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Thirty-Five Years Looking Back,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Thou Shalt Not,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Treatment of Snakebite,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">The Vital Function of Bile,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1923" type="inclusive">1923</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">West African Religion,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Why Missions in Africa?</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Yellow Sickness,</title>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Reprints</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Untitled writings</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous speaking notes</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous notes</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="misc">Miscellany, <unitdate calendar="gregorian" era="ce" normal="1924/1976" type="inclusive">1924-1976</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Principally subject files of miscellaneous papers relating to various activities or interests of Dr. or Mrs. Harley, including such things as minutes of the <corpname>Advisory Council on Health, </corpname>
+                  <corpname>Republic of Liberia, </corpname>miscellaneous notes on <subject>Liberian timber </subject>and <subject>gold mining, </subject>personal medical records, passports, and memorabilia, diplomas, etc. Arranged alphabetically by folder title.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Advisory Council on Health, R.L., <unitdate calendar="gregorian" era="ce" normal="1958/1961" type="inclusive">1958-1961</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Biographical, <unitdate calendar="gregorian" era="ce" normal="1948/1966" type="inclusive">1948-1966 and undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Diplomas and certificates, <unitdate calendar="gregorian" era="ce" normal="1924/1966" type="inclusive">1924-1966</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Foreign Economic Administration, </subject>
+                     <unitdate calendar="gregorian" era="ce" normal="1945/1946" type="inclusive">1945-1946</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Forestry and botany</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Ganta Mission</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Liberia</corpname>--Public health and sanitation</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Mano Language</subject>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>
+                     <corpname>Methodist Church, </corpname>
+                     <unitdate calendar="gregorian" era="ce" normal="1933/1976" type="inclusive">1933-1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Mines and mineral resources, </subject>
+                     <unitdate calendar="gregorian" era="ce" normal="1943/1945" type="inclusive">1943-1945</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Personal and medical, <unitdate calendar="gregorian" era="ce" normal="1925/1966" type="inclusive">1925-1966</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Rainfall statistics and charts, <geogname>Ganta,</geogname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Liberia, </geogname>
+                     <unitdate calendar="gregorian" era="ce" normal="1927/1960" type="inclusive">1927-1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Saniquellie Hospital, </corpname>
+                     <unitdate calendar="gregorian" era="ce" normal="1947/1950" type="inclusive">1947-1950, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Trypanosomiasis cases, </subject>
+                     <unitdate calendar="gregorian" era="ce" normal="1944/1945" type="inclusive">1944-1945</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Other papers</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Sketch of William Godwin, 1816 </unittitle>
+               </did>
+               <scopecontent>
+                  <p>Pencil sketch of William Godwin, from Accession 2000-0334.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="acco">Account Books and Notebooks, <unitdate calendar="gregorian" era="ce" normal="1924/1974" type="inclusive">1924-1974</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Personal and mission financial accounts of a scattered nature. Volume for <date calendar="gregorian" era="ce">1927-30</date> also contains gardening information and rainfall data, <date calendar="gregorian" era="ce">1927-1932.</date> Included in the notebooks are a medical notebook and some anthropological and mapping field notes. Account books arranged chronologically by first year of volume; notebooks in one folder.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1924/1929" type="inclusive">1924; 1928; 1929</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1927/1930" type="inclusive">1927-1930</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1930/1936" type="inclusive">1930; 1932; 1933; 1936</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1935/1959" type="inclusive">1945-1950; 1935-1952; 1955-1959; 1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1952/1974" type="inclusive">1952-1960; 1965-ca. 1974</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>Notebooks</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="clip">Clippings, 1916-1972</unittitle>
+            </did>
+            <scopecontent>
+               <p>Newspaper and magazine clippings relating to the <famname>Harleys </famname>and their work. Arranged chronologically.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1916/1972" type="inclusive">1916-1972, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1931" type="inclusive">1931</unitdate>(scrapbook)</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="prin">Printed Material</unittitle>
+            </did>
+            <scopecontent>
+               <p>Tear-sheets, pamphlets, articles, printed ephemera, etc. containing writings by, about, or mentioning <persname>G. W. Harley. </persname>Also includes general printed matter relating to <subject>African art, </subject>
+                  <geogname>Liberia, </geogname>and <corpname>Ganta Mission. </corpname>Organized into three broad categories; otherwise unarranged.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>African Art</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <geogname>Liberia </geogname>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>General</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="scra">Scrapbooks and Albums, <unitdate calendar="gregorian" era="ce" normal="1937/1966" type="inclusive">1937-1966</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Scrapbooks of newspaper clippings, memorabilia, printed ephemera, letters, photographs, etc. Includes a scrapbook of sympathy cards, letters, obituaries, and memorial service programs on the death of <persname>G.W. Harley. </persname>Also, some loose photographs.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1937/1947" type="inclusive">1937-1947</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1952/1960" type="inclusive">1952-1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">The Last Ganta Years,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1954/1960" type="inclusive">1954-1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">At Home-Merry Point,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Virginia,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1960/1966" type="inclusive">1960-1966</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">In Memoriam,</title>
+                     <unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Photographs</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="cert">Oversize: Certificates and Diplomas, <unitdate calendar="gregorian" era="ce" normal="1911/1960" type="inclusive">1911-1960</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>
+                  <ref xlink:type="simple" target="cert" xlink:href="">Certificates and Diplomas</ref>, <unitdate calendar="gregorian" era="ce" normal="1911/1960" type="inclusive">1911-1960.</unitdate>
+               </p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container label="Oversize Folder" type="opaperfolder">1</container>
+                  <unittitle>Clippings and memos, <unitdate calendar="gregorian" era="ce" normal="1945/1950" type="inclusive">ca. 1945-1950</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Certificate, <corpname>Order of the Star of Africa, </corpname>
+                     <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Certificate, <corpname>Liberian Humane Order of African Redemption</corpname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Citation, <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Award <persname>(Mrs. Harley), </persname>
+                     <unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Diploma, <corpname>Royal College of Physicians, </corpname>
+                     <unitdate calendar="gregorian" era="ce" normal="1925" type="inclusive">1925</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Diploma, <corpname>Trinity College, </corpname>
+                     <unitdate calendar="gregorian" era="ce" normal="1916" type="inclusive">1916</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Diploma, <corpname>Kennedy Mission School, </corpname>
+                     <unitdate calendar="gregorian" era="ce" normal="1938" type="inclusive">1938</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Diploma, <corpname>Yale University, </corpname>
+                     <unitdate calendar="gregorian" era="ce" normal="1933" type="inclusive">1933</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Diploma, <corpname>Merrimac High School, </corpname>
+                     <unitdate calendar="gregorian" era="ce" normal="1911" type="inclusive">1911</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Diploma, <corpname>Bates College, </corpname>
+                     <unitdate calendar="gregorian" era="ce" normal="1915" type="inclusive">1915</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Diploma, <corpname>Concord Graded Schools, </corpname>
+                     <unitdate calendar="gregorian" era="ce" normal="1912" type="inclusive">1912</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Embalming License, <geogname>Connecticut, </geogname>
+                     <unitdate calendar="gregorian" era="ce" normal="1920" type="inclusive">1920</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

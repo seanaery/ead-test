@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Walter Lee Sutton Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/sutton/">sutton</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Walter Lee Sutton Papers, <date normal="1811/1947" type="inclusive" era="ce" calendar="gregorian">1811-1947</date>
+            </titleproper>
+            <author>Processed by: Janie C. Morris; machine-readable finding aid created by: Stephen Douglas Miller</author>
+         </titlestmt>
+         <publicationstmt>
+            <p>
+               <date era="ce" calendar="gregorian"> 1990</date>
+ Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>This finding aid is NCEAD compliant.</p>
+            </note>
+            <note>
+               <p>Aleph Number: <num type="aleph">000955878</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from Microsoft Word for MS-DOS files.
+<lb/>Processed by: Janie C. Morris May 15, 1990; Finding Aid encoded by Stephen Douglas Miller, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.
+<date calendar="gregorian" era="ce">February 3, 1997</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::The Walter Lee Sutton Papers)//EN" "sutton.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date calendar="gregorian" era="ce">June 29, 1998</date>
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Walter Lee Sutton Papers, <date calendar="gregorian" era="ce">1811-1947</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham, North Carolina</publisher>
+         <p> 1990 Duke University. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">Walter Lee Sutton papers <unitdate calendar="gregorian" era="ce" normal="1811/1947" type="inclusive">1811-1947</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Sutton, Walter Lee, 1863-1947</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>5.8 Linear Feet</extent>
+            <extent>1,409 Items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+         </repository>
+         <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>copyright interests in these papers have not been transferred to Duke University.</p>
+         </userestrict>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The papers of Walter Lee Sutton were given to Duke University Library in 1988 and 1989 by Dr. Charles Danforth Saggus and Mr. Walter L. Currie.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by: Janie C. Morris</p>
+            <p>Completed May 15, 1990</p>
+            <p>Encoded by Stephen Douglas Miller</p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp>
+      <bioghist>
+         <head>Walter Lee Sutton</head>
+         <p>Walter Lee Sutton was born in 1863 in Wilkes County, Georgia. In 1886, he married Harriet (Hattie) Louise Wynn, also from Wilkes County, and they had ten children, two of whom died at an early age.</p>
+         <p>Sutton attended school in Danburg, Ga., and in the early 1880s went to business college in Atlanta. Before he ran his own business he worked in the general merchandising business Sutton and Anderson, which was run by his father and uncle, and delivered the <title xlink:type="simple" render="italic" xlink:href="">
+Atlanta Constitution</title> to families in the area. From about 1888 to 1907, he was a partner with his brother-in-law, Thomas V. Heard, in the general merchandising business, Heard and Sutton, in Danburg. When this firm was dissolved about 1907, Sutton maintained the firm which continued as a general merchandising business under the name W. L. Sutton Company. Sutton was also a planter, cotton merchant, director of the National Banks of Wilkes, and a director of Pope Manufacturing Company of Washington, Ga.</p>
+         <p>In addition, Sutton was a member of the Danburg Baptist Church, where he served on the Board of Deacons and as Superintendent of the Sunday school. He donated land for the consolidated school built in Danburg in the early 1920s, served as a trustee of the school, and chairman of the Board of Education of Wilkes County. He was active in the Democratic Party, member of the Woodmen of the World, and the Wilkes County Farmers Club. Sutton died in 1947.</p>
+         <p>Information relating to the Anderson, Danforth, Sutton, and Wynn families is in an information folder filed at the beginning of the collection.</p>
+      </bioghist>
+      <bioghist>
+         <head>Sutton-Wynn Famlies</head>
+         <p>
+            <emph render="bold">Sutton Family</emph>
+         </p>
+         <p>(Moses Sutton m. Sarah Rhodes) &gt;&gt; John A. Sutton</p>
+         <p>(Edward R. Anderson m. Julia A. McLendon) &gt;&gt; Martha U. Anderson</p>
+         <p>John A. Sutton - m. <date calendar="gregorian" era="ce">1862</date> - Martha U. Anderson &gt;&gt; Walter L. Sutton <date calendar="gregorian" era="ce">
+1863-1947</date>
+         </p>
+         <p>Walter L. Sutton m. Harriet (Hattie) Louise Wynn in 1886. </p>
+         <p/>
+         <p>
+            <emph render="bold">Wynn Family</emph>
+         </p>
+         <p>(John L. Wynn m. Minirea A. Thornton) &gt;&gt; Samuel K. Wynn</p>
+         <p>(Samuel Danforth m. *Harriet Brown) &gt;&gt; Emma Almira Danforth</p>
+         <p>Samuel K. Wynn - m. <date calendar="gregorian" era="ce">1864</date> - Emma Almira Danforth &gt;&gt; Harriet Louise Wynn, <date calendar="gregorian" era="ce">
+1867-1923</date>
+         </p>
+         <p>(*Harriet Brown had a sister Almira Brown Reab.) </p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The Walter Lee Sutton Papers span the period 1811 to 1947 with the bulk dating from 1883 to 1939. Three generations of the interrelated Anderson, Danforth, Sutton, and Wynn families are represented in the collection. While the collection primarily focuses on Sutton, many of the earlier papers relate to his wife's family, the Wynns and Danforths, her paternal and maternal relatives respectively.</p>
+         <p>The majority of the collection consists of courtship letters between Walter Sutton and Harriet (Hattie) L. Wynn (1883-1886), and ledgers and daybooks of the general merchandising businesses Heard and Sutton and W. L. Sutton. Therefore, the major strengths of the collection include its delineation of courtship customs in the 1880s and its depiction over a thirty-five period of a small general merchandising firm. While the correspondence spans the period 1811 to 1936, there are very few letters that date between 1814 and 1830, thereby leaving several years virtually uncovered in the collection.</p>
+         <p>The general merchandising businesses of Heard and Sutton and W. L. Sutton sold a variety of items including farm implements, wagons, buggies, hardware, groceries, dynamite, oil, gas, clothing, and dry goods. Because of the time period covered by these accounting records, one can readily see the transition from “horse and buggy days” to the increasing influence of the automobile. Besides business records, the account books also contain a few domestic accounting records for the Sutton family. Regular customers include members of the Anderson, Sutton, and Heard families. In some there are details about employees, including the number of days they have worked or days missed. Other volumes include an estimate of the amount of lumber sold, the amount of hay cut, or which fields were used for cotton picking.</p>
+         <p>Sutton's cashbook, 1907-1909, not only delineates the cash received and paid out, but also identifies several products Sutton sold. Some of these entries also include names of companies or persons from whom he received products. While there are separate account books for ice (1909 June-1910 Oct.) and cotton ginning (1908 Oct.-Feb. 1912), ice and cotton ginning accounts are also included in some of the other W. L. Sutton Company ledger and daybooks for other years.</p>
+         <p>The daybooks commonly itemize lists of goods received. Volume 17 includes a list of bank deposits for the years 1922 to 1927, while in later years 1932 to 1939, bank deposits are typically recorded in the daybooks for the period covered by the daybooks. Also in volume 17, for the years 1923 and 1924, deposits are listed for merchandisers' accounts.</p>
+         <p>In one instance, the ledger for the W. L. Sutton Company had been used earlier for another purpose. Volume 34 contains a list of debts and credits for merchandisers' accounts for the period January 1, 1936 to March 31, 1937, while at the front of the volume there are records for the Danburg Baptist Church Women's Missionary Society, 1910 to 1921.</p>
+         <p>Volume 37, “Cotton Accounting Book” <date calendar="gregorian" era="ce">(1920-1927)</date> includes Sutton's accounting records for his work as a cotton merchant. The accounting records indicate that Sutton shipped cotton to various companies including: Barnett and Company, Athens, Ga.; Georgia Cotton Growers Co-op Association; Rowland Company, Athens, Ga.; Washington Warehouse Company, Washington, Ga.; and George W. Wright, Augusta, Ga.</p>
+         <p>Loose materials, chiefly business receipts, were laid into several accounting books. Included are receipts from merchandisers who provided goods to the W. L. Sutton Company and from various warehouses and companies where cotton was shipped. There is also a contract for ice between W. L. Sutton and Pope Manufacturing Company indicating that Pope will sell ice to the W. L. Sutton Company.</p>
+         <p>Other Sutton accounting records indicate that he sold lumber, kept accounts for the Dansburg School District Board of Education, maintained records for the buying and use of livestock, and kept a record of personal expenses.</p>
+         <p>Additional financial records include a blacksmith account book kept by Samuel Danforth (1836-1838) and one for a boarding house in Washington, Ga. maintained by Harriet Brown Danforth (1857-1860). Promissory notes and a statement of receipts and disbursements for the estates of Samuel K. Wynn (Hattie's father) and Walter L. Sutton are among the other financial papers.</p>
+         <p>Among the earliest letters is a series that begins during the War of 1812 and continues to 1814 between George Reab in New York and others concerning his military service. (Reab married Almira S. Brown in 1816 and is a great aunt of Hattie Wynn.) Letters concern whether Reab could be asked to bear arms against the British again since he had been held as a prisoner of war by them and had later been released on parole. Reab stated that he should not be asked to bear arms, invoking the French parole d'honneur as the reason, which is a pledge or oath under which a prisoner of war is released with the understanding that he will not again bear arms until exchanged. It is unclear from the correspondence whether Reab was successful. By April 1813 he had been appointed 3rd lieutenant in the United States 13th Infantry Regiment and by 1816 he had retired from military service. The collection contains a list of officers, including George Reab, Jr. in the 13th Infantry Regiment of the United States Army, which is dated July 31, 1812. </p>
+         <p>Correspondence from Almira B. Reab during the 1840s to family and friends in New York and Vermont describe how she adjusted to life in the south. Originally from New York, she lived with her sister Harriet B. Danforth and her family in Danburg, Ga. at the time these letters were written.</p>
+         <p>The collection contains three diaries, one kept by Harriet Brown Danforth and her daughter Emma. Harriet's entries (1858, Jan. 3-1859, Nov. 30) primarily denote when she attended church and in some instances the Biblical scriptures which were read, while Emma's entries (1860? Aug. 26-Dec. 13) concern teaching school. The other two diaries were kept by Walter (1885, Aug. 15-Dec. 23). Several entries relate to Hattie Sutton, while others concern the “liquor issue.” Miscellaneous financial information is found in them as well.</p>
+         <p>Other items in the collection include minutes and bylaws of debating societies, 1853-1855, including the Pine Grove Polemic Society, Philomathian Society, and the Sandtown (Sandtown was formerly known as Hyde) Polemic Society; an undated handwritten arithmetic book; miscellaneous poetry (1816, 1846 and undated); school notes; minutes of the Willis A. Sutton P.T.A. in Danburg, Ga.; Walter Sutton's Sunday School superintendent record book for 1891; obituaries for various Sutton and Wynn family members; several printed graduation exercise programs from Danburg High School; other miscellaneous writings; and a few photographs.</p>
+         <p>Papers in the collection indicate that Walter Sutton was having financial difficulties in the late 1890s and early 1900s. In 1897 and later in the 1920s, he was reminded by his creditors that he had outstanding debts. Legal papers from the 1930s also indicate he was suffering from monetary adversities. A petition filed by the American Agricultural Chemical Society for non-payment of debts (1934, Jan. 12) was apparently paid off later that year by selling some of Sutton's land. The agricultural depression during this period was probably a factor in his economic downturn.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <subject>Courtship -- Georgia -- Danburg</subject>
+            </item>
+            <item>
+               <subject>Mercantile business -- Georgia -- Danburg</subject>
+            </item>
+            <item>
+               <corpname>W. L. Sutton Company</corpname>
+            </item>
+            <item>
+               <corpname>Heard and Sutton Company</corpname>
+            </item>
+            <item>
+               <geogname>Georgia -- Danburg -- Social life and customs</geogname>
+            </item>
+            <item>
+               <subject>Agricultural accounts -- Georgia -- Danburg</subject>
+            </item>
+            <item>
+               <subject>Cotton trade -- Georgia</subject>
+            </item>
+            <item>
+               <subject>Cotton -- Prices -- Georgia</subject>
+            </item>
+            <item>
+               <subject>Agricultural implements</subject>
+            </item>
+            <item>
+               <subject>War of 1812 -- Muster rolls</subject>
+            </item>
+            <item>
+               <subject>Lodging houses -- Georgia</subject>
+            </item>
+            <item>
+               <subject>Blacksmiths and blacksmithing -- Georgia</subject>
+            </item>
+            <item>
+               <subject>Agricultural labor -- Georgia -- Danburg</subject>
+            </item>
+            <item>
+               <subject>Cotton gins and ginning -- Georgia -- Danburg</subject>
+            </item>
+            <item>
+               <subject>Ice trade -- Georgia -- Danburg</subject>
+            </item>
+            <item>
+               <subject>Lumber trade</subject>
+            </item>
+            <item>
+               <corpname>Danburg High School (Danburg, Ga.)</corpname>
+            </item>
+            <item>
+               <subject>Debating societies</subject>
+            </item>
+            <item>
+               <genreform>Diaries</genreform>
+            </item>
+            <item>
+               <famname>Danforth family</famname>
+            </item>
+            <item>
+               <famname>Wynn family</famname>
+            </item>
+            <item>
+               <famname>Sutton family</famname>
+            </item>
+            <item>
+               <famname>Anderson family</famname>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle id="diar">Diaries</unittitle>
+            </did>
+            <scopecontent>
+               <p>Includes one diary maintained by <persname>Harriet T. Danforth </persname>
+                  <date calendar="gregorian" era="ce">(1858 Jan.3-1859 Nov. 30?)</date> and her daughter <persname>Emma Danforth Wynn </persname>
+                  <date calendar="gregorian" era="ce">(1860? Aug. 26-Dec. 13),</date> and two of <persname>Walter Sutton</persname>'s. <persname>
+Sutton</persname>'s notations include financial information. </p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>
+                     <persname>Harriet B. Danforth </persname>and <persname>Emma Danforth, </persname>
+                     <unitdate calendar="gregorian" era="ce" normal="1858/1861" type="inclusive">1858-1861?</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>W. L. Sutton,</persname>
+                     <unitdate calendar="gregorian" era="ce" normal="1885" type="inclusive">1885</unitdate>(2 volumes)</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="corr">Correspondence Series</unittitle>
+            </did>
+            <scopecontent>
+               <p>Chiefly personal letters from members of the <famname>Danforth, </famname>
+                  <famname>
+Wynn, </famname>and <famname>Sutton </famname>families, primarily containing news about family members, friends, and social activities. A series of letters from<date calendar="gregorian" era="ce">
+ 1812</date> to<date calendar="gregorian" era="ce"> 1814</date> concern <persname>George Reab, Jr. </persname>The bulk of the correspondence <date calendar="gregorian" era="ce">(1883-1886)</date> is courtship letters between <persname>Walter L. Sutton </persname>and <persname>
+Hattie L. Wynn </persname>before their marriage in<date calendar="gregorian" era="ce"> 1886.</date>
+               </p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1811/1858" type="inclusive">1811-1858</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1861/1885" type="inclusive">1861-1885, Mar.</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1885" type="inclusive">1885, April-Dec.</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1885/1886" type="inclusive">ca. 1885-1886, June</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1886/1948" type="inclusive">1886, July-1948 and</unitdate>
+                     <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="lega">Legal papers</unittitle>
+            </did>
+            <scopecontent>
+               <p>Contracts, bonds, indentures, and deeds primarily relating to members of the <famname>
+Wynn </famname>and <famname>Danforth </famname>families. Papers dating about<date calendar="gregorian" era="ce">
+ 1926</date> to<date calendar="gregorian" era="ce"> 1936</date> pertain chiefly to to <persname>Walter L. Sutton.</persname>
+               </p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1856/1936" type="inclusive">1856-1936</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="fina">Financial Papers</unittitle>
+            </did>
+            <scopecontent>
+               <p>Account books, including ledgers, daybooks, and a cashbook; personal and business receipts; and promissory notes. The <corpname>
+W. L. Sutton Company </corpname>ledgers and daybooks spanning the years<date calendar="gregorian" era="ce"> 1907</date> to<date calendar="gregorian" era="ce">
+ 1939</date> comprise the bulk of the financial papers (40 volumes). There are also three volumes containing records for the <corpname>
+Heard and Sutton Company </corpname>in which <persname>Sutton </persname>was a partner with his brother-in-law <persname>
+Thomas V. Heard. </persname> Each of the 43 <corpname>Heard and Sutton </corpname>and <corpname>
+W. L. Sutton Company </corpname>account books has been arbitrarily numbered. Therefore volume numbers given below refer to those numbers. Loose materials laid into these volumes have been removed and placed in folders.</p>
+               <p>
+There are four miscellaneous account books, <date calendar="gregorian" era="ce">1884-1919,</date> in which <persname>
+Sutton </persname>maintained a variety of financial data for different products. For example, one of these which reads “Lumber Book,<date calendar="gregorian" era="ce">
+ 1915</date>” on the outside also contains accounting records for other products. Some of these account books include information pertaining to both business and personal expenses.</p>
+               <p>
+The series includes <persname>Samuel Danforth</persname>'s ledger <date calendar="gregorian" era="ce">(1836-1838),</date> one maintained by <persname>
+Harriet Brown Danforth </persname>
+                  <date calendar="gregorian" era="ce">(1857-1860),</date> and one pertaining to the estate of <persname>
+Samuel K. Wynn </persname>(1907)</p>
+               <p>
+The unbound financial papers, with the exception of the laid in materials from the <corpname>
+W. L. Sutton Company </corpname>account books, have been placed in chronological order at the beginning of the Financial Papers series. The account books that do not relate to <corpname>
+Heard and Sutton </corpname>and the <corpname>W. L. Sutton Company </corpname>are filed next. The <corpname>
+Heard and Sutton </corpname>and <corpname>W. L. Sutton Company </corpname>account books that will fit into boxes have been arranged primarily in chronological order. Loose papers from several of these volumes have been placed in folders next to the boxed account books. The volumes which would not fit into boxes are located at the end of the boxed papers.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1883/1947" type="inclusive">1883-1947</unitdate>and <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous, <unitdate calendar="gregorian" era="ce" normal="1885/1919" type="inclusive">1885-1919</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Account Books:</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Samuel Danforth, </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1836/1838" type="inclusive">1836-1838</unitdate>(later maintained as a scrapbook)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Harriet Brown Danforth, </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1857/1860" type="inclusive">1857-1860</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Samuel K. Wynn </persname>Estate,<unitdate calendar="gregorian" era="ce" normal="1907" type="inclusive">1907</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Account Books: <persname>W. L. Sutton: </persname>Miscellaneous</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1884/1885" type="inclusive">1884-1885</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1885/1907" type="inclusive">1885-1907</unitdate>[cover reads “<persname>
+W. L. Sutton </persname>
+                        <date calendar="gregorian" era="ce">1885-1886</date>”]</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1901/1906" type="inclusive">1901-1906</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1915/1919" type="inclusive">1915-1919</unitdate>[cover reads “Lumber Book,<date calendar="gregorian" era="ce">
+ 1915</date>”]</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Account Books: <corpname>W. L. Sutton Company</corpname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Cashbook, <unitdate calendar="gregorian" era="ce" normal="1907/1909" type="inclusive">1907-1909</unitdate>[vol. 4a]</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>
+                     <subject>Cotton Ginning </subject>Ledger, <unitdate calendar="gregorian" era="ce" normal="1908/2500" type="inclusive">1908 Sept. 25-1909 May 8</unitdate>[vol. 4b]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cotton Ginning Ledger and Daybook, <unitdate calendar="gregorian" era="ce" normal="1909/1910" type="inclusive">1909 Oct. 2-1910 Nov. 10</unitdate>[vol. 4c]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cotton Ginning Daybook, <unitdate calendar="gregorian" era="ce" normal="1100/1911" type="inclusive">1911 Sept. 11-1912, Feb. 3</unitdate>[vol. 4d]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <subject>Ice </subject>Daybook and Ledger,<unitdate calendar="gregorian" era="ce" normal="1909" type="inclusive">1909-June-Sept. [vol. 4e]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Inventory List, <unitdate calendar="gregorian" era="ce" normal="1919/1920" type="inclusive">1919-1920</unitdate>[cover reads “<date calendar="gregorian" era="ce">
+1919 and 1920</date> Invoice Book<date calendar="gregorian" era="ce"> 1919 and 1920</date>” [vol. 8]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1000/1920" type="inclusive">1920, Feb. 10-May 2</unitdate>[vol. 9]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1000/1920" type="inclusive">1920, June 10-July 15</unitdate>[vol. 10]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1600/1920" type="inclusive">1920, July 16-Aug. 21</unitdate>[vol. 11]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1920/2300" type="inclusive">1920, Aug. 23-Nov. 13</unitdate>[vol. 12]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Inventory List, <unitdate calendar="gregorian" era="ce" normal="1920" type="inclusive">1920, Sept.</unitdate>[vol. 13]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1500/1920" type="inclusive">1920, Nov. 15-1921, May 9</unitdate>[vol. 15]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1000/1921" type="inclusive">1921, May 10-1923, June 1</unitdate>[vol. 16]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bank Deposits, <unitdate calendar="gregorian" era="ce" normal="1922/1927" type="inclusive">1922-1927</unitdate>and Merchandise Accounts, <unitdate calendar="gregorian" era="ce" normal="1922/1923" type="inclusive">1922-1923</unitdate>[vol. 17]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1923/1924" type="inclusive">1923, Nov. 7-1924, June 30</unitdate>[vol. 18]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1924/1925" type="inclusive">1924, July 1-1925, Mar. 21</unitdate>[vol. 19]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1930/2600" type="inclusive">1930, Sept. 26-Dec. 22 [vol. 20]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1930/2300" type="inclusive">1930, Dec. 23-1931, Mar. 26</unitdate>[vol. 21]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1931/2700" type="inclusive">1931, Mar. 27-June 9 [vol. 22]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1000/1931" type="inclusive">1931, June 10-Aug. 27 [vol. 23]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1932/2800" type="inclusive">1932, Jan. 28-April 12 [vol. 24]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1300/1932" type="inclusive">1932, April 13-June 14 [vol. 25]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1400/1932" type="inclusive">1932, June 14-Oct. 15</unitdate>and Bank Deposits, <unitdate calendar="gregorian" era="ce" normal="1932" type="inclusive">1932, July 1-Oct. 27 [vol. 26]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1700/1932" type="inclusive">1932, Oct. 17-1933, June 20</unitdate>and Bank Deposits, <unitdate calendar="gregorian" era="ce" normal="1932/2900" type="inclusive">1932, Oct. 29-1933, June 30</unitdate>[vol. 27]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1933/2000" type="inclusive">1933, June 20-1934, Mar. 31</unitdate>and Bank Deposits, <unitdate calendar="gregorian" era="ce" normal="1933/1934" type="inclusive">1933, Aug. 31-1934, Mar. 31</unitdate>[vol. 28]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934, April 2-Oct.5</unitdate>and Bank Deposits, <unitdate calendar="gregorian" era="ce" normal="1934" type="inclusive">1934, April 2-Oct. 13 [vol. 29]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1934/1935" type="inclusive">1934, Oct. 6-1935, Mar. 24</unitdate>and Bank Deposits, <unitdate calendar="gregorian" era="ce" normal="1500/1934" type="inclusive">1934, Oct. 15-1935, May 31</unitdate>[vol. 30]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1935/2500" type="inclusive">1935, May 25-Dec. 21</unitdate>and Bank Deposits, <unitdate calendar="gregorian" era="ce" normal="1935" type="inclusive">1935, June 3-Dec. 24 [vol. 31]</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1935/2300" type="inclusive">1935, Dec. 23-1936, Aug. 15</unitdate>and Bank Deposits, <unitdate calendar="gregorian" era="ce" normal="1935/2700" type="inclusive">1935, Dec. 27-1936, Aug. 31</unitdate>[vol. 32]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1700/1936" type="inclusive">1936, Aug. 17-1937, April 30</unitdate>and Bank Deposits, <unitdate calendar="gregorian" era="ce" normal="1936/1937" type="inclusive">1936, Sept. 1-1937, April 30</unitdate>[vol. 33]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Merchandisers' Accounts, <unitdate calendar="gregorian" era="ce" normal="1936/1937" type="inclusive">1936, Jan. 1-1937, Mar. 31</unitdate>[vol. 34] (The first part of this volume contains the financial records of the <corpname>
+Danburg Baptist Church Women's Missionary Society.)</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1937/1938" type="inclusive">1937, May 1-1938, Mar. 31</unitdate>and Bank Deposits, <unitdate calendar="gregorian" era="ce" normal="1937/1938" type="inclusive">1937, May 1-1938, April 30</unitdate>[vol. 35]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Daybook, <unitdate calendar="gregorian" era="ce" normal="1938/1939" type="inclusive">1938, April 1-1939, June 6</unitdate>and Bank Deposits, <unitdate calendar="gregorian" era="ce" normal="1938/1939" type="inclusive">1938, April 30-1939, July 12</unitdate>[vol. 36]</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Loose papers from the <corpname>W. L. Sutton Company </corpname>account books</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Vol. 5, <unitdate calendar="gregorian" era="ce" normal="1913/1920" type="inclusive">1913-1920</unitdate>and <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Vol. 13,<unitdate calendar="gregorian" era="ce" normal="1920" type="inclusive">1920</unitdate>and <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Vol. 14, <unitdate calendar="gregorian" era="ce" normal="1920/1921" type="inclusive">1920-1921</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Vols. 28-30, <unitdate calendar="gregorian" era="ce" normal="1916/1933" type="inclusive">1916-1933</unitdate>and <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="misc">Miscellaneous</unittitle>
+            </did>
+            <scopecontent>
+               <p>A handwritten arithmetic book, debating society minutes and bylaws, poetry, school notes, minutes of the <corpname>
+Willis A. Sutton P.T.A. </corpname>in <geogname>Danburg, Ga. </geogname>(part of this volume also contains the receipts and disbursements to the <persname>
+W. L. Sutton </persname>estate), <persname>W. L. Sutton</persname>'s Sunday school superintendent record book, and a few obituaries of <famname>
+Sutton </famname>family members. </p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Arithmetic Book, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Debating Societies, <unitdate calendar="gregorian" era="ce" normal="1853/1855" type="inclusive">1853-1855</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Poetry,<unitdate calendar="gregorian" era="ce" normal="1816" type="inclusive">1816,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1846" type="inclusive">1846,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1885" type="inclusive">1885</unitdate>and <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>School Notes, <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Volume: Minutes <corpname>Willis A. Sutton P.T.A., </corpname>
+                     <geogname>
+Danburg, Ga., </geogname>
+                     <unitdate calendar="gregorian" era="ce" normal="1926/1927" type="inclusive">1926-1927</unitdate>and Walter L. Sutton Estate,<unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>W. L. Sutton</persname>'s Memoranda Book, <unitdate calendar="gregorian" era="ce" normal="1878" type="inclusive">1878?</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>W. L. Sutton</persname>'s Sunday School superintendent record book,<unitdate calendar="gregorian" era="ce" normal="1891" type="inclusive">1891</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1826/1925" type="inclusive">1826-1925,</unitdate>
+                     <unitdate calendar="gregorian" era="ce" normal="1920/1929" type="inclusive">1920s,</unitdate>and <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="prin">Printed Material</unittitle>
+            </did>
+            <scopecontent>
+               <p>Chiefly closing exercise programs for <corpname>Danburg High School. </corpname> Includes information relating to events at <corpname>
+Shorter College, </corpname>
+                  <geogname>Rome, Ga., </geogname>and a pocket size almanac. </p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1883/1930" type="inclusive">1883-1930</unitdate>and <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="over">Oversize Materials and Ledgers</unittitle>
+            </did>
+            <arrangement>
+               <p>Oversize <corpname>Heard and Sutton </corpname>and <corpname>
+W. L. Sutton Company </corpname>account books have been placed on the shelf at the end of the boxed portion of the collection. Each is described below.</p>
+            </arrangement>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Heard and Sutton Company:</corpname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="volume">1</container>
+                     <unittitle>Ledger,<unitdate calendar="gregorian" era="ce" normal="1904" type="inclusive">1904</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="volume">2</container>
+                     <unittitle>Ledger,<unitdate calendar="gregorian" era="ce" normal="1905" type="inclusive">1905</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="volume">3</container>
+                     <unittitle>Ledger,<unitdate calendar="gregorian" era="ce" normal="1906" type="inclusive">1906</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>W. L. Sutton Company:</corpname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="volume">4</container>
+                     <unittitle>Ledger, <unitdate calendar="gregorian" era="ce" normal="1907/1909" type="inclusive">1907-1909</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="volume">5</container>
+                     <unittitle>Ledger,<unitdate calendar="gregorian" era="ce" normal="1918" type="inclusive">1918</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="volume">6</container>
+                     <unittitle>Ledger,<unitdate calendar="gregorian" era="ce" normal="1919" type="inclusive">1919</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="volume">14</container>
+                     <unittitle>Ledger,<unitdate calendar="gregorian" era="ce" normal="1920" type="inclusive">1920</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="volume">37</container>
+                     <unittitle>Cotton Accounting Book, <unitdate calendar="gregorian" era="ce" normal="1920/1927" type="inclusive">1920-1927</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="Oversize-Box" label="Oversize Box">38</container>
+                  <unittitle>Contains legal and financial papers, printed material, and miscellaneous items.</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

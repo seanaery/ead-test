@@ -1,0 +1,4675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Arlin Turner Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/turnerarlin/">turnerarlin</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Arlin Turner Papers,
+			 <date normal="1927/1980" type="inclusive" era="ce" calendar="gregorian">1927-1980</date>
+            </titleproper>
+            <author>Processed by: Cat Saleeby; machine-readable
+			 finding aid created by: Cat Saleeby</author>
+         </titlestmt>
+         <publicationstmt>
+            <p>
+               <date era="ce" calendar="gregorian"> 2002</date> Duke University. All Rights
+			 Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>This finding aid is NCEAD compliant.</p>
+            </note>
+            <note>
+               <p>Aleph Number: <num type="aleph">001996469</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from
+		  automated markup system. <lb/>Date of source: August 2002
+		  <lb/>Processed by Cat Saleeby August 2002; Finding Aid
+		  encoded by Cat Saleeby, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University,
+		  <date calendar="gregorian" era="ce">August 2002</date>
+         </creation>
+         <langusage>Description is in
+		  <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+            <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Arlin Turner Papers)//EN" "turnerarlin.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Arlin Turner Papers,
+			 1927-1980</titleproper>
+         <publisher>
+            <lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke
+		  University <lb/> Durham, North Carolina 27708-0185 USA
+		  </publisher>
+         <p>
+            <date era="ce" calendar="gregorian">(C) 2002</date> Duke University. All Rights
+		  Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">Arlin Turner papers 		  <unitdate calendar="gregorian" era="ce" normal="1927/1980" type="inclusive">1927-1980</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Turner, Arlin</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>15.6 Linear	Feet</extent>
+            <extent>circa 9750 Items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <physloc label="Location">For current information on
+		  the location of these materials, please consult the
+		  Library's online catalog. </physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>However, collection contains sensitive
+			 information. Patrons must sign a waiver concerning privacy
+			 rights.</p>
+            <p>In addition, all or portions of this collection
+			 may be housed off-site in Duke University's Library Service
+			 Center. There may be a 48-hour delay in
+			 obtaining these materials. </p>
+            <p> Please contact Research Services staff before
+			 visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The copyright interests in this collection have
+			 not been transferred to Duke University. For more
+			 information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Arlin Turner Papers,
+			 David M. Rubenstein Rare Book &amp; Manuscript Library,
+			 Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The Arlin Turner Papers were received by the
+			 David M. Rubenstein Rare Book &amp; Manuscript Library as
+			 gifts in 1980, 1986, 1987, and 1996. Portions of this
+			 collection were transferred from Duke University Archives
+			 in 2002.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Cat Saleeby</p>
+            <p>Finding aid edited by Ruth E. Bryan</p>
+            <p>Completed August 2002</p>
+            <p>Encoded by Cat Saleeby</p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp><!-- End of finding aid header -->
+      <bioghist>
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1909</date>
+               <event>Born November 25 in Abilene, Tex.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1927</date>
+               <event>Received B.A. from West Texas State
+				University</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1930</date>
+               <event>Received M.A. from the University of
+				Texas</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1934</date>
+               <event>Received Ph.D. from the University of
+				Texas</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1934-1936</date>
+               <event>Instructor at the University of
+				Texas</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1936-1953</date>
+               <event>Professor of English at Louisiana State
+				University</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1941</date>
+               <event>Published
+				<title xlink:type="simple" render="italic" xlink:href="">Hawthorne as
+				  Editor</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1942-1946</date>
+               <event>Served in U.S. Naval Reserve</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1947-1948</date>
+               <event>Awarded Guggenheim Fellowship</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1951</date>
+               <event>Visiting Professor, University of
+				Montreal. Visiting Professor, University of
+				Colorado</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1952</date>
+               <event>Awarded Fulbright appointment to
+				University of Western Australia</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1953-1979</date>
+               <event>Professor of English, Duke
+				University</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1956</date>
+               <event>Published
+				<title xlink:type="simple" render="italic" xlink:href="">George W. Cable: A
+				  Biography</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1957</date>
+               <event>Visiting Professor, University of
+				Texas</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1958</date>
+               <event>Visiting Professor, University of
+				Virginia</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1958-1964</date>
+               <event>Chairman, Duke University Department of
+				English</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1959-1960</date>
+               <event>Awarded Guggenheim Fellowship</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1960</date>
+               <event>Published
+				<title xlink:type="simple" render="italic" xlink:href="">Mark Twain and George W.
+				  Cable: The Record of a Literary Friendship</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1961</date>
+               <event>Visiting Professor, University of
+				Illinois</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1961</date>
+               <event>Published
+				<title xlink:type="simple" render="italic" xlink:href="">Nathaniel Hawthorne: An
+				  Introduction and Interpretation</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1962</date>
+               <event>Visiting Professor, University of
+				Iowa</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1963</date>
+               <event>Visiting Professor, New York
+				University</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1964</date>
+               <event>Visiting Professor, University of
+				Bombay</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1966-1967</date>
+               <event>Awarded Fulbright appointment to
+				University of Hull, Hull, England</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1968</date>
+               <event>Visiting Professor, University of
+				Pennsylvania</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1969</date>
+               <event>Huntington Library Research Award</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1973-1974</date>
+               <event>Awarded Senior Fellowship, National
+				Endowment for the Humanities</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1974</date>
+               <event>Awarded James B. Duke
+				Professorship</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1976</date>
+               <event>Received Doctor of Humane Letters from
+				Berea College, Ky.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1978</date>
+               <event>Visiting Professor, State University of
+				New York</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1979</date>
+               <event>Appointed Therese Kayser Lindsey Professor
+				of Literature, Southwest Texas State University</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1980</date>
+               <event>Published
+				<title xlink:type="simple" render="italic" xlink:href="">Nathaniel Hawthorne, a
+				  biography.</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1980</date>
+               <event>Died, April 24 in Austin, Tex. </event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <bioghist>
+         <p> Organizational Service Biography</p>
+         <p>The following lists selected offices and
+		  leadership roles held by Turner in professional
+		  organizations as documented in this collection. Turner was
+		  active in other professional groups that are not
+		  represented in his papers. The dates reflect the years of
+		  the highest positions he held and do not represent the
+		  total period of his membership or leadership. The
+		  organizations are listed alphabetically.</p>
+         <chronlist>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1956-1967</date>
+               <eventgrp>
+                  <event>
+                     <corpname>American Council of Learned
+					 Societies</corpname> (ACLS)</event>
+                  <event>Regional Associate,
+				  <date calendar="gregorian" era="ce">1956-1967</date>
+                  </event>
+                  <event>Fellowship Selection Committee,
+				  <date calendar="gregorian" era="ce">1961-1963, 1965-1966</date>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1954-1979</date>
+               <eventgrp>
+                  <event>
+                     <title xlink:type="simple" render="italic" xlink:href="">American
+					 Literature</title>
+                  </event>
+                  <event>Managing Editor,
+				  <date calendar="gregorian" era="ce">1954-1963</date>
+                  </event>
+                  <event>Editor,
+				  <date calendar="gregorian" era="ce">1969-1979</date>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1955-1972</date>
+               <eventgrp>
+                  <event>
+                     <corpname>American Studies
+					 Association</corpname> (ASA)</event>
+                  <event>Advisory Council,
+				  <date calendar="gregorian" era="ce">1955-1957, 1967-1972</date>
+                  </event>
+                  <event>Executive Committee,
+				  <date calendar="gregorian" era="ce">1958-1959 </date>
+                  </event>
+                  <event>Vice President,
+				  <date calendar="gregorian" era="ce">1969-1970</date>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1956-1968</date>
+               <eventgrp>
+                  <event>
+                     <corpname>Committee for International
+					 Exchange of Persons,</corpname> (CIEP),
+				  <corpname>Conference Board of Associated
+					 Research Councils</corpname> (CBC) </event>
+                  <event>Member, Committee for American Studies
+				  <date calendar="gregorian" era="ce">1956-1960, 1962-1963,
+					 1967-1968</date>
+                  </event>
+                  <event>Chairman, Committee for American
+				  Studies,
+				  <date calendar="gregorian" era="ce">1957-1960</date>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1949-1967</date>
+               <eventgrp>
+                  <event>
+                     <corpname>Modern Language
+					 Association</corpname> (MLA)</event>
+                  <event>Secretary, American Literature Section,
+				  <date calendar="gregorian" era="ce">1949-1967</date>
+                  </event>
+                  <event>Chairman, American Literature Section,
+				  <date calendar="gregorian" era="ce">1966-1967</date>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1961-1966</date>
+               <eventgrp>
+                  <event>
+                     <corpname>National Council of Teachers of
+					 English</corpname> (NCTE)</event>
+                  <event>Director,
+				  <date calendar="gregorian" era="ce">1961-1964</date>
+                  </event>
+                  <event>Director, Commission on Literature,
+				  <date calendar="gregorian" era="ce"> 1964-1966</date>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1968-1976</date>
+               <eventgrp>
+                  <event>
+                     <corpname>National Endowment for the
+					 Humanities</corpname> (NEH)</event>
+                  <event>Chairman, Fellowship Selection
+				  Committee,
+				  <date calendar="gregorian" era="ce">1968-1972</date>
+                  </event>
+                  <event>Member, Advisory Panel on Media
+				  Programs, 1976</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1956-1957</date>
+               <eventgrp>
+                  <event>
+                     <corpname>South Atlantic Modern Language
+					 Association </corpname> (SAMLA)</event>
+                  <event>Chairman, American Literature Section,
+				  <date calendar="gregorian" era="ce">1956-1957</date>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1956-1979</date>
+               <eventgrp>
+                  <event>
+                     <title xlink:type="simple" render="italic" xlink:href="">South Atlantic
+					 Quarterly</title>
+                  </event>
+                  <event>Member, Editorial Board
+				  <date calendar="gregorian" era="ce">1956-1979</date>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1955-1972</date>
+               <eventgrp>
+                  <event>
+                     <corpname>Southeastern American Studies
+					 Association</corpname> (SEASA)</event>
+                  <event>Vice-President,
+				  <date calendar="gregorian" era="ce">1955-1956, 1968-1970</date>
+                  </event>
+                  <event>President,
+				  <date calendar="gregorian" era="ce">1956-1957, 1970-1972</date>
+                  </event>
+               </eventgrp>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <bioghist>
+         <p>Henry Arlin Turner, a professor of English and
+		  Literature, is best known for his scholarship on Nathaniel
+		  Hawthorne and George Washington Cable. His interests also
+		  included Edgar Allan Poe, Herman Melville, Mark Twain,
+		  William Faulkner, Southern Literature, and American Humor
+		  writings. Turner authored, edited, or reviewed an extensive
+		  list of publications on these subjects, in addition to the
+		  monographs listed above.</p>
+      </bioghist><!--End of biohistory--><!--Begin scopecontent-->
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The Arlin Turner Papers, 1927-1980, span Turner's
+		  entire career as a scholar of American literature, from his
+		  undergraduate education at West Texas State University in
+		  1927 to his death in 1980, when he was an instructor at
+		  Southwest Texas State University. The Turner Papers are
+		  comprised primarily of personal and professional
+		  correspondence with scholars and publishers of American
+		  literature. The correspondence includes
+		  <genreform>letters</genreform>, printed matter,
+		  reports, and
+		  <genreform>minutes</genreform> that Turner
+		  collected as a member or officer of organizations to which
+		  many of these literary scholars belonged. These materials,
+		  in addition to the clippings, printed materials and other
+		  writings Turner collected, provide insight into the
+		  development of the profession of American literary
+		  scholarship in the 1920s and 1930s; demonstrate the major
+		  concerns, issues, conflicts, and interests of its
+		  practitioners over the following four decades; and record
+		  research advancements and contributions to scholarship on
+		  the literary figures of most interest to Turner. The Turner
+		  Papers also document the development of high school,
+		  collegiate, and graduate level instruction in American
+		  literature through the organizational records and course
+		  materials, the latter of which include Turner's personal
+		  <genreform>writings</genreform> and
+		  <genreform>research notes</genreform>,
+		  <genreform>subject files</genreform> he collected,
+		  <genreform>clippings</genreform>,
+		  <genreform>lecture notes</genreform>, and other
+		  printed materials on various authors or genres of American
+		  literature. Finally, this collection provides glimpses into
+		  Turner's personal career and scholarly thought through the
+		  <genreform>writings</genreform> which are included,
+		  both those he presented orally as
+		  <genreform>speeches</genreform> or
+		  <genreform>lectures</genreform>, or those he
+		  published as
+		  <genreform>articles</genreform> or
+		  <genreform>books</genreform>. The Turner Papers are
+		  organized into five series: Correspondence, Course
+		  Materials, Organizations, Printed Material, and Writings
+		  and Speeches.</p>
+         <p>A student of the first generation of American
+		  literature scholars in the 1920s, Turner played an
+		  important role in the network of scholarly exchange that
+		  was vital to the emergence of the discipline in the decades
+		  following. Turner kept in contact with numerous colleagues
+		  in colleges and universities across the United States and
+		  throughout the world, including many former graduate
+		  students who later became influential literary scholars and
+		  critics themselves. The <emph render="bold">Correspondence
+		  Series, 1930-1980,</emph> documents Turner's role in this
+		  network of scholarly exchange. The <emph render="bold">Individuals Subseries, 1930-1980,</emph>
+		  includes Turner's most voluminous correspondents: American
+		  literature specialists and authors
+		  <persname>Gay Wilson Allen</persname>,
+		  <persname>John Q. Anderson</persname>,
+		  <persname>Louis Budd</persname>,
+		  <persname>Robert Cantwell</persname>,
+		  <persname>James B. Colvert</persname>,
+		  <persname>Eddie Gay Cone</persname>,
+		  <persname>Benjamin Franklin Fisher</persname>,
+		  <persname>Albert Mordell</persname>,
+		  <persname>Norman Holmes Pearson</persname>,
+		  <persname>William Stafford</persname>, and
+		  <persname>Edmund Wilson</persname>. The
+		  <emph render="bold">Publications Subseries,
+		  1934-1979,</emph> contains portions of Turner's
+		  communications with editors, publishers, and presses
+		  primarily regarding article reviews or manuscript
+		  evaluations of others' work. This subseries also contains
+		  some information concerning Turner's own articles,
+		  manuscripts, and various published works. Correspondence,
+		  brochures, press releases, reports, and contractual
+		  information concerning Turner's speaking engagements or
+		  attendance at professional meetings is collected in the
+		  <emph render="bold">Conferences, Speeches, and Lectures
+		  Subseries, 1961-1978 (bulk 1961-1964).</emph> Miscellaneous
+		  materials comprised primarily of letters arranged by
+		  subject are assembled in the <emph render="bold">Other
+		  Correspondence Subseries, 1948-1979 and undated</emph> This
+		  subseries also contains research notes, memos, and printed
+		  material. These papers document Turner's visiting professor
+		  appointments and awards, as well as his interest in topics
+		  such as the Duke University Library, the Huntington
+		  Library, George W. Cable primary sources, and international
+		  scholars of American Literature.</p>
+         <p>The <emph render="bold">Course Materials Series,
+		  undated,</emph> is comprised of information Turner collected
+		  to aid in composing classroom lectures, and other teaching
+		  materials. He maintained an extensive set of files on
+		  American authors, which can be found in the
+		  <emph render="bold">Lecture Notes, By Author Subseries,
+		  undated</emph> Most files contain a brief biography of the
+		  author and list of his major compositions, but may also
+		  include copies of their works, a typescript of Turner's
+		  lecture on the author, and related materials such as
+		  clippings or Turner's handwritten research notes. Turner
+		  also collected files on genres of literature, delineated
+		  both by region, such as Louisiana or British literature, or
+		  by style, such as Short Stories or Recent Fiction. These
+		  can be found in the <emph render="bold">Lecture Notes, By
+		  Subject Subseries, undated</emph> The <emph render="bold">Class Files Subseries, undated</emph>, contains
+		  Turner's teaching materials including syllabi, quizes, and
+		  exams. These files pertain to courses Turner taught (or in
+		  a few early instances, took) in subjects including American
+		  Literature before the Civil War, Post-Civil War Literature,
+		  Hawthorne and Melville, American Humor, and Southern
+		  Literature. Specific course numbers and titles have been
+		  provided wherever possible.</p>
+         <p>Arlin Turner was an active leader and participant
+		  in many of the organizations associated with his profession
+		  and interests, which are chronicled in the
+		  <emph render="bold">Organizations Series, 1929-1979 (bulk
+		  1936-1979).</emph> These scholarly groups developed
+		  policies, conducted studies, and otherwise governed the
+		  profession. Thus, Turner's influential positions in most of
+		  these associations render his thorough collection of
+		  organizational records both valuable and useful. Folders in
+		  this series primarily contain correspondence, minutes,
+		  memoranda, reports, and printed matter such as newsletters,
+		  brochures, and clippings. Most notable is Turner's work
+		  with the
+		  <corpname>Modern Language Association</corpname>
+		  (MLA), whose
+		  <corpname>American Literature Section</corpname>
+		  members are primarily responsible for the spread of
+		  American Studies programs across the globe. Turner's
+		  records also document his work with the
+		  <corpname>South Atlantic Modern Language
+			 Association</corpname> (SAMLA), the
+		  <corpname>American Studies Association</corpname>
+		  (ASA), and the
+		  <corpname>Southeastern American Studies
+			 Association</corpname> (SEASA). This series likewise
+		  chronicles Turner's leadership roles in the
+		  <corpname>National Council of Teachers of
+			 English</corpname> (NCTE), the
+		  <corpname>American Council of Learned
+			 Societies</corpname> (ACLS) and the
+		  <corpname>National Endowment for the
+			 Humanities</corpname> (NEH).</p>
+         <p>Turner was also a member of the Committee for
+		  American Studies, the advisory group for the
+		  <corpname>Conference Board of Associated Research
+			 Councils' (CBC) Committee for International Exchange of
+			 Persons (CIEP)</corpname>. The <emph render="bold">Organizations Series</emph> also includes
+		  files on the selection of Fulbright Scholars that he
+		  collected as a member of that committee. In addition,
+		  Turner served as chairman of this committee during the
+		  period in which the <emph render="doublequote">Loewenberg
+		  controversy</emph> consumed the CIEP's affairs. When Prof.
+		  Bert J. Loewenberg was denied a Fulbright Award in 1959
+		  despite the committee's recommendation, its members
+		  threatened to resign in protest against allegations that
+		  Loewenberg's past political activity was to blame. Thus,
+		  significant amounts of correspondence from fellow committee
+		  members
+		  <persname>Ray Billington</persname>,
+		  <persname>John Hope Franklin</persname>,
+		  <persname>Harvey Wish</persname>, and
+		  <persname>Charles Barker</persname> regarding the
+		  controversy is found in this series.</p>
+         <p>Arlin Turner accumulated a significant number of
+		  clippings, newsletters, pamphlets, reprints, and
+		  publications related to American Literature. These are
+		  collected in the <emph render="bold">Printed Material
+		  Series, undated</emph> Included in this series are materials
+		  from the
+		  <corpname>Educational Testing Service</corpname>
+		  (ETS), memorabilia from Turner's time at the University of
+		  Hull in England, literary magazines, and miscellaneous
+		  clippings primarily regarding Southern writers (especially
+		  North Carolina authors), William Faulkner, and the New
+		  Critics (a.k.a. The Fugitives). </p>
+         <p>The <emph render="bold">Writings and Speeches
+		  Series, 1938-1980 and undated (bulk 1964-1977),</emph>
+		  contains copies of Turner's significant oral presentations
+		  and other written work, both published and unpublished, in
+		  addition to some writings of other authors he accumulated.
+		  Files from Turner's speaking engagements include both
+		  correspondence and typed copies of his presentations. This
+		  series also contains unidentified speech notes and
+		  writings, in addition to a bound typescript with
+		  handwritten edits of Turner's
+		<title xlink:type="simple" render="italic" xlink:href="">Nathaniel Hawthorne: A
+		  biography </title>. Writings about Turner, including
+		obituaries, tributes, his curriculum vita and the like, are
+		also found in the Writings and Speeches Series.</p>
+      </scopecontent><!--End scopecontent--><!--Begin controlaccess-->
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple"><!-- Note:  <subject>, <persname>, <corpname>, <geogname>, <famname>, <genreform>, <occupation> used where applicable -->
+            <item>
+               <persname>Turner, Arlin</persname>
+            </item>
+            <item>
+               <persname>Allen, Gay Wilson, 1903-
+				.</persname>
+            </item>
+            <item>
+               <persname>Anderson, John Q.</persname>
+            </item>
+            <item>
+               <persname>Billington, Ray Allen, 1903-
+				.</persname>
+            </item>
+            <item>
+               <persname>Barker, Charles A. (Charles Albro),
+				1904- .</persname>
+            </item>
+            <item>
+               <persname>Budd, Louis J.</persname>
+            </item>
+            <item>
+               <persname>Cable, George Washington,
+				1844-1925</persname>
+            </item>
+            <item>
+               <persname>Cantwell, Robert, 1908-
+				.</persname>
+            </item>
+            <item>
+               <persname>Colvert, James Brumley</persname>
+            </item>
+            <item>
+               <persname>Cone, Eddie Gay, 1938-
+				.</persname>
+            </item>
+            <item>
+               <persname>Fisher, Benjamin
+				Franklin</persname>
+            </item>
+            <item>
+               <persname>Franklin, John Hope, 1915-
+				.</persname>
+            </item>
+            <item>
+               <persname>Hawthorne, Nathaniel,
+				1804-1864</persname>
+            </item>
+            <item>
+               <persname>Mordell, Albert, 1885-
+				.</persname>
+            </item>
+            <item>
+               <persname>Pearson, Norman Holmes,
+				1909-1975</persname>
+            </item>
+            <item>
+               <persname>Stafford, William, 1914-
+				.</persname>
+            </item>
+            <item>
+               <persname>Wilson, Edmund,
+				1895-1972</persname>
+            </item>
+            <item>
+               <persname>Wish, Harvey, 1909- .</persname>
+            </item>
+            <item>
+               <corpname>American Council of Learned
+				Societies</corpname>
+            </item>
+            <item>
+               <corpname>American Studies
+				Association</corpname>
+            </item>
+            <item>
+               <corpname>Conference Board of the Associated
+				Research Councils. Committee on International Exchange of
+				Persons. Committee on American Studies</corpname>
+            </item>
+            <item>
+               <corpname>Duke University. Dept. of
+				English -- Curricula</corpname>
+            </item>
+            <item>
+               <corpname>Duke University. Dept. of
+				English -- Faculty</corpname>
+            </item>
+            <item>
+               <corpname>George Washington Flowers Collection of
+				Southern Americana</corpname>
+            </item>
+            <item>
+               <corpname>Henry E. Huntington Library and Art
+				Gallery</corpname>
+            </item>
+            <item>
+               <corpname>Jay B. Hubbell Center for American
+				Literary Historiography</corpname>
+            </item>
+            <item>
+               <corpname>Louisiana State University (Baton
+				Rouge, La.). Dept of English</corpname>
+            </item>
+            <item>
+               <corpname>Louisiana State University (Baton
+				Rouge, La.)--Faculty</corpname>
+            </item>
+            <item>
+               <corpname>Modern Language Association. American
+				Literature Section</corpname>
+            </item>
+            <item>
+               <corpname>National Council of Teachers of
+				English</corpname>
+            </item>
+            <item>
+               <corpname>National Endowment for the
+				Humanities</corpname>
+            </item>
+            <item>
+               <corpname>South Atlantic Modern Language
+				Association</corpname>
+            </item>
+            <item>
+               <corpname>Southeastern American Studies
+				Association</corpname>
+            </item>
+            <item>
+               <subject>Authors, American</subject>
+            </item>
+            <item>
+               <subject>American Literature -- Southern
+				States</subject>
+            </item>
+            <item>
+               <subject>American Literature -- 19th Century--
+				History and criticism</subject>
+            </item>
+            <item>
+               <subject>American Literature -- 20th
+				Century -- History and criticism</subject>
+            </item>
+            <item>
+               <subject>American
+				Literature -- Louisiana</subject>
+            </item>
+            <item>
+               <subject>American Literature -- North
+				Carolina</subject>
+            </item>
+            <item>
+               <subject>American Literature -- Study and teaching.
+				</subject>
+            </item>
+            <item>
+               <subject>American wit and humor</subject>
+            </item>
+            <item>
+               <subject>College teachers
+				Correspondence</subject>
+            </item>
+            <item>
+               <subject>Fulbright scholarships</subject>
+            </item>
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">American
+				literature.</title>
+            </item>
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">South Atlantic
+				quarterly.</title>
+            </item>
+         </list>
+      </controlaccess><!--End controlaccess--><!--Begin container list--><!-- Use <genreform>, <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent> if needed. -->
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle>Correspondence Series,
+				1930-1980</unittitle>
+            </did>
+            <scopecontent>
+               <p>The <emph render="bold">Correspondence
+				Series</emph> has been organized into four subseries:
+				<emph render="bold">Individuals</emph>; <emph render="bold">Publications</emph>; <emph render="bold">Conferences, Speeches, Lectures</emph>; and
+				<emph render="bold">Other Correspondence</emph>. Only the
+				first of these retains Turner's arrangement. </p>
+            </scopecontent>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Individuals Subseries, [ca.
+				  1930-1980]</unittitle>
+               </did>
+               <scopecontent>
+                  <p>The <emph render="bold">Individuals
+				  Subseries</emph> is comprised of correspondence between
+				  Turner and other scholars in American literature, students
+				  and former students, and editors and publishers. Chief
+				  topics in the letters include recent research, manuscript
+				  evaluations, speaking engagements and conference
+				  attendance, personal updates, and occasional
+				  recommendations and peer reviews (SENSITIVE). To preserve
+				  original order, this subseries has been maintained as a
+				  discrete unit--arranged alphabetically by the
+				  correspondent's last name in the same way Turner kept the
+				  files. Consequently, there may be significant overlap with
+				  other correspondence subseries. For example, correspondence
+				  with a publisher may be filed by an editor or publisher's
+				  last name in this subseries or by the publication title or
+				  the press that produced it in the Publications Subseries.
+				  </p>
+               </scopecontent>
+               <accessrestrict>
+                  <p>This subseries contains sensitive
+					 information (recommendations and peer reviews). Before
+					 using these materials, patrons must sign a waiver
+					 concerning privacy rights. Contact Research Services staff
+					 for assistance.</p>
+               </accessrestrict>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle>
+                        <persname>Aaron, Dan</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Adams,
+						Hazard</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Adams, Percy</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Adams, Richard P.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Aderman, Ralph</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Alexander, Margaret W.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Allen, Gay
+						Wilson</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Allen, Thomas J.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Altenbernd, Lynn</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Anderson, Carl</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Anderson, John Q.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Angyal, Andrew J.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Ano, Fumio</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Appel, Benjamin</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Applewhite,
+						James</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Arms, George</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Arndt, Karl J.R.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Arvin, Newton</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Asquith,
+						Cynthia</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Asselineau, Roger</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Auchincloss,
+						Louis</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Axelsson, Arne</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>A Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Baker,
+						Carlos</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bandy, W. T.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Baym, Nina</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Barber, Edwin</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Barker, Charles</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Barnes, Warner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Beach, Leonard B.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bearden, Ethel</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Beebe, Maurice</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Belflower, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bell, Vereen</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Benson, Carl</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bennett, Raymond</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Bevington,
+						Helen</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bickley, Bruce</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bier, Jesse</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Billington, Ray</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Blair, Walter</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Blodget, Harold</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Blotner,
+						Joseph</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Boatright, Mody</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bode, Carl</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Boewe, Charles</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Boorstin,
+						Daniel</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bond, Richmond P.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bowers, Fredson</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bowling, Lawrence</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Boyce, Benjamin</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Brack, O. M.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Braddy, Haldeen</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bradley, Phil</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bradley, Scully</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Brice,
+						Ashbel</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Broderick, John C.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Brown, Herbert</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Browne, Ray B.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Bruccoli,
+						Matthew</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bryant, Joe</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Budd,
+						Louis</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Butcher, Philip</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Byers, John</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>B Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>
+                        <persname>Cady, Edwin
+						Harrison</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cameron, Kenneth</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cantwell, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cardwell, Guy</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Carson, Patricia</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Carroll, Martin</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cherry, Kenneth</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cline, Clarence L.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Clogan, Paul</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cohen, Bernard</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Cohen,
+						Hennig</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cole, R. Taylor</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Collins, Carvel</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Colvert, James</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cone, Eddie G. and Roberta
+					 L.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Corbett, Joan</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Core, George</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Covici, Pascal</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Crawley, T. Edward</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Crowley, J. Donald</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Curlee, Roy</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Current-Garcia, Gene</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>C Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Dainow, Joseph</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Dalton, Harry
+						L.</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Davidson, Edward</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Davis, Charles T.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Davis, Curtis Carroll</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Davison, Kenneth E.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Dedmond, Francis B.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Demanuelli, Jean</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Dembo, L. S.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Denbo, Bruce F.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Dickey,
+						James</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Donaldson, Scott</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Dorris, George</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Dos Passos,
+						John</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Downey, Harris</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Duban, James</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Dykeman (Stokely),
+						Wilma</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>D Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Engle, Paul</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Erdman, Loula Grace</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Ervine, Roberta</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Estes,
+						David</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Fisher, Benjamin
+						Franklin</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Freeman, Gordon</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Foerster, Norman</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>Hartle, Anthony E.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Hersey,
+						John</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Hoffman,
+						Daniel</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Hoffman, Frederick</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Hornberger, Theodore</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Howarth, R. Guy</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Hubbell, Jay
+						B.</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Hughes, Rupert</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>H Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Jones, Howard
+						Mumford</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Jones, Joseph</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Jones, Tandy</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>King, Alec</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Knickerbocker, William
+					 S.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>K Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Leary,
+						Lewis</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Liljegren, Sten Bodvar</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Ljungquist,
+						Kent</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lovelace, Joseph</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>L Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Mabbott, Thomas
+						Ollive</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Matthiessen, F.
+						O.</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Mays, James O.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>McDavid, Raven I.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Michener, James
+						A.</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Mordell, Albert</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>M Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>O'Brien, Claudine</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Osborn, Scott</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Owen, Guy</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>O Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Parkinson, Thomas</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Pearson, Norman H.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Poirier,
+						Richard</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Pond, James B.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Porter, Katherine
+						Anne</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Price,
+						Reynolds</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>P. Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Rak, Mary Kidder</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Ransom, Harry Huntt</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Ransom, John
+						Crowe</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Reeves, Paschal</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Reid, Alfred S.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Rosenthal, Mack K. </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>R Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Schorer,
+						Mark</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Simpson, Claude M.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Stafford,
+						William</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Stephenson, Wendell H.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Stevens, George</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Stewart, Randall</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Stovall,
+						Floyd</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Stuart,
+						Jesse</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>S Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Thompson,
+						Lawrence</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Tinker, Edward
+					 Larocque</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>T Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Waite, Mary Abbott</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Ward, Charles E.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Warren, Robert
+						Penn</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Weaver, Richard M.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Wecter, Dixon</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Welland, Dennis</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Wilson,
+						Edmund</persname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Woll, Harvey</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>W Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Yeatman, Joan</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Unidentified</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Publications Subseries,
+				  1934-1979</unittitle>
+               </did>
+               <scopecontent>
+                  <p>The <emph render="bold">Publications
+				  Subseries</emph> is comprised of Turner's correspondence to
+				  publishers, editors, and presses regarding publications.
+				  Included are reviews of books for multiple journals,
+				  multiple reviews written for single journals, manuscript
+				  evaluations for various university presses, and
+				  correspondence regarding some of Turner's own publications.
+				  Arranged alphabetically by publication title or press name.
+				  </p>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">American Literature:
+						An Anthology</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">American
+						Quarterly</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Australian Literary
+						Studies </title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Clio</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Dictionary of
+						Literary Biography</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Duke University Press </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Editors'
+						News</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Faulkner: A
+						Biography</title> by Blotner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Harvard University
+					 Press</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>(Washington) Irving
+					 Edition</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Hawthorne: A
+						Biography</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Literary Classics - Library of
+					 America</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Louisiana State University
+					 Press</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Modern Fiction
+						Studies</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Nathaniel Hawthorne
+						Journal</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">New England
+						Quarterly</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Nineteenth-Century
+						Fiction</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Penn State University
+					 Press</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Princeton University
+					 Press</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Resources for
+						American Literary Study</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>(William Gilmore) Simms
+					 Edition</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Stark Young
+						</title>by Pilkington </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>University of Massachusetts
+					 Press</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>University of North Carolina
+					 Press</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>University of Tennessee
+					 Press</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>University Press of
+					 Kansas</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous publications
+					 correspondence</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Conferences, Speeches, Lectures
+				  Subseries, 1961-1978 (bulk 1961-1964)</unittitle>
+               </did>
+               <scopecontent>
+                  <p> Correspondence regarding Turner's speaking
+				  engagements and attendance at professional gatherings is
+				  collected in the <emph render="bold">Conferences, Speeches,
+				  and Lectures Subseries</emph>. This subseries is arranged
+				  chronologically. </p>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1961: University of Michigan -
+					 Civil War Lecture Series</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1961: Kent State University -
+					 Lecture </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1962: Duke University - N.C.
+					 Junior Science Symposium </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1962: Duke University - Seminar,
+					 <emph render="doublequote">The Two Cultures</emph>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1963: Atlanta University - Forum
+					 Series </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1963: University of Michigan -
+					 Seminar on English in Contemporary Education </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1963-1964: Conference on the
+					 Integrated Bibliography </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1964: Bowdoin College Institute -
+					 <emph render="doublequote">Hawthorne and the American
+					 Novel</emph>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1964: Duke University - Seminar,
+					 Humanities and the Arts </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1964: Project on [High School]
+					 Literature Conference </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1972: Conference on Southern
+					 Literary Study </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1975: Duke Alumni Summer Institute
+					 - Lecture </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1978: West Virginia University -
+					 Symposium on Regional Research in the Humanities
+					 </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Other Correspondence Subseries,
+				  1948-1979 and undated</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Miscellaneous files that contain primarily
+				  correspondence can be found in the <emph render="bold">Other Correspondence Subseries</emph>. Many
+				  of these files relate either to Duke University or to
+				  universities at which Turner served as a visiting
+				  professor. These are organized by the subject or addressee
+				  of the correspondence and arranged alphabetically, with
+				  correspondence from international scholars in American
+				  literature filed at the end.</p>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <container type="box">5 (cont)</container>
+                     <unittitle>Cable, (George Washington)
+					 Research, undated </unittitle>
+                     <physdesc>
+                        <extent>(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Duke University. Gross-Edens
+					 Affair, 1960 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Duke University Library, Misc.,
+					 1950, 1975, 1978 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Duke University Library - Harold
+					 Jantz Collection, 1975</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Duke University Research Council
+					 Grants, 1954-1977</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Duke Summer Grants-in-aid,
+					 Visiting Scholars, 1965, 1969-1970 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle>Fulbright Applications and
+					 Correspondence, 1955-1965</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Fulbright Award - University of
+					 Hull, Hull, England, 1965-1966 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Huntington Fellowship,
+					 1973-1978</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Huntington Library,
+					 1968-1977</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Huntington Research,
+					 undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Louisiana State University
+					 Library, 1950-1952 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>National Book Awards, 1969
+					 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>National Defense Education Act
+					 (NDEA) Institutes, 1965-1967</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>National Humanities Center,
+					 1978-1979</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>New York University,
+					 1964</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>New York Library, 1948-1956,
+					 1964-1976 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>N.C. State University, Dept. of
+					 English, 1966 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Quality Education Bill (HR11888),
+					 1962 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Southern American Writers Cassette
+					 Curriculum, 1975</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>University Centers for Rational
+					 Alternatives (UCRA), 1969-1978 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>University of Hull, Hull, England,
+					 1966-1968 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>University of Illinois, 1961
+					 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>University of Iowa, 1963
+					 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>University of Montreal,
+					 1951</unittitle>
+                     <physdesc>[contains
+					 <genreform>photographs</genreform> of
+					 Turner, Thomas Greenwood]</physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>University of Pennsylvania,
+					 1968</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Indian Specialists in American
+					 Literature, 1966-1970</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Asian Specialists in American
+					 Literature, 1962-1963</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>South African Specialists in
+					 American Literature, 1958-1963</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Course Materials Series,
+				undated</unittitle>
+            </did>
+            <scopecontent>
+               <p>The <emph render="bold">Course Materials
+				Series</emph> is divided into three subseries. The first
+				two subseries are comprised of <emph render="bold">Lecture
+				Notes</emph>, arranged by <emph render="bold">Author</emph>
+				and <emph render="bold">Subject</emph>. The last contains
+				<emph render="bold">Class Files</emph>. Only the first of
+				these subseries preserves Turner's original
+				arrangement.</p>
+            </scopecontent>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Lecture Notes, By Author Subseries,
+				  undated</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Each folder in the <emph render="bold">Lecture Notes, By Author Subseries</emph>
+				  contains the materials on various literary figures that
+				  Turner appears to have collected for classroom use. Almost
+				  all of these include a brief typed page containing the
+				  author's birth and death dates and significant writings.
+				  Most are also accompanied by a brief typed biography and
+				  summary of the author's contribution to literature. Some
+				  folders may also contain copies of an author's works,
+				  especially poetry, or newspaper clippings about them, in
+				  addition to Turner's personal research. These are arranged
+				  alphabetically in the same order that Turner filed
+				  them.</p>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Adams, Henry</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Albee, Edward</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Allen, James Lane</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Anderson, Sherwood</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Applewhite, James</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Audubon, John James</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bagby, George William</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Baldwin, James</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Baldwin, Joseph G.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Barlow, Joel</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bellamy, Edward</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Benét, Stephen Vincent</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Beverley, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bevington, Helen</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bonner, Sherwood</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Brackenridge, Hugh
+					 Henry</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bradford, Roark</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bradford, William</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bradstreet, Anne</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Brooks, Van Wyck</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Brown, Charles
+					 Brockden</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Brown, Charles Farrar (a.k.a.
+					 Artemus Ward)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bryant, William Cullen</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Byrd, William</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cabell, James Branch</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cable, George
+					 Washington</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Capote, Truman</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Caldwell, Erskine</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cather, Willa</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cawein, Madison</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Chappell, Fred</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Chivers, Thomas Holley</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Chopin, Kate</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Clemens, Samuel L. (a.k.a. Mark
+					 Twain)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cooke, John Esten</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cooper, James Fenimore</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Crane, Hart</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Crane, Stephen</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Crevecoeur, Michel-Guillarme Jean
+					 de</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Crockett, Davy</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Cummings, E.E.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Davidson, Donald</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Dickey, James</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Dickenson, Emily</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Dixon, Thomas</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Dobie, J. Frank</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Dos Passos, John R.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Dreiser, Theodore</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Dunne, Finley Peter</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Dykeman (Stokley),
+					 Wilma</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Eberhart, Richard</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Edwards, Harry
+					 Stillwell</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Faulkner, William</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Fitzgerald, F. Scott</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Flint, Timothy</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Franklin, Benjamin</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Frederic, Harold</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Freeman, Mary E.
+					 Wilkins</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Freneau, Philip</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Farrell, James T.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Frost, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Garland, Hamlin</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>George, Henry</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Grady, Henry W.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Grayson, William John</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Green, Paul</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Harris, George
+					 Washington</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Harris, Joel Chandler</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Harte, F. Bret</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Hawthorne, Nathaniel</unittitle>
+                     <physdesc>
+                        <extent>(13
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Hayne, P. H.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Hearn, Lafcadio</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Hemingway, Ernest</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Holmes, Oliver Wendell</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Hooper, Johnson Jones</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Hope, James Barron</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Howells, William Dean</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Hughes, Langston</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Irving, Washington</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Jacobsen, Josephine</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>James, Henry</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Jarrell, Randall</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Jeffers, Robinson</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Jefferson, Thomas</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Jewett, Sarah Orne</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Johnston, Richard
+					 Malcolm</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Kennedy, John
+					 Pendleton</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>King, Grace E.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Kizer, Carolyn</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lanier, Sidney</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Legare, James M.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Levertov, Denise</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lewis, Sinclair</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lewis, Henry Clay (a.k.a. Madison
+					 Tensas)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lincoln, Abraham</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lindsay, Vachel</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>London, Jack</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Longfellow, Henry
+					 Wadsworth</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Longstreet, Augustus
+					 Baldwin</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lowell, Amy</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lowell, James Russell</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lowell, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>McCullers, Carson</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>McKenna, Richard</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>MacLeish, Archibald</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Melville, Herman</unittitle>
+                     <physdesc>
+                        <extent>(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Mencken, H.L.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Merton, Thomas</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Millay, Edna St.
+					 Vincent</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miller, Arthur</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miller, Joaquin</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Momaday, N. Scott</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Moody, William Vaughn</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Murfree, Mary Noailles (a.k.a.
+					 Charles Egbert Craddock)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Norris, Frank</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>O'Connor, Flannery</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>O'Hara, Theodore</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>O'Neill, Eugene G.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Owen, Guy</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Page, T.N.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Paine, Thomas</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Parkman, Francis</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Patton, Francis Gray</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Paulding, J.K.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Payne, John Howard</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Peck, Samuel M.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Peterkin, Julia</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Pike, Albert</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Pinkney, Edward Coote</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Poe, Edgar Allan</unittitle>
+                     <physdesc>
+                        <extent>(4
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Porter, Katherine Anne</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Porter, William Sydney (a.k.a. O.
+					 Henry)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Pound, Ezra</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Preston, Margaret
+					 Junkin</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Price, Reynolds</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Randall, James Ryder</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Randolph, Innes</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Ransom, John Crowe</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Rawlings, Marjorie
+					 Kinnan</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Roberts, Elizabeth
+					 Madox</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Robinson, Edwin
+					 Arlington</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Roethke, Theodore</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Rogers, Will</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Roosevelt, Franklin D.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Russell, Irwin</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Ryan, Father Abram</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Salinger, J. D.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Sandburg, Carl</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Sewall, Samuel</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Shapiro, Karl</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Simms, William Gilmore</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Sinclair, Upton</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Smith, Betty</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Smith, Charles Henry (a.k.a. Bill
+					 Arp)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Smith, F. Hopkinson</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Smith, John</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Smith, Lillian</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Smith, Seba</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Spencer, Elizabeth</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Steinbeck, John</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Stem, Thad</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Stevens, Wallace</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Stowe, Harriet Beecher</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Stuart, Jesse</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Stuart, Ruth McHenry</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Styron, William</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Tabb, John Barrister</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Tate, J.O. Allen</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Taylor, Edward</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Taylor, John</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Taylor, Peter H.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Thompson, John Reuben</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Thompson, William T.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Thompson, Maurice</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Thoreau, Henry David</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Thorpe, Thomas Bangs</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Thurber, James</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Ticknor, Francis Orray</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Timrod, Henry</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Toklas, Alice</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Tourgée, Albion</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Tuckerman, Frederick
+					 Goddard</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Tyler, Anne</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Tyler, Royall</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Vonnegut, Kurt</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Warren, Robert Penn</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Washington, Booker T.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Welty, Eudora</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Wharton, Edith</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>White, E.B.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Whitman, Walt</unittitle>
+                     <physdesc>
+                        <extent>(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Whittier, John
+					 Greenleaf</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Wilber, Richard</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Wilde, Richard Henry</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Wilder, Thornton</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Williams, Tennessee</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Williams, William
+					 Carlos</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Wilson, Augusta Evans</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Wilson, Edmund</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Wilson, Robert Burns</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Winters, Yvor</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Wolfe, Thomas</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Woolman, John</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Wright, James</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous Authors</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Lecture Notes, By Subject Subseries,
+				  undated</unittitle>
+               </did>
+               <scopecontent>
+                  <p> The <emph render="bold">Lecture Notes, By
+				  Subject Subseries</emph> contain Turner's collected notes
+				  or clippings on general subjects in literature, delineated
+				  either by geographic region or genre. This subseries also
+				  includes files on a few non-American writers (specifically
+				  William Shakespeare, John Milton, and Edmund Spenser). The
+				  Minor Southern Authors folder, although it contains
+				  unfinished notes pages for individual authors, was not
+				  originally filed in the Lecture Notes By Author subseries
+				  and therefore is filed by subject in this subseries. The
+				  miscellaneous materials in Box 13 pertain to the English
+				  curriculum at Duke and LSU, especially degree requirements,
+				  preliminary exam questions, and stylesheets for term papers
+				  and theses at the two universities.</p>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>American Literature</unittitle>
+                     <physdesc>
+                        <extent>(12
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>British and Commonwealth
+					 Literature</unittitle>
+                     <physdesc>
+                        <extent>(11
+					 folders)</extent>
+                     </physdesc>
+                     <unittitle>Miscellaneous</unittitle>
+                     <physdesc>
+                        <extent>(3
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Class Files Subseries,
+				  undated</unittitle>
+               </did>
+               <scopecontent>
+                  <p>The <emph render="bold">Class Files
+				  Subseries</emph> contains Turner's teaching materials for
+				  specific classes that he taught, both at Duke and as a
+				  visiting professor elsewhere. Also included in this
+				  subseries is at least one syllabus on West Texas State
+				  letterhead that appears to be from a class in which Turner
+				  was enrolled as an undergraduate in 1927. When possible,
+				  the course numbers for these classes have been identified;
+				  it should be noted that Turner often taught the same course
+				  subject under a different number at a different
+				  institution. These files primarily contain syllabi, exams,
+				  quizes, reading lists, and lecture materials developed for
+				  a specific course.</p>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <unittitle>Class Files</unittitle>
+                     <physdesc>
+                        <extent>(17
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Organizations Series, 1929-1979 (bulk
+				1936-1979)</unittitle>
+            </did>
+            <scopecontent>
+               <p>The <emph render="bold">Organizations
+				Series</emph> contains Turner's files on professional and
+				scholarly associations, committees, councils and societies
+				to which he belonged, and, in many cases, led in some
+				capacity. (For a list of Turner's most significant posts,
+				please see the Organizational Service Biography in the
+				Biographical Note above.) Folders in this series primarily
+				contain correspondence, minutes, memoranda, reports, and
+				printed matter such as newsletters, brochures, and
+				clippings. These are arranged alphabetically. </p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">15</container>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>American Civil Liberties
+					 Union</corpname> (ACLU), 1957-1958 and undated</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>American Council of Learned
+					 Societies</corpname> (ACLS) - Misc., 1960-1968 and
+				  undated</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Fellowship Selection Committee,
+					 <unitdate calendar="gregorian" era="ce" normal="1962/1968" type="inclusive">1962-1968</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Meeting on Scholarly
+					 Communication,
+					 <unitdate calendar="gregorian" era="ce" normal="1973/1975" type="inclusive">1973-1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Regional Associate reports,
+					 <unitdate calendar="gregorian" era="ce" normal="1957/1966" type="inclusive">1957-1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>International Fellows, at Duke,
+					 <unitdate calendar="gregorian" era="ce" normal="1962/1977" type="inclusive">1962-1965, 1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>American Humor Studies
+					 Association</corpname> (AHSA), 1975-1977, undated</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">American Literature
+					 </title> Board of Editors,
+				  <unitdate calendar="gregorian" era="ce" normal="1949/1978" type="inclusive">1949-1956, 1962, 1967-1970, 1975-1978</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3
+				  folders)</extent>
+                  </physdesc>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">American Literature
+						</title>Promotional Materials,
+					 <unitdate calendar="gregorian" era="ce" normal="1929" type="inclusive">1929</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>American Studies Research Centre
+					 </corpname>(ASRC), Hyderabad, India, 1965-1969</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>American Studies Association
+					 </corpname>(ASA) - General,
+				  <unitdate calendar="gregorian" era="ce" normal="1951/1979" type="inclusive">1951-1979</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(4
+				  folders)</extent>
+                  </physdesc>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Bibliography Committee,
+					 <unitdate calendar="gregorian" era="ce" normal="1954/1959" type="inclusive">1954-1959</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Convention,
+					 <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">Oct., 1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Executive Committee,
+					 <unitdate calendar="gregorian" era="ce" normal="1955/1957" type="inclusive">1955-1957</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <unittitle>Executive Committee,
+					 <unitdate calendar="gregorian" era="ce" normal="1958/1961" type="inclusive">1958-1961</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Executive Council,
+					 <unitdate calendar="gregorian" era="ce" normal="1955/1962" type="inclusive">1955-1962</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Nominating Committee,
+					 <unitdate calendar="gregorian" era="ce" normal="1955/1961" type="inclusive">1955, 1961</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lower Mississippi Conference,
+					 <unitdate calendar="gregorian" era="ce" normal="1960" type="inclusive">1960</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Radical Caucus,
+					 <unitdate calendar="gregorian" era="ce" normal="1969/1971" type="inclusive">1969-1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Development of American Studies at
+					 Duke,
+					 <unitdate calendar="gregorian" era="ce" normal="1960/1965" type="inclusive">1960, 1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Association for Canadian Studies in
+					 the U.S. </corpname>(ACSUS),
+				  <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Association of Chairmen of
+					 Departments of English in Colleges and
+					 Universities</corpname> (CDE)/
+				  <corpname>Association of Departments of
+					 English</corpname> (ADE),
+				  <unitdate calendar="gregorian" era="ce" normal="1962/1965" type="inclusive">1962-1965</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>CDE/MLA/NCTE Allerton Park
+					 Conference,
+					 <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Center for Southern Studies,
+					 </corpname>
+                     <unitdate calendar="gregorian" era="ce" normal="1964/1970" type="inclusive">1964-1970</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>College English Association
+					 </corpname>(CEA),
+				  <unitdate calendar="gregorian" era="ce" normal="1963/1979" type="inclusive">1963-1971, 1974, 1979</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>College Language Association
+					 </corpname>(CLA),
+				  <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">17</container>
+                  <unittitle>
+                     <corpname>Conference Board of Associated
+					 Research Councils (CBC). </corpname>
+                     <corpname>Committee on International Exchange
+					 of Persons (CIEP)</corpname> - Misc., 1976-1977
+				  </unittitle>
+               </did>
+               <scopecontent>
+                  <p>[changed to Council for International
+				  Exchange of Scholars (CIES) in 1975.] </p>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <unittitle>Committee on American Studies,
+					 <unitdate calendar="gregorian" era="ce" normal="1956/1969" type="inclusive">1956-1963, 1968-1969</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(8
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Conference on Federal Funding of
+					 Programs in International Education,
+					 <unitdate calendar="gregorian" era="ce" normal="1968" type="inclusive">1968</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence -
+					 <persname>Russell, Trusten W., </persname>
+                        <unitdate calendar="gregorian" era="ce" normal="1968/1969" type="inclusive">1968-1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">American Studies: An
+						International Newsletter, </title>
+                        <unitdate calendar="gregorian" era="ce" normal="1972/1973" type="inclusive">1972-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Faculty Fulbright Advisors/Alumni
+					 Workshop,
+					 <unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">18</container>
+                  <unittitle>
+                     <corpname>Council of Graduate Schools (CGS) -
+					 Consulting, </corpname>
+                     <unitdate calendar="gregorian" era="ce" normal="1969/1975" type="inclusive">1969-1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Duke University, Dept. of
+				  English</unittitle>
+                  <physdesc>
+                     <extent>(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Duke University Library, G.W.
+				  Flowers Memorial Collection Committee,
+				  <unitdate calendar="gregorian" era="ce" normal="1955/1977" type="inclusive">1955-1977</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(4
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle> Duke University Library, Jay B.
+				  Hubbell Center Organizing and Directing Committee,
+				  <unitdate calendar="gregorian" era="ce" normal="1975/1977" type="inclusive">1975-1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Educational Testing Service
+					 (ETS)</corpname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>GRE Advanced Literature Test
+					 Committee,
+					 <unitdate calendar="gregorian" era="ce" normal="1965/1966" type="inclusive">1965-1966</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">Scarlet
+						Letter</title> Test,
+					 <unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Ellen Glasgow Society,
+					 1973-1974</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Essex Institute,
+				  1972-1978</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Fédération Internationale des
+				  Langues et Littératures Modernes (FILLM),
+				  1963-1969</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>International Association of
+					 University Professors of English</corpname> (IAUPE),
+				  1961-1977</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Institute of American Studies (West
+				  Virginia Wesleyan College),
+				  <unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Louisiana State University, Dept. of
+				  English, 1937-1952</unittitle>
+                  <physdesc>
+                     <extent>(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Marquis Library Society,
+				  1969-1974</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Melville Society of America, 1973,
+					 1979</corpname>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Modern Humanities Research
+					 Association</corpname> (MHRA),
+				  <unitdate calendar="gregorian" era="ce" normal="1966/1978" type="inclusive">1966-1969, 1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">19</container>
+                  <unittitle>
+                     <corpname>Modern Language Association
+					 </corpname>(MLA) - Misc., 1965-1971, undated</unittitle>
+                  <physdesc>
+                     <extent>(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>American Literature Group (ALG) -
+					 General,
+					 <unitdate calendar="gregorian" era="ce" normal="1936/1963" type="inclusive">1936-1954, 1961-1963</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(9
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Committee on Curricula,
+						1950-1951</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Committee on Definitive
+						Editions, 1950-1951</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Committee on Library Manuscript
+						Holdings, 1950-1951</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Committee on a Monographic
+						Series, 1950-1951</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Committee on Resources for
+						Research, 1950-1951</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Committee on Trends in Research,
+						1949-1952</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>American Literature Section (ALS)
+					 - General,
+					 <unitdate calendar="gregorian" era="ce" normal="1967/1979" type="inclusive">1967-1979</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">20</container>
+                        <unittitle>Program Planning,
+						1966-1967</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>British Commonwealth Literature
+					 Conference, 1958</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Center for Editions of American
+					 Authors (CEAA),
+					 <unitdate calendar="gregorian" era="ce" normal="1968/1973" type="inclusive">1968-1973</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Conference on Scholarly Editions
+					 of American Authors,
+					 <unitdate calendar="gregorian" era="ce" normal="1962" type="inclusive">1962</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Conference on Southern Literature,
+
+					 <unitdate calendar="gregorian" era="ce" normal="1958/1959" type="inclusive">1958-1959</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>New University Conference,
+					 <unitdate calendar="gregorian" era="ce" normal="1968/1969" type="inclusive">1968-1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">PMLA</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Scholar's Library Selection
+					 Committee,
+					 <unitdate calendar="gregorian" era="ce" normal="1968/1971" type="inclusive">1968-1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Nathaniel Hawthorne Society,
+					 </corpname>
+                     <unitdate calendar="gregorian" era="ce" normal="1980" type="inclusive">1980</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>National Endowment for the
+				  Humanities (NEH) - Misc., 1969-1976</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle> Establishment, 1965 (National
+					 Foundation for the Arts and Sciences Act)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Senior Fellowship Award,
+					 <unitdate calendar="gregorian" era="ce" normal="1972/1974" type="inclusive">1972-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Division of Fellowships,
+					 1967-1979</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Summer Seminars for College
+						Teachers, 1976-1977</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Division of Public Programs,
+					 1971-1977</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Media Program Panel,
+						1976</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>Division of Research Grants,
+					 1975-1978</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>National Council of Teachers of
+					 English</corpname> (NCTE),
+				  <unitdate calendar="gregorian" era="ce" normal="1947/1970" type="inclusive">1947, 1958, 1960-1970</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(10
+				  folders)</extent>
+                  </physdesc>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">22</container>
+                     <unittitle>Advisory Council,
+					 <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Commission on Literature,
+					 <unitdate calendar="gregorian" era="ce" normal="1964/1968" type="inclusive">1964-1968</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Committee on the Education of
+					 College Teachers of English,
+					 <unitdate calendar="gregorian" era="ce" normal="1963/1964" type="inclusive">1963-1964</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Conference on English Education,
+					 <unitdate calendar="gregorian" era="ce" normal="1964/1966" type="inclusive">1964, 1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Copyright Law (HR4347),
+					 <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>English Teacher Preparation Study,
+
+					 <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">23</container>
+                  <unittitle>
+                     <corpname>North Carolina Literary and
+					 Historical Association</corpname> (NCLHA),
+				  <unitdate calendar="gregorian" era="ce" normal="1959/1978" type="inclusive">1959-1960, 1963, 1971-1978</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>North Carolina English Teachers
+					 Association</corpname> (NCETA),
+				  <unitdate calendar="gregorian" era="ce" normal="1954/1970" type="inclusive">1954-1957, 1964-1970</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Phi Beta Kappa</corpname>,
+				  <unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Poe Studies Association</corpname>
+				  (PSA),
+				  <unitdate calendar="gregorian" era="ce" normal="1977/1978" type="inclusive">1977-1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Popular Culture
+					 Association</corpname> (PCA),
+				  <unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Society of American
+					 Historians</corpname>,
+				  <unitdate calendar="gregorian" era="ce" normal="1950/1978" type="inclusive">1950-1958, 1960-1967, 1970-1978</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Society for the Study of Southern
+					 Literature</corpname> (SSSL),
+				  <unitdate calendar="gregorian" era="ce" normal="1974/1979" type="inclusive">1974-1975, 1978-1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>South Atlantic Modern Language
+					 Association </corpname>(SAMLA)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>American Literature Section,
+					 <unitdate calendar="gregorian" era="ce" normal="1954/1957" type="inclusive">1954-1957</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2
+					 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Panel on Publishing,
+					 <unitdate calendar="gregorian" era="ce" normal="1973/1975" type="inclusive">1973-1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous,
+					 <unitdate calendar="gregorian" era="ce" normal="1960/1977" type="inclusive">1960, 1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">South Atlantic
+					 Quarterly </title>Board of Editors,
+				  <unitdate calendar="gregorian" era="ce" normal="1955/1972" type="inclusive">1955-1972</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">24</container>
+                  <unittitle>
+                     <corpname>South-Central Modern Language
+					 Association</corpname> (SCMLA),
+				  <unitdate calendar="gregorian" era="ce" normal="1953/1978" type="inclusive">1953-1971, 1977-1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Southeastern American Studies
+					 Association</corpname> (SEASA),
+				  <unitdate calendar="gregorian" era="ce" normal="1955/1978" type="inclusive">1955-1966, 1972-1978</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(8
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Southern Historical Association
+					 </corpname>
+                     <title xlink:type="simple" render="italic" xlink:href="">(Journal of Southern
+					 History), </title>
+                     <unitdate calendar="gregorian" era="ce" normal="1948/1975" type="inclusive">1948-1955, 1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Southern Humanities
+					 Conference</corpname>,
+				  <unitdate calendar="gregorian" era="ce" normal="1955/1965" type="inclusive">1955-1957, 1965</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <corpname>Sut Society</corpname>,
+				  <unitdate calendar="gregorian" era="ce" normal="1962/1965" type="inclusive">1962, 1965</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Printed Material Series,
+				undated</unittitle>
+            </did>
+            <scopecontent>
+               <p> The <emph render="bold">Printed Material
+				Series</emph> is comprised of clippings, newsletters,
+				pamphlets, reprints, and publications related to American
+				Literature. This series includes materials from the
+				Educational Testing Service (ETS), memorabilia from
+				Turner's time at the University of Hull in England,
+				literary magazines, and miscellaneous clippings primarily
+				regarding Southern writers (specifically North Carolina
+				authors), William Faulkner, and the New Critics (aka The
+				Fugitives). </p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">25</container>
+                  <unittitle>Printed Materials</unittitle>
+                  <physdesc>
+                     <extent>(15
+				  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Writings and Speeches Series,
+				1938-1980 and undated (bulk 1964-1977) </unittitle>
+            </did>
+            <scopecontent>
+               <p>The <emph render="bold">Writings and Speeches
+				Series</emph> is comprised primarily of copies of Turner's
+				speeches, articles, and abstracts, as well as
+				correspondence and contractual information regarding them.
+				This series also includes a complete typed manuscript of
+				Turner's Hawthorne biography with handwritten edits. The
+				Writings and Speeches Series also contains two folders of
+				writings about Turner: one folder of materials which Turner
+				himself authored or compiled, including several versions of
+				his curriculum vita and a brief autobiography with
+				transcripts attached, and one folder of materials written
+				by others, including tributes and obituaries. Turner's
+				writings are arranged chronologically at the front of the
+				box, followed by writings by others.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <unittitle>Turner's Writings</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">26</container>
+                     <unittitle>1938, <emph render="doublequote">Fiction of the Bayou Country,</emph>
+                        <title xlink:type="simple" render="italic" xlink:href="">The Saturday
+						Review</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1952-1954, 1969 and undated, Speech
+					 Notes - Misc. </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1964, <emph render="doublequote">Problems of Literary Authorship in the
+					 South Since the Civil War,</emph> Simpson College Lecture
+					 </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1965, <emph render="doublequote">William Faulkner and the Revolution in
+					 Southern Literature,</emph> Mars Hill College
+					 Symposium</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1965-1973, American Bibliographic
+					 Center Abstracts</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1970, <emph render="doublequote">Local
+					 Color Writing in the South, 1865-1900,</emph> Indiana
+					 University Lecture </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1973, <emph render="doublequote">Comedy
+					 and Reality in Local Color Fiction, 1865-1900,</emph> Voice
+					 of America Forum Series
+					 <title xlink:type="simple" render="italic" xlink:href="">(Comic Imagination
+						in American Literature)</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1980,
+					 <title xlink:type="simple" render="italic" xlink:href="">Nathaniel Hawthorne:
+						A biography</title>
+                        <genreform> (typescript)</genreform>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>undated, Writings - Misc.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1980 and undated, Arlin Turner,
+					 Writings about, by Turner </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Writings By Others </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1977, 1980, Arlin Turner, Writings
+					 about, by others </unittitle>
+                     <physdesc>[contains
+					 <genreform>transparency</genreform> of
+					 Turner, 1977]</physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1975, Hampden-Sydney Literary
+					 Symposium Manuscript </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1976,
+					 <title xlink:type="simple" render="doublequote" xlink:href="">Doonesbury,The Art
+						of Garry Trudeau</title> (Student Paper) </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>undated, Misc.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

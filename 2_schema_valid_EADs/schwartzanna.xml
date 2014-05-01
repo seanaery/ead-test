@@ -1,0 +1,2952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Anna Schwartz Papers, 1929-2012)//EN" url="http://library.duke.edu/rubenstein/findingaids/schwartzanna/">schwartzanna</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Anna Schwartz Papers,
+			<date normal="1929/2012" era="ce" calendar="gregorian">1929-2012</date>
+            </titleproper>
+            <author>Processed by: Rebecca Evans, Meghan Lyon; machine-readable finding aid created by: Meghan Lyon</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>
+               <lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+            <p>
+               <date normal="2012" encodinganalog="date" era="ce" calendar="gregorian"> 2012</date> Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">005599606</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+            <date era="ce" calendar="gregorian">Date of source: September 2012</date>
+            <lb/>Processed by Rebecca Evans, Meghan Lyon, September 2012; finding aid encoded by Meghan Lyon, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, <date era="ce" calendar="gregorian">September 2012</date>
+         </creation>
+         <langusage>Description is in <language langcode="eng">English</language>
+         </langusage>
+         <descrules>Finding aid was prepared using <title xlink:type="simple" xlink:href="">DACS</title> and local <title xlink:type="simple" xlink:href="">Style Guide</title>
+         </descrules>
+      </profiledesc><!-- Location of <revisiondesc> if needed -->
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Anna Schwartz Papers, <date type="span" era="ce" calendar="gregorian">1929-2012</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+         <p>
+            <date normal="2012" era="ce" calendar="gregorian">(C) 2012</date> Duke University. All Rights Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC">
+      <did>
+         <head>Descriptive Summary</head>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <origination label="Creator">
+            <persname encodinganalog="100">Schwartz, Anna J. (Anna Jacobson), 1915-2012</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Anna Schwartz papers <unitdate normal="1929/2012" type="inclusive" era="ce" calendar="gregorian">1929-2012</unitdate>
+         </unittitle>
+         <langmaterial label="Language of Material" encodinganalog="546">Material in <language langcode="eng"> English</language>
+         </langmaterial>
+         <physdesc label="Extent">
+            <extent unit="linear feet" encodinganalog="300">23 Linear Feet</extent>
+            <lb/>
+            <extent unit="items">17500 Items</extent>
+         </physdesc>
+         <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+         <abstract label="Abstract" encodinganalog="545">Economist at the National Bureau of Economic Research and collaborator with Milton Friedman on numerous works, including A Monetary History of the United States, 1867-1960. Schwartz also served as the executive director of the United States Gold Commission from 1981 to 1982.</abstract>
+         <abstract encodinganalog="520">Collection consists largely of Schwartz's professional materials, including economics research and subject files on monetary policy, gold, the Federal Reserve, currency, and the 2008 Financial Crisis; collaborations with other economists; correspondence, largely professional but including some personal letters; Gold Commission materials from the 1980s; Shadow Open Market Committee materials; and writings, including lectures and articles by Schwartz. Another significant part of the collection is the Milton Friedman series, which includes correspondence, writings, and other materials relating to Friedman and his work.</abstract>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict encodinganalog="506">
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict encodinganalog="540">
+            <head>Copyright Notice</head>
+            <p>The copyright interests in this collection have been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Anna Schwartz Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo encodinganalog="541">
+            <head>Provenance</head>
+            <p>The Anna Schwartz Papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a 
+gift in 2012. 
+</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Rebecca Evans, Meghan Lyon, September 2012</p>
+            <p>Encoded by Meghan Lyon, September 2012</p>
+            <p>Accession(s) described in this finding aid: 2012-0133</p>
+            <p>This collection is minimally processed: materials may not have been ordered and described beyond their original condition.</p>
+            <p>Descriptive sources and standards used to create this inventory: <title xlink:type="simple" render="italic" xlink:href="">DACS,</title> EAD, NCEAD guidelines, and local <title xlink:type="simple" render="italic" xlink:href="">Style Guide.</title>
+            </p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp>
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Anna Jacobson Schwartz was born in the Bronx in 1915, and attended Barnard College. She initially worked for the U.S. Dept. of Agriculture and the Social Science Research Council, but moved to the National Bureau of Economic Research in 1941 and remained there until her death in 2012. </p>
+         <chronlist>
+            <head>Chronology List</head>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1915 Nov. 10</date>
+               <event>Born in the Bronx, NY, to Hillel Jacobson and Pauline Shainmark. Her birthday began to be celebrated on Nov. 11 after 1918, when Nov. 11 became a holiday.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1934</date>
+               <event>B.A., Barnard College, Phi Beta Kappa</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1935</date>
+               <event>M.A., Columbia University</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1936</date>
+               <event>Worked at the Dept. of Agriculture</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1936</date>
+               <event>Married Isaac Schwartz</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1936-1941</date>
+               <event>Worked at Columbia University Social Science Research Council</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1941</date>
+               <event>Joined the National Bureau of Economic Research</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1953</date>
+               <event>Co-wrote Growth and Fluctuations in the British Economy, 1790-1850: An Historical, Statistical, and Theoretical Study of Britain's Economic Development, with A. Gayer and W.W. Rostow</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1963</date>
+               <event>Co-wrote A Monetary History of the United States, 1867-1960, with Milton Friedman</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1964</date>
+               <event>Ph.D., Columbia University</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1967-1969</date>
+               <event>Adjunct Professor of Economics at City University of New York</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1969-1970</date>
+               <event>Adjunct Professor of Economics at New York University</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1970</date>
+               <event>Co-wrote Monetary Statistics of the United States: Estimates, Sources, Methods, with Milton Friedman</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1981-1982</date>
+               <event>Staff Director of U.S. Gold Commission</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1982</date>
+               <event>Co-wrote Monetary Trends in the United States and the United Kingdom: Their Relation to Income, Prices, and Interest Rates, 1867-1975, with Milton Friedman</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1983</date>
+               <event>Co-wrote The International Transmission of Inflation, with M.R. Darby</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1984</date>
+               <event>Co-wrote A Retrospective on the Classical Gold Standard, 1821-1931, with Michael Bordo</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1987</date>
+               <event>Wrote Money in Historical Perspective</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1987</date>
+               <event>Co-edited The Search for Stable Money: Essays on Monetary Reform, with James A. Dorn</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1987-1988</date>
+               <event>President of the Western Economic Association</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1992</date>
+               <event>Edited Commodity Monies</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">2012 June 21</date>
+               <event>Died following a long illness, NY</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The Anna Schwartz Papers consists largely of Schwartz's professional materials and has been divided into 9 series: Correspondence, Writings, Conferences, Personal Materials, Milton Friedman Materials, Gold Commission, Shadow Open Market Committee, Writings by Others, and the Subject and Research Files Series. </p>
+         <p>Schwartz's Correspondence ranges from her college years through 2012, with the majority of material dating from the 2000s. Correspondence has been arranged chronologically and largely reflects Schwartz's research interests and collaborations with other economists. Particularly in her later years, Schwartz saved various email forwards and printouts on news and economics sent from her correspondents, and those materials are also kept in the Correspondence series. Milton Friedman's correspondence is held in the Milton Friedman Series.</p>
+         <p>Another significant portion of the collection is Schwartz's Subject and Research Files, which include materials on economics, monetary policy, banking, various countries, the Federal Reserve and its many activities, foreign exchange rates and intervention, currency, and many other miscellaneous topics. This series has been arranged alphabetically and has overlaps with other series in the collection, including Schwartz's Writings and Correspondence series.</p>
+         <p>The majority of Schwartz's Writings series related to various lectures and articles by Schwartz, although the series does contain some drafts and edited works from Schwartz's books as well as accompanying material such as appendices or editor correspondence. It has been arranged chronologically, with Schwartz's book reviews consolidated at the beginning of the series. Writings by Friedman, including collaborations between Friedman and Schwartz, are housed in the Milton Friedman Series.</p>
+         <p>Writings By Others is large series that includes drafts and final versions of articles collected or sent to Schwartz by colleagues. Most of these relate to Schwartz's research interests. This series also includes reader reports by Schwartz for various articles. It has been arranged alphabetically by author.</p>
+         <p>Three series reflect Schwartz's professional service. The Conferences Series reflects Schwartz's attendance and involvement in various economic conferences throughout her career. It is arranged alphabetically by conference. The Shadow Open Market Committee Series is a small series reflecting her service on the committee in the 2000s. It includes meeting materials as well as papers presented by Schwartz and other committee members. The Gold Commission Series encompasses materials from Schwartz's service as executive director of the Gold Commission from 1981 to 1982, and includes reports and research materials on gold and the gold standard; drafts, comments, and copies of the final report; and correspondence from the committee and the general public on issues regarding gold.</p>
+         <p>The Milton Friedman Materials Series includes all materials in the Schwartz Papers that relate to Milton Friedman and Schwartz's work with him, including joint writings and collaborations. Correspondence from Friedman is housed in this series. It also includes a large number of Friedman's writings, such as his columns for Newsweek and Wall Street Journal, and articles and talks by Friedman that Schwartz collected over the years. Some of these were drafts or working papers sent to Schwartz by Friedman for comments. Another portion of the series is the Writings About Friedman sub-series, which includes news clippings, essays, Nobel Prize coverage, and obituaries and memorials.</p>
+         <p>The Personal Materials Series includes Schwartz's Barnard College materials, interviews and clippings about Schwartz, versions of her curriculum vitae, and her date books from the 1950s through the 2000s.</p><!-- OPTIONAL: Use Arrangement clip here for Collection Arrangement section -->
+      </scopecontent><!-- Use "Controlaccess Tags" clip here for control access information. -->
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname source="lcsh" encodinganalog="600">Schwartz, Anna Jacobson, 1915-2012</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Friedman, Milton, 1912-2006</persname>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Economists -- United States</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Monetary policy -- United States</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Banks and banking</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Economic history -- United States</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Economic history -- United Kingdom</subject>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">United States -- Economic conditions</corpname>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Depressions -- 1929</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Depressions -- History</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Structural adjustment (Economic policy)--United States</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Gold standard -- United States</subject>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">United States. Federal Open Market Committee</corpname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Shadow Open Market Committee (U.S.)</corpname>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Money -- United States</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Money supply -- United States</subject>
+            </item>
+         </list>
+      </controlaccess><!-- OPTIONAL: Separated material --><!-- OPTIONAL: Related material -->
+      <dsc type="combined">
+         <head>Contents of Collection</head><!-- Enter Container List Here -->
+         <c01 level="series">
+            <did>
+               <unittitle id="s1">Correspondence, <unitdate type="inclusive" normal="1929/2012" era="ce" calendar="gregorian">1929-2012</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(1 box)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>The Correspondence series consists of professional correspondence from throughout Schwartz's career. Materials include handwritten, typed, and email correspondence, with the bulk of the material dating from late in Schwartz's career. Email printouts of articles and other email forwards from Schwartz's contacts are also present in this series. Early correspondence includes courtship letters from Schwartz's husband, Isaac. Correspondence with or directly concerning Milton Friedman is filed in the "Correspondence" subseries within the "Milton Friedman" series.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, 1929-1950s</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, 1960s</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, 1970s</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, 1980s</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, 1990-1995</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, 1996-1997</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, 1998-1999</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, 2000-2002</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, 2003-2005</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, 2006-2007</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, 2008</unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, 2009</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, 2010-2012</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, undated</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s2">Personal Materials, <unitdate type="inclusive" normal="1933/2012" era="ce" calendar="gregorian">1933-2012</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(2 boxes)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>The Personal Materials Series contains materials from Schwartz's college years at Barnard, decades of daybooks with calendars from her various meetings, Schwartz's handwritten phone logs from the early 1980s, resumes, honorary degree materials, and clippings about Schwartz from the 1960s through the 2000s. </p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Barnard College materials, 1933-1934</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Miscellaneous personal materials</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Datebooks, 1950s-1970s</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Datebooks, 1980s-2000s</unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Phone logs, 1981 and undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Resume/c.v., 1988 and 2007</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Clippings and interviews about Schwartz, 1960s-2000s</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Honorary degrees, 2000s</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s3">Conferences, <unitdate type="inclusive" normal="1964/2008" era="ce" calendar="gregorian">1964-2008</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(1 box)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>The Conferences series contains materials from Schwartz's conference participation. Conferences are arranged alphabetically. The series includes programs, correspondence concerning specific events, and copies of speeches given by other participants.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Alex G. McKenna Economic Education Series, St. Vincent College, 30 April 1999</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>American Bankers Association - Conference for University Professors, 1964</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>American Economic Association, 1984 and 2001</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>American Enterprise Institute, 1998 and 2000</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>American Finance Association, 2001</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>American Institute for Economic Research, 2004-2005</unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>AMEX Monetary Unions Conference, 1999</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Asset Price Bubble Conference, 2001-2002</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Bank of England Conference, 2004</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Capital Markets Colloquium, Duke University, 2007</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Carnegie Rochester Conference, 1999</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>CATO Institute Annual Monetary Conference, 1997, 1999, 2002-2003</unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Colloquium on Globalization, UCLA, 1999</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle>Conference in Honor of Milton Friedman's 60th Birthday: scrapbook pages with photographs</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Conference in Honor of Walter Y. Oi, University of Rochester, 1999</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Council on Foreign Relations, 2000 and 2004</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>ECU Conference, 1987</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Federal Reserve Bank of Atlanta Conference on Financial Markets, 1999</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Federal Reserve Bank of Chicago Conferences, 1988 and 1999</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Federal Reserve Bank of New York: Financial Innovation and Monetary Transmission, 2001</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Federal Reserve Bank of St. Louis: Economic Policy Conference, 2007</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Goodhart Festschrift, 2001</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>History of Economic Thought, 1998</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>How to Manage Capital in a World of Permanent Inflation, 1973</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes Schwartz's talk, The Inflation Experience of Other Countries, 1973.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>International Atlantic Economic Society Meeting, 2002</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle>Money, History, and International Finance: Conference Held in Honor of Anna J. Schwartz, 1987: photograph album</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>National Bureau of Economic Research conferences, 1986, 1993, 2001, 2008</unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Political Economy of International Finance, 2000</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Social Science Research Council Conference on the Federal Reserve Board, 1965</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>U. Beogradu Symposium, 1974</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>World Conference on Gold, 1982</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Western Economic Association, 1984 and 2000</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Includes VHS interview of Schwartz, 1984. This item is RESTRICTED until an access copy can be made.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s4">Subject and Research Files</unittitle>
+               <physdesc>
+                  <extent>(5 boxes)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series contains Schwartz's research files on various subjects, comprised of notes, data and tables, and printed materials related to specific topics; some are related directly to specific publications. It is arranged alphabetically by subject. Topics that receive the most coverage include the 2008 financial crisis; banking; business cycles; currency boards; the FDIC, FOMC, and Federal Reserve; gold; the IMF; intervention; and UK economics. There are also a number of files containing worksheets and data from the NBER.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>2008 Financial Crisis</unittitle>
+                  <physdesc>
+                     <extent>(9 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>American Institute for Economic Research</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Argentina, 2001</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Asian Monetary Monitor</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Asset prices</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Austria-Hungary</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Bank of America</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Bank capital</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Bank loan loss deduction</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Bank money computation: P. Cagan: Postal deposits with U.S. Treasury</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Bank of England</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Bank of the United States</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Bank runs</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Banking</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Banking supervision</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Banks, savings and loan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Brazil and Mexico</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Business cycle research</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Charts and graphs, miscellaneous</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Congressional oversight panel for economic stabilization, 2008</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Congressional Record</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Currency</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Currency boards</unittitle>
+                  <physdesc>
+                     <extent>(8 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Currency boards</unittitle>
+                  <physdesc>
+                     <extent>(8 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Exchange Stabilization Fund (ESF)</unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Exchange rate policy</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>FDIC and FDIC reform</unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Federal Open Market Committee (FOMC)</unittitle>
+                  <physdesc>
+                     <extent>(13 folders)</extent>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>Includes meeting minutes and transcripts.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Federal Reserve Board</unittitle>
+                  <physdesc>
+                     <extent>(15 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Foreign currency</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Foreign exchange rates</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Free banking</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Free gold</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Gold</unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>International Monetary Fund (IMF)</unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Intervention</unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Intervention</unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>Includes History of Foreign Exchange Market Invention project notes.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Interwar world trade</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Ireland</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Italy</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Japan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Miscellaneous Newsletters and Printouts</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Monetarism</unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Monetary Control Act of 1980</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Monetary policy</unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Money stock</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>National Bureau of Economic Research (NBER)</unittitle>
+                  <physdesc>
+                     <extent>(12 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Notes, handwritten</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Reforming financial markets</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Reserves: Actual versus Required</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Shadow Financial Regulatory Committee, 1989-1998</unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>System Open Market Account (SOMA)</unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Sovereign bankruptcy</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Supreme Court: Petitioner's Brief, Samson Taiwo Dada</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Treasury Select Committee, 2009</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>United Kingdom</unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>U.S. Senate</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>U.S. stabilization agreements</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Vault cash worksheets</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Harry Dexter White</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s5">Writings, <unitdate type="inclusive" normal="1953/2009" era="ce" calendar="gregorian">1953-2009</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(2 boxes)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>The Writings series is arranged chronologically and consists of Schwartz's lectures and publications (some of which are co-authored) as well as drafts of both published and unpublished pieces. Materials related to Schwartz's publications, such as book reviews and edits, are also included under the title of that publication. A significant part of the series consists of drafts of A History of Official Foreign Exchange Market Intervention, a manuscript on which Schwartz was collaborating with Michael Bordo and Owen Humpage. Small amounts of correspondence directly related to the publication of various works is filed with those works. Projects on which Schwartz collaborated with Milton Friedman are in the "Milton Friedman" series; research for various writing projects can be found in the "Subject Files and Research" series.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Book reviews by Schwartz, 1984-2007</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>State Banks, 1942</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Growth and Fluctuation reviews, 1953-1954 and 1971</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Untitled manuscript draft and appendices, 1982</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>The Service Flows of Money drafts, 1984-1985</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>A European Central Bank, 1990</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Currency Boards, 1993</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>The Performance of the Federal Research in Pursuing International Monetary Objectives, 1994</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>The Performance and Stabilization of Banking Systems Under Self-Regulation, 1995</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Co-authored with Michael Bordo.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>European Monetary Union, 1996</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Mexican Loan Repayment Sleight of Hand, 1996</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>From Obscurity to Notoriety, 1997</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Central Banking in a Democracy, 1997</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Time to Terminate the ESF and IMF, 1998</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Declaration for Lawsuit Challenging the Mexican Bailout of 1995, 1998</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>What Europe Can Learn from the Fed, Wall Street Journal, 1998</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Monetary Policy Reforms, 1999</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Co-authored with Michael Bordo.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Measuring Real Economic Effects of Bailouts, 1999</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+               <scopecontent>
+                  <p>Co-authored with Michael Bordo.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>The Rise and Fall of Foreign Exchange Market Intervention as a Policy Tool, 2000</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Was Expansionary Monetary Policy Feasible During the Great Contraction? An Examination of Gold Standard Constraint, 2000</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Co-authored with Michael Bordo and Choundhri.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>From the Exchange Stabilization Fund to the International Monetary Fund, 2001</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Co-authored with Michael Bordo.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Comment on the Optimal Choice of Exchange-Rate Regime, 2001</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Earmarks of a Lender of Last Resort, 2001-2002</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>The IMF's Dubious Proposal for a Universal Bankruptcy Law for Sovereign Debtors, 2003</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Aftermath of the Monetarist Clash with the Federal Reserve Before and During the Volcker Era, 2004</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Bretton Woods, 2004</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Global Order and the Future of the Euro, 2004</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Dealing with Exchange Rate Protectionism, 2005</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Gold, Policy Expectations, and Financial Markets During the Great Depression, 2005</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Money Supply, 2005-2007</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>David Laidler on Monetarism, 2006</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Co-authored with Michael Bordo.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Globalization, 2007</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Is there a need for an International Lender of Last Resort?, 2007</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Is Redefinition Needed of the Aims of the Mont Pelerin Society 60 Years After Their Formation?, 2007</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Why a Dual Mandate is Wrong For Monetary Policy, 2008</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Co-authored with Walker Todd. Also known as "The Confusion of Nominal Monetary Policies and Real Outcomes at the Federal Reserve."</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Monetary Economics Research at the St. Louis Fed During Ted Balbach's Tenure as Research Director, 2008</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Co-authored with Michael Bordo.</p>
+               </scopecontent>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Questions the Senate Finance Committee Could have Asked T. Geithner and the Answers He Should have Given, 2009</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>General collaborations with Walker Todd, 1990-2009</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>How to Avoid an International Financial Crisis, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>How the Relationship between the Federal Reserve and the Academic Community of Monetary Economists Has Changed Over Time, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Has the Fed Forgotten the Lessons of the Peace Time Inflation of 1965-1979?, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>The Fed in the 1920s and 1930s, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Monetarism, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Origins of the Financial Market Crisis of 2008, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>What Future for the IMF?, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>My Answers to your Questions, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>History of Foreign Exchange Market Intervention materials, with Michael Bordo, 2006-2007 and undated</unittitle>
+                  <physdesc>
+                     <extent>(29 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Incomplete pieces of writings and articles, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Contracts and agreements, 2004-2009</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s6">Gold Commission, <unitdate type="inclusive" normal="1974/1985" era="ce" calendar="gregorian">1974-1985</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(2 boxes)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series covers Schwartz's work with Gold Commission, which was appointed to consider the possibility of returning to the gold standard. Schwartz was the Staff Director from 1981-1982. The series includes transcripts and minutes; memos; statements and testimonials given before the commission; questionnaires filled out by members of the commission; correspondence sent to and within the commission; and research files (articles, reports, notes, and data tables).</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Transcripts, 1981-1982</unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Memos, 1981-1982</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>November 1981 statements before the Gold Commission</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>December 1981 questionnaire</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Statements, 1980-1981</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Miscellaneous papers</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Publicity and clippings</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Gold Commission Report outline</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Report of the Commission on the Role of Gold in the Domestic and International Monetary Systems, volumes 1 and 2, March 1982</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Report suggestions, recommendations, and comments</unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Report suggestions, recommendations, and comments</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Report suggestions, recommendations, and comments from Chalmers P. Wylie</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Gold Commission proposal with edits</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Consolidated gold fields - limited reports, 1974-1981</unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Committee on Interior and Exterior Affairs on Feasibility of Return to Gold Standard, 1980</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Thomas Wolfe, "Report on World Production, Marketing, and Use of Gold," undated, and "Structure of World Gold Stocks," 1977</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>David Glasner, "A Reinterpretation of Classical Monetary Theory," 1982-1983</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Edgar Schoen, The Undisciplined Dollar, 1980</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Data from Ramachandra Bhagavatula, 1981</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Gold Commission articles, 1952-1984 and undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Gold Commission reports and articles, 1974-1985</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Articles on the gold standard, 1978-1985 and undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Articles on the gold standard, 1979-1980</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Reports, 1981</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>"Gold in International Monetary Law," Journal of International Law and Economics, 1981</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Gold Commission notes</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Tables and reports</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Data and tables</unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Correspondence, 1 June 1981-1982 and undated</unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s7">Shadow Open Market Committee, <unitdate type="inclusive" normal="1998/2006" era="ce" calendar="gregorian">1998-2006</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(1 box)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series documents Schwartz's participation in the Shadow Open Market Committee, which was founded in 1973 to independently evaluate and critique the actions of the Federal Reserve's Open Market Committee. The series contains materials from the biannual meetings, including folders, programs, research, notes, and papers presented by Schwartz and other members, from 2000 to 2006, as well as a 2002 article about the SOMC.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>European Shadow Financial Regulatory Committee statements, 1998-1999</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>13 November 2000 meeting</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>30 April 2001 meeting</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>14-15 October 2001 meeting</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>14-15 April 2002 meeting</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>18 November 2002 meeting</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>2002 meeting data</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>18-19 May 2003 meeting</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>2 May 2004 meeting</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>14-15 November 2004 meeting</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>1-2 May 2005 meeting</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>4-5 December 2005 meeting</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>7-8 May 2006 meeting</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>Charles Plosser, "Monetary Policy: A Shadow Perspective," 2002</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s8">Milton Friedman Materials, <unitdate type="inclusive" normal="1952/2008" era="ce" calendar="gregorian">1952-2008</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(3 boxes)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This series covers Schwartz's longstanding collaboration with Nobel Prize-winning economist Milton Friedman of the University of Chicago. It is divided into three subseries: Writings, Writings About Milton Friedman, and Correspondence. The Writings subseries contains Friedman's columns for Newsweek and the Wall Street Journal along with other journalistic pieces; privately circulated memorandums; talks and articles from throughout his career, including drafts; and materials relating to four major projects: A Monetary History of the United States, 1867-1960, Monetary Trends in the United States and the United Kingdom, and "Monetary Statistics of the United States," all co-authored with Schwartz, and The Essence of Friedman, a collection of previously published essays. The Writings About Milton Friedman subseries includes both journalistic clippings and academic articles and is arranged chronologically, with separate folders devoted to interviews, the 1976 Nobel, and obituaries/memorials. The Correspondence subseries mostly contains Friedman's extensive correspondence with Schwartz concerning their collaborations in the 1960s and 1970s, although it also includes letters to and from other colleagues. It is arranged chronologically with the exception of a few subject-specific files. Correspondence not directly concerning Milton Friedman is filed in the general "Correspondence" series.
+</p>
+            </scopecontent>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Writings</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle>Memorandums, 1965-1986</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle>Newsweek articles, 1966-1986</unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle>Wall Street Journal articles, 1974-1998</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle>Journalism, 1973-1989 and undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle>Articles listed in AEA Index of Economic Journals</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <unittitle>Articles and Talks, 1952-1998 and undated</unittitle>
+                  </did>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Classical Counterrevolution in Monetary Theory and Policy, 1952</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>
+Why the American Economy is Depression-Proof, 1954</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>A Statistical Illusion in Judging Keynesian Models, 1957</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Permanent Income Hypothesis, 1958</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Foreign Economic Aid, 1958</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Consumption and Saving; "Horizon" in the Permanent Income Hypothesis, 1959</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>The Demand for Money: Some Theoretical and Empirical Results, 1959</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Judging the Predictive Abilities of the Quantity and Income Expenditure Theories, 1959</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>The Demand for Money, 1961-1962</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>The Lag in Effect of Monetary Policy, 1961</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>The Report of the Commission on Money and Credit: An Essay in Petitio Principii, 1961</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Should there be an Independent Monetary Authority?, 1962</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Statement at Hearings of Banking and Currency Commission, House of Representatives, 1964</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Henry Simons Lecture, University of Chicago: The Monetary Theory and Policy of Henry Simons, 1967</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>The Role of Monetary Policy: AEA Presidential Address, 1967</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>International Encyclopedia of Social Sciences entries, 1968</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Fiscal and Monetary Policy talk in Geneva at Bache Institute, 1969</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Euro-Dollar Market: Some First Principles, 1969</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Controls on Interest Rates Paid by Banks, 1970</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>A Theoretical Framework for Monetary Analysis, 1970</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>A Quantity Theory of Money, 1970</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>"Money" for Encyclopedia Britannica, 1970</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Irresponsible Monetary Policy, 1971</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>"Monetary Policy" draft for symposium of American Philosophical Society, 1971</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Monetary Aggregates and Monetary Policy, 1971</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Statement for Joint Economic Committee hearing "How Well are Fluctuating Exchange Rates Working?" 1973</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Inflation and Unemployment, 1976</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Nobel Banquet response, 1976</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Adam Smith's Relevance for 1976</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Prices of Money and Goods Across Frontiers: the Pound and Dollar over a Century, 1980</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Monetary Policy: Theory and Practice, JMCB lecture and article, 1981-1982</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Monetary Society for a Free Society, 1981</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>What Could Reasonably Have Been Expected from Monetarism: the U.S., 1983</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Lessons from the 1979-1982 Monetary Policy Experiment, 1984</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">11</container>
+                        <unittitle>Comment on Leland Yeager's Paper on the Keynesian Heritage, 1984</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>Tribute to Arthur Burns, 1987</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>The Political Clout of the Elderly, 1988</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>Merits of Flexible Exchange Rates anthology, 1988</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>Exchange Rate in a Fiat Money World, 1988</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>John Maynard Keynes: Working Papers in Economics, 1988</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>Using the Market for Social Development, 1989</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>Fraser Forum, 1989</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>Views on the State of Affairs, 1989</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>The Adam Smith Address: Suicidal Impulse of the Business Community, 1990</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>Why Government is the Problem, 1991</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>Speaking to Oppenheimer Clients, 1991-1992</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>Economic Freedom, Human Freedom, Political Freedom, 1991</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>Churning Your Money at the Friendly Fed, 1993</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>"Plucking Model" of Business Fluctuations Revisited, 1993</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>The Euro, 1997</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>If Only the U.S. was as Free as Hong Kong, 1998</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>Britain: 1952-1954 (from Two Lucky People), undated</unittitle>
+                     </did>
+                  </c04>
+                  <c04 level="file">
+                     <did>
+                        <container type="box">12</container>
+                        <unittitle>Tradeoffs in Monetary Policy, undated</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>Positive Economics reviews, 1954</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>Monetary versus Fiscal Policy, with Walter Heller, 1969</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>Monetary History of the United States, with Anna Schwartz, reviews and articles, 1964-2000</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>Monetary History of the United States edits and corrections, 1964-1978</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>CATO forum on Monetary History text, 2003</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>Anti-Semitism, Banks, and the Great Depression, 1974</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>Monetary Statistics of the United States reviews, 1969-1974</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>Monetary Trends in the United States and United Kingdom reviews and corrections, 1982-1984</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>Trends in Money, Income, and Prices - correspondence re: revisions, 1966-1967</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>Essence of Freedom drafts</unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>Silver Memorandum and the Crime of 1873, 1988</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>Two Lucky People reviews, 1998</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>The Great Contraction, 2008 edition</unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>"Life on the Hook" Friedman autobiography (?), undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>Untitled and undated comments by Milton Friedman</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Correspondence</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>Correspondence, May 1956-July 1999</unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>Correspondence between Friedman, Schwartz, and Meltzer re: Proxmire's letter to Burns, 1973-1974</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Correspondence with Joe Cobb re: Gold Coinage Act, 1981</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Correspondence with Schwartz, Hetzel, and A. Orphanides re: Orphanides' paper, "The Quest for Prosperity without Inflation," May-July 1999</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Correspondence, undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Writings about Friedman</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Clippings, 1968-2008 and undated</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Interviews, 1973-2007</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Nobel Prize, 1976</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Rose Friedman, "Milton Friedman: Husband and Colleague," 1976-1977</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Bo Axell and Birgitta Swedenborg, "Milton Friedman och ekonomipriset," 1977</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Anna Schwartz, "Milton Friedman," 1979</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Alan Walters, "Milton Friedman," with correspondence, 1985</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Jonathan Peterson, "The Captain of Capitalism," 1986</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Robert Hetzel, "Development and Influence of the Ideas of Milton Friedman," 1997</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Pacific Research Institute, "Milton Friedman," 1997</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Deirdre McCloskey, "Milton," 2003</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Richard Timberlake, "Golden Facades," and correspondence, 2004</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Michel de Vroey, "On the Right Side for the Wrong Reason," 2004</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Costas Meghir, "A Retrospective on Friedman's Theory of Permanent Income," 2004</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>John Ward, "The View from Up There," 2006</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Robert Hetzel, "The Contributions of Milton Friedman to Economics," 2006</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Obituaries and memorials, 2006-2007</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>David Laidler's review of Lanny Ebenstein's Milton Friedman, 2007</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Edward Nelson, "Milton Friedman and U.S. Monetary History," 2007</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Anna Schwartz and Edward Nelson responses to Paul Krugman, 2007-2008</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>Macesich, "Dictionary of the History of American Banking," undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Xeroxed photographs of Friedman</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Events and programs in Friedman's honor</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Miscellaneous unlabelled materials, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">18</container>
+                  <unittitle>Conference in Honor of Milton Friedman's 60th Birthday: scrapbook pages with photographs (also listed above in Conferences Series)</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s9">Writings by Others, 1932-2009</unittitle>
+               <physdesc>
+                  <extent>(5 boxes)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>The Writings by Others series is arranged alphabetically by last name and contains both drafts and published pieces by Schwartz's colleagues and other notable figures. Several writers receive a significant amount of coverage: Michael Bordo, Charles Calomiris, Robert Hetzel, Edward Kane, Allan Meltzer, and Scott Sumner. The "Referee's Reports" subseries is devoted to Schwartz's editorial work providing reader's reports.</p>
+            </scopecontent>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Abrams, Burton</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Alvarez, Atkeson, Edmund</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Ball, Lawrence</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Benderly, Jason and Burton Zwick</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Bernanke, Ben</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Blair, Tony</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Blinder, Alan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Bordo, Michael</unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Brenner, Reuben and Gabrielle</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Brunner, Karl</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Buiter, William</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Cagan, Phillip</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Calomiris, Charles</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Capie, Forrest</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Cachetti, Genberg, Lipsky, Wadhwani</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Collins, Michael</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Demyanyk, Y., et al.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Dorn, James A.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Eggertsson, Gauti</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Fand, David</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Feldstein, Martin</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Flandreau, Marc</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Gandolfi, Gandolfi, and Barash</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>George, Eddie</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Greenspan, Alan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Grilli, Enzo, and Maw Cheng Yang</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Hanke, Steve</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Hetzel, Robert</unittitle>
+                  <physdesc>
+                     <extent>(10 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Humpage, Owen</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Humphrey, Thomas</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Irwin, Douglas</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Kane, Edward</unittitle>
+                  <physdesc>
+                     <extent>(4 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Kaufman, George</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Kroos, Herman (essays in memorial)</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Laidler, David</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Lastrapes, William and George Selgin</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Levin, Andrew and John Taylor</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Lindbeck, Assar et al.</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Mason, Joseph</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>McCallum, Bennett</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Meltzer, Allan</unittitle>
+                  <physdesc>
+                     <extent>(7 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Meltzer, Allan</unittitle>
+                  <physdesc>
+                     <extent>(10 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Myers, Beckhart, Smith, and Brown</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Neal, Larry and Daniel Barzebat</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Nelson, Edward</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Nishimura, Shizuya</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Obstfeld, Maurice</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Officer, Lawrence</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Overturf, Steven</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Reitz, Stefan and Mark Taylor</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Rich, George</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Reinhart, Carmen and Kenneth Rogoff</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Sarno, Lucio, and Mark Taylor</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Schneider, Erich</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Schwartz, David</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Schwartz, Joel</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Selgin, George</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Silver, Andrew</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle>Summer, Scott</unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle>Taylor, James</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle>Thornton, Daniel</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle>Timberlake, Richard and Kevin David</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle>Todd, Walker</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle>Veronesi, Paul and L. Zingales</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle>Warburton, Peter</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle>Weber, E. Juerg</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">16</container>
+                  <unittitle>Weller, Christian and Jurgen von Hagan</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle>Wood, Geoffrey</unittitle>
+               </did>
+            </c02>
+            <c02 level="file">
+               <did>
+                  <container type="box">17</container>
+                  <unittitle>Untitled U.S. Exchange Rate paper, undated</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Referee Reports</unittitle>
+               </did>
+               <c03 level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>Burdekin, Richard: Nontraditional Monetary Policy Options, 2004-2005</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>Frankel, Jeremy: A Proposed Monetary Regime for Small Commodity Exporters, 2002</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>Hanes, Christopher: The Liquidity Trap and U.S. Interest Rates in the 1930s, 2003</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>Hetzel, Robert</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>Rockoff, Hugh</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>Schnabel, Isabel: The Role of Liquidity and Implicit Guarantees in the German Twin Crisis of 1931, 2005</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>Selgin, George and Lawrence White: Credible Currency, 2001</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>Werner, Richard: The Historical Rationale of Credit Direction Policies, 2003</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>White, Lawrence: Did Hayek and Robbins Deepen the Great Depression?, 2007</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>Wood, John: Companies of Merchants, 2002-2003</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>Extending the Friedman-Schwartz Monetary Base, the Balance of Payments, and U.S. Economic Performance by Period, 1789-1932, 2000 (no author)</unittitle>
+                  </did>
+               </c03>
+               <c03 level="file">
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>Fixed Exchange Rates Under a Currency Board versus a Central Bank, 2004 (no author)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

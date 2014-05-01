@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Silas Weir Mitchell papers, 1854-1915 and undated)//EN" url="http://library.duke.edu/rubenstein/findingaids/mitchellsilas/">mitchellsilas</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Silas Weir Mitchell papers,
+			<date normal="1854/1915" era="ce" calendar="gregorian">1854-1915 and undated</date>
+            </titleproper>
+            <author>Processed by: Paula Jeannet Mangiafico; machine-readable finding aid created by: Paula Jeannet Mangiafico</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>
+               <lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+            <p>
+               <date normal="2013" encodinganalog="date" era="ce" calendar="gregorian"> 2013</date> Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002169672</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+            <date era="ce" calendar="gregorian">Date of source: August 2013</date>
+            <lb/>Processed by Paula Jeannet Mangiafico, August 2013; finding aid encoded by Paula Jeannet Mangiafico, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, <date era="ce" calendar="gregorian">August 2013</date>
+         </creation>
+         <langusage>Description is in <language langcode="eng">English</language>
+         </langusage>
+         <descrules>Finding aid was prepared using <title xlink:type="simple" xlink:href="">DACS</title> and local <title xlink:type="simple" xlink:href="">Style Guide</title>
+         </descrules>
+      </profiledesc><!-- Location of <revisiondesc> if needed -->
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Silas Weir Mitchell papers, <date type="span" era="ce" calendar="gregorian">1854-1915 and undated</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+         <p>
+            <date normal="2013" era="ce" calendar="gregorian">(C) 2013</date> Duke University. All Rights Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC">
+      <did>
+         <head>Descriptive Summary</head>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <origination label="Creator">
+            <persname encodinganalog="100">Mitchell, S. Weir (Silas Weir), 1829-1914.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Silas Weir Mitchell papers <unitdate normal="1854/1915" type="inclusive" era="ce" calendar="gregorian">1854-1915 and undated</unitdate>
+         </unittitle>
+         <langmaterial label="Language of Material" encodinganalog="546">Material in<language langcode="eng">English</language>
+         </langmaterial>
+         <physdesc label="Extent">
+            <extent unit="linear feet" encodinganalog="300">1.2 Linear Feet</extent>
+            <lb/>
+            <extent unit="items">747 Items</extent>
+         </physdesc>
+         <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+         <abstract label="Abstract" encodinganalog="545">U.S. physician and author.</abstract>
+         <abstract encodinganalog="520">Papers include documents and correspondence relating to matters personal and professional. Mitchell's principal correspondents include his relative Mitchell Henry, his publisher Frank H. Scott, Oliver Wendell Holmes, Jeffries Wyman, Charles-Eduoard Brown-Seguard, Louis Agassiz, Elizabeth Cabot Cary Agassiz, Anna Eliot Ticknor, W. T. Gairdner, Louis Lee Lawrence, Charles Leonard Moore, Julian Stafford Corbett, Harrison S. Morris, T. Lauder Brunton, William Osler and Hideyo Noguchi, among others. A complete list of correspondents is available in the collection. Papers are arranged chronologically. The principal language is English, although there are some letters in French and German. The papers form part of the Trent Manuscripts Collection and were acquired as part of the History of Medicine Collections at Duke University.</abstract>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict encodinganalog="506">
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict encodinganalog="540">
+            <head>Copyright Notice</head>
+            <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Silas Weir Mitchell Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo encodinganalog="541">
+            <head>Provenance</head>
+            <p>The Silas Weir Mitchell papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a
+transfer in 2011.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Paula Jeannet Mangiafico, August 2013</p>
+            <p>Encoded by Paula Jeannet Mangiafico, August 2013</p>
+            <p>Descriptive sources and standards used to create this inventory: <title xlink:type="simple" render="italic" xlink:href="">DACS,</title> EAD, NCEAD guidelines, and local <title xlink:type="simple" render="italic" xlink:href="">Style Guide.</title>
+            </p>
+         </processinfo>
+      </descgrp><!--end of finding aid header-->
+      <bioghist>
+         <head>Biographical Note</head>
+         <p>Silas W. Mitchell is considered a pioneer in the field of neurology.  Born in Philadelphia into a family of physicians, he earned his medical degree at the Jefferson Medical College, University of Pennsylvania, in 1850.  His interest in neurology grew out of his experience treating nervous disorders in soldiers during the Civil War. He is well-known for his use of the "rest cure" for hysteria and neurasthenia, particularly in women. He also advocated electrotherapy and massage. He was elected president of the Association of American Physicians in 1887 and served as a founder and president of the American Neurological Association in 1908-1909.  Mitchell was also an expert on snake venom, a patron of the arts, and produced many literary works, including poetry, novels and short stories. He died in 1914 after contracting influenza.</p><!-- Use Chronlist Tags clip here for Chronology -->
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Collection of physician Silas Weir Mitchell's papers date from 1854-1915 and consists of over 700 documents and correspondence sent to Dr. Mitchell relating to matters both personal and professional.  Transcripts are often available.  Mitchell's principal correspondents in this collection include his relative Mitchell Henry, his publisher Frank H. Scott, Oliver Wendell Holmes, Jeffries Wyman, Charles-Eduoard Brown-Seguard, Louis Agassiz, Elizabeth Cabot Cary Agassiz, Anna Eliot Ticknor, W. T. Gairdner, Louis Lee Lawrence, Charles Leonard Moore, Julian Stafford Corbett, Harrison S. Morris, T. Lauder Brunton, William Osler and Hideyo Noguchi, among others.  A complete list of correspondents is available in the first box of the collection. Papers are arranged chronologically. The principal language is English, although there are some letters in French and German.</p>
+         <p>The papers form part of the Trent Manuscripts Collection and were acquired as part of the History of Medicine Collections at Duke University.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname source="lcsh" encodinganalog="600">Mitchell, S. Weir (Silas Weir), 1829-1914</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Holmes, Oliver Wendell, 1809-1894</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Wyman, Jeffries, 1814-1874</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Brown-Séquard, Charles-Edouard, 1817-1894</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Agassiz, Louis, 1807-1873</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Agassiz, Elizabeth Cabot Cary, 1822-1907</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Ticknor, Anna Eliot, 1823-1896</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Gairdner, W. T.(William Tennant), Sir, 1824-1907</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Moore, Charles Leonard, b. 1854</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Corbett, Julian Stafford,Sir, 1854-1922</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Morris, Harrison S.(Harrison Smith), 1856-1948</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Morris, Harrison S.(Harrison Smith), 1856-1948</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Brunton, T. Lauder(Thomas Lauder), 1844-1916</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Osler, William, Sir, 1849-1919</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Noguchi, Hideyo, 1876-1928</persname>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Neurology -- History</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Physicians -- Correspondence</subject>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="710">History of Medicine Collections (Duke University)</corpname>
+            </item>
+         </list>
+      </controlaccess><!-- OPTIONAL: Separated material --><!-- OPTIONAL: Related material -->
+      <dsc type="combined">
+         <head>Contents of Collection</head><!-- Enter Container List Here -->
+         <c01 level="series">
+            <did>
+               <unittitle id="s1">Silas Weir Mitchell papers, <unitdate type="inclusive" normal="1854/1915" era="ce" calendar="gregorian">1854-1915 and undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(2 boxes)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <head>Collection Overview</head>
+               <p>A complete list of correspondents by folder is available in Box 1.  Papers are arranged chronologically, with the great majority being correspondence sent to Dr. Silas Weir Mitchell.  Transcripts are often present.  Undated materials are in a folder at the end of the sequence.</p><!-- OPTIONAL: Use Arrangement clip here for Collection Arrangement section -->
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">1</container>
+                  <unittitle>1854-1862</unittitle>
+                  <physdesc>
+                     <extent>(20 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">2</container>
+                  <unittitle>1863-1865</unittitle>
+                  <physdesc>
+                     <extent>(18 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">3</container>
+                  <unittitle>1866-1868</unittitle>
+                  <physdesc>
+                     <extent>(18 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">4</container>
+                  <unittitle>1869-1877</unittitle>
+                  <physdesc>
+                     <extent>(18 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">5</container>
+                  <unittitle>1878-1879</unittitle>
+                  <physdesc>
+                     <extent>(8 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">6</container>
+                  <unittitle>1880-1883</unittitle>
+                  <physdesc>
+                     <extent>(26 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">7</container>
+                  <unittitle>1884-1885</unittitle>
+                  <physdesc>
+                     <extent>(14 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">8</container>
+                  <unittitle>1886</unittitle>
+                  <physdesc>
+                     <extent>(22 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">9</container>
+                  <unittitle>1887-1889</unittitle>
+                  <physdesc>
+                     <extent>(32 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">10</container>
+                  <unittitle>1890</unittitle>
+                  <physdesc>
+                     <extent>(16 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">11</container>
+                  <unittitle>1891</unittitle>
+                  <physdesc>
+                     <extent>(24 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">12</container>
+                  <unittitle>1884-1885</unittitle>
+                  <physdesc>
+                     <extent>(14 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">13</container>
+                  <unittitle>1892</unittitle>
+                  <physdesc>
+                     <extent>(43 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">14</container>
+                  <unittitle>1893</unittitle>
+                  <physdesc>
+                     <extent>(19 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">15</container>
+                  <unittitle>1894</unittitle>
+                  <physdesc>
+                     <extent>(15 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">16</container>
+                  <unittitle>1895</unittitle>
+                  <physdesc>
+                     <extent>(26 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">17</container>
+                  <unittitle>1896</unittitle>
+                  <physdesc>
+                     <extent>(22 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <container type="folder">18</container>
+                  <unittitle>1897</unittitle>
+                  <physdesc>
+                     <extent>(27 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">1</container>
+                  <unittitle>1898</unittitle>
+                  <physdesc>
+                     <extent>(24 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">2</container>
+                  <unittitle>1899-1900</unittitle>
+                  <physdesc>
+                     <extent>(33 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">3</container>
+                  <unittitle>1901</unittitle>
+                  <physdesc>
+                     <extent>(10 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">4</container>
+                  <unittitle>1901</unittitle>
+                  <physdesc>
+                     <extent>(10 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">5</container>
+                  <unittitle>1902</unittitle>
+                  <physdesc>
+                     <extent>(25 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">6</container>
+                  <unittitle>1903</unittitle>
+                  <physdesc>
+                     <extent>(18 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">7</container>
+                  <unittitle>1904</unittitle>
+                  <physdesc>
+                     <extent>(21 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">8</container>
+                  <unittitle>1905</unittitle>
+                  <physdesc>
+                     <extent>(18 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">9</container>
+                  <unittitle>1906-1907</unittitle>
+                  <physdesc>
+                     <extent>(35 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">10</container>
+                  <unittitle>1908</unittitle>
+                  <physdesc>
+                     <extent>(26 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">11</container>
+                  <unittitle>1909</unittitle>
+                  <physdesc>
+                     <extent>(24 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">12</container>
+                  <unittitle>1910</unittitle>
+                  <physdesc>
+                     <extent>(25 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">13</container>
+                  <unittitle>1911</unittitle>
+                  <physdesc>
+                     <extent>(15 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">14</container>
+                  <unittitle>1912</unittitle>
+                  <physdesc>
+                     <extent>(12 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">15</container>
+                  <unittitle>1913-1915</unittitle>
+                  <physdesc>
+                     <extent>(34 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <container type="folder">16</container>
+                  <unittitle>Undated materials</unittitle>
+                  <physdesc>
+                     <extent>(61 items)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

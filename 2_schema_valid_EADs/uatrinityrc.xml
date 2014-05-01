@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" findaidstatus="edited-full-draft" langencoding="iso639-2b" relatedencoding="Dublin Core" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//Duke University::University Archives//TEXT (US::ndd::::Trinity College (Randolph County, N.C.) collection )//EN" url="http://library.duke.edu/rubenstein/findingaids/uatrinityrc/">uatrinityrc</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper encodinganalog="title">Guide to the Trinity College (Randolph County,
+               N.C.) collection, <date type="span" normal="1836/1990" era="ce" calendar="gregorian">1836-1990</date>
+            </titleproper>
+            <author encodinganalog="creator">Machine-readable finding aid created by: Kimberly
+               Sims</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>University Archives<lb/>Duke University</publisher>
+            <address>
+               <addressline>Durham, N.C., U.S.A.</addressline>
+            </address>
+            <p>
+               <date normal="2002" encodinganalog="date" era="ce" calendar="gregorian"> 2002</date> Duke University. All Rights
+               Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">003205735</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+            <date era="ce" calendar="gregorian">Date of source: January 2007</date>
+         </creation>
+         <langusage>Finding aid written in <language encodinganalog="language">English</language>
+         </langusage>
+      </profiledesc><!-- Location of <revisiondesc> if needed> -->
+      <revisiondesc>
+         <change>
+            <date normal="2006" era="ce" calendar="gregorian">05-01-2006</date>
+            <item>PUBLIC "-//Duke University::University Archives//TEXT (US::ndd::::Trinity College
+               (Randolph County, N.C.) collection )//EN" uatrinityrc.xml converted from EAD 1.0 to
+               2002 by v1to02.xsl (sy2003-10-15).</item>
+            <item>Also, the top level of the finding aid (above the dsc) was changed to conform to
+               the NC EAD Best Practice Guidelines. Within the dsc, dates for series were
+               normalized.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Trinity College (Randolph County, N.C.) collection, <date type="span" era="ce" calendar="gregorian">1836-1990</date>
+         </titleproper>
+         <publisher>Duke University Archives<lb/>
+            <lb/>Durham, North Carolina 27708-0202 USA</publisher>
+         <p>
+            <date normal="2007" era="ce" calendar="gregorian"> 2007</date> Duke University. All Rights Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC">
+      <did>
+         <head>Descriptive Summary</head>
+         <repository label="Repository" encodinganalog="710">
+            <corpname>University Archives, Duke University.</corpname>
+         </repository>
+         <origination label="Creator">
+            <corpname encodinganalog="710">University Archives, Duke University.</corpname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Trinity College (Randolph County, N.C.)
+            collection <unitdate normal="1836/1990" type="inclusive" era="ce" calendar="gregorian">1836-1990.</unitdate>
+         </unittitle>
+         <physdesc label="Extent">
+            <extent encodinganalog="300">600 Items, </extent>
+            <extent>20.3 linear feet</extent>
+         </physdesc>
+         <physloc label="Location">For current information on the location of these materials,
+            please consult Duke University Archives.</physloc>
+         <abstract label="Abstract" encodinganalog="545">In 1841, Trinity College in Randolph
+            County, N.C. was first formally chartered as Union Institute formed by the Union
+            Institution Society, a group of Methodists and Quakers. Braxton Craven became head of
+            the institution in 1842. The school was rechartered in 1851 as Normal College, and its
+            graduates were licensed to teach in the public schools of the state. In 1859, the name
+            of the institution changed to Trinity College upon affiliation with the Methodist
+            Church. John Franklin Crowell became president of Trinity College in 1887; Trinity
+            College relocated to Durham, N.C. in 1892. This artificial reference collection consists
+            of photocopies of correspondence, diaries, printed material, and articles dealing with
+            Union Institute, Normal College, and Trinity College in Randolph County, N.C. </abstract>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict encodinganalog="506">
+            <head>Access Restrictions</head>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center.  The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>No restrictions.</p>
+         </accessrestrict>
+         <acqinfo encodinganalog="541">
+            <head>Acquisitions Information</head>
+            <p>The source and provenance for this collection cannot be traced. </p>
+         </acqinfo>
+         <prefercite encodinganalog="524">
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Trinity College (Randolph County, N.C.) Collection,
+               Duke University Archives, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <userestrict encodinganalog="500">
+            <head>Use Restrictions</head>
+            <p>Copyright for official University records is held by Duke University; all other
+               copyright is retained by the authors of items in these papers, or their descendants,
+               as stipulated by United States copyright law. </p>
+         </userestrict>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Torrence N. Thomas, May 2000; Jill Katte, October 2002; Kimberly Sims,
+               January 2007</p>
+            <p>Encoded by Joshua McKim, December 2002; Kimberly Sims, January 2007</p>
+            <p>Updated by Molly Bragg, August 2011</p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp>
+      <bioghist encodinganalog="545$a">
+         <head>Historical Note</head>
+         <p>Trinity College began as Brown's Schoolhouse in Randolph County, N.C., a private
+            subscription school led by Brantley York, who became the principal in 1838. A year
+            later, Brown's Schoolhouse was formally organized by the Union Institution Society, a
+            group of Methodists and Quakers. In 1841, the State of North Carolina issued a charter
+            for Union Institute, turning it into an academy. In 1842, Braxton Craven became head of
+            the institution. The school was rechartered in 1851 by the Legislature of the State of
+            North Carolina as Normal College, and its graduates were licensed to teach in the public
+            schools of the state. In 1859, the name of the institution is changed to Trinity College
+            upon affiliation with the Methodist Church.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <scopecontent>
+            <p>This artificial collection consists of photocopies of correspondence, diary excerpts,
+               printed material, articles, account books (ledgers), roll books, gradebooks, and
+               official records pertaining to Union Institute, Normal College, and Trinity College
+               in Randolph County, N.C. The collection is housed in oversize boxes (except for box
+               1) and ranges in date from 1836-1990. </p>
+         </scopecontent>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <list type="simple">
+            <item>
+               <persname encodinganalog="600">Craven, B. (Braxton), 1822-1882</persname>
+            </item>
+            <item>
+               <persname encodinganalog="600">Crowell, J. Franklin (John Franklin),
+                  1857-1939</persname>
+            </item>
+            <item>
+               <corpname encodinganalog="610">Duke University -- History</corpname>
+            </item>
+            <item>
+               <corpname encodinganalog="610">Duke University -- Students</corpname>
+            </item>
+            <item>
+               <subject encodinganalog="650">Methodist church -- North Carolina -- History</subject>
+            </item>
+            <item>
+               <corpname encodinganalog="610">Normal College (Randolph County, N.C.)</corpname>
+            </item>
+            <item>
+               <subject encodinganalog="650">Quakers -- North Carolina -- History</subject>
+            </item>
+            <item>
+               <corpname encodinganalog="610">Trinity College (Randolph County, N.C.)</corpname>
+            </item>
+            <item>
+               <corpname encodinganalog="610">Union Institute (Randolph County, N.C.)</corpname>
+            </item>
+            <item>
+               <subject encodinganalog="650">Education -- North Carolina -- History -- 19th
+                  century</subject>
+            </item>
+            <item>
+               <subject encodinganalog="650">Teachers colleges -- North Carolina</subject>
+            </item>
+            <item>
+               <geogname encodinganalog="651">Randolph County (N.C.)--History</geogname>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01>
+            <did>
+               <unittitle>Container List</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Normal College, Postmarks and Logos, undated-1895</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Normal College, North Carolina Annual Conference of Methodist Church,
+                     1851, 1856</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Becton Family, Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trinity College, Class of 1880, W.A. Jones Papers</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Memoirs, Long, Augustus W.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Articles and Clippings, 1885-1936</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Diaries and Notebooks, Amanda Simons, circa 1860-1870</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Sneed, Walter Letter</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Sermon to the Theological Society of Trinity College,
+                     undated</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Historical Accounts and Materials, circa 1859-1988</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Reminiscences Index</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trinity College Advertisements</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trinity College Announcements</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Articles and Clippings, 1950-1990, undated</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bulletins and Supplements, 1887-1892</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cherokee Indians</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tributes to Craven, 1882</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trinity College Circulars</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trinity College Forms</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trinity Magazine, A College Monthly, Vol I (duplicates)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trinity Magazine, A College Monthly, Vol II (duplicates)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trinity College Publications, Number 1, Lessons from Our North Carolina
+                     Records</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trinity College Publications Numbers 1, 2 and 3, 1889-1891</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Normal College Handouts</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Sesquicentennial Program, 1988</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="volume">1</container>
+                  <unittitle>Union Institute Constitution, Minutes and Accounts,
+                     1839-1853</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Normal College Account Book, <unitdate type="inclusive" era="ce" calendar="gregorian">1853-1859</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Record of Normal College, <unitdate type="inclusive" era="ce" calendar="gregorian">1853-1855</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trinity High School (Randolph County) Records, <unitdate type="inclusive" era="ce" calendar="gregorian">1891-1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Account Book, <unitdate type="inclusive" era="ce" calendar="gregorian">1854-1856</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Account Books, <unitdate type="inclusive" era="ce" calendar="gregorian">1860-1861</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Supply Ledgers, <unitdate type="inclusive" era="ce" calendar="gregorian">1860-1861</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Supply and Cash Ledger, <unitdate type="inclusive" era="ce" calendar="gregorian">1861-1869</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Notes due to Trinity College Ledger, <unitdate type="inclusive" era="ce" calendar="gregorian">1859-1864</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Account Books, <unitdate type="inclusive" era="ce" calendar="gregorian">1880-1881</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Receipt Book, <unitdate type="inclusive" era="ce" calendar="gregorian">1860-1861</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Roll of Trinity College, <unitdate type="inclusive" era="ce" calendar="gregorian">1850-1855</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Roll of Trinity College after it reopened, <unitdate type="inclusive" era="ce" calendar="gregorian">1866-1869</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Clippings </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Leaflets and Broadsides, <unitdate type="inclusive" era="ce" calendar="gregorian">1866-1882</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Student Lists and Grades, <unitdate type="inclusive" era="ce" calendar="gregorian">1858-1880s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Minutes and Resolutions [Normal College], <unitdate type="inclusive" era="ce" calendar="gregorian">1851-1859</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Official Papers, <unitdate type="inclusive" era="ce" calendar="gregorian">1852-1882</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Commercial Drafts,<unitdate type="inclusive" era="ce" calendar="gregorian"> undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Annual Reports, <unitdate type="inclusive" era="ce" calendar="gregorian">1858-1882</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Insurance Papers, <unitdate type="inclusive" era="ce" calendar="gregorian">1870-1880</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Account Papers, <unitdate type="inclusive" era="ce" calendar="gregorian">1868-1872</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Account Book, <unitdate type="inclusive" era="ce" calendar="gregorian">1845-1848</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Account Book, <unitdate type="inclusive" era="ce" calendar="gregorian">1872-1882</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Account Books, <unitdate type="inclusive" era="ce" calendar="gregorian">1879-1880</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Muster Roll of Military Dept. of Trinity College, <unitdate type="inclusive" era="ce" calendar="gregorian">1861-1864</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trinity Building and Loan Association Ledger,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1872</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Trinity Building and Loan Association Treasurer's Book, <unitdate type="inclusive" era="ce" calendar="gregorian">1872</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Autograph Album,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1866-1872</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pierce, J. R., Notes on Rhetoric,<unitdate type="inclusive" era="ce" calendar="gregorian">
+                        1870</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Faculty Book, <unitdate type="inclusive" era="ce" calendar="gregorian">1866</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Roll Book,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1870</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Roll Book, <unitdate type="inclusive" era="ce" calendar="gregorian">1875</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Class Book, <unitdate type="inclusive" era="ce" calendar="gregorian">1879</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Declamation Book, <unitdate type="inclusive" era="ce" calendar="gregorian">1878</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Student List (damaged, fragile), <unitdate type="inclusive" era="ce" calendar="gregorian">1870s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Gradebook (damaged, fragile),<unitdate type="inclusive" era="ce" calendar="gregorian">
+                        1876-1877</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Financial records, <unitdate type="inclusive" era="ce" calendar="gregorian">1856-1859</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Financial records, <unitdate type="inclusive" era="ce" calendar="gregorian">1860-1869</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Financial records (3 folders), <unitdate type="inclusive" era="ce" calendar="gregorian">1870-1879</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Financial records, <unitdate type="inclusive" era="ce" calendar="gregorian">1880-1882</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Receipt, <unitdate type="inclusive" era="ce" calendar="gregorian">1886</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>Account Books (include faculty and student book and supply accounts),
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">circa 1870s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Account Books, <unitdate type="inclusive" era="ce" calendar="gregorian">1870s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Account Books, <unitdate type="inclusive" era="ce" calendar="gregorian">1870s</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">14</container>
+                  <unittitle>Account Book, <unitdate type="inclusive" era="ce" calendar="gregorian">1870</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">15</container>
+                  <unittitle>Account Books, <unitdate type="inclusive" era="ce" calendar="gregorian">1880-1881</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">16</container>
+                  <unittitle>Student ledger, <unitdate type="inclusive" era="ce" calendar="gregorian">1871-1872</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Account book,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1885</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Account book, <unitdate type="inclusive" era="ce" calendar="gregorian">1891-1892</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">17</container>
+                  <unittitle>Trinity College Society of Alumni,<unitdate type="inclusive" era="ce" calendar="gregorian"> circa
+                        1858-1873</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+      <relatedmaterial>
+         <head>Related Material</head>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle>Enoch Faw diary, <unitdate era="ce" calendar="gregorian">1851-1857. </unitdate>
+            </unittitle>
+            <repository>Rare Book, Manuscript, and Special Collections Library, Duke
+               University.</repository>
+         </archref>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle>Catherine E. Hanes papers, <unitdate era="ce" calendar="gregorian">1861-1873. </unitdate>
+            </unittitle>
+            <repository>Southern Historical Collection (#1959-z), University of North Carolina at
+               Chapel Hill.</repository>
+         </archref>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle>Robert Philip Howell memoirs, <unitdate era="ce" calendar="gregorian">1854-1872.</unitdate>
+            </unittitle>
+            <repository>Southern Historical Collection (#4045), University of North Carolina at
+               Chapel Hill.</repository>
+         </archref>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle>William M. Jordan papers, <unitdate era="ce" calendar="gregorian">1913-1882. </unitdate>
+            </unittitle>
+            <repository>Rare Book, Manuscript, and Special Collections Library, Duke
+               University.</repository>
+         </archref>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle>William McKendree Robbins papers, <unitdate era="ce" calendar="gregorian">1836-1905. </unitdate>
+            </unittitle>
+            <repository>Southern Historical Collection (#4070), University of North Carolina at
+               Chapel Hill.</repository>
+         </archref>
+      </relatedmaterial>
+   </archdesc>
+</ead>

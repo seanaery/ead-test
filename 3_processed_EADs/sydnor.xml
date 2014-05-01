@@ -1,0 +1,6436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   
+   <eadheader findaidstatus="published" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b">
+      <eadid countrycode="US" mainagencycode="US-NcD" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::?)//EN" url="http://library.duke.edu/rubenstein/findingaids/sydnor/">sydnor</eadid>
+      <filedesc>
+         
+         <titlestmt>
+            
+            <titleproper>Guide to the Charles S. Sydnor Papers, 1729-1978and undated</titleproper>
+            
+            <author>Processed by Janie Morris; Assisted by Daniel Daily; machine-readable finding aid created by Alvin Pollock</author>
+         
+         </titlestmt>
+         
+         <publicationstmt>
+            <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library</publisher>
+            <address>
+               <addressline>Duke University</addressline>
+               <addressline>Durham, NC 27708 U.S.A.</addressline>
+               <addressline>919-660-5822</addressline>
+               <addressline>special-collections@duke.edu</addressline>
+            </address>
+            <date/>
+         </publicationstmt>
+         
+      
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from MS Word. Date of source: November 9, 1992.<date>November 9, 1992.</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date>2014</date>
+            <item>Converted from dtd to schema and transformed with AT-import-fixer.xsl</item>
+         </change>
+         <change>
+            
+            <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+            
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::[]::Charles S. Sydnor Papers)//EN" "sydnor.sgm"" "sydnor.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         
+         </change>
+         <change>
+            
+            <date calendar="gregorian" era="ce">June 29, 1998</date>
+            
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         
+         </change>
+      </revisiondesc>
+   </eadheader>
+   
+   
+   <archdesc level="collection">
+      
+      <did>
+         <unittitle label="Title">Charles S. Sydnor papers <unitdate calendar="gregorian" era="ce" normal="1729/1978" type="inclusive">1729-1978 and undated</unitdate>
+         
+         </unittitle>
+         <origination label="Creator">
+            
+            <persname>Sydnor, Charles S., 1898-1954</persname>
+         
+         </origination>
+         <physdesc label="Extent">
+            
+            <extent>14.8 linear feet</extent>
+            
+            <extent>Extent: circa 11,159 items</extent>
+         
+         </physdesc>
+         <repository label="Repository">
+            
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+            
+            <address>
+               
+               <addressline>Durham, North Carolina 27708-0185</addressline>
+            
+            </address>
+         
+         </repository>
+         <physloc label="Location">For current information on the location
+of these
+materials, please consult the library's online catalog.</physloc>
+         <langmaterial label="Language of Materials">English.</langmaterial>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <unitid>sydnor</unitid>
+         <note label="Language of Materials">
+            <p>Language: English.</p>
+         </note>
+      </did>
+      
+      <descgrp type="admininfo">
+         
+         <head>Administrative Information</head>
+         
+         <accessrestrict>
+            
+            <head>Access Restriction</head>
+            
+            <p>Part of the Teaching Files Series in this collection is restricted.</p>
+            
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         
+         </accessrestrict>
+         
+         <userestrict>
+            
+            <head>Use Restrictions</head>
+            
+            <p>The copyright interests in the Charles S. Sydnor papers have not
+ been transferred to Duke University. For further information, see the
+ section on copyright in the Regulations and Procedures of the Rubenstein Library.</p>
+         
+         </userestrict>
+         
+         <prefercite>
+            
+            <head>Preferred Citation</head>
+            
+            <p>[Identification of item], Charles S. Sydnor Papers,
+David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         
+         </prefercite>
+         
+         <acqinfo>
+            
+            <head>Provenance</head>
+            
+            <p>The Charles S. Sydnor Papers (1729-1978 and undated) were donated to the
+David M. Rubenstein Rare Book &amp; Manuscript Library in 1990 by members of the Sydnor
+ family.</p>
+         
+         </acqinfo>
+         
+         <processinfo>
+            
+            <head>Processing Information</head>
+            
+            <p>Processed by Janie Morris</p>
+            
+            <p>Assisted by Daniel Daily</p>
+            
+            <p>Date Completed: November 9, 1992</p>
+            
+            <p>Encoded by Alvin Pollock</p>
+            
+            <p>Finding aid updated to include processed additions 2000-0302, 2002-0051, and 2008-0145 in July 2009 by Alice Poffinberger</p>
+         
+         </processinfo>
+      
+      </descgrp>
+      
+      <bioghist>
+         
+         <head>Biographical Note</head>
+         
+         <chronlist>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1898, July 21</date>
+               
+               <event>Born, Augusta, Ga.</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1915</date>
+               
+               <event>Graduated from Darlington School, Rome, Ga.</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1918</date>
+               
+               <event>B.A., Hampden-Sydney College, Hampden-Sydney,
+Va.</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1919</date>
+               
+               <event>Taught high school in Rome, Ga.</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1919-1920</date>
+               
+               <event>Taught at McCallie School, Chattanooga, Tenn.</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1923</date>
+               
+               <event>Ph.D., Johns Hopkins University</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1923-1925</date>
+               
+               <event>Professor of History and Political Science, Hampden-Sydney
+College</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1924, June 12</date>
+               
+               <event>Married Betty Brown</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1925-1936</date>
+               
+               <event>Professor of History, University of Mississippi</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1935-1938</date>
+               
+               <event>Member, Board of Editors, <title xlink:type="simple" render="italic">Journal of Southern History</title>
+               
+               </event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1936-1938</date>
+               
+               <event>Associate professor of History, Duke University, Durham,
+N.C.</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1938</date>
+               
+               <event>Professor of History and Chairman of History Department,
+Duke University</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1939</date>
+               
+               <event>President, Southern Historical Association</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1941-1944</date>
+               
+               <event>Member, Executive Committee, North Carolina Literary and
+Historical Association</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1947-</date>
+               
+               <event>Member, Board of Editors, <title xlink:type="simple" render="italic">South Atlantic Quarterly</title>
+               
+               </event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1948</date>
+               
+               <event>Litt.D., Washington and Lee University, and Princeton
+University (1953)</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1949</date>
+               
+               <event>President, North Carolina Literary and Historical
+Association</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1950</date>
+               
+               <event>M.A., University of Oxford, Oxford, England</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1950-1951</date>
+               
+               <event>Harold Vyvyan Harmsworth Professor of American History,
+University of Oxford</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1952-</date>
+               
+               <event>Dean of Graduate School of Arts and Sciences, Duke
+University</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1953</date>
+               
+               <event>LL.D., Davidson College, Davidson, N.C.</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1954</date>
+               
+               <event>Died (buried in Chattanooga, Tenn.)</event>
+            
+            </chronitem>
+         
+         </chronlist>
+         
+         <p>Sydnor's publications include Mississippi History, Slavery in Mississippi, A Gentleman of the Old Natchez Region: Benjamin L. C. Wailes, The Development of Southern Sectionalism, 1819-1848 (Volume V of The History of the South), and Gentlemen Freeholders: Political Practices in Washington's Virginia.</p>
+         
+         <p>Sydnor held visiting professorships at Emory (1925-1926), Johns Hopkins (1929, 1934), Duke (1935-1936), Cornell (1941), University of North Carolina (1949), and Harvard (1952) Universities. He was a member of the Presbyterian Church, the Council Institute of Early American History and Culture, the Advisory Committee of the Office of the Chief of Military History for the U.S. Army, the American Historical Association, and the American Mississippi Valley Historical Association. He received awards from the Social Science Research Council (1940) and the Library of Congress (1945-1946).</p>
+      
+      </bioghist>
+      
+      <scopecontent>
+         
+         <head>Collection Overview</head>
+         
+         <p>The Charles S. Sydnor Papers roughly span the period 1729-1978, the bulk dated 1923 to 1954. They include correspondence, research notes, writings, printed materials, and clippings, chiefly relating to Sydnor's teaching career at Duke University, as well as at Harvard and Queen's College, Oxford. The collection also includes information about his involvement with various historical associations and committees, including the American Historical Association, Southern Historical Association, North Carolina Literary and Historical Association, and the Advisory Committee of the Office of the Chief of Military History for the United States Army. There is background information pertaining to his various writings, including <title xlink:type="simple" render="italic">The Development of Southern Sectionalism (Volume V of the work A History of the South)</title> (Baton Rouge, La., 1948), <title xlink:type="simple" render="italic">Gentleman Freeholders: Political Practices in Washington's Virginia</title> (Chapel Hill, N.C., 1952), <title xlink:type="simple" render="italic">A Gentleman of the Old Natchez Region: Benjamin L. C. Wailes</title> (Durham, N.C., 1938), <title xlink:type="simple" render="italic">Mississippi History</title> (New York, N.Y., 1930), and <title xlink:type="simple" render="italic">Slavery in Mississippi</title> (New York, N.Y., 1933). The papers contain notes and examinations for various history courses taught by Sydnor, student roll books, grade books, and papers. Additionally, there are a few notebooks and papers of Sydnor's while he was a student.</p>
+         
+         <p>Materials relating to Sydnor's teaching career and participation in historical associations are found primarily in the Alphabetical Files Series and the Teaching Files Series. The information about Queen's College, University of Oxford, is located in the Alphabetical Files Series under Oxford. Information pertaining to his writings are found in the Writings and Speeches Series. Sydnor's own student notebooks and papers are found in the Miscellaneous Series. Topics highlighted include the Duke University Department of History during the late 1930s through the early 1950s, (Alphabetical Files Series); the writing and teaching of Southern history, particularly Mississippi history, (Writings and Speeches Series and Teaching Files Series); and the naturalist and planter, Benjamin L. C. Wailes (Writings and Speeches Series). A related collection in the Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library is the Benjamin L. C. Wailes Papers.</p>
+      
+      </scopecontent>
+      
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <corpname>Duke University -- Faculty.</corpname>
+         <persname>Wailes, Benjamin Leonard Covington, 1797-1862.</persname>
+         <corpname>Queen's College (University of Oxford).</corpname>
+         <corpname>Duke University. Dept. of History.</corpname>
+         <corpname>Harvard University. Dept. of History.</corpname>
+         <corpname>American Historical Association.</corpname>
+         <corpname>North Carolina Literary and Historical Association.</corpname>
+         <corpname>United States. Dept. of the Army. Office of Military History.</corpname>
+         <corpname>Southern Historical Association.</corpname>
+         <subject>Southern States -- History.</subject>
+         <subject>Southern States -- History -- Historiography.</subject>
+         <subject>Grading and marking (Students).</subject>
+         <subject>History teachers.</subject>
+         <subject>Mississippi -- History.</subject>
+         <subject>Virginia -- Politics and government -- Colonial period, ca. 1600-1775.</subject>
+         <subject>Virginia -- Politics and government -- 1775-1865.</subject>
+         <subject>Slavery -- Mississippi.</subject>
+         <subject>Slavery -- United States -- Condition of slaves.</subject>
+         <subject>Slaves -- United States -- Social conditions.</subject>
+      </controlaccess>
+      
+      <dsc type="combined">
+         
+         <head>Contents of Collection</head>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Alphabetical Files Series,
+1862-1954, undated
+                  (bulk 1925-1954).
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Includes correspondence, clippings, memoranda, and printed
+materials. Within this series are letters and documents which pertain to
+Sydnor's teaching posts at Duke University and elsewhere, his tenure as
+chairman of the History Department at Duke University, and his
+involvement in various professional societies. Also included are materials
+which document Sydnor's role as a member of the Advisory Committee
+of the Office of Chief of Military History for the United States Army.
+Arranged alphabetically by either correspondent or subject. </p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">1</container>
+                  
+                  <unittitle>A,
+1936-1954
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Abingdon-Cokesbury Press, 
+                     1952, Mar. 17-April 8
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     American Historical
+Association:
+                  </unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">American History Abroad--Oxford,</emph>
+                        1951, May 17-July 13
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Programs,
+1927-1951
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(3 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Andrews Raiders, 
+                     1906, Sept. 18-20
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>B,
+1927-1954, June, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(5 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Bancroft Prize (John Krout), 
+                     1953, Aug.-1954, Mar.
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Boyd, William K., 
+                     1938-1941, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Brown family, 
+                     1929-1954
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>C,
+1926-1956
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(5 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">2</container>
+                  
+                  <unittitle>Clippings:</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        1927-1955
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Funeral, obituaries, Dr. Sydnor,
+1954
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Columbia University, 
+                     1954-1955
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Commonwealth Fund, Sir Hector Hetheringtion, 
+                     1952, Oct. 1
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Condolence messages, Dr. Sydnor's death,
+1954
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(3 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Converse College, 
+                     1953
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Cornell class roll,
+1941
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>D,
+1926-1953
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(3 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Dancy Foundation Lectures Program, 
+                     1939
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Davidson College:
+                  </unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        1942-1953
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(2 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Honorary Degree (clippings),
+1953
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Duke University Church, Committee Reports,
+1951
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Duke University. Department of
+History:
+                  </unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Academic salary data,
+1953
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Application, appointment, and report forms,
+1947-1953, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Catalogue material for
+1953-1954, submitted 1952, Nov.
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Class census reports, history,
+1952, Fall-1953, Fall
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(3 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Department conference and officers,
+1952
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Departmental meetings:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1952, Oct. 14
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1953, Jan. 8
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Diplomatic history, faculty position for,
+1952
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Edens, A. Hollis, 
+                        1949-1953
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Faculty, staff, course schedules, and office arrangements,
+1951-1953
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Graduate bulletin material,
+1952, April
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Graduate fellowships at Duke, publication of theses,
+1952-1954
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Graduate programs of students not majoring with Sydnor,
+1949-1953
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Graduate school,
+1938-1953
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Gross, Paul, Letters to and from about policy in
+history graduate programs,
+1949-1950
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>History majors in Trinity College, 
+                        1953, Fall
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Preparing Graduate Students for College
+Teaching,</emph>
+                        1951-1952
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Research topics, thesis subjects,
+undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Miscellaneous,
+1952-1954
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Duke University Library, 
+                     1951-1953
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Duke University Library Council, 
+                     1939-1950
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Duke University Research
+Council
+                  </unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        1937-1954
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(3 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Carnegie Foundation, 
+                        1948-1950
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">3</container>
+                  
+                  <unittitle>E,
+1940-1951
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     English-Speaking Union, 
+                     1950-1951
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>F,
+1933-1952
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Ferrell, Robert H., 
+                     1952
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Fleming, Walter Lynwood, lectures, programs,
+1938-1949
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Fulbright program,
+1950-1951, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>G,
+1923-1953, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Gauhati University, Assam, India, 
+                     1951-1954, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Glasgow, University of, 
+                     1950-1951, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Green, Edward R. R., 
+                     1953
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>H,
+1936-1969, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(4 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Hampden-Sydney College Alumni Fund, 
+                     1953, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Harvard University Summer
+School:
+                  </unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        1951-1952, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Housing,
+1952
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Historical Society of North Carolina, 
+                     1945-1953, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Home: Oxford, Miss., 
+                     1928, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>I,
+1934-1952, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Income tax,
+1918-1930
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>J,
+1926-1954
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Jameson, R. D., 
+                     Library of Congress,
+
+                     1940
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Johns Hopkins University, 
+                     1922-1923
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Jordan, Charles E., 
+                     1949-1952, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>K,
+1925-1954, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Kearns Fellows Homecoming,
+1953
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>L,
+1920-1954, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Laprade, W. T., 
+                     1950-1953
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Library of Congress: Grant in Aid,
+1945-1946
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">4</container>
+                  
+                  <unittitle>M,
+1925-1954
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Mc,
+1919-1972
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Mississippi, 
+                     1935-1947
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Mississippi Conference Historical Society, 
+                     1935
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Mississippi Historical Society, Biloxi, Miss., 
+                     1953-1954
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Mississippi Valley Historical Society: Programs,
+1937-1947
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Montgomery, Isaiah T., 
+                     1929-1937; undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Morrison, Samuel Eliot, 
+                     <title xlink:type="simple" render="italic">
+History as a Literary Art,</title>
+                     undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>N,
+1935-1953
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Nobel Peace Prize,
+1953
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     North Carolina Literary and Historical Association, 
+                     1948-1952
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>O,
+1929-1952
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Oxford, University of, and England: Miscellaneous,
+1950-1951, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Oxford, University of: Addresses about, notes for,
+1953-1954, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Oxford, University of: 
+                     Beloff, Max,
+
+                     1950-1951
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Oxford, University of: Correspondence,
+1950-1951
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Oxford, University of, Queen's
+College:
+                  </unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        1950-1953
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(2 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Class rolls and notes,
+undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Correspondence,
+1950
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Registrar, provost,
+1950
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Miscellaneous,
+1948-1951
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>P,
+1930-1953
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Phi Beta Kappa, 
+                     1939-1940, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Pogue, Forrest C., 
+                     1951-1952
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Presbyterian Church, 
+                     1922-1954
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">5</container>
+                  
+                  <unittitle>
+                     Presbyterian Church in the United States: Board of
+Education,
+1946-1952
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Presbyterian Church, First (Durham, N.C.), 
+                     1948-1954
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Presbyterian Church Youth Literature,
+1943-1946, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Princeton Conference of Historians, 
+                     1953, Oct. 30-31
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Princeton University: Honorary degree,
+1953
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Q,
+1940-1952
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>R,
+1930-1959
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(3 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>S,
+1931-1956
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(6 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Sabbatical:</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        1941-1953, undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(2 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Fulbright grant,
+1949-1950, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Huntington Library, 
+                        1949, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Salzburg Seminar in American Studies,
+1950-1952, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Scotland, 
+                     1951, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Simon, F. E., 
+                     <title xlink:type="simple" render="doublequote">A Scientist
+Looks at America,</title>
+                     1950-1951
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Social Science Research Council, 
+                     1939-1953, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Southern Historical Association: 
+                     1934-1952, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(4 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">6</container>
+                  
+                  <unittitle>
+                     Southern Historical Association: Programs,
+1934-1951
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Southwestern Social Science Association: Programs,
+1932
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Sydnor family genealogy,
+1862-1952
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>T,
+1934-1953
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Theses written under the direction of Charles S. Sydnor: List of early theses
+written at Duke,
+1937-1953, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Trinity College Historical
+Society:
+                  </unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        1952-1954
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Publications,
+1950-1953
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>U,
+1932-1948
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>United Educators,
+1934-1936
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     United States Army addresses and notes,
+1944, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     United States Army History,
+1953, Feb.-Aug.
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     United States Department of Education, 
+                     1952-1953
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     United States. Department of the Army. Office of Military
+History, 
+                     1949-1953
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(3 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     University of Chattanooga, Phi Beta Kappa, 
+                     1935, Dec.
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     University of Michigan, 
+                     1940
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     University of Mississippi, 
+                     1927-1954
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     University of North Carolina at Chapel Hill, Summer School,
+
+                     1949
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>V,
+1926-1952
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>W,
+1925-1954
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Washington and Lee University, 
+                     1947-1949
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Williams, William A., 
+                     1952
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Williamsburg:
+                  </unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Institute of Early American History and Culture, 
+                        1950-1953
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(4 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>The Candidates,
+1949
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>World Book Encyclopedia,
+1941-1947
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>X-Z,
+1934-1958
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Writings and Speeches Series,
+1729-1954
+                  (bulk 1923-1954).
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Includes research materials and notes, as well as drafts and off-prints, which
+document the development of Sydnor's published works and addresses. Included are
+notes and drafts for Gentleman Freeholders: Political Practices in Washington's Virginia,
+and The Development of Southern Sectionalism, 1819-1849. A handwritten duplicate of a
+document, signed by James Madison on April 18, 1810, certifying the appointment of
+Levin Wailes as the Register for the Land Office of the United States for the western part
+of the Orleans Territory is among the oversize materials for this series (See OC:II:7).
+Included are research materials from the eighteenth and nineteenth centuries. The two
+major categories are Writings and Background Materials, each arranged alphabetically. At
+the end are Miscellaneous Materials. The background materials include Sydnor's research
+notes, but it has not been determined for which particular writing they were created.</p>
+            
+            </scopecontent>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>Writings</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Aristocracy and Politics in Revolutionary
+Virginia,</emph> American Historical Association/Southern Historical Association,
+1948
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Article mailing lists,
+undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">The Beginning of Printing in Mississippi,</emph>
+                        1934-1935, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <title xlink:type="simple" render="italic">The Biography of a Slave,</title>
+                        1826-1937
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Blazer Lecture, University of Kentucky, 
+                        1951
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">B.L.C. Wailes, Scientist and Historian</emph>,
+undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">The Christian as an Interpreter of History,</emph>
+                        ca. 1953
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">A Description of Seargeant S. Prentiss in
+1838,</emph>
+                        1944-1945
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">7</container>
+                     
+                     <unittitle>
+                        
+                        <title xlink:type="simple" render="italic">The Development of Southern Sectionalism,
+1819-1848:</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Stylesheet and outlines,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Miscellaneous notes,
+1918-1937, undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(7 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Usage notes, contents, preface,
+1946, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter I, <title xlink:type="simple" render="doublequote">The Awakened
+South</title>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter II, <title xlink:type="simple" render="doublequote">Location of Political
+Power</title>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter III, <title xlink:type="simple" render="doublequote">Enlightenment of Public
+Opinion</title>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter IV, <title xlink:type="simple" render="doublequote">Toward a More Perfect
+Society</title>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter V, <title xlink:type="simple" render="doublequote">Crises in Business and
+Politics</title>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter VI, <title xlink:type="simple" render="doublequote">From Economic Nationalism to Political
+Sectionalism</title>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter VII, <title xlink:type="simple" render="doublequote">End of the Virginia
+Dynasty</title>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter VIII, <title xlink:type="simple" render="doublequote">The Lower South Adopts States'
+Rights</title>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter IX, <title xlink:type="simple" render="doublequote">Bold Acts and Bolder
+Thoughts</title>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter X, <title xlink:type="simple" render="doublequote">Prologue to the End of
+Slavery</title>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter XI, <title xlink:type="simple" render="doublequote">Vicissitudes of an Agricultural
+Economy</title>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter XII, <title xlink:type="simple" render="doublequote">Movement Toward Political
+Democracy</title>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter XIII, <title xlink:type="simple" render="doublequote">Religion, Education,
+Literature</title>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter XIV, <title xlink:type="simple" render="doublequote">Political Weakness and Social
+Perfection</title>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Preface, chapters I-XIII, revised </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(14 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter XIV, <title xlink:type="simple" render="doublequote">Party Allegiance for Sectional
+Patriotism,</title> rev.</unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapter XV, <title xlink:type="simple" render="doublequote">The Affirmation of Southern Perfection,
+</title> rev.</unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Fragment of a manuscript,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Illustrations,
+undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(3 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Bibliography,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Legends and bibliography to accompany maps of presidential elections of 1824,
+1828, 1832,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Notes concerning maps of presidential elections,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Critical bibliography,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Index,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Miscellaneous,
+1947, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Correspondence: Louisiana State University Press, 
+                           1939-1968
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">8</container>
+                     
+                     <unittitle>
+                        
+                        <title xlink:type="simple" render="italic">The Development of Southern Sectionalism, 1819-1848:
+</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Reviews, clippings,
+1940-1951, undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(2 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Mayflower Cup Award,
+1948-1949
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <title xlink:type="simple" render="italic">Diary of a Journey in Arkansas in 1856, Mississippi
+Valley Historical Review,</title>
+                        1935, Dec.
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <title xlink:type="simple" render="italic">Dictionary of American Biography (DAB):
+</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Correspondence,
+1927-1934
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Featherston, W. S., 
+                           1928
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Foote, Henry S., 
+                           undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           George, James Z., 
+                           1930
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Gordon, James, 
+                           1930
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Leflore, Greenwood, 
+                           1931
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Martin, William T., 
+                           1933
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           McLautin, A. J., 
+                           undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           McRae, J. J., 
+                           undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Mayes, Edward, 
+                           undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Money, H. D., 
+                           undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Orr, J. A., 
+                           1930-1934
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Poindexter, George, 
+                           1931
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Prentiss, S. S., 
+                           1931
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Sharkey, W. L., 
+                           1931-1935
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Singleton, O. R., 
+                           1932
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Smith, James Argyle, 
+                           1932
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Stewart, Alexander Peter, 
+                           1932
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Stockdale, Thomas R., 
+                           1932
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Stone, John Marshall, 
+                           undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Thompson, Jacob, 
+                           1932-1934
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Turner, Edward, 
+                           1933-1936
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Vardaman, James K., 
+                           1933
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Wailes, B. L. C., 
+                           1933-1936
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Walthall, E. C., 
+                           1933
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Williams, John Sharp, 
+                           1934-1935
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Yerger, William, 
+                           1934
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Dissertation notes,
+1923?
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(4 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <title xlink:type="simple" render="italic">Essays on Law and Conscience in American History,</title> outline and notes,
+1949, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Fleming lectures, Louisiana State University:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Carbons,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Correspondence, programs, 1952-1954
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Drafts and notes, 1954, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">The Free Negro in Mississippi Before the Civil War,</emph>
+                        1927-1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Free negroes: Background material 1705-1860, undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(2 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">9</container>
+                     
+                     <unittitle>Free negroes:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Notes relating to, 1789-1941, undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(2 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Transcribed letters and documents from the Historical Society of Pennsylvania, 
+                           1788-1938
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Gentleman Freeholders:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Abbot notes, used in Ch. VI, 1761-1775, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Abbot's notes of House of Burgesses Committees, 1761-1775, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Background information, 1947-1951, undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(2 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Charles City and Northumberland County, Wicomico and South Farhan Notes, 1703-1876, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>A Collection of Plays and Poems by the late Colonel Robert
+Munford, 
+                           1798, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Contested Elections:</unittitle>
+                     
+                     </did>
+                     
+                     <c05>
+                        
+                        <did>
+                           
+                           <unittitle>House of Burgesses Journals,
+undated
+                           </unittitle>
+                        
+                        </did>
+                     
+                     </c05>
+                     
+                     <c05>
+                        
+                        <did>
+                           
+                           <unittitle>
+                              Virginia, 
+                              1948-1950, undated
+                           </unittitle>
+                        
+                        </did>
+                     
+                     </c05>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>The County Court/Albermarle, Essex,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Dissenters, research and correspondence relating to,
+1948-1950
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Justice of the Peace: Economic and social status,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Madison, James, 
+                           1923, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Madison, James, Papers: Library of Congress, 
+                           undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <emph render="doublequote">Percentages of Virginia Legislators Who Were
+Justices of the Peace,</emph>
+                           1776-1861, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Potential film based on book,
+1952-1953, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Political ladder in Washington's Virginia,
+1942-1952, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Reviews,
+1952-1953
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Tabulations of Virginia elections (1788),
+1946
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Tucker-Coleman Papers, Colonial Williamsburg,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Virginia demographic information,
+1790-1948
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Virginia elections, 1740s-1840s polls; F. Taylor's diary,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Virginia political leadership (1775-1800):</unittitle>
+                     
+                     </did>
+                     
+                     <c05>
+                        
+                        <did>
+                           
+                           <unittitle>Sketches,
+1948, undated
+                           </unittitle>
+                        
+                        </did>
+                     
+                     </c05>
+                     
+                     <c05>
+                        
+                        <did>
+                           
+                           <unittitle>Rise to power of political leaders,
+undated
+                           </unittitle>
+                        
+                        </did>
+                     
+                     </c05>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Preface and front pages,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Chapters I-IX (9 folders),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Bibliographical note,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Appendix I-II (2 folders),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Index,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Carbon of last copy lacking Ch. VI,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Index to,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Fragment of a manuscript,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">10</container>
+                     
+                     <unittitle>
+                        
+                        <title xlink:type="simple" render="italic">Gentleman
+Freeholders:</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Correspondence,
+1946-1956, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <title xlink:type="simple" render="italic">A Gentleman of the Old Natchez Region:
+</title>
+                        Benjamin L. C. Wailes:
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Announcements and reviews,
+1938-1939, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Maps, photographs, and tables,
+1922-1937, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Miscellaneous,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Notes,
+undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(4 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Publication documents,
+1937, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Revision notes used,
+1891-1936, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Historical Activities in Mississippi in the Nineteenth
+Century,</emph>
+                        1937
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Historical Comments on American
+Democracy,</emph>
+                        Mississippi Historical Society, 
+                        1954, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <title xlink:type="simple" render="doublequote">Intellectual Activities in the Old Natchez
+District,</title>
+                        American Historical Association, 
+                        1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Lee, Guy A., 
+                        <title xlink:type="simple" render="doublequote">The Historian
+and the Federal Government,</title>
+                        American Historical Association,
+
+                        1949-1950, n.d
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Letter from Alexander M. Clayton Relative to Cuban
+Affairs,</emph>
+                        1929
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Letters from Franklin L. Riley to Herbert B. Adams (1894-1901),</emph>
+                        1935-1940
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Life Span of Mississippi Slaves,</emph>
+                        1926-1930
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Mississippi History:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Correspondence and corrections,
+1938-1940
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <title xlink:type="simple" render="italic">Miscellaneous notes,</title>
+                           1925-1927?
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Pictures, 1863-
+1930, undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(2 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">The Old South as a Laboratory for Cultural
+Analysis,</emph>
+                         University of Michigan, 
+                        1940
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">The Old South to the New,</emph>
+                        undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">The One Party Period of American History,</emph>
+                        1942-1946
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Phi Beta Kappa address, University of
+South Carolina, 
+                        1949-1950
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Political Leadership in Eighteenth-Century
+Virginia,</emph> published lecture,
+1950-1951
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Possibilities of a Historic Highway through
+Mississippi,</emph>
+                         University of Mississippi, 
+                        undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">A Possible Source of Calhoun's plan of
+Nullification,</emph>
+                         Mississippi Valley Historical Association,
+
+                        undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Press Censorship in England, 1534-1603,</emph>
+ (dissertation),
+1923
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Pursuing Fugitive Slaves,</emph>
+                        1929-1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Reducing the Risks in Politics</emph>: Address
+delivered at the Virginia State Library, 1953, June 12
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Reviews:
+
+1931-1949, n.d
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(4 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">11</container>
+                     
+                     <unittitle>Reviews:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1931-1949, undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(3 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1949-1952, n.d,
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(3 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Roanoke World News,
+1923-1924
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Second Thoughts and Suggestions,</emph> a
+contribution to Pennsylvania Conference on American Political History, Pennslyvania
+Magazine of History and Biography LXXII, 201-202, (Apr. 1948),
+1948
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">A Slave Owner and His Overseers,</emph>
+                        1937
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <title xlink:type="simple" render="italic">Slavery in
+Mississippi:</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Background materials,
+1790-1932, undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(2 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Bowle's Plantation (Mrs. Bem Price), 
+                           1850-1851
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Correspondence relating to,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Devlin Diary,
+1836-1885
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Finney slave trader letters,
+1836-1837
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Leigh Plantation Account Book,
+1852-1853
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Leigh Plantation Book,
+1852-1933
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Reviews,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">The Southern Experiment in Writing Social
+History,</emph>
+                        1944-1945
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">The Southerner and the Laws,</emph>
+                        1939, undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(2 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">State Geological Surveys in the Old South,</emph>
+                        1939-1940
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Thomas Jefferson's Comments on the Report of the
+President's Commission on Higher Education,</emph>
+                        undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <title xlink:type="simple" render="italic">Travels in the Old
+South:</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Background materials,
+1837-1906, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Collaborators information,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Printer's copy with notes,
+undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(4 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Unused research,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">12</container>
+                     
+                     <unittitle>Voting in Early America:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1952, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Illustrations,
+1952, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Wailes, B. L. C.:
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Address Delivered at... Jefferson College,
+1842
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Correspondence related to,
+1931-1934
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Diary of,
+1853-1932
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(2 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <emph render="doublequote">Inaugural Address Delivered at the first meeting of
+Adams Athenaeum 31 March 1825</emph>
+                        
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <emph render="doublequote">Inaugural Address Read at the Historical Society of
+Mississippi by B.L.C. Wailes</emph> and related documents,
+1859-1934, n.d
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">What the Historian Expects of an Archival Agency or
+Historical Society,</emph>
+                        Society of American Archivists, 
+                        1948
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>Background Materials</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Crockett Mss.: Slavery and Reconstruction,
+1872
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Elections:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Presidential and state,
+1820
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Presidential,
+1824-1832
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(3 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Statistics,
+1820-1860
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Elizabeth Female Academy (Washington, Miss.), 
+                        1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Estate of James K. Polk: Inventory,
+1934
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Jefferson College, Washington, Miss., 
+                        1936
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Justices of the Peace:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>North Carolina and Kentucky Legislatures, etc.,
+1820-1940, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Virginia, 
+                           1942-1945, undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(2 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Virginia, Justices, Summary sheets,
+1820, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           West Virginia, 
+                           1820, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Leadership after
+1865, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Map and election statistics and correspondence,
+1940-1941
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Maps:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>City populations,
+1860, 1936
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>County populations,
+1860, 1936
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Natchez Institute, 
+                        1934-1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Non-southern related materials,
+undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Notes and statistics on social and economic
+condition, 1819,</emph>
+                        undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Paine Detected,
+undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Popular prejudices and the historian, notes and research materials,
+1931-1949, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">Religion, Education, Literature, etc.,</emph>
+                        undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>The South after 1865,
+undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <emph render="doublequote">South Carolina,</emph>
+                        1949, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        South Carolina: Charleston, S.C., 
+                        undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        South Carolina public records,
+1729-1748
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Southern municipal directories and censuses before 1861,
+undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(2 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Southern municipal ordinances and laws before 1861,
+undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Southern Planter (Natchez),
+1842
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Southern political leadership before Jackson (except Virginia),
+1946, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Southern towns:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Occupations: Memphis, Charleston, S.C., Nashville, Louisville,
+
+                           1836-1860, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <title xlink:type="simple" render="italic">Southwestern Journal,</title>
+                        1837-1838
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Virginia counties,
+undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Western farmer and gardener,
+1934
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Woodville Manufacturing Company, 
+                        1850-1935
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Woodville Republican notes (mostly on poetry),
+1847-1848
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Yellow fever, copy of letter owned by Mrs. James Andrews,
+
+                        University of North Carolina at Chapel Hill, 
+                        1878
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Miscellaneous,
+1818-1953, undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(3 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">13</container>
+                     
+                     <unittitle>13a Microfilm boxes:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>A Collection of Plays and Poems of the Late Colonel Robert Mumford,
+1798
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>[Mississippi General Assembly Senate Journals,
+1830 November-1839 January.]
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>[Commission Book No.1,
+ca. 1787-1797]
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>[Register of Justices and County Officers,
+1780-1822]
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>[Register of Magistrates...
+1783-1811]
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>[Register of Magistrates... 1852-1865]</unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>13b Index Cards:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Mississippi Session Laws, Mississippi Senate and House,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Journals, Woodville Republican,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Miscellaneous Mississippi newspapers,
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>13c Index Cards: Notes,
+undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>13d Writings in American History, notes from,
+undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>Miscellaneous</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">14</container>
+                     
+                     <unittitle>
+                        1951, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Notes for textbooks,
+1924-1930
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(8 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Correspondence Series Series,
+1926-1956 and undated.
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Primarily correspondence to or from Sydnor concerning his career as a professor and
+as a historian. Also included are letters addressed to Mrs. Sydnor and some relating to
+Sydnor family matters. Arranged in chronological order by year.</p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">15</container>
+                  
+                  <unittitle>
+                     1926-1956 and undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(7 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Teaching Files Series,
+1923-1954, undated
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Includes recommendations, course notes, class rolls, grade books, and student papers
+related to Sydnor's teaching posts at Duke University and elsewhere. The
+recommendations, student papers, and grade books are restricted. Arranged
+alphabetically, with the restricted files following the non-restricted materials.</p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     
+                     <emph render="doublequote">Duke University, Summer Session,</emph>
+                     1952-1953
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Examinations: History course,
+1924-1952
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>History courses,
+1937-1954, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     
+                     <emph render="doublequote">Social and Intellectual Development of the Old
+South,</emph>
+                     1938-1945
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     
+                     <emph render="doublequote">Teaching Load</emph> Committee Report,
+1939-1940
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Miscellaneous Notes,
+1927, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>Restricted</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Class rolls and grades:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Duke University Summer Schools, 
+                           1935-1951
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(2 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Harvard Summer School, 
+                           1952
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Institute of Early American History and Culture, 
+                           undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           University of North Carolina at Chapel Hill, 
+                           1949, Summer
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Grade books,
+1923-1953
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(3 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Graduate stipends:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1952-1954
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(2 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Acceptances and rejections,
+1952
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Students:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Abbot, William, 
+                           1949-1953, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Braverman, Howard, 
+                           1949-1950
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Cunningham, Noble E., 
+                           1949-1953, undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Gescher, Dieter, 
+                           1951-1952
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Harris, Robert L., 
+                           1949-1953
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           King, Doris Elizabeth, 
+                           1949-1953
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Malin, Morton V., 
+                           1952
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           McCain, Paul M., 
+                           1949-1950
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Oliver, George B., 
+                           1949-1954
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Petersen, Carsten Brink, 
+                           1951
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Sisk, Glenn N., 
+                           1949-1950
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Smith, Clarence McK., 
+                           1948-1953
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           Taylor, Orville W., 
+                           1949-1953
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Papers,
+1942-1953
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(2 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Miscellaneous Series,
+1933-1971 and undated.
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Chiefly consists of clippings, pictures, and printed material documenting Sydnor's
+professional affiliations.</p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">16</container>
+                  
+                  <unittitle>
+                     1933-1978 and undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Clippings,
+1933-1971
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Sydnor:</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Biographical information and pictures,
+1947-1955, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Death,
+1954
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(2 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>List of publications,
+1936-1954, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Papers while a student:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1920-1945, undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(5 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Notebooks [1-17],
+1916-1921, undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(4 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Papers while a student:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1920-1945, undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(5 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Article on Sydnor, undated, no author indicated
+                        </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(1 folder)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Oversize Materials</unittitle>
+            
+            </did>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">17</container>
+                  
+                  <unittitle>Alphabetical Files,
+
+1871-1953, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">17</container>
+                  
+                  <unittitle>Alphabetical Files,
+1927-1953, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">17</container>
+                  
+                  <unittitle>Writings and Speeches,
+1820-1946, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">17</container>
+                  
+                  <unittitle>Writings and Speeches,
+1835-1952
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">17</container>
+                  
+                  <unittitle>Teaching Files,
+1936-1951
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+      
+      </dsc>
+   
+   </archdesc>
+
+</ead>

@@ -1,0 +1,3352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Frank Baker Collection of Methodist Circuit Plans, 1777-1984 and undated)//EN" url="http://library.duke.edu/rubenstein/findingaids/methodistcircuitplans/">methodistcircuitplans</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Frank Baker Collection of Methodist Circuit Plans,
+			<date normal="1777/1984" era="ce" calendar="gregorian">1777-1984 and undated</date>
+            </titleproper>
+            <author>Processed by: Marsha Kononenko, and Michael Shumate; machine-readable finding aid created by: Michael Shumate, Marsha Kononenko, and Keith Page</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>
+               <lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+            <p>
+               <date normal="2012" encodinganalog="date" era="ce" calendar="gregorian"> 2012</date> Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002507198</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+            <date era="ce" calendar="gregorian">Date of source: February 2012</date>
+            <lb/>Processed by Marsha Kononenko, and Michael Shumate, February 2012; finding aid encoded by Michael Shumate, Marsha Kononenko, and Keith Page, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, <date era="ce" calendar="gregorian">February 2012</date>
+         </creation>
+         <langusage>Description is in <language langcode="eng">English</language>
+         </langusage>
+         <descrules>Finding aid was prepared using <title xlink:type="simple" xlink:href="">DACS</title> and local <title xlink:type="simple" xlink:href="">Style Guide</title>
+         </descrules>
+      </profiledesc><!-- Location of <revisiondesc> if needed -->
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Frank Baker Collection of Methodist Circuit Plans, <date type="span" era="ce" calendar="gregorian">1777-1984</date> and undated</titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+         <p>
+            <date normal="2012" era="ce" calendar="gregorian">(C) 2012</date> Duke University. All Rights Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC">
+      <did>
+         <head>Descriptive Summary</head>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <origination label="Creator">
+            <persname encodinganalog="100">Baker, Frank, 1910-1999.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Frank Baker Collection of Methodist circuit plans <unitdate normal="1777/1984" type="inclusive" era="ce" calendar="gregorian">1777-1984 and undated</unitdate>
+         </unittitle>
+         <langmaterial label="Language of Material" encodinganalog="546">Material in <language langcode="eng">English</language>
+         </langmaterial>
+         <physdesc label="Extent">
+            <extent unit="linear feet" encodinganalog="300">8.5 Linear Feet</extent>
+            <lb/>
+            <extent unit="items">Approx. 2000 items</extent>
+         </physdesc>
+         <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+         <abstract label="Abstract" encodinganalog="545">Scholar, editor, collector, and Duke University faculty member specializing in the history of English and American Methodist history, and of the life and career of minister John Wesley.</abstract>
+         <abstract encodinganalog="520">The Frank Baker Collection of Methodist Circuit Plans, 1777-1984 and undated, consists predominantly of circuit plans from the Methodist Church (Great Britain) and the earlier churches that merged to form it in 1907 and 1932: the Wesleyan Methodist Church, the Primitive Methodist Church, the United Methodist Free Churches, and the United Methodist Church (Great Britain). These plans document the history, growth, and organization of the itinerancy, established by John Wesley in the early years of the church when Methodism began to spread into the rural areas of England. The circuit plans feature detailed schedules of where the itinerant preachers, known as circuit riders, were to appear and preach each week.</abstract>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict encodinganalog="506">
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict encodinganalog="540">
+            <head>Copyright Notice</head>
+            <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Frank Baker Collection of Methodist Circuit Plans, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo encodinganalog="541">
+            <head>Provenance</head>
+            <p>The Frank Baker Collection of Methodist Circuit Plans were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a gift in 1976, 1996.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Marsha Kononenko, and Michael Shumate, February 2012</p>
+            <p>Encoded by Michael Shumate, Marsha Kononenko, and Keith Page, February 2012</p>
+            <p>Accession(s) described in this finding aid: The 1976 gift and parts of accession 96-052 were merged into one collection, described in this finding aid.</p>
+            <p>Descriptive sources and standards used to create this inventory: <title xlink:type="simple" render="italic" xlink:href="">DACS,</title> EAD, NCEAD guidelines, and local <title xlink:type="simple" render="italic" xlink:href="">Style Guide.</title>
+            </p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp><!--end of finding aid header-->
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The Frank Baker Collection of Methodist Circuit Plans, 1777-1984 and undated, consists predominantly of circuit plans from the Methodist Church (Great Britain) and the earlier churches that merged to form it in 1907 and 1932: the Wesleyan Methodist Church, the Primitive Methodist Church, the United Methodist Free Churches, and the United Methodist Church (Great Britain). These plans document the history, growth, and organization of the itinerancy, established by John Wesley in the early years of the church when Methodism began to spread into the rural areas of England. The circuit plans feature detailed schedules of where the itinerant preachers, known as circuit riders, were to appear and preach each week.</p>
+         <p>Items in the 19th Century and Overseas Circuits Series were donated in the 1970s and were organized at the item level and encapsulated in the early 1980s. Items were numbered in the order in which they were encapsulated, which bears no relationship to alphabetical order or circuit organization.  They are currently boxed in numerical order in three boxes with the following number ranges: Box 1: items 1-240; Box 2, items 241-390; Box 3: items 391-527.  The 20th Century Series, comprising circa 800-1000 items, was donated in the late 1980s and is organized to the folder level.</p><!-- OPTIONAL: Use Arrangement clip here for Collection Arrangement section -->
+      </scopecontent><!-- Use "Controlaccess Tags" clip here for control access information. -->
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname source="lcsh" encodinganalog="600">Baker, Frank, 1910-1999</persname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Methodist Church (Great Britain)</corpname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Primitive Methodist Church (Great Britain)</corpname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">United Methodist Church (Great Britain)</corpname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">United Methodist Free Churches</corpname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Wesleyan Methodist Church</corpname>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Itinerancy (Church polity)--Methodist Church -- History</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Circuit riders -- history</subject>
+            </item>
+         </list>
+      </controlaccess><!-- OPTIONAL: Separated material --><!-- OPTIONAL: Related material -->
+      <relatedmaterial>
+         <head>Related Material</head>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle label="Collection">Cirplan : the Bulletin of the Society of Cirplanologists</unittitle>
+            <repository label="Repository">Rubenstein Library</repository>
+         </archref>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle label="Collection">
+               <extref xlink:type="simple" xlink:href="http://library.duke.edu/rubenstein/findingaids/frankbakercol/">Frank Baker Collection of Wesleyana and British Methodism, 1536-1996 and undated</extref>, Volumes Series, Local Histories Subseries, Circuit Plans, Hull, 1821-1841</unittitle>
+            <repository label="Repository">Rubenstein Library</repository>
+         </archref>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle label="Collection">Frank Baker Papers, 1641-2002 and undated</unittitle>
+            <repository label="Repository">Rubenstein Library</repository>
+         </archref>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle label="Collection">
+               <extref xlink:type="simple" xlink:href="http://archives.gcah.org/eadweb/gcah2398.pdf">Thomas Marriott British Methodist Circuit Plans Collection, 1823-1833</extref>
+            </unittitle>
+            <repository label="Repository">General Commission on Archives and History of the United Methodist Church</repository>
+         </archref><!--Use Related Material archref tags clip here for structured data, or use paragraph tags for narrative. -->
+      </relatedmaterial>
+      <dsc type="combined">
+         <head>Description of Collection</head><!-- Enter Container List Here -->
+         <c01 level="series">
+            <did>
+               <unittitle>19th Century Series, <unitdate normal="1777/1961" type="inclusive" era="ce" calendar="gregorian">1777-1961</unitdate>
+               </unittitle>
+            </did>
+            <processinfo>
+               <p>[Processing note: Oversize items in this series have been transferred to Box 4 and are listed in a separate alphabetical sequence at the end of the series.]</p>
+            </processinfo>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Information folder</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Article by Frank Baker, <title xlink:type="simple" render="doublequote" xlink:href="">The Circuit Plan,</title> published in <title xlink:type="simple" render="italic" xlink:href="">Library Notes,</title> no. 49, 1979, Duke University Library.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">A</container>
+                  <unittitle>Alford,  <unitdate type="inclusive" era="ce" calendar="gregorian">1873, July-Oct.</unitdate>, Item #440</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Alford, Boston, Grimsby (Reform),  <unitdate type="inclusive" era="ce" calendar="gregorian">1852 Nov.-1853 Feb.</unitdate>, Item #290</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Alston (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1845 Aug.-Oct.</unitdate>, Item #409</unittitle>
+               </did>
+               <processinfo>
+                  <p>[Original missing; no copy available.]</p>
+               </processinfo>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Alston,  <unitdate type="inclusive" era="ce" calendar="gregorian">1883 Feb.-Apr.</unitdate>, Item #437</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Alston,  <unitdate type="inclusive" era="ce" calendar="gregorian">1883 Aug.-Oct.</unitdate>, Item #488</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Appleby,  <unitdate type="inclusive" era="ce" calendar="gregorian">1850 May-July</unitdate>, Item #245</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Appleby and Kirkby Stephen,  <unitdate type="inclusive" era="ce" calendar="gregorian">1873 Nov.-1874 Feb.</unitdate>, Item #465</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">B1</container>
+                  <unittitle>Bacup,  <unitdate type="inclusive" era="ce" calendar="gregorian">1876 Aug.-Oct.</unitdate>, Item #448</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bardney,  <unitdate type="inclusive" era="ce" calendar="gregorian">1911 July-Oct.</unitdate>, Item #350</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Barnard Castle (Prayer Leaders):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1839 Apr.-Oct., Item #200</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1840 May-Oct., Item #201</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1845 July-Dec., Item #39</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Barnsley (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Jan.-Apr.</unitdate>, Item #253</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Barnsley:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1844 Jan.-Apr., Item #72</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1844 Apr.-July, Item #146</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1849 Oct.-1850 Jan., Item #167</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Barnsley (Reform),  <unitdate type="inclusive" era="ce" calendar="gregorian">1933 Aug.-Oct.</unitdate>, Item #197</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Barnsley Methodist Council Agenda,  <unitdate type="inclusive" era="ce" calendar="gregorian">1932 May 6th</unitdate>, Item #50</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Barnsley, Westgate, etc.,  <unitdate type="inclusive" era="ce" calendar="gregorian">1934 Apr.-July</unitdate>, Item #9</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Birmingham Central Mission <unitdate type="inclusive" era="ce" calendar="gregorian">1894 July-Sept.</unitdate>, Item #223</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">B2</container>
+                  <unittitle>Bolton (1. F.) (Prayer Meetings and their sections),  <unitdate type="inclusive" era="ce" calendar="gregorian">1828 Nov.-1829 Apr.</unitdate>, Item #94</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bolton (2. F.),  <unitdate type="inclusive" era="ce" calendar="gregorian">1828 Nov.-1829 Apr.</unitdate>, Item #89</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bolton (1. S.),  <unitdate type="inclusive" era="ce" calendar="gregorian">1820 Dec.-1821 May</unitdate>, Item #70</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bolton (2. S.),  <unitdate type="inclusive" era="ce" calendar="gregorian">1820 Dec.-1821 May</unitdate>, Item #88</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bolton (1. F. + 2. F.),  <unitdate type="inclusive" era="ce" calendar="gregorian">1829 Sept.-1830 Feb.</unitdate>, Item #481</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bolton (2. S.),  <unitdate type="inclusive" era="ce" calendar="gregorian">1832 Apr.-July</unitdate>, Item #90</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bolton (1. F. + 2. F.),  <unitdate type="inclusive" era="ce" calendar="gregorian">1833 Apr.-July</unitdate>, Item #496</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bolton (2. S.),  <unitdate type="inclusive" era="ce" calendar="gregorian">1834 Oct.-1835 Jan.</unitdate>, Item #86</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bolton (1. S.),  <unitdate type="inclusive" era="ce" calendar="gregorian">1835 May-Aug.</unitdate>, Item #103</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bolton (II. F.),  <unitdate type="inclusive" era="ce" calendar="gregorian">1837 Apr.-June</unitdate>, Item #82</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bolton (I. F. + II. F.),  <unitdate type="inclusive" era="ce" calendar="gregorian">1838 Apr.-July</unitdate>, Item #499</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bolton:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1839 Dec.-1840 Mar., Item #87</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1843 Oct.-1844 Jan., Item #104</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1844 Feb.-May, Item #79</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1844 Dec.-1845 Mar., Item #99</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1846 Jan.-Apr., Item #102</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">B3</container>
+                  <unittitle>Bolton (Regular Services):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1843 July-Oct., Item #150</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1844 May-Oct., Item #215</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1845 May-Oct., Item #219</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1846 May-Oct., Item #220</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1847 Oct.-1848 Apr., Item #381</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1850 July-Oct., Item #382</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1851 Mar.-June, Item #383</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1851 Nov.-1852 Feb., Item #384</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1853 Mar.-June, Item #385</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1855 Feb.-Apr., Item #386</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1856 Feb.-Apr., Item #387</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1856 Nov.-1857 Jan., Item #388</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bolton North:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1861 July-Oct., Item #450</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1862 July-Oct., Item #434</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1893 Aug.-Oct., Item #490</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bolton South,  <unitdate type="inclusive" era="ce" calendar="gregorian">1862 Feb.-May</unitdate>, Item #442</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">B4</container>
+                  <unittitle>Bolton, Bridge Street:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1870 Nov.-1871 Jan., Item #466</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1871 May-July, Item #467</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1873 Nov.-1874 Jan., Item #468</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1874 Nov.-1875 Jan., Item #469</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1875 Aug.-Oct., Item #470</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1876 Feb.-Apr., Item #471</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1877 May-July, Item #472</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1879 May-July, Item #473</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1880 Feb.-Apr., Item #474</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1881 Jan.-Apr., Item #475</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1882 July-Oct., Item #476</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1883 Jan.-Apr., Item #477</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>B5<unitdate type="inclusive" era="ce" calendar="gregorian">1879 Nov.-1880 Jan.</unitdate>, Item #438</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Boston:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1820 Nov.-1821 Jan., Item #73</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1863 Jan.-Apr., Item #483</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1881 July-Oct., Item #237</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1895 May-July, Item #405</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Boston (United Methodist Free Churches),  <unitdate type="inclusive" era="ce" calendar="gregorian">1883 Jan.-Apr.</unitdate>, Item #282</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">B5</container>
+                  <unittitle>Bradford (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Jan.-Mar.</unitdate>, Item #336</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bradford, Kirkgate,  <unitdate type="inclusive" era="ce" calendar="gregorian">1883 Nov.-1884 Feb.</unitdate>, Item #127</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bramley,  <unitdate type="inclusive" era="ce" calendar="gregorian">1865 Oct.-Dec.</unitdate>, Item #399</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bridlington (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1866 July-Oct.</unitdate>, Item #418</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Brigg and Alkbro' (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1839 July-Oct., Item #330</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1840 Jan.-Apr., Item #366</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1840 July-Oct., Item #145</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1840 Oct.-1841 Jan., Item #124</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1841 Jan.-Apr., Item #131</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>(Ms. Notes), , Item #137</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1841 May-July, Item #144</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>(Ms. Notes), </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Brighton,  <unitdate type="inclusive" era="ce" calendar="gregorian">1853 Feb.-Apr.</unitdate>, Item #162</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Brighton,  <unitdate type="inclusive" era="ce" calendar="gregorian">1854 Oct.-1855 Jan.</unitdate>, Item #252</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bristol,  <unitdate type="inclusive" era="ce" calendar="gregorian">1838 July-Aug.</unitdate>, Item #363</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Brompton (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Jan.-Apr.</unitdate>, Item #176</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Brough and Penrith,  <unitdate type="inclusive" era="ce" calendar="gregorian">1822 Feb.-Apr.</unitdate>, Item #105</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Burslem,  <unitdate type="inclusive" era="ce" calendar="gregorian">1807 Feb.-July</unitdate>, Item #159</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Burslem,  <unitdate type="inclusive" era="ce" calendar="gregorian">1807 Aug.-1808 Jan.</unitdate>, Item #225</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bury (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1894 July-Oct.</unitdate>, Item #361</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">C</container>
+                  <unittitle>Caistor and Laceby,  <unitdate type="inclusive" era="ce" calendar="gregorian">1894 July-Oct.</unitdate>, Item #489</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Caistor and Laceby,  <unitdate type="inclusive" era="ce" calendar="gregorian">1895 July-Oct.</unitdate>, Item #486</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Camborne,  <unitdate type="inclusive" era="ce" calendar="gregorian">1834 July-Oct.</unitdate>, Item #26</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Camelford (Bible Christian),  <unitdate type="inclusive" era="ce" calendar="gregorian">1903 Nov.-1904 Jan.</unitdate>, Item #492</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Carmarthen and Llanelly,  <unitdate type="inclusive" era="ce" calendar="gregorian">1868 May-Aug.</unitdate>, Item #101</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Castle Donington,  <unitdate type="inclusive" era="ce" calendar="gregorian">1884 May-July</unitdate>, Item #494</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chatteris,  <unitdate type="inclusive" era="ce" calendar="gregorian">1854 Oct.-1855 Feb.</unitdate>, Item #248</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chertsey and Walton-on-Thames,  <unitdate type="inclusive" era="ce" calendar="gregorian">1873 Apr.-July</unitdate>, Item #278</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chertsey and Walton-on-Thames,  <unitdate type="inclusive" era="ce" calendar="gregorian">1873 Oct.-1874 Jan.</unitdate>, Item #495</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chesterfield,  <unitdate type="inclusive" era="ce" calendar="gregorian">1818 May-Nov.</unitdate>, Item #322</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Clitheroe,  <unitdate type="inclusive" era="ce" calendar="gregorian">1878 Aug.-Oct.</unitdate>, Item #412</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cobham,  <unitdate type="inclusive" era="ce" calendar="gregorian">1873 Aug.-Oct.</unitdate>, Item #213</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Congleton,  <unitdate type="inclusive" era="ce" calendar="gregorian">1837 Oct.-1838 Jan.</unitdate>, Item #257</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Coningsby,  <unitdate type="inclusive" era="ce" calendar="gregorian">1857 May-Aug.</unitdate>, Item #115</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cottenham,  <unitdate type="inclusive" era="ce" calendar="gregorian">1881 Nov.-1882 Feb.</unitdate>, Item #204</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">D</container>
+                  <unittitle>Danby,  <unitdate type="inclusive" era="ce" calendar="gregorian">1865 May-Oct.</unitdate>, Item #147</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Darlington:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1836 May-Oct., Item #183</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1837 Nov.-1838 May, Item #324</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1838 Dec.-1839 Mar., Item #136</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1840 Apr.-Aug., Item #133</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1842 Feb.-May, Item #135</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1844 Oct.-1845 Feb., Item #152</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1846 Apr.-Aug., Item #148</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Denby Dale,  <unitdate type="inclusive" era="ce" calendar="gregorian">1885 Feb.-May</unitdate>, Item #446</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Deptford,  <unitdate type="inclusive" era="ce" calendar="gregorian">1819 May-Oct.</unitdate>, Item #241</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Derby (Arminian),  <unitdate type="inclusive" era="ce" calendar="gregorian">1832 July-Oct.</unitdate>, Item #4</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Devonport,  <unitdate type="inclusive" era="ce" calendar="gregorian">1960 Apr.-June</unitdate>, Item #30</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Doncaster,  <unitdate type="inclusive" era="ce" calendar="gregorian">1831 Nov.-1832 Jan.</unitdate>, Item #238</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Doncaster (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1840 Nov.-1841 Jan.</unitdate>, Item #335</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Downham,  <unitdate type="inclusive" era="ce" calendar="gregorian">1842 Dec.-1843 May</unitdate>, Item #338</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Durham,  <unitdate type="inclusive" era="ce" calendar="gregorian">1858 Feb.-May</unitdate>, Item #240</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Durham (Methodist New Connexion),  <unitdate type="inclusive" era="ce" calendar="gregorian">1859 Jan-Apr.</unitdate>, Item #195</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">E - Gra</container>
+                  <unittitle>Easingwold:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1826 Nov.-1827 Apr., Item #68</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1842 Dec.-1843 Mar., Item #212</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1848 Oct.-1849 Apr., Item #258</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1851 May-Oct., Item #232</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1866 May-Oct., Item #480</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Edinburgh,  <unitdate type="inclusive" era="ce" calendar="gregorian">1832 Aug.-Oct.</unitdate>, Item #25</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Epworth:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1814 Jan.-June, Item #21</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1827 Nov.-1828 Apr., Item #77</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1842 May-Oct., Item #262</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Epworth (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1835 Nov.-1836 Jan.</unitdate>, Item #210</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Filey,  <unitdate type="inclusive" era="ce" calendar="gregorian">1961 Jan.-Apr.</unitdate>, Item #31</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Folkestone,  <unitdate type="inclusive" era="ce" calendar="gregorian">1881 Nov.-1882 Jan.</unitdate>, Item #216</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Gainsborough,  <unitdate type="inclusive" era="ce" calendar="gregorian">1950 Oct.-1951 Jan.</unitdate>, Item #71</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Gateshead,  <unitdate type="inclusive" era="ce" calendar="gregorian">1858 May-July</unitdate>, Item #493</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Gateshead,  <unitdate type="inclusive" era="ce" calendar="gregorian">1866 Aug.-Oct.</unitdate>, Item #487</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Grantham,  <unitdate type="inclusive" era="ce" calendar="gregorian">1865 May-July</unitdate>, Item #478</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">Gri - Hav</container>
+                  <unittitle>Grimsby:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1811 Nov.-1812 Apr., Item #53</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1816 July-Dec., Item #113</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1818 June-Dec., Item #184</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1818 Dec.-1819 June, Item #179</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1819 Dec.-1820 June, Item #187</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1820 Dec.-1821 June, Item #80</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1821 July-Dec., Item #44</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1822 July-Dec., Item #46</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1859 Sept.-Dec., Item #441</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1860 May-Aug., Item #464</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Grimsby, Duncombe St.,  <unitdate type="inclusive" era="ce" calendar="gregorian">1896 Apr.-July</unitdate>, Item #10</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Grimsby, Duncombe St.,  <unitdate type="inclusive" era="ce" calendar="gregorian">1912 Apr.-July</unitdate>, Item #11</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Halifax (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1829 Dec.-1830 Mar., Item #188</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1830 Apr.-June, Item #191</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1841 Jan.-Apr., Item #279</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Halifax, South Parade,  <unitdate type="inclusive" era="ce" calendar="gregorian">1880 May-Aug.</unitdate>, Item #246</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Halifax, Wesley,  <unitdate type="inclusive" era="ce" calendar="gregorian">1880 May-July</unitdate>, Item #504</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Haslingden,  <unitdate type="inclusive" era="ce" calendar="gregorian">1844 May-Oct.</unitdate>, Item #62</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hastings,  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Apr.-July</unitdate>, Item #209</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Haverfordwest,  <unitdate type="inclusive" era="ce" calendar="gregorian">1832 May-Oct.</unitdate>, Item #163</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">H1</container>
+                  <unittitle>Hertford and Bishop's Stortford,  <unitdate type="inclusive" era="ce" calendar="gregorian">1873 Nov.-1874 Jan.</unitdate>, Item #431</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hexham,  <unitdate type="inclusive" era="ce" calendar="gregorian">1870 Aug.-Oct.</unitdate>, Item #242</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Holbeach,  <unitdate type="inclusive" era="ce" calendar="gregorian">1896 Jan-Apr.</unitdate>, Item #149</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Holt,  <unitdate type="inclusive" era="ce" calendar="gregorian">1883 Oct.-1884 Jan.</unitdate>, Item #203</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Horncastle (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1877 Jan.-Apr., Item #505</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1902 Dec.-1903 Mar., Item #452</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1906 July-Sept., Item #453</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1907 Jan.-Mar., Item #454</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1908 Oct.-Dec., Item #455</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1911 Jan.-Mar., Item #456</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1913 Apr.-June, Item #457</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1914 Jan.-Mar., Item #458</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1924 Oct.-Dec., Item #459</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1925 Jan.-Mar., Item #460</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1926 Apr.-June, Item #461</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1926 Oct.-Dec., Item #462</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1928 Oct.-Dec., Item #463</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Horncastle,  <unitdate type="inclusive" era="ce" calendar="gregorian">1903 Apr.-July</unitdate>, Item #12</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Horncastle,  <unitdate type="inclusive" era="ce" calendar="gregorian">1951 Jan.-Apr.</unitdate>, Item #398</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">H2</container>
+                  <unittitle>Houghton-Le-Spring:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1875 Feb.-Apr., Item #425</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1875 Aug.-Oct., Item #426</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1875 Nov.-1876 Jan., Item #427</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1876 Feb.-Apr., Item #428</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1876 May-June, Item #429</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1891 Aug.-Oct., Item #430</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Howden,  <unitdate type="inclusive" era="ce" calendar="gregorian">1873 May-July</unitdate>, Item #445</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Huddersfield,  <unitdate type="inclusive" era="ce" calendar="gregorian">1829 Nov.-1830 Apr.</unitdate>, Item #151</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Huddersfield (Weeknights),  <unitdate type="inclusive" era="ce" calendar="gregorian">1831 Sept.-Dec.</unitdate>, Item #3</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Huddersfield:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1832 Mar.-Aug., Item #340</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1870? Aug.-Oct., Item #141</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1880? Feb.-Apr., Item #171</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1880 May-July, Items #185 and #192</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1880 Aug.-Oct., Item #157</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1884 Aug.-Oct., Item #156</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Huddersfield (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1830 July-Sept.</unitdate>, Item #169</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Huddersfield (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1840 Nov.-1841 Jan.</unitdate>, Item #276</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">H3</container>
+                  <unittitle>Hull,  <unitdate type="inclusive" era="ce" calendar="gregorian">1808 May-Oct.</unitdate>, Item #43</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hull (P) (Prayer Meetings),  <unitdate type="inclusive" era="ce" calendar="gregorian">1828 Feb.-Apr.</unitdate>, Item #42</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hull (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1825 Jan.-Apr., Item #83</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1838 Jan.-Apr., Item #293</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1840 Aug.-Oct., Item #196</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1841 May-July, Item #158</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1841 Jan.-Apr., Item #352</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1886 Oct.-1887 Jan., Item #407</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hull (P) (District Meeting),  <unitdate type="inclusive" era="ce" calendar="gregorian">1870 May</unitdate>, Item #182</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hull, East,  <unitdate type="inclusive" era="ce" calendar="gregorian">1858 Aug.-1859 Jan.</unitdate>, Item #509</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hull (P), Fourth,  <unitdate type="inclusive" era="ce" calendar="gregorian">1881 Jan.-Apr.</unitdate>, Item #424</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hull (P), Fourth,  <unitdate type="inclusive" era="ce" calendar="gregorian">1883 Apr.-July</unitdate>, Item #13</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hull, Lambert St. <unitdate type="inclusive" era="ce" calendar="gregorian">1937 Apr.-June</unitdate>, Item #76</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hull (P), Spring Bank,  <unitdate type="inclusive" era="ce" calendar="gregorian">1876 July-Oct.</unitdate>, Item #45</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hull, Waltham St.,  <unitdate type="inclusive" era="ce" calendar="gregorian">1954 Oct.-Dec.</unitdate>, Item #186</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hull, Waltham St. (Quarterly Meeting), <unitdate type="inclusive" era="ce" calendar="gregorian">1885 Mar.</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 copies)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">H4</container>
+                  <unittitle>Hull, Plan of the Religious Services in Connexion with the Wesleyan Methodist Conference, <unitdate type="inclusive" era="ce" calendar="gregorian">1848</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">I-K</container>
+                  <unittitle>Isle of Wight,  <unitdate type="inclusive" era="ce" calendar="gregorian">1844 Jan.-Apr.</unitdate>, Item #229</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Isle of Wight (Bible Christian),  <unitdate type="inclusive" era="ce" calendar="gregorian">1857 May-Aug.</unitdate>, Item #6</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Keighly (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1841 Jan.-Apr., Item #329</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1849 July-Oct., Item #439</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1858 Apr.-July, Item #423</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1863 Oct.-1864 Jan., Item #403</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1866 Apr.-July, Item #389</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Keighley (P), Second,  <unitdate type="inclusive" era="ce" calendar="gregorian">1912 Apr.-June</unitdate>, Item #346</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Kentish Missions (P) <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1841 Oct.-1842 Jan., Item #91</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1842 Jan.-Apr., Item #109</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1842 May-July, Item #24</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Keyingham (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1840 Nov.-1841 Jan.</unitdate>, Item #269</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Kilkhampton,  <unitdate type="inclusive" era="ce" calendar="gregorian">1871 Nov.-1872 Feb.</unitdate>, Item #247</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Kilkhampton,  <unitdate type="inclusive" era="ce" calendar="gregorian">1872 Feb.-May</unitdate>, Item #139</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Kilkhampton (United Methodist),  <unitdate type="inclusive" era="ce" calendar="gregorian">1911 May-July</unitdate>, Item #498</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Kirkoswald,  <unitdate type="inclusive" era="ce" calendar="gregorian">1883 Aug.-Nov.</unitdate>, Item #447</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Kirkoswald,  <unitdate type="inclusive" era="ce" calendar="gregorian">1899 July-Oct.</unitdate>, Item #410</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Knaresborough,  <unitdate type="inclusive" era="ce" calendar="gregorian">1881 Aug.-Oct.</unitdate>, Item #374</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Knaresborough,  <unitdate type="inclusive" era="ce" calendar="gregorian">1876 Nov.-1877 Jan.</unitdate>, Item #411</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Knowl-Wood (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1840 Oct.-1841 Jan.</unitdate>, Item #294</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">L1</container>
+                  <unittitle>Lancaster,  <unitdate type="inclusive" era="ce" calendar="gregorian">1862 Nov.-1863 Jan.</unitdate>, Item #138</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Leicester (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1829 July-Oct.</unitdate>, Item #173</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Leeds (Ms., facsim.),  <unitdate type="inclusive" era="ce" calendar="gregorian">1777 May-July</unitdate>, Item #5</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Leeds,  <unitdate type="inclusive" era="ce" calendar="gregorian">1818 Nov.-1819 Apr.</unitdate>, Item #108</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Leeds (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Jan-Apr.</unitdate>, Item #268</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Leeds (P), South,  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Jan-Apr.</unitdate>, Item #287</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Leeds, Armley,  <unitdate type="inclusive" era="ce" calendar="gregorian">1884 Jan-Apr.</unitdate>, Item #226</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Leeds, Wesley,  <unitdate type="inclusive" era="ce" calendar="gregorian">1874 Feb.-Apr.</unitdate>, Item #416</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lincoln,  <unitdate type="inclusive" era="ce" calendar="gregorian">1844 Feb.-July</unitdate>, Item #497</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lincoln, Wesley,  <unitdate type="inclusive" era="ce" calendar="gregorian">1884 May-July</unitdate>, Item #349</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lincoln, Wesley,  <unitdate type="inclusive" era="ce" calendar="gregorian">1898 Oct.-1899 Jan.</unitdate>, Item #14</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lincoln (Methodist Free Churches),  <unitdate type="inclusive" era="ce" calendar="gregorian">1900 Nov.-1901 Jan.</unitdate>, Item #406</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lincoln (Methodist Free Churches),  <unitdate type="inclusive" era="ce" calendar="gregorian">1904 Feb.-Apr.</unitdate>, Item #401</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lincoln (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1836 July-Oct., Item #74</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1836 Oct.-1837 Jan., Item #57</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1837 Jan.-Apr., Item #56</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1837 Apr.-July, Item #58</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1837 July-Oct., Item #59</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lindley (Methodist New Connexion),  <unitdate type="inclusive" era="ce" calendar="gregorian">1879 Nov.-1880 Feb.</unitdate>, Item #380</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">L2</container>
+                  <unittitle>Liverpool: </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1809 July-Oct., Item #230</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1809 Oct.-1810 Jan., Item #358</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1810 Jan.-Apr., Item #85</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1810 Apr.-July, Item #356</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1810 July-Oct., Item #343</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1810 Oct.-1811 Jan., Item #194</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1811 Jan.-Apr., Item #208</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1811 Apr.-July, Item #168</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1811 July-Oct., Item #172</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Liverpool, North,  <unitdate type="inclusive" era="ce" calendar="gregorian">1832 May-Aug.</unitdate>, Item #261</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Liverpool, North,  <unitdate type="inclusive" era="ce" calendar="gregorian">1854 June-Sept.</unitdate>, Item #373</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Liverpool, Brunswick,  <unitdate type="inclusive" era="ce" calendar="gregorian">1864 May-Aug.</unitdate>, Item #413</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Liverpool, South,  <unitdate type="inclusive" era="ce" calendar="gregorian">1854 June-Sept.</unitdate>, Item #375</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Liverpool, Pitt. St.,  <unitdate type="inclusive" era="ce" calendar="gregorian">1864 Apr.-June</unitdate>, Item #360</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Liverpool, Pitt. St.,  <unitdate type="inclusive" era="ce" calendar="gregorian">1867 Apr.-June</unitdate>, Item #370</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Liverpool, South, Pitt. St.,  <unitdate type="inclusive" era="ce" calendar="gregorian">1861 Sept.-Dec.</unitdate>, Item #377</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Liverpool, Cramner:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1867 Feb.-Apr., Item #369</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1876 Oct.-1877 Jan., Item #368</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1885 Jan.-Mar., Item #379</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>[Liverpool], Waterloo,  <unitdate type="inclusive" era="ce" calendar="gregorian">1864 Apr.-June</unitdate>, Item #174</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Liverpool, Wesley,  <unitdate type="inclusive" era="ce" calendar="gregorian">1864 Apr.-June</unitdate>, Item #422</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Liverpool, Wesley,  <unitdate type="inclusive" era="ce" calendar="gregorian">1867 Apr.-June</unitdate>, Item #376</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Liverpool (Conference Plan),  <unitdate type="inclusive" era="ce" calendar="gregorian">1832 July-Aug.</unitdate>, Item #359</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">L3</container>
+                  <unittitle>London,  <unitdate type="inclusive" era="ce" calendar="gregorian">1796 June-Sept.</unitdate>, Item #243</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London,  <unitdate type="inclusive" era="ce" calendar="gregorian">1803 Oct.-Dec.</unitdate>, Item #289</unittitle>
+                  <physdesc>
+                     <extent>(2 copies)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London, East:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1819 Feb.-June, Item #143</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London, North,  <unitdate type="inclusive" era="ce" calendar="gregorian">1827 Oct.-1828 Feb.</unitdate>, Item #391</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London, Second,  <unitdate type="inclusive" era="ce" calendar="gregorian">1846 Jan.-Mar.</unitdate>, Item #207</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London, Second,  <unitdate type="inclusive" era="ce" calendar="gregorian">1848 Jan.-Mar.</unitdate>, Item #181</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London, Fifth,  <unitdate type="inclusive" era="ce" calendar="gregorian">1838 May-July</unitdate>, Item #206</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London, Fourth and Fifth, etc.,  <unitdate type="inclusive" era="ce" calendar="gregorian">1852 Apr.-June</unitdate>, Item #347</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London, Islington,  <unitdate type="inclusive" era="ce" calendar="gregorian">1864 July-Oct.</unitdate>  Item #362</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London (P) <title xlink:type="simple" render="doublequote" xlink:href="">London Branch of Hull Circuit,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1838 Dec.-1839 Apr.</unitdate>, Item #432</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London (P) <title xlink:type="simple" render="doublequote" xlink:href="">London Mission of Hull Circuit,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Aug.-Oct.</unitdate>, Item #503</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London, Highgate,  <unitdate type="inclusive" era="ce" calendar="gregorian">1955 Apr.-June</unitdate>, Item #15</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Louth (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1837 Oct.-1838 Jan., Item #291</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1838 Apr.-July, Item #292</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1838 July-Oct., Item #479</unittitle>
+                     <physdesc>
+                        <extent>(2 copies)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London and Southwark circuits, photocopies, 1811 and 1829-1867</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Photocopies purchased from the collection of John Ellis, Wesley Society, London. Housed in a separate envelope inside folder L3.</p>
+               </scopecontent>
+               <c03>
+                  <did>
+                     <unittitle>London, Second, 1848 Apr.-June; 1856 Oct.-Dec.; 1857 Apr.-June, 1858 Oct.-Dec.; 1860 Jan.-Mar.; and 1864 Jan.-Apr.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>London, Conference, 1829 July-Aug.; 1850</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>London, Third and Eighth, 1852 Jan.-Apr.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>London, Kentish Town,1867 July-Sept.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Southwark Prayer Meetings, 1811 Aug. 11</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">L4</container>
+                  <unittitle>London, Second (United Methodist Free Churches), <unitdate type="inclusive" era="ce" calendar="gregorian">1860</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <container type="folder">M1</container>
+                  <unittitle>Maidenhead (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1913 Oct.-Dec.</unitdate>, Item #251</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Malton (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1833 June-Sept., Item #75</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1834 Jan.-Mar., Item #129</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1841 Jan.-Apr., Item #263</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1799 July-Oct., Item #165</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1799 Oct.-1800 Feb., Item #20</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1802 Feb.-June, Item #?</unittitle>
+                  </did>
+                  <processinfo>
+                     <p>[Original missing; no copy available.]</p>
+                  </processinfo>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1808 Aug.-Oct., Item #341</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1802 June-Nov., Item #485</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester (Ms. yearly plan of Jabez Bunting),  <unitdate type="inclusive" era="ce" calendar="gregorian">1805-1806</unitdate>, Item #255</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1806 Sept.-1807 Mar., Item #97</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1807 Mar.-July, Item #270</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1807 July-Oct., Item #284</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1809 Feb.-Apr., Item #211</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1810 Aug.-Oct., Item #54</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1818 Jan.-Mar., Item #78</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1818 Apr.-June, Item #47</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester, South:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1824 Oct.-1825 Jan., Item #392</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1825 Nov.-1829 Feb., Item #393</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1826 Mar.-May, Item #394</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1826 June-Aug., Item #395</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1826 Sept.-1827 Jan., Item #396</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1827 Dec.-1828 Apr., Item #397</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">M2</container>
+                  <unittitle>Manchester, North, (Weeknights),  <unitdate type="inclusive" era="ce" calendar="gregorian">1826 Apr.-Sept.</unitdate>, Item #365</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester, North, (Weeknights),  <unitdate type="inclusive" era="ce" calendar="gregorian">1826 Sept.-1827 Jan.</unitdate>, Item #364</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester, First,  <unitdate type="inclusive" era="ce" calendar="gregorian">1833 Oct.-1834 Jan.</unitdate>, Item #128</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester, First,  <unitdate type="inclusive" era="ce" calendar="gregorian">1859 Mar.-June</unitdate>, Item #114</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester, Second,  <unitdate type="inclusive" era="ce" calendar="gregorian">1860 July-Sept.</unitdate>, Item #332</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester, Third:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1828 July-Oct., Item #323</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1829 Feb.-May, Item #326</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1845 Mar.-June, Item #355</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1846 July-Sept., Item #390</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1858 Sept.-1859 Jan., Item #121</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">M3</container>
+                  <unittitle>Manchester, Fourth,  <unitdate type="inclusive" era="ce" calendar="gregorian">1859 Aug.-Oct.</unitdate>, Item #116</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester, Fifth,  <unitdate type="inclusive" era="ce" calendar="gregorian">1859 Apr.-June</unitdate>, Item #339</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester, Sixth,  <unitdate type="inclusive" era="ce" calendar="gregorian">1860 Oct.-Dec.</unitdate>, Item #66</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester, Sixth,  <unitdate type="inclusive" era="ce" calendar="gregorian">1864 Feb.-Apr.</unitdate>, Item #234</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester, Oxford St.,  <unitdate type="inclusive" era="ce" calendar="gregorian">1864 Jan.-Mar.</unitdate>, Item #227</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester, Radnor St.,  <unitdate type="inclusive" era="ce" calendar="gregorian">1883 Oct.-Dec.</unitdate>, Item #93</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1846 Oct.-1847 Jan.</unitdate>, Item #402</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester London Rd. (Sunday School),  <unitdate type="inclusive" era="ce" calendar="gregorian">1831-1832</unitdate>, Item #120</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester, South (Evening Prayer),  <unitdate type="inclusive" era="ce" calendar="gregorian">1824 Sept.-Jan.</unitdate>, Item #193</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">M4</container>
+                  <unittitle>Mansfield:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1854 July-Nov., Item #353</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1858 Mar.-June, Item #451</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1859 Feb.-May, Item #296</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1860 Feb.-Apr., Item #297</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1860 May-July, Item #298</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1860 Aug.-Oct., Item #299</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1860 Nov.-1861 Jan., Item #300</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1861 Feb.-Apr., Item #301</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1861 May-July, Item #302</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1863 May-July, Item #303</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1863 Nov.-1864 Jan., Item #304</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1864 Aug.-Oct., Item #305</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1864 Nov.-1865 Jan., Item #306</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1865 Feb.-Apr., Item #307</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1865 May-July, Item #308</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1865 Aug.-Oct., Item #309</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1865 Nov.-1866 Jan., Item #310</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="folder">M5</container>
+                     <unittitle>1866 Aug.-Oct., Item #311</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1868 Nov.-1869 Jan., Item #312</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1869 Nov.-1870 Jan., Item #313</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1870 Feb.-Apr., Item #314</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1870 May-July, Item #315</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1870 Aug.-Oct., Item #316</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1870 Nov.-1871 Jan., Item #317</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1871 Feb.-Apr., Item #318</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1871 May-July, Item #319</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1871 Aug.-Oct., Item #320</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1873 Feb.-Apr., Item #348</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1873 May-July, Item #321</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1874 May-July, Item #337</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1877 May-July, Item #378</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Mansfield (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1848 Oct.-1849 Jan.</unitdate>, Item #40</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Middleham and Tanfield (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1815 May-Oct.</unitdate>, Item #41</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Middleham (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1841 Jan.-Apr., Item #189</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1844 Aug.-Oct., Item #119</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1849 Nov.-1850 Jan., Item #142</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">N-O</container>
+                  <unittitle>Nelson,  <unitdate type="inclusive" era="ce" calendar="gregorian">1896 Aug.-Oct.</unitdate>, Item #275</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Newscastle,  <unitdate type="inclusive" era="ce" calendar="gregorian">1802 Apr.-June</unitdate>, Item #32</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Newscastle,  <unitdate type="inclusive" era="ce" calendar="gregorian">1816 Aug.-Oct.</unitdate>, Item #63</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>North Hill,  <unitdate type="inclusive" era="ce" calendar="gregorian">1959 July-Oct.</unitdate>, Item #16</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>North Shields,  <unitdate type="inclusive" era="ce" calendar="gregorian">1843 May-Oct.</unitdate>, Item #281</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Norwich,  <unitdate type="inclusive" era="ce" calendar="gregorian">1810 Nov.-1811 Apr.</unitdate>, Item #8</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Norwich (United Methodist Free Church),  <unitdate type="inclusive" era="ce" calendar="gregorian">1899 Feb.-Apr.</unitdate>, Item #371</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Norwich (United Methodist):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1908 Nov.-1909 Jan., Item #273</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1909 May-July, Item #357</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1910 Aug.-Oct., Item #408</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1911 Jan.-Apr., Item #420</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1911 Apr.-July, Item #421</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1911 Nov.-1912 Jan., Item #372</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Nottingham, Wesley:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1883 Jan.-Apr., Item #110</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1883 Apr.-July, Item #84</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1883 July-Oct., Item #111</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1883 Oct.-1884 Jan., Item #118</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1884 Jan.-Apr., Item #117</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1884 July-Oct., Item #100</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Nottingham, Halifax Place,  <unitdate type="inclusive" era="ce" calendar="gregorian">1884 Feb.-Apr.</unitdate>, Item #17</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Oldham Second (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1875 Oct.-1876 Jan., Item #433</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">P-R</container>
+                  <unittitle>Pately Bridge (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Jan.-Apr.</unitdate>, Item #283</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Patrington (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1870 Jan.-Apr.</unitdate>, Item #443</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Penrith,  <unitdate type="inclusive" era="ce" calendar="gregorian">1836 May-Oct.</unitdate>, Item #37</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Penzance,  <unitdate type="inclusive" era="ce" calendar="gregorian">1835 Jan.-Apr.</unitdate>, Item #130</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Penzance,  <unitdate type="inclusive" era="ce" calendar="gregorian">1837 Jan.-Apr.</unitdate>, Item #154</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Plymouth, King St.,  <unitdate type="inclusive" era="ce" calendar="gregorian">1872 Apr.-June</unitdate>, Item #264</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pocklington (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Jan.-Apr.</unitdate>, Item #239</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pocklington,  <unitdate type="inclusive" era="ce" calendar="gregorian">1961 Apr.-July</unitdate>, Item #33</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pontefract (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1832 Sept.-Dec.</unitdate>, Item #81</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Pontefract (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Jan.-Apr.</unitdate>, Item #325</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Preston:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1822 Nov.-1823 Feb., Item #61</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1827 Nov.-1828 Jan., Item #112</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1828 Aug.-Oct., Item #67</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1831 Aug.-Oct., Item #95</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1834 May-July, Item #98</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1843 Apr.-July, Item #331</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Preston and Chorley,  <unitdate type="inclusive" era="ce" calendar="gregorian">1857 Feb.-Apr.</unitdate>, Item #345</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Preston, Lune St.,  <unitdate type="inclusive" era="ce" calendar="gregorian">1877 Apr.-July</unitdate>, Item #415</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Preston (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1845 Feb.-Apr.</unitdate>, Item #224</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Reeth,  <unitdate type="inclusive" era="ce" calendar="gregorian">1869 Feb.-Apr.</unitdate>, Item #222</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">S1</container>
+                  <unittitle>St. Austell,  <unitdate type="inclusive" era="ce" calendar="gregorian">1959 Aug.-Oct.</unitdate>, Item #34</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>St. Helen's (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1875 Oct.-Dec.</unitdate>, Item #417</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Salford-Manchester:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1818 Aug.-Oct., Item #28</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1826 Sept.-Nov., Item #122</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1826 Dec.-1827 Feb., Item #123</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Scarborough (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Jan.-Apr.</unitdate>, Item #218</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Settle:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1915 Nov.-1916 Jan., Item #333</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1923 Jan.-Apr., Item #285</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1925 Apr.-July, Item #132</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Shebbear (Bible Christian),  <unitdate type="inclusive" era="ce" calendar="gregorian">1873 Aug.-Oct.</unitdate>, Item #236</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Sheerness,  <unitdate type="inclusive" era="ce" calendar="gregorian">1866 June-Sept.</unitdate>, Item #190</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Sheffield, Carver St.:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1883 July-Sept., Item #250</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1891 July-Sept., Item #235</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1891 Oct.-Dec., Item #249</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1892 July-Sept., Item #231</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Sheffield (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1819 Dec.-1820 Feb.</unitdate>, Item #1</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Sheffield (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1840 Nov.-1841 Jan.</unitdate>, Item #286</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Shotley Bridge,  <unitdate type="inclusive" era="ce" calendar="gregorian">1879 May-July</unitdate>, Item #484</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Shrewsbury,  <unitdate type="inclusive" era="ce" calendar="gregorian">1826 Oct.-1827 Apr.</unitdate>, Item #52</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Shrewsbury,  <unitdate type="inclusive" era="ce" calendar="gregorian">1830 May-Oct.</unitdate>, Item #126</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">S2</container>
+                  <unittitle>Silsden:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>[1841] Jan-Apr., Item #280</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1849 Apr.-July, Item #277</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1849 July-Oct., Item #327</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Skipton,  <unitdate type="inclusive" era="ce" calendar="gregorian">1930 Jan.-Mar.</unitdate>, Item #344</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Snaith:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1825 Oct.-1826 Apr., Item #23</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1818 Nov.-1819 Apr., Item #27</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1864 Nov.-1865 Jan., Item #180</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Snaith (Prayer Leaders),  <unitdate type="inclusive" era="ce" calendar="gregorian">1864 Nov.-1865 Jan.</unitdate>, Item #22</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Snaith,  <unitdate type="inclusive" era="ce" calendar="gregorian">1867 Nov.-1868 Feb.</unitdate>, Item #221</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Spalding,  <unitdate type="inclusive" era="ce" calendar="gregorian">1895 May-July</unitdate>, Item #254</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Spalding,  <unitdate type="inclusive" era="ce" calendar="gregorian">1901 Jan.-Mar.</unitdate>, Item #134</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Spilsby:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1830 May-Nov., Item #217</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1865 Nov.-1866 Feb., Item #436</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1881 Mar.-June, Item #107</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1881 Nov.-1882 Feb., Item #106</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1895 Mar.-June, Item #178</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1898 Oct.-1899 Feb., Item #177</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stamford,  <unitdate type="inclusive" era="ce" calendar="gregorian">1837 July-Oct.</unitdate>, Item #244</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stamford,  <unitdate type="inclusive" era="ce" calendar="gregorian">189? May-July</unitdate>, Item #334</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">Sti-T</container>
+                  <unittitle>Stirling and Down,  <unitdate type="inclusive" era="ce" calendar="gregorian">1859 Aug.-Dec.</unitdate>, Item #7</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Handwritten plan. Removed from Jabez Palmer scrapbook--see Frank Baker Collection of Wesleyana and British Methodism, Volumes Series, Albums and Scrapbooks.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stockport,  <unitdate type="inclusive" era="ce" calendar="gregorian">[1835] July-Oct.</unitdate>, Item #140</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stockton,  <unitdate type="inclusive" era="ce" calendar="gregorian">1803 Nov.-1804 Apr.</unitdate>, Item #65</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stockton (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1838 Oct.-1839 Jan.</unitdate>, Item #295</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stokesley,  <unitdate type="inclusive" era="ce" calendar="gregorian">1839 Nov.-1840 Apr.</unitdate>, Item #400</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stourbridge,  <unitdate type="inclusive" era="ce" calendar="gregorian">1828 Aug.-Dec.</unitdate>, Item #2</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stratton and Bude (United Methodist),  <unitdate type="inclusive" era="ce" calendar="gregorian">1912 Oct.-Dec.</unitdate>, Item #449</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Swinefleet (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1832 Jan.-Mar., Item #55</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1832 Apr.-June, Item #49</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1832 July-Sept., Item #64</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1832 Sept.-Dec., Item #60</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tadcaster (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1830 Oct.-1831 Jan., Item #214</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1831 Apr.-July, Item #160</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1831 July-Oct., Item #48</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tadcaster,  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Jan.-Apr.</unitdate>, Item #328</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tunstall (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1812 Mar.-June, Item #29</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>(Variant)1812 Mar.-June, Item #125</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1813 Nov.-Jan., Item #36</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">U-Wha</container>
+                  <unittitle>Ulverston,  <unitdate type="inclusive" era="ce" calendar="gregorian">1877 Jan.-Apr.</unitdate>, Item #306</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Uttoxeter,  <unitdate type="inclusive" era="ce" calendar="gregorian">1874 May-July</unitdate>, Item #482</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wainfleet:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1882 July-Oct., Item #260</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>[1888] Feb.-Apr., Item #342</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1896 Apr.-July, Item #444</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wakefield (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1837 Jan.-Apr.</unitdate>, Item #233</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wakefield,  <unitdate type="inclusive" era="ce" calendar="gregorian">1881 Oct.-1882 Jan.</unitdate>, Item #367</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wellington,  <unitdate type="inclusive" era="ce" calendar="gregorian">1818 May-Oct.</unitdate>, Item #69</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Whalley (Chapel-Cleaning Plan),  <unitdate type="inclusive" era="ce" calendar="gregorian">1876-1877</unitdate>, Item #38</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">Whi-Y</container>
+                  <unittitle>Whitby,  <unitdate type="inclusive" era="ce" calendar="gregorian">1850 Nov.-1851 Apr.</unitdate>, Item #351</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Whitby (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1841 Jan.-Apr., Item #256</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1843 Apr.-July, Item #161</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1843 July-Oct., Item #155</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1843 Oct.-1844 Jan., Item #153</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1844 Apr.-July, Item #205</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Winster (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1843 Apr.-July</unitdate>, Item #266</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wolsingham,  <unitdate type="inclusive" era="ce" calendar="gregorian">1875 Nov.-1876 Jan.</unitdate>, Item #271</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wolverhampton,  <unitdate type="inclusive" era="ce" calendar="gregorian">1883 Oct.-1884 Jan.</unitdate>, Item #51</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wrexham:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1866 Sept.-Nov., Item #491</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1866 Dec.-1867 Feb., Item #170</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1867 Sept.-Nov., Item #164</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wrexham (United Methodist),  <unitdate type="inclusive" era="ce" calendar="gregorian">1939 May-July</unitdate>, Item #18</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Yarmouth,  <unitdate type="inclusive" era="ce" calendar="gregorian">1881 Nov.-1882 Jan.</unitdate>, Item #274</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>York,  <unitdate type="inclusive" era="ce" calendar="gregorian">1853 May-Oct.</unitdate>, Item #166</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>York (Prayer Leaders),  <unitdate type="inclusive" era="ce" calendar="gregorian">1865 Apr.-Oct.</unitdate>, Item #199</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4 [Ovsz]</container>
+                  <container type="folder">1</container>
+                  <unittitle>Alford,  <unitdate type="inclusive" era="ce" calendar="gregorian">1949 Oct.-1950 Jan.</unitdate>, Item #525</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bolton North, <unitdate type="inclusive" era="ce" calendar="gregorian">1865 May-Sept.</unitdate>, Item #519</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Doncaster, <unitdate type="inclusive" era="ce" calendar="gregorian">1872 Oct.-1873 Jan.</unitdate>, Item #515</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Driffield (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Jan.-Apr.</unitdate>, Item #502</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Grimsby, <unitdate type="inclusive" era="ce" calendar="gregorian">1864 Jan.-Apr.</unitdate>, Item #517</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Haslingden,  <unitdate type="inclusive" era="ce" calendar="gregorian">1839 Nov.-1840 Apr.</unitdate>, Item #510</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hull, North,  <unitdate type="inclusive" era="ce" calendar="gregorian">1938 Jan.-Mar.</unitdate>, Item #524</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Kirkby Stephen,  <unitdate type="inclusive" era="ce" calendar="gregorian">1901 Apr.-July</unitdate>, Item #518</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">2</container>
+                  <unittitle>Liverpool (Conference Plan),  <unitdate type="inclusive" era="ce" calendar="gregorian">1847 July-Aug.</unitdate>, Item #511</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London, East:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1819 Nov.-1820 Apr., Item #508</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1819 June-1820 Jan., Item #507</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1823 Apr.-Sept., Item #501</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London (P), Third,  <unitdate type="inclusive" era="ce" calendar="gregorian">1862 Apr.-July</unitdate>, Item #527</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>London (Conference Plan),  <unitdate type="inclusive" era="ce" calendar="gregorian">1850 July-Aug.</unitdate>, Item #516</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester, South:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1825 Jan.-Apr., Item #520</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester (Conference Plan) <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1833 July-Aug., Item #521</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1841 July-Aug., Item #512</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1849 July-Aug., Item #523</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester Districts (Prayer Meetings),  <unitdate type="inclusive" era="ce" calendar="gregorian">1798 Jan.-Apr.</unitdate>, Item #524</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Manchester Districts (Prayer Meetings),  <unitdate type="inclusive" era="ce" calendar="gregorian">1798 Sept.-1799 Jan.</unitdate>, Item #522</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="folder">3</container>
+                  <unittitle>Oldham Second (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1872 Jan.-Apr., Item #513</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>1872 Oct.-1873 Jan, Item #514</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Otley (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Jan.-Apr.</unitdate>, Item #288</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ripon (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1840 Oct.-1841 Jan.</unitdate>, Item #500</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Swinefleet (P):  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>1841 Jan.-Apr., Item #267</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wakefield,  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Jan.-Apr.</unitdate>, Item #419</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>York (P),  <unitdate type="inclusive" era="ce" calendar="gregorian">1841 Jan.-Apr.</unitdate>, Item #259</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Overseas Circuits Series, <unitdate normal="1851/1984" type="inclusive" era="ce" calendar="gregorian">1851-1896</unitdate>, <unitdate type="inclusive" era="ce" calendar="gregorian">1946-1984</unitdate>
+               </unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Australia:  <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>New South Wales, </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Canterbury, 1954 May-July, Item #35</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Gordon, 1954 Aug.-Oct., Item #19</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Port Macquarie, 1954 Sept.-Oct., Item #92</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Mosman, 1954 Aug.-Oct., Item #96</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Victoria and Tasmania Leongatha, 1946 Aug.-Oct., Item #272</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Barbados, First,  <unitdate type="inclusive" era="ce" calendar="gregorian">1857 Dec.-1858 May</unitdate>, Item #435</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Bangalore, India,  <unitdate type="inclusive" era="ce" calendar="gregorian">1882 Apr.-June</unitdate>, Item #198</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Malvern, New Zealand,  <unitdate type="inclusive" era="ce" calendar="gregorian">1984 Feb.-Apr.</unitdate>, Item #202</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Oyubia, Nigeria,  <unitdate type="inclusive" era="ce" calendar="gregorian">1958 July-Sept.</unitdate>, Item #175</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Freetown, Sierra Leone,  <unitdate type="inclusive" era="ce" calendar="gregorian">1851 Apr.-July</unitdate>, Item #354</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Freetown, Sierra Leone,  <unitdate type="inclusive" era="ce" calendar="gregorian">1868 Aug.-Oct.</unitdate>, Item #228</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Cape Town English Circuit, South Africa,  <unitdate type="inclusive" era="ce" calendar="gregorian">1892 Jan.-Mar.</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Johannesburg, South Africa,  <unitdate type="inclusive" era="ce" calendar="gregorian">1896 July-Sept.</unitdate>, Item #265</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <container type="folder">3</container>
+                  <unittitle>Jamaica District (4 circuits),  <unitdate type="inclusive" era="ce" calendar="gregorian">1958 July-Sept. and Oct.-Dec.</unitdate>, Items #414 and #404</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>20th Century Series, <unitdate normal="1896/1959" type="inclusive" era="ce" calendar="gregorian">1896-1959</unitdate>, bulk <unitdate type="inclusive" era="ce" calendar="gregorian">1944-1959</unitdate> and undated</unittitle>
+               <physdesc>
+                  <extent>(9 boxes)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Donated at a later date. Approximately 1500 circuit plans, mainly covering the years from 1944-1959, but with scattered plans from the 1890s and 1900s. Minimally processed; plans are grouped alphabetically by circuit name (or city, if circuit unclear), but are not in order within each letter.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Information folder, 1955-1959</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>A-B</unittitle>
+                  <physdesc>
+                     <extent>(9  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>B-C</unittitle>
+                  <physdesc>
+                     <extent>(8  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>D-H</unittitle>
+                  <physdesc>
+                     <extent>(9  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>H-L</unittitle>
+                  <physdesc>
+                     <extent>(9  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>L-N</unittitle>
+                  <physdesc>
+                     <extent>(9  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>N-R</unittitle>
+                  <physdesc>
+                     <extent>(10  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>R-S</unittitle>
+                  <physdesc>
+                     <extent>(8  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>S-W</unittitle>
+                  <physdesc>
+                     <extent>(9  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>W-Z and miscellaneous</unittitle>
+                  <physdesc>
+                     <extent>(6  folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

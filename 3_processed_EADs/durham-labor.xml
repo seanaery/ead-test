@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   
+   <eadheader findaidstatus="published" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b">
+      <eadid publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Durham Central Labor Union Records)//EN" countrycode="US" mainagencycode="US-NcD" url="http://library.duke.edu/rubenstein/findingaids/durham-labor/">durham-labor</eadid>
+      <filedesc>
+         
+         <titlestmt>
+            
+            <titleproper>Preliminary Guide to the Durham Central Labor Union Records, ca. 1921-1971</titleproper>
+            
+            <author>Processed by: Don Sechler; machine-readable finding aid created by: Ruth E. Bryan</author>
+         
+         </titlestmt>
+         
+         <publicationstmt>
+            <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library</publisher>
+            <address>
+               <addressline>Duke University</addressline>
+               <addressline>Durham, NC 27708 U.S.A.</addressline>
+               <addressline>919-660-5822</addressline>
+               <addressline>special-collections@duke.edu</addressline>
+            </address>
+            <date>2001</date>
+         </publicationstmt>
+         
+         <notestmt>
+            
+            <note>
+               
+               <p>Aleph Number: <num type="aleph">002683867</num>
+               
+               </p>
+            
+            </note>
+         
+         </notestmt>
+      
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from automated markup system. Date of source: May 18, 1999 Processed by Don Sechler May 18, 1999; Finding Aid encoded by Ruth E. Bryan, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, February 19, 2001<date>February 19, 2001</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date>2014</date>
+            <item>Converted from dtd to schema and transformed with AT-import-fixer.xsl</item>
+         </change>
+         <change>
+            
+            <date normal="2005" era="ce" calendar="gregorian">08-31-2005</date>
+            
+            <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Durham Central Labor Union)//EN"
+		"durham-labor.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         
+         </change>
+      </revisiondesc>
+   </eadheader>
+   
+   
+   <archdesc level="collection">
+      
+      <did>
+         <unittitle label="Title">Durham Central Labor Union records 		  <unitdate normal="1921/1971" type="inclusive" era="ce" calendar="gregorian">circa 1921-1971</unitdate>
+         
+         </unittitle>
+         <origination label="Creator">
+            
+            <corpname>Durham Central Labor Union</corpname>
+         
+         </origination>
+         <physdesc label="Extent">
+            
+            <extent>45 linear feet</extent>
+            
+            <extent>Extent: 6602 Items</extent>
+         
+         </physdesc>
+         <repository label="Repository">
+            
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+         
+         </repository>
+         <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+         <langmaterial label="Language of Materials">English.</langmaterial>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <unitid>durham-labor</unitid>
+         <note label="Language of Materials">
+            <p>Language: English.</p>
+         </note>
+      </did>
+      
+      <descgrp type="admininfo">
+         
+         <head>Administrative Information</head>
+         
+         <accessrestrict>
+            
+            <head>Access Restrictions</head>
+            
+            <p>Collection is open for research.</p>
+            
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         
+         </accessrestrict>
+         
+         <userestrict>
+            
+            <head>Use Restrictions</head>
+            
+            <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         
+         </userestrict>
+         
+         <prefercite>
+            
+            <head>Preferred Citation</head>
+            
+            <p>[Identification of item], Durham Central Labor Union, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</p>
+         
+         </prefercite>
+         
+         <acqinfo>
+            
+            <head>Provenance</head>
+            
+            <p>The David M. Rubenstein Rare Book &amp; Manuscript Library received
+			 this collection as a purchase, 1999.</p>
+         
+         </acqinfo>
+         
+         <processinfo>
+            
+            <head>Processing Information</head>
+            
+            <p>Processed by Don Sechler</p>
+            
+            <p>Completed May 18, 1999</p>
+            
+            <p>Encoded by Ruth E. Bryan</p>
+            
+            
+            <p>This is unprocessed: materials may not have been ordered and described beyond their original condition.</p>
+         
+         </processinfo>
+      
+      </descgrp><!-- End of finding aid header -->
+      
+      <bioghist>
+         
+         <head>Historical Note</head>
+         
+         <p>The Durham Central Labor Union is the umbrella organization for Durham
+		  labor unions.</p>
+         
+         <p>The records came from the upper floor of the St. Luke Apostolic Church
+		  of Jesus Christ building, formerly Durham's Central Union Hall (or Labor
+		  Temple).</p>
+      
+      </bioghist><!--End of biohistory--><!--Begin scopecontent-->
+      
+      <scopecontent>
+         
+         <head>Collection Overview</head>
+         
+         <p>Minutes, financial records, correspondence, memorabilia, and other
+		  materials from various Durham labor unions and their local umbrella
+		  organization, the Durham Central Labor Union. Accession 2001-0007 has been
+		  interfiled with accession 1999-0158.</p>
+         
+         <p>The individual unions include: Tobacco Workers International Union
+		  Local 183; International Association of Bridge, Structural, and Ornamental Iron
+		  Workers Local 636; International Brotherhood of Electrical Workers Local 553;
+		  United Brotherhood of Carpenters and Joiners of America Local 522; Painters and
+		  Decorators Local 678; Plumbers and Steamfitters Local 585, Office Employees
+		  International Union Local 84; International Brotherhood of Teamsters,
+		  Chauffeurs, and Helpers Local 81; and Bricklayers, Masons, and Plasterer's
+		  International Union Local 10.</p>
+      
+      </scopecontent><!--End scopecontent--><!--Begin controlaccess-->
+      
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <corpname>Durham Central Labor Union</corpname>
+         <corpname>Tobacco Workers International Union. Local No. 183</corpname>
+         <corpname>International Association of Bridge, Structural, and Ornamental Iron Workers Local No. 636</corpname>
+         <corpname>International Brotherhood of Electrical Workers. Local No. 553</corpname>
+         <corpname>United Brotherhood of Carpenters and Joiners of America. Local No. 522</corpname>
+         <corpname>Brotherhood of Painters, Decorators and Paperhangers of America. Local No. 678</corpname>
+         <corpname>United Association of Plumbers and Steam Fitters of the United States and Canada. Local No. 585</corpname>
+         <corpname>Office Employees International Union. Local 84</corpname>
+         <corpname>International Brotherhood of Teamsters, Chauffeurs, and Helpers. Local No. 81</corpname>
+         <corpname>Bricklayers, Masons, and Plasterers' International Union. Local No. 10</corpname>
+         <subject>Labor unions -- North Carolina</subject>
+         <subject>Labor unions -- United States</subject>
+         <subject>Labor unions -- North Carolina -- Finance</subject>
+         <subject>Memorabilia</subject>
+      </controlaccess><!--End controlaccess--><!--Begin container list--><!-- Sample of possible container list structure, actual markup depends upon the materials being described. --><!-- Use <genreform>, <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent> if needed. -->
+      
+      <dsc type="combined">
+         
+         <head>Contents of Collection</head>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Accessions 1999-0158 and 2001-0007</unittitle>
+            
+            </did>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">1</container>
+                  
+                  <unittitle>Tobacco Workers International Union, Local
+				  183</unittitle>
+               
+               </did>
+               
+               <scopecontent>
+                  
+                  <p>See also Oversize.</p>
+               
+               </scopecontent>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Certificates of Appreciation for 20-year union
+					 members, 
+					 1956
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Minutes, 
+					 1945-1947
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Officer election and delegate election ballots, 
+					 1967; 
+                        1970; 
+                        1971
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">2</container>
+                  
+                  <unittitle>International Association of Bridge, Structural, and
+				  Ornamental Iron Workers, Local 636</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Cash Books, 
+					 1941-1948
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Financial Ledgers, 
+					 1942; 
+                        1946-1957
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">3</container>
+                     
+                     <unittitle>Daybooks, 
+					 1941 March -1953 August 
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">4</container>
+                     
+                     <unittitle>Daybooks, 
+					 1953 September -1956 March 
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">5</container>
+                     
+                     <unittitle>Membership Records, 
+					 1957-1967
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">6</container>
+                     
+                     <unittitle>Membership Records, 
+					 1957-1967
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">7</container>
+                     
+                     <unittitle>Check Stubs, 
+					 1953-1962
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Financial Statements, 
+					 1948-1960
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Files and Correspondence, 
+					 1948-1950
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">8</container>
+                  
+                  <unittitle>International Brotherhood of Electrical Workers, Local
+				  553 </unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Receipt Books, 
+					 1942-1968
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">9</container>
+                     
+                     <unittitle>Receipt Books, 
+					 1942-1968
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">10</container>
+                     
+                     <unittitle>Receipt Books, 
+					 1942-1968
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">11</container>
+                     
+                     <unittitle>Receipt Books, 
+					 1942-1968
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">12</container>
+                     
+                     <unittitle>Minutes, 
+					 1934-1940; 
+                        1942-1947; 
+                        1949-1950; 
+                        1954-1956
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">13</container>
+                     
+                     <unittitle>Miscellaneous files; election returns, correspondence,
+					 etc.</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">14</container>
+                     
+                     <unittitle>Financial Records</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Deposits and expenditures, 
+						1942-1946
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Ledgers, 
+						1941-1945
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Records, 
+						1949-1950
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Check Stubs, 
+						1941-1949; 
+                           1951-1959
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Health Insurance Receipts, 
+						1964-1968
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Receipts for International Union dues, 
+						1955-1962
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Financial Statements, 
+						1947-1962
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">15</container>
+                  
+                  <unittitle>United Brotherhood of Carpenters and Joiners of America,
+				  Local 522</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Members' Records, 
+					 1947-1954
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">16</container>
+                     
+                     <unittitle>Financial Records</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Daybooks, 
+						1941 October -1943 January; 
+                           1948 September -1950 September; 
+                           1951 February -1958 September
+						  
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Quarterly account sheets, 
+						1950-1959 (incomplete)</unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Small Receipt Books, 
+						1958 October -1959 December 
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Large receipt book, 
+						1950 January -1951 February 
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Expenses records, 
+						1951-1952
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Individual members' dues books, 
+						ca. 1948-1957
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(50 books)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <container type="box">17</container>
+                        
+                        <unittitle>Check Stubs, 
+						1948-1954; 
+                           1961-1962
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Cancelled checks and deposit slips, 
+						1958-1959
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Membership applications, 
+					 1946-1952
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Arrears notices, 
+					 1955-1957
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">18</container>
+                     
+                     <unittitle>Minutes, 
+					 1949-1955
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Ballots (officer elections), 
+					 ca. 1957-1959
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Miscellaneous files; Correspondence, contracts,
+					 etc.</unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">19</container>
+                  
+                  <unittitle>Painters and Decorators, Local 678</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Financial records</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Monthly financial reports, 
+						1946-1952
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Bank statements and cancelled checks, 
+						1956-1967
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Ledgers, 
+						1942-1949; 
+                           1952-1953
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Check Stubs, 
+						1951 April -1951 November ; 
+                           1952 July -1952 December 
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Receipts, 
+						1940 December -1941 February ; 
+                           1941 December -1942 January 
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">20</container>
+                     
+                     <unittitle>Daybooks, 
+					 1943-1967
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">21</container>
+                     
+                     <unittitle>Minutes, 
+					 1940-1950
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Ledger, 
+					 1940-1944
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Rolodex</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Contracts and forms, 
+					 ca 1955
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Membership applications, 
+					 1952
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">22</container>
+                  
+                  <unittitle>Plumbers and Steamfitters, Local 585</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Small receipt books, 
+					 1951-1952
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Weekly record report envelopes, 
+					 1951 December 19-1952 January
+						25
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">23</container>
+                  
+                  <unittitle>Office Employees International Union, Local
+				  84</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Member additions and removals, 
+					 1947-1948
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Correspondence, 
+					 1949
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Contracts, 
+					 1947
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Union representation authorization cards, 
+					 1943
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Banking information, 
+					 1945; 
+                        1947
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Roster of Office Employees' Local unions, 
+					 1949
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Financial Records</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Ledgers, 
+						1943-1950
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Daybooks, 
+						1943-1946
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>International Union Dues</unittitle>
+                     
+                     </did>
+                     
+                     <c05>
+                        
+                        <did>
+                           
+                           <unittitle>Receipts, 
+						  1943-1946; 
+                              1950-1951
+                           </unittitle>
+                        
+                        </did>
+                     
+                     </c05>
+                     
+                     <c05>
+                        
+                        <did>
+                           
+                           <unittitle>Information</unittitle>
+                        
+                        </did>
+                     
+                     </c05>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Monthly financial reports, 
+						1943-1945
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Check stubs 
+						1944-1949
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Receipts, 
+						1943-1944; 
+                           1948-1950 (scattered)</unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">24</container>
+                  
+                  <unittitle>International Brotherhood of Teamsters, Chauffeurs, and
+				  Helpers, Local 81</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Application blanks, 
+					 1941-1951
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Contracts, expiration date 
+					 1950 April
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Correspondence, 
+					 ca. 1940-1950
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Internal payment notes, 
+					 1941
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Withdrawal cards, 
+					 1947-1950
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Union representation authorization cards, 
+					 1943-1950
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Members' dues books, 
+					 ca. 1949
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Minutes, 
+					 1941-1946
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Tax information, 
+					 ca. 1944-1946
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Utility bills, 
+					 1946-1948
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Financial records</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Receipt stubs, 
+						1941
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Business agents' collections, 
+
+						1946-1947
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Receipts from National, 
+						1942-1947
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <container type="box">25</container>
+                        
+                        <unittitle>Checks and checkbooks, 
+						1944-1949
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Bank statements, 
+						1941
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Cash Book, 
+						1941-1945
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Monthly reports, 
+						1948-1949
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">26</container>
+                  
+                  <unittitle>Bricklayers, Masons, and Plasterers' International
+				  Union, Local 10</unittitle>
+               
+               </did>
+               
+               <scopecontent>
+                  
+                  <p>See also Oversize.</p>
+               
+               </scopecontent>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Ledger, 
+					 1939-1943
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Duplicate cash records, 
+					 1943-1946
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Job referral forms, 
+					 1942
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Receipt stubs, 
+					 1948-1949
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Correspondence and miscellaneous files, 
+					 1942-1948
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Membership applications, 
+					 1937-1942; 
+                        1947; 
+                        1949-1950
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Shop Stewards' reports, 
+					 1942
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">27</container>
+                  
+                  <unittitle>Durham Central Labor Union</unittitle>
+               
+               </did>
+               
+               <scopecontent>
+                  
+                  <p>See also oversize.</p>
+               
+               </scopecontent>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Correspondence, 
+					 1959-1960
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Minutes, 
+					 1927-1945; 
+                        1960-1963
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">28</container>
+                     
+                     <unittitle>Receipts, 
+					 1933-1959
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Bankbooks, 
+					 1956-1957
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Daybook, 
+					 1948-1949
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Cash books, 
+					 1937-1939; 
+                        1944-1953; 
+                        1955-1962
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Financial record, 
+					 1950-1953
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Miscellaneous printed material</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Photograph block negatives</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Wooden gavel</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Pen</unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>48-star American flag</unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">29</container>
+                  
+                  <unittitle>Miscellaneous ledgers, minutes, etc. from unions not
+				  affiliated with the Durham Central Labor Union</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">30 (Oversize)</container>
+                  
+                  <unittitle>Bricklayers' Memorial Plaque to Union members in
+				  WWII</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Durham Central Labor Union Financial record, 
+				  1952-1956
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Voters for Better Government Daybook</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">31 (Oversize)</container>
+                  
+                  <unittitle>Durham Central Labor Union, Correspondence, 
+				  1941-1945
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Tobacco Workers' Election results, 
+				  1970; 
+                     1971
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">32</container>
+                  
+                  <unittitle>Metal die for Durham Central Labor Union stamp,
+				  undated</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="opaperfolder">1</container>
+                  
+                  <unittitle>Tobacco Workers' Election results, 
+				  1970; 
+                     1971
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Labor Directory Wall Plaque</unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Brickmakers, Masons, Plasterers' International Union of
+				  America, Durham Local, Charter, 
+				  [1926]
+                  </unittitle>
+               
+               </did>
+            
+            </c02><!--Begin c02 levels here-->
+         
+         </c01>
+      
+      </dsc>
+   
+   </archdesc>
+
+</ead>

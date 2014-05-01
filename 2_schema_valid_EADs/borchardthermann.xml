@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Hermann Borchardt Papers, 1918-1970)//EN" url="http://library.duke.edu/rubenstein/findingaids/borchardthermann/">borchardthermann</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Preliminary Guide to the Hermann Borchardt Papers,
+		<date normal="1918/1970" era="ce" calendar="gregorian">1918-1960s</date>
+            </titleproper>
+            <author>Processed by: Meghan Lyon; machine-readable finding aid created by: Meghan Lyon</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>
+               <lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+            <p>
+               <date normal="2009" encodinganalog="date" era="ce" calendar="gregorian">2009</date> Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002050905</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+            <date era="ce" calendar="gregorian">Date of source: April 2009</date>
+            <lb/>Processed by Meghan Lyon, April 2009; finding aid encoded by Meghan Lyon, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, <date era="ce" calendar="gregorian">April 2009</date>
+         </creation>
+         <langusage>Description is in
+		<language langcode="eng">English</language>
+         </langusage>
+         <descrules>Finding aid was prepared using 
+		  <title xlink:type="simple" xlink:href="">DACS</title> and local 
+		  <title xlink:type="simple" xlink:href="">Style Guide</title>
+         </descrules>
+      </profiledesc><!-- Location of <revisiondesc> if needed -->
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Preliminary Guide to the Hermann Borchardt Papers, <date type="span" era="ce" calendar="gregorian">1918-1960s</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke
+		  University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+         <p>
+            <date normal="2009" era="ce" calendar="gregorian">© 2009</date> Duke University. All Rights Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC">
+      <did>
+         <head>Descriptive Summary</head>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname>
+         </repository>
+         <origination label="Creator">
+            <persname encodinganalog="100">Borchardt, Hermann</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Hermann Borchardt papers <unitdate normal="1918/1970" type="inclusive" era="ce" calendar="gregorian">1918-1960s</unitdate>
+         </unittitle>
+         <langmaterial label="Language of Material" encodinganalog="546">Material in <language langcode="eng"> English,</language>
+            <language langcode="ger"> German</language>
+         </langmaterial>
+         <physdesc label="Extent">
+            <extent unit="linear feet" encodinganalog="300">4.2 Linear Feet</extent>
+            <lb/>
+            <extent unit="items">3200 Items</extent>
+         </physdesc>
+         <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+         <abstract label="Abstract" encodinganalog="545">German writer and intellect who escaped a Nazi concentration camp and immigrated to New York in 1937.</abstract>
+         <abstract encodinganalog="520">Collection consists of correspondence between Borchardt and several friends, including several news clippings and photographs. Subjects discussed include the emergence of Nazi Germany under Hitler and the origins and consequences of World War II. The remainder of the collection consists of literary manuscripts, drafts, and notes from Borchardt's writings, as well as some correspondence and newspaper clippings. Many of the materials are not in order and are in poor condition. Writings are in German and English.</abstract>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict encodinganalog="506">
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict encodinganalog="540">
+            <head>Copyright Notice</head>
+            <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Hermann Borchardt Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</p>
+         </prefercite>
+         <acqinfo encodinganalog="541">
+            <head>Provenance</head>
+            <p>The Hermann Borchardt Papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a 
+gift in 2007. 
+</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Accessioned by Meghan Lyon, April 2009</p>
+            <p>Encoded by Meghan Lyon, April 2009</p>
+            <p>This collection is minimally processed: materials may not have been ordered and described beyond their original condition.
+</p>
+            <p>Descriptive sources and standards used to create this inventory: <title xlink:type="simple" render="italic" xlink:href="">DACS,</title> EAD, NCEAD guidelines, and our local <title xlink:type="simple" render="italic" xlink:href="">Style Guide.</title>
+            </p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp><!--end of finding aid header--><!-- Use "Bioghist Tags" clip here for Bio/Hist information. -->
+      <bioghist>
+         <head>Biographical Note</head>
+         <p>Hermann Borchardt was a German intellectual with Marxist leanings who left Germany in 1933 following Hitler's rise to power. He moved to Russia to teach German, but his exposure to the oppression he found there led him to reverse his political leanings and become an outspoken critic of communism. His family was expelled from Russia in 1936, and returned to Germany. Borchardt spent 10 months in Nazi concentration camps before finally being allowed to leave Germany and immigrate to the United States, where his family later joined him. He continued to write books, short stories, and articles criticising communism. His best work is considered to be <title xlink:type="simple" render="italic" xlink:href="">The Conspiracy of the Carpenters</title>, published in 1943; other works include <title xlink:type="simple" render="italic" xlink:href="">Philosophische Grundbegriffe</title> (1927); <title xlink:type="simple" render="italic" xlink:href="">The Bloody Deeds of Germersheim Before the Eternal Judge</title>, <title xlink:type="simple" render="italic" xlink:href="">Music of the Near Future</title>, <title xlink:type="simple" render="italic" xlink:href="">The Red Document</title> (1929); <title xlink:type="simple" render="italic" xlink:href="">The Brethren of Halberstadt</title> (1938); and <title xlink:type="simple" render="italic" xlink:href="">The Wife of the Police-Commissionaire</title> (1946). He died of a heart attack in 1951.</p>
+         <p>Borchardt's youngest son, Frank, was born in New York City, and eventually became a professor of German Languages at Duke University.</p><!-- Use Chronlist Tags clip here for Chronology -->
+      </bioghist><!-- Use "Scopecontent Start" clip here for scope/content info. Col. Lev, and arrangement information. -->
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The original collection consists of correspondence between Borchardt and several friends, including several news clippings and photographs. Subjects discussed include the emergence of Nazi Germany under Hitler and the origins and consequences of World War II. They despise Hitler's tactics, expressed dismay with British Prime Minister Neville Chamberlain's policy of appeasement, and criticized Hitler's deal with Russia's Stalin (i.e. the German-Russian Non-Aggression Pact of 1939). The collection also makes reference to German playwright Bertolt Brecht, whose views of war the correspondents agreed with.</p>
+         <p>The accession (2008-0158) appears to consist largely of literary manuscripts, drafts, and notes from Borchardt's writings, as well as some correspondence and newspaper clippings. Many of the materials are not in order and are in poor condition. Writings are in German and English. This addition is unprocessed.</p><!-- OPTIONAL: Use Arrangement clip here for Collection Arrangement section -->
+      </scopecontent><!-- Use "Controlaccess Tags" clip here for control access information. -->
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname source="lcsh" encodinganalog="600">Borchardt, Hermann.--b. 1888</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Hitler, Adolf -- 1889-1945</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Chamberlain, Neville -- 1869-1940</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Brecht, Bertolt -- 1898-1956</persname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Germany -- Treaties, etc.--Soviet Union, 1939 Aug. 23</corpname>
+            </item>
+            <item>
+               <title xlink:type="simple" source="lcsh" encodinganalog="630" render="italic" xlink:href="">The brethren of Halberstadt.</title>
+            </item>
+            <item>
+               <title xlink:type="simple" source="lcsh" encodinganalog="630" render="italic" xlink:href="">The conspiracy of carpenters.</title>
+            </item>
+            <item>
+               <title xlink:type="simple" source="lcsh" encodinganalog="630" render="italic" xlink:href="">The smoke rose up forever.</title>
+            </item>
+            <item>
+               <geogname source="lcsh" encodinganalog="651">Germany -- politics and government -- 1933-1945</geogname>
+            </item>
+            <item>
+               <geogname source="lcsh" encodinganalog="651">Soviet Union -- foreign relations -- Germany</geogname>
+            </item>
+            <item>
+               <genreform source="lcsh" encodinganalog="655">Drafts (documents)</genreform>
+            </item>
+            <item>
+               <genreform source="lcsh" encodinganalog="655">Translations (documents)</genreform>
+            </item>
+         </list>
+      </controlaccess><!-- OPTIONAL: Separated material --><!-- OPTIONAL: Related material -->
+      <dsc type="combined">
+         <head>Contents of Collection</head><!-- Enter Container List Here -->
+         <c01 level="series">
+            <did>
+               <unittitle id="s1">Letters, <unitdate type="inclusive" normal="1934/1950" era="ce" calendar="gregorian">1934-1950</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(1 box)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>This portion of the collection (55 items) includes correspondence between Borchardt and several friends, including several news clippings and photographs. Subjects discussed include the emergence of Nazi Germany under Hitler and the origins and consequences of World War II. They despise Hitler's tactics, expressed dismay with British Prime Minister Neville Chamberlain's policy of appeasement, and criticized Hitler's deal with Russia's Stalin (i.e. the German-Russian Non-Aggression Pact of 1939). The collection also makes reference to German playwright Bertolt Brecht, whose views of war the correspondents agreed with.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Letters, 1934-1950</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s2">Accession (2008-0158), <unitdate type="inclusive" normal="1918/1970" era="ce" calendar="gregorian">1918-1960s</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(7 boxes)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Accession (2008-0158) (3150 items; 4.2 lin. ft.; dated 1910s-1960s and no date) consists of literary manuscripts, drafts, and notes from Borchardt's writings, as well as some correspondence and newspaper clippings. Many of the materials are not in order and are in poor condition. Writings are in German and English. </p>
+            </scopecontent>
+            <arrangement>
+               <p>This addition is unprocessed. Materials have been refoldered and German titles have been transcribed from the original folders to the best of our ability. Many pages were loose and unlabelled.</p>
+            </arrangement>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>The Brethren of Halberstadt, Acts I-II</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The Smoke Rose Up Forever</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Conspiracy of the Carpenters</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Louise, Act I</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Text, no label, pages 340-770</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Printed materials</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Griechische Bildwerke und Der Stille Garten</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Captivity, by Fred Uhlman</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Calendar, no year</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Moritz von Schwind</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>The Brethren of Halberstadt, Act III</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Weinhold manuscripts</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Geschichte eines bosen Gewissens</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Loose pages, no label</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Froanziger Jahre</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Short story</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Text, no label</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Michael Schirmer, 1933</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Antonia Wellhöhner, 1918</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tale of a Noblewoman</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Dritter Akt.</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Rudolf K. Kommer: Hotel Ambassador (The Smoke Rose Up Forever, Acts I-IV)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>1914 and 1918</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Articles, clippings, correspondence.</p>
+               </scopecontent>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Correspondence, 1945-1948</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Newspaper clippings and miscellaneous materials</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Correspondence, to Mimi [Hermann's wife, Dorothy Redmer Borchardt] from Baby, 1960s</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Die Verschwörungder der Zimmerleüte</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Text, no label, p. 5-138</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Loose pages</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Braunes (?)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Die Verschwörung der Zimmerleüte</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Luise: Dritter Akt. Das Gericht</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Loose drafts (in German)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Newspaper clippings</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Nächte</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Methodik-Minsk, 1935</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>I Akt: Die Razzia</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Der Verlorene Haufe (The Vanguard), 1939</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The Conspiracy of the Carpenters</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tale of a Noblewoman I</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Geschichte Einer Edelfrau</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Club der Hamloser Angefaugener Roman (?)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Die Nacht der Versöhnung</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Loose pages, no label</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Loose pages, no label</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>1923</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>A Thaler und A Pfenning und No Reich to the Germans</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Loose pages, no label</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Das Paradies des Kleinen Otto</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Tale of a Noblewoman II</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Der Kleine Engel in Österreich</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The Smoke Rose Up Forever</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Loose pages, no label</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Austria newspaper, 1948</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Clippings on foreign alliances, domestic peace, and the Far East</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Loose pages, no label</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Drafts of chapters</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Die Sünde des Erafen Gotter (II)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Mann und Frau (III)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Erste Begegnung (VII)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Diner bei Gotter (VIII)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Sofort zü Arbe Schreiben</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Roman: Das jahr 1918</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>1918: Schwester Martha</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Die Brüder von Halberstadt</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Schluss Rapibel</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Kapital (?)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Loose pages and manuscripts</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Short stories</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Eros Stark Wie der Tod</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>The Legend of the Gothamists</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Tag der Befreiung</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Der Schwarze Freitag</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Verpöbelung der Gebildeten durch exakte Wissenschaft</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Erstes Kapitel</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>German National Character (Part I)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Outside Education (Part II)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Make Them Forget (Part III)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Secondary Schools (Part IV)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Uprising of a Ruling Class (Part V)</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

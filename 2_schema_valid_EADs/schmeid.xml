@@ -1,0 +1,2434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Gertrude Raffel Schmeidler Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/schmeid/">schmeid</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Gertrude Raffel Schmeidler Papers, <date normal="1943/1983" type="inclusive" era="ce" calendar="gregorian">1943-1983</date>
+            </titleproper>
+            <author>Processed by Janie C. Morris; Assisted by Lynne Derhammer and Carlos Alvarado;
+machine-readable finding aid created by
+Alvin Pollock</author>
+         </titlestmt>
+         <publicationstmt>
+            <date era="ce" calendar="gregorian"> 1997</date>
+            <p>Duke University. All rights reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>This finding aid is NCEAD compliant.</p>
+            </note>
+            <note>
+               <p>Aleph Number: <num type="aleph">001003720</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from MS Word.
+Date of source: <date calendar="gregorian" era="ce">March 15, 1991.</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Gertrude Raffel Schmeidler Papers)//EN" "schmeid.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date calendar="gregorian" era="ce">June 29, 1998</date>
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Gertrude Raffel Schmeidler Papers, <date calendar="gregorian" era="ce">1943-1983</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham, North Carolina 27708-0185</publisher>
+         <p> 1997 Duke University. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">Gertrude Raffel Schmeidler papers <unitdate calendar="gregorian" era="ce" normal="1943/1983" type="inclusive">1943-1983</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Schmeidler, Gertrude Raffel</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>30.8 linear feet</extent>
+            <extent>circa 24,000 items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+            <address>
+               <addressline>Durham, North Carolina 27708-0185</addressline>
+            </address>
+         </repository>
+         <physloc label="Location">For current information on the location of these
+materials, please consult the library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed
+			 off-site in Duke University's Library Service Center.
+			 There may be a 48-hour delay in obtaining
+			 these materials.</p>
+            <p>Please contact Research Services staff before
+			 visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>Because of the nature of some of the research data contained in the Research Files: Subject
+Subseries, release of certain information contained in it may give rise to liability (e.g. for
+defamation or invasion of privacy). Use of names of living individuals mentioned in the data is
+prohibited without their consent. Duke University assumes no responsiblity for infringement of
+literary property rights and copyrights, or for liability to any person for defamation or invasion of
+privacy.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Gertrude Raffel Schmeidler Papers,
+David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The Gertrude Schmeidler Papers were given to the Duke University Library by Dr.
+Schmeidler in 1987. Copyright interests in these papers have not been transferred to the
+University.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Janie C. Morris</p>
+            <p>Assisted by: Lynne Derhammer and Carlos Alvarado</p>
+            <p>Date Completed: March 15, 1991</p>
+            <p>Encoded by Alvin Pollock and Stephen Miller</p>
+         </processinfo>
+      </descgrp>
+      <bioghist>
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1912, July 15</date>
+               <event>Born Long Branch, New Jersey</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1932</date>
+               <event>B.A. magna cum laude Smith College, Northampton, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1932-1933</date>
+               <event>Statistical assistant at Foundation for Neuro-Endocrine Research</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1933</date>
+               <event>M.A. Clark University, Worcester, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1935</date>
+               <event>Ph.D. Harvard University, Cambridge, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1935-1937</date>
+               <event>Instructor at Monmouth College, Long Branch, New Jersey</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1937</date>
+               <event>Married Robert Schmeidler</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1942-1944</date>
+               <event>Research Associate at Harvard University, Cambridge, Mass.</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1945-1985</date>
+               <event>Taught in the Department of Psychology, City College of the City University of New
+York</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1945-1946</date>
+               <event>Research Officer at the American Society for Psychical Research, New York</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1945</date>
+               <event>Published article, "Separating the Sheep from the Goats," in the Journal of the American
+Society for Psychical Research</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1949-1955</date>
+               <event>Consultant at Barnard College, New York</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1958</date>
+               <event>Co-author of the work ESP and Personality Patterns, with Dr.Robert A.
+McConnell</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1959</date>
+               <event>President, Parapsychological Association</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1964</date>
+               <event>Earned the William McDougall Award for Distinguished Work in Parapsychology,
+established by the Parapsychology Laboratory at Duke University</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1969</date>
+               <event>Edited Extrasensory Perception</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1971</date>
+               <event>President, Parapsychological Association</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1976</date>
+               <event>Edited Parapsychology: Its Relation to Physics, Biology, Psychology and
+Psychiatry</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1977</date>
+               <event>Associate Editor of Wolman's Handbook of Parapsychology</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1981-1985</date>
+               <event>President, American Society for Psychical Research</event>
+            </chronitem>
+            <chronitem>
+               <date calendar="gregorian" era="ce">1988</date>
+               <event>Published book Parapsychology and Psychology: Matches and Mismatches</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The Gertrude R. Schmeidler Papers span the period 1943-1983. The
+bulk of the collection consists chiefly of Research Files but also includes
+Correspondence and Writings. The research data located in the Research
+Files consists primarily of information which Schmeidler gathered
+through her work with students and colleagues as an experimental
+psychologist and parapsychologist. This data formed the basis of her
+published journal articles and books about how various factors and traits
+affect a person's extrasensory perception (ESP) abilities. There are very
+few personal papers located in the collection.</p>
+         <p>The value of the collection may be viewed from several perspectives.
+One is able to see how researchers collaborate with each other; to
+evaluate the value of networking and mentoring; to study the role of
+women in parapsychology; and to become aware of groups and institutes
+interested in the study of ESP, such as the American Society for
+Psychical Research, the Duke University Parapsychology Laboratory,
+and the Parapsychology Foundation, Inc.</p>
+         <p>Reflected in much of the research is the work for which Schmeidler is
+most notable, the development of the metaphor of the sheep and goats.
+She determined through several cycles of ESP card-guessing experiments
+that "sheep" (persons who believed that success was possible in ESP
+tasks) scored higher than "goats" (those who rejected the possibility of
+success). Later documentation in the sheep/goat research includes data
+and correspondence by Murray Melnick and Christopher Scott pertaining
+to their study of earlier tabulations of Schmeidler's sheep/goat
+research.</p>
+         <p>The following correspondents, researchers, and subjects are generally
+represented throughout the Correspondence and Research Files Series.
+Included are: Gardner Murphy, Schmeidler's mentor and the person who
+first interested her in psychical research; Ingo Swann, who studied PK
+(psychokinesis) effects on temperature; Caroline Chapman, a psychic
+with whom Schmeidler conducted proxy settings; Eileen Garrett, a
+psychic who was president of the Parapsychology Foundation Inc., and
+with whom Schmeidler conducted proxy settings; Steve Heyman, who
+studied the effect of time and impatience on ESP abilities; Betty
+Humphrey, who worked in the Duke Parapsychology Laboratory in the
+late 1940s and early 1950s and used drawings as her ESP targets; Larry
+Lewis, who attempted to find out if ESP hones into a target like sonar;
+and Thelma Moss, who studied a house haunting. Schmeidler
+collaborated with Swann, Heyman, Lewis, and Moss on the research
+topics listed above and co-authored journal articles which were published
+as a result of their research. Schmeidler also published an article about
+her proxy settings with Chapman. The research data relating to the
+Garrett settings was never published. There is scattered correspondence
+between Schmeidler and J. B. and Louisa Rhine, but not a substantial
+amount. There are several letters between J. G. Pratt, who was working
+at the Duke University Parapsychology Laboratory, and Schmeidler
+pertaining to the Chapman proxy settings in the mid 1950s. There are
+numerous letters between Schmeidler and Humphrey, some describing
+the working environment at the Duke University Parapsychology
+Laboratory; others relate to Humphrey's research. Other topics are
+represented primarily in the Research Files Series, including data about
+how various attitudes, conditions, traits, and surroundings affect ESP
+abilities. Among them are frustration, utilizing Saul Rosenzweig's Picture
+Frustration Study; Rorschachs and ESP scores of patients suffering from
+cerebral concussions; background stimuli; Rorschachs and ESP scores in
+maternity patients; ESP and memory; ESP scores following
+psychotherapy; and mood and attitude as predictors of ESP performance;
+telepathic rapport based on personality traits; and others such as long
+distance experiments in telepathy, precognition, poltergeists, and
+clairvoyant medical diagnosis based on the Silva Mind Control
+method.</p>
+         <p>The data for experiments, both successful as well as unsuccessful, are
+in the collection. The results of some were never reported in the
+literature. Because of the amount of data in the collection, it is possible
+that some of the experiments could be replicated and/or studied for new
+results.</p>
+         <p>The Writings Series primarily consists of information pertaining to
+the work she co-authored with Robert A. McConnell, ESP and
+Personality Patterns.</p>
+         <p>Folders throughout the collection contain Schmeidler's typed notes
+which describe the data, list the name of the researcher with whom she
+collaborated, and in some cases the article or articles which resulted from
+the research. Others indicate the nature and subject of the
+correspondence and include information pertaining to her various
+writings.</p>
+         <p>Through Schmeidler's correspondence with colleagues world-wide
+and her collaboration with fellow scientists, one is able to gain an
+understanding of the vast range of experiments and topics studied in the
+parapsychological field. One is also able to study the difference in
+research styles between Americans and Europeans. Since the research
+files span a period of forty years, the collection also reflects the various
+methods, materials, and equipment used for research in the field.</p>
+         <p>Related collections in the Department include the Parapsychology
+Laboratory Records and the Louisa Rhine Papers.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname>Murphy, Gardner, 1895-1979</persname>
+            </item>
+            <item>
+               <persname>Swann, Ingo, 1933-</persname>
+            </item>
+            <item>
+               <persname>Garrett, Eileen Jeanette Lyttle, 1893-1970</persname>
+            </item>
+            <item>
+               <persname>Heyman, Steve</persname>
+            </item>
+            <item>
+               <persname>Humphrey, Betty, M.</persname>
+            </item>
+            <item>
+               <persname>Pratt, J. Gaither (Joseph Gaither), 1910-1979</persname>
+            </item>
+            <item>
+               <persname>McConnell, Robert A.</persname>
+            </item>
+            <item>
+               <persname>Scott, Christopher</persname>
+            </item>
+            <item>
+               <persname>Melnick, Murry</persname>
+            </item>
+            <item>
+               <persname>Chapman, Caroline</persname>
+            </item>
+            <item>
+               <persname>Moss, Thelma</persname>
+            </item>
+            <item>
+               <persname>Lewis, Larry</persname>
+            </item>
+            <item>
+               <corpname>American Society for Psychical Research (1906- ).</corpname>
+            </item>
+            <item>
+               <corpname>Duke University. Parapsychology Laboratory</corpname>
+            </item>
+            <item>
+               <corpname>Parapsychology Foundation</corpname>
+            </item>
+            <item>
+               <subject>Extrasensory perception -- Research</subject>
+            </item>
+            <item>
+               <subject>Parapsychology -- Research</subject>
+            </item>
+            <item>
+               <subject>Psychical research</subject>
+            </item>
+            <item>
+               <subject>Mediums</subject>
+            </item>
+            <item>
+               <subject>Ghosts</subject>
+            </item>
+            <item>
+               <subject>Rorschach test</subject>
+            </item>
+            <item>
+               <subject>Telepathy</subject>
+            </item>
+            <item>
+               <subject>Precognition</subject>
+            </item>
+            <item>
+               <subject>Poltergeists -- Case studies</subject>
+            </item>
+            <item>
+               <subject>Clairvoyance</subject>
+            </item>
+            <item>
+               <subject>Psychokinesis</subject>
+            </item>
+            <item>
+               <subject>Rosenzwieg picture-frustration test</subject>
+            </item>
+            <item>
+               <subject>Women parapsychologists</subject>
+            </item>
+            <item>
+               <subject>Women college teachers -- New York</subject>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle>Correspondence Series</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1943/1968" type="inclusive">1943-1968</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1969/1970" type="inclusive">1969-1970</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1971/1972" type="inclusive">1971-1972</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1973/1974" type="inclusive">1973-1974</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1974/1983" type="inclusive">1974, July-1983, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname role="corr">Garrett, Eileen, </persname>
+                     <unitdate calendar="gregorian" era="ce" normal="1953/1955" type="inclusive">1953-1955, undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname role="corr">Murphy, Gardner, </persname>
+                     <unitdate calendar="gregorian" era="ce" normal="1951/1974" type="inclusive">1951-1974, undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname role="corr">Ozanne, Charles E., </persname>
+                     <unitdate calendar="gregorian" era="ce" normal="1953/1956" type="inclusive">1953-1956</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Writings Series</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">ESP and Personality Patterns</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">ESP and Personality Patterns:</title> Response to Criticism</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Personal Values and ESP Scores</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1953/1972" type="inclusive">1953-1972, undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Research Files Series</unittitle>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Rorschach Tests</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1944/1945" type="inclusive">1944-1945</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1945/1946" type="inclusive">1945-1946, Mar.,</unitdate>Murphy </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946, Mar., s</unitdate>chmeidler-Hunter, </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946, Summer</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946, Summer-Fall</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1946/1951" type="inclusive">1946-1951 and undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1946/1951" type="inclusive">1946-1951</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947, Spring</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947, Spring-Fall</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(7 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947, Fall</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1947/1950" type="inclusive">1947-1950, undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1948/1949" type="inclusive">1948-1949, Spring</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1949/1950" type="inclusive">1949, Spring/Fall-1950, Spring</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(7 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1950" type="inclusive">1950, Spring-Fall</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1950" type="inclusive">1950, Feb.,</unitdate>Inspection Records: Sheep and Goats </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951, Spring</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1951" type="inclusive">1951, Feb.,</unitdate>Inspection Records: Sheep and Goats </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1951/1956" type="inclusive">1951-1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1951/1956" type="inclusive">1951-1956</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1955/1956" type="inclusive">1955-1956, Fall</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">20</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1956/1958" type="inclusive">1956, Fall-1958, Spring</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1958/1960" type="inclusive">1958, Spring/Fall-1960</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">22</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1959/1961" type="inclusive">1959-1961, Fall</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">23</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1961/1966" type="inclusive">1961-1966, Fall</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">Various dates, and undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Chase and Wladkowsky,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Erkstein,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Inspection Records,
+<unitdate calendar="gregorian" era="ce" normal="1943/1946" type="inclusive">1943, 1946, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous data,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <unittitle>Miscellaneous:</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Preselected on Basis of ESP Scores,
+<unitdate calendar="gregorian" era="ce" normal="1945/1970" type="inclusive">1945-1947, 1970</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>TAT analysis,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Sheep/Goat</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>ESP Record Sheets:
+<unitdate calendar="gregorian" era="ce" normal="1941/1946" type="inclusive">1941, Aug.-1946, Mar.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(7 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">26</container>
+                     <unittitle>ESP Record Sheets:
+<unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946, Apr.-1946, July</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(7 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">27</container>
+                     <unittitle>ESP Record Sheets:
+<unitdate calendar="gregorian" era="ce" normal="1946/1947" type="inclusive">1946, July-1947, Spring</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(8 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">28</container>
+                     <unittitle>ESP Record Sheets:
+<unitdate calendar="gregorian" era="ce" normal="1947/1948" type="inclusive">1947, Sept.-1948, Dec.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">29</container>
+                     <unittitle>ESP Record Sheets:
+<unitdate calendar="gregorian" era="ce" normal="1949/1951" type="inclusive">1949, Apr.-1951, Apr.</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(9 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">30</container>
+                     <unittitle>ESP Record Sheets:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>1951, May</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">Various dates and undated</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Sheep/Goats,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>(3 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">31</container>
+                     <unittitle>ESP Record Sheets:
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">32</container>
+                     <unittitle>ESP Record Talley Sheets:
+<unitdate calendar="gregorian" era="ce" normal="1948/1949" type="inclusive">1948-1949, undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <unittitle>ESP Record Sheets and Related Materials,</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>1946, Nov.</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate calendar="gregorian" era="ce" normal="1954/1956" type="inclusive">1954-1956, Fall</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>(5 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">34</container>
+                     <unittitle>ESP Record Sheets and Related Materials,
+<unitdate calendar="gregorian" era="ce" normal="1959/1960" type="inclusive">1959-1960, undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">35</container>
+                     <unittitle>ESP Record Sheets and Related Materials,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">36</container>
+                     <unittitle>Rorschach Tests:
+<unitdate calendar="gregorian" era="ce" normal="1948/1949" type="inclusive">1948, Fall-1949, Spring</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">37</container>
+                     <unittitle>Rorschach Tests:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949, Spring</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">Various dates</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Rorschach Tests: Inspection Records:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946, Sept.</unitdate>(Hunter)</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate calendar="gregorian" era="ce" normal="1947/1948" type="inclusive">1947, Feb.-1948</unitdate>(Sheep/Goats) </unittitle>
+                        <physdesc>
+                           <extent>(5 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">38</container>
+                     <unittitle>Rorschach Tests: ESP Scores, Pairs:
+<unitdate calendar="gregorian" era="ce" normal="1946/1955" type="inclusive">1946-1955</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">39</container>
+                     <unittitle>Student Responses:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate calendar="gregorian" era="ce" normal="1946/1949" type="inclusive">1946, July-1949, Fall</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>(8 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate calendar="gregorian" era="ce" type="inclusive">Various dates and undated</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">40</container>
+                     <unittitle>Student Responses:
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(8 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">41</container>
+                     <unittitle>Miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Extra Scores and extra subjects, undated. </unittitle>
+                        <physdesc>
+                           <extent>(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Gimore-Melnick Data</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Pictures,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Research data from ESP work on Sheep/Goats--Cohen,
+<unitdate calendar="gregorian" era="ce" normal="1959" type="inclusive">1959</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Schmeidler, City College</corpname>--Eckstein's Class on Abnormal,
+<unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">Apr. 5, 1946</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Sheep/Goat Classification Response to Christopher Scott </unittitle>
+                        <physdesc>
+                           <extent>(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Subjects</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">42</container>
+                     <unittitle>Agent: ESP Data,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Agent: Percipient Experiment Instructions</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Agent: Percipient Experiment</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Agent: Percipient Experiment:</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Agent: Attempts at objective Rorschach classification </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Agent: ESP Data,
+<unitdate calendar="gregorian" era="ce" normal="1959/1960" type="inclusive">1959-1960</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Allen - TAT</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>American Society for Psychical Research, </corpname>
+                        <unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>American Society for Psychical Research: </corpname>Pictures</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">43</container>
+                     <unittitle>
+                        <corpname>American Society for Psychical Research: </corpname>Pictures </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Background stimuli and ESP responses,
+<unitdate calendar="gregorian" era="ce" normal="1983" type="inclusive">1983</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">44</container>
+                     <unittitle>Bainow - TAT,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Barry, H., </persname>
+                        <persname> MacKinnon, P. W., </persname>
+                        <persname>Murray, H.A.: </persname>Experimenter Files</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Bickman, Leonard: </persname>Honors Research</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Blaustein Targets,
+<unitdate calendar="gregorian" era="ce" normal="1944" type="inclusive">1944</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Booklets of Values,
+<unitdate calendar="gregorian" era="ce" normal="1952" type="inclusive">1952</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">45</container>
+                     <unittitle>Bridge to ESP target: tests</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Brier, Robert </persname>and <persname>Barry Savits: </persname>Silva Mind Control, three Experiments in Clairvoyant Diagnosis </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Bullen,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Card guessing experiment (letters to people about)
+<unitdate calendar="gregorian" era="ce" normal="1963" type="inclusive">1963</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Census of some unusual experiences</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">46</container>
+                     <unittitle>
+                        <persname>Chapman, Caroline </persname>(Proxy Sessions) </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">47</container>
+                     <unittitle>
+                        <persname>Chapman, Caroline </persname>(Proxy Sessions)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Chase, Stanley: </persname>Data </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Chi Square Test</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Children and reincarnation</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Clairvoyant, Kykeshoorn, M.B.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Clock cards,
+<unitdate calendar="gregorian" era="ce" normal="1982" type="inclusive">1982</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">48</container>
+                     <unittitle>Cognition class: <corpname>City College of the City University of New York</corpname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Concussion Patients and Hospitalized controls data, Rorschachs and ESP scores</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Crystal Images: data</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Drawings</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946, July 31</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Clairvoyance </unittitle>
+                        <physdesc>
+                           <extent>(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">49</container>
+                     <unittitle>Drawings:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Clairvoyance</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Moonfaces </unittitle>
+                        <physdesc>
+                           <extent>(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Moonfaces and interest tests</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Moonfaces--Duke--1946 and City College of the City University of New York, 1947 United States of America</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Ehrenwald, Jan: </persname>PSI: Questionnaire</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Ehrlich, Data</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Eilbert, L.'s MA thesis: published with Schmeidler,
+<unitdate calendar="gregorian" era="ce" normal="1950" type="inclusive">1950</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">50</container>
+                     <unittitle>ESP:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Card type experiment</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Contest</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Data,
+<unitdate calendar="gregorian" era="ce" normal="1951/1955" type="inclusive">1951, 1955 and undated</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>(4 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Scores in maternity patients</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Memory test </unittitle>
+                        <physdesc>
+                           <extent>(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">51</container>
+                     <unittitle>ESP: Memory test </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>ESP Records: Confidence check and scored,
+<unitdate calendar="gregorian" era="ce" normal="1958" type="inclusive">1958</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Feedback in ESP </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">52</container>
+                     <unittitle>Feedback in ESP </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Feedback paper test data </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">53</container>
+                     <unittitle>Feedback paper test data </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Feedback with ESP symbols: A Failure to Replicate </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Free Association </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">54</container>
+                     <unittitle>
+                        <persname>Friedneberg, William </persname>and P. Males: Data</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Friedman, Ronald M. </persname>and <persname>E. D. Dean: </persname>Mood and ESP Correlation</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Garrett, Eileen </persname>(Proxy Sessions) </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">55</container>
+                     <unittitle>
+                        <persname>Garrett, Eileen </persname>(Proxy Sessions)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Goodrich, Joyce: </persname>Psychic Healing</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Grady tests/interpretation</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Group experiments: Extra results,
+<unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Hand Test Protocols,
+<unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Haunted House: Data,
+<unitdate calendar="gregorian" era="ce" normal="1966" type="inclusive">1966</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Heyman, S.:</persname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Data for Paper,
+<unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Data for Time Metaphors and ESP,
+<unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">56</container>
+                     <unittitle>
+                        <persname>Heyman, S.: </persname>Data for Time Metaphors and ESP,
+<unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">57</container>
+                     <unittitle>
+                        <persname>Heyman, S.: </persname>Data for Time Metaphors and ESP,
+<unitdate calendar="gregorian" era="ce" normal="1965" type="inclusive">1965</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Hudesman, J.: </persname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Clock Card Data </unittitle>
+                        <physdesc>
+                           <extent>(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">58</container>
+                     <unittitle>
+                        <persname>Hudesman, J.: </persname>Clock Card Data </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">59</container>
+                     <unittitle>
+                        <persname>Hudesman, J.: </persname>Clock Card Data</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Hudesman, J. </persname>and <persname>G. Schmeidler: </persname>ESP scores after psychotherapy sessions</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Humphrey, Betty: </persname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Data</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Scoring of 4-picture clairvoyance tests,
+<unitdate calendar="gregorian" era="ce" normal="1947" type="inclusive">1947, Dec.</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Introversion and ESP</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Jensen, Donald: </persname>Psychical abilities,
+<unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">60</container>
+                     <unittitle>Kopler: TAT and ESP Data,
+<unitdate calendar="gregorian" era="ce" normal="1945" type="inclusive">1945</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Korn: Data</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Kornfeld: TAT</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Kreiman records,
+<unitdate calendar="gregorian" era="ce" normal="1978" type="inclusive">1978</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>LeShan, L.: </persname>Boby Image related to ESP scores</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Lewis, Larry: </persname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Data</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Data for EEG-ESP research paper </unittitle>
+                        <physdesc>
+                           <extent>(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">61</container>
+                     <unittitle>
+                        <persname>Lewis, Larry: </persname>Feedback in ESP, Part II</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Lowy, Grace: </persname>Data</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lutzky: Data on children</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Memory tests: Word lists</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Metaphor Research,
+<unitdate calendar="gregorian" era="ce" normal="1962/1963" type="inclusive">1962-1963</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Mind-reading interpretations</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">62</container>
+                     <unittitle>Mood-in-group study </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Moods and ESP (Canada):</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Correspondence</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Group 1-3:
+<unitdate calendar="gregorian" era="ce" normal="1971" type="inclusive">1971, Feb.-Mar. 8</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>(3 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">63</container>
+                     <unittitle>Moods and ESP (Canada): Miscellaneous</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Moss, Thelma: </persname>ESP records and letters</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Moss, Thelma </persname>and Schmeidler: Haunting investigation </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Murphy, Gardner: </persname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Creativity: ESP Project</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Rorschach interpretations,
+<unitdate calendar="gregorian" era="ce" normal="1944" type="inclusive">1944</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Names as target: Research,
+<unitdate calendar="gregorian" era="ce" normal="1984" type="inclusive">1984</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>O'Keefe, Eileen: </persname>Data </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Osis, Karlis: </persname>ESP,
+<unitdate calendar="gregorian" era="ce" normal="1955" type="inclusive">1955</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Out of body experiences: Questions and data</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">64</container>
+                     <unittitle>Perception "in mind's eye" </unittitle>
+                     <physdesc>
+                        <extent>(7 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">65</container>
+                     <unittitle>Perception "in mind's eye" </unittitle>
+                     <physdesc>
+                        <extent>(8 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">66</container>
+                     <unittitle>Personality of PSI experiments: Student Evaluations,
+<unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Picture-Frustration Records,
+<unitdate calendar="gregorian" era="ce" normal="1946/1948" type="inclusive">1946-1948</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">67</container>
+                     <unittitle>Picture-Frustration Records,
+<unitdate calendar="gregorian" era="ce" normal="1948/1949" type="inclusive">1948-1949</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">68</container>
+                     <unittitle>Picture-Frustration Records,
+<unitdate calendar="gregorian" era="ce" normal="1949" type="inclusive">1949</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">69</container>
+                     <unittitle>Picture-Frustration Records</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate calendar="gregorian" era="ce" normal="1950/1951" type="inclusive">Spring, 1950-1951</unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>1st Group experiment,
+<unitdate calendar="gregorian" era="ce" normal="1945" type="inclusive">1945</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>2nd Group experiment,
+<unitdate calendar="gregorian" era="ce" normal="1945" type="inclusive">1945</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Chase and Wladkowsky,
+<unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Female,
+<unitdate calendar="gregorian" era="ce" normal="1948" type="inclusive">1948</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Spring, Hunter group experiment,
+<unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Picture and A-S reaction studies</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Pictures used for testing,
+<unitdate calendar="gregorian" era="ce" normal="1956" type="inclusive">Fall, 1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">70</container>
+                     <unittitle>PK effects on temperature </unittitle>
+                     <physdesc>
+                        <extent>(7 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">71</container>
+                     <unittitle>PK effects on temperature</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>PK effects on temperative: further analysis</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Poltergeists:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Beck case, correspondence</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Case studies</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Case study, projective tests</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Precognition: dream data</unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Precognitive clairvoyance, Part I</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">72</container>
+                     <unittitle>Precognitive clairvoyance, Part I and II </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Precognition experiment (data of first),
+<unitdate calendar="gregorian" era="ce" normal="1961" type="inclusive">1961, Fall</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Precognition subjects record sheets, 2nd experiment </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Precognition test,
+<unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Psychics</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Psychokinesis on water,
+<unitdate calendar="gregorian" era="ce" normal="1974" type="inclusive">1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Psychometry tests</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Random vs Pseudorandom targets: Data,
+<unitdate calendar="gregorian" era="ce" normal="1981" type="inclusive">1981</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Rasch, W. D.: </persname>Handwriting analysis,
+<unitdate calendar="gregorian" era="ce" normal="1953" type="inclusive">1953</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Retkinski data: ESP,
+<unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964, Spring</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">73</container>
+                     <unittitle>Retkinski-data, ESP:
+<unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964, Spring</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Retkinski-Replication, ESP:
+<unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964, Gall</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Retkinski: Work before going to Duke,
+<unitdate calendar="gregorian" era="ce" normal="1964" type="inclusive">1964</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Salience-Group experiments</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Sensory deprivation test</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">74</container>
+                     <unittitle>Sensory deprivation test</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Short Story: various test scores</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Soal, S. G.: </persname>ESP tests,
+<unitdate calendar="gregorian" era="ce" normal="1956" type="inclusive">1956</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Steelman, J: </persname>Data </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Streber, K: </persname>Data</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Subject record sheets and tabulations</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Subject record sheets and testing specifications</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Survival research questionnaires </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">75</container>
+                     <unittitle>Tanagras: Telepathy research,
+<unitdate calendar="gregorian" era="ce" normal="1946/1947" type="inclusive">1946-1947</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Tarot card readings: Unpublished data</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>TAT: ESP scores </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">76</container>
+                     <unittitle>TAT: ESP scores</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>TAT scores</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Telepathy in Dyads: Data</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Time estimates by psychics</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Time metaphor test</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Training subjects to judge free responses</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>Ruth Reinsel for N. Sondow's Ganzfeld </unittitle>
+                        <physdesc>
+                           <extent>(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Janet's non-blind list of correspondences: F, G, H</unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Visual imagery and creativity</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">77</container>
+                     <unittitle>
+                        <persname>Windholz, George: </persname>
+                     </unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>ESP data </unittitle>
+                        <physdesc>
+                           <extent>(3 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Intercultural comparisons of expressive movements </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Word association</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Miscellaneous</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" normal="1970/1971" type="inclusive">1970-1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">78</container>
+                     <unittitle>
+                        <unitdate calendar="gregorian" era="ce" type="inclusive">undated</unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Tests</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Unidentified data </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Miscellaneous Series</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <unittitle>
+                     <unitdate calendar="gregorian" era="ce" normal="1952/1974" type="inclusive">1952-1974 and undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Colleagues' opinions about parapsychology,
+<unitdate calendar="gregorian" era="ce" normal="1976" type="inclusive">1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Coursework assignments,
+<unitdate calendar="gregorian" era="ce" normal="1973/1977" type="inclusive">1973-1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Coursework exams,
+<unitdate calendar="gregorian" era="ce" normal="1972/1979" type="inclusive">1972-1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Oversize Materials</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="Oversize-Box" label="Oversize Box">79-81</container>
+                  <unittitle>Contains research files, including sheep/goat and topical research data</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="opaperfolder">Folder 1</container>
+                  <unittitle>Contains subject research file: Precognition Clairvoyance</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

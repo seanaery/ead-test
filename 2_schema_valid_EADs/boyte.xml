@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" langencoding="iso639-2b" findaidstatus="unverified-full-draft" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid publicid="-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Boyte Family Papers)//EN" countrycode="us" mainagencycode="ndd" url="http://library.duke.edu/rubenstein/findingaids/boyte/">boyte</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Boyte Family Papers, <date normal="1941/1981" type="inclusive" era="ce" calendar="gregorian">1941-1981</date>
+            </titleproper>
+            <author>Processed by Denise Dolan; machine-readable finding aid created by
+Alvin Pollock<lb/>Electronic Text Unit<lb/>UC Berkeley Library</author>
+         </titlestmt>
+         <publicationstmt>
+            <date era="ce" calendar="gregorian"> 1997</date>
+            <p>Duke University. All rights reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">001058220</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from MS Word.
+Date of source: <date era="ce" calendar="gregorian">10/29/91.</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005" era="ce" calendar="gregorian">07-14-2005</date>
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Boyte Family Papers)//EN" "boyte.sgm" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).		</item>
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date era="ce" calendar="gregorian">June 29, 1998</date>
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Boyte Family Papers, <date era="ce" calendar="gregorian">1941-1981</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>
+            <lb/>Duke University<lb/>Durham, North Carolina 27708-0185</publisher>
+         <p> 1997 Duke University. All rights reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">Boyte Family papers <unitdate normal="1941/1981" type="inclusive" era="ce" calendar="gregorian">1941-1981</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <famname>Boyte Family</famname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>14.8 Linear feet</extent>
+            <extent>circa 11,100 items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+            <address>
+               <addressline>Durham, North Carolina 27708-0185</addressline>
+            </address>
+         </repository>
+         <physloc label="Location">For current information on the location of these
+materials, please consult the library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>
+            <p>A portion of the Harry C. Boyte Series is restricted until August 16, 2002.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The copyright interests in the Boyte family papers have not been
+transferred to Duke University. For further information, see the section
+on copyright in the Regulations and Procedures of the Special Collections
+Department.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Boyte Family Papers,
+David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The Boyte family papers, 1941-1981, were donated to the Special
+Collections Department from 1967-1982 by Harry C. Boyte and Sara
+Evans Boyte.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Denise Dolan</p>
+            <p>Completed October 29, 1991</p>
+            <p>Encoded by Alvin Pollock</p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp>
+      <bioghist>
+         <head>Harry C. Boyte</head>
+         <chronlist>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1945, April 26</date>
+               <event>Born, Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1963-1964</date>
+               <event>Founder, Duke-Durham chapter of Congress of Racial
+Equality</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1964-1965</date>
+               <event>Field Secretary for Southern Christian Leadership
+Conference in North Carolina, Georgia, and Florida </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1966, June 5</date>
+               <event>Married Sara Margaret Evans of McCormick, S.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1967</date>
+               <event>Received B.A. with distinction in Psychology from Duke
+University, Durham, NC </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1967-1968</date>
+               <event>Attended University of Chicago Divinity School</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1968-1970</date>
+               <event>Community organizer, Operation Breakthrough, Durham,
+N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1970-1971</date>
+               <event>Editor, ACTION newspaper</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1971-1975</date>
+               <event>Member of the founding body and National Interim
+Committee of the New American Movement</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1976-1981</date>
+               <event>Member of the National Board and Executive Committee of
+the Democratic Socialist Organizing Committee</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1977-1978</date>
+               <event>Program advisor, Field Foundation</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1978-1979</date>
+               <event>United States correspondent, Tempo magazine</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1980</date>
+               <event>Published The Backyard Revolution: Understanding the
+New Citizen Movement</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1980-1981</date>
+               <event>Senior Neighborhoods Policy Analyst, New Careers
+Training Laboratory, City University of New York</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1981-</date>
+               <event>Director, Citizen Heritage Center</event>
+            </chronitem>
+         </chronlist>
+         <p>Mr. Boyte, a freelance writer, has one son, Craig and one daughter,
+Rachel. He is the author or coauthor of numerous articles and books
+about left wing political and social concerns. </p>
+      </bioghist>
+      <bioghist>
+         <head>Harry G. Boyte</head>
+         <chronlist>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1911, June 26 </date>
+               <event>Born Charlotte, N.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1936</date>
+               <event>Married first wife, who died the same year</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1942-1944</date>
+               <event>Served abroad as Assistant Field Director, then Field
+Director for American Red Cross Foreign Service</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1944, Jan.</date>
+               <event>Married Janet Chatten in Evanston, Ill.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1944-1945</date>
+               <event>Assistant Chief of Personnel Administration for Red Cross
+Service to U.S. Armed Forces in Washington, D.C.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1946</date>
+               <event>Executive Director of American Red Cross of Greater
+Atlanta</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1948-1959</date>
+               <event>Manager, Atlanta chapter of American Red Cross</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1959-1962</date>
+               <event>Involved with civil rights organizations in Georgia, North
+Carolina and Virginia</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1962</date>
+               <event>Directed community relations project for school
+desegregation in Prince Edward County, Va., for American
+Friends Service Committee</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1963-1965</date>
+               <event>Employed as Special Assistant to Martin Luther King, Jr.
+for Southern Christian leadership Conference in Atlanta,
+Ga.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1965</date>
+               <event>Director of "Operation Dialogue" program for SCLC</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1966</date>
+               <event>Employed as Technical Assistance Officer, Equal
+Employment Opportunity Commission, Atlanta, Ga.</event>
+            </chronitem>
+         </chronlist>
+         <p>Mr. Boyte is a member of the Society of Friends. He has one son,
+Harry Chatten Boyte, and one daughter.</p>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The Boyte Family Papers, 1941-1981 (bulk 1968-1977), chiefly
+contain printed material, including photocopies produced for meetings,
+conventions, and other group activities; periodicals, flyers, brochures,
+pamphlets, posters and booklets; correspondence; and reports, minutes,
+notes and other organizational records. Also included are drafts of
+essays and articles, photographs, notebooks, and audio tapes. While
+useful for a study of political and social activism and community
+organizing in post-World War II United States at local, regional and
+national levels, the collection contains little on the personal lives of the
+Boyte family. The collection focuses on the careers of Harry C. Boyte,
+political organizer and writer, in the 1960s and 1970s, and to a lesser
+extent his father, Harry G. Boyte, in the 1950s and 1960s. Social action
+organizations represented prominently in the collection include the New
+American Movement (NAM), the Democratic Socialist Organizing
+Committee (DSOC), and the Southern Christian Leadership Conference
+(SCLC).</p>
+         <p>Harry C. Boyte was involved in the Democratic Socialist Organizing
+Committee and New American Movement, a national socialist
+organization with a Chapel Hill-Durham, North Carolina chapter. He
+was a member of the National Interim Committee for NAM, a steering
+committee for local groups. Literature from these and other groups with
+which Harry C. Boyte was affiliated, such as ACT in Durham, the New
+University Conference, the Southern Student Organizing Committee and
+Students for a Democratic Society is located in the Subject Files of the
+Harry C. Boyte Series. Together with publications in the early 1970s
+from other groups in the Printed Material subseries, these files represent
+issues including the Vietnam War and conscientious objection, socialism,
+feminism, labor rights, civil rights, gay and lesbian rights and the
+impeachment of Richard M. Nixon. </p>
+         <p>Harry C. Boyte wrote regularly for NAM and other socialist
+publications on socialist theory and organization. Drafts of some of his
+articles, along with correspondence containing critiques by his associates
+can be found throughout the NAM and DSOC files in the Harry C. Boyte
+Series. Correspondence in those files and in the National Democratic
+Left Relations folder between Boyte and his associates contains
+discussion of the implementation of socialist theories in contemporary
+American society. These exchanges were conducted more formally
+through Discussion Bulletins, contained in the files. </p>
+         <p>Papers in the Harry C. Boyte Series also relate to local organizing
+efforts in Chapel Hill and Durham, N.C., concerning health care, welfare,
+industrial safety and inflation. The information is contained in folders
+titled ACT, Health Care, Occupational Health, People's Association for a
+Cooperative Commonwealth, Utilities and Tenants' Rights. A small
+amount of material relates to student activism at Duke University and
+the University of North Carolina-Chapel Hill.</p>
+         <p>There is some material on the women's movement and the career
+of Boyte's wife, Sara Evans Boyte, who received a Ph.D. in history from
+the University of North Carolina at Chapel Hill and became a professor of
+women's history. She was involved in a Chapel Hill women's group
+called Lollipop Power, a folder for which exists in the Harry C. Boyte
+Series. There is also material scattered through the NAM files about the
+Charlotte Perkins Gilman chapter, a socialist feminist group. Examples
+of feminist literature can be found in the Printed Material subseries and
+in the Robert P. McMahon Series.</p>
+         <p>Harry C. Boyte's father, Harry G. Boyte, left the American Red
+Cross to work in race relations. Eventually he was appointed the first
+white man on the staff of the Southern Christian Leadership Conference
+under Martin Luther King, Jr. Boyte's job search is documented by
+correspondence in the Harry G. Boyte Series. Contacts included the
+American Civil Liberties Union, the American Friends Service Committee,
+the Congress of Racial Equality (CORE), the National Association for the
+Advancement of Colored People (NAACP), the National Urban League,
+SCLC, the Southern Conference Education Fund, and the Southern
+Regional Council. The letters provide background information on Boyte's
+previous experience in Civil Rights projects. While on the staff of SCLC,
+he headed Operation Dialogue. There is material in the Correspondence
+and SCLC files of this series about this program intended to foster
+interracial communication.</p>
+         <p>Correspondence in the Harry G. Boyte Series also covers the later
+years of Boyte's Red Cross career and his initial involvement in
+desegregation efforts in Atlanta. He served as chairman of HOPE, Inc.
+(Help Our Public Schools) and as Executive Director of the Greater
+Atlanta Council on Human Relations. He was also instrumental in
+organizing an Atlanta chapter of the Unitarian Service Committee. The
+bulk of the Education files of this series is comprised of material relating
+to Harry G. Boyte's work for the American Friends Service Committee. </p>
+         <p>There is material in the Clippings, Correspondence and Racial files
+of the Harry G. Boyte Series regarding civil unrest in Monroe, N.C., in
+the late 1950s and early 1960s. During his short stay there, Boyte and
+his family hosted Freedom Riders and lent support to local NAACP
+leaders. Racial files include material relating to other Civil Rights
+programs and events in North Carolina and Georgia conducted by groups
+such as the Southern Regional Council, Student Non-Violent
+Coordinating Committee and SCLC. There is also some literature from
+CORE in a separate folder.</p>
+         <p>Robert McMahon was associated with Harry C. Boyte after
+becoming a member of the Chapel Hill-Durham chapter of NAM. He was
+also involved in the local chapter of the New University Conference and
+the Chapel Hill Peace Center. While a student at the University of
+Virginia, McMahon served as President of the Newman Student
+Federation, and as Chairman of the Southern Student Organizing
+Committee between the years 1967-1968. The Robert P. McMahon
+Series contains information on the organization, planning and programs
+of these two groups. Some documentation of his political involvements
+can also be found in the Harry C. Boyte Series.</p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname>Boyte, Sara Evans</persname>
+            </item>
+            <item>
+               <subject>Social action</subject>
+            </item>
+            <item>
+               <subject>College students -- Political activity -- North Carolina</subject>
+            </item>
+            <item>
+               <subject>College students -- Political activity -- Virginia</subject>
+            </item>
+            <item>
+               <corpname>New American Movement (organization).</corpname>
+            </item>
+            <item>
+               <corpname>Democratic Socialist Orgnizing Committee (U.S.).</corpname>
+            </item>
+            <item>
+               <corpname>ACT (Durham, N.C.).</corpname>
+            </item>
+            <item>
+               <corpname>Students for a Democratic Society (U.S.).</corpname>
+            </item>
+            <item>
+               <corpname>New University Conference</corpname>
+            </item>
+            <item>
+               <corpname>Southern Student Organizing Committee</corpname>
+            </item>
+            <item>
+               <corpname>American Friends Service Committee</corpname>
+            </item>
+            <item>
+               <corpname>Southern Christian Leadership Conference</corpname>
+            </item>
+            <item>
+               <subject>Socialism -- United States</subject>
+            </item>
+            <item>
+               <subject>Vietnamese Conflict, 1961-1975</subject>
+            </item>
+            <item>
+               <subject>Conscientious objectors</subject>
+            </item>
+            <item>
+               <subject>Civil rights</subject>
+            </item>
+            <item>
+               <subject>Women's rights</subject>
+            </item>
+            <item>
+               <geogname>North Carolina -- Race relations</geogname>
+            </item>
+            <item>
+               <subject>Segregation -- Virginia</subject>
+            </item>
+            <item>
+               <subject>Political participation</subject>
+            </item>
+            <item>
+               <subject>Community organization</subject>
+            </item>
+            <item>
+               <persname>Boyte, Harry Chatten, 1945-</persname>
+            </item>
+            <item>
+               <persname>Boyte, Harry G., 1911-</persname>
+            </item>
+            <item>
+               <persname>McMahon, Robert Patrick</persname>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle>
+                  <persname>Harry C. Boyte, </persname>
+                  <unitdate normal="1959/1981" type="inclusive" era="ce" calendar="gregorian">1959-1981 and undated</unitdate>
+                  <unitdate normal="1968/1976" type="bulk" era="ce" calendar="gregorian"> (bulk 1968-1976)</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Arranged in Subject Files and Printed Material subseries. About one-half of the Subject Files consists of files, 1970-1982, on the New American Movement. This section consists primarily of typed correspondence and printed material, in equal amounts. Printed material includes drafts of published and unpublished articles, political statements, <emph render="italic">Discussion Bulletins, </emph>booklets, pamphlets and flyers. Also includes organizational records in the form of reports, resolutions, minutes, newsletters, meeting and discussion notes, announcements, agendas and convention packets. Other materials include several notebooks, loose notes, and training manuals. The remainder of the Subject Files consist mainly of a wide variety of printed material produced by left-wing political groups such as flyers, newsletters, typed copies of articles and speeches, fact sheets, booklets, pamphlets, reprints, conference information and reports. Correspondence, mostly to and from Boyte, is scattered throughout. Serials are filed in the folder of the producing organization if a folder exists.</p>
+               <p>The remainder of the serials are arranged alphabetically by title in the Printed Material subseries. General printed material is arranged chronologically. A portion of this series is restricted until August 16, 2002.</p>
+            </scopecontent>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Subject Files</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">1</container>
+                     <unittitle>
+                        <corpname>ACT, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1971, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <geogname>Africa, </geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1964-1975, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>American Friends Service Committee, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1959-1975, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <geogname>Asia, </geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1976</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Billy Graham Day,
+<unitdate era="ce" calendar="gregorian">1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <persname>Boyte, Sara Evans, </persname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Central Committee for Conscientious Objectors, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1962-1973, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>
+                        <geogname>Chapel Hill-Durham, </geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1976, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Chapel Hill Peace Center, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1975, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Christian-Marxist Dialogue,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1961-1968, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Conference on Radicals in the Professions, </corpname>
+                        <unitdate era="ce" calendar="gregorian">1967</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1971-1979, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Democratic Socialist Organizing Committee, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1976</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>
+                        <corpname>Democratic Socialist Organizing Committee, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1977-1982, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle>Draft,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1965-1975, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Duke University, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1964-1975, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Economics,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1963-1975, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Election Laws,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1971-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Energy,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1973-1974, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Farmers,
+<unitdate era="ce" calendar="gregorian">1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Grape-Lettuce Boycott,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1965-1972, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Gulf and Shell </corpname>Boycotts,
+<unitdate era="ce" calendar="gregorian">1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Health Care, </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1975, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Housing, </subject>
+                        <unitdate era="ce" calendar="gregorian">1960</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Human Rights Party, </corpname>
+                        <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Indians, <geogname>South Dakota, </geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>July 4th Coalition,
+<unitdate era="ce" calendar="gregorian">1976</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <geogname>Latin America, </geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1975, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Legal Defense Fund, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1971, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Legal Papers,
+<unitdate era="ce" calendar="gregorian">1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Lollipop power,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1970-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>
+                        <corpname>Midwest Academy, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1974-
+1979, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>National Campaign to Impeach Nixon, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>National Democratic Left Relations,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1972-1979, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>National Interim Committee for a Mass Party of the People, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>New University Conference, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1970</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>New American Movement, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1972, Apr. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle>
+                        <corpname>New American Movement, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1972, May-Dec. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle>
+                        <corpname>New American Movement, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1973, Aug. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">8</container>
+                     <unittitle>
+                        <corpname>New American Movement, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1973, Sept.-1974, Mar. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(7 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">9</container>
+                     <unittitle>
+                        <corpname>New American Movement, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1974, Apr-Dec. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">10</container>
+                     <unittitle>
+                        <corpname>New American Movement, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1974-1975, Aug. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">11</container>
+                     <unittitle>New American Movement,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1975, Sept.-1976 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">12</container>
+                     <unittitle>New American Movement,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1976-1979 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">13</container>
+                     <unittitle>New American Movement,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1980, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">14</container>
+                     <unittitle>
+                        <corpname>New University Conference, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1971 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">15</container>
+                     <unittitle>
+                        <corpname>New University Conference, </corpname>
+                        <unitdate era="ce" calendar="gregorian">1972, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Occupational Health (NAM),
+<unitdate type="inclusive" era="ce" calendar="gregorian">1971-1973, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Peoples Alliance for a Cooperative Commonwealth, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1979, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Pictures,
+<unitdate era="ce" calendar="gregorian">1951, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">16</container>
+                     <unittitle>
+                        <corpname>Radical Historians' Caucus, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1977, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Radicals in The Professions Conference, </corpname>
+                        <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Record, <title xlink:type="simple" render="doublequote" xlink:href="">Crisis in the Nation,</title>
+                        <unitdate era="ce" calendar="gregorian">1960s</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Southern Conference Educational Fund, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1963-1975, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Southern Organizer's Conference, Greenville, S.C. </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">(Sept. 4-5, 1971), 1971, Mar.-Sept, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Southern Student Organizing Committee, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1963-1967, Apr. </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">17</container>
+                     <unittitle>
+                        <corpname>Southern Student Organizing Committee, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1967, May-1969, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Students for a Democratic Society, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1962-1968</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">18</container>
+                     <unittitle>
+                        <corpname>Students for A Democratic Society, </corpname>
+                        <unitdate era="ce" calendar="gregorian">1969, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Tenants Rights,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1972-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Union for Radical Political Economics, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>University of N.C. Student Strike, </corpname>
+                        <unitdate era="ce" calendar="gregorian">May, 1970</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Utilities, </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1976, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Vietnam, </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1975, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Welfare, </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Youth, </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1961-1969, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Printed Material</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">19</container>
+                     <unittitle>General,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1955-1972 </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">20</container>
+                     <unittitle>General,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1973-1979, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">21</container>
+                     <unittitle>Serials, A-G </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">22</container>
+                     <unittitle>Serials, H-Pe </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">23</container>
+                     <unittitle>Serials, Pf-Z </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Subject Files: Restricted</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">24</container>
+                     <unittitle>
+                        <corpname>Cooperative Commonwealth Project, </corpname>
+                        <unitdate era="ce" calendar="gregorian">1980, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Correspondence:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1980, undated</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>(Private),
+<unitdate type="inclusive" era="ce" calendar="gregorian">1971-1978, undated </unitdate>
+                        </unittitle>
+                        <physdesc>
+                           <extent>(2 folders)</extent>
+                        </physdesc>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Human Rights, </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1974-1976, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>New American Movement,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1971-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">25</container>
+                     <unittitle>New American Movement,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1974-1975, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Unity, </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1976-1978, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1972-1979, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>
+                  <persname>Harry G. Boyte, </persname>
+                  <unitdate normal="1944/1975" type="inclusive" era="ce" calendar="gregorian">1944-1975 and undated </unitdate>
+                  <unitdate normal="1962/1965" type="bulk" era="ce" calendar="gregorian">(bulk 1962-1965).</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Chiefly Subject Files. Contains typed reports, correspondence to and from Boyte, clippings, speeches of Civil Rights leaders, press releases, a small amount of legal papers, and printed material. Printed material includes newsletters, brochures, booklets, announcements, annual reports, typed essays and information produced for meetings and conferences. Administrative records consisting of memos, minutes, agendas, budgets and correspondence which passed through the Atlanta SCLC office. Some correspondence is addressed to Dr. Martin Luther King, Jr. Arranged chronologically in Correspondence files and alphabetically in Subject Files.</p>
+            </scopecontent>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Correspondence</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">26</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1944-1968, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Subject Files</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>American National Red Cross, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1946-1959, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <geogname>Appalachia, </geogname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1964-1975, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Biographical sketch,
+<unitdate era="ce" calendar="gregorian">1963, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Clippings,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1942-1968, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">27</container>
+                     <unittitle>
+                        <corpname>Congress of Racial Equality, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1961-1965</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <subject>Education, </subject>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1954-1966, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(4 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Legal papers,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1955-1969</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Pictures:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <persname>Harry G. and Janet Chatten Boyte </persname>with <corpname>American Red Cross </corpname>and Family,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1945-1950, undated</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>March on Washington,
+<unitdate type="inclusive" era="ce" calendar="gregorian">Aug. 28, 1963</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Southern Christian Leadership Conference, </corpname>including <persname>Martin Luther King, Jr., </persname>
+                           <unitdate era="ce" calendar="gregorian">undated</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">28</container>
+                     <unittitle>Racial,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1957-1975, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(6 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">29</container>
+                     <unittitle>Racial,
+<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>Southern Christian Leadership Conference, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1957-1966, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(5 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1945-1959, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>
+                  <persname>Robert P. McMahon, </persname>
+                  <unitdate normal="1965/1975" type="inclusive" era="ce" calendar="gregorian">1965-1975</unitdate> and undated
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Includes records of the Newman Student Federation in the form of correspondence to and from McMahon, notes, position papers, and printed material such as reprints, pamphlets, newsletters, reports and resolutions. Several notebooks with personal and organizational notes. Arranged alphabetically by subject. </p>
+            </scopecontent>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Subject Files</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">30</container>
+                     <unittitle>
+                        <corpname>Newman Student Federation, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1968, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(3 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Notebooks,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1967-1973</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <corpname>People's Party, </corpname>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1974, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Pitt County Movement,
+<unitdate era="ce" calendar="gregorian">1971</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Prisons and Prisoners,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1972-1976, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Miscellaneous,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1965-1975, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Miscellaneous,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1955-1981 and undated</unitdate>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">31</container>
+                     <unittitle>Audio Tapes,
+<unitdate era="ce" calendar="gregorian">undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Pictures,
+<unitdate era="ce" calendar="gregorian">1963, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>General,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1955-1981, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Clippings,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1960-1976, undated </unitdate>
+                     </unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Oversize Materials</unittitle>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>
+                     <persname>Harry C. Boyte </persname>Series</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Subject Files:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="box">32</container>
+                        <unittitle>
+                           <geogname>Chapel Hill-Durham, </geogname>
+                           <unitdate era="ce" calendar="gregorian">1974, undated</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Gulf and Shell Boycotts,
+<unitdate era="ce" calendar="gregorian">1973</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <subject>Health Care, </subject>
+                           <unitdate era="ce" calendar="gregorian">1972</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>July 4th Coalition, </corpname>
+                           <unitdate era="ce" calendar="gregorian">1976</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <geogname>Latin America, </geogname>
+                           <unitdate era="ce" calendar="gregorian">1974</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>National Campaign to Impeach Nixon,
+<unitdate era="ce" calendar="gregorian">1974</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>New American Movement, </corpname>
+                           <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1975, undated</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>New University Conference,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1969-1972</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <corpname>Southern Student Organizing Committee, </corpname>
+                           <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1971, undated</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Students for a Democratic Society,
+<unitdate era="ce" calendar="gregorian">1966, undated</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <subject>Utilities, </subject>
+                           <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1975</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>
+                           <subject>Vietnam, </subject>
+                           <unitdate era="ce" calendar="gregorian">1967, undated</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Printed Material:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>General,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1967-1969, undated</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Serials,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1966-1973</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container label="Oversize Folder" type="opaperfolder">OC:II:1</container>
+                     <unittitle>Subject Files: <geogname>Latin America</geogname>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>Printed Material: General</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">33</container>
+                     <unittitle>Printed Material:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <unittitle>General,
+<unitdate type="inclusive" era="ce" calendar="gregorian">1969-1976, undated</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Serials</unittitle>
+                     </did>
+                     <c05>
+                        <did>
+                           <unittitle>A-Gra </unittitle>
+                           <physdesc>
+                              <extent>(3 folders)</extent>
+                           </physdesc>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">34</container>
+                           <unittitle>Gre-Mr </unittitle>
+                           <physdesc>
+                              <extent>(3 folders)</extent>
+                           </physdesc>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">35</container>
+                           <unittitle>Mo-New Sol. </unittitle>
+                           <physdesc>
+                              <extent>(3 folders)</extent>
+                           </physdesc>
+                        </did>
+                     </c05>
+                     <c05>
+                        <did>
+                           <container type="box">36</container>
+                           <unittitle>New York-Z </unittitle>
+                           <physdesc>
+                              <extent>(5 folders)</extent>
+                           </physdesc>
+                        </did>
+                     </c05>
+                  </c04>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Harry G. Boyte Series</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>Subject Files:</unittitle>
+                  </did>
+                  <c04>
+                     <did>
+                        <container type="opaperfolder" label="Oversize Folder">OC:I:8</container>
+                        <unittitle>Racial,
+<unitdate era="ce" calendar="gregorian">1966, undated</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+                  <c04>
+                     <did>
+                        <unittitle>Southern Christian Leadership Conference,
+<unitdate era="ce" calendar="gregorian">1965</unitdate>
+                        </unittitle>
+                     </did>
+                  </c04>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="opaperfolder" label="Oversize Folder">OC:II:4</container>
+                     <unittitle>Miscellaneous,
+<unitdate era="ce" calendar="gregorian">1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unittitle>Miscellaneous Series</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="opaperfolder" label="Oversize Folder">OC:I:8</container>
+                     <unittitle>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1973, undated</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

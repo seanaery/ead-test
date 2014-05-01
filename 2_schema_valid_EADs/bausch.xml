@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" langencoding="iso639-2b" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Richard Bausch Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/bausch/" countrycode="us" mainagencycode="ndd">bausch</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Preliminary Guide to the Richard Bausch Papers,
+			 <date normal="1965/1998" type="inclusive" era="ce" calendar="gregorian">1965-1998 and undated</date>
+            </titleproper>
+            <author>Processed by: Michael Shumate; machine-readable finding aid
+			 created by: Lisa Stark and Michael Shumate</author>
+         </titlestmt>
+         <publicationstmt>
+            <p>
+               <date era="ce" calendar="gregorian"> 2003</date> Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">002607868</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from automated markup
+		  system. <lb/>Date of source: October 1, 1999 <lb/>Processed by Michael Shumate
+		  October 1, 1999; Finding Aid encoded by Lisa Stark and Michael Shumate, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University,
+		  <date era="ce" calendar="gregorian">February 21, 2003</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005" era="ce" calendar="gregorian">07-14-2005</date>
+            <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Richard Bausch Papers)//EN" "bausch.xml" converted
+			 from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            <item>Also, the top level of the finding aid (above the dsc) changed to
+			 conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory
+			 Style Guide and in the NCEAD Best Practice Guidelines. Within the dsc, dates
+			 for series were normalized. These changes were made by Michelle Belden.</item>
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Preliminary Guide to the Richard Bausch Papers,
+		  <date era="ce" calendar="gregorian">1965-1998 and undated</date>
+         </titleproper>
+         <publisher>
+            <lb/>David M. Rubenstein Rare Book &amp; Manuscript Library
+		  <lb/> Duke University <lb/>
+		  Durham, North Carolina 27708-0185 USA </publisher>
+         <p>
+            <date era="ce" calendar="gregorian"> 2003</date> Duke University. All Rights Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">Richard Bausch papers 		  <unitdate normal="1965/1998" type="inclusive" era="ce" calendar="gregorian">1965-1998 and undated</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Bausch, Richard, 1945-</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>13.5 Linear Feet</extent>
+            <extent>1600		  Items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University</corpname>
+         </repository>
+         <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>
+            <p>Collection is restricted.</p>
+            <p>Collection also contains sensitive information. Patrons must sign a
+			 waiver concerning privacy rights.</p>
+            <p>In addition, all or portions of this collection may be housed
+			 off-site in Duke University's Library Service Center. There may
+			 be a 48-hour delay in obtaining these materials.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The copyright interests in this collection have not been transferred
+			 to Duke University. For more information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Richard Bausch Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The Richard Bausch Papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a purchase in 1998.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Michael Shumate</p>
+            <p>Completed October 1, 1999</p>
+            <p>Encoded by Lisa Stark and Michael Shumate</p>
+            <p>This finding aid is NCEAD compliant.</p>
+            <p>This collection is unprocessed: materials have not been ordered and
+			 described beyond their original condition.</p>
+         </processinfo>
+      </descgrp><!-- End of finding aid header -->
+      <bioghist>
+         <head>Biographical Note</head>
+         <chronlist>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1945</date>
+               <event>Born, Fort Benning, Georgia</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1974</date>
+               <event>B.A., George Mason University</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1975</date>
+               <event>M.F.A., University of Iowa</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1980</date>
+               <event>
+                  <title xlink:type="simple" render="italic" xlink:href="">Real Presence</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1980-</date>
+               <event>Professor of English and creative writing, George Mason
+				University</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1981</date>
+               <event>
+                  <title xlink:type="simple" render="italic" xlink:href="">Take Me Back</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1982</date>
+               <event> National Endowment for the Arts grant</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1984</date>
+               <eventgrp>
+                  <event>
+                     <title xlink:type="simple" render="italic" xlink:href="">The Last Good Time</title>
+                  </event>
+                  <event>Guggenheim Fellowship</event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1987</date>
+               <event>
+                  <title xlink:type="simple" render="italic" xlink:href="">Spirits and Other Stories</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1989</date>
+               <event>
+                  <title xlink:type="simple" render="italic" xlink:href="">Mr. Field's Daughter</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1990</date>
+               <event>
+                  <title xlink:type="simple" render="italic" xlink:href="">The Fireman's Wife and Other Stories</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1992</date>
+               <event>
+                  <title xlink:type="simple" render="italic" xlink:href="">Violence</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1993</date>
+               <event>
+                  <title xlink:type="simple" render="italic" xlink:href="">Rebel Powers</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1994</date>
+               <event>
+                  <title xlink:type="simple" render="italic" xlink:href="">Rare and Endangered Species: A Novella and
+				  Stories</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1995</date>
+               <event>
+                  <title xlink:type="simple" render="italic" xlink:href="">Aren't You Happy for Me? and Other
+				  Stories</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1996</date>
+               <eventgrp>
+                  <event>
+                     <title xlink:type="simple" render="italic" xlink:href="">Good Evening Mr. and Mrs. America, and All
+					 the Ships at Sea: A Novel</title>
+                  </event>
+                  <event>
+                     <title xlink:type="simple" render="italic" xlink:href="">The Selected Stories of Richard
+					 Bausch</title>
+                  </event>
+               </eventgrp>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1998</date>
+               <event>
+                  <title xlink:type="simple" render="italic" xlink:href="">In the Night Season</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1999</date>
+               <event>
+                  <title xlink:type="simple" render="italic" xlink:href="">Someone to Watch Over Me: Stories</title>
+               </event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">2002</date>
+               <event>
+                  <title xlink:type="simple" render="italic" xlink:href="">Hello to the Cannibals</title>
+               </event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The <emph render="bold">Richard Bausch Papers, 1965-1998,</emph>
+		  document the career of the American novelist and short story writer through
+		  personal and professional correspondence, manuscripts of published and
+		  unpublished works, and printed materials. The <emph render="bold">Correspondence Series</emph> begins in the 1960s with mainly
+		  personal letters, but by the 1970s begins to document Bausch's emergent writing
+		  career, including mention of his work on early short stories and his acceptance
+		  to the Iowa Writers' Workshop. From that point on several prominent American
+		  writers and literary figures appear, including frequent correspondence at
+		  various times with
+		  <persname>Charles Baxter, </persname>
+            <persname>Frederick Busch, </persname>
+            <persname>Richard Ford, </persname>
+            <persname>George Garrett, </persname>
+            <persname>Gordon Lish, </persname>
+            <persname>William Maxwell,</persname> and
+		  <persname>C.K. Williams;</persname> Bausch's agent,
+		  <persname>Harriet Wasserman;</persname> and his twin brother, novelist
+		  <persname>Robert Bausch.</persname> Prominent though less frequent
+		  correspondents include
+		  <persname>Fred Chappell, </persname>
+            <persname>Alan Gurganus, </persname>
+            <persname>Barry Hannah, </persname> and
+		  <persname>Jean Thompson.</persname> The <emph render="bold">Writings
+		  Series</emph> documents the development of Bausch's novels and story
+		  collections and consists mainly of typescripts and various stages of proofs.
+		  Although most are fair copies or only moderately hand-corrected, the sheer
+		  number of versions documents the process of creation. Of special note in this
+		  regard are the novels
+		<title xlink:type="simple" render="italic" xlink:href="">Rebel Powers</title> and
+		<title xlink:type="simple" render="italic" xlink:href="">Violence.</title> Two smaller series,
+		<emph render="bold">Printed Materials</emph> and <emph render="bold">Writings
+		by Others,</emph> make up the remainder of the collection. Highlights of the
+		latter series include a copy of Bob Balaban's screenplay for the Bausch novel,
+		<title xlink:type="simple" render="italic" xlink:href="">The Last Good Time,</title> and typescripts of
+		several early stories by Gurganus dating from the 1970s. </p>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a
+		  search on these subjects in the Duke University Libraries online catalog will
+		  bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname>Bausch, Richard, 1945-</persname>
+            </item>
+            <item>
+               <persname>Balaban, Bob</persname>
+            </item>
+            <item>
+               <persname>Bausch, Robert, 1945-</persname>
+            </item>
+            <item>
+               <persname>Baxter, Charles, 1947-</persname>
+            </item>
+            <item>
+               <persname>Busch, Frederick, 1941-</persname>
+            </item>
+            <item>
+               <persname>Chappell, Fred, 1936-</persname>
+            </item>
+            <item>
+               <persname>Ford, Richard, 1944-</persname>
+            </item>
+            <item>
+               <persname>Garrett, George P., 1929-</persname>
+            </item>
+            <item>
+               <persname>Lish, Gordon</persname>
+            </item>
+            <item>
+               <persname>Maxwell, William, 1908-</persname>
+            </item>
+            <item>
+               <persname>Wasserman, Harriet</persname>
+            </item>
+            <item>
+               <persname>Williams, C. K., (Charles Kenneth), 1936-</persname>
+            </item>
+            <item>
+               <corpname>Iowa Writers' Workshop</corpname>
+            </item>
+            <item>
+               <subject>Authors, American -- 20th century -- Correspondence</subject>
+            </item>
+            <item>
+               <subject>American literature -- 20th century</subject>
+            </item>
+            <item>
+               <subject>American literature -- Southern States</subject>
+            </item>
+            <item>
+               <subject>Short stories</subject>
+            </item>
+            <item>
+               <subject>Southern literature</subject>
+            </item>
+         </list>
+      </controlaccess>
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle>Correspondence Series,
+				<unitdate normal="1965/1998" type="inclusive" era="ce" calendar="gregorian">1965-1998</unitdate>
+               </unittitle>
+            </did>
+            <scopecontent>
+               <p>Professional and personal correspondence and printouts of e-mail,
+				arranged in chronological incoming and outgoing sequences. </p>
+            </scopecontent>
+            <accessrestrict>
+               <p>
+                  <emph render="bold">This series is restricted.</emph> Richard
+				Bausch's written consent is required prior to access. Contact Research
+				Services.</p>
+            </accessrestrict>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Incoming Correspondence, 1965-1998</unittitle>
+                  <physdesc>
+                     <extent>(13 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Outgoing Correspondence,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1989-1998</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Writings Series,
+				<unitdate normal="1975/1996" type="inclusive" era="ce" calendar="gregorian">1975-1996 </unitdate>
+				and undated </unittitle>
+            </did>
+            <scopecontent>
+               <p>Arranged alphabetically by book title. Folders for single stories
+				are filed after the book titles in a separate alphabetical sequence. Writings
+				in other genres, including poetry, and miscellaneous fragments of fiction
+				manuscripts appear at the end of the series. A number of the typescripts were
+				printed out from diskettes included in the collection; these are marked with a
+				"Disk" number in the upper left hand corner of the first page.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">A Domestic Education,</title>
+				  (unpublished novel),
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">A Former Catholic,</title> (Master's
+				  Thesis, University of Iowa)
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Good Evening Mr. and Mrs. America, and All
+					 the Ships at Sea,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian"/>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1996 and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">In the Night Season,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1997 and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(Folder 1 of 6)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">In the Night Season,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1997 and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(Folders 2-6 of 6)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">The Last Good Time,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1984 and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(7 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">The Last Good Time,</title>(play),
+				  undated</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Mattie,</title> (unpublished novel),
+				  undated</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Mr. Field's Daughter,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1986-1989 and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Plains,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1991-1992.</unitdate> See also
+				  <title xlink:type="simple" render="italic" xlink:href="">Rebel Powers</title>.</unittitle>
+                  <physdesc>
+                     <extent>(Folders 1-12 of 15)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Plains,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1991-1992</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(Folders 13-15 of 15)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Rare &amp; Endangered Species,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1992-1994</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(11 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Real Presence,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1978-1979</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Rebel Powers,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1989-1992 and undated</unitdate> See also
+
+				  <title xlink:type="simple" render="doublequote" xlink:href="">Plains.</title>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(Folder 1 of 12)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Rebel Powers,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1989-1992 and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(Folders 2-12 of 12)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">The Singers,</title> (unpublished,
+				  unfinished novel), undated</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Spirits and Other Stories</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1986 and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(Folders 1-3 of 4)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Spirits and Other Stories,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1986 and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(Folder 4 of 4)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Spirits,</title> (unpublished novel),
+
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1981-1983 and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(5 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">The Summer Before the Wars,</title>
+				  undated</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Take Me Back,</title> undated</unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Violence,</title>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1986-1992</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(8 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">Winter Houses,</title> (unpublished
+				  novel), undated</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Short stories,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1993 and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(62 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Poetry,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1997 and undated, bulk
+					 1969-1979</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Fiction, Fragments, and Notes,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1993, bulk undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(13 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous Writings,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1987, bulk undated</unitdate>
+                  </unittitle>
+               </did>
+               <processinfo>
+                  <p>Seventeen computer diskettes containing a variety of writings,
+				  mainly fiction, were removed and their contents migrated to the Special
+				  Collections server. Prior to removal, their files were printed out and foldered
+				  by title; see the series note for the <emph render="bold">Writings
+				  Series</emph> for further details. A disk directories log also exists for the
+				  digital files; contact Research Services staff.</p>
+               </processinfo>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous Files,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1995 and undated</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Printed Materials Series,
+				<unitdate normal="1971/1993" type="inclusive" era="ce" calendar="gregorian">1971-1993</unitdate>
+				and undated </unittitle>
+            </did>
+            <scopecontent>
+               <p>Printed materials by and about Bausch. Includes some early stories
+				in journals, clippings, reviews, publicity material, and miscellaneous other
+				printed items. Arrangement parallels the general structure of the Writings
+				Series: fiction first, followed by writings in other genres and ending with
+				miscellaneous materials about Bausch and other topics.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Writings,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1991</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Clippings and Reviews by Bausch,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1988-1989, 1992, 1995</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Clippings and Reviews about Bausch,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1984-1993</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous Printed Materials,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1979-1993 and undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle>Writings By Others Series,
+				<unitdate normal="1972/1995" type="inclusive" era="ce" calendar="gregorian">1972-1995 </unitdate>
+				and undated </unittitle>
+            </did>
+            <scopecontent>
+               <p>Typescripts and printed material by various authors, most of it
+				inscribed to Bausch by the authors. Arranged alphabetically by author.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>
+                     <persname>Balaban, Bob</persname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Last Good Time</title>
+					 (screenplay),
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1990</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Bausch, Robert</persname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Dog-Star,</title>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Stag Party,</title>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1976</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Suicide Note,</title>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Berg, Elizabeth</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">The No More Baby Blues,</title>
+					 undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chibka, Robert</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Inventory,</title>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Everhard, Jim</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Through the Eye of a
+						Needle,</title>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Ford, Richard</persname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Jealous,</title> undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">The Womanizer,</title>
+					 undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Garrett, George</persname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="italic" xlink:href="">The King of Babylon Shall Not Come
+						Against You,</title> undated</unittitle>
+                     <physdesc>
+                        <extent>(2 folders)</extent>
+                     </physdesc>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">The Tyranny of Sloth,</title>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1988</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>Gurganus, Allan</persname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">The Expense of Spirit,</title>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1974</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">First Stories</title> (master’s
+					 thesis),
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Minor Complications,</title>
+                        <unitdate type="inclusive" era="ce" calendar="gregorian">1975</unitdate>
+                     </unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>McCann, Richard, poetry, undated</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <persname>O'Brien, Tim</persname>
+                  </unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Loon Point,</title>
+					 undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Stafford, Jean, various short stories, undated</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous Poetry, undated</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Unknown</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Perspiration,</title>
+					 undated</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+      </dsc>
+      <separatedmaterial>
+         <head>Materials Cataloged Separately</head>
+         <p>The following twelve books by Bausch were removed from the collection
+		  (accession 1998-0555) and cataloged separately.</p>
+         <list type="simple">
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">The Fireman's Wife and Other Stories,</title>
+			 New York: Simon and Schuster, c1990.</item>
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">Good Evening Mr. &amp; Mrs. America, and All
+				the Ships at Sea,</title> New York: HarperCollinsPublishers, c1996.</item>
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">In the Night Season,</title> New York:
+			 HarperFlamingo, c1998.</item>
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">The Last Good Time,</title> New York: Vintage
+			 Books, 1994.</item>
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">Mr. Field's Daughter,</title> New York: Linden
+			 Press, 1989.</item>
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">Rare &amp; Endangered Species,</title> Boston
+			 : Houghton Mifflin/Seymour Lawrence, 1994.</item>
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">Real Presence,</title> New York: Dial Press,
+			 c1980.</item>
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">Rebel Powers,</title> Boston: Houghton
+			 Mifflin/Seymour Lawrence, 1993.</item>
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">The Selected Stories of Richard
+				Bausch,</title> New York: Modern Library, 1996.</item>
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">Spirits and Other Stories,</title> New York:
+			 Linden Press/Simon &amp; Schuster, 1987. Signed and inscribed by the
+			 author.</item>
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">Take Me Back,</title> New York: Dial Press,
+			 c1981.</item>
+            <item>
+               <title xlink:type="simple" render="italic" xlink:href="">Violence,</title> Boston: Houghton
+			 Mifflin/Seymour Lawrence, 1992.</item>
+         </list>
+      </separatedmaterial>
+      <descgrp type="relatedmaterial">
+         <head>Related Material</head>
+         <p> The following collection in the Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library may contain related material:</p>
+         <relatedmaterial>
+            <archref xlink:type="simple" xlink:href="">
+               <unittitle>
+                  <persname>Robert Bausch Papers, </persname>
+                  <unitdate era="ce" calendar="gregorian">ca. 1968-1999</unitdate>
+               </unittitle>
+            </archref>
+         </relatedmaterial>
+      </descgrp>
+   </archdesc>
+</ead>

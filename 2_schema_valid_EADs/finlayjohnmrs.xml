@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" findaidstatus="unverified-full-draft" langencoding="iso639-2b" scriptencoding="iso15924" dateencoding="iso8601" countryencoding="iso3166-1" repositoryencoding="iso15511">
+      <eadid publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Ruth Finlay Papers)//EN" countrycode="us" mainagencycode="ndd" url="http://library.duke.edu/rubenstein/findingaids/finlayjohnmrs/">finlayjohnmrs</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Preliminary Guide to the Ruth Finlay Papers, <date era="ce" calendar="gregorian">1960-2011</date> (bulk <date normal="1969/1911" type="inclusive" era="ce" calendar="gregorian">1969-2011)</date>
+            </titleproper>
+            <author>Processed by: Ruth E. Bryan; machine-readable finding aid created by: Ruth E.
+               Bryan</author>
+         </titlestmt>
+         <publicationstmt>
+            <p>
+               <date era="ce" calendar="gregorian"> 2003</date> Duke University. All Rights
+               Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">003205759</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from automated markup system. <lb/>Date of
+            source: May 14, 2003 <lb/>Processed by Ruth E. Bryan May 14, 2003; Finding Aid encoded
+            by Ruth E. Bryan, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+            University, <date era="ce" calendar="gregorian">June 6, 2003</date>
+         </creation>
+         <langusage>Description is in <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date normal="2005" era="ce" calendar="gregorian">09-07-2005</date>
+            <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT
+               (US::NDD::::Ruth Finlay Papers)//EN" "finlayjohnmrs.xml" converted from EAD 1.0 to
+               2002 by v1to02.xsl (sy2003-10-15).</item>
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to
+               current Rubenstein Library and NC EAD standards as laid out in the Inventory Style
+               Guide and in the NCEAD Best Practice Guidelines. Within the dsc, dates for series
+               were normalized. These changes were made by Michelle Belden.</item>
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the
+               Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E.
+               Bryan.</item>
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Preliminary Guide to the Ruth Finlay Papers, <date era="ce" calendar="gregorian">1960-2011</date> (bulk <date era="ce" calendar="gregorian">1969-2011)</date>
+         </titleproper>
+         <publisher>
+            <lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/>
+            <lb/> Duke University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+         <p>
+            <date era="ce" calendar="gregorian"> 2011</date> Duke University. All Rights
+            Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">Ruth Finlay papers <unitdate normal="1960/2011" type="inclusive" era="ce" calendar="gregorian">1960-2011, bulk 1969-2011</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Finlay, Ruth.</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>6.8 Linear Feet</extent>
+            <extent>300 Items</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+               University</corpname>
+         </repository>
+         <physloc label="Location">For current information on the location of these materials,
+            please consult the Library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this
+               collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's
+               Library Service Center. The library may require up to 48 hours to retrieve these
+               materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare
+               Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The copyright interests in this collection have not been transferred to Duke
+               University. For more information, consult the copyright section of the Regulations
+               and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Ruth Finlay Papers, David M. Rubenstein Rare Book &amp;
+               Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The Ruth Finlay Papers were received by the David M. Rubenstein Rare Book &amp;
+               Manuscript Library as gifts in 2003, 2006, and 2011.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Ruth E. Bryan, May 2003, and Jane Metters, December 2011</p>
+            <p>Encoded by Ruth E. Bryan and Jane Metters</p>
+            <p>This finding aid is NCEAD compliant.</p>
+            <p>Materials may not have been ordered and described beyond their original
+               condition.</p>
+         </processinfo>
+      </descgrp><!-- End of finding aid header -->
+      <bioghist>
+         <head>Biographical Note</head>
+         <p>Born Ruth Ann Spencer on May 21, 1926 in Burlington, Colorado. The family lost their
+            land in the dust bowl and relocated to Lewiston, Idaho in 1939. She married her high
+            school sweetheart, John A. Finlay, in 1943. They later moved to South Carolina, where
+            they spent the rest of their lives. Ruth had six sons. In 1985, she lost her larynx to
+            cancer. She died on December 26, 2010.</p>
+      </bioghist><!--End of biohistory--><!--Begin scopecontent-->
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The first accession of the collection comprises diaries (39 volumes) written by Ruth
+            Finlay documenting the details of and her emotional reactions to her daily life,
+            activities, behavior, social life, and family life between 1960 and 1994. Topics include
+            her hospitalization, ongoing treatment for, and life following cancer (1985 and onward);
+            her relationships with her husband, children, and grandchildren; and the death of an
+            adult son (December 1988).</p>
+         <p>The second accession (2006-0030) comprises diaries written by Finlay between January
+            1995 and August 2004.</p>
+         <p>The third accession (2011-0191) comprises 12 diaries written by Finlay between September
+            2004 and July 2010, a wedding log book, two day minders, correspondence, and family
+            photographs.</p>
+         <p>All accessions acquired as part of the Sallie Bingham Center for Women's History and
+            Culture.</p>
+      </scopecontent><!--End scopecontent--><!--Begin controlaccess-->
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these
+            subjects in the Duke University Libraries online catalog will bring up other related
+            research materials.</p>
+         <list type="simple">
+            <item>
+               <persname>Finlay, Ruth</persname>
+            </item>
+            <item>
+               <persname>Finlay, John A., Mrs</persname>
+            </item>
+            <item>
+               <persname>Finlay, John A.</persname>
+            </item>
+            <item>
+               <famname>Finlay family</famname>
+            </item>
+            <item>
+               <subject>Bereavement -- United States. </subject>
+            </item>
+            <item>
+               <subject>Cancer -- Patients -- United States -- Diaries</subject>
+            </item>
+            <item>
+               <subject>Women -- South Carolina -- Diaries</subject>
+            </item>
+            <item>
+               <subject>Women -- South Carolina -- Social life and customs</subject>
+            </item>
+            <item>
+               <subject>Family -- United States -- History -- 20th century</subject>
+            </item>
+            <item>
+               <subject>Family -- South Carolina -- History -- 20th century</subject>
+            </item>
+            <item>
+               <subject>Domestic relations -- Southern States -- History</subject>
+            </item>
+            <item>
+               <subject>Domestic relations -- United States -- History -- 20th century. </subject>
+            </item>
+            <item>
+               <subject>Motherhood -- Southern States -- History -- 20th century</subject>
+            </item>
+            <item>
+               <subject>South Carolina -- History. </subject>
+            </item>
+            <item>
+               <subject>South Carolina -- Social life and customs</subject>
+            </item>
+            <item>
+               <genreform>Diaries</genreform>
+            </item>
+            <item>
+               <corpname>Sallie Bingham Center for Women's History and Culture</corpname>
+            </item>
+         </list>
+      </controlaccess><!--Begin container list--><!-- Sample of possible container list structure, actual markup depends upon the materials being described. --><!-- Use <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent>, <admininfo><processinfo>, and <admininfo><accessrestrict> if needed. -->
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle id="s1">Accession 2003-0070, <unitdate type="inclusive" normal="1960/1994" era="ce" calendar="gregorian">1960-1994</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(3 boxes)</extent>
+               </physdesc>
+            </did><!--Begin c02 Here-->
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Diaries, <unitdate type="inclusive" era="ce" calendar="gregorian">1960,</unitdate>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1971,</unitdate>
+                     <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1974</unitdate>
+                     (1975 laid in with 1973-1974), <unitdate type="inclusive" era="ce" calendar="gregorian">1977-1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Diaries, <unitdate type="inclusive" era="ce" calendar="gregorian">1983-1989 July</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Diaries, <unitdate type="inclusive" era="ce" calendar="gregorian">1989
+                        Aug.-1994</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s2">Accession 2006-0030, <unitdate type="inclusive" normal="1995/2004" era="ce" calendar="gregorian">1995-2004</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(5 boxes)</extent>
+               </physdesc>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1-5</container>
+                  <unittitle>Diaries, <unitdate type="inclusive" era="ce" calendar="gregorian">1995
+                        January-2004 August</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s3">Accessions 2011-0191 and 2011-1029, <unitdate type="inclusive" normal="1993/2011" era="ce" calendar="gregorian">1993-2011</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(5 boxes)</extent>
+               </physdesc>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle>Diaries, <unitdate type="inclusive" era="ce" calendar="gregorian">2004
+                        September-2006 March</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3 volumes)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Wedding Log Book, 1993</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle>Diaries, <unitdate type="inclusive" era="ce" calendar="gregorian">2006
+                        March-2007 August</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(3 volumes)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle>Diaries, <unitdate type="inclusive" era="ce" calendar="gregorian">2007
+                        August-2009 July</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(4 volumes)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle>Diaries, <unitdate type="inclusive" era="ce" calendar="gregorian">2009
+                        August-2010 July</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 volumes)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Day minders, <unitdate type="inclusive" era="ce" calendar="gregorian">2009 May-2009 November</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(2 volumes)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">13</container>
+                  <unittitle>Emails and correspondence with Duke University regarding the Ruth
+                     Finlay Diaries, <unitdate type="inclusive" era="ce" calendar="gregorian">2002-2011</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Correspondence and photographs, <unitdate type="inclusive" era="ce" calendar="gregorian">1984-1985</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Correspondence and photographs, <unitdate type="inclusive" era="ce" calendar="gregorian">1990-2009</unitdate>
+                  </unittitle>
+                  <physdesc>
+                     <extent>(6 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

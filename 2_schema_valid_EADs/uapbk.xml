@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//University Archives//TEXT (US::ndd::Phi Beta Kappa. Beta of North Carolina Chapter (Duke University) Records, 1913-1996)//EN" url="http://library.duke.edu/rubenstein/findingaids/uapbk/">uapbk</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Phi Beta Kappa. Beta of North Carolina Chapter (Duke University) Records,
+		<date normal="1913/1996" era="ce" calendar="gregorian">1913-1996</date>
+            </titleproper>
+            <author>Processed by: Kimberly Sims; machine-readable finding aid created by: Kimberly Sims</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>
+               <lb/>University Archives <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+            <p>
+               <date normal="2006" encodinganalog="date" era="ce" calendar="gregorian"> 2006</date> Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">003765776</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+            <date era="ce" calendar="gregorian">Date of source: September 2006</date>
+            <lb/>Processed by Kimberly Sims, July 2006; Finding Aid encoded by Kimberly Sims, University Archives, Duke University, <date era="ce" calendar="gregorian">September 2006</date>
+         </creation>
+         <langusage>Description is in
+		<language langcode="eng">English</language>
+         </langusage>
+         <descrules>Finding aid was prepared using
+		  <title xlink:type="simple" xlink:href="">DACS</title> and our local
+		  <title xlink:type="simple" xlink:href="">Style Guide</title>
+         </descrules>
+      </profiledesc><!-- Location of <revisiondesc> if needed -->
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Phi Beta Kappa. Beta of North Carolina Chapter (Duke University) Records, <date type="span" era="ce" calendar="gregorian">1913-1996</date>
+         </titleproper>
+         <publisher>University Archives <lb/>Duke
+		  University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+         <p>
+            <date normal="2006" era="ce" calendar="gregorian"> 2006</date> Duke University. All Rights Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC">
+      <did>
+         <head>Descriptive Summary</head>
+         <repository label="Repository">
+            <corpname>University Archives, Duke
+			 University</corpname>
+         </repository>
+         <origination label="Creator">
+            <corpname encodinganalog="110">Phi Beta Kappa. Beta Chapter of North Carolina (Duke University)</corpname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Phi Beta Kappa. Beta of North Carolina Chapter (Duke University) records <unitdate normal="1913/1996" type="inclusive" era="ce" calendar="gregorian">1913-1996</unitdate>
+         </unittitle>
+         <langmaterial label="Language of Material" encodinganalog="546">Material in<language langcode="eng"> English</language>
+         </langmaterial>
+         <physdesc label="Extent">
+            <extent unit="linear feet" encodinganalog="300">5 Linear Feet</extent>
+            <lb/>
+            <extent unit="items">5,000 Items</extent>
+         </physdesc>
+         <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+         <abstract label="Abstract" encodinganalog="545">Beta of North Carolina, the Phi Beta Kappa chapter at Duke University, was founded at Trinity College in March, 1920, after ten years of effort by the President and Dean of the College to secure a charter.  </abstract>
+         <abstract encodinganalog="520">The collection includes minute books, correspondence, the original charter, manuals, handbooks, reports, and other related materials.  Dates range from 1913-1996.</abstract>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict encodinganalog="506">
+            <head>Access Restrictions</head>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>In accordance with the Family Education Rights and Privacy Act of 1974 as amended, Duke University permits students to inspect their education records and limits the disclosure of personally identifiable information from education records.</p>
+            <p>Portions of these materials are restricted by donor request.</p>
+            <p>In off-site storage; 48 hours advance notice is required for use.</p>
+         </accessrestrict>
+         <userestrict encodinganalog="540">
+            <head>Copyright Notice</head>
+            <p>Copyright for Official University records is held by Duke University; all other copyright is retained by the authors of items in these papers, or their descendants, as stipulated by United States copyright law.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Phi Beta Kappa. Beta of North Carolina Chapter (Duke University) Records, Duke University Archives, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo encodinganalog="541">
+            <head>Provenance</head>
+            <p>The Phi Beta Kappa. Beta of North Carolina Chapter (Duke University) Records were received by the University Archives as a series of transfers by various sources.
+</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Kimberly Sims, July 2006</p>
+            <p>Encoded by Kimberly Sims, September 2006</p>
+            <p>Accessions  were merged into one collection, described in this finding aid.
+</p>
+            <p>Descriptive sources and standards used to create this inventory: <title xlink:type="simple" render="italic" xlink:href="">DACS,</title> EAD, NCEAD guidelines, and our local <title xlink:type="simple" render="italic" xlink:href="">Style Guide.</title>
+            </p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp><!--end of finding aid header-->
+      <bioghist>
+         <head>Historical Note</head>
+         <bioghist>
+            <p>Phi Beta Kappa, the nation's oldest and largest academic honor society, was founded on Dec. 5, 1776, by five students at the College of William and Mary in Williamsburg, VA. It was the first society to have a Greek letter name, and in its early years, it introduced the essential characteristics of such societies: an oath of secrecy (discarded in 1831), a badge, mottoes in Latin and Greek, a code of laws, and an elaborate initiation ritual. The members held regular meetings, generally with an emphasis on literary exercises, especially composition and debating. Fraternal sentiments were fostered, and the purpose of some meetings was simply good fellowship.</p>
+            <p>
+The original Phi Beta Kappa Society was active for only four years because the approach of the British Army under General Cornwallis forced the college to close. But the faith of those youthful scholars in the future of their Society is shown by their preparation of charters for branches at two other institutions. A charter was voted to Harvard, on Dec. 4, 1779, and to Yale four days later. The charters were delivered-in reverse order-- to groups of students in New Haven, Conn., and in Cambridge, Mass., creating Alpha of Connecticut at Yale in November 1780, and Alpha of Massachusetts at Harvard in September 1781. This began the tradition of designating each state's chapter with a letter from the Greek alphabet to indicate where it fits chronologically in that state's chapters.</p>
+            <p>
+The two New England branches preserved the essential qualities of the Virginia experience, adopting changes in procedure to suit local conditions. Shortly before the end of the academic year, the members selected from the junior class a small group of outstanding students who, the following year, constituted the "immediate society." Later this role would be assumed by faculty members who had been invited to join Phi Beta Kappa as undergraduates, and most of a chapter's new members would be initiated as seniors. </p>
+            <p>
+In 1988, the delegates at the 35th Triennial Council voted to change the organization's name to "The Phi Beta Kappa Society." This inclusive designation, also the historic name of the Society, now appears on all of its legal documents and publications.</p>
+            <p>
+Beta of North Carolina, the Phi Beta Kappa chapter at Duke University, was founded at Trinity College in March, 1920, after ten years of effort by the President and Dean of the College to secure a charter.
+</p>
+         </bioghist><!-- Enter Chronlist Tags Here -->
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <scopecontent>
+            <p>Contains materials which include the paperwork associated with Trinity College's 10 year quest for a Phi Beta Kappa charter as well as minute books, clippings, and membership lists.  Additionally, the collection contains the original charter, records concerning the chapter's 75th anniversary, nominations, elections, handbooks, manuals, annual reports and related matters.  There are restricted folders within this collection that are marked both on this finding aid and on the folder.  Dates range from 1913-1996.</p>
+            <p>
+Accessions processed in this finding aid: A2002-9, A2000-25, A95-36, A92-88, A56-726, A56-744, A71-81, A71-402, A72-18, A72-48, A73-110, A74-89, A77-123, A80-65, A80-203, A84-45, and A84-60.
+</p>
+         </scopecontent>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Phi Beta Kappa</corpname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Phi Beta Kappa History</corpname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Phi Beta Kappa. Beta of North Carolina -- Anniversaries, etc.--1995</corpname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Trinity College (Durham, N.C.)--History</corpname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Trinity College (Durham, N.C.)--Students</corpname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Duke University -- History -- 20th century</corpname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">Duke University -- Students -- Societies, etc</corpname>
+            </item>
+         </list>
+      </controlaccess><!-- OPTIONAL: Separated material -->
+      <relatedmaterial>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle label="Collection">William H. Glasson Papers, 1891-1946, undated</unittitle>
+            <repository label="Repository">Duke University Archives</repository>
+         </archref>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle label="Collection">Robert S. Rankin Papers, 1898-1977 (bulk 1927-1976)</unittitle>
+            <repository label="Repository">Duke University Archives</repository>
+         </archref>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle label="Collection">James Cannon Papers, 1912-1974</unittitle>
+            <repository label="Repository">Duke University Archives</repository>
+         </archref>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle label="Collection">Richard L. Watson Papers, 1941-1989</unittitle>
+            <repository label="Repository">Duke University Archives</repository>
+         </archref>
+         <archref xlink:type="simple" xlink:href="">
+            <unittitle label="Collection">Otto Meier Records and Papers, 1931-1979</unittitle>
+            <repository label="Repository">Duke University Archives</repository>
+         </archref>
+      </relatedmaterial>
+      <dsc type="combined">
+         <head>Contents of Collection</head><!-- Enter Container List Here -->
+         <c01 level="series">
+            <did>
+               <unittitle id="s1">Container List</unittitle>
+            </did>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>United Chapters of Phi Beta Kappa, Delegates Manual, 27th Triennial Council, <unitdate type="inclusive" era="ce" calendar="gregorian">1964 August 30-September 2</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>United Chapters of Phi Beta Kappa, Delegates Manual, 29th Triennial Council, <unitdate type="inclusive" era="ce" calendar="gregorian">1970 September 9-11</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Letters of Acceptance, A-G, <unitdate type="inclusive" era="ce" calendar="gregorian">1920-circa 1934</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Letters of Acceptance with one letter of rejection, H-P, <unitdate type="inclusive" era="ce" calendar="gregorian">1920-circa 1934</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Letters of Acceptance, R-Y, <unitdate type="inclusive" era="ce" calendar="gregorian">1920-circa 1934</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa: Constitution, By-laws, Committees, and Meetings, <unitdate type="inclusive" era="ce" calendar="gregorian">1919-1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Application and paperwork for chapter establishment at Trinity College and Treasurer's Reports, <unitdate type="inclusive" era="ce" calendar="gregorian">1913-1949</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Installation of Phi Beta Kappa Chapter at Trinity College, audits, membership lists, clippings, data reports, <title xlink:type="simple" render="doublequote" xlink:href="">The Edens Key</title>, and correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1920-1950</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Constitution and By-laws, <unitdate type="inclusive" era="ce" calendar="gregorian">1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">The Founding of the Phi Beta Kappa Chapter at Duke University</title>, Carl Anderson, <unitdate type="inclusive" era="ce" calendar="gregorian">1987</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Minute Book, <unitdate type="inclusive" era="ce" calendar="gregorian">1940-1968</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Minute Book, <unitdate type="inclusive" era="ce" calendar="gregorian">1919-1940</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Receipts and Expenditures Notebook, <unitdate type="inclusive" era="ce" calendar="gregorian">1919-1926</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1966-1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Working file of Undergraduate Elections Committee, A-K, from about <unitdate type="inclusive" era="ce" calendar="gregorian">1948-1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Working file of Undergraduate Elections Committee, L-Z, from about <unitdate type="inclusive" era="ce" calendar="gregorian">1948-1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Printed Material: <title xlink:type="simple" render="doublequote" xlink:href="">Scholarship, Education, and the Bible</title>, <title xlink:type="simple" render="doublequote" xlink:href="">Words and Music</title>, <title xlink:type="simple" render="doublequote" xlink:href="">The Middle Course</title>, <title xlink:type="simple" render="doublequote" xlink:href="">The Principal Instrument of Freedom</title>, <title xlink:type="simple" render="doublequote" xlink:href="">Phi Beta Kappa Gamma of Virginia</title>, <title xlink:type="simple" render="doublequote" xlink:href="">An Art and a Science</title>, <title xlink:type="simple" render="doublequote" xlink:href="">Science, Life and Landscape</title>, <title xlink:type="simple" render="doublequote" xlink:href="">The Carleton Chapter of Phi Beta Kappa</title>, <title xlink:type="simple" render="doublequote" xlink:href="">The Academic Environment</title>, <title xlink:type="simple" render="doublequote" xlink:href="">The American Scholar's Complex Fate</title>, <title xlink:type="simple" render="doublequote" xlink:href="">The Intellectual: Creator and Critic</title>, <title xlink:type="simple" render="doublequote" xlink:href="">Wake County Association of Phi Beta Kappa</title>, <title xlink:type="simple" render="doublequote" xlink:href="">All Coherence Gone</title>, <unitdate type="inclusive" era="ce" calendar="gregorian">1959-1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Elections, Alumni, <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1975</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Elections, Reports of Undergraduate Committee, <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Visiting Scholars, <unitdate type="inclusive" era="ce" calendar="gregorian">1958-1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, President Williams' file, <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Elections, Affirmations, <unitdate type="inclusive" era="ce" calendar="gregorian">1971 September-1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, records, <unitdate type="inclusive" era="ce" calendar="gregorian">1961-1982</unitdate>, RESTRICTED
+</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Fall Initiates, <unitdate type="inclusive" era="ce" calendar="gregorian">2000</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Phi Beta Kappa: Keys, Mementoes, <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1967</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa: South Atlantic District, <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa: W. F. Stinespring, Address before PBK Chapters in NC, <unitdate type="inclusive" era="ce" calendar="gregorian">1961-1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa: Secretary Stinespring, Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1948-1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa: Annual Reports, <unitdate type="inclusive" era="ce" calendar="gregorian">1951-1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa: Annual Reports, <unitdate type="inclusive" era="ce" calendar="gregorian">1959-1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa: Elections, Honorary, <unitdate type="inclusive" era="ce" calendar="gregorian">1950-1969</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Elections, Affirmations, Secretary Stinespring,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1971 June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa Membership Lists, Undergraduate elections, <unitdate type="inclusive" era="ce" calendar="gregorian">1958-1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa: Elections, graduate, <unitdate type="inclusive" era="ce" calendar="gregorian">1958-1969</unitdate>, RESTRICTED
+</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa Membership List, <emph render="doublequote">permanent</emph>, <unitdate type="inclusive" era="ce" calendar="gregorian">1958-1959</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa Elections Committee, <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1966</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa Elections Committee, <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1967</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa Elections Committee, Minutes of Committee Reports to Chapter, <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1968</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1969-1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa: Committees, <unitdate type="inclusive" era="ce" calendar="gregorian">1942-1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle>Duke University Phi Beta Kappa,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1953-1954</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1966</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1964-1965</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Newspaper Publicity, <unitdate type="inclusive" era="ce" calendar="gregorian">1959-1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1968</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1969</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Membership Lists, <unitdate type="inclusive" era="ce" calendar="gregorian">1961-1962</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Undergraduate Elections, <unitdate type="inclusive" era="ce" calendar="gregorian">1958 October 22</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Undergraduate Elections, <unitdate type="inclusive" era="ce" calendar="gregorian">1959 June 6</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter Membership Lists, <unitdate type="inclusive" era="ce" calendar="gregorian">1966-1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Annual Dinner Meetings, <unitdate type="inclusive" era="ce" calendar="gregorian">1959-1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>United Chapters of Phi Beta Kappa, Delegates Manual, 28th Triennial Council, <unitdate type="inclusive" era="ce" calendar="gregorian">1967 August 27-29</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Treasurer's Report, <unitdate type="inclusive" era="ce" calendar="gregorian">1958 October 1-1959 September 30</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous Chapter Correspondence and Notes, to <unitdate type="inclusive" era="ce" calendar="gregorian">1971 June</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="doublequote" xlink:href="">A Ritual of Phi Beta Kappa</title>, Sesquicentennial Edition, <unitdate type="inclusive" era="ce" calendar="gregorian">1928</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa Banquet, <unitdate type="inclusive" era="ce" calendar="gregorian">1967 August 28</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>Phi Beta Kappa Distribution Requirements, <unitdate type="inclusive" era="ce" calendar="gregorian">1989-1996</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The Initiation Ceremony, PBK Beta of North Carolina, <unitdate type="inclusive" era="ce" calendar="gregorian">1988</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The Founding of the Phi Beta Kappa Chapter at Duke University, Carl Anderson, <unitdate type="inclusive" era="ce" calendar="gregorian">1987</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lecturers, Speakers for Annual Meeting,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1970-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Forms, Notice of February Meeting, <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Forms, Initiation by mail, <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Forms, Notice of December meeting, <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Forms, Notice of April meeting, <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Forms, Phi Beta Kappa Key Order, <unitdate type="inclusive" era="ce" calendar="gregorian">1974-1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Forms, Phi Beta Kappa Membership Cards, <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lectures, Visiting Lecturers, <unitdate type="inclusive" era="ce" calendar="gregorian">1977-1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Lectures, Visiting Scholars, <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Members, Affiliated, <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Imposters, <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1966</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Members,<emph render="doublequote"> Lost</emph>, <unitdate type="inclusive" era="ce" calendar="gregorian">1972</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Members, Courtesy initiations, <unitdate type="inclusive" era="ce" calendar="gregorian">1974-1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Members, Sign-in sheets, attendance records,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Members, Computerized lists of Duke initiates, <unitdate type="inclusive" era="ce" calendar="gregorian">1979-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>New Members, by major, <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Elections, Individual inquiries, <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1980</unitdate>, RESTRICTED
+</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Elections, Declinations, <unitdate type="inclusive" era="ce" calendar="gregorian">1942-1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Elections, Affirmations, <unitdate type="inclusive" era="ce" calendar="gregorian">1979-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Elections, Reports of committee on members in course, <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Elections, Undergraduate chart, <unitdate type="inclusive" era="ce" calendar="gregorian">1967</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, By-laws, <unitdate type="inclusive" era="ce" calendar="gregorian">1954 July 1</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, Superseded by-laws, <unitdate type="inclusive" era="ce" calendar="gregorian">1939-1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, Annual mailing lists, <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1972</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, Mailing list,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1976-1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, Mailing List, <unitdate type="inclusive" era="ce" calendar="gregorian">1977-1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, Mailing List, <unitdate type="inclusive" era="ce" calendar="gregorian">1978-1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, Nominating committee, <unitdate type="inclusive" era="ce" calendar="gregorian">1972-1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, Public relations, <unitdate type="inclusive" era="ce" calendar="gregorian">1962-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter Operations, Secretary's functions, <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, Standards, <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, Ad hoc, Eligibility Standards, <unitdate type="inclusive" era="ce" calendar="gregorian">1977-1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa Nomination Committee, <unitdate type="inclusive" era="ce" calendar="gregorian">1982</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, Mailing list, <unitdate type="inclusive" era="ce" calendar="gregorian">1979-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, Grad election, <unitdate type="inclusive" era="ce" calendar="gregorian">1979-1980</unitdate>, RESTRICTED
+</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, Recommendations, <unitdate type="inclusive" era="ce" calendar="gregorian">1978</unitdate>, RESTRICTED
+</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, Recommendations, <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1977</unitdate>, RESTRICTED
+</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1978-1979</unitdate>, RESTRICTED
+</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1976-1982</unitdate>, RESTRICTED
+</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1980-1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1980-1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1979-1980</unitdate>, RESTRICTED
+</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>PBK, <unitdate type="inclusive" era="ce" calendar="gregorian">1974-1977</unitdate>, RESTRICTED
+</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1977</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, Key orders, <unitdate type="inclusive" era="ce" calendar="gregorian">1979-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, Executive Committee, <unitdate type="inclusive" era="ce" calendar="gregorian">1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, Awards and Prizes, <unitdate type="inclusive" era="ce" calendar="gregorian">1979</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Chapter, Ad hoc, social occasions, <unitdate type="inclusive" era="ce" calendar="gregorian">1977-1978</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>United Chapters, Triennial council, <unitdate type="inclusive" era="ce" calendar="gregorian">1976</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>United Chapters, Triennial council,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>United Chapters, Triennial council, <unitdate type="inclusive" era="ce" calendar="gregorian">1970</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>United Chapters, Triennial council, <unitdate type="inclusive" era="ce" calendar="gregorian">1967</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1980-1981</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Current, Pending business,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1978-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Current, Senators, <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1973</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Secretary, Miscellaneous correspondence, <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1980</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <unittitle>Phi Beta Kappa: Alumni Elections, <unitdate type="inclusive" era="ce" calendar="gregorian">1992-1993</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1989-1994</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1994</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1995-1997</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa: Alumni Nominations, <unitdate type="inclusive" era="ce" calendar="gregorian">1996</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa, <unitdate type="inclusive" era="ce" calendar="gregorian">1995</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa: Alumni Elections, <unitdate type="inclusive" era="ce" calendar="gregorian">1993-1994</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa: Lists, <unitdate type="inclusive" era="ce" calendar="gregorian">1992-1995</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Phi Beta Kappa: 75th Anniversary,<unitdate type="inclusive" era="ce" calendar="gregorian"> 1995</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="opaper">Drawer 6</container>
+                  <unittitle>Phi Beta Kappa. Beta of North Carolina Charter, <unitdate type="inclusive" era="ce" calendar="gregorian">1919</unitdate>, on-site, Drawer 6
+</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

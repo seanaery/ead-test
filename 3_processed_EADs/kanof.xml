@@ -1,0 +1,2561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   
+   <eadheader findaidstatus="published" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b">
+      <eadid countrycode="US" mainagencycode="US-NcD" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Abram Kanof Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/kanof/">kanof</eadid>
+      <filedesc>
+         
+         <titlestmt>
+            
+            <titleproper>Guide to the Abram Kanof Papers, 1858-1991</titleproper>
+            
+            <author>Processed by Daniel Daily; Assisted by Brent Johanson; machine-readable finding aid created by Alvin Pollock</author>
+         
+         </titlestmt>
+         
+         <publicationstmt>
+            <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library</publisher>
+            <address>
+               <addressline>Duke University</addressline>
+               <addressline>Durham, NC 27708 U.S.A.</addressline>
+               <addressline>919-660-5822</addressline>
+               <addressline>special-collections@duke.edu</addressline>
+            </address>
+            <date/>
+         </publicationstmt>
+         
+      
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from MS Word. Date of source: May 12, 1993.<date>May 12, 1993.</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date>2014</date>
+            <item>Converted from dtd to schema and transformed with AT-import-fixer.xsl</item>
+         </change>
+         <change>
+            
+            <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+            
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Abram Kanof Papers)//EN" "kanof.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         
+         </change>
+         <change>
+            
+            <date calendar="gregorian" era="ce">June 29, 1998</date>
+            
+            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+         
+         </change>
+      </revisiondesc>
+   </eadheader>
+   
+   
+   <archdesc level="collection">
+      
+      <did>
+         <unittitle label="Title">Abram Kanof papers <unitdate calendar="gregorian" era="ce" normal="1858/1991" type="inclusive">1858-1991</unitdate>
+         
+         </unittitle>
+         <origination label="Creator">
+            
+            <persname>Kanof, Abram</persname>
+         
+         </origination>
+         <physdesc label="Extent">
+            
+            <extent>14.0 linear feet</extent>
+            
+            <extent>Extent: circa 8,500</extent>
+         
+         </physdesc>
+         <repository label="Repository">
+            
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+            
+            <address>
+               
+               <addressline>Durham, North Carolina 27708-0185</addressline>
+            
+            </address>
+         
+         </repository>
+         <physloc label="Location">For current information on the location of these
+materials, please consult the library's online catalog.</physloc>
+         <langmaterial label="Language of Materials">English.</langmaterial>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <unitid>kanof</unitid>
+         <note label="Language of Materials">
+            <p>Language: English.</p>
+         </note>
+      </did>
+      
+      <descgrp type="admininfo">
+         
+         <head>Administrative Information</head>
+         
+         <accessrestrict>
+            
+            <head>Access</head>
+            
+            <p>Part of the Writings Series in this collection is restricted.</p>
+            
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         
+         </accessrestrict>
+         
+         <userestrict>
+            
+            <head>Use Restrictions</head>
+            
+            <p>The copyright interests in the Abram Kanof Papers have not been transferred to Duke University. For further information, see the section on copyright in the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         
+         </userestrict>
+         
+         <prefercite>
+            
+            <head>Preferred Citation</head>
+            
+            <p>[Identification of item], Abram Kanof Papers,
+David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         
+         </prefercite>
+         
+         <acqinfo>
+            
+            <head>Provenance</head>
+            
+            <p>The Abram Kanof Papers (1858-1991) were donated to the David M. Rubenstein Rare Book &amp; Manuscript Library from 1979 to 1992 by Dr. Abram Kanof.</p>
+         
+         </acqinfo>
+         
+         <processinfo>
+            
+            <p>Processed by Daniel Daily</p>
+            
+            <p>Assisted by Brent Johanson</p>
+            
+            <p>Date Completed: May 12, 1993</p>
+            
+            <p>Encoded by Alvin Pollock</p>
+            
+         
+         </processinfo>
+      
+      </descgrp>
+      
+      <bioghist>
+         
+         <head>Biographical Note</head>
+         
+         <chronlist>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1903, Dec. 25</date>
+               
+               <event>Born, Russia</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1924</date>
+               
+               <event>Graduated from Columbia University</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1928</date>
+               
+               <event>Received M.D. from the State University of New York Medical School</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1931</date>
+               
+               <event>Married Frances Pascher</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1948-1962</date>
+               
+               <event>Chairman, Jewish Museum, New York, N.Y.</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1956</date>
+               
+               <event>Founded the Tobe Pascher Workshop, Jewish Museum, New York, N.Y.</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1961-1964</date>
+               
+               <event>President, American Jewish Historical Society</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1965-1972</date>
+               
+               <event>Professor of Pediatrics, State University of New York Downstate Medical Center</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1970</date>
+               
+               <event>Published Jewish Ceremonial Art and Religious Observance</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1971</date>
+               
+               <event>Received the Maimonides Award for Service to Medicine and Judaism.</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">1972-</date>
+               
+               <event>Emeritus Professor of Pediatrics, State University of New York Downstate Medical Center</event>
+            
+            </chronitem>
+            
+            <chronitem>
+               
+               <date calendar="gregorian" era="ce">ca.1975-1980</date>
+               
+               <event>Guest Curator of Judaica, North Carolina Museum of Art, Raleigh, N.C.</event>
+            
+            </chronitem>
+         
+         </chronlist>
+      
+      </bioghist>
+      
+      <scopecontent>
+         
+         <head>Collection Overview</head>
+         
+         <p>The Abram Kanof Papers, 1858-1991, contain printed material, correspondence, writings, and photographs primarily reflecting Dr. Kanof's research and writing in the field of Jewish ceremonial art; his role in the development of the Tobe Pascher Workshop of the Jewish Museum, New York, N.Y.; his curatorship at the North Carolina Museum of Art, Raleigh, N.C.; and to a lesser extent, his patronage of the arts. The Abram Kanof Papers are relevant to the study of religious art in the Judaic tradition, and they also document Dr. Kanof's contributions, as a researcher, patron, and administrator, to the study of the relationship between art and Jewish liturgy and worship.</p>
+         
+         <p>A substantial part of the collection consists of printed material, including exhibition programs, handbills, articles, journals, and clippings, which is contained in the Subject Files Series. Information pertaining to topics within this series includes art and religion; symbolism; synagogue architecture and decoration; the American Jewish Historical Society; Jewish ceremonial art; liturgical or ritual objects; and artists, including Ludwig Wolpert and Moshe Zabari, both resident artists of the Tobe Pascher Workshop. Primary materials relevant to the history, administration, and programs of the Jewish Museum as well as the development of the Tobe Pascher Workshop are contained in the Subject Files Series. The Correspondence Series primarily reflects Dr. Kanof's role in the formation of the workshop, which was developed to provide for the creation of art and liturgical objects to be used in synagogues as well as serve as an instructional center for training artists. </p>
+         
+         <p>Pictures of items from exhibitions held at the Jewish Museum and the North Carolina Museum of Art as well as images used in Kanof's Jewish Ceremonial Art and Religious Observance are contained in the Pictures Series. Typescripts, page proofs and galley proofs for Dr. Kanof's works, and offprints and drafts of some of his other writings are contained in the Writings Series.</p>
+         
+         <p>Selected publications from the Abram Kanof Papers have been cataloged for the rare book collection of the Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+      
+      </scopecontent>
+      
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <persname>Wolpert, Ludwig Y. (Ludwig Yehuda), 1900-1981</persname>
+         <persname>Zabari, Moshe, 1935-</persname>
+         <corpname>Jewish Museum (New York, N. Y.)--Tobe Pascher Workshop</corpname>
+         <corpname>Jewish Museum (New York, N.Y.)</corpname>
+         <corpname>North Carolina Museum of Art</corpname>
+         <subject>Art, Jewish</subject>
+         <subject>Art, Jewish -- Catalogs</subject>
+         <subject>Art, Jewish -- Exhibitions</subject>
+         <subject>Art and religion</subject>
+         <subject>Art museums -- United States</subject>
+         <subject>Art patronage -- United States</subject>
+         <subject>Symbolism</subject>
+         <subject>Synagogue architecture</subject>
+         <subject>Synagogue art</subject>
+         <subject>Judaism and art</subject>
+         <subject>Judaism -- Liturgical objects</subject>
+         <subject>Judaism -- Liturgical objects -- Exhibitions</subject>
+         <subject>Ceremonial objects</subject>
+         <subject>Jewish art and symbolism</subject>
+         <genreform>Handbills</genreform>
+         <persname>Kanof, Abram, 1903-. Jewish symbolic art</persname>
+         <persname>Kanof, Abram, 1903-. Jewish ceremonial art and religious observance</persname>
+      </controlaccess>
+      
+      <dsc type="combined">
+         
+         <head>Contents of Collection</head>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Subject Files,
+1858-1991, undated
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Primarily contains printed material, including clippings, programs, newsletters, handbills, exhibit programs, journals, and journal articles. Also included are typed copies of articles, memoranda, and minutes. The files reflect Dr. Kanof's research interests in Jewish ceremonial art as well as other subject areas in the field of art; a substantial number of the files pertain to the administration and programs of the Jewish Museum and Judaic art exhibits at the North Carolina Museum of Art. Arranged alphabetically by subject and chronologically by year within the folders.</p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">1</container>
+                  
+                  <unittitle>The Abram and Frances Kanof Collection of Ceremonial Objects,
+1961-1965, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>The Akedah in art,
+1922-1969, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     American Jewish Historical Society, 
+                     1965-1981
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Archaeology,
+1903-1977, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Art and Religion,
+1914-1986, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(3 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Art, Contemporary Jewish,
+1936-1971, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Art galleries,
+1954-1974, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Art, God, Man,
+1928-1984, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Art history, Jewish,
+1926-1981, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Artists:</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>A-C,
+1946-1991
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(2 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Chagall, Marc, 
+                        1930-1972, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>D-E,
+1968-1980
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>F-L,
+1928-1991, undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(4 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <container type="box">2</container>
+                     
+                     <unittitle>M-R,
+1954-1987, undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(3 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Richard, Chava Wolpert, 
+                        1970-1990, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>S-Z,
+1923-1986, undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(3 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>General,
+1925-1983, undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(4 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Arts and crafts,
+1923-1978, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(3 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Awards,
+1954, 1971
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Background research,
+undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Background research and bibliographies,
+undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Berenson, Bernard, 
+                     1949, 1966
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>The Bezalel,
+1962-1975
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Biblical themes,
+1931-1985, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Books and book collections, Jewish,
+1940-1988, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(3 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Books and manuscripts,
+1928-1991, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Calendars,
+1940-1959
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">3</container>
+                  
+                  <unittitle>Calendars,
+1959-1989
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(5 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Ceremonial art, Jewish,
+1958-1990, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Ceremonial objects: </unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        1961-1987, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Literature on,
+1886-1971, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Ceremony, psychological basis of,
+1958, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Coins and tokens,
+1858-1969, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Dura Europos,
+1937-1965
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Eastern European Jewish communities,
+1969, 1988, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     The Educational Alliance, 
+                     1919-1965
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Exhibits:</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        1935-1990, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Multiple artists,
+1956-1988
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Folk art,
+1905-1990, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Hanukkah,
+1950-1988
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>The Hebrew alphabet,
+1960-1989, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Hellenism,
+1890-1974, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Holocaust,
+1965-1990, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">4</container>
+                  
+                  <unittitle>Islamic art,
+1967-1975, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Israeli art,
+1962-1986, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Israeli artists: A-W,
+1962-1985, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Jewish art, literature on,
+1925-1989, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(5 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Jewish Ceremonial Art and Religious Observance, reviews, etc.,
+1970-1979, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     The Jewish Museum:
+                  </unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Administration and Policy,
+1950-1988, undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(3 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Blueprints,
+1962, 1976, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Exhibits,
+1949-1988, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>History,
+1945-1987, undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(3 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Programming,
+1948-1991, undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(3 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">5</container>
+                  
+                  <unittitle>
+                     Jewish Museum, 
+                     1939-1984, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(8 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Judaism and art,
+1936-1982, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(3 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Ketubah,
+1969, 1975, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Lectures,
+1970-1984, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Manuscripts, ancient and illuminated,
+1928, 1978, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>The Menorah,
+1903-1979, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Museums/Exhibits,
+1948-1991, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(4 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     National Museum of American Jewish History, 
+                     1965-1985
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     North Carolina Museum of Art, 
+                     1974-1991, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Painters,
+1925-1987, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">6</container>
+                  
+                  <unittitle>Passover,
+1940-1978, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(3 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Pucker/Safrai Gallery, 
+                     1971-1990, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Rituals and ceremonies,
+1947-1969
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Sculptors: E-Z
+1928-1969, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Shield of David,
+1949, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Symbolism,
+1946-1987, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(3 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Synagogues:</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>American,
+1956-1977, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Ancient/Antique,
+1915-1991, undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(3 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Architecture:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Modern,
+1925-1977, undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(2 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Wooden, 1925-1981, undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(2 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Synagogues: Dedications and services,
+1950-1977, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Temple vessels,
+1981
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Tombs, burial objects, and burial rites,
+1964-1978, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Torah orientation,
+1934-1978, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Visual arts and material culture,
+1963, 1966, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">7</container>
+                  
+                  <unittitle>
+                     Wolpert, Ludwig, 
+                     1958-1991, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(4 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Pictures,
+1932-1979, undated
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Chiefly consists of black and white photographs of artworks displayed in exhibits held by the North Carolina Museum of Art and the Jewish Museum as well as works created by particular artists. Some of the folders, such as those pertaining to Ludwig Wolpert and synagogues, have counterparts in the Subject Files Series. Arranged alphabetically by topic and chronologically by year within the folders. Miscellaneous photographs are arranged chronologically by year and follow the pictures which are topically arranged.</p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">7</container>
+                  
+                  <unittitle>Archaeology,
+undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Arts and crafts,
+1968, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Barmitzvah, circumcision, marriage, memorial,
+1956-1969, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Bernstein, Rabinowitz and Richard,
+1972-1978, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Ceremonial art, Jewish,
+undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(4 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Collections pictures,
+undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Fabrics,
+1958, 1974, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Jewish museum: Exhibition Commemorating 300th Anniversary of Jewish Settlement in the United States,
+1954
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Modern ceremonial objects,
+undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     North Carolina Museum of Art exhibit,
+1991
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     North Carolina Museum of Art:
+                  </unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Ceremonial Art in the Judaic Tradition,
+1953-1976, undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(2 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Ceremonial Art in the Judaic Tradition, exhibit: General layout,
+1975
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Judaic Art Exhibit,
+1975
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Judaica Gallery: Objects,
+undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(3 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Moshe Kupferman, 
+                        1991
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Permanent Judaica collection,
+undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(2 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Miscellaneous photos,
+undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Seder plates,
+undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Symbolic art. Jewish,
+undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(4 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Synagogues: Ancient/Antique,
+undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">8</container>
+                  
+                  <unittitle>Synagogue art and arks:</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        1958-1962, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Miller, Leon G., 
+                        undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        Horn, Milton, 
+                        1974, undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Torah pointers,
+1974, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Tubi, Shalom, 
+                     1974-1979, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Wolpert, Ludwig, 
+                     1962, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Zabari, Moshe, 
+                     undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Miscellaneous,
+1932-1979, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(9 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Writings,
+1949-1982, undated
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Included are typescripts, galley proofs and page proofs for Kanof's Jewish Ceremonial Art and Religious Observance as well as offprints and drafts pertaining to art and medicine by Kanof. Primarily arranged alphabetically by author. Also included are autographed writings given to Dr. Kanof by other others. The typescript of Jewish Ceremonial Art and Religious Observance has been arranged according to the order of its chapters.</p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">8</container>
+                  
+                  <unittitle>[Artists and the Holocaust],
+undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Davidowitz, Moshe, 
+                     <emph render="doublequote"> The Menorah,</emph>
+                     1971
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Kanof:</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        
+                        <title xlink:type="simple" render="italic">Jewish Ceremonial Art and Religious Observance:</title>
+                     
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <title xlink:type="simple">Ceremony and Art in Jewish Life</title> (typescripts),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <title xlink:type="simple">Judaism and Art</title> (typescripts),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <title xlink:type="simple">Form and Style in Jewish Ceremonial Art</title> (typescript),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <title xlink:type="simple">Motifs and Symbols in Jewish Ceremonial Art</title> (typescripts),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <title xlink:type="simple">Light in Jewish Ceremonial Art</title> (typescripts),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <title xlink:type="simple">Wine in Jewish Ceremonial Art</title> (typescripts),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <title xlink:type="simple">The Sabbath: Light, Wine, and Spice</title> (typescripts),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <title xlink:type="simple">Passover and the Seder</title> (typescripts),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <title xlink:type="simple">Sukkot, Hanukkah, Purim</title> (typescript),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <title xlink:type="simple">Ceremonial Markers in the Jewish Life Cycle</title> (typescripts),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <emph render="doublequote">Hallmarks of Jewish Home</emph> (typescripts),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>The Synagogue: Evolution , Architecture, and contents (typescripts),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           
+                           <emph render="doublequote">Jews and Art</emph> (typescript),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Acknowledgements and lists of photographs (typescripts),
+undated
+                        </unittitle>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Page proofs, pp. 1-159,
+undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(2 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Galley proofs,
+undated
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Jewish Symbolic Art:</unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>Page proofs,
+undated
+                        </unittitle>
+                        
+                        <physdesc>
+                           
+                           <extent>(4 folders)</extent>
+                        
+                        </physdesc>
+                     
+                     </did>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>Miscellaneous writings,
+1953-1982
+                     </unittitle>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>
+                     Schoenberger, Guido: Drafts and typescripts,
+1949-1970, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(2 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <unittitle>Miscellaneous,
+1949-1984, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Correspondence,
+1953-1991.
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Primarily includes letters and memoranda documenting the creation and administration of the Tobe Pascher Workshop of the Jewish Museum. To a lesser extent, letters pertaining to broader administrative concerns of the Jewsih Museum are included. Dr. Kanof's direction in the development of the Tobe Pascher Workshop as well as the financial support he and Mrs. Kanof provided for the workshop is reflected in this series. See the folders under Jewish Museum in the Subject Files Series for related materials. Correspondents include Arthur Katz, Ludwig Wolpert and Abram Kanof. Arranged chronologically.</p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">9</container>
+                  
+                  <unittitle>
+                     1953-1991, undated
+                  </unittitle>
+                  
+                  <physdesc>
+                     
+                     <extent>(4 folders)</extent>
+                  
+                  </physdesc>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Miscellaneous,
+1931-1991.
+               </unittitle>
+            
+            </did>
+            
+            <scopecontent>
+               
+               <p>Printed material, including postcards, clippings, programs, pertaining to Judaism and art, and publications on aspects of Jewish art history.</p>
+            
+            </scopecontent>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="box">9</container>
+                  
+                  <unittitle>
+                     
+                     <emph render="italic">Notiz blatt der Gesellschaft zur Erforschung jüdischer Kunstdenkmäler:</emph>
+                  
+                  </unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        1902-1933
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(2 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>
+                        1910-1991, undated
+                     </unittitle>
+                     
+                     <physdesc>
+                        
+                        <extent>(6 folders)</extent>
+                     
+                     </physdesc>
+                  
+                  </did>
+               
+               </c03>
+            
+            </c02>
+         
+         </c01>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Oversize Materials</unittitle>
+            
+            </did>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="Oversize-Box">10</container>
+                  
+                  <unittitle>Subject Files,
+1919-1991
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="opaperfolder">OC:III:3</container>
+                  
+                  <unittitle>Subject Files,
+1946-1991, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+            
+            <c02>
+               
+               <did>
+                  
+                  <container type="Oversize-Box">97</container>
+                  
+                  <unittitle>Miscellaneous,
+1959-1991, undated
+                  </unittitle>
+               
+               </did>
+            
+            </c02>
+         
+         </c01>
+      
+      </dsc>
+   
+   </archdesc>
+
+</ead>

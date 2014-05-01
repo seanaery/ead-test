@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Karl Menger Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/mengerkarl/">mengerkarl</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Preliminary Guide to the Karl Menger Papers, <date normal="1890/1985" type="inclusive" era="ce" calendar="gregorian">[ca. 1890]-2006</date>
+            </titleproper>
+            <author>Processed by: Keary Warner;
+			 machine-readable finding aid created by: Walt
+			 Evans</author>
+         </titlestmt>
+         <publicationstmt>
+            <p>
+               <date era="ce" calendar="gregorian"> 2002</date> Duke University. All Rights
+			 Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>This finding aid is NCEAD compliant.</p>
+            </note>
+            <note>
+               <p>Aleph Number: <num type="aleph">002067261</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from
+		  automated markup system. <lb/>Date of source: August 6,
+		  1996 <lb/>Processed by Keary Warner August 6, 1996; Finding
+		  Aid encoded by Walt Evans, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, 
+		  <date calendar="gregorian" era="ce">May 22, 2001</date>
+         </creation>
+         <langusage>Description is in
+		  <language>English.</language>
+         </langusage>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+            <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Karl Menger Papers)//EN" "mengerkarl.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         </change>
+         <change>
+            <date calendar="gregorian" era="ce">November 5, 2002</date>
+            <item>Electronic finding aid edited and updated by
+			 Cat Saleeby to conform to current Rubenstein Library practices and
+			 formats as found in the ENCODING MANUAL FOR EAD 1.0 Version
+			 1. Linear feet changed from 72,000 items to 28,500
+			 items.</item>
+         </change>
+      </revisiondesc>
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Preliminary Guide to the Karl
+			 Menger Papers, [ca. 1890]-1985</titleproper>
+         <publisher> David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke
+		  University <lb/> Durham, North Carolina 27708-0185 USA
+		  </publisher>
+         <p>
+            <date era="ce" calendar="gregorian">(C) 2002</date> Duke University. All Rights
+		  Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection">
+      <did>
+         <head>Descriptive Summary</head>
+         <unittitle label="Title">Karl Menger papers 		  <unitdate calendar="gregorian" era="ce" normal="1890/1985" type="inclusive">[ca. 1890]-2006</unitdate>
+         </unittitle>
+         <origination label="Creator">
+            <persname>Menger, Karl</persname>
+         </origination>
+         <physdesc label="Extent">
+            <extent>29,500		  Items</extent>
+            <extent>40.7 Linear Feet</extent>
+         </physdesc>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <physloc label="Location">For current information on
+		  the location of these materials, please consult the
+		  Library's online catalog.</physloc>
+         <langmaterial label="Language">
+            <language langcode="eng">English</language> and
+	<language langcode="ger">German.</language>
+         </langmaterial>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict>
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict>
+            <head>Use Restrictions</head>
+            <p>The copyright interests in this collection have
+			 not been transferred to Duke University. For more
+			 information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Karl Menger Papers,
+			 David M. Rubenstein Rare Book &amp; Manuscript Library,
+			 Duke University.</p>
+         </prefercite>
+         <acqinfo>
+            <head>Provenance</head>
+            <p>The Karl Menger Papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a gift
+			 in 1995.</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Initially Processed by Keary Warner</p>
+            <p>Completed August 6, 1996</p>
+            <p>Encoded by Walt Evans</p>
+            <p>Updated by Meghan Lyon, 2008</p>
+            <p>This finding aid is NCEAD compliant.</p>
+            <p>This collection is unprocessed: materials may not have been ordered and described beyond their original condition.</p>
+         </processinfo>
+      </descgrp><!-- End of finding aid header -->
+      <bioghist>
+         <head>Biographical Note</head>
+         <p>Mathematician and professor at Notre Dame
+		  University.</p>
+      </bioghist><!--End of biohistory--><!--Begin scopecontent-->
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>Correspondence; notebooks; research and teaching
+		  notes; drafts of unpublished and published works; teaching
+		  materials; student theses; printed materials; and a few
+		  photographs. Mathematical subjects include curves theory,
+		  algebra, geometry, and the philosophy of mathematics. Many
+		  letters are from notable scientists; those written to
+		  Menger during World War II often comment on the hardships
+		  of colleagues still in Europe. Includes biographical
+		  materials relating to Karl Menger and to his father, the
+		  Austrian economist Carl Menger, and materials related to
+		  the history of the Vienna Circle (1920s-1930s), a group of
+		  scholars concerned with philosophy and science. Notebooks
+		  relate to Menger's early work as a student, and later notes
+		  on mathematical theory. Printed items include many European
+		  and American scientific reprints, textbooks, study manuals,
+		  and school publications.</p>
+      </scopecontent><!--End scopecontent--><!--Begin controlaccess--><!-- Note:  <subject>, <persname>, <corpname>, <geogname>, <famname>, <genreform>, <occupation> used where applicable -->
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname>Menger, Karl, 1902-1985</persname>
+            </item>
+            <item>
+               <persname>Menger, Carl, 1840-1921</persname>
+            </item>
+            <item>
+               <corpname>University of Notre Dame</corpname>
+            </item>
+            <item>
+               <subject>Economists -- Austria Biography</subject>
+            </item>
+            <item>
+               <subject>Vienna circle -- History</subject>
+            </item>
+            <item>
+               <subject>Mathematics -- Study and teaching
+				(Higher)</subject>
+            </item>
+            <item>
+               <subject>Mathematics -- Philosophy</subject>
+            </item>
+            <item>
+               <subject>Algebra</subject>
+            </item>
+            <item>
+               <subject>Curves</subject>
+            </item>
+            <item>
+               <subject>Geometry</subject>
+            </item>
+            <item>
+               <subject>Economics -- History</subject>
+            </item>
+            <item>
+               <subject>Philosophy and science</subject>
+            </item>
+            <item>
+               <subject>Scientists -- Europe
+				Correspondence</subject>
+            </item>
+            <item>
+               <subject>Mathematicians -- Austria</subject>
+            </item>
+            <item>
+               <subject>Mathematicians -- United States</subject>
+            </item>
+            <item>
+               <subject>World War, 1939-1945 -- Europe -- Emigration
+				and immigration</subject>
+            </item>
+            <item>
+               <subject>Germany -- History -- 1918-1933</subject>
+            </item>
+            <item>
+               <subject>Germany -- History -- 1933-1945</subject>
+            </item>
+         </list>
+      </controlaccess><!--End controlaccess--><!--Begin container list--><!-- Sample of possible container list structure, actual markup depends upon the materials being described. --><!-- Use <genreform>, <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent> if needed. -->
+      <dsc type="combined">
+         <head>Contents of Collection</head>
+         <c01 level="series">
+            <did>
+               <unittitle id="s1">Accession (1996-0004)</unittitle>
+            </did><!--Begin c02 levels here-->
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Correspondence</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">3</container>
+                  <unittitle>Writings and Speeches--Karl
+				  Menger</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">4</container>
+                  <unittitle>Writings and Speeches--Karl Menger;
+				  Writings and Speeches--Unidentified Authors and/or
+				  Fragments</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle> Writings and Speeches--Unidentified
+				  Authors and/or Fragments</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">6</container>
+                  <unittitle> Writings and Speeches--Other
+				  Authors</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle> Writings and Speeches--Other
+				  Authors</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">8</container>
+                  <unittitle> Writings and Speeches--Other
+				  Authors</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">9</container>
+                  <unittitle> Writings and Speeches--Other
+				  Authors</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">10</container>
+                  <unittitle> Writings and Speeches--Other
+				  Authors</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">11</container>
+                  <unittitle> Writings and Speeches--Other
+				  Authors</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">12</container>
+                  <unittitle> Writings and Speeches--Other
+				  Authors; Writings and Speeches--Drafts and
+				  Proofs</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">13</container>
+                  <unittitle> Writings and Speeches--Drafts and
+				  Proofs</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">14</container>
+                  <unittitle> Writings and Speeches--Drafts and
+				  Proofs</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">15</container>
+                  <unittitle> Writings and Speeches--Drafts and
+				  Proofs</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">16</container>
+                  <unittitle> Writings and Speeches--Drafts and
+				  Proofs</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">17</container>
+                  <unittitle> Research Notes</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">18</container>
+                  <unittitle> Research Notes </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">19</container>
+                  <unittitle> Notebooks</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">20</container>
+                  <unittitle> Notebooks</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">21</container>
+                  <unittitle> Notebooks; Clippings, Legal Papers,
+				  Financial Papers, Conference Files, Printed Materials,
+				  Photographs, and Miscellaneous Items</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">22</container>
+                  <unittitle> Vienna Circle Materials</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">23</container>
+                  <unittitle> Teaching Materials</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">24</container>
+                  <unittitle> Reingold Papers</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">25</container>
+                  <unittitle> Oversize Materials</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">26</container>
+                  <unittitle> Oversize Materials</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">27</container>
+                  <unittitle> Oversize Materials (Large, Stapled
+				  and/or Pasted Drafts)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">28</container>
+                  <unittitle> Oversize Materials (Large, Stapled
+				  and/or Pasted Drafts)</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s2">Accession (2007-0127), <unitdate type="inclusive" era="ce" calendar="gregorian">2006</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>2 Audiocassettes</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>The addition (2007-0127) (2 items; interfiled with addition 2007-0142; 2006) consists of 2 audiocassettes and a transcript of an interview with Abe Sklar, discussing Karl Menger, his colleague.</p>
+            </scopecontent>
+            <arrangement>
+               <p>This addition (2007-0127) has been interfiled into Accession (2007-0142), Box 33.</p>
+            </arrangement>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s3">Accession (2007-0142), <unitdate type="inclusive" era="ce" calendar="gregorian">1921-1985</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>5 Boxes</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>The addition (2007-0142) (1000 items; 2.7 lin. ft.; 1921-1985) consists largely of reprints from Karl Menger and Carl Menger, organized chronologically. There are also copies of Karl Menger's calculus texts. Some of the material is in German. This is, allegedly, one of the most complete collections of Menger's writings available.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">29</container>
+                  <unittitle>Calculus: A Modern Approach, 2nd edition, <unitdate type="inclusive" era="ce" calendar="gregorian">1953</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>1921-1936</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">30</container>
+                  <unittitle>1937-1956</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">31</container>
+                  <unittitle>1957-1983</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Obituaries</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Reviews </unittitle>
+                  <physdesc>
+                     <extent>(2 folders)</extent>
+                  </physdesc>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Introductions</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Miscellaneous</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">32</container>
+                  <unittitle>V-12 Notre Dame photocopies</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Understanding Calculus, Part II, <unitdate type="inclusive" era="ce" calendar="gregorian">1950</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The Concept of a Function, <unitdate type="inclusive" era="ce" calendar="gregorian">1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Department of Math graduate degrees (Illinois Institute Tech.)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Calculus: A Modern Approach, <unitdate type="inclusive" era="ce" calendar="gregorian">1952</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Understanding Calculus, Part I, <unitdate type="inclusive" era="ce" calendar="gregorian">1950</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Educational Studies in Mathematics</title>, vol. 4, no. 1, <unitdate type="inclusive" era="ce" calendar="gregorian">June 1971</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Introduction to Calculus, Part I, <unitdate type="inclusive" era="ce" calendar="gregorian">1950</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Calculus the Elements: Introduction Into Pre-limit Calculus for Everyone, <unitdate type="inclusive" era="ce" calendar="gregorian">1966</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Calculus the Elements: Introduction Into Pre-limit Calculus for Everyone, Chapter II, <unitdate type="inclusive" era="ce" calendar="gregorian">1967</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Untersuchungen uber allgemeire Metrik, <unitdate type="inclusive" era="ce" calendar="gregorian">date unknown</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Basic Concepts of Mathematics, <unitdate type="inclusive" era="ce" calendar="gregorian">1957</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Galois Theory (by Emil Artin), <unitdate type="inclusive" era="ce" calendar="gregorian">1942</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Algebra of Analysis, <unitdate type="inclusive" era="ce" calendar="gregorian">1944</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <title xlink:type="simple" render="italic" xlink:href="">Nomography</title> ..., <unitdate type="inclusive" era="ce" calendar="gregorian">1944</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Hahn: Die Krise der Anschauung, <unitdate type="inclusive" era="ce" calendar="gregorian">1933</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Alte Probleme - Neue Losungen in den Exakten Wissenschaften, <unitdate type="inclusive" era="ce" calendar="gregorian">1934</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Neuere Fortschritte in den Exakten Wissenschaften, <unitdate type="inclusive" era="ce" calendar="gregorian">1936</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>The New Logic, <unitdate type="inclusive" era="ce" calendar="gregorian">1937</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">33</container>
+                  <unittitle>Carl Mengers Erster Entwurf zu seinum Hauptwerk <title xlink:type="simple" render="doublequote" xlink:href="">Grundsatze</title>, <unitdate type="inclusive" era="ce" calendar="gregorian">1963</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>On the Principles of Statistical Interference (by Abraham Ward), <unitdate type="inclusive" era="ce" calendar="gregorian">1952</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Reports of a Mathematical Colloquium, Issue 1, <unitdate type="inclusive" era="ce" calendar="gregorian">1939</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Reports of a Mathematical Colloquium, Issue 2, <unitdate type="inclusive" era="ce" calendar="gregorian">1940</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Reports of a Mathematical Colloquium, Issue 3, <unitdate type="inclusive" era="ce" calendar="gregorian">1941</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Reports of a Mathematical Colloquium, Issue 4, <unitdate type="inclusive" era="ce" calendar="gregorian">date unknown</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Reports of a Mathematical Colloquium, Issue 5-6, <unitdate type="inclusive" era="ce" calendar="gregorian">1944</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Reports of a Mathematical Colloquium, Issue 7, <unitdate type="inclusive" era="ce" calendar="gregorian">1946</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Reports of a Mathematical Colloquium, Issue 8, <unitdate type="inclusive" era="ce" calendar="gregorian">1948</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Accession (2007-0127): 2 <genreform>audiocassettes</genreform> and a transcript of an interview with Abe Sklar, <unitdate type="inclusive" era="ce" calendar="gregorian">2006</unitdate>
+                  </unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

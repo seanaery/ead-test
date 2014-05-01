@@ -1,0 +1,1754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Philip Turner Papers, 1751-1881)//EN" url="http://library.duke.edu/rubenstein/findingaids/turnerphilip/">turnerphilip</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Guide to the Philip Turner Papers,
+			<date normal="1751/1858" era="ce" calendar="gregorian">1751-1858, 1881 and undated</date>
+            </titleproper>
+            <author>Processed by: Willeke Sandler; machine-readable finding aid created by: Willeke Sandler</author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>
+               <lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
+            <p>
+               <date normal="2011" encodinganalog="date" era="ce" calendar="gregorian"> 2011</date> Duke University. All Rights Reserved.</p>
+         </publicationstmt>
+         <notestmt>
+            <note>
+               <p>Aleph Number: <num type="aleph">005199878</num>
+               </p>
+            </note>
+         </notestmt>
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from XML authoring program.<lb/>
+            <date era="ce" calendar="gregorian">Date of source: December 2011</date>
+            <lb/>Processed by Willeke Sandler, December 2011; finding aid encoded by Willeke Sandler, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, <date era="ce" calendar="gregorian">December 2011</date>
+         </creation>
+         <langusage>Description is in <language langcode="eng">English</language>
+         </langusage>
+         <descrules>Finding aid was prepared using <title xlink:type="simple" xlink:href="">DACS</title> and local <title xlink:type="simple" xlink:href="">Style Guide</title>
+         </descrules>
+      </profiledesc><!-- Location of <revisiondesc> if needed -->
+   </eadheader>
+   <frontmatter>
+      <titlepage>
+         <titleproper>Guide to the Philip Turner Papers, <date type="span" era="ce" calendar="gregorian">1751-1858, 1881 and undated</date>
+         </titleproper>
+         <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, North Carolina 27708-0185 USA </publisher>
+         <p>
+            <date normal="2011" era="ce" calendar="gregorian">(C) 2011</date> Duke University. All Rights Reserved.</p>
+      </titlepage>
+   </frontmatter>
+   <archdesc level="collection" relatedencoding="MARC">
+      <did>
+         <head>Descriptive Summary</head>
+         <repository label="Repository">
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname>
+         </repository>
+         <origination label="Creator">
+            <persname encodinganalog="100">Turner, Philip.</persname>
+         </origination>
+         <unittitle label="Title" encodinganalog="245">Philip Turner papers <unitdate normal="1751/1858" type="inclusive" era="ce" calendar="gregorian">1751-1858, 1881 and undated</unitdate>
+         </unittitle>
+         <langmaterial label="Language of Material" encodinganalog="546">Material in <language langcode="eng"> English</language>
+         </langmaterial>
+         <physdesc label="Extent">
+            <extent unit="linear feet" encodinganalog="300">6.0 Linear Feet</extent>
+            <lb/>
+            <extent unit="items">675 Items</extent>
+         </physdesc>
+         <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+         <abstract label="Abstract" encodinganalog="545">Philip Turner (1740-1815) was a noted surgeon from Norwich, Connecticut and New York, New York.</abstract>
+         <abstract encodinganalog="520">The Philip Turner Papers Collection spans from 1751 to 1858 and contains correspondence, military hospital returns, printed material, and ledgers documenting Philip Turner's career as a surgeon in private practice in Norwich, Connecticut and New York, New York, in the Continental Army, and in the United States Army. Items include correspondence with George Washington, Thomas Jefferson, William Eustis, Henry Dearborn, John Morgan, William Shippen, and other prominent Americans. Also includes materials on Turner's family. Acquired as part of the History of Medicine Collections at Duke University.</abstract>
+      </did>
+      <descgrp type="admininfo">
+         <head>Administrative Information</head>
+         <accessrestrict encodinganalog="506">
+            <head>Access Restrictions</head>
+            <p>Collection is open for research.</p>
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         </accessrestrict>
+         <userestrict encodinganalog="540">
+            <head>Copyright Notice</head>
+            <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         </userestrict>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Philip Turner Papers, History of Medicine Collections, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo encodinganalog="541">
+            <head>Provenance</head>
+            <p>The Philip Turner Papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a 
+purchase in 2011.
+</p>
+         </acqinfo>
+         <processinfo>
+            <head>Processing Information</head>
+            <p>Processed by Willeke Sandler, December 2011</p>
+            <p>Encoded by Willeke Sandler, December 2011</p>
+            <p>Accession(s) described in this finding aid: 2011-0206</p>
+            <p>Descriptive sources and standards used to create this inventory: <title xlink:type="simple" render="italic" xlink:href="">DACS,</title> EAD, NCEAD guidelines, and local <title xlink:type="simple" render="italic" xlink:href="">Style Guide.</title>
+            </p>
+            <p>This finding aid is NCEAD compliant.</p>
+         </processinfo>
+      </descgrp><!--end of finding aid header--><!-- Use "Bioghist Tags" clip here for Bio/Hist information. -->
+      <bioghist>
+         <head>Historical Note</head>
+         <p>Philip Turner (1740-1815) was a noted surgeon from Norwich, Connecticut, where he trained under his foster father, Dr. Elisha Tracy. He served with the Continental Army during the Revolutionary War, holding the position of Surgeon General of the Eastern Department. After the Revolutionary War, Turner returned to private practice in Norwich, and moved to New York in 1800. He also served as an army surgeon during the French and Indian War (1754-1763) and the War of 1812, when he was stationed at Fort Columbus on Governor's Island, New York. Turner died in 1815. </p>
+         <p>Philip and Lucy Turner had seven children, two of whom appear as authors of material in the collection. John Turner (1764-1837) was also a doctor in Norwich, Connecticut. Nancy Turner married Marvin Wait in 1810, and had a son, John Turner Wait (1811-1899), who served as a U.S. Representative from Connecticut and also authored material in the collection.</p>
+         <chronlist>
+            <head>Chronology List</head>
+            <chronitem>
+               <date era="ce" calendar="gregorian">Feb. 25, 1740</date>
+               <event>Philip Turner born in Norwich, Connecticut to Captain Philip Turner and Anne Huntington Adgate.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1758</date>
+               <event>Turner began his military service as a surgeon during the French and Indian War (1754-1763).</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">April 7, 1763</date>
+               <event>Turner married Lucy Tracy, daughter of Dr. Elisha Tracy.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1775-1783</date>
+               <event>Revolutionary War</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">June 17, 1775</date>
+               <event>Battle of Bunker Hill. Turner was present as a military surgeon.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">July 6, 1775</date>
+               <event>Turner was commissioned surgeon to the 8th Regiment Connecticut troops.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">Dec. 16, 1775</date>
+               <event>Turner was discharged from the army.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">April 1777</date>
+               <event>Turner received the appointment of Surgeon General of the Hospital, Eastern Department.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1781</date>
+               <event>Turner retired from military service and returned to Norwich, Connecticut to open a private practice.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1800</date>
+               <event>Turner moved to New York, New York.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1802</date>
+               <event>Turner re-entered military service as a surgeon's mate.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">Nov. 1809</date>
+               <event>Turner was transferred to Fort Columbus on Governor’s Island.</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">1812-1815</date>
+               <event>War of 1812</event>
+            </chronitem>
+            <chronitem>
+               <date era="ce" calendar="gregorian">April 20, 1815</date>
+               <event>Turner died at the age of seventy-five.</event>
+            </chronitem>
+         </chronlist>
+      </bioghist>
+      <scopecontent>
+         <head>Collection Overview</head>
+         <p>The Philip Turner Papers Collection spans from 1751 to 1858 and contains correspondence, military hospital returns, printed material, and ledgers documenting Philip Turner's career as a surgeon in private practice in Norwich, Connecticut and New York, New York, in the Continental Army, and in the United States Army. Turner served in the Revolutionary War and the War of 1812, during which he was stationed at Fort Columbus, New York. Included are an extensive collection of military hospital returns from the Eastern Department of the Continental Army describing the state of the Army's sick and wounded and spanning the years 1777 to 1780. Also included is correspondence with George Washington, Tench Coxe, and William Eustis about the procurement of medical supplies and the organization of the Army's medical department during the Revolutionary War and the War of 1812. After the Revolutionary War, Turner felt that he had not received due compensation for his service, and the collection contains extensive correspondence relating to the decades-long effort of Turner and his heirs to receive this compensation from Congress. This correspondence includes letters to and from Thomas Jefferson, Henry Dearborn, John Morgan, William Shippen, and other prominent Americans. Additional correspondence, especially with Daniel Parker, Chief Clerk of the War Department, documents Turner's efforts to secure a commission during the War of 1812.</p>
+         <p>Also included in the collection are correspondence, financial and legal papers, and poetry relating to Turner's family. The majority of this series is addressed to or stems from John Turner and Nancy Turner, two of Philip Turner's children. Correspondents represented include Judith Sargent Murray, American essayist and advocate for women's rights, and her husband, John Murray. Some of the material is related to the efforts of John Turner and John Turner Wait (Philip Turner's grandson) to receive compensation for Turner's Revolutionary War service. The collection also includes a small hide-covered trunk bearing the initials A.T., possibly belonging to Turner's mother Ann.</p>
+         <p>Acquired as part of the History of Medicine Collections at Duke University.</p>
+         <arrangement>
+            <head>Collection Arrangement</head>
+            <p>The collection is arranged in eight series: <ref xlink:type="simple" target="s1" xlink:show="replace" xlink:actuate="onRequest" xlink:href="">Artifacts</ref>; <ref xlink:type="simple" target="s2" xlink:show="replace" xlink:actuate="onRequest" xlink:href="">Correspondence</ref>; <ref xlink:type="simple" target="s3" xlink:show="replace" xlink:actuate="onRequest" xlink:href="">Financial and Legal Papers</ref>; <ref xlink:type="simple" target="s4" xlink:show="replace" xlink:actuate="onRequest" xlink:href="">Journals</ref>; <ref xlink:type="simple" target="s5" xlink:show="replace" xlink:actuate="onRequest" xlink:href="">Peace Service in New York</ref>; <ref xlink:type="simple" target="s6" xlink:show="replace" xlink:actuate="onRequest" xlink:href="">Revolutionary War</ref>; <ref xlink:type="simple" target="s7" xlink:show="replace" xlink:actuate="onRequest" xlink:href="">Turner Family Papers</ref>; and <ref xlink:type="simple" target="s8" xlink:show="replace" xlink:actuate="onRequest" xlink:href="">War of 1812</ref>.</p>
+         </arrangement>
+      </scopecontent>
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <list type="simple">
+            <item>
+               <persname source="lcsh" encodinganalog="600">Armstrong, John, 1758-1843</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Coxe, Tench, 1755-1824</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Dearborn, Henry, 1751-1829</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Eustis, William, 1753-1825</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Jefferson, Thomas, 1743-1826</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Morgan, John, 1735-1789</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Murray, Judith Sargent, 1751-1820</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Parker, Daniel</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Sherman, Roger, 1721-1793</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Shippen, William, 1712-1801</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Simmons, William</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Stoddard, Amos, 1762-1813</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Tucker, Thomas Tudor, 1745-1828</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Turner, John, 1764-1837</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Turner, Philip, 1740-1815</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Wait, John Turner, 1811-1899</persname>
+            </item>
+            <item>
+               <persname source="lcsh" encodinganalog="600">Washington, George, 1732-1799</persname>
+            </item>
+            <item>
+               <famname source="lcsh" encodinganalog="600">Turner family</famname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">History of Medicine Collections (Duke University)</corpname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">United States. Army</corpname>
+            </item>
+            <item>
+               <corpname source="lcsh" encodinganalog="610">United States. Continental Army. Eastern Dept</corpname>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Medicine, Military</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Military hospitals -- United States</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Military pensions</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Physicians -- United States -- Correspondence</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Surgeons -- United States -- Correspondence</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">United States -- History -- Revolution, 1775-1783 -- Medical care</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">United States -- History -- War of 1812 -- Medical care</subject>
+            </item>
+            <item>
+               <geogname source="lcsh" encodinganalog="651">Fort Columbus (N.Y.)</geogname>
+            </item>
+            <item>
+               <geogname source="lcsh" encodinganalog="651">New York, New York</geogname>
+            </item>
+            <item>
+               <geogname source="lcsh" encodinganalog="651">Norwich, Connecticut</geogname>
+            </item>
+            <item>
+               <genreform source="aat" encodinganalog="655">Broadsides (notices)</genreform>
+            </item>
+            <item>
+               <genreform source="aat" encodinganalog="655">Correspondence</genreform>
+            </item>
+            <item>
+               <genreform source="aat" encodinganalog="655">Diaries</genreform>
+            </item>
+            <item>
+               <genreform source="aat" encodinganalog="655">Ledgers (account books)</genreform>
+            </item>
+         </list>
+      </controlaccess><!-- OPTIONAL: Separated material --><!-- OPTIONAL: Related material -->
+      <dsc type="combined">
+         <head>Contents of Collection</head><!-- Enter Container List Here -->
+         <c01 level="series">
+            <did>
+               <unittitle id="s1">Artifact, probably 18th c.</unittitle>
+               <physdesc>
+                  <extent>(1 box)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Small hide-covered trunk decorated with round nailheads that form the initials A.T. The trunk could have belonged to Turner's mother, whose maiden name was Anne Huntington Adgate.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">1</container>
+                  <unittitle>Trunk, probably 18th c.</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s2">Correspondence Series, <unitdate type="inclusive" normal="1780/1813" era="ce" calendar="gregorian">1780-1813</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(3 folders)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Contains personal and professional correspondence chiefly relating to Turner's private practice. Topics include a trip Turner took to Charleston, South Carolina in 1792, requests for Turner's medical services and advice, and two letters asking Turner to cover a debt owed to his son-in-law. Significant correspondents are many, including Revolutionary War period military officials and physicians; there is also an exchange of two letters between Turner and George Washington on the topic of Turner's plan to reorganize the medical department of the Continental Army (the plan is not included), and eight letters from Turner to Thomas Jefferson (1805-1807) regarding Turner's claim for proper compensation for his military service and Turner's views of Jefferson's political situation. Also included is a letter from Judith Sargent Murray to Turner's wife, Lucy, concerning Turner's daughter Elizabeth's visit to Sargent Murray. Many other pieces of correspondence are also located in the Peace Service in New York, Revolutionary War, Turner Family Papers, and War of 1812 Series. Arranged in chronological order.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <unittitle>
+                     <emph render="bold">General Correspondence, 1789-1813</emph> (1 folder)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, Nov., 1789, from Hannah Abell, Norwich, Conn., to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 30 Nov., 1790, from Judith Sargent Murray, Gloucester, Mass., to Lucy Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 7 Sept., 1792, from Philip Turner, Norwich, Conn., to Dr. David Olyphant, Newport</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 12 Sept., 1792, from Philip Turner, Norwich, Conn., to Dr. David Olyphant</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Memorandum, 18 Sept., 1792, from Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Certificate, 3 Nov., 1800, from Robert Benson, New York</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 24 July, 1803, from Malachi Foot, Benjamin Prince, Daniel D. Walters, and Philip D. Keteltas, New York, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 5 Aug., 1803, from Edward Livingston to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 14 Nov., 1803, from unknown to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 14 Nov., 1803, from W. Leffingwell, New Haven, to Philip Turner, New York</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 7 Jan., 1804, from John Franks to Philip Turner, New York</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 19 Jan., 1804, from Colonel Graham to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 11 Feb., 1804, from John Franks, Southhold, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 16 Jan., 1805, from Perez Jones, New York, to Philip Turner, New York</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 4 Feb., 1806, from Cornelius Cooper, New York, to Philip Turner, New York</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 31 Mar., 1806, from Dr. Sage, Sag Harbor, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 28 Aug., 1808, from Clarissa Turner, Lancaster, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 20 Nov., 1808, from Mr. Weston, New York, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 17 Mar., 1809, from J.E.A. Masters, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 17 Mar., 1809, from Charles Carew, New London, to Philip Turner, New York</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 8 May, 1809, from R. Chandernette, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 12 May, 1809, from Commanding Officer, Ellis Island, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 15 Feb., 1810, from S. Williams, New York, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 28 May, 1812, from Philip Turner, New York, to Joel Austin Wallingford</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 12 Sept., 1812, from W. Sheldon, New York, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 29 Mar., 1813, from J. Thomas, Worcester, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Memorandum, 1813, The Case of Mrs. Vanderventer and the Cause of her Death, from Philip Turner</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <emph render="bold">George Washington, 1780</emph> (1 folder)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 3 Feb., 1780, from Philip Turner, Danbury, to George Washington, Morristown</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 24 Feb., 1780, from George Washington, Morristown, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <emph render="bold">Thomas Jefferson, 1805-1807</emph> (1 folder)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 10 Oct., 1805, from Philip Turner, New York, to Thomas Jefferson</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 18 Oct., 1805, from Thomas Jefferson, Washington, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 18 Nov., 1805, from Philip Turner, New York, to Thomas Jefferson</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 28 Dec., 1805, from Philip Turner, New York, to Thomas Jefferson</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 28 Jan., 1806, from Philip Turner, New York, to Thomas Jefferson</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 28 Feb., 1806, from Philip Turner, to Thomas Jefferson</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 16 June, 1806, from Philip Turner, New York, to Thomas Jefferson</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 21 July, 1807, from Philip Turner, to Thomas Jefferson</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s3">Financial and Legal Papers Series, <unitdate type="inclusive" normal="1751/1815" era="ce" calendar="gregorian">1751-1815 and undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(2 folders and 2 boxes)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Drafts and receipts made out to Philip Turner, the majority for his medical care in Norwich, Connecticut and New York, New York. Also included are a draft made out to Capt. Philip Turner (Turner's father) by Benedict Arnold Sr. (father of the notable son of the same name), the Norwich land deed made out to Turner's father, an account ledger for John Morgan kept during the Revolutionary War, and two financial ledgers documenting Turner's private practice.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Drafts, deeds, and receipts, 1751-1810 (2 folders)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>Ledgers, 1784-1815 and undated (1 folder, 2 boxes)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Ledgers, undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">6</container>
+                     <unittitle>Financial ledger: private practice, 1784-1801</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">7</container>
+                     <unittitle>Financial ledger: private practice, 1811-1815</unittitle>
+                  </did>
+               </c03>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s4">Journals Series, <unitdate type="inclusive" normal="1774/1803" era="ce" calendar="gregorian">1774-1803</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(1 box)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Two volumes: "Philip Turner's Day-Book, March 19, 1803" and "Philip Turner's Medical Collections and Experimental Observations" (circa 1774-1801). Originally used to record information on Turner's patients, more than half the pages in the daybook have been pasted over with later newspaper clippings (circa 1830s), presumably by Turner's grandson, John Turner Wait, whose name appears on the inside cover of the volume. 
+</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">7</container>
+                  <unittitle>"Philip Turner's Medical Collections and Experimental Observations" (circa 1774-1801)</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s5">Peace Service in New York Series, <unitdate type="inclusive" normal="1809/1811" era="ce" calendar="gregorian">1809-1811 and undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(1 folder)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Chiefly correspondence relating to Turner's assignment as surgeon's mate at Fort Columbus on Governor's Island, New York. Correspondents include William Eustis (then Secretary of War), Henry Dearborn, Thomas Tudor Tucker (Treasurer of the United States), William Simmons (accountant of the War Department), and Tench Coxe (purveyor of public supplies). The majority of the correspondence deals with the ordering and delivery of medical supplies for Fort Columbus, in particular the absence of supplies and complaints about the problems associated with their delivery. Also included are correspondence and several documents detailing Turner's pay for his service.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 7 Feb., 1809, from Henry Dearborn, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Ms.,<title xlink:type="simple" render="doublequote" xlink:href="">Subsistence Account of Philip Turner, post surgeon's Mate at Ellis's and Bedlows Islands in New York Bay,</title>Apr. 7, 1809</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 27 Apr., 1809, from William Eustis, Washington, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Ms., <title xlink:type="simple" render="doublequote" xlink:href="">P. Turner's Account for medical services, subsistence and storage from the 7th of Feb. to the 7th of May 1809</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 6 June, 1809, from William Eustis, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 6 July, 1809, from William Simmons, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 8 July, 1809, from Tench Coxe, Philadelphia, to Philip Turner, New York</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 16 July, 1809, from Philip Turner, New York, to Callender Irvine</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 19 July, 1809, from Callender Irvine, Philadelphia, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 9 Sept., 1809, from Charles Gardner, Fort Columbus, to Philip Turner, New York</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 28 Sept., 1809, from William Eustis, Boston, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 30 Sept., 1809, from William Simmons, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Ms., <title xlink:type="simple" render="doublequote" xlink:href="">P. Turner's Account from the 1st of July to the 30th of Sept., 1809</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 4 Nov., 1809, from Philip Turner, New York, to William Eustis</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 20 Dec., 1809, from William Eustis, to Philip Turner, New York</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 2 Jan., 1810, from William Simmons, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 17 Feb., 1810, from Philip Turner, New York, to William Eustis</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 7 May, 1810, from Philip Turner, New York, to Tench Coxe</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 18 May, 1810, from Philip Turner, New York, to Richard Reece, London, England</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 19 May, 1810, from Tench Coxe, to Philip Turner, New York</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 28 May, 1810, from Callender Irvine, to Philip Turner, New York</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 3 Oct., 1810, from Thomas Tudor Tucker, Washington, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 12 Nov., 1810, from William Eustis, to Philip Turner, New York</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 29 Nov., 1810, from William Simmons, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, Nov., 1810, from Philip Turner, New York, to William Simmons</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 3 June, 1811, from Philip Turner, Fort Columbus, New York, to Tench Coxe, Philadelphia</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 6 June, 1811, from Tench Coxe, Philadelphia, to Philip Turner, Fort Columbus, New York</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 10 June, 1811, from Philip Turner, Fort Columbus, New York, to Tench Coxe, Philadelphia</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 11 June, 1811, from Tench Coxe, Philadelphia, to Philip Turner, Fort Columbus, New York</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 26 July, 1811, from Philip Turner, New York, to William Simmons</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 29 Sept., 1811, from Philip Turner, New York, to William Eustis</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 29 Sept., 1811, from Philip Turner, New York, to William Simmons</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, 12 Oct., 1811, from Philip Turner, Fort Columbus, to William Simmons</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>Letter, undated, from Philip Turner, to Tench Coxe</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s6">Revolutionary War Series, <unitdate type="inclusive" normal="1776/1858" era="ce" calendar="gregorian">1776-1858 and undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(13 folders)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Arranged into four subseries documenting Philip Turner's service as a surgeon during the Revolutionary War. The <emph render="bold">Correspondence Subseries</emph> includes letters to and from John Morgan, William Shippen, Roger Sherman, and Samuel Huntington. Topics in the correspondence include Turner's military orders from John Morgan, as well as orders issued by Turner and others, regulations from William Eustis for the military hospital in Danbury, Connecticut, and discussions about the procurement of supplies. </p>
+               <p>The <emph render="bold">Military Hospital Returns Subseries</emph> documents the medical state of the Continental Army's sick and wounded in the Eastern Department (including New Hampshire, Massachusetts, Rhode Island, and Connecticut) during the Revolutionary War. The subseries consists of weekly reports sent to Turner from military hospitals in towns in the Eastern Department listing the number of patients admitted and discharged, and the number of patients with a variety of illnesses, including dysentery, fever, and rheumatism, as well as those wounded in battle. These hospital return forms are for the most part standardized and handwritten, with several using printed forms. </p>
+               <p>The <emph render="bold">Printed Materials Subseries</emph> contains Congressional resolutions concerning the establishment and running of military hospitals. </p>
+               <p>The <emph render="bold">Revolutionary War Claims Subseries</emph> contains correspondence relating to the efforts of Turner and his heirs from 1779 to 1858 to receive from Congress what Turner considered proper compensation for his military service. The discrepancies resulted from a disagreement as to Turner's exact rank and to the resulting difference in pay. In an effort to receive compensation, Turner wrote numerous letters to Secretary of War Henry Dearborn, and corresponded with a number of prominent individuals, including General Huntington, William Eustis, and Joseph B. Varnum. Turner also submitted petitions to Congress and to the Connecticut General Assembly. Other correspondence with Thomas Jefferson relating to Turner's Revolutionary War claims can be found in the Correspondence Series.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">2</container>
+                  <unittitle>
+                     <emph render="bold">Correspondence, 1776-1781 and undated</emph> (2 folders)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 4 Nov., 1776, from John Morgan, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 10 Nov., 1776, from John Morgan, camp near White Plains, to unknown</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, Nov., 1776, from John Morgan, to the Regimental Surgeons</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 9 May, 1777, from John Morgan, Boston, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 18 Apr., 1778, from John Morgan, New Haven, to Philip Turner, Danbury</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 30 Apr., 1778, from Philip Turner, to Isaac Foster</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 17 Apr., 1778, from Edwin Bulkley, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 18 Aug., 1778, from Edwin Bulkley, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 17 Sept., 1778, from Philip Turner, Danbury, to Lieutenant Mack</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 16 Nov., 1778, from Philip Turner, Danbury, to Doctor Hosmer</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 19 Dec., 1778, <title xlink:type="simple" render="doublequote" xlink:href="">Some regulations necessary to be adopted with respect to the General Hospital in Danbury in order to make the patients comfortable and to do them that justice to which they are entitled and which Congress expects they receive,</title>from William Eustis, Danbury, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 16 Mar., 1779, from Philip Turner, Danbury, to William Shippen</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 20 Apr., 1779, from William Shippen, Somerset, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 1 June, 1779, from Thomas Fanning, Norwich, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 9 June, 1779, from Abiel Hyde, Norwich, to John Baryan, Danbury</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 4 July, 1779, from Philip Turner, Danbury, to unknown</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 4 Aug., 1779, from John Tyler, New London, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 19 Aug., 1779, from John Tyler, New London, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 4 Sept., 1779, from John Tyler, New London, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 2 Nov., 1779, from Roger Sherman, Philadelphia, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 1779, from Philip Turner, to William Eustis</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 4 Feb., 1780, from Philip Turner, Danbury, to Samuel Huntington</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 8 Feb., 1780, from Roger Sherman, Philadelphia, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 16 Apr., 1780, from Philip Turner, Providence, to Doctor Adams</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Ms., Resolve of Congress, May 1780</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 21 June, 1780, from George Bright, New London, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 5 Aug., 1780, from John De La Mater, Boston, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 2 Sept., 1780, from Roger Sherman, Philadelphia, to Philip Turner, Danbury</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 24 Nov., 1780, Account sent to Congress from Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 19 Dec., 1780, from William Ledyard, New London, to Philip Turner, Norwich</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 15 Jan., 1781, from William Ledyard, New London, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 28 June, 1781, from John De La Mater, Danbury, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 30 June, 1781, from John Cochran, New London, to Philip Turner, Norwich</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, 1781, from Philip Turner, to Roger Sherman</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, undated, from Philip Turner, to John Trumbull</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, undated, from Philip Turner, to Harry Burton</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, undated, from Philip Turner, <title xlink:type="simple" render="doublequote" xlink:href="">On Dr. Tilton's errand to the Army, </title>to unknown</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, undated, from Philip Turner, <title xlink:type="simple" render="doublequote" xlink:href="">Directions for Doctor Shippen</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, undated, from Philip Turner, to Mr. Thompson, Hartford</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, undated, from Philip Turner, to William Shippen</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, undated, from Philip Turner, to Doctors Adams and Custin</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Ms., <title xlink:type="simple" render="doublequote" xlink:href="">Account of the Money Paid for the use of the Hospital in North [illegible], Paid by Colonel Prentice,</title> undated</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, undated, from Philip Turner, to the Senior Officer of the Military Hospital at Providence</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Letter, undated, from Philip Turner, to the Senior Officer of the Military Hospitals, Eastern District</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <emph render="bold">Military Hospital Returns, 1777-1780 and undated</emph> (5 folders)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">2</container>
+                     <unittitle>Military Hospital Returns, 1777 (1 folder)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>Military Hospital Returns, 1778 (4 folders)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="opaperfolder">1</container>
+                     <unittitle>Oversize Military Hospital Returns, 1778 (1 folder)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">3</container>
+                     <unittitle>Military Hospital Returns, 1779 (2 folders)</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle>Miltiary Hospital Returns, 1780 and undated (2 folders)</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <unittitle>
+                     <emph render="bold">Printed Material, 1777-1780</emph> (1 folder)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">In Congress Resolved...,</title>April 7, 1777</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle>Philip Turner, <title xlink:type="simple" render="doublequote" xlink:href="">Rules and Directions for the Better Regulating the Military Hospital of the United States,</title> Feb. 6, 1778</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">4</container>
+                     <unittitle>
+                        <title xlink:type="simple" render="doublequote" xlink:href="">Plan for Conducting the Hospital Department of the United States,</title> Sept. 30, 1780</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>
+                     <emph render="bold">Revolutionary War Claims, 1779-1858 and undated</emph> (5 folders)</unittitle>
+               </did>
+               <scopecontent>
+                  <p>Arranged in original order, possibly in groups originally bundled together.</p>
+               </scopecontent>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s7">Turner Family Papers Series, <unitdate type="inclusive" normal="1776/1881" era="ce" calendar="gregorian">1776-1840, 1881 and undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(3 folders)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Contains correspondence, financial and legal papers, and poetry. The majority of the series is addressed to or stems from John Turner and Nancy Turner, two of Philip Turner's children. Some of the material is related to the efforts of John Turner and John Turner Wait (Philip Turner's grandson) to receive compensation for Turner's Revolutionary War service. Judith Sargent Murray, American essayist and advocate for women's rights, and her husband, John Murray, were friends of the Turners and wrote mainly of family matters as well as one letter from Sargent Murray about the forthcoming publication of her book <emph render="italic">The Gleaner</emph>. The Financial and Legal Papers Subseries includes material from the Department of the Interior Pension Office arranged in original order, as well as the 1812 will for Mehitabel Waterman, of which John Turner is one of the executors. The Writings Subseries includes undated and unsigned poetry and eulogies.</p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <unittitle>
+                     <emph render="bold">Correspondence, 1786-1840, 1881 and undated</emph> (1 folder)</unittitle>
+               </did>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Letter, 8 Sept., 1786, from J. Sargent Murray, Gloucester, Mass., to Mrs. (Lucy) Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Letter, 22 Aug., 1792, from Julia Maria, to Anna Maria Sargent</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Letter, 3 Nov., 1797, from J. Sargent Murray, Boston, to Nancy Turner, Norwich</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Letter, 31 July, 1803, from Eliza A. Pinckney, Charleston, to Nancy Turner, New York</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Letter, 31 June, 1810, from Geo. Turner to John Turner, Norwich</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Letter, 31 Mar., 1825, from John Turner, Norwich, to Alexander Richards, Waddington, NY</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Letter, 18 Sept., 1825, from Mary to Abby Maria Lathrop, New York</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Letter, 22 Feb., 1826, from John Turner to Alexander Richards, Waddington, NY</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Ms., 1 May, 1839, <title xlink:type="simple" render="doublequote" xlink:href="">Company Orders, 7th Company, 18th Regiment Connecticut Milita</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Ms., 29, Aug., 1840, <title xlink:type="simple" render="doublequote" xlink:href="">Company Orders, 7th Company, 18th Regiment Infantry</title>
+                     </unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Letter, 1881, from William McCrady, Cobb, Wis., to John Wait</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Letter, undated, from John Murray, Boston, to Nancy Turner, Gloucester, Mass.</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Letter, undated, from Robert Leckie, to Philip Turner</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Letter, undated, from Philip Turner, to Mrs. King</unittitle>
+                  </did>
+               </c03>
+               <c03>
+                  <did>
+                     <container type="box">5</container>
+                     <unittitle>Blank letterhead, Sayles &amp; Welles Cotton Brokers, Norwich, Conn.</unittitle>
+                  </did>
+               </c03>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>
+                     <emph render="bold">Financial and legal papers, 1776-1838 and undated</emph> (1 folder)</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>
+                     <emph render="bold">Writings, undated</emph> (1 folder)</unittitle>
+               </did>
+            </c02>
+         </c01>
+         <c01 level="series">
+            <did>
+               <unittitle id="s8">War of 1812 Series, <unitdate type="inclusive" normal="1812/1815" era="ce" calendar="gregorian">1812-1815 and undated</unitdate>
+               </unittitle>
+               <physdesc>
+                  <extent>(2 folders)</extent>
+               </physdesc>
+            </did>
+            <scopecontent>
+               <p>Chiefly consists of correspondence relating to Turner's work at Ft. Columbus, in particular the acquisition of supplies and matters relating to Turner's pay. During this period, Turner also attempted to secure a commission. Turner was informed of his appointment as surgeon to the 1st Regiment of Artillery in February 1813, but, as the material in this series shows, an administrative error concerning his first name held up the issuing of his commission. In an effort to correct this mistake, Turner corresponded with Amos Stoddard (Major of the Artillery Corps at Fort Columbus), Henry Dearborn, William Simmons, John Armstrong Jr. (Secretary of War, 1813-1814), Daniel Parker (Chief Clerk of the War Department), and Joseph B. Varnum. Turner also wrote six letters to James Madison and two to James Monroe (then Secretary of War) on the issue of his commission. Turner's commission did not arrive before his death in 1815. </p>
+            </scopecontent>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 31 Mar., 1812, from Philip Turner, to Amos Stoddard, Fort Columbus</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 17 Apr., 1812, from Philip Turner, New York, to Henry Dearborn</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 24 June, 1812, from Amos Stoddard, Washington, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 27 June, 1812, from Philip Turner, Fort Columbus, New York, to Amos Stoddard</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 9 July, 1812, from Amos Stoddard, Washington, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 14 July, 1812, from Philip Turner, Fort Columbus, New York, to Amos Stoddard</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 29 Sept., 1812, from William Simmons, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 31 Dec., 1812, from General Armstrong, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 4 Jan., 1813, from Philip Turner, to John Armstrong</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 5 Jan., 1813, from Charles Gardner, New York (on behalf of John Armstrong), to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 10 Jan., 1813, from William Eustis, New York, to James Monroe</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 11 Jan., 1813, from Philip Turner, New York, to Daniel Parker</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 5 Feb., 1813, from Philip Turner, New York, to John Armstrong</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 12 Feb., 1813, from Daniel Parker, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 11 Mar., 1813, from Philip Turner, New York, to Daniel Parker</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 24 Mar., 1813, from Philip Turner, New York, to William Simmons</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 26 Mar., 1813, from Philip Turner, to John Armstrong</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, Apr., 1813, from unknown, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 1 Apr., 1813, from Thomas Chrystie, New York, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 3 Apr., 1813, from Philip Turner, to William Simmons</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 3 Apr., 1813, from Philip Turner, to George Izard</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 5 Apr., 1813, from Philip Turner, New York, to Francis Le Baron</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 7 Apr., 1813, from Philip Turner, New York, to Francis Le Baron</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 10 Apr., 1813, from Thomas Tudor Tucker, Washington, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 18 Apr., 1813, from Philip Turner, to John Armstrong</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 18 Apr., 1813, from Philip Turner, Fort Columbus, to Daniel Parker</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 29 May, 1813, from Samuel Ackerly to unknown</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 4 June, 1813, from Philip Turner, Fort Columbus, to Daniel Parker</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 14 June, 1813, from Philip Turner, to George Izard</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 10 June, 1813, from Philip Turner, to George Izard</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 24 July, 1813, from Philip Turner, to George Izard</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 28 July, 1813, from Philip Turner, Fort Columbus, to James Madison</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 5 Aug., 1813, from Samuel Ackerly, New York, to Philip Turner, Fort Columbus</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 7 Aug., 1813, from Philip Turner, to Captain Hanham</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 11 Aug., 1813, from Philip Turner, to Samuel Ackerly</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 13 Aug., 1813, from Philip Turner, to Daniel Parker</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 13 Aug., 1813, from Samuel Ackerly, New York, to Philip Turner, Fort Columbus</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 20 Aug., 1813, from Philip Turner, to Samuel Ackerly</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 26 Aug., 1813, from Samuel Ackerly, New York, to Philip Turner, Fort Columbus</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 29 Aug., 1813, from Philip Turner, to Samuel Ackerly</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Ms.,<title xlink:type="simple" render="doublequote" xlink:href="">Medicine &amp; Store as per the Class Book of Mr. Cutts</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 30 Aug., 1813, from Philip Turner, to Richard Cutts</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 11 Sept., 1813, from unknown, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 13 Sept., 1813, from Thomas Chrystie, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 24 Sept., 1813, from John R. Fenwick, New York, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 1 Oct., 1813, from Colonel House, Fort Columbus, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 27 Dec., 1813, from Philip Turner, New York, to Joseph B. Varnum</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 1 Jan., 1814, from Philip Turner, New York, to Mr. Bledsoe</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 18 Jan., 1814, from Philip Turner, New York, to James Madison</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 31 Jan., 1814, from Philip Turner, to John Armstrong</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 1 Feb., 1814, from Philip Turner, to Daniel Parker</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 5 Feb., 1814, from Philip Turner, to Joseph B. Varnum</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 2 Mar., 1814, from Philip Turner, New York, to John Armstrong</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 3 Mar., 1814, from Philip Turner, New York, to James Madison</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 10 Apr., 1814, from Philip Turner, New York, to John Armstrong</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 27 June, 1814, from Philip Turner, New York, to James Madison</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 27 June, 1814, from Philip Turner, New York, to James Madison</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 2 July, 1814, from Philip Turner, New York, to Daniel Parker</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 20 July, 1814, from Philip Turner, to the editor of the <title xlink:type="simple" render="italic" xlink:href="">National Advocate</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 29 July, 1814, from Philip Turner, to Francis Le Baron</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Ms., <title xlink:type="simple" render="doublequote" xlink:href="">Copies of the Orders drawn by Doctor Le Baron, apothecary to Mr. Leefe, druggist, Messrs. Talman and Torry and Major Baron, assistant Quarter-master, 29 July 1814</title>
+                  </unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 18 Aug., 1814, from Philip Turner, New York, to James Madison</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 24 Aug., 1814, from Francis Le Baron, New York, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 5 Sept., 1814, from unknown, to Philip Turner</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 18 Oct., 1814, from Philip Turner, New York, to James Monroe</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 21 Oct., 1814, from Philip Turner, New York, to James Monroe</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 18 Nov., 1814, from Philip Turner, New York, to George M. Troup</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, 2 Feb., 1815, from Philip Turner, New York, to Daniel Parker</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, undated, from unknown, to Joseph B. Varnum</unittitle>
+               </did>
+            </c02>
+            <c02>
+               <did>
+                  <container type="box">5</container>
+                  <unittitle>Letter, undated, from Philip Turner, to John Armstrong</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

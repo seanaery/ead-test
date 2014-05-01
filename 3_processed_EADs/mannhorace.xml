@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   
+   <eadheader findaidstatus="published" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b">
+      <eadid countrycode="US" mainagencycode="US-NcD" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Horace Mann Hawthorne-Mann family correspondence)//EN" url="http://library.duke.edu/rubenstein/findingaids/mannhorace/">mannhorace</eadid>
+      <filedesc>
+         
+         <titlestmt>
+            
+            <titleproper>Preliminary Guide to the Horace Mann Hawthorne-Mann family correspondence, 1853-1865 and undated (bulk 1864-1865)</titleproper>
+            
+            <author>Processed by: Kate Crassons; machine-readable finding aid created by: Ruth E. Bryan</author>
+         
+         </titlestmt>
+         
+         <publicationstmt>
+            <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library</publisher>
+            <address>
+               <addressline>Duke University</addressline>
+               <addressline>Durham, NC 27708 U.S.A.</addressline>
+               <addressline>919-660-5822</addressline>
+               <addressline>special-collections@duke.edu</addressline>
+            </address>
+            <date>2002</date>
+         </publicationstmt>
+         
+      
+      </filedesc>
+      <profiledesc>
+         <creation>Machine-readable finding aid derived from automated markup system and XMetaL software. Date of source: May 21, 2002 Processed by Kate Crassons May 21, 2002; Finding Aid encoded by Ruth E. Bryan, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University, May 24, 2002<date>May 24, 2002</date>
+         </creation>
+         <langusage>English</langusage>
+         <descrules>Describing Archives: A Content Standard</descrules>
+      </profiledesc>
+      <revisiondesc>
+         <change>
+            <date>2014</date>
+            <item>Converted from dtd to schema and transformed with AT-import-fixer.xsl</item>
+         </change>
+         <change>
+            
+            <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+            
+            <item>PUBLIC "-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Horace Mann Hawthorne-Mann family correspondence)//EN" "mannhorace.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         
+         </change>
+      </revisiondesc>
+   </eadheader>
+   
+   
+   <archdesc level="collection">
+      
+      <did>
+         <unittitle label="Title">Horace Mann Hawthorne-Mann family
+		  correspondence 		  <unitdate calendar="gregorian" era="ce" normal="1853/1865" type="inclusive">1853-1865 and undated, bulk 1864-1865</unitdate>
+         
+         </unittitle>
+         <origination label="Creator">
+            
+            <persname>Mann, Horace, 1844-1868</persname>
+         
+         </origination>
+         <physdesc label="Extent">
+            
+            <extent>0.2 linear feet</extent>
+            
+            <extent>Extent: 17 Items</extent>
+         
+         </physdesc>
+         <repository label="Repository">
+            
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+         
+         </repository>
+         <physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+         <langmaterial label="Language of Materials">English.</langmaterial>
+         <langmaterial>
+            <language langcode="eng"/>
+         </langmaterial>
+         <unitid>mannhorace</unitid>
+         <note label="Language of Materials">
+            <p>Language: English.</p>
+         </note>
+      </did>
+      
+      <descgrp type="admininfo">
+         
+         <head>Administrative Information</head>
+         
+         <accessrestrict>
+            
+            <head>Access Restrictions</head>
+            
+            <p>Collection is open for research.</p>
+            
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         
+         </accessrestrict>
+         
+         <userestrict>
+            
+            <head>Use Restrictions</head>
+            
+            <p>The copyright interests in this collection have not been transferred
+			 to Duke University. For more information, consult the copyright section of the
+			 Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+         
+         </userestrict>
+         
+         <prefercite>
+            
+            <head>Preferred Citation</head>
+            
+            <p>[Identification of item], Horace Mann Hawthorne-Mann family
+			 Correspondence, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
+			 University.</p>
+         
+         </prefercite>
+         
+         <acqinfo>
+            
+            <head>Provenance</head>
+            
+            <p>The Horace Mann Hawthorne-Mann family correspondence was received by
+			 the David M. Rubenstein Rare Book &amp; Manuscript Library as a gift in
+			 2000.</p>
+         
+         </acqinfo>
+         
+         <processinfo>
+            
+            <head>Processing Information</head>
+            
+            <p>Processed by Kate Crassons</p>
+            
+            <p>Completed May 21, 2002</p>
+            
+            <p>Encoded by Ruth E. Bryan</p>
+            
+            
+            <p>This collection is unprocessed: materials may not have been ordered and described beyond their original condition.</p>
+         
+         </processinfo>
+      
+      </descgrp><!-- End of finding aid header -->
+      
+      <bioghist>
+         
+         <head>Biographical Note</head>
+         
+         <p>Son of American educator, reformer, and U.S. Congressman, Horace Mann
+		  (1796-1859). </p>
+      
+      </bioghist><!--End of biohistory--><!--Begin scopecontent-->
+      
+      <scopecontent>
+         
+         <head>Collection Overview</head>
+         
+         <p>Primarily letters to Mann from his family and the family of Nathaniel
+		  Hawthorne. Correspondents include Sophia Hawthorne, Rose Hawthorne, Una
+		  Hawthorne, brother George Mann, mother Mary Tyler Peabody Mann, and Elizabeth
+		  Peabody. Topics include family activities and travels, especially comments on
+		  Mann's descriptions of San Francisco and the Sandwich Islands [now the Hawaiian
+		  Islands]; Nathaniel Hawthorne's death and burial; Abraham Lincoln's death and
+		  burial; and opinions about Civil War events, battles, and personalities.
+		  Includes a letter from Elizabeth Peabody (undated) describing her two visits to
+		  President Lincoln and mentioning General Hitchcock's opinions about Lincoln and
+		  the Civil War. In addition, there is a carte-de-visite of Nathaniel Hawthorne.
+		  Acquired as part of the Alfred and Elizabeth Brand Collection of Rare Books and
+		  Manuscripts. </p>
+      
+      </scopecontent><!--End scopecontent--><!--Begin controlaccess-->
+      
+      <controlaccess>
+         <head>Subject Headings</head>
+         <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
+         <persname>Mann, Horace, 1844-1868</persname>
+         <persname>Mann, Mary Tyler Peabody, 1806-1887</persname>
+         <persname>Peabody, Elizabeth Palmer, 1804-1894</persname>
+         <persname>Hawthorne, Nathaniel, 1804-1864</persname>
+         <persname>Hawthorne, Sophia Peabody, 1809-1871</persname>
+         <persname>Hawthorne, Una, 1844-1877</persname>
+         <persname>Lathrop, Rose Hawthorne, 1851-1926</persname>
+         <subject>Lincoln, Abraham, 1809-1865 -- Death and burial</subject>
+         <subject>Lincoln, Abraham, 1809-1865 -- Public opinion</subject>
+         <famname>Mann family</famname>
+         <famname>Hawthorne family</famname>
+         <subject>United States -- History -- Civil War, 1861-1865 -- Public opinion</subject>
+         <genreform>Carte-de-visite</genreform>
+         <corpname>Alfred and Elizabeth Brand Collection of Rare Books and Manuscripts</corpname>
+      </controlaccess><!--End controlaccess--><!--Begin container list--><!-- Sample of possible container list structure, actual markup depends upon the materials being described. --><!-- Use <physdesc><extent>, <unitdate>, <unittitle>, <scopecontent>, <admininfo><processinfo>, and <admininfo><accessrestrict> if needed. -->
+      
+      <dsc type="combined">
+         
+         <head>Contents of Collection</head>
+         
+         <c01 level="series">
+            
+            <did>
+               
+               <unittitle>Accession 2000-0354</unittitle>
+            
+            </did><!--Begin c02 levels here-->
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>Letters To Horace Mann</unittitle>
+               
+               </did>
+               
+               <c03 level="subseries">
+                  
+                  <did>
+                     
+                     <unittitle>From Rose Hawthorne,
+					 1863 March-1864 October
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1863 March 3
+                        </unittitle>
+                     
+                     </did>
+                     
+                     <scopecontent>
+                        
+                        <p>Letter written during Hawthorne's youth.</p>
+                     
+                     </scopecontent>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1864 October 30
+                        </unittitle>
+                     
+                     </did>
+                     
+                     <scopecontent>
+                        
+                        <p>An informal letter.</p>
+                     
+                     </scopecontent>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03 level="subseries">
+                  
+                  <did>
+                     
+                     <unittitle>From Una Hawthorne,
+					 1864 March-1864 August
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1864 March 3
+                        </unittitle>
+                     
+                     </did>
+                     
+                     <scopecontent>
+                        
+                        <p>Topics include a military ball, the Sandwich Islands, and
+						events in Concord.</p>
+                     
+                     </scopecontent>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1864 April 28
+                        </unittitle>
+                     
+                     </did>
+                     
+                     <scopecontent>
+                        
+                        <p>Topics include Julian Hawthorne and Mann's description of
+						San Francisco.</p>
+                     
+                     </scopecontent>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1864 May 30
+                        </unittitle>
+                     
+                     </did>
+                     
+                     <scopecontent>
+                        
+                        <p>Topics include Julian Hawthorne, Una Hathorne's studies, and
+						Mann's dangerous pursuits.</p>
+                     
+                     </scopecontent>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1864 August 3
+                        </unittitle>
+                     
+                     </did>
+                     
+                     <scopecontent>
+                        
+                        <p>Topics include a camping expedition to Mt. Monadnock, her
+						father's (Nathaniel Hawthorne's) death, Mann's description of the Hawaiian
+						Islands, a fair for colored children, and family and friends.</p>
+                     
+                     </scopecontent>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03 level="subseries">
+                  
+                  <did>
+                     
+                     <unittitle>From George Mann,
+					 1864 May-1865 April
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1864 May 29
+                        </unittitle>
+                     
+                     </did>
+                     
+                     <scopecontent>
+                        
+                        <p>Topics include Nathaniel Hawthorne's funeral and his burial
+						location in Sleepy Hollow.</p>
+                     
+                     </scopecontent>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1865 April 18
+                        </unittitle>
+                     
+                     </did>
+                     
+                     <scopecontent>
+                        
+                        <p>Topics include the death of Abraham Lincoln, church
+						services, and the reaction to Lincoln's death in Boston.</p>
+                     
+                     </scopecontent>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03 level="subseries">
+                  
+                  <did>
+                     
+                     <unittitle>From Mann's Mother, Mary Tyler Peabody Mann,
+					 1864 May-1865 April
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1864 May 30
+                        </unittitle>
+                     
+                     </did>
+                     
+                     <scopecontent>
+                        
+                        <p>Topics include Nathaniel Hawthorne's funeral.</p>
+                     
+                     </scopecontent>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1864 July 23
+                        </unittitle>
+                     
+                     </did>
+                     
+                     <scopecontent>
+                        
+                        <p>Topics include the Civil War, troop movements, battles, and
+						specific military leaders such as Grant and Jackson.</p>
+                     
+                     </scopecontent>
+                  
+                  </c04>
+                  
+                  <c04>
+                     
+                     <did>
+                        
+                        <unittitle>
+                           1865 April 20
+                        </unittitle>
+                     
+                     </did>
+                     
+                     <scopecontent>
+                        
+                        <p>Topics include Lincoln's death and Reconstruction.</p>
+                     
+                     </scopecontent>
+                  
+                  </c04>
+               
+               </c03>
+               
+               <c03 level="subseries">
+                  
+                  <did>
+                     
+                     <unittitle>From Sophia Hawthorne,
+					 1864 October 30
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <processinfo>
+                     
+                     <p>Attention: Contains graphic materials.</p>
+                  
+                  </processinfo>
+                  
+                  <scopecontent>
+                     
+                     <p>Topics include the character of her husband, Nathaniel
+					 Hawthorne, and the difficulty of life after his death. The letter also contains
+					 a carte-de-visite of Nathaniel Hawthorne.</p>
+                  
+                  </scopecontent>
+               
+               </c03>
+               
+               <c03 level="subseries">
+                  
+                  <did>
+                     
+                     <unittitle>From Elizabeth Peabody, no date</unittitle>
+                  
+                  </did>
+                  
+                  <scopecontent>
+                     
+                     <p>Topics include her visits with Lincoln and General Hitchcock's
+					 comments on the Civil War.</p>
+                  
+                  </scopecontent>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>Letter to Elizabeth</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>From Sophia Hawthorne,
+					 1858 November 21
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <scopecontent>
+                     
+                     <p>Topics include her family, travels to Europe, and a visit with
+					 the Brownings.</p>
+                  
+                  </scopecontent>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>Letter to Mary Mann</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>From Rose Hawthorne,
+					 December 9 (no year)
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <scopecontent>
+                     
+                     <p>Topics include her health and her child's education. </p>
+                  
+                  </scopecontent>
+               
+               </c03>
+            
+            </c02>
+            
+            <c02 level="subseries">
+               
+               <did>
+                  
+                  <unittitle>Letter to [Nathaniel Peabody]</unittitle>
+               
+               </did>
+               
+               <c03>
+                  
+                  <did>
+                     
+                     <unittitle>From Sophia Hawthorne,
+					 1853 October 20
+                     </unittitle>
+                  
+                  </did>
+                  
+                  <scopecontent>
+                     
+                     <p>Topics include the family's social engagments and activities
+					 in England.</p>
+                  
+                  </scopecontent>
+               
+               </c03>
+            
+            </c02>
+         
+         </c01>
+      
+      </dsc>
+   
+   </archdesc>
+
+</ead>

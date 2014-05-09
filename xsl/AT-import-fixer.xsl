@@ -442,29 +442,46 @@
     </xsl:attribute>
   </xsl:template>
   
+
+<!-- DAO Fixes -->
   
-<!-- Assign container element for every lowest level component based on immediate preceding container assigned (not always a sibling)
-Use this logic:
-Find all lowest level c0x/did without a container and assign container value and attribute based on immediate preceding container at sibling or ancestor node
+  <!-- Supplies dao@title when missing; derives from unittitle; standardizes other attribute values -->
+  <xsl:template match="ead:dao[not(@xlink:title)]">
+    <xsl:element name="dao">
+      <xsl:attribute name="xlink:title"><xsl:value-of select="normalize-space(preceding-sibling::ead:unittitle)"/></xsl:attribute>
+      <xsl:attribute name="xlink:type">simple</xsl:attribute>
+      <xsl:attribute name="xlink:role">Image-Service</xsl:attribute>
+      <xsl:attribute name="xlink:actuate">onRequest</xsl:attribute>
+      <xsl:attribute name="xlink:show">new</xsl:attribute>
+      <xsl:attribute name="xlink:href"><xsl:value-of select="./@xlink:href"/></xsl:attribute>
+      
+    </xsl:element>    
+  </xsl:template>
+  
+  <!-- Standardizes other dao attribute values -->
+  <xsl:template match="ead:dao[@xlink:title]">
+    <xsl:element name="dao">
+      <xsl:attribute name="xlink:title"><xsl:value-of select="./@xlink:title"/></xsl:attribute>
+      <xsl:attribute name="xlink:type">simple</xsl:attribute>
+      <xsl:attribute name="xlink:role">Image-Service</xsl:attribute>
+      <xsl:attribute name="xlink:actuate">onRequest</xsl:attribute>
+      <xsl:attribute name="xlink:show">new</xsl:attribute>
+      <xsl:attribute name="xlink:href"><xsl:value-of select="./@xlink:href"/></xsl:attribute>
+    </xsl:element>    
+  </xsl:template>
+  
+  <!-- Whitmaniana dao fixes only for daogrp, ignores existing daos for thumbs -->
+  <xsl:template match="ead:daogrp">
+    <xsl:element name="dao">
+      <xsl:attribute name="xlink:title"><xsl:value-of select="normalize-space(preceding-sibling::ead:unittitle)"/></xsl:attribute>
+      <xsl:attribute name="xlink:type">simple</xsl:attribute>
+      <xsl:attribute name="xlink:role">Image-Service</xsl:attribute>
+      <xsl:attribute name="xlink:actuate">onRequest</xsl:attribute>
+      <xsl:attribute name="xlink:show">new</xsl:attribute>
+      <xsl:attribute name="xlink:href"><xsl:value-of select="ead:daoloc[@xlink:role='reference']/@xlink:href"/></xsl:attribute>
+    </xsl:element>
+  </xsl:template>
 
-<xsl:template match="ead:c02//ead:did[not(ead:container)]">
-
-Assign container to everything matched by this template based on last container value assigned
-
-</xsl:template>
-
--->  
-
-
-<!-- Assign level attribute for every component.
-    Levels attribute values include Series, Subseries (R), File, Item
-        
-Use this Logic:
--Lowest level components that have no level, are below a file, and not item = file
--Component below a subseries with no level=file (not always true, but probably safe to assign level)
--
-
--->
 
   <!-- GENERAL UTILITIES -->
   

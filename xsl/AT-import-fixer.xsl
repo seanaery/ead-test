@@ -10,6 +10,10 @@
   <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 
 
+<!-- Call document eadid2rlid_dataset.xml.  This document includes eadid to RLID mappings, used to insert <unitid> in processed EADs -->
+  <xsl:variable name="eadid2rlid"
+    select="document('eadid2rl_dataset.xml')"/>
+
   <!--Identity template to copy entire EAD document -->
   <xsl:template match="@*|node()" name="identity">
     <!-- identity transform is default -->
@@ -202,15 +206,29 @@
  <!-- ARCHDESC collection-level fixes -->
 
 
-  <!-- Supplies EADID as <unitid> and writes langmaterial to Generic <note> element with 'Language: ' prefix to preserv prose language statements in AT.  
+  <!-- Uses eadid2rlid.xml mappings to write rlid as unitid by matchign on eadid in both docs; 
+    also writes langmaterial to Generic <note> element with 'Language: ' prefix to preserv prose language statements in AT.  
     This is a hack, but no other way to get prose statements in AT-->
+  
   <xsl:template match="ead:archdesc/ead:did">
     <xsl:element name="did">
       <xsl:apply-templates select="*"/>
       
+      <!-- local variable for storing eadid string in source xml document -->
+      <xsl:variable name="eadid_string" select="//ead:eadid"/>    
+      <xsl:for-each select="$eadid2rlid/data/record"> <!-- calls eadid2rlid.xml document to match on eadid -->
+          <xsl:if test="eadid=$eadid_string">
+            <xsl:element name="unitid">
+              <xsl:value-of select="rlid"/>
+            </xsl:element>       
+          </xsl:if>      
+      </xsl:for-each>
+     
+      <!-- supplies eadid as unitid
       <xsl:element name="unitid">
         <xsl:value-of select="//ead:eadid"/>
       </xsl:element>
+      -->
       
       <xsl:if test="ead:langmaterial">
       <xsl:element name="note"><xsl:attribute name="label">Language of Materials</xsl:attribute><xsl:element name="p">Language: <xsl:value-of select="normalize-space(ead:langmaterial)"/></xsl:element></xsl:element>
@@ -419,7 +437,7 @@
   </xsl:template>  
   
 <!-- Removes empty container elements. Borrowed from UVA_as_munger.xsl -->
-  <xsl:template match="ead:did/ead:container[normalize-space()='']"/>
+  <xsl:template match="ead:did/ead:container[normalize-space()='']" mode="empty_containers"/>
   
   
  <!-- Normalizes space on container type attribute and container value --> 

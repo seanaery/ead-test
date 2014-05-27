@@ -14,7 +14,11 @@
   <xsl:variable name="eadid2rlid"
     select="document('eadid2rl_dataset.xml')"/>
 
-  <!--Identity template to copy entire EAD document -->
+<!-- Call document controlaccess_cleaner_dataset.xml.  This document includes mappings from original controlaccess strings in source data to terms cleaned via GoogleRefine -->
+  <xsl:variable name="control_access_cleaner_dataset"
+    select="document('controlaccess_cleaner_dataset.xml')"/>
+
+  <!--Identity template to copy entire EAD source document -->
   <xsl:template match="@*|node()" name="identity">
     <!-- identity transform is default -->
     <xsl:copy>
@@ -69,8 +73,6 @@
       </xsl:choose>
     </xsl:element>  
   </xsl:template>
-
-
 
 
 <!-- Set status of all finding aids to Published -->
@@ -344,7 +346,7 @@
   
   
 
-  <!-- Consolidate both abstract fields into one. Seems to work. -->
+<!-- Consolidate both abstract fields into one. Seems to work. -->
   <xsl:template match="ead:archdesc/ead:did/ead:abstract[1]">
     <xsl:element name="abstract">
       <xsl:value-of select="."/>
@@ -380,14 +382,13 @@
 
 
   <!--Removes <item> tags from controlaccess terms if present- will not import to AT otherwise.
-  Is there any content in controlaccess not in list tags?  Might want to test.
-  ALERT!!! SEE cases of mixed tags inside <item> kwileckipaul.xml -->
+  Is there any content in controlaccess not in list tags?  Yes, but I think I caught all of these and fixed in source files -->
 
   <xsl:template match="ead:controlaccess">
     <xsl:choose>
       <xsl:when test="ead:list">
         <xsl:element name="controlaccess">
-          <xsl:apply-templates select="ead:head|ead:p|ead:list/ead:item/ead:*"/>
+          <xsl:apply-templates select="ead:head|ead:list/ead:item/ead:*"/>
         </xsl:element>
       </xsl:when>
       <xsl:otherwise>
@@ -398,14 +399,100 @@
     </xsl:choose>
   </xsl:template>
 
-
-  <!-- Normalizes space on all controlaccess terms (within <list> or not)-->
+<!-- OLD TEMPLATE THAT DOESN'T REPLACE WITH CLEANED TERMS. Normalizes space on all controlaccess terms (within <list> or not)
   <xsl:template
     match="ead:controlaccess//ead:persname/text()|ead:controlaccess//ead:corpname/text()|ead:controlaccess//ead:geogname/text()|ead:controlaccess//ead:genreform/text()|ead:controlaccess//ead:famname/text()|ead:controlaccess//ead:subject/text()">
     <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
+-->
 
+
+<!-- NEW TEMPLATES that supply cleaned headings from GoogleRefine -->
+<!-- Requires that source terms in incoming EAD exactly match 'original_term' field in controlaccess_cleaner_dataset.xml Otherwise, terms will be removed from output-->
+
+  <xsl:template match="//ead:controlaccess//ead:persname">
+    <xsl:variable name="original_source_term" select="."/>  
+    <xsl:variable name="eadid_from_source" select="ancestor::ead:ead//ead:eadid"/> 
+    <xsl:for-each select="$control_access_cleaner_dataset/data/term"> <!-- calls controlaccess_cleaner_dataset.xml document to match on original_source_term sting -->
+        <xsl:if test="original_term[following-sibling::term_type='persname']=normalize-space($original_source_term) and original_term[following-sibling::eadid_term_source=$eadid_from_source]=normalize-space($original_source_term)"> <!-- only does find and replace if matches on persname -->
+         <xsl:element name="persname">
+           <xsl:apply-templates select="$original_source_term/@source | $original_source_term/@encodinganalog"/>
+           <xsl:value-of select="cleaned_term"/>
+         </xsl:element>
+       </xsl:if>
+   </xsl:for-each>  
+  </xsl:template>
   
+  
+  <xsl:template match="//ead:controlaccess//ead:corpname">
+    <xsl:variable name="original_source_term" select="."/>
+    <xsl:variable name="eadid_from_source" select="ancestor::ead:ead//ead:eadid"/>     
+    <xsl:for-each select="$control_access_cleaner_dataset/data/term"> <!-- calls controlaccess_cleaner_dataset.xml document to match on original_source_term sting -->
+      <xsl:if test="original_term[following-sibling::term_type='corpname']=normalize-space($original_source_term) and original_term[following-sibling::eadid_term_source=$eadid_from_source]=normalize-space($original_source_term)"> <!-- only does find and replace if matches on persname -->
+        <xsl:element name="corpname">
+          <xsl:apply-templates select="$original_source_term/@source|$original_source_term/@encodinganalog"/>
+          <xsl:value-of select="cleaned_term"/>
+        </xsl:element>       
+      </xsl:if>      
+    </xsl:for-each>  
+  </xsl:template>
+  
+  <xsl:template match="//ead:controlaccess//ead:famname">
+    <xsl:variable name="original_source_term" select="."/>    
+    <xsl:variable name="eadid_from_source" select="ancestor::ead:ead//ead:eadid"/> 
+    <xsl:for-each select="$control_access_cleaner_dataset/data/term"> <!-- calls controlaccess_cleaner_dataset.xml document to match on original_source_term sting -->
+      <xsl:if test="original_term[following-sibling::term_type='famname']=normalize-space($original_source_term) and original_term[following-sibling::eadid_term_source=$eadid_from_source]=normalize-space($original_source_term)"> <!-- only does find and replace if matches on persname -->
+        <xsl:element name="famname">
+          <xsl:apply-templates select="$original_source_term/@source|$original_source_term/@encodinganalog"/>
+          <xsl:value-of select="cleaned_term"/>
+        </xsl:element>       
+      </xsl:if>      
+    </xsl:for-each>  
+  </xsl:template>
+  
+  <xsl:template match="//ead:controlaccess//ead:geogname">
+    <xsl:variable name="original_source_term" select="."/>    
+    <xsl:variable name="eadid_from_source" select="ancestor::ead:ead//ead:eadid"/> 
+    <xsl:for-each select="$control_access_cleaner_dataset/data/term"> <!-- calls controlaccess_cleaner_dataset.xml document to match on original_source_term sting -->
+      <xsl:if test="original_term[following-sibling::term_type='geogname']=normalize-space($original_source_term) and original_term[following-sibling::eadid_term_source=$eadid_from_source]=normalize-space($original_source_term)"> <!-- only does find and replace if matches on persname -->
+        <xsl:element name="geogname">
+          <xsl:apply-templates select="$original_source_term/@source|$original_source_term/@encodinganalog"/>
+          <xsl:value-of select="cleaned_term"/>
+        </xsl:element>       
+      </xsl:if>      
+    </xsl:for-each>  
+  </xsl:template>
+  
+  <xsl:template match="//ead:controlaccess//ead:genreform">
+    <xsl:variable name="original_source_term" select="."/>    
+    <xsl:variable name="eadid_from_source" select="ancestor::ead:ead//ead:eadid"/> 
+    <xsl:for-each select="$control_access_cleaner_dataset/data/term"> <!-- calls controlaccess_cleaner_dataset.xml document to match on original_source_term sting -->
+      <xsl:if test="original_term[following-sibling::term_type='genreform']=normalize-space($original_source_term) and original_term[following-sibling::eadid_term_source=$eadid_from_source]=normalize-space($original_source_term)"> <!-- only does find and replace if matches on persname -->
+        <xsl:element name="genreform">
+          <xsl:apply-templates select="$original_source_term/@source|$original_source_term/@encodinganalog"/>
+          <xsl:value-of select="cleaned_term"/>
+        </xsl:element>       
+      </xsl:if>      
+    </xsl:for-each>  
+  </xsl:template>
+  
+  <xsl:template match="//ead:controlaccess//ead:subject">
+    <xsl:variable name="original_source_term" select="."/>    
+    <xsl:variable name="eadid_from_source" select="ancestor::ead:ead//ead:eadid"/> 
+    <xsl:for-each select="$control_access_cleaner_dataset/data/term"> <!-- calls controlaccess_cleaner_dataset.xml document to match on original_source_term sting -->
+      <xsl:if test="original_term[following-sibling::term_type='subject']=normalize-space($original_source_term) and original_term[following-sibling::eadid_term_source=$eadid_from_source]=normalize-space($original_source_term)"> <!-- only does find and replace if matches on persname -->
+        <xsl:element name="subject">
+          <xsl:apply-templates select="$original_source_term/@source|$original_source_term/@encodinganalog"/>
+          <xsl:value-of select="cleaned_term"/>
+        </xsl:element>       
+      </xsl:if>      
+    </xsl:for-each>  
+  </xsl:template>
+  
+  <!-- END CONTROL ACCESS MUNGING -->
+
+
+
   <!-- Removes 'content' tagging from all <p> tags at all levels. -->
  <xsl:template match="ead:archdesc//ead:p/ead:name|ead:archdesc//ead:p/ead:persname|ead:archdesc//ead:p/ead:corpname|ead:archdesc//ead:p/ead:famname|ead:archdesc//ead:p/ead:geogname|ead:archdesc//ead:p/ead:subject|ead:archdesc//ead:p/ead:genreform">
     <xsl:value-of select="."/>
@@ -413,7 +500,7 @@
 
 
 
-  <!--DATE FIXING STUFF? -->
+<!--DATE FIXING STUFF? -->
 <!-- Most dates fixed using Oxygen XPATH Regex Find and Replace prior to conversion to EAD schema -->
 
 <!-- Remove all normal date attributes from c02 components and below. Eliminates lots of incorrect machine-created normal dates.  
@@ -421,7 +508,7 @@
 <xsl:template match="ead:c02//ead:unitdate/@normal"/>
 
 
-  <!-- DSC CONTAINER LEVEL STUFF -->
+<!-- DSC CONTAINER LEVEL STUFF -->
   
 <!--Removes unitdate tags from c01 components and below to account for inconsistent normal dates and mixed content
  where some date info is inside unittitle but outside of date

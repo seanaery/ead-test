@@ -14,10 +14,25 @@ Directories:
 ----------------
 * XML files after AT-import-fixer.xsl transform, which readies them for AT migration
 
+other_files
+-----------
+* controlaccess_extracted.txt -- a tabbed file of controlaccess terms extracted from schema-valid-EADs folder, used to import to GoogleRefine for cleaning
+* controlaccess_cleaned-txt.xls -- a spreadsheet generated from GoogleRefine contains old and cleaned up controlaccess terms, used to export controlaccess-cleaner-dataset.xml in xsl folder.
+* controlaccess-mapping-schema.xml -- a fake xml record that Excel uses to associate schema with spreadsheet, and output records in proper xml format
+* eadid2rlid_tsv.txt -- a tabbed text file of eadid values and rlid values extracted from schema-valid-EADs folder using eadid-extractor.xsl in xsl folder
+* eadid2rlid_mapping.xlsx -- a spreadsheet with mappings from eadid values to rlid values, used to generate 
+eadid2rl_dataset.xml in xsl folder
+* eadid2rl_schema.xml -- a fake xml record that Excel uses to associate schema with spreadsheet, and ouput records in proper xml format
+
 xsl
 ---
 * dtd2schema.xsl -- transforms EADs from 2002 EAD DTD to Schema
 * AT-import-fixer.xsl -- transforms the schema-ready EADs into AT-ready form
+* eadid_extractor.xsl -- extracts eadid values from schema-valid-EADs into eadid2rlid.txt
+* eadid2rl_dataset.xml -- XML file containing eadid to rlid mappings, file is accessed by AT-import-fixer.xsl to insert rlids in <unitid> tag
+* controlaccess_extractor.xsl -- extracts controlaccess terms, term type, and eadid, from EADs in 2-schema-valid-EADs. Used to produce old term | cleaned term mappings
+* controlaccess-cleaner-dataset.xml -- XML file containing mappings from old extracted controlaccess terms to terms cleaned up using GoogleRefine.  This file is accessed by AT-import-fixer.xsl to replace old terms with new terms during processing.
+* container-type-list.xsl -- extracts list of contain types and labels used in rbmscl EADs.  This file is only used to identify issues.  It is not involved in processing files.
 
 Test Stuff Added from Windows
 ------------------------

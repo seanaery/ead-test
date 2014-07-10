@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
    <eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" findaidstatus="unverified-full-draft" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
-      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Earl E. Thorpe Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/thorpe/">thorpe</eadid>
+      <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Earl E. Thorpe papers, 1942-1990 and undated)//EN" url="http://library.duke.edu/rubenstein/findingaids/thorpe/">thorpe</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Earl E. Thorpe Papers, <date normal="1942/1990" type="inclusive" era="ce" calendar="gregorian">1942-1990</date>
             </titleproper>
-            <author>Processed by: Alexander X. Byrd
-; machine-readable finding aid created by: Stephen Dougals Miller</author>
+            <author>Processed by: Alexander X. Byrd; machine-readable finding aid created by: Paula Jeannet Mangiafico, Stephen Douglas Miller</author>
          </titlestmt>
          <publicationstmt>
             <p>
-               <date era="ce" calendar="gregorian"> 1993</date>
+               <date era="ce" calendar="gregorian"> 1993, 2011</date>
  Duke University. All Rights Reserved.</p>
          </publicationstmt>
          <notestmt>
@@ -23,29 +22,16 @@
       </filedesc>
       <profiledesc>
          <creation>Machine-readable finding aid derived from paper by re-keying.
-				<lb/>Processed by: Alexander X. Byrd November 15, 1993; Finding Aid encoded by Stephen Dougals Miller, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University. 
-				<date calendar="gregorian" era="ce">February 11, 1997</date>
+				<lb/>Processed by: Alexander X. Byrd November 15, 1993; finding aid encoded by Stephen Douglas Miller, Paula Jeannet Mangiafico, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.
+				<date calendar="gregorian" era="ce">1997, 2011</date>
          </creation>
          <langusage>Description is in <language>English.</language>
          </langusage>
       </profiledesc>
-      <revisiondesc>
-         <change>
-            <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
-            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::The Earl E. Thorpe Papers)//EN" "thorpe.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
-            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
-            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
-            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
-         </change>
-         <change>
-            <date calendar="gregorian" era="ce">June 29, 1998</date>
-            <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
-         </change>
-      </revisiondesc>
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Earl E. Thorpe Papers, <date calendar="gregorian" era="ce">1942-1990</date>
+         <titleproper>Guide to the Earl E. Thorpe papers, <date calendar="gregorian" era="ce">1942-1990</date>
          </titleproper>
          <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke University<lb/>Durham, North Carolina</publisher>
          <p> 1993 Duke University. All rights reserved.</p>
@@ -59,40 +45,51 @@
          <origination label="Creator">
             <persname>Thorpe, Earl Endris, 1924-1989</persname>
          </origination>
-         <physdesc label="Extent">
-            <extent>1.7 Linear Feet</extent>
-            <extent>circa 1,225 Items</extent>
-         </physdesc>
          <repository label="Repository">
             <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
          </repository>
          <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
-         <langmaterial label="Language">
-            <language langcode="eng">English.</language>
+         <langmaterial label="Language of Material" encodinganalog="546">Material in <language langcode="eng"> English</language>
          </langmaterial>
+         <physdesc label="Extent">
+            <extent unit="linear feet" encodinganalog="300">2.0 Linear Feet</extent>
+            <lb/>
+            <extent unit="items">Approx. 1,225 Items</extent>
+         </physdesc>
+         <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
+         <abstract label="Abstract" encodinganalog="545">Historian, professor, clergyman, and activist; resident of Durham, N.C.</abstract>
+         <abstract encodinganalog="520">The papers of Earl E. Thorpe span the years 1942-1990, the bulk of the materials having been generated during the years 1965 to 1982. Primarily, materials in the collection address Thorpe's work at North Carolina Central University (formerly North Carolina College), and his tenure as visiting professor at Harvard and Duke universities. Topics include student activism, teaching, racial and departmental politics on campus, and the development of viable African American Studies programs.  Thorpe's service as chair of the program committee for the 1979 meeting of the Association for the Study of Afro-American Life and History (ASALH), and his term as president of the ASALH in 1980 are also well represented.  Personal correspondence with family and students, and material reflective of Thorpe's life in the ministry are scattered throughout.  Some materials also touch on North Carolina and Durham politics and race relations.</abstract>
       </did>
       <descgrp type="admininfo">
          <head>Administrative Information</head>
-         <accessrestrict>
+         <accessrestrict encodinganalog="506">
             <head>Access Restrictions</head>
             <p>Collection is open for research.</p>
-            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
-            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            <p>However, collection may contain materials to which the Acknowledgment of Legal Responsibilities and Privacy Rights form applies. Patrons must sign this form before using this collection.</p>
+            <p>Also, all or portions of this collection may be housed off-site in Duke University's Library Service Center. Consequently, there may be a 24-hour delay in obtaining these materials.</p>
             <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
          </accessrestrict>
-         <userestrict>
-            <head>Use Restrictions</head>
-            <p>The status of the copyright interests in the Thorpe papers is unknown. For further information, see the section on copyright in the David M. Rubenstein Rare Book &amp; Manuscript Library's Regulations and Procedures.</p>
+         <userestrict encodinganalog="540">
+            <head>Copyright Notice</head>
+            <p>The copyright interests in this collection have not been transferred to Duke University. For more information, consult the copyright section of the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
          </userestrict>
-         <acqinfo>
+         <prefercite>
+            <head>Preferred Citation</head>
+            <p>[Identification of item], Earl E. Thorpe papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         </prefercite>
+         <acqinfo encodinganalog="541">
             <head>Provenance</head>
-            <p>The papers of Earl E. Thorpe - clergyman, historian, and activist - were acquired by the David M. Rubenstein Rare Book &amp; Manuscript Library through a gift in 1982. the library acquired additions to the papers in 1985 and 1990, also through gifts.</p>
+            <p>The Earl E. Thorpe papers were received by the David M. Rubenstein Rare Book &amp; Manuscript Library as a
+gift in 1982, 1985 and 1990.
+</p>
          </acqinfo>
          <processinfo>
             <head>Processing Information</head>
-            <p>Processed by: Alexander X. Byrd</p>
-            <p>Completed November 15, 1993</p>
-            <p>Encoded by Stephen Dougals Miller</p>
+            <p>Processed by Alexander X. Byrd, November 1993</p>
+            <p>Encoded by Paula Jeannet Mangiafico, Stephen Douglas Miller, 1993 and 2011</p>
+            <p>Accession(s) described in this finding aid: 3-18-82, 3-22-82, 7-6-82, 9-25-85, and 90-100</p>
+            <p>Descriptive sources and standards used to create this inventory: <title xlink:type="simple" render="italic" xlink:href="">DACS,</title> EAD, NCEAD guidelines, and local <title xlink:type="simple" render="italic" xlink:href="">Style Guide.</title>
+            </p>
             <p>This finding aid is NCEAD compliant.</p>
          </processinfo>
       </descgrp>
@@ -163,37 +160,50 @@
       </bioghist>
       <scopecontent>
          <head>Collection Overview</head>
-         <p>The papers of Earl E. Thorpe - historian, clergyman, and activist - span the years 1942-1990, the bulk of the materials having been generated during the years 1965-1982. The collection consists of six series: <ref xlink:type="simple" target="corr" xlink:href="">Correspondence</ref>, <ref xlink:type="simple" target="writ" xlink:href="">Writings and Speeches</ref>, <ref xlink:type="simple" target="pict" xlink:href="">Pictures</ref>, <ref xlink:type="simple" target="prin" xlink:href="">Printed Material</ref>, <ref xlink:type="simple" target="clip" xlink:href="">Clippings</ref>, and <ref xlink:type="simple" target="gene" xlink:href="">Genealogical Papers</ref>. Primarily, materials in the collection address Thorpe's work at North Carolina Central University (formerly North Carolina College), and his stints as a visiting professor at Harvard and Duke universities. Thorpe's service as chair of the program committee for the 1979 meeting of the Association for the Study of Afro-American Life and History (ASALH), and his term as president of the ASALH in 1980 are also well represented. Personal correspondence with family and students, and material reflective of Thorpe's life in the ministry are scattered throughout.</p>
-         <p>The bulk of the collection consists of the personal and professional correspondence of Thorpe. To 1970, material in the <ref xlink:type="simple" target="corr" xlink:href="">Correspondence Series</ref> centers on departmental politics at North Carolina College - specifically confusion and dissension over Thorpe's promotion to the chair of the history department. Letters from Thorpe's daughter at Spellman College in Atlanta, missives from friends and former students, a World War II era note from Thorpe to Martha V. Branch - Thorpe's future wife - and a small amount of professional correspondence are also represented.</p>
+         <p>The papers of Earl E. Thorpe - historian, clergyman, and activist - span the years 1942 to 1990, the bulk of the materials having been generated during the years 1965-1982. The collection consists of six series: <emph render="bold">Correspondence, Writings and Speeches, Pictures, Printed Material, Clippings</emph>, and <emph render="bold">Genealogical Papers</emph>. Primarily, materials in the collection address Thorpe's work at North Carolina Central University (formerly North Carolina College), and his tenure as visiting professor at Harvard and Duke universities. Thorpe's service as chair of the program committee for the 1979 meeting of the Association for the Study of Afro-American Life and History (ASALH), and his term as president of the ASALH in 1980 are also well represented. Personal correspondence with family and students, and material reflective of Thorpe's life in the ministry are scattered throughout.</p>
+         <p>The bulk of the collection consists of the personal and professional correspondence of Thorpe. To 1970, material in the <emph render="bold">Correspondence Series</emph> centers on departmental politics at North Carolina College - specifically confusion and dissension over Thorpe's promotion to the chair of the history department. Letters from Thorpe's daughter at Spellman College in Atlanta, missives from friends and former students, a World War II era note from Thorpe to Martha V. Branch - Thorpe's future wife - and a small amount of professional correspondence are also represented.</p>
          <p>Beginning in 1971, correspondence turns to Thorpe's appointment as a visiting professor of Afro-American Studies at Harvard University. The letters reveal the substance of Thorpe's classes, and the intellectual environment at Harvard - especially as it concerns the Afro-American studies department. The challenges fading the organization and the development of a viable Afro-American Studies program emerge in correspondence between Thorpe and Ewart Gunier - chair of the Harvard black studies program - letters copied to Thorpe from others, and internal memoranda from Harvard's Afro-American Studies program.</p>
          <p>From 1972 through 1978, correspondence focuses again on Thorpe's duties at North Carolina Central University: tenure proceedings, student activism, class organization, personnel searches, and race politics on campus. Of particular interest are letters concerning the appointment of a white instructor to teach NCCU's Afro-American history survey, and the organization of the Helen G. Edmonds history colloquium. Matters unrelated to the history department or the workings of the campus are touched upon - planning for family reunions, and correspondence concerning Thorpe's health, for example.</p>
-         <p>Beginning in 1978, correspondence turns to Thorpe's duties as chair of the program committee for the 1979 meeting of the Association for the Study of Afro-American Life and History (ASALH). In some detail, the letters recount the organization of the ASALH conference program - especially the politics and compromise involved in such a labor. Principal correspondents are ASALH officials, but included are notes from prominent African American historians. Panel and papers abstracts submitted for the committee's consideration are filed in the series marked <ref xlink:type="simple" target="writ" xlink:href="">Writings and Speeches</ref>. A number of letters and abstracts represent efforts by the Association of Black Women Historians to organize panels at the meeting.</p>
-         <p>In 1980, correspondence shifts to matters concerning Professor Thorpe's tenure as president of the ASALH. The organization of the 1981 conference in New Orleans is prominent. Correspondence pondering the future of the ASALH in light of recent mismanagement is also present. Of material not related to ASALH in this period, correspondence between Thorpe and Lerone Bennet, Jr. is especially interesting. In 1981, Thorpe charges Bennet with plagiarizing Thorpe's work in preparing a piece for <title xlink:type="simple" render="italic" xlink:href="">Ebony</title> magazine. As if preparing for a trial, Professor Thorpe goes so far as to collect evidence and build a case. The matter, however, is never fully resolved.</p>
-         <p>Paul Zwillenberg has written a history honors thesis probing Professor Thorpe's thoughts and writings. <title xlink:type="simple" render="doublequote" xlink:href="">I Dream a World: An Intellectual Biography of Earl Endris Thorpe</title> may be examined in the reading room of the Duke University Archives.</p>
+         <p>Beginning in 1978, correspondence turns to Thorpe's duties as chair of the program committee for the 1979 meeting of the Association for the Study of Afro-American Life and History (ASALH). In some detail, the letters recount the organization of the ASALH conference program - especially the politics and compromise involved in such a labor. Principal correspondents are ASALH officials, but included are notes from prominent African American historians. Panel and papers abstracts submitted for the committee's consideration are filed in the <emph render="bold">Writings and Speeches Series</emph>. A number of letters and abstracts represent efforts by the Association of Black Women Historians to organize panels at the meeting.</p>
+         <p>In 1980, correspondence shifts to matters concerning Professor Thorpe's tenure as president of the ASALH. The organization of the 1981 conference in New Orleans is prominent. Correspondence pondering the future of the ASALH in light of recent mismanagement is also present. Of material not related to ASALH in this period, correspondence between Thorpe and Lerone Bennet, Jr. is especially interesting. In 1981, Thorpe charged Bennet with plagiarizing Thorpe's work in preparing a piece for <title xlink:type="simple" render="italic" xlink:href="">Ebony</title> magazine. As if preparing for a trial, Professor Thorpe went so far as to collect evidence and build a case. The matter, however, was never fully resolved.</p>
+         <p>Paul Zwillenberg has written a history honors thesis probing Professor Thorpe's thoughts and writings. <title xlink:type="simple" render="doublequote" xlink:href="">I Dream a World: An Intellectual Biography of Earl Endris Thorpe</title> may be examined in the reading room of the Rubenstein Library.</p>
       </scopecontent>
       <controlaccess>
          <head>Subject Headings</head>
          <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
          <list type="simple">
             <item>
-               <corpname>Harvard University</corpname>--History -- Sources. </item>
-            <item>
-               <corpname>North Carolina Central University -- History -- 20th century</corpname>
+               <corpname source="lcsh" encodinganalog="610">Harvard University -- History -- Sources</corpname>
             </item>
             <item>
-               <subject>Universities and colleges, Black -- North Carolina -- History -- 20th century. </subject>
+               <corpname source="lcsh" encodinganalog="610">North Carolina Central University -- History -- 20th century</corpname>
             </item>
             <item>
-               <subject>Historians -- United States -- Correspondence. </subject>
+               <subject source="lcsh" encodinganalog="650">African American clergy -- North Carolina</subject>
             </item>
             <item>
-               <subject>Afro-American historians -- North Carolina. </subject>
+               <subject source="lcsh" encodinganalog="650">African American college teachers -- North Carolina -- Durham</subject>
             </item>
             <item>
-               <subject>Afro-American clergy -- North Carolina. </subject>
+               <subject source="lcsh" encodinganalog="650">African American historians -- North Carolina</subject>
             </item>
             <item>
-               <subject>Afro-American college teachers -- North Carolina -- Durham. </subject>
+               <subject source="lcsh" encodinganalog="650">African Americans -- History -- Study and teaching</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Historians -- United States -- Correspondence</subject>
+            </item>
+            <item>
+               <subject source="lcsh" encodinganalog="650">Universities and colleges, Black -- North Carolina -- History -- 20th century</subject>
+            </item>
+            <item>
+               <geogname source="lcsh" encodinganalog="651">Durham (N.C.) -- Politics and government</geogname>
+            </item>
+            <item>
+               <geogname source="lcsh" encodinganalog="651">Durham (N.C.) -- Race relations</geogname>
+            </item>
+            <item>
+               <geogname source="lcsh" encodinganalog="651">North Carolina -- Politics and government</geogname>
             </item>
          </list>
       </controlaccess>
@@ -201,135 +211,123 @@
          <head>Contents of Collection</head>
          <c01 level="series">
             <did>
-               <unittitle id="s1">Earl E. Thorpe Papers, <unitdate normal="1942/1990" type="inclusive" era="ce" calendar="gregorian">1942-1990</unitdate>
+               <unittitle id="s1">Earl E. Thorpe papers, <unitdate type="inclusive" normal="1942/1990" era="ce" calendar="gregorian">1942-1990</unitdate>
                </unittitle>
+               <physdesc>
+                  <extent>(3 boxes)</extent>
+               </physdesc>
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1
-						</container>
-                  <unittitle id="corr">Correspondence, <unitdate calendar="gregorian" era="ce" normal="1944/1980" type="inclusive">1944-1980, Sept.</unitdate>
-                  </unittitle>
+                  <container type="box">1</container>
+                  <unittitle>Correspondence, 1944-1980, Sept.</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2
-						</container>
-                  <unittitle>Correspondence, <unitdate calendar="gregorian" era="ce" normal="1980/1990" type="inclusive">1980, Oct.-1990</unitdate>
-                  </unittitle>
+                  <container type="box">2</container>
+                  <unittitle>Correspondence, 1980, Oct.-1990</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <unittitle id="writ">Writings and Speeches, <unitdate calendar="gregorian" era="ce" normal="1942/1989" type="inclusive">1942-1989</unitdate>
-                  </unittitle>
+                  <container type="box">2</container>
+                  <unittitle>Writings and speeches, 1942-1989</unittitle>
                </did>
                <scopecontent>
-                  <p>Contains a number of <persname>Thorpe</persname>'s sermon notes, tape recordings of <persname>Thorpe </persname>preaching, some of the professor's course syllabi and essays - including a discourse on <persname>Alex Haley</persname>'s <title xlink:type="simple" render="italic" xlink:href="">Roots</title> - and abstracts sent to <persname>Thorpe </persname>in his position as chair of the<date calendar="gregorian" era="ce"> 1979</date>
-                     <corpname>ASALH </corpname>program committee.</p>
+                  <p>Contains a number of Thorpe's sermon notes, tape recordings of Thorpe preaching, some of the professor's course syllabi and essays, including a discourse on Alex Haley's <title xlink:type="simple" render="italic" xlink:href="">Roots</title> and abstracts sent to Thorpe in his position as chair of the 1979 ASALH program committee.</p>
                </scopecontent>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3
-						</container>
-                  <unittitle id="prin">Printed Material, <unitdate calendar="gregorian" era="ce" normal="1970/1989" type="inclusive">1970-1989</unitdate>
-                  </unittitle>
+                  <container type="box">3</container>
+                  <unittitle>Printed material, 1970-1989 </unittitle>
                </did>
                <scopecontent>
-                  <p>Contains programs and publications from the <corpname>ASALH, </corpname>as well as various newsletters, announcements and minutes representing <persname>Thorpe</persname>'s myriad political interests. Fugitive pieces from the <corpname>Durham People's Alliance </corpname>and the <corpname>Edgemont Community Center </corpname>are also included.</p>
+                  <p>Contains programs and publications from the ASALH, as well as various newsletters, announcements, and minutes representing Thorpe's myriad political interests. Fugitive pieces from the Durham People's Alliance and the Edgemont Community Center are also included.</p>
                </scopecontent>
             </c02>
             <c02 level="file">
                <did>
-                  <unittitle id="pict">Pictures, mostly<unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">1950s</unitdate>
-                  </unittitle>
+                  <container type="box">3</container>
+                  <unittitle>Photographs, bulk 1950s </unittitle>
                </did>
                <scopecontent>
-                  <p>Consists of photos from <corpname>North Carolina College </corpname>during the<unitdate calendar="gregorian" era="ce" normal="1950/1959" type="inclusive">1950s.</unitdate> Subjects include <persname>John Wheeler, </persname>
-                     <persname>Alphonso Elder, </persname>
-                     <persname>Albert Turner, </persname>
-                     <persname>Benjamin Mays, </persname>
-                     <persname>Rayford Logan, </persname>and others. Copies of photos from <persname>Thorpe</persname>'s personal collection are also present.</p>
+                  <p>Consists of photos from North Carolina College during the 1950s. Subjects include John Wheeler, Alphonso Elder, Albert Turner, Benjamin Mays, Rayford Logan, and others. Copies of photographs from Thorpe's personal collection are also present.</p>
                </scopecontent>
             </c02>
             <c02 level="file">
                <did>
-                  <unittitle id="clip">Clippings,<unitdate calendar="gregorian" era="ce" normal="1940/1989" type="inclusive">1940s-1980s</unitdate>
-                  </unittitle>
+                  <container type="box">3</container>
+                  <unittitle>Clippings, 1940s-1980s </unittitle>
                </did>
                <scopecontent>
-                  <p>Contains pieces written by or on <persname>Thorpe, </persname>mostly in the local press. Included is a letter <persname>Thorpe </persname>wrote to his high school newspaper while stationed in Italy during World War II. The letter criticized <geogname>Durham</geogname>'s black leaders for what <persname>Thorpe </persname>sees as their less than principles stance on local race matters.</p>
+                  <p>Contains pieces written by or on Thorpe, mostly in the local press. Included is a letter Thorpe wrote to his high school newspaper while stationed in Italy during World War II. The letter criticized Durham's black leaders for what Thorpe sees as their less than principled stance on local race matters.</p>
                </scopecontent>
             </c02>
             <c02 level="file">
                <did>
-                  <unittitle id="gene">Genealogical Papers,<unitdate calendar="gregorian" era="ce" normal="1946" type="inclusive">1946 and undated</unitdate>
-                  </unittitle>
+                  <container type="box">3</container>
+                  <unittitle>Genealogical papers, 1946 and undated </unittitle>
                </did>
                <scopecontent>
-                  <p>Along with official papers, such as <persname>Thorpe</persname>'s <corpname>Army </corpname>discharge and various birth certificates, the Genealogical papers contains drafts of family histories written by <persname>Thorpe.</persname>
-                  </p>
+                  <p>Along with official papers, such as Thorpe's Army discharge and various birth certificates, the genealogical papers contain drafts of family histories written by Thorpe.</p>
                </scopecontent>
             </c02>
             <c02 level="file">
                <did>
-                  <unittitle id="over">Oversize
-						</unittitle>
+                  <unittitle>Oversize</unittitle>
                </did>
                <scopecontent>
-                  <p>Two issues of <title xlink:type="simple" render="italic" xlink:href="">The African World,</title>
-                     <unitdate calendar="gregorian" era="ce" normal="1975" type="inclusive">1975</unitdate>
-                  </p>
+                  <p>Two issues of <title xlink:type="simple" render="italic" xlink:href="">The African World</title>, 1975 </p>
                </scopecontent>
             </c02>
          </c01>
          <c01 level="series">
             <did>
-               <unittitle id="s2">Addition</unittitle>
+               <unittitle id="s2">1990 Addition, <unitdate type="inclusive" normal="1965/1983" era="ce" calendar="gregorian">1965-1983</unitdate>
+               </unittitle>
                <physdesc>
                   <extent>(2 boxes)</extent>
                </physdesc>
             </did>
-            <scopecontent>
-               <p>Unprocessed addition</p>
-            </scopecontent>
-            <c02>
+            <c02 level="file">
                <did>
                   <container type="box">4</container>
-                  <unittitle>Correspondence</unittitle>
+                  <unittitle>Correspondence, 1965-1982</unittitle>
                </did>
             </c02>
-            <c02>
+            <c02 level="file">
                <did>
                   <container type="box">4</container>
-                  <unittitle>Guess Road</unittitle>
+                  <unittitle>Guess Road Citizens' Advisory Committee, 1974</unittitle>
                </did>
             </c02>
-            <c02>
+            <c02 level="file">
                <did>
                   <container type="box">4</container>
-                  <unittitle>Panhellenic Council</unittitle>
+                  <unittitle>Panhellenic Council, 1974</unittitle>
                </did>
             </c02>
-            <c02>
+            <c02 level="file">
                <did>
                   <container type="box">5</container>
-                  <unittitle>Clippings</unittitle>
+                  <unittitle>Clippings, 1973-1982</unittitle>
                </did>
+               <scopecontent>
+                  <p>Clippings deal with various legal matters and race issues. One clipping regarding Miriam Makeba, then-wife of Stokely Carmichael; <title xlink:type="simple" render="doublequote" xlink:href="">White Rule in Black Africa,</title>
+                     <title xlink:type="simple" render="italic" xlink:href="">Journal and Guide</title>, 1973; <title xlink:type="simple" render="doublequote" xlink:href="">Thorpe Connects Racism, Nuclear War,</title>
+                     <title xlink:type="simple" render="italic" xlink:href="">The College of Wooster Voice</title>, 1982; and <title xlink:type="simple" render="doublequote" xlink:href="">The Planter on the Couch: Earl Thorpe and the Psychodynamics of Slavery</title> by John Blassingame, <title xlink:type="simple" render="italic" xlink:href="">Journal of Negro History</title>, 1975. </p>
+               </scopecontent>
             </c02>
-            <c02>
+            <c02 level="file">
                <did>
                   <container type="box">5</container>
-                  <unittitle>D.U. Misc. Coll.</unittitle>
+                  <unittitle>Miscellaneous Papers</unittitle>
                </did>
-            </c02>
-            <c02>
-               <did>
-                  <container type="box">5</container>
-                  <unittitle>Misc. papers</unittitle>
-               </did>
+               <scopecontent>
+                  <p>Folder includes additional correspondence, 1982; <title xlink:type="simple" render="doublequote" xlink:href="">The Untold Story of the Durham Committee on the Affairs of Black People,</title> 1981 by Thorpe; <title xlink:type="simple" render="italic" xlink:href="">State Supported Traditionally Negro Colleges in North Carolina Special Report</title>, 1967 by the North Carolina Board of Higher Education; and <title xlink:type="simple" render="italic" xlink:href="">Department of History and Social Science Self-Study Reports</title>, 1971-1974 from North Carolina College.</p>
+               </scopecontent>
             </c02>
          </c01>
       </dsc>

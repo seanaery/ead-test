@@ -3,7 +3,7 @@
   PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
 <ead><eadheader audience="internal" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2" repositoryencoding="iso15511" scriptencoding="iso15924">
 
-<eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Trent history of medicine manuscripts collection, [1588?], 1661-1994 and undated//EN" url="http://library.duke.edu/rubenstein/findingaids/trenthommss/">trenthommss</eadid>
+<eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::ndd::Trent history of medicine manuscripts collection, [1588?], 1661-1994 and undated, bulk 1750-1980//EN" url="http://library.duke.edu/rubenstein/findingaids/trenthommss/">trenthommss</eadid>
 <filedesc>
 	<titlestmt>
 		<titleproper>Guide to the Trent history of medicine manuscripts collection,
@@ -14,14 +14,9 @@
 
 	<publicationstmt>
 	<publisher><lb/>David M. Rubenstein Rare Book &amp; Manuscript Library <lb/> Duke University <lb/> Durham, N.C., USA </publisher>
-		<p><date normal="2013" encodinganalog="date" era="ce" calendar="gregorian"> 2013</date> Duke University. All Rights Reserved.</p>
+		<p><date normal="2013" encodinganalog="date" era="ce" calendar="gregorian">(C) 2013</date> Duke University. All Rights Reserved.</p>
 	</publicationstmt>
 
-	<notestmt>
-	<note type="ncead">
-	<p>This finding aid is NCEAD compliant.</p>
-	</note>
-	</notestmt>
 </filedesc>
 
 <profiledesc>
@@ -49,8 +44,8 @@
 <head>Descriptive Summary</head>
 <repository label="Repository">
 <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</corpname></repository>
-<origination label="Creator"><persname encodinganalog="100">Trent, Josiah.</persname></origination>
-<unittitle label="Title" encodinganalog="245">Trent History of Medicine manuscripts collection <unitdate normal="1588/1994" type="inclusive" era="ce" calendar="gregorian">[1588?], 1661-1994 and undated </unitdate><unitdate normal="1750/1980" type="bulk" era="ce" calendar="gregorian">bulk 1750-1980</unitdate></unittitle>
+<origination label="Creator"><persname encodinganalog="100">Trent, Josiah</persname></origination>
+<unittitle label="Title" encodinganalog="245">Trent History of Medicine manuscripts collection <unitdate normal="1588/1994" type="inclusive" era="ce" calendar="gregorian">[1588?], 1661-1994 and undated, </unitdate><unitdate normal="1750/1980" type="bulk" era="ce" calendar="gregorian">bulk 1750-1980</unitdate></unittitle>
 
 <langmaterial label="Language of Material" encodinganalog="546">Material in <language langcode="eng"> English</language>
 <language langcode="fre"> French</language>
@@ -60,7 +55,7 @@
 
 <physdesc label="Extent">
 <extent unit="linear feet" encodinganalog="300">8.5 Linear Feet</extent><lb/>
-<extent unit="items">Approximately 6000 Items</extent>
+<extent unit="items">Approx. 6000 Items</extent>
 </physdesc>
 
 <physloc label="Location">For current information on the location of these materials, please consult the Library's online catalog.</physloc>
@@ -68,7 +63,9 @@
 
 <abstract label="Abstract" encodinganalog="545">Josiah Trent (1914-1948) was a thoracic surgeon, Duke Medical Center faculty member, historian, and rare book and manuscripts collector.</abstract>
 
-<abstract encodinganalog="520">The Trent History of Medicine Manuscripts Collection is an artificial collection made up of 780 manuscript collections with a focus on the history of medicine or medical practice in the United States and Europe. The collections were acquired by physician and rare book and manuscripts collector Dr. Josiah Trent of Duke University. The collections range in date from a possible 1588 date to 1994, with the bulk dating from the 1750s-1980s; most consist of 1-10 items, but some are larger, up to 395 items.  They are almost all correspondence collections of well-known physicians and surgeons, political figures, educators, and scientists.  Some also contain reports, engravings, clippings, data, notes, invitations, and other materials.  Topics range widely, and include diseases such as yellow fever and smallpox, treatments and vaccines, women's medicine, mental health and psychology, and the formation of the medical profession and its educational institutions.  Acquired as part of the History of Medicine Collections at Duke University.</abstract>
+<abstract encodinganalog="520">The Trent History of Medicine Manuscripts Collection is an artificial collection made up of 780 manuscript collections with a focus on the history of medicine or medical practice in the United States and Europe. The collections were acquired by physician and rare book and manuscripts collector Dr. Josiah Trent of Duke University. The collections range in date from a possible 1588 date to 1994, with the bulk dating from the 1750s-1980s; most consist of 1 to 10 items, but some are larger, up to several hundred items.  Although they are almost all correspondence collections of well-known physicians and surgeons, political figures, educators, and scientists, many also contain reports, engravings, clippings, data, notes, invitations, and other materials.</abstract>
+
+<abstract encodinganalog="520">Topics range widely, and include epidiemology, with a focus on yellow fever, cholera, cancer, and smallpox; treatments and vaccines; history of surgery and anesthesia; the new fields of neurology, pulmonology, and cardiology; gynecology and women's health topics; mental health and psychology; pharmacology; medical publishing and research; military medicine during the Revolutionary War, the Civil War, World War I, and other conflicts; the formation of the medical profession and its educational institutions; and the personal affairs of the individuals represented in the papers. Childhood diseases and pediatrics are not common themes but there are a few references to them, notably Abigail Adams discussion of vaccinating children against smallpox.  Acquired as part of the History of Medicine Collections at Duke University.</abstract>
 
 </did>
 
@@ -76,10 +73,12 @@
 <head>Administrative Information</head>
 
 <accessrestrict encodinganalog="506">
-<head>Access Restrictions</head><p>Collection is open for research.</p>
+<head>Access Restrictions</head>
+<p>Collection is open for research.</p>
 <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
 <p>Collections with patient records containing personally-identifiable information for individuals that may still be living are closed to use until information can be redacted by staff.</p>
-<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p><p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+<p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to 48 hours to retrieve these materials for research use.</p>
+<p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
 </accessrestrict>
 
 <userestrict encodinganalog="540">
@@ -89,12 +88,12 @@
 
 <prefercite>
 		  <head>Preferred Citation</head>
-		  <p>[Identification of item and Collection it is from], Trent History of Medicine Manuscripts Collection, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+		  <p>[Identification of item and sub-collection], Trent History of Medicine Manuscripts Collection, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
 		</prefercite>
 
 <acqinfo encodinganalog="541">
 <head>Provenance</head>
-<p>Acquired by the Medical Center Library from 1936-1950 as gifts from the Josiah Trent and Mary Duke Biddle Trent Semans family. Transferred to the Rubenstein Library May 2011.</p>
+<p>Acquired by the Medical Center Library from 1936 to 1950 as gifts from the Josiah Trent and Mary Duke Biddle Trent Semans family.  Transferred to the Rubenstein Library May, 2011.</p>
 </acqinfo>
 
 
@@ -114,6 +113,7 @@
 <head>Biographical Note</head>
 
 <p>Josiah Trent was a thoracic surgeon, Duke Medical Center faculty member, historian, and collector of rare book and manuscripts dealing with the history of medicine and medical practice. Many of these purchases were made from Henry and Ida Schuman, rare book dealers based in Detroit, then in New York City, with whom Josiah Trent would form a long friendship. Trent was born in August 1914 in Okmulgee, Oklahoma. Trent received his Bachelor's degree from Duke University, completing his B.A. studies in three years, and entered the University of Pennsylvania Medical School medical school at age 19, graduating in 1938. He married Mary Duke Biddle in 1939. During their ten years of marriage they had four children. In those same years, besides his career as a surgeon, Trent gave lectures on the history of medicine, was chairman of the Duke Hospital Library Committee and served on the executive committee of the Friends of the Library At Duke University.  He was also an Honorary Consultant of ate Army Medical Library.</p>
+
 <p>Dr. Trent died at an early age from lympho-sarcoma in 1948. A few years later, his widow, Mary Duke Biddle Trent Semans,  presented the Duke Medical Center Library with the Josiah C. Trent Collection on the History of Medicine. At the time of his death, his library contained nearly 4,000 volumes and thousands of manuscripts, including the collection of rare and unique history of medicine manuscripts described in this finding aid.</p>
 
 <!-- Use Chronlist Tags clip here for Chronology -->
@@ -123,9 +123,9 @@
 <scopecontent>
 <head>Collection Overview</head>
 
-<p>The Trent History of Medicine Manuscripts Collection is an artificial collection made up of 780 manuscript collections with a focus on the history of medicine or medical practices.  The collections were acquired by surgeon, historian, and rare book and manuscripts collector Dr. Josiah Trent of Duke University.  The collections range in date from a possible 1588 date to 1994, with the bulk representing the 19th and 20th centuries; most consist of 1-10 items, but some are larger, up to 395 items.  They were often purchased by Trent for their autograph value as well as for their historical content.  They are almost all correspondence collections, but many also contain enclosed reports, clippings, data, notes, invitations, engravings, and other materials.</p>
+<p>The Trent History of Medicine Manuscripts Collection is an artificial collection made up of 781 manuscript collections with a focus on the history of medicine or medical practices.  The collections were acquired by surgeon, historian, and rare book and manuscripts collector Dr. Josiah Trent of Duke University.  The collections range in date from a possible 1588 date to 1994, with the bulk representing the 19th and 20th centuries; most consist of 1 to 10 items, but some are larger, up to several hundred items.  They were often purchased by Trent for their autograph value as well as for their historical content.  Although they are almost all correspondence collections, many also contain reports, clippings, data, notes, invitations, engravings, and other materials.</p>
 
-<p>Correspondents include many well-known physicians and surgeons, political figures, educators, and scientists, with an emphasis on physicians and scientists from the United States, France, England, Italy, and Germany.  Among the most notable individuals are: Abigail and John Adams; Elizabeth Blackwell; Daniel Drake; Benjamin Franklin; Oliver Wendell Holmes; Alexander von Humboldt; Thomas Jefferson; Howard Atwood Kelly; Alexander Marcet; Silas Weir Mitchell; Florence Nightingale; Sir William Osler; Louis Pasteur; Frank Lester Pleadwell; Earle Pliny; John Ridlon; Benjamin Rush; Viscount John Jervis St. Vincent; Sir James Young Simpson; Lyman Spalding; Mary Edwards Walker; and Benjamin Waterhouse. </p>
+<p>Correspondents with their own collections as well as those found within other collections include many well-known physicians and surgeons, political figures, educators, and scientists from the United States, France, England, Italy, and Germany.  Among the most notable individuals are: Abigail and John Adams; Elizabeth Blackwell; Daniel Drake; Benjamin Franklin; Oliver Wendell Holmes; Alexander von Humboldt; Thomas Jefferson; Howard Atwood Kelly; Alexander Marcet; Silas Weir Mitchell; Florence Nightingale; Sir William Osler; Louis Pasteur; Earle Pliny; Viscount John Jervis St. Vincent; Sir James Young Simpson; Lyman Spalding; Mary Edwards Walker; and Benjamin Waterhouse. </p>
 
 <p>Topics range widely, and include epidiemology, with a focus on yellow fever, cholera, cancer, and smallpox; treatments and vaccines; history of surgery and anesthesia; the new fields of neurology, pulmonology, and cardiology; gynecology and women's health topics; mental health and psychology; pharmacology; medical publishing and research; military medicine during the Revolutionary War, the Civil War, World War I, and other conflicts; the formation of the medical profession and its educational institutions; and the personal affairs of the individuals represented in the papers. Childhood diseases and pediatrics are not common themes but there are a few references to them, notably Abigail Adams discussion of vaccinating children against smallpox.</p>
 
@@ -136,13 +136,13 @@
 </scopecontent>
 
 <accessrestrict>
-<p>The John Ridlon Papers within the Trent Manuscripts Collection contain case summaries with personally-identifiable information such as full names, dating from the early 20th century. Although the individuals represented are probably deceased, these records and any other similar records are not publicly accessible until the information has been redacted. Please contact the Research Services staff before coming to use this collection.</p>
+<p>The John Ridlon Papers within the Trent Manuscripts Collection contain case summaries with personally-identifiable information such as full names, dating from the early 20th century.  Unless it is evident that the individual is deceased, these records and any other similar records are not accessible until the information has been redacted. Please contact the Research Services staff before coming to use this collection.</p>
 </accessrestrict>
 
 <controlaccess>
 <head>Subject Headings</head>
 <p>These are searchable subject entries for this collection. Performing a search on these subjects in the Duke University Libraries online catalog will bring up other related research materials.</p>
-<list type="simple"><item><persname source="lcsh" encodinganalog="600">Trent, Josiah C. (Josiah Charles), 1914-1948. </persname></item>
+<list type="simple"><item><persname source="lcsh" encodinganalog="600">Trent, Josiah C. (Josiah Charles), 1914-1948</persname></item>
 <item><subject source="lcsh" encodinganalog="650">Autographs -- Collections</subject></item>
 <item><subject source="lcsh" encodinganalog="650">Disease</subject></item>
 <item><subject source="lcsh" encodinganalog="650">Medical education -- History</subject></item>
@@ -172,6 +172,13 @@
 <p>The History of Medicine Collections at Duke University also house many other manuscript collections and books directly related to the authors or content of the Trent Manuscripts Collection. For assistance, please consult with the Curator of the History of Medicine Collections.</p>
 </relatedmaterial>
 
+<separatedmaterial>
+<head>Separated Material</head>
+<p>Several large manuscript collections </p>
+
+</separatedmaterial>
+
+
 <dsc type="combined">
 
 <head>Contents of Collection</head>
@@ -181,7 +188,7 @@
 <c01 level="series">
 <did>
 <unittitle>Trent History of Medicine manuscript collection <unitdate normal="1588/1994" type="inclusive" era="ce" calendar="gregorian">[1588?], 1661-1994 and undated, </unitdate><unitdate normal="1750/1980" type="bulk" era="ce" calendar="gregorian">bulk 1750-1980</unitdate></unittitle>
-<physdesc><extent>(780 collections; approximately 6,000 items)</extent></physdesc>
+<physdesc><extent>(781 collections; approximately 6,000 items)</extent></physdesc>
 </did>
 
 <c02 level="file">
@@ -211,7 +218,7 @@
 <c02 level="file">
 <did><container type="box">1</container>
 <unittitle id="s3">Acland, Henry Wentworth, 1815-1900. Letters,
-<unitdate type="inclusive" normal="1868/1877" era="ce" calendar="gregorian">1868-1877 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1868/1877 and undated" era="ce" calendar="gregorian">1868-1877 and undated</unitdate></unittitle>
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -224,7 +231,7 @@
 <c02 level="file">
 <did><container type="box">1</container>
 <unittitle id="s4">Adamos. Manuscript,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -346,7 +353,7 @@
 <c02 level="file">
 <did><container type="box">1</container>
 <unittitle id="s14">Alibert, Jean-Louis-Marie, 1768-1837. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -405,7 +412,7 @@
 <c02 level="file">
 <did><container type="box">1</container>
 <unittitle id="s19">Apostoli, Georges, 1847-1900. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -441,7 +448,7 @@
 <c02 level="file">
 <did><container type="box">1</container>
 <unittitle id="s22">Arnal, Jean Louis, 1806-1871. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -453,11 +460,11 @@
 <c02 level="file">
 <did><container type="box">1</container>
 <unittitle id="s23">Arsonval, Jacques Arsène d', 1851-1940. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="udnated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
-<p>French physician and physicist. Letter (ALS) to "Cher Confrère et Ami"
+<p>French physician and physicist. Letter (ALS) to "Cher Confrère et Ami."
 </p>
 </scopecontent>
 </c02>
@@ -489,7 +496,7 @@
 <c02 level="file">
 <did><container type="box">1</container>
 <unittitle id="s26">Austin, Benjamin W. Papers,
-<unitdate type="inclusive" normal="1866/1902" era="ce" calendar="gregorian">1866-1902 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1866/1902 adn undated" era="ce" calendar="gregorian">1866-1902 and undated</unitdate></unittitle>
 <physdesc><extent>(11 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -501,7 +508,7 @@
 <c02 level="file">
 <did><container type="box">1</container>
 <unittitle id="s27">Babington, Benjamin Guy, 1794-1866. note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -557,7 +564,7 @@
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
-<p>This signed document is a record of lectures attended at the Königliche Friedrich-Wilhelms-Universität, Berlin. </p>
+<p>This signed document is a record of lectures attended at the K&#246;nigliche Friedrich-Wilhelms-Universität, Berlin. </p>
 </scopecontent>
 </c02>
 
@@ -576,7 +583,7 @@
 <c02 level="file">
 <did><container type="box">1</container>
 <unittitle id="s33">Baillarger, Jules Gabriel François, 1809-1890. Letters,
-<unitdate type="inclusive" normal="1840" era="ce" calendar="gregorian">1840 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1840and undated" era="ce" calendar="gregorian">1840 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -588,7 +595,7 @@
 <c02 level="file">
 <did><container type="box">1</container>
 <unittitle id="s34">Baillie, Matthew, 1761-1823. Letters,
-<unitdate type="inclusive" normal="1819/1820" era="ce" calendar="gregorian">1819-1820 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1819/1820 and undated" era="ce" calendar="gregorian">1819-1820 and undated</unitdate></unittitle>
 <physdesc><extent>(5 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -626,7 +633,7 @@
 <c02 level="file">
 <did><container type="box">1</container>
 <unittitle id="s37">Barclay, Robert G. (Gutzlaff), 1832-1876. Papers,
-<unitdate type="inclusive" normal="1819/1820" era="ce" calendar="gregorian">1855-1867 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1819/1820 and undated" era="ce" calendar="gregorian">1855-1867 and undated</unitdate></unittitle>
 <physdesc><extent>(34 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -882,7 +889,7 @@
 <c02 level="file">
 <did><container type="box">1</container>
 <unittitle id="s59">Bell, Charles, Sir, 1774-1842. Papers,
-<unitdate type="inclusive" normal="1830" era="ce" calendar="gregorian">1830 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1830 and undated" era="ce" calendar="gregorian">1830 and undated</unitdate></unittitle>
 <physdesc><extent>(8 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -894,7 +901,7 @@
 <c02 level="file">
 <did><container type="box">2</container>
 <unittitle id="s60">Bell, Jacob, d. 1859. Papers,
-<unitdate type="inclusive" normal="1840/1859" era="ce" calendar="gregorian">1840-1859 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1840/1859 and undated" era="ce" calendar="gregorian">1840-1859 and undated</unitdate></unittitle>
 <physdesc><extent>(5 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -931,7 +938,7 @@
 <c02 level="file">
 <did><container type="box">2</container>
 <unittitle id="s63">Bérard, Auguste, 1802-1846. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -943,7 +950,7 @@
 <c02 level="file">
 <did><container type="box">2</container>
 <unittitle id="s64">Bérard, Pierre Honeré, 1802-1846. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -955,7 +962,7 @@
 <c02 level="file">
 <did><container type="box">2</container>
 <unittitle id="s65">Berg, Janüs Anton Rahbek. Papers,
-<unitdate type="inclusive" normal="1909" era="ce" calendar="gregorian">1909 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1909 and undated" era="ce" calendar="gregorian">1909 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -979,7 +986,7 @@
 <c02 level="file">
 <did><container type="box">2</container>
 <unittitle id="s67">Bergmann, Ernst von, 1836-1907. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Before 1907]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Before 1907]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1027,7 +1034,7 @@
 <c02 level="file">
 <did><container type="box">2</container>
 <unittitle id="s71">Bethune, Norman. Papers,
-<unitdate type="inclusive" normal="1970/1976" era="ce" calendar="gregorian">1970-1976 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1970/1976 and undated" era="ce" calendar="gregorian">1970-1976 and undated</unitdate></unittitle>
 <physdesc><extent>(12 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1039,7 +1046,7 @@
 <c02 level="file">
 <did><container type="box">2</container>
 <unittitle id="s72">Biddle, Nicholas, 1786-1844. Letters,
-<unitdate type="inclusive" normal="1817/1840" era="ce" calendar="gregorian">1817-1840 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1817/1840 and undated" era="ce" calendar="gregorian">1817-1840 and undated</unitdate></unittitle>
 <physdesc><extent>(5 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1050,7 +1057,7 @@
 <c02 level="file">
 <did><container type="box">2</container>
 
-<unittitle id="s73">Bigelow, Henry Jacob, 1818-1890. Note, <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unittitle id="s73">Bigelow, Henry Jacob, 1818-1890. Note, <unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1113,7 +1120,7 @@
 <c02 level="file">
 <did><container type="box">2</container>
 
-<unittitle id="s78">Björnsson, Gümund. Letters,
+<unittitle id="s78">Bj&#246;rnsson, G&#252;mund. Letters,
 <unitdate type="inclusive" normal="1913" era="ce" calendar="gregorian">1913, Jan. 30</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
@@ -1127,7 +1134,7 @@
 <did><container type="box">2</container>
 
 <unittitle id="s79">Blackwell, Elizabeth, 1821-1910. Papers,
-<unitdate type="inclusive" normal="1849/1863" era="ce" calendar="gregorian">1849-1863 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1849/1863 and undated" era="ce" calendar="gregorian">1849-1863 and undated</unitdate></unittitle>
 <physdesc><extent>(4 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1151,7 +1158,7 @@
 
 <c02 level="file">
 <did><container type="box">2</container>
-<unittitle id="s81">Blanche, Antoine Émile, b. 1828.  Letter,
+<unittitle id="s81">Blanche, Antoine &#201;mile, b. 1828.  Letter,
 <unitdate type="inclusive" normal="1882" era="ce" calendar="gregorian">1882, Aug. 21</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
@@ -1165,7 +1172,7 @@
 <did><container type="box">2</container>
 
 <unittitle id="s82">Blanche, Esprit Sylvestre, 1796-1852. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1190,7 +1197,7 @@
 <did><container type="box">2</container>
 <unittitle id="s84">Blizzard, William, Sir, 1743-1835. Letter,
 <unitdate type="inclusive" normal="1816" era="ce" calendar="gregorian">1816, June 27</unitdate></unittitle>
-<physdesc><extent>( 1 item)</extent></physdesc>
+<physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
 <p>English surgeon. Letter (ALS) referring to various financial matters.
@@ -1213,7 +1220,7 @@
 <c02 level="file">
 <did><container type="box">2</container>
 <unittitle id="s86">Blumenthal, Cellier de. Papers,
-<unitdate type="inclusive" normal="1870" era="ce" calendar="gregorian">1870 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1870 and undated" era="ce" calendar="gregorian">1870 and undated</unitdate></unittitle>
 <physdesc><extent>(8 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1249,7 +1256,7 @@
 <c02 level="file">
 <did><container type="box">2</container>
 <unittitle id="s89">Borland, J. Nelson. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1341,7 +1348,7 @@
 <did><container type="box">2</container>
 
 <unittitle id="s96">Brayton, Charles E. Papers,
-<unitdate type="inclusive" normal="1892/1909" era="ce" calendar="gregorian">1892-1909 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1892/1909 and undated" era="ce" calendar="gregorian">1892-1909 and undated</unitdate></unittitle>
 <physdesc><extent>(57 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1354,7 +1361,7 @@
 <did><container type="box">2</container>
 
 <unittitle id="s97">Breschet, Gilbert, 1784-1845. Papers,
-<unitdate type="inclusive" normal="1825/1831" era="ce" calendar="gregorian">1825-1831 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1825/1831 and undated" era="ce" calendar="gregorian">1825-1831 and undated</unitdate></unittitle>
 <physdesc><extent>(4 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1392,7 +1399,7 @@
 <did><container type="box">2</container>
 
 <unittitle id="s100">Bright, Richard, 1789-1858. Papers,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(4 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1418,7 +1425,7 @@
 <did><container type="box">2</container>
 
 <unittitle id="s102">Broca, Paul, 1824-1880. Papers,
-<unitdate type="inclusive" normal="1869" era="ce" calendar="gregorian">1869 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1869 and undated" era="ce" calendar="gregorian">1869 and undated</unitdate></unittitle>
 <physdesc><extent>(4 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1431,7 +1438,7 @@
 <did><container type="box">2</container>
 
 <unittitle id="s103">Brodie, Benjamin, Sir, 1783-1862. Papers,
-<unitdate type="inclusive" normal="1821/1862" era="ce" calendar="gregorian">1821-1862 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1821/1862 and undated" era="ce" calendar="gregorian">1821-1862 and undated</unitdate></unittitle>
 <physdesc><extent>(9 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1546,7 +1553,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s112">Brown, John, 1810-1882. Papers,
-<unitdate type="inclusive" normal="1816/1881" era="ce" calendar="gregorian">1816-1881 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1816/1881 and undated" era="ce" calendar="gregorian">1816-1881 and undated</unitdate></unittitle>
 <physdesc><extent>(11 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1569,12 +1576,12 @@
 
 <c02 level="file">
 <did><container type="box">3</container>
-<unittitle id="s114">Brown-Séquard, Charles-Edouard, 1817-1894. Papers,
-<unitdate type="inclusive" normal="1871/1889" era="ce" calendar="gregorian">1871-1889 and undated</unitdate></unittitle>
+<unittitle id="s114">Brown-S&#233;quard, Charles-Edouard, 1817-1894. Papers,
+<unitdate type="inclusive" normal="1871/1889 and undated" era="ce" calendar="gregorian">1871-1889 and undated</unitdate></unittitle>
 <physdesc><extent>(6 items)</extent></physdesc>
 </did>
 <scopecontent>
-<p>French physiologist, neurologist and endocrinologist. Letters (ALS), in French and English, relating to professional matters and prescribing treatments, and a portrait of Brown-Séquard.
+<p>French physiologist, neurologist and endocrinologist. Letters (ALS), in French and English, relating to professional matters and prescribing treatments, and a portrait of Brown-S&#233;quard.
 </p>
 </scopecontent>
 </c02>
@@ -1680,7 +1687,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s123.1">Busse, Ewald W., 1917. Manuscript,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1942 and 1947]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1942 and 1947]</unitdate></unittitle>
 <physdesc><extent>(32 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1716,7 +1723,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s125">Cadell, Thomas, 1773-1836. Letters,
-<unitdate type="inclusive" normal="1783/1817" era="ce" calendar="gregorian">1783-1817 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1783/1817 and undated" era="ce" calendar="gregorian">1783-1817 and undated</unitdate></unittitle>
 <physdesc><extent>(9 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1778,7 +1785,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s130">Carlyle, John Aitken, 1801-1879. Letters,
-<unitdate type="inclusive" normal="1840" era="ce" calendar="gregorian">1840 and [Between 1843 and 1854]</unitdate></unittitle>
+<unitdate type="inclusive" normal="1840 and undated" era="ce" calendar="gregorian">1840 and [Between 1843 and 1854]</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1790,7 +1797,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s131">Carnochan, John Murray, 1817-1887. Letters,
-<unitdate type="inclusive" normal="1867/1876" era="ce" calendar="gregorian">1867-1876 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1867/1876 and undated" era="ce" calendar="gregorian">1867-1876 and undated</unitdate></unittitle>
 <physdesc><extent>(4 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1802,7 +1809,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s132">Carro, Joannes de, 1770-1857. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1838,7 +1845,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s134b">Castiglioni, Arturo, 1874-1953. Papers,
-<unitdate type="inclusive" normal="1941" era="ce" calendar="gregorian">1941 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1941 and undated" era="ce" calendar="gregorian">1941 and undated</unitdate></unittitle>
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1861,7 +1868,7 @@
 
 <c02 level="file">
 <did><container type="box">3</container>
-<unittitle id="s135">Chantemesse, André, 1851-1919. Note,
+<unittitle id="s135">Chantemesse, Andr&#233;, 1851-1919. Note,
 <unitdate type="inclusive" normal="1886" era="ce" calendar="gregorian">1886, Apr. 8</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
@@ -1874,7 +1881,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s136">Chapman, Nathaniel, 1780-1853. Papers,
-<unitdate type="inclusive" normal="1826/1829" era="ce" calendar="gregorian">1826-1829 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1826/1829 and undated" era="ce" calendar="gregorian">1826-1829 and undated</unitdate></unittitle>
 <physdesc><extent>(4 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1956,7 +1963,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s143">Christie, Samuel A. Papers,
-<unitdate type="inclusive" normal="1882/1883" era="ce" calendar="gregorian">1882-1883 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1882/1883 and undated" era="ce" calendar="gregorian">1882-1883 and undated</unitdate></unittitle>
 <physdesc><extent>(8 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1968,7 +1975,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s144">Christison, Robert, Sir, 1797-1882. Papers,
-<unitdate type="inclusive" normal="1839/1881" era="ce" calendar="gregorian">1839-1881 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1839/1881 and undated" era="ce" calendar="gregorian">1839-1881 and undated</unitdate></unittitle>
 <physdesc><extent>(5 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -1992,7 +1999,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s146">Clark, Andrew, Sir, 1826-1893. Papers,
-<unitdate type="inclusive" normal="1892" era="ce" calendar="gregorian">1892 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1892 and undated" era="ce" calendar="gregorian">1892 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2004,7 +2011,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s147">Clark, James, Sir, 1788-1870. Papers,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2029,7 +2036,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s149">Clarke, Charles Mansfield, Sir, 1782-1857. Papers,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2126,7 +2133,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s158">Cogswell, Mason Fitch, 1761-1830. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2154,7 +2161,7 @@
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
-<p>The Collegium Medico-Chirurgicum, Berlin, was connected to the PerpiniÊ»ere, an institution founded in 1795 for the training of surgeons for the Prussian army. Holograph document, in an anonymous hand. Certificate of dissolution signed by all members: Knape, Mursinna, Walter, Hermbstädt, Ribke, Formey, Willdenow, Könen, Grapengiesser, Hecker and Horn.
+<p>The Collegium Medico-Chirurgicum, Berlin, was connected to the PerpiniÊ»ere, an institution founded in 1795 for the training of surgeons for the Prussian army. Holograph document, in an anonymous hand. Certificate of dissolution signed by all members: Knape, Mursinna, Walter, Hermbstädt, Ribke, Formey, Willdenow, K&#246;nen, Grapengiesser, Hecker and Horn.
 </p>
 </scopecontent>
 </c02>
@@ -2198,7 +2205,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s164">Cook, Edmund Alleyne. Papers,
-<unitdate type="inclusive" normal="1868" era="ce" calendar="gregorian">1868 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1868 and undated" era="ce" calendar="gregorian">1868 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2222,7 +2229,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s166">Cooper, Astley, Sir, 1768-1841. Correspondence,
-<unitdate type="inclusive" normal="1813/1853" era="ce" calendar="gregorian">1813-1853 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1813/1853 and undated" era="ce" calendar="gregorian">1813-1853 and undated</unitdate></unittitle>
 <physdesc><extent>(38 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2246,7 +2253,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s168">Cotterill, Joseph Montagu, 1851-1933. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2270,7 +2277,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s170">Cowles, Edward, 1837-1919. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2391,7 +2398,7 @@
 <c02 level="file">
 <did><container type="box">3</container>
 <unittitle id="s181">Cullen, William, 1710-1790. Papers,
-<unitdate type="inclusive" normal="1769" era="ce" calendar="gregorian">1769 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1769 and undated" era="ce" calendar="gregorian">1769 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2549,7 +2556,7 @@
 <c02 level="file">
 <did><container type="box">4</container>
 <unittitle id="s194">Davis, Carl Henry, b. 1883. Manuscript,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(7 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2613,7 +2620,7 @@
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
-<p>DS. De Fere, writing as "le Secrétaire de Milice" requests that Louveaux sign and return three attached statements of health. Verso of document bears an undated draft of a letter by an unidentified physician, who, in spite of patient's consent, refuses to comply with a medical insurance company's request for the patient's medical history. The writer cites "le loi du secret médical" as upheld by "l'Association générale des médecins de France", which prohibits the release of patients' medical histories to medical insurance companies.
+<p>DS. De Fere, writing as "le Secr&#233;taire de Milice" requests that Louveaux sign and return three attached statements of health. Verso of document bears an undated draft of a letter by an unidentified physician, who, in spite of patient's consent, refuses to comply with a medical insurance company's request for the patient's medical history. The writer cites "le loi du secret m&#233;dical" as upheld by "l'Association g&#233;n&#233;rale des m&#233;decins de France", which prohibits the release of patients' medical histories to medical insurance companies.
 </p>
 </scopecontent>
 </c02>
@@ -2621,7 +2628,7 @@
 <c02 level="file">
 <did><container type="box">4</container>
 <unittitle id="s200">Dechambre, Amedee, 1812-1886. Papers,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1853 and 1886] and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1853 and 1886] and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2645,7 +2652,7 @@
 <c02 level="file">
 <did><container type="box">4</container>
 <unittitle id="s202">Demarquay, Jean Nicolas, 1814-1875. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Before 1875]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Before 1875]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2681,7 +2688,7 @@
 <c02 level="file">
 <did><container type="box">4</container>
 <unittitle id="s205">Desault, Pierre-Joseph, 1744-1795. Document,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2692,12 +2699,12 @@
 
 <c02 level="file">
 <did><container type="box">4</container>
-<unittitle id="s206">Devèze, Jean, 1753-1829. Letter,
+<unittitle id="s206">Dev&#232;ze, Jean, 1753-1829. Letter,
 <unitdate type="inclusive" normal="1822" era="ce" calendar="gregorian">1822, Jan. 22</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
-<p>French military physician. Letter (ALS) relating to yellow fever. Devèze puts forth various theories, e.g. that yellow fever is produced by an infected atmosphere and that it is not contagious and thus cannot be transmitted by inoculation.
+<p>French military physician. Letter (ALS) relating to yellow fever. Dev&#232;ze puts forth various theories, e.g. that yellow fever is produced by an infected atmosphere and that it is not contagious and thus cannot be transmitted by inoculation.
 </p>
 </scopecontent>
 </c02>
@@ -2717,7 +2724,7 @@
 <c02 level="file">
 <did><container type="box">4</container>
 <unittitle id="s208">Dick-Read, Grantly, 1890-1959. Papers,
-<unitdate type="inclusive" normal="1958" era="ce" calendar="gregorian">1958 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1958 and undated" era="ce" calendar="gregorian">1958 and undated</unitdate></unittitle>
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2741,7 +2748,7 @@
 <c02 level="file">
 <did><container type="box">4</container>
 <unittitle id="s210">Dieulafoy, Georges, 1839-1911. Papers,
-<unitdate type="inclusive" normal="1890" era="ce" calendar="gregorian">1890 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1890 and undated" era="ce" calendar="gregorian">1890 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2752,7 +2759,7 @@
 
 <c02 level="file"><did><container type="box">4</container>
 <unittitle id="s211">Dix, Dorothea Lynde, 1802-1887. Papers,
-<unitdate type="inclusive" normal="1862/1880" era="ce" calendar="gregorian">1862-1880 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1862/1880 and undated" era="ce" calendar="gregorian">1862-1880 and undated</unitdate></unittitle>
 <physdesc><extent>(4 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2763,7 +2770,7 @@
 
 <c02 level="file"><did><container type="box">4</container>
 <unittitle id="s212">Doane, George B. Papers,
-<unitdate type="inclusive" normal="1822" era="ce" calendar="gregorian">1822 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1822 and undated" era="ce" calendar="gregorian">1822 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2785,7 +2792,7 @@
 
 <c02 level="file"><did><container type="box">4</container>
 <unittitle id="s215">Domagk, Gerhard, 1895-1964. Papers,
-<unitdate type="inclusive" normal="1944/1947" era="ce" calendar="gregorian">1944-1947 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1944/1947 and undated" era="ce" calendar="gregorian">1944-1947 and undated</unitdate></unittitle>
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2807,7 +2814,7 @@
 
 <c02 level="file"><did><container type="box">4</container>
 <unittitle id="s217">Downman, Hugh, 1740-1809. Papers,
-<unitdate type="inclusive" normal="1773" era="ce" calendar="gregorian">1773 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1773 and undated" era="ce" calendar="gregorian">1773 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2841,7 +2848,7 @@
 
 <c02 level="file"><did><container type="box">4</container>
 <unittitle id="s220">Draper, John William, 1811-1882. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1840 and 1882</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1840 and 1882</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2856,7 +2863,7 @@
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
-<p>Letter (ALS). Relates the circumstances of Dreys' visit to Paris, namely the death of his sister, widow of Dr. Alphonse Sanson. Informs Blanche of a visit to M. Kaempfen in Paris. Asks Blanche to convey his gratitude to "le Directeur" for granting him leave to attend to the funeral. The letter also bears a note (ANS), dated 1887. Jan. 22, from E. Blanche, Auteuil, to "confrère et ami", presumably forwarding Dreys' letter to "le Directeur".
+<p>Letter (ALS). Relates the circumstances of Dreys' visit to Paris, namely the death of his sister, widow of Dr. Alphonse Sanson. Informs Blanche of a visit to M. Kaempfen in Paris. Asks Blanche to convey his gratitude to "le Directeur" for granting him leave to attend to the funeral. The letter also bears a note (ANS), dated 1887. Jan. 22, from E. Blanche, Auteuil, to "confr&#232;re et ami", presumably forwarding Dreys' letter to "le Directeur".
 </p>
 </scopecontent>
 </c02>
@@ -2884,7 +2891,7 @@
 </c02>
 
 <c02 level="file"><did><container type="box">4</container>
-<unittitle id="s224">Dubos, René Jules, 1901-1982. Letter,
+<unittitle id="s224">Dubos, Ren&#233; Jules, 1901-1982. Letter,
 <unitdate type="inclusive" normal="1948" era="ce" calendar="gregorian">1948, July 1</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
@@ -2918,7 +2925,7 @@
 
 <c02 level="file"><did><container type="box">4</container>
 <unittitle id="s227">Dujardin-Beaumetz, 1833-1895. Letter,
-<unitdate type="inclusive" normal="1852/1859" era="ce" calendar="gregorian">[Between 1852 and 1895]</unitdate></unittitle>
+<unitdate type="inclusive" normal="1800s" era="ce" calendar="gregorian">[Between 1852 and 1895]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2928,19 +2935,19 @@
 </c02>
 
 <c02 level="file"><did><container type="box">4</container>
-<unittitle id="s228">Duméril, Auguste Henri André, 1812-1870. Note,
+<unittitle id="s228">Dum&#233;ril, Auguste Henri Andr&#233;, 1812-1870. Note,
 <unitdate type="inclusive" normal="1854" era="ce" calendar="gregorian">1854</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
-<p>French physician. Note (ANS). Duméril recommends a M. Albanel to the addressee.
+<p>French physician. Note (ANS). Dum&#233;ril recommends a M. Albanel to the addressee.
 </p>
 </scopecontent>
 </c02>
 
 <c02 level="file"><did><container type="box">4</container>
 <unittitle id="s229">Duncan, Andrew, 1773-1832. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1793 and 1832]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1793 and 1832]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -2962,7 +2969,7 @@
 
 <c02 level="file"><did><container type="box">4</container>
 <unittitle id="s231">Duncan, James Matthews, 1826-1890. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1846 and 1890]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1846 and 1890]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3169,7 +3176,7 @@
 </c02>
 
 <c02 level="file"><did><container type="box">4</container>
-<unittitle id="s250">Eustachius, Bartolomeus, d. 1574. Letter, <unitdate type="inclusive" era="ce" calendar="gregorian">circa 1565</unitdate></unittitle>
+<unittitle id="s250">Eustachius, Bartolomeus, d. 1574. Letter, <unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">circa 1565</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3192,7 +3199,7 @@
 
 <c02 level="file"><did><container type="box">4</container>
 <unittitle id="s252">Eve, Paul Fitzsimmons, 1806-1877. Autograph,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3203,7 +3210,7 @@
 
 <c02 level="file"><did><container type="box">4</container>
 <unittitle id="s253">Ewart, James Cossar, 1851-1933. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1870 and 1933]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1870 and 1933]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3246,8 +3253,8 @@
 </c02>
 
 <c02 level="file"><did><container type="box">4</container>
-<unittitle id="s254">Féréol, Louis Félix Henri Second, d. 1891. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unittitle id="s254">F&#233;r&#233;ol, Louis F&#233;lix Henri Second, d. 1891. Letter,
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3290,8 +3297,8 @@
 </c02>
 
 <c02 level="file"><did><container type="box">4</container>
-<unittitle id="s261">Ferrus, Guillaume-Marie-André, 1784-1861. Letter
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1800 and 1826?], June 16</unitdate></unittitle>
+<unittitle id="s261">Ferrus, Guillaume-Marie-Andr&#233;, 1784-1861. Letter
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1800 and 1826?], June 16</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3317,7 +3324,7 @@
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
-<p>Letters from Niels R. Finsen, the 1903 Nobel Prize awardee for Medicine or Physiology. Envelope addressed to Hr. Docent Dr. phil.Schmidt-Nielsen, Lysintituts Laboratorium, Rosenvaenget, [Köbenhaven]. Typescript transcription of the Danish text and English translation.
+<p>Letters from Niels R. Finsen, the 1903 Nobel Prize awardee for Medicine or Physiology. Envelope addressed to Hr. Docent Dr. phil.Schmidt-Nielsen, Lysintituts Laboratorium, Rosenvaenget, [K&#246;benhaven]. Typescript transcription of the Danish text and English translation.
 </p>
 </scopecontent>
 </c02>
@@ -3328,7 +3335,7 @@
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
-<p>Identifies himself as "ex-director of the department of 'mendicité,'" which was essentially a poorhouse. Writes from Caen, France. Mentions Paris and mentions sleepwalking multiple times, a possible political metaphor or else discussion of the actual phenomenon. A modern note in the folder states that the recipient was a Matthieu-Guillaume-Thérèse Villenave (1762-1846), an editor and literary figure.</p>
+<p>Identifies himself as "ex-director of the department of 'mendicit&#233;,'" which was essentially a poorhouse. Writes from Caen, France. Mentions Paris and mentions sleepwalking multiple times, a possible political metaphor or else discussion of the actual phenomenon. A modern note in the folder states that the recipient was a Matthieu-Guillaume-Th&#233;r&#232;se Villenave (1762-1846), an editor and literary figure.</p>
 </scopecontent>
 </c02>
 
@@ -3424,7 +3431,7 @@
 </c02>
 
 <c02 level="file"><did><container type="box">5</container>
-<unittitle id="s272">Foucault, Jean Bernard Léon, 1819-1868. Note,
+<unittitle id="s272">Foucault, Jean Bernard L&#233;on, 1819-1868. Note,
 <unitdate type="inclusive" normal="1851" era="ce" calendar="gregorian">1851, Aug. 24</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
@@ -3436,7 +3443,7 @@
 
 <c02 level="file"><did><container type="box">5</container>
 <unittitle id="s273">Fourier, Jean Baptiste Joseph, Baron, 1768-1830. Papers,
-<unitdate type="inclusive" normal="1851" era="ce" calendar="gregorian">1851 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1851 and undated" era="ce" calendar="gregorian">1851 and undated</unitdate></unittitle>
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3498,7 +3505,7 @@ Holograph documents, signed. Promissory notes, some of which are also signed by 
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
-<p>Three manuscript pages from unknown sources, two of which contain signatures of professors and physicians. One page carries as title, "Professeurs présens à la Séance du [24?] Juillet 1829."  The third page seems to be a list of names rather than individual signatures.
+<p>Three manuscript pages from unknown sources, two of which contain signatures of professors and physicians. One page carries as title, "Professeurs pr&#233;sens à la S&#233;ance du [24?] Juillet 1829."  The third page seems to be a list of names rather than individual signatures.
 </p>
 </scopecontent>
 </c02>
@@ -3595,7 +3602,7 @@ Letter (ALS). Informs Knortz that copies of the books, "Thinkers and thinking" a
 
 <c02 level="file"><did><container type="box">5</container>
 <unittitle id="s287">Gibbes, Robert Wilson, 1809-1866. Document,
-<unitdate type="inclusive" normal="1851" era="ce" calendar="gregorian">1851 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1851 and undated" era="ce" calendar="gregorian">1851 and undated</unitdate></unittitle>
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3664,7 +3671,7 @@ Letter (ALS). A cordial personal letter.
 
 <c02 level="file"><did><container type="box">5</container>
 <unittitle id="s293">Giraudy, Charles François Simon, 1770-1848. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1800 and 1848]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1800 and 1848]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3701,7 +3708,7 @@ Manuscript, signed. Writes on diseases of the stomach.
 
 <c02 level="file"><did><container type="box">5</container>
 <unittitle id="s296">Good, John Mason, 1764-1827. Papers,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1784 and 1827]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1784 and 1827]</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3724,12 +3731,12 @@ Manuscript, signed. Writes on diseases of the stomach.
 
 <c02 level="file"><did><container type="box">5</container>
 <unittitle id="s298">Goodhue, Edward Solon, 1863-1935. Papers,
-<unitdate type="inclusive" normal="1900/1909" era="ce" calendar="gregorian">1900-1909 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1900/1909 and undated" era="ce" calendar="gregorian">1900-1909 and undated</unitdate></unittitle>
 <physdesc><extent>(11 items)</extent></physdesc>
 </did>
 <scopecontent>
 <p>Physician and specialist on leprosy.
-Mostly letters (ALS). W.D. Alexander writes on Hawaiian history and refers to Goodhue's book. Drs. Fontoynont, Miyajima, Jeanselme, Montizombert, Némorin and Anpeville write in reply to Goodhue's requests for information on literature on leprosy in their respective countries. Drs. Lie and Hansen of Bergen writes with reference to the Second International Leprosy Congress held in 1909. M.F. Obregon writes regarding an appointment. Among the letters is a typed manuscript, with answers to question on leprosy, signed by an unknown person.
+Mostly letters (ALS). W.D. Alexander writes on Hawaiian history and refers to Goodhue's book. Drs. Fontoynont, Miyajima, Jeanselme, Montizombert, N&#233;morin and Anpeville write in reply to Goodhue's requests for information on literature on leprosy in their respective countries. Drs. Lie and Hansen of Bergen writes with reference to the Second International Leprosy Congress held in 1909. M.F. Obregon writes regarding an appointment. Among the letters is a typed manuscript, with answers to question on leprosy, signed by an unknown person.
 </p>
 </scopecontent>
 </c02>
@@ -3747,7 +3754,7 @@ Holograph document, signed. Deed for a grant of land. On verso, a receipt for qu
 </c02>
 
 <c02 level="file"><did><container type="box">5</container>
-<unittitle id="s300">Gosselin, Athanase-Léon, 1815-1887. Letter,
+<unittitle id="s300">Gosselin, Athanase-L&#233;on, 1815-1887. Letter,
 <unitdate type="inclusive" normal="1854" era="ce" calendar="gregorian">1854, June 9</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
@@ -3772,7 +3779,7 @@ Letter (ALS). A personal letter.
 
 <c02 level="file"><did><container type="box">5</container>
 <unittitle id="s302">Gould, Augustus Addison, 1805-1866. Papers,
-<unitdate type="inclusive" normal="1825/1851" era="ce" calendar="gregorian">1825-1851 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1825/1851 and undated" era="ce" calendar="gregorian">1825-1851 and undated</unitdate></unittitle>
 <physdesc><extent>(9 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3820,7 +3827,7 @@ Letter (ALS). Enthusiastic reception of Lee's pamphlet on ventilation.
 
 <c02 level="file"><did><container type="box">5</container>
 <unittitle id="s306">Griggs, Lee, 1790-1831. Papers,
-<unitdate type="inclusive" normal="1824/1831" era="ce" calendar="gregorian">1824-1831 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1824/1831 and undated" era="ce" calendar="gregorian">1824-1831 and undated</unitdate></unittitle>
 <physdesc><extent>(9 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3832,7 +3839,7 @@ Receipts of payment, miscellaneous notes, and a list of notes due to the estate 
 
 <c02 level="file"><did><container type="box">5</container>
 <unittitle id="s307">Grisolle, Augustin, 1811-1869. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1830 and 1869]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1830 and 1869]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3843,8 +3850,8 @@ Note (ANS). Arranges a meeting.
 </c02>
 
 <c02 level="file"><did><container type="box">5</container>
-<unittitle id="s308">Guépin, Ange, 1805-1873. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1825 and 1873]</unitdate></unittitle>
+<unittitle id="s308">Gu&#233;pin, Ange, 1805-1873. Letter,
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1825 and 1873]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3959,7 +3966,7 @@ Letter (ALS). Writes of the fourth edition of his work, Organon der rationellen 
 
 <c02 level="file"><did><container type="box">5</container>
 <unittitle id="s319">Halford, Henry, Sir, bart., 1766-1844. Papers,
-<unitdate type="inclusive" normal="1819/1842" era="ce" calendar="gregorian">1819-1842 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1819/1842 and undated" era="ce" calendar="gregorian">1819-1842 and undated</unitdate></unittitle>
 <physdesc><extent>(8 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -3994,7 +4001,7 @@ Letter (ALS). Reports the results of a meeting with the Governor regarding the a
 
 <c02 level="file"><did><container type="box">5</container>
 <unittitle id="s322">Haller, Albrecht von, 1708-1777. Papers,
-<unitdate type="inclusive" normal="1763/1770" era="ce" calendar="gregorian">1763-1770 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1763/1770 and undated" era="ce" calendar="gregorian">1763-1770 and undated</unitdate></unittitle>
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4041,7 +4048,7 @@ Letters (ALS). Hare thanks a Dr. Muaran for the medical attention given to Rober
 
 <c02 level="file"><did><container type="box">5</container>
 <unittitle id="s326">Harel du Tancrel, Augustin, d. 1833. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4053,7 +4060,7 @@ Letter (ALS). Relating to publication matters.
 
 <c02 level="file"><did><container type="box">5</container>
 <unittitle id="s327">Harley, John, 1833-1921. Papers,
-<unitdate type="inclusive" normal="1867/1869" era="ce" calendar="gregorian">1867-1869 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1867/1869 and undated" era="ce" calendar="gregorian">1867-1869 and undated</unitdate></unittitle>
 <physdesc><extent>(6 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4115,7 +4122,7 @@ Letter (ALS). Asks Brown, a bookseller, to send volumes of the <title render="it
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s332">Harris, Thomas, 1784-1861. Papers,
-<unitdate type="inclusive" normal="1834/1848" era="ce" calendar="gregorian">1834-1848 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1834/1848 and undated" era="ce" calendar="gregorian">1834-1848 and undated</unitdate></unittitle>
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4138,7 +4145,7 @@ Letters (ALS). Writes to Commodore Jacob Jones regarding the naval asylum proper
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s334">Hart, Ernest Abraham, 1835-1898. Papers,
-<unitdate type="inclusive" normal="1873/1895" era="ce" calendar="gregorian">1873-1895 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1873/1895 and undated" era="ce" calendar="gregorian">1873-1895 and undated</unitdate></unittitle>
 <physdesc><extent>(18 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4185,7 +4192,7 @@ Letter (ALS). Writes of the death of Jeremiah Markland.
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s338">Helmholtz, Hermann von, 1821-1894. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4339,7 +4346,7 @@ Letter (ALS) of recommendation for Andrew E. Kennedy.
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s350">Hodgkin, Thomas, 1798-1866. Papers,
-<unitdate type="inclusive" normal="1850" era="ce" calendar="gregorian">1850 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1850 and undated" era="ce" calendar="gregorian">1850 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4364,11 +4371,10 @@ Holograph letter, unsigned. Holland explains the circumstances which lead him to
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s352">Holmes, Oliver Wendell, 1809-1894. Papers,
 <unitdate type="inclusive" normal="1850/1885" era="ce" calendar="gregorian">1850-1885</unitdate></unittitle>
-<physdesc><extent>(5 items)</extent></physdesc>
+<physdesc><extent>(6 items)</extent></physdesc>
 </did>
 <scopecontent>
-<p>Physician, poet and essayist of Boston. Letters (ALS) on family genealogy; poems; and an ink cartoon drawing, on the reverse of one of the poems.
-</p>
+<p>Physician, poet and essayist of Boston. Letters (ALS) on family genealogy; poems; and an ink cartoon drawing, on the reverse of one of the poems. Also includes a later addition to the collection of a signed manuscript poem Holmes wrote during the aftermath of the great Boston fire, November 13, 1872, entitled <title render="doublequote">After the fire</title> (4 leaves of lined paper).</p>
 </scopecontent>
 </c02>
 
@@ -4469,12 +4475,12 @@ Document, signed, attests that he has declared all goods on entering the Port of
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s361">Howe, Samuel Gridley, 1801-1876. Papers,
-<unitdate type="inclusive" normal="1851/1872" era="ce" calendar="gregorian">1851-1872 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1851/1872 and undated" era="ce" calendar="gregorian">1851-1872 and undated</unitdate></unittitle>
 <physdesc><extent>(4 items)</extent></physdesc>
 </did>
 <scopecontent>
 <p>Physician. The first to train the blind and deaf mutes in the United States.
-Letters (ALS) from Howe and a document, signed, in French from P. Flourens, acknowledging receipt of material sent to the Académie des Sciences.
+Letters (ALS) from Howe and a document, signed, in French from P. Flourens, acknowledging receipt of material sent to the Acad&#233;mie des Sciences.
 </p>
 </scopecontent>
 </c02>
@@ -4493,7 +4499,7 @@ Letter (ALS). Informs addressee of his wife's illness and instructs him to infor
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s364">Hughes, Thomas. Papers,
-<unitdate type="inclusive" normal="1835/1846" era="ce" calendar="gregorian">1835-1846 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1835/1846 and undated" era="ce" calendar="gregorian">1835-1846 and undated</unitdate></unittitle>
 <physdesc><extent>(5 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4505,7 +4511,7 @@ Letter (ALS). Informs addressee of his wife's illness and instructs him to infor
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s366">Humboldt, Alexander von, 1769-1859. Papers,
-<unitdate type="inclusive" normal="1816/1966" era="ce" calendar="gregorian">1816-1966 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1816/1966 and undated" era="ce" calendar="gregorian">1816-1966 and undated</unitdate></unittitle>
 <physdesc><extent>(26 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4572,7 +4578,7 @@ Letter (ALS).
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s372">Hyde, William, Jr. Papers,
-<unitdate type="inclusive" normal="1861" era="ce" calendar="gregorian">1861 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1861 and undated" era="ce" calendar="gregorian">1861 and undated</unitdate></unittitle>
 <physdesc><extent>(16 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4605,7 +4611,7 @@ Letter (ALS).
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s375">Jackson, Hall, 1739-1797. Papers,
-<unitdate type="inclusive" normal="1775" era="ce" calendar="gregorian">1775 and [before 1783]</unitdate></unittitle>
+<unitdate type="inclusive" normal="1775 and undated" era="ce" calendar="gregorian">1775 and [before 1783]</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4616,7 +4622,7 @@ Letter (ALS).
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s376">Jackson, James, 1777-1867. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4627,7 +4633,7 @@ Letter (ALS).
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s377">Jacobi, Mary Putnam, 1842-1906. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4639,7 +4645,7 @@ Letter (ALS). Informs addressee that she is obliged to decline both the topics a
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s378">Jameson, Robert, 1774-1854. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4684,7 +4690,7 @@ Letter (ALS). Expresses his desire to obtain a copy of a catalogue for his "Cush
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s382">Jeffries, John, 1745-1819. Card,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4708,7 +4714,7 @@ Autograph signature on a small card.
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s384">Jenner, William, Sir, 1815-1898. Papers,
-<unitdate type="inclusive" normal="1868/1873" era="ce" calendar="gregorian">1868-1873 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1868/1873 and undated" era="ce" calendar="gregorian">1868-1873 and undated</unitdate></unittitle>
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4730,7 +4736,7 @@ Autograph signature on a small card.
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s386">Jex-Blake, Sophia, 1849-1912. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1878 and 1912]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1878 and 1912]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4742,7 +4748,7 @@ Letter (ALS). Response to the editor's inquiries regarding the tuition and cours
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s401">Jobert, Antoine Joseph de Lamballe, 1799-1867. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4835,7 +4841,7 @@ Holograph document, signed. A receipt of payment for lattice work performed duri
 
 <c02 level="file"><did><container type="box">6</container>
 <unittitle id="s396">Kelly, Howard Atwood, 1858-1943. Papers,
-<unitdate type="inclusive" normal="1888/1935" era="ce" calendar="gregorian">1888-1943 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1888/1935 and undated" era="ce" calendar="gregorian">1888-1943 and undated</unitdate></unittitle>
 <physdesc><extent>(116 items, 3 folders)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4897,7 +4903,7 @@ Autograph document, signed. Receipt of payment by Judge Ogilvie to Kissam for me
 
 <c02 level="file"><did><container type="box">7</container>
 <unittitle id="s402">Kitchiner, William, 1775?-1827. Papers,
-<unitdate type="inclusive" normal="1824/1826" era="ce" calendar="gregorian">1824-1826 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1824/1826 and undated" era="ce" calendar="gregorian">1824-1826 and undated</unitdate></unittitle>
 <physdesc><extent>(5 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4921,7 +4927,7 @@ Letter (ALS). Thanks Metayer de Guichainville for Persian stamps received, propo
 
 <c02 level="file"><did><container type="box">7</container>
 <unittitle id="s405">Koreff, Johann Ferdinand, 1783-1851. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1800 and 1851?]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1800 and 1851?]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -4976,7 +4982,7 @@ Autograph manuscript, signed. Describes results of a detailed examination of a p
 </c02>
 
 <c02 level="file"><did><container type="box">7</container>
-<unittitle id="s408">Laennec, René Théophile Hyacinthe, 1781-1826. Papers,
+<unittitle id="s408">Laennec, Ren&#233; Th&#233;ophile Hyacinthe, 1781-1826. Papers,
 <unitdate type="inclusive" normal="1825/1826" era="ce" calendar="gregorian">1825-1826</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
@@ -4987,8 +4993,8 @@ Autograph manuscript, signed. Describes results of a detailed examination of a p
 </c02>
 
 <c02 level="file"><did><container type="box">7</container>
-<unittitle id="s409">Lallement, Amédée. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unittitle id="s409">Lallement, Am&#233;d&#233;e. Note,
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5045,20 +5051,20 @@ Letter (ALS). Resubmits an order returned for lack of a signature.
 </c02>
 
 <c02 level="file"><did><container type="box">7</container>
-<unittitle id="s414">Larrey, Félix Hippolyte, Baron, 1808-1895. Papers,
+<unittitle id="s414">Larrey, F&#233;lix Hippolyte, Baron, 1808-1895. Papers,
 <unitdate type="inclusive" normal="1799/1847" era="ce" calendar="gregorian">1799-1847</unitdate></unittitle>
 <physdesc><extent>(9 items)</extent></physdesc>
 </did>
 <scopecontent>
 <p>French military surgeon.
-Correspondence of both Félix Hippolyte Larrey and his father, Dominique Jean Larrey. Includes notes from Jean-Antoine-Claude Chaptal and from Marie Guillaume Alphonse Devergie.
+Correspondence of both F&#233;lix Hippolyte Larrey and his father, Dominique Jean Larrey. Includes notes from Jean-Antoine-Claude Chaptal and from Marie Guillaume Alphonse Devergie.
 </p>
 </scopecontent>
 </c02>
 
 <c02 level="file"><did><container type="box">7</container>
-<unittitle id="s415">Lasègue, Charles, 1816-1883. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1835 and 1883?]</unitdate></unittitle>
+<unittitle id="s415">Las&#232;gue, Charles, 1816-1883. Note,
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1835 and 1883?]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5069,13 +5075,13 @@ Note (ANS). Informs addressee that a Dr. Morel, physician in chief at the Rouen 
 </c02>
 
 <c02 level="file"><did><container type="box">7</container>
-<unittitle id="s416">Latané, John Holladay, 1869-1932. Letter,
+<unittitle id="s416">Latan&#233;, John Holladay, 1869-1932. Letter,
 <unitdate type="inclusive" normal="1914" era="ce" calendar="gregorian">1914, Feb. 12</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
 <p>U.S. Historian.
-Letter (ALS). Latané responds to Jacobs' inquiries regarding a 1797 letter by Benjamin Rush on slavery. In his opinion, "the framers of the Constitution seem to have regarded slavery as a dying institution, but the invention of the cotton-gin in 1793 gave it a new lease on life".
+Letter (ALS). Latan&#233; responds to Jacobs' inquiries regarding a 1797 letter by Benjamin Rush on slavery. In his opinion, "the framers of the Constitution seem to have regarded slavery as a dying institution, but the invention of the cotton-gin in 1793 gave it a new lease on life".
 </p>
 </scopecontent>
 </c02>
@@ -5122,7 +5128,7 @@ Letter (ALS). Writes of Georg Christoph Lichtenberg, who ridiculed Lavater's sci
 </did>
 <scopecontent>
 <p>French chemist.
-Letter (ALS). Lavoisier, who for some time controlled the monopoly of tobacco in France, advises Doirée to start trading in tobacco for his own account.
+Letter (ALS). Lavoisier, who for some time controlled the monopoly of tobacco in France, advises Doir&#233;e to start trading in tobacco for his own account.
 </p>
 </scopecontent>
 </c02>
@@ -5198,7 +5204,7 @@ Autograph manuscript, signed. Record of a case involving calculi and urology.
 
 <c02 level="file"><did><container type="box">7</container>
 <unittitle id="s429">Lee, Henry, 1756-1818. Papers,
-<unitdate type="inclusive" normal="1793" era="ce" calendar="gregorian">1793 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1793 and undated" era="ce" calendar="gregorian">1793 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5209,13 +5215,13 @@ Two copies of a printed "Act to oblige vessels comming from foreign parts to per
 </c02>
 
 <c02 level="file"><did><container type="box">7</container>
-<unittitle id="s425">Le Fort, Léon  Clément, 1829-1893. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1850 and 1893?] </unitdate></unittitle>
+<unittitle id="s425">Le Fort, L&#233;on  Cl&#233;ment, 1829-1893. Note,
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1850 and 1893?] </unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
 <p>French surgeon.
-Note (ANS). Asks addressee to bring his "mémoire" to the evening's gathering.
+Note (ANS). Asks addressee to bring his "m&#233;moire" to the evening's gathering.
 </p>
 </scopecontent>
 </c02>
@@ -5245,8 +5251,8 @@ Letter (ALS). Writes of the local elections.
 </c02>
 
 <c02 level="file"><did><container type="box">7</container>
-<unittitle id="s431">Leroy d'Étiolles, Jean Jacques Joseph, 1798-1860. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1820 and 1860?]</unitdate></unittitle>
+<unittitle id="s431">Leroy d'&#233;tiolles, Jean Jacques Joseph, 1798-1860. Note,
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1820 and 1860?]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5258,7 +5264,7 @@ Note (ANS). Asks a colleague to assist him the next day.
 
 <c02 level="file"><did><container type="box">7</container>
 <unittitle id="s432">Letheby, Henry, 1816-1876. Papers,
-<unitdate type="inclusive" normal="1857/1866" era="ce" calendar="gregorian">1857-1866 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1857/1866 and undated" era="ce" calendar="gregorian">1857-1866 and undated</unitdate></unittitle>
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5339,7 +5345,7 @@ Note (ANS). Thanks addressee for information received.
 
 <c02 level="file"><did><container type="box">7</container>
 <unittitle id="s440">Lisfranc, Jacques, 1790-1847. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1810 and 1847]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1810 and 1847]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5350,7 +5356,7 @@ Note (ANS). Thanks addressee for information received.
 
 <c02 level="file"><did><container type="box">7</container>
 <unittitle id="s441">Lister, Joseph, Baron, 1827-1912. Papers,
-<unitdate type="inclusive" normal="1900/1902" era="ce" calendar="gregorian">1900-1902 and undated </unitdate></unittitle>
+<unitdate type="inclusive" normal="1900/1902 and undated" era="ce" calendar="gregorian">1900-1902 and undated </unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5398,7 +5404,7 @@ Letter (ALS). Declines appointment as an army doctor. Promises, however, to take
 
 <c02 level="file"><did><container type="box">7</container>
 <unittitle id="s445">Lombroso, Cesare, 1835-1909. Letters,
-<unitdate type="inclusive" normal="1878/1908" era="ce" calendar="gregorian">1878-1908 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1878/1908 and undated" era="ce" calendar="gregorian">1878-1908 and undated</unitdate></unittitle>
 <physdesc><extent>(28 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5434,7 +5440,7 @@ Letter (ALS). Report of a meeting of the College of Surgeons. English translatio
 
 <c02 level="file"><did><container type="box">7</container>
 <unittitle id="s448">Louis, P. C. A. (Pierre Charles Alexandre), 1787-1872. Note,
-<unitdate type="inclusive" normal="1800/1899" era="ce" calendar="gregorian">[1800s]</unitdate></unittitle>
+<unitdate type="inclusive" normal="1800s" era="ce" calendar="gregorian">[1800s]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5486,18 +5492,18 @@ Letter (ALS). Asks for Evans' opinion in an unspecified matter and suggests that
 </did>
 <scopecontent>
 <p>English geologist.
-Letters (ALS), including a letter from Hugh Swinton Legaré to Samuel Henry Dickson, introducing Lyell, and a letter relating to paleoanthropology, in which Darwin's work is briefly mentioned.
+Letters (ALS), including a letter from Hugh Swinton Legar&#233; to Samuel Henry Dickson, introducing Lyell, and a letter relating to paleoanthropology, in which Darwin's work is briefly mentioned.
 </p>
 </scopecontent>
 </c02>
 
 <c02 level="file"><did><container type="box">7</container>
-<unittitle id="s453">M. l'abbé de L'attaignant. Los Tronchinades,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unittitle id="s453">M. l'abb&#233; de L'attaignant. Los Tronchinades,
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
-<p>Manuscript in verse in an anonymous hand. Relates to French physician Théodore Tronchin.
+<p>Manuscript in verse in an anonymous hand. Relates to French physician Th&#233;odore Tronchin.
 </p>
 </scopecontent>
 </c02>
@@ -5528,7 +5534,7 @@ Letters (ALS). Sends Mr. Garcia a prescription; informs a prospective patient ab
 
 <c02 level="file"><did><container type="box">7</container>
 <unittitle id="s457">Mackie, John. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1790 and 1853]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1790 and 1853]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5565,7 +5571,7 @@ Leters (ALS, TLS and TL). MacNider writes to Dr. W. P. Kavanagh regarding a term
 
 <c02 level="file"><did><container type="box">7</container>
 <unittitle id="s460">Magendie, François, 1783-1855. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1800 and 1855]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1800 and 1855]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5582,7 +5588,7 @@ Letter (ALS). Asks him to kindly give three or four baths free of charge to a se
 </did>
 <scopecontent>
 <p>French physician.
-Letter (ALS). Discusses the history and organization of l'Académie de Médecine.
+Letter (ALS). Discusses the history and organization of l'Acad&#233;mie de M&#233;decine.
 </p>
 </scopecontent>
 </c02>
@@ -5600,7 +5606,7 @@ Letter (ALS). Discusses the history and organization of l'Académie de Médecine
 
 <c02 level="file"><did><container type="box">7</container>
 <unittitle id="s463">Malgaigne, Joseph-François, 1806-1865. Papers,
-<unitdate type="inclusive" normal="1849" era="ce" calendar="gregorian">1849, Aug 22 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1849 and undated" era="ce" calendar="gregorian">1849, Aug 22 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5611,7 +5617,7 @@ Letter (ALS). Discusses the history and organization of l'Académie de Médecine
 
 <c02 level="file"><did><container type="box">7</container>
 <unittitle id="s463.1">Malta, Knights of. Document,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[1588?]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[1588?]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5690,7 +5696,7 @@ Documents, unsigned. Statements of accounts with doctors Elisha and Samuel Mathe
 </c02>
 
 <c02 level="file"><did><container type="box">8</container>
-<unittitle id="s469">Matthey, André, b. 1779. Letter,
+<unittitle id="s469">Matthey, Andr&#233;, b. 1779. Letter,
 <unitdate type="inclusive" normal="1814" era="ce" calendar="gregorian">1814, Dec. 2</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
@@ -5761,7 +5767,7 @@ Letters of recommendation written by McClellan, for William Milnor, Jr., with Pr
 
 <c02 level="file"><did><container type="box">8</container>
 <unittitle id="s475">McHenry, James, 1753-1816. Papers,
-<unitdate type="inclusive" normal="1780/1814" era="ce" calendar="gregorian">1780-1814 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1780/1814 and undated" era="ce" calendar="gregorian">1780-1814 and undated</unitdate></unittitle>
 <physdesc><extent>(4 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5786,7 +5792,7 @@ Letters (ALS). Personal letters by Ms. McKinley to her former doctor, S. Weir Mi
 
 <c02 level="file"><did><container type="box">8</container>
 <unittitle id="s477">McNaughton, James, 1796-1874. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[c. 1830]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[c. 1830]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -5832,7 +5838,7 @@ Letter (ALS). Recommends Dr. George W. Palmer for a position in the U.S. Navy. A
 </c02>
 
 <c02 level="file"><did><container type="box">8</container>
-<unittitle id="s454">Ménière, Prosper, 1799-1862. Document,
+<unittitle id="s454">M&#233;ni&#232;re, Prosper, 1799-1862. Document,
 <unitdate type="inclusive" normal="1836" era="ce" calendar="gregorian">1836, Jan. 18</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
@@ -5902,7 +5908,7 @@ Letter (ALS). Recommends Dr. George W. Palmer for a position in the U.S. Navy. A
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
-<p>French naturalist and antiquarian. Letter (ALS). Refers to the contents of a periodical, presumably the <title render="italic" linktype="simple">Magasin Encyclopédique</title>, which he edited between 1795-1816.
+<p>French naturalist and antiquarian. Letter (ALS). Refers to the contents of a periodical, presumably the <title render="italic" linktype="simple">Magasin Encyclop&#233;dique</title>, which he edited between 1795-1816.
 </p>
 </scopecontent>
 </c02>
@@ -6009,7 +6015,7 @@ Letter (ALS). Petitions for the institution of Welsh language instruction in sch
 
 <c02 level="file"><did><container type="box">8</container>
 <unittitle id="s496">Morse, Edward Sylvester, 1838-1925. Correspondence,
-<unitdate type="inclusive" normal="1883" era="ce" calendar="gregorian">1883 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1883 and undated" era="ce" calendar="gregorian">1883 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6031,7 +6037,7 @@ Letter (ALS). Petitions for the institution of Welsh language instruction in sch
 
 <c02 level="file"><did><container type="box">8</container>
 <unittitle id="s498">Morton, W. T. G. (William Thomas Green), 1819-1868. Letter,
-<unitdate type="inclusive" normal="1853" era="ce" calendar="gregorian">1853 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1853 and undated" era="ce" calendar="gregorian">1853 and undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6053,7 +6059,7 @@ Letter (ALS). Petitions for the institution of Welsh language instruction in sch
 
 <c02 level="file"><did><container type="box">8</container>
 <unittitle id="s500">Mott, Valentine, 1785-1865. Papers,
-<unitdate type="inclusive" normal="1806/1863" era="ce" calendar="gregorian">1806-1863 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1806/1863 and undated" era="ce" calendar="gregorian">1806-1863 and undated</unitdate></unittitle>
 <physdesc><extent>(10 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6064,7 +6070,7 @@ Letter (ALS). Petitions for the institution of Welsh language instruction in sch
 
 <c02 level="file"><did><container type="box">8</container>
 <unittitle id="s506">Murchison, Roderick Impey, Sir, 1792-1871. Papers,
-<unitdate type="inclusive" normal="1857" era="ce" calendar="gregorian">1857 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1857 and undated" era="ce" calendar="gregorian">1857 and undated</unitdate></unittitle>
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6075,7 +6081,7 @@ Letter (ALS). Petitions for the institution of Welsh language instruction in sch
 
 <c02 level="file"><did><container type="box">8</container>
 <unittitle id="s507">Musgrave, William, 1655?-1721. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6107,7 +6113,7 @@ Letter (ALS). Petitions for the institution of Welsh language instruction in sch
 
 <c02 level="file"><did><container type="box">8</container>
 <unittitle id="s511">Napheys, George Henry, 1842-1876. Manuscript,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[1870s]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[1870s]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6118,8 +6124,8 @@ Letter (ALS). Petitions for the institution of Welsh language instruction in sch
 
 
 <c02 level="file"><did><container type="box">8</container>
-<unittitle id="s509">Nélaton, Auguste, 1807-1873. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1836 and 1873]</unitdate></unittitle>
+<unittitle id="s509">N&#233;laton, Auguste, 1807-1873. Letter,
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1836 and 1873]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6131,7 +6137,7 @@ Letter (ALS). Prescribes treatment of a fistula on a joint by iodized injections
 
 <c02 level="file"><did><container type="box">8</container>
 <unittitle id="s513">Newport Botanic Thomsonian Infirmary.  Broadside,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[After 1836]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[After 1836]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6152,7 +6158,7 @@ Letter (ALS). Prescribes treatment of a fistula on a joint by iodized injections
 
 <c02 level="file"><did><container type="box">8</container>
 <unittitle id="s515">Nightingale, Florence, 1820-1910. Correspondence,
-<unitdate type="inclusive" normal="1870/1941" era="ce" calendar="gregorian">1870-1941 and undated, bulk 1870-1897</unitdate></unittitle>
+<unitdate type="inclusive" normal="1870/1941 and undated" era="ce" calendar="gregorian">1870-1941 and undated, bulk 1870-1897</unitdate></unittitle>
 <physdesc><extent>(14 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6163,7 +6169,7 @@ Letter (ALS). Prescribes treatment of a fistula on a joint by iodized injections
 
 <c02 level="file"><did><container type="box">8</container>
 <unittitle id="s516">North, Elisha, 1771-1843. Manuscript,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[After 1811]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[After 1811]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6207,7 +6213,7 @@ Letter (ALS). Prescribes treatment of a fistula on a joint by iodized injections
 
 <c02 level="file"><did><container type="box">8</container>
 <unittitle id="s520">Nott, Josiah Clark, 1804-1873. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1820 and 1873]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1820 and 1873]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6229,7 +6235,7 @@ Letter (ALS). Prescribes treatment of a fistula on a joint by iodized injections
 
 <c02 level="file"><did><container type="box">8</container>
 <unittitle id="s522">Okie, Abraham Howard. Papers,
-<unitdate type="inclusive" normal="1842/1868" era="ce" calendar="gregorian">1842-1868 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1842/1868 and undated" era="ce" calendar="gregorian">1842-1868 and undated</unitdate></unittitle>
 <physdesc><extent>(10 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6263,7 +6269,7 @@ Letter (ALS). Discusses the state of health of his patient, the Duchess of Newca
 </c02>
 
 <c02 level="file"><did><container type="box">8</container>
-<unittitle id="s784">Olmade, Jean-Théodore. Letter,
+<unittitle id="s784">Olmade, Jean-Th&#233;odore. Letter,
 <unitdate type="inclusive" normal="1829" era="ce" calendar="gregorian">1829 Nov. 3</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
@@ -6365,7 +6371,7 @@ Letter (ALS). Writes regarding arrangements for the proofreading of Parry's bota
 </c02>
 
 <c02 level="file"><did><container type="box">9</container>
-<unittitle id="s533">Péan, Jules-Émile, 1830-1898. Note,
+<unittitle id="s533">P&#233;an, Jules-&#233;mile, 1830-1898. Note,
 <unitdate type="inclusive" normal="1893" era="ce" calendar="gregorian">1893, Jan. 6</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
@@ -6399,7 +6405,7 @@ Letter (ALS). Writes regarding arrangements for the proofreading of Parry's bota
 
 <c02 level="file"><did><container type="box">9</container>
 <unittitle id="s536">Paget, Stephen, 1855-1926. Papers,
-<unitdate type="inclusive" normal="1908" era="ce" calendar="gregorian">1908 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1908 and undated" era="ce" calendar="gregorian">1908 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6531,7 +6537,7 @@ Letter (ALS). Writes regarding arrangements for the proofreading of Parry's bota
 
 <c02 level="file"><did><container type="box">9</container>
 <unittitle id="s547">Pasteur, Louis, 1822-1895. Papers,
-<unitdate type="inclusive" normal="1877/1889" era="ce" calendar="gregorian">1877-1889 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1877/1889 and undated" era="ce" calendar="gregorian">1877-1889 and undated</unitdate></unittitle>
 <physdesc><extent>(5 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6608,7 +6614,7 @@ Letter (ALS). Writes regarding arrangements for the proofreading of Parry's bota
 
 <c02 level="file"><did><container type="box">9</container>
 <unittitle id="s554">Pepys, Lucas, Sir, 1742-1830. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1784 and 1830]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1784 and 1830]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6644,7 +6650,7 @@ Letter (ALS). Writes regarding arrangements for the proofreading of Parry's bota
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
-<p>French surgeon and professor. Holograph document, signed. Receipt of payment by M. Panckoucke, probably Charles Joseph Panckoucke (1736-1798), for work on the <title render="italic" linktype="simple">Dictionnarie de Chirurgie</title>. ALS to Nicolas Dubois de Chémant, regarding personal, financial and professional matters. Dubois de Chémant's wife adds a postscript.
+<p>French surgeon and professor. Holograph document, signed. Receipt of payment by M. Panckoucke, probably Charles Joseph Panckoucke (1736-1798), for work on the <title render="italic" linktype="simple">Dictionnarie de Chirurgie</title>. ALS to Nicolas Dubois de Ch&#233;mant, regarding personal, financial and professional matters. Dubois de Ch&#233;mant's wife adds a postscript.
 </p>
 </scopecontent>
 </c02>
@@ -6717,7 +6723,7 @@ Letter (ALS). Writes regarding arrangements for the proofreading of Parry's bota
 
 <c02 level="file"><did><container type="box">9</container>
 <unittitle id="s564">Picasso, Pablo, 1881-1973. Papers,
-<unitdate type="inclusive" normal="1913/1958" era="ce" calendar="gregorian">1913-1958 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1913/1958 and undated" era="ce" calendar="gregorian">1913-1958 and undated</unitdate></unittitle>
 <physdesc><extent>(4 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6750,7 +6756,7 @@ Letter (ALS). Writes regarding arrangements for the proofreading of Parry's bota
 
 <c02 level="file"><did><container type="box">9</container>
 <unittitle id="s567">Pinel, Philippe, 1745-1826. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1765 and 1826]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1765 and 1826]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6782,7 +6788,7 @@ Letter (ALS). Writes regarding arrangements for the proofreading of Parry's bota
 </c02>
 
 <c02 level="file"><did><container type="box">9</container>
-<unittitle id="s571">Poiseuille, Jean-Léonard-Marie, 1799-1869. Note,
+<unittitle id="s571">Poiseuille, Jean-L&#233;onard-Marie, 1799-1869. Note,
 <unitdate type="inclusive" normal="1831" era="ce" calendar="gregorian">1831, Nov. 3</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
@@ -6794,7 +6800,7 @@ Letter (ALS). Writes regarding arrangements for the proofreading of Parry's bota
 
 <c02 level="file"><did><container type="box">9</container>
 <unittitle id="s572">Polk, William Mecklenburg, 1844-1918. Papers,
-<unitdate type="inclusive" normal="1891/1893" era="ce" calendar="gregorian">1891-1893 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1891/1893 and undated" era="ce" calendar="gregorian">1891-1893 and undated</unitdate></unittitle>
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6810,7 +6816,7 @@ Letter (ALS). Writes regarding arrangements for the proofreading of Parry's bota
 </did>
 <scopecontent>
 <p>French physician.
-Letter (ALS). Writes of his theories on the treatment of vaporous affections, as they will appear in the seventh edition of his work <title render="italic" linktype="simple">Traité des affections vaporeuses des deux sexes</title>. He speaks of general opposition to his doctrines.
+Letter (ALS). Writes of his theories on the treatment of vaporous affections, as they will appear in the seventh edition of his work <title render="italic" linktype="simple">Trait&#233; des affections vaporeuses des deux sexes</title>. He speaks of general opposition to his doctrines.
 </p>
 </scopecontent>
 </c02>
@@ -6828,7 +6834,7 @@ Letter (ALS). Writes of his theories on the treatment of vaporous affections, as
 
 <c02 level="file"><did><container type="box">9</container>
 <unittitle id="s575">Post, Wright, 1766-1828. Papers,
-<unitdate type="inclusive" normal="1791" era="ce" calendar="gregorian">1791 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1791 and undated" era="ce" calendar="gregorian">1791 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6838,7 +6844,7 @@ Letter (ALS). Writes of his theories on the treatment of vaporous affections, as
 </c02>
 
 <c02 level="file"><did><container type="box">9</container>
-<unittitle id="s576">Potain, Pierre Carl Édouard, 1825-1901. Note,
+<unittitle id="s576">Potain, Pierre Carl &#233;douard, 1825-1901. Note,
 <unitdate type="inclusive" normal="1882" era="ce" calendar="gregorian">1882, May 22</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
@@ -6917,7 +6923,7 @@ Note (ANS). Asks addressee to excuse and to notify others of his absence from a 
 
 <c02 level="file"><did><container type="box">9</container>
 <unittitle id="s583">Power, D'Arcy, Sir, 1855-1941. Papers,
-<unitdate type="inclusive" normal="1900/1939" era="ce" calendar="gregorian">1900-1939 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1900/1939 and undated" era="ce" calendar="gregorian">1900-1939 and undated</unitdate></unittitle>
 <physdesc><extent>(14 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -6928,7 +6934,7 @@ Note (ANS). Asks addressee to excuse and to notify others of his absence from a 
 
 <c02 level="file"><did><container type="box">9</container>
 <unittitle id="s584">Pozzi, Samuel, 1846-1918. Papers,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1866 and 1918]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1866 and 1918]</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7027,7 +7033,7 @@ Note (ANS). Asks addressee to excuse and to notify others of his absence from a 
 
 <c02 level="file"><did><container type="box">9</container>
 <unittitle id="s593">Pugnet, Jean François Xavier, 1765-1846. Papers,
-<unitdate type="inclusive" normal="1840" era="ce" calendar="gregorian">1840 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1840 and undated" era="ce" calendar="gregorian">1840 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7037,7 +7043,7 @@ Note (ANS). Asks addressee to excuse and to notify others of his absence from a 
 </c02>
 
 <c02 level="file"><did><container type="box">9</container>
-<unittitle id="s594">Puzos, Nicolas, 1686-1753. <title render="italic" linktype="simple">Traité des accouchements</title>,
+<unittitle id="s594">Puzos, Nicolas, 1686-1753. <title render="italic" linktype="simple">Trait&#233; des accouchements</title>,
 <unitdate type="inclusive" normal="1753" era="ce" calendar="gregorian">1753, Mar. 4</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
@@ -7090,7 +7096,7 @@ Letter (ALS). Writes of the publication of the <title render="italic" linktype="
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
-<p>Danish philologist and antiquarian. Letters (ALS). Rafn sends John R. Bartlett "an account of the ancient structure at Newport" and asks him to look into the account of sales of books and journals sent by the Société royale des antiquaires du nord. He writes to J. V. C. Smith to acknowledge receipt of the <title render="italic" linktype="simple">American Medical Almanac</title> for 1841, sent by Smith.
+<p>Danish philologist and antiquarian. Letters (ALS). Rafn sends John R. Bartlett "an account of the ancient structure at Newport" and asks him to look into the account of sales of books and journals sent by the Soci&#233;t&#233; royale des antiquaires du nord. He writes to J. V. C. Smith to acknowledge receipt of the <title render="italic" linktype="simple">American Medical Almanac</title> for 1841, sent by Smith.
 </p>
 </scopecontent>
 </c02>
@@ -7120,7 +7126,7 @@ Letter (ALS) relating to the rewrite of Rammstedt's section of the fourth volume
 
 <c02 level="file"><did><container type="box">10</container>
 <unittitle id="s602">Ramsay, David, 1749-1815. Document,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[After 1815]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[After 1815]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7158,7 +7164,7 @@ Holograph document, signed. Details the division of the trust estate of Ramsay b
 </did>
 <scopecontent>
 <p>French physician.
-Letter (ALS). Writes of his research on fumigation and refers to plans for the publication of the <title render="italic" linktype="simple">Annals de la medécine fumigatoire</title>.
+Letter (ALS). Writes of his research on fumigation and refers to plans for the publication of the <title render="italic" linktype="simple">Annals de la med&#233;cine fumigatoire</title>.
 </p>
 </scopecontent>
 </c02>
@@ -7199,7 +7205,7 @@ Letter (ALS). Reviews Procher's recently published book, <title render="italic" 
 
 <c02 level="file"><did><container type="box">10</container>
 <unittitle id="s609">Reed, Charles Bailey. Correspondence,
-<unitdate type="inclusive" normal="1918/1921" era="ce" calendar="gregorian">1918-1921 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1918/1921 and undated" era="ce" calendar="gregorian">1918-1921 and undated</unitdate></unittitle>
 <physdesc><extent>(41 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7249,7 +7255,7 @@ Letter (ALS). Renwick endorses <title render="italic" linktype="simple">The Maga
 
 <c02 level="file"><did><container type="box">10</container>
 <unittitle id="s613">Reynolds, Edward, 1793-1881. Manuscript,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7271,7 +7277,7 @@ Letter (ALS). Renwick endorses <title render="italic" linktype="simple">The Maga
 
 <c02 level="file"><did><container type="box">10</container>
 <unittitle id="s614">Richard, Ad. Papers,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7292,7 +7298,7 @@ Letter (ALS). Renwick endorses <title render="italic" linktype="simple">The Maga
 
 <c02 level="file"><did><container type="box">10</container>
 <unittitle id="s616">Richerand, Anthelme, 1779-1840. Papers,
-<unitdate type="inclusive" normal="1806" era="ce" calendar="gregorian">1806 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1806 and undated" era="ce" calendar="gregorian">1806 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7303,18 +7309,18 @@ Letter (ALS). Renwick endorses <title render="italic" linktype="simple">The Maga
 
 <c02 level="file"><did><container type="box">10</container>
 <unittitle id="s617">Richet, Charles, 1850-1935. Letters,
-<unitdate type="inclusive" normal="1917" era="ce" calendar="gregorian">1917 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1917 and undated" era="ce" calendar="gregorian">1917 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
-<p>French physiologist; received 1913 Nobel Prize for Physiology-Medicine. Two letters (ALS). In 1917 letter, expresses his opinion against the employment of capital punishment. In undated letter to Alfred Capus, writes regarding the Comédie Français, the writer Étienne Dolet, and the actor Constant Coquelin.
+<p>French physiologist; received 1913 Nobel Prize for Physiology-Medicine. Two letters (ALS). In 1917 letter, expresses his opinion against the employment of capital punishment. In undated letter to Alfred Capus, writes regarding the Com&#233;die Français, the writer &#233;tienne Dolet, and the actor Constant Coquelin.
 </p>
 </scopecontent>
 </c02>
 
 <c02 level="file"><did><container type="box">10</container>
 <unittitle id="s618">Ricord, Ph., 1800-1889. Papers,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7336,7 +7342,7 @@ Letter (ALS) to S. B. Buckley. Riddell writes of his herbarium of Louisiana and 
 
 <c02 level="file"><did><container type="box">10</container>
 <unittitle id="s620">Rident, Hilarion. Manuscript,
-<unitdate type="inclusive" era="ce" calendar="gregorian">late 19th c.</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">late 19th c.</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7379,7 +7385,7 @@ Letter (ALS) to S. B. Buckley. Riddell writes of his herbarium of Louisiana and 
 
 <c02 level="file"><did><container type="box">10</container>
 <unittitle id="s624">Robinson, Victor, 1886-1947. Papers,
-<unitdate type="inclusive" normal="1910/1947" era="ce" calendar="gregorian">1910-1947 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1910/1947 and undated" era="ce" calendar="gregorian">1910-1947 and undated</unitdate></unittitle>
 <physdesc><extent>(15 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7423,7 +7429,7 @@ Letter (ALS) to S. B. Buckley. Riddell writes of his herbarium of Louisiana and 
 
 <c02 level="file"><did><container type="box">10</container>
 <unittitle id="s628">Roger, Henri, 1809-1891. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7497,13 +7503,13 @@ Letter (ALS). Root writes of his practice among the poor of Chile, of the small 
 <physdesc><extent>(49 items)</extent></physdesc>
 </did>
 <scopecontent>
-<p>British physician, specialist in tropical diseases. Papers include letters from Ross and from Maude Alice Henry Lafford, possibly Ross's personal secretary, to R. L. Mégroz. These letters relate to Ross's literary work. Papers include the typescript of Ross's "Ring of Fire" and "Midsummer Madness". There are also letters to Mégroz from publishers and from the British Broadcasting Company regarding articles and programs on Ross and his work on malaria. Papers include reprints, photos, a copy of Ordinance no. 22 of 1910 and an obituary of Ross from the <title render="italic" linktype="simple">British Medical Journal</title>.
+<p>British physician, specialist in tropical diseases. Papers include letters from Ross and from Maude Alice Henry Lafford, possibly Ross's personal secretary, to R. L. M&#233;groz. These letters relate to Ross's literary work. Papers include the typescript of Ross's "Ring of Fire" and "Midsummer Madness". There are also letters to M&#233;groz from publishers and from the British Broadcasting Company regarding articles and programs on Ross and his work on malaria. Papers include reprints, photos, a copy of Ordinance no. 22 of 1910 and an obituary of Ross from the <title render="italic" linktype="simple">British Medical Journal</title>.
 </p>
 </scopecontent>
 </c02>
 
 <c02 level="file"><did><container type="box">10</container>
-<unittitle id="s635">Roux, Emile, 1853-1933. Papers, <unitdate type="inclusive" normal="1908/1926" era="ce" calendar="gregorian">1908-1926 and undated</unitdate></unittitle>
+<unittitle id="s635">Roux, Emile, 1853-1933. Papers, <unitdate type="inclusive" normal="1908/1926 and undated" era="ce" calendar="gregorian">1908-1926 and undated</unitdate></unittitle>
 <physdesc><extent>(4 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7518,14 +7524,14 @@ Letter (ALS). Root writes of his practice among the poor of Chile, of the small 
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
-<p>French physician. Letter (ALS). Asks if papers submitted for contests of the Société de médecine are returned after the announcements of the awards.
+<p>French physician. Letter (ALS). Asks if papers submitted for contests of the Soci&#233;t&#233; de m&#233;decine are returned after the announcements of the awards.
 </p>
 </scopecontent>
 </c02>
 
 <c02 level="file"><did><container type="box">10</container>
 <unittitle id="s637">Royle, J.T. Manuscript,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7578,8 +7584,8 @@ Letter (ALS). Root writes of his practice among the poor of Chile, of the small 
 </c02>
 
 <c02 level="file"><did><container type="box">10</container>
-<unittitle id="s641">Sée, Germain, 1818-1896. Papers,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[After 1840]</unitdate></unittitle>
+<unittitle id="s641">S&#233;e, Germain, 1818-1896. Papers,
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[After 1840]</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7589,8 +7595,8 @@ Letter (ALS). Root writes of his practice among the poor of Chile, of the small 
 </c02>
 
 <c02 level="file"><did><container type="box">10</container>
-<unittitle id="s642">Sabatier, Raphaël Bienvenu, 1732-1811. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1750 and 1811?]</unitdate></unittitle>
+<unittitle id="s642">Sabatier, Rapha&#235;l Bienvenu, 1732-1811. Note,
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1750 and 1811?]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7600,7 +7606,7 @@ Letter (ALS). Root writes of his practice among the poor of Chile, of the small 
 
 <c02 level="file"><did><container type="box">10</container>
 <unittitle id="s642.1">St. Thomas's Hospital. Document,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1775 and 1823]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1775 and 1823]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7653,13 +7659,13 @@ Letters (ALS). Salmon writes to a Miss Acton, a former patient, referring to his
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
-<p>Italian pathologist and hygienist. Letter (ALS). Declines invitation to become a member of the National League, "Pro-Italia". </p>
+<p>Italian pathologist and hygienist from Arezzo, Italy. Letter (ALS). Declines invitation to become a member of the National League, "Pro-Italia". </p>
 </scopecontent>
 </c02>
 
 <c02 level="file"><did><container type="box">11</container>
 <unittitle id="s645">Sandwith, Humphry, 1822-1881. Papers,
-<unitdate type="inclusive" normal="1864" era="ce" calendar="gregorian">1864 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1864 and undated" era="ce" calendar="gregorian">1864 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7691,7 +7697,7 @@ Letters (ALS). Salmon writes to a Miss Acton, a former patient, referring to his
 
 <c02 level="file"><did><container type="box">11</container>
 <unittitle id="s647">Saunders, William, 1743-1817. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1800 and 1817]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1800 and 1817]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7713,7 +7719,7 @@ Letters (ALS). Salmon writes to a Miss Acton, a former patient, referring to his
 
 <c02 level="file"><did><container type="box">11</container>
 <unittitle id="s649">Sayre, Lewis Albert, 1820-1900. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1850 and 1900]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1850 and 1900]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7723,7 +7729,7 @@ Letters (ALS). Salmon writes to a Miss Acton, a former patient, referring to his
 </c02>
 
 <c02 level="file"><did><container type="box">11</container>
-<unittitle id="s650">Schönlein, Johann Lukas, 1793-1864. Note,
+<unittitle id="s650">Sch&#246;nlein, Johann Lukas, 1793-1864. Note,
 <unitdate type="inclusive" normal="1856" era="ce" calendar="gregorian">1856, June 26</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
@@ -7800,7 +7806,7 @@ Letters (ALS). Salmon writes to a Miss Acton, a former patient, referring to his
 </c02>
 
 <c02 level="file"><did><container type="box">11</container>
-<unittitle id="s657">Semelaigne, René. Papers,
+<unittitle id="s657">Semelaigne, Ren&#233;. Papers,
 <unitdate type="inclusive" normal="1926" era="ce" calendar="gregorian">1926</unitdate></unittitle>
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
@@ -7947,7 +7953,7 @@ Note (ANS). Asks that Buchanan hold three parcels for him.
 
 <c02 level="file"><did><container type="box">11</container>
 <unittitle id="s671">Simpson, James Young, Sir, 1811-1870. Papers,
-<unitdate type="inclusive" normal="1835/1911" era="ce" calendar="gregorian">1835-1911 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1835/1911 and undated" era="ce" calendar="gregorian">1835-1911 and undated</unitdate></unittitle>
 <physdesc><extent>(106 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -7969,7 +7975,7 @@ Note (ANS). Asks that Buchanan hold three parcels for him.
 
 <c02 level="file"><did><container type="box">11</container>
 <unittitle id="s672">Sims, James Marion, 1813-1883. Papers,
-<unitdate type="inclusive" normal="1860/1867" era="ce" calendar="gregorian">1860-1867 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1860/1867 and undated" era="ce" calendar="gregorian">1860-1867 and undated</unitdate></unittitle>
 <physdesc><extent>(3 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -8100,7 +8106,7 @@ Letter (ALS) to a client. He quotes prices for various optical and astronomical 
 
 <c02 level="file"><did><container type="box">12</container>
 <unittitle id="s684">Spurzheim, Johann Gaspar, 1776-1832. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Before 1832]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Before 1832]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -8138,7 +8144,7 @@ Letter (ALS). Thanks the editor of a periodical for printing a notice of his lec
 
 <c02 level="file"><did><container type="box">12</container>
 <unittitle id="s689">Stevens, Alexander Hodgdon, 1789-1869. Papers,
-<unitdate type="inclusive" normal="1839" era="ce" calendar="gregorian">1839 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1839 and undated" era="ce" calendar="gregorian">1839 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -8207,7 +8213,7 @@ Note (ANS). Thanks Norton for his gift of the medal of the Medical and Chirurgic
 
 <c02 level="file"><did><container type="box">12</container>
 <unittitle id="s695">Stringer, Samuel, 1734-1817. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -8310,7 +8316,7 @@ Note (ANS).
 </c02>
 
 <c02 level="file"><did><container type="box">12</container>
-<unittitle id="s704">Tarnier, Stéphane, 1828-1897. Note,
+<unittitle id="s704">Tarnier, St&#233;phane, 1828-1897. Note,
 <unitdate type="inclusive" normal="1864" era="ce" calendar="gregorian">1864, Oct. 31</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
@@ -8367,7 +8373,7 @@ Note (ANS).
 
 <c02 level="file"><did><container type="box">12</container>
 <unittitle id="s709">Terrillon, O. (Octave Roche Simon), 1844-1895. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Before 1895]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Before 1895]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -8399,7 +8405,7 @@ Note (ANS).
 
 <c02 level="file"><did><container type="box">12</container>
 <unittitle id="s711">Theorell, Hugo. Manuscript,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -8415,14 +8421,14 @@ Manuscript (AMS), unsigned. Incomplete manuscript of a study on enzymes and enzy
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
-<p>French surgeon and soldier. Certifies Thibault as Surgeon, Third Class, with the Seventh Regiment of the Light Cavalry. Signed by the Inspector-Generals of the "Service de Santé des Armées", including J. F. Coste, P. Bayen, and N. Heurteloup.
+<p>French surgeon and soldier. Certifies Thibault as Surgeon, Third Class, with the Seventh Regiment of the Light Cavalry. Signed by the Inspector-Generals of the "Service de Sant&#233; des Arm&#233;es", including J. F. Coste, P. Bayen, and N. Heurteloup.
 </p>
 </scopecontent>
 </c02>
 
 <c02 level="file"><did><container type="box">12</container>
 <unittitle id="s713">Thomas, H. Leigh. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[1800s?]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[1800s?]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -8448,7 +8454,7 @@ Manuscript (AMS), unsigned. Incomplete manuscript of a study on enzymes and enzy
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
-<p>French surgeon and soldier. Certifies Thomassin as Surgeon in Chief with the Army of the Rhine and Moselle. Signed by members of the "Conseil de Santé", including J. F. Coste, P. Bayen, and N. Saucerotte.
+<p>French surgeon and soldier. Certifies Thomassin as Surgeon in Chief with the Army of the Rhine and Moselle. Signed by members of the "Conseil de Sant&#233;", including J. F. Coste, P. Bayen, and N. Saucerotte.
 </p>
 </scopecontent>
 </c02>
@@ -8511,7 +8517,7 @@ Letter (ALS) to his nephew, then a student at Phillips Exeter Academy. Throop pr
 
 <c02 level="file"><did><container type="box">12</container>
 <unittitle id="s721">Tiedemann, Friedrich, 1781-1861. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[Between 1816 and 1848]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[Between 1816 and 1848]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -8590,7 +8596,7 @@ Letter (ALS). Informs Talbot that upon his return to London he will suggest the 
 
 <c02 level="file"><did><container type="box">12</container>
 <unittitle id="s729">Trousseau, Armand, 1801-1867. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -8602,7 +8608,7 @@ Letter (ALS). Asks Collard to befriend a St. Marc, who seeks reinstatement to hi
 
 <c02 level="file"><did><container type="box">12</container>
 <unittitle id="s730">Tuke, Daniel Hack, 1827-1895. Papers,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -8662,7 +8668,7 @@ Holograph document, signed by Fre. Smythe, is a New Jersey medical license. Note
 
 <c02 level="file"><did><container type="box">12</container>
 <unittitle id="s735">Turner, W. Papers,
-<unitdate type="inclusive" normal="1827" era="ce" calendar="gregorian">1827 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1827 and undated" era="ce" calendar="gregorian">1827 and undated</unitdate></unittitle>
 <physdesc><extent>(2 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -8697,7 +8703,7 @@ Letter (ALS). Proposal to erect a monument in honor of the passage of the Reform
 
 <c02 level="file"><did><container type="box">12</container>
 <unittitle id="s738">Tyndall, John, 1820-1893. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -8766,7 +8772,7 @@ Letter (ALS). Recommends a M. Gallet for a position of copy clerk.
 
 <c02 level="file"><did><container type="box">12</container>
 <unittitle id="s744">Verneuil, A. A. (Aristide Auguste Stanislas), 1823-1895. Letters,
-<unitdate type="inclusive" normal="1884" era="ce" calendar="gregorian">1884 and undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="1884 and undated" era="ce" calendar="gregorian">1884 and undated</unitdate></unittitle>
 <physdesc><extent>(4 items)</extent></physdesc>
 </did>
 <scopecontent>
@@ -8789,7 +8795,7 @@ Letters (ALS). Correspondents include: M. Letulle and M. Palla. Discusses patien
 
 <c02 level="file"><did><container type="box">12</container>
 <unittitle id="s746">Verral, Charles. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">[1800s?]</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">[1800s?]</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -8844,13 +8850,9 @@ Letters (ALS). Writes a note of thanks and sends instructions to his publisher.
 </scopecontent>
 </c02>
 
-
-
-
-
 <c02 level="file"><did><container type="box">13</container>
 <unittitle id="s751">Vulpian, Alfred, 1826-1887. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -9033,7 +9035,7 @@ Letters (ALS), including a description of the Siamese twins Chang and Eng, presc
 
 <c02 level="file"><did><container type="box">13</container>
 <unittitle id="s768">Wilde, William Robert, 1815-1876. Note,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -9055,7 +9057,7 @@ Letters (ALS), including a description of the Siamese twins Chang and Eng, presc
 
 <c02 level="file"><did><container type="box">13</container>
 <unittitle id="s770">Willoughby, Westel Woodbury, 1867-1945. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
@@ -9100,11 +9102,11 @@ Three letters (ALS). Pertains to the exchange of copies of a book by Wilson. Wil
 
 <c02 level="file"><did><container type="box">13</container>
 <unittitle id="s774">Wood, Horatio C., 1841-1920. Letter,
-<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate></unittitle>
+<unitdate type="inclusive" normal="undated" era="ce" calendar="gregorian">undated</unitdate></unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>
-<p>Philadelphia therapeutist. Letter (ALS). Refers the addressee to Alfred Stillé's and John Shaw Billings' writings on cholera.
+<p>Philadelphia therapeutist. Letter (ALS). Refers the addressee to Alfred Still&#233;'s and John Shaw Billings' writings on cholera.
 </p>
 </scopecontent>
 </c02>
@@ -9179,7 +9181,7 @@ Letter (ALS). Describes the case history of Prince Frederick of England, who suf
 
 <c02 level="file"><did><container type="box">13</container>
 <unittitle id="s781">Zoological Society, London. Letter,
-<unitdate type="inclusive" normal="1828/1841" era="ce" calendar="gregorian"/>between 1828 and 1841</unittitle>
+<unitdate type="inclusive" normal="1800" era="ce" calendar="gregorian"/>between 1828 and 1841</unittitle>
 <physdesc><extent>(1 item)</extent></physdesc>
 </did>
 <scopecontent>

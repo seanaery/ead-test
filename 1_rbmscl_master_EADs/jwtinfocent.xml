@@ -2,3101 +2,2594 @@
 <!DOCTYPE ead
   PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "./dtds/ead.dtd">
 <ead>
-	<eadheader audience="internal" countryencoding="iso3166-a" langencoding="iso639-2b"
-		dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924">
-		<eadid countrycode="us" mainagencycode="ndd"
-			publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::J. Walter Thompson Company. Information Center Records, 1890s-1987)//EN"
-			url="http://library.duke.edu/rubenstein/findingaids/jwtinfocent/">jwtinfocent</eadid>
+  <eadheader audience="internal" countryencoding="iso3166-a" langencoding="iso639-2b" dateencoding="iso8601" repositoryencoding="iso15511" scriptencoding="iso15924">
+	 <eadid countrycode="us" mainagencycode="ndd" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::J. Walter Thompson Company. Information Center Records, 1890s-1987)//EN" url="http://library.duke.edu/rubenstein/findingaids/jwtinfocent/">jwtinfocent</eadid>
 
-		<filedesc>
-			<titlestmt>
-				<titleproper>Guide to the J. Walter Thompson Company. Information Center Records,
-						<date normal="1890/1987" era="ce" calendar="gregorian">1890s-1987</date>
-				</titleproper>
-				<author>Processed by: Janie Morris; machine-readable finding aid created by: Stephen
-					Douglas Miller</author>
-			</titlestmt>
-			<publicationstmt>
-				<p>
-					<date era="ce" calendar="gregorian"> 1992</date> Duke University. All Rights
-					Reserved.</p>
-			</publicationstmt>
-			<notestmt>
-				<note>
-					<p>Aleph Number: <num type="aleph">001135132</num></p>
-				</note>
-			</notestmt>
-		</filedesc>
-		<profiledesc>
-			<creation>Machine-readable finding aid derived from Microsoft Word 6.0c <lb/>Date of
-				source: December 4, 1992 <lb/>Processed by: Janie Morris December 4, 1992; Finding
-				Aid encoded by Stephen Douglas Miller, David M. Rubenstein Rare Book &amp;
-				Manuscript Library, Duke University. <date era="ce" calendar="gregorian">July
-					1997</date>
-			</creation>
-			<langusage>Description is in <language>English.</language>
-			</langusage>
-		</profiledesc>
-		<revisiondesc>
-			<change>
-				<date normal="2006" era="ce" calendar="gregorian">05-08-2006</date>
-				<item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript
-					Library//TEXT (US::NDD::::J. Walter Thompson Company. Information Center
-					Records, 1890s-1987)//EN" "jwtinfocent" converted from EAD 1.0 to 2002 by
-					v1to02.xsl (sy2003-10-15).</item>
-				<item>Also, the top level of the finding aid (above the dsc) changed to conform to
-					current Rubenstein Library and NC EAD standards as laid out in the Inventory
-					Style Guide and in the NCEAD Best Practice Guidelines. Within the dsc, dates for
-					series were normalized. These changes were made by Michelle Belden.</item>
-				<item>Also, container TYPE and LABEL attribute values were standardized according to
-					the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E.
-					Bryan.</item>
-				<item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
-			</change>
-			<change>
-				<date era="ce" calendar="gregorian">June 29, 1998</date>
-				<item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
+	 <filedesc>
+		<titlestmt>
+		  <titleproper>Guide to the J. Walter Thompson Company. Information
+			 Center Records,
+			 <date normal="1890/1987" era="ce" calendar="gregorian">1890s-1987</date> </titleproper>
+		  <author>Processed by: Janie Morris; machine-readable finding aid
+			 created by: Stephen Douglas Miller</author>
+		</titlestmt>
+		<publicationstmt>
+		  <p>
+			 <date era="ce" calendar="gregorian"> 1992</date> Duke University. All Rights Reserved.</p>
+		</publicationstmt>
+		<notestmt>
+		  <note><p>Aleph Number: <num type="aleph">001135132</num></p></note></notestmt>
+	 </filedesc>
+	 <profiledesc>
+		<creation>Machine-readable finding aid derived from Microsoft Word 6.0c
+		  <lb/>Date of source: December 4, 1992 <lb/>Processed by: Janie Morris December
+		  4, 1992; Finding Aid encoded by Stephen Douglas Miller, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.
+		  <date era="ce" calendar="gregorian">July 1997</date> </creation>
+		<langusage>Description is in <language>English.</language> </langusage>
+	 </profiledesc>
+	 <revisiondesc>
+		<change>
+		  <date normal="2006" era="ce" calendar="gregorian">05-08-2006</date>
+		  <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::J. Walter Thompson Company. Information
+			 Center Records, 1890s-1987)//EN" "jwtinfocent" converted from EAD 1.0 to 2002
+			 by v1to02.xsl (sy2003-10-15).</item>
+		  <item>Also, the top level of the finding aid (above the dsc) changed to
+			 conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory
+			 Style Guide and in the NCEAD Best Practice Guidelines. Within the dsc, dates
+			 for series were normalized. These changes were made by Michelle Belden.</item>
+		  <item>Also, container TYPE and LABEL attribute values were standardized
+			 according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E.
+			 Bryan.</item>
+		  <item>The tag list inside index was changed to indexentry by Ruth E.
+			 Bryan.</item>
+		</change>
+		<change>
+		  <date era="ce" calendar="gregorian">June 29, 1998</date>
+		  <item>Updated to EAD Version 1.0 from EAD Beta by Stephen Miller</item>
 
-			</change>
-		</revisiondesc>
-	</eadheader>
-	<frontmatter>
-		<titlepage>
-			<titleproper>Guide to the J. Walter Thompson Company. Information Center Records, <date
-					era="ce" calendar="gregorian">1890s-1987</date>
-			</titleproper>
-			<publisher>The John W. Hartman Center for Sales, Advertising &amp; Marketing
-				History<lb/>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke
-				University<lb/>Durham, North Carolina</publisher>
-			<list type="simple">
-				<defitem>
-					<label>Processed by </label>
-					<item>Janie Morris</item>
-				</defitem>
-				<defitem>
-					<label>Date Completed </label>
-					<item>
-						<date era="ce" calendar="gregorian">December 4, 1992</date>
-					</item>
-				</defitem>
-				<defitem>
-					<label>Encoded by </label>
-					<item>Stephen Douglas Miller</item>
-				</defitem>
-			</list>
-			<p> 1992 Duke University. All rights reserved.</p>
-		</titlepage>
-	</frontmatter>
-	<archdesc level="collection">
-		<did>
-			<head>Descriptive Summary</head>
-			<unittitle label="Title">J. Walter Thompson Company. Information Center records 					<unitdate normal="1890/1987" type="inclusive" era="ce" calendar="gregorian"
-					>1890s-1987</unitdate>
-			</unittitle>
-			<origination label="Creator">
-				<corpname>J. Walter Thompson Company.</corpname>
-			</origination>
-			<physdesc label="Extent">
-				<extent>19.5 Linear Feet</extent>
-				<extent>circa 9,500 Items</extent>
-			</physdesc>
-			<repository label="Repository">
-				<corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript
-					Library</corpname>
-			</repository>
-			<physloc label="Location">For current information on the location of these materials,
-				please consult the Library's online catalog.</physloc>
-			<langmaterial label="Language">
-				<language langcode="eng">English.</language>
-			</langmaterial>
-		</did>
-		<descgrp type="admininfo">
-			<head>Administrative Information</head>
-			<accessrestrict>
-				<head>Access Restrictions</head>
-				<p>Access to some portions of the J. Walter Thompson Company Archives is restricted.
-					For further information, consult a reference archivist.</p>
-				<p>Researchers must register and agree to copyright and privacy laws before using
-					this collection.</p>
-				<p>All or portions of this collection may be housed off-site in Duke University's
-					Library Service Center. There may be a 48-hour delay in obtaining these
-					materials.</p>
-				<p>Please contact Research Services staff before visiting the David M. Rubenstein
-					Rare Book &amp; Manuscript Library to use this collection.</p>
-			</accessrestrict>
-			<userestrict>
-				<head>Usage Restrictions</head>
-				<p>The copyright interests in the Information Center Records have not been
-					transferred to Duke University. For further information, see the section on
-					copyright in the Regulations and Procedures of the David M. Rubenstein Rare Book
-					&amp; Manuscript Library.</p>
-			</userestrict>
-			<prefercite>
-				<head>Preferred Citation</head>
-				<p>[Identification of item], J. Walter Thompson Company. Information Center Records,
-					1890s-1987, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke
-					University.</p>
-			</prefercite>
-			<acqinfo>
-				<head>Provenance</head>
-				<p>The Information Center Records were transferred to the David M. Rubenstein Rare
-					Book &amp; Manuscript Library from the J. Walter Thompson Company in 1987. </p>
-			</acqinfo>
-			<processinfo>
-				<head>Processing Information</head>
-				<p>Processed by: Janie Morris</p>
-				<p>Completed December 4, 1992</p>
-				<p>Processing of this collection was supported in part by gifts from the J. Walter
-					Thompson Company Fund and the John and Kelly Hartman Foundation.</p>
-				<p>This finding aid is NCEAD compliant.</p>
+		</change>
+	 </revisiondesc>
+  </eadheader>
+  <frontmatter>
+	 <titlepage>
+		<titleproper>Guide to the J. Walter Thompson Company. Information
+		  Center Records,
+		  <date era="ce" calendar="gregorian">1890s-1987</date> </titleproper>
+		<publisher>The John W. Hartman Center for Sales, Advertising &amp;
+		  Marketing History<lb/>David M. Rubenstein Rare Book &amp; Manuscript Library<lb/>Duke
+		  University<lb/>Durham, North Carolina</publisher>
+		<list type="simple">
+		  <defitem>
+			 <label>Processed by </label>
+			 <item>Janie Morris</item>
+		  </defitem>
+		  <defitem>
+			 <label>Date Completed </label>
+			 <item>
+				<date era="ce" calendar="gregorian">December 4, 1992</date> </item>
+		  </defitem>
+		  <defitem>
+			 <label>Encoded by </label>
+			 <item>Stephen Douglas Miller</item>
+		  </defitem>
+		</list>
+		<p> 1992 Duke University. All rights reserved.</p>
+	 </titlepage>
+  </frontmatter>
+  <archdesc level="collection">
+	 <did>
+		<head>Descriptive Summary</head>
+		<unittitle label="Title">J. Walter Thompson Company. Information Center
+		  records,
+		  <unitdate normal="1890/1987" type="inclusive" era="ce" calendar="gregorian">1890s-1987</unitdate>
+		  </unittitle>
+		<origination label="Creator">
+		  <corpname>J. Walter Thompson Company.</corpname> </origination>
+		<physdesc label="Extent"> <extent>19.5 Linear Feet</extent> <extent>ca.		  9,500 Items</extent> </physdesc>
+		<repository label="Repository">
+		  <corpname>Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library</corpname> </repository>
+		<physloc label="Location">For current information on the location of
+		  these materials, please consult the Library's online catalog.</physloc>
+		<langmaterial label="Language"> <language langcode="eng">English.</language> </langmaterial>
+	 </did>
+	 <descgrp type="admininfo">
+		<head>Administrative Information</head>
+		<accessrestrict>
+		  <head>Access Restrictions</head>
+		  <p>Access to some portions of the J. Walter Thompson Company Archives
+			 is restricted. For further information, consult a reference archivist.</p>
+		  <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+		  <p>All or portions of this collection may be housed off-site in
+			 Duke University's Library Service Center. There may be a 48-hour
+			 delay in obtaining these materials.</p>
+		  <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+		</accessrestrict>
+		<userestrict>
+		  <head>Usage Restrictions</head>
+		  <p>The copyright interests in the Information Center Records have not
+			 been transferred to Duke University. For further information, see the section
+			 on copyright in the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library.</p>
+		</userestrict>
+		<prefercite>
+		  <head>Preferred Citation</head>
+		  <p>[Identification of item], J. Walter Thompson Company. Information
+			 Center Records, 1890s-1987, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+		</prefercite>
+		<acqinfo>
+		  <head>Provenance</head>
+		  <p>The Information Center Records were transferred to the David M. Rubenstein Rare Book &amp; Manuscript Library from the J. Walter Thompson Company
+			 in 1987. </p>
+		</acqinfo>
+		<processinfo>
+		  <head>Processing Information</head>
+		  <p>Processed by: Janie Morris</p>
+		  <p>Completed December 4, 1992</p>
+		  <p>Processing of this collection was supported in part by gifts from
+			 the J. Walter Thompson Company Fund and the John and Kelly Hartman
+			 Foundation.</p>
+		  <p>This finding aid is NCEAD compliant.</p>
 
-			</processinfo>
-		</descgrp>
-		<bioghist>
-			<head>Historical Note</head>
-			<p>The Information Center was founded by the J. Walter Thompson Company New York Office
-				in 1918. The records contain several folders detailing efforts to reorganize and
-				expand the Center's services in the mid-1950s. Included are reports describing the
-				purpose of the Center personnel recruitment efforts, and readings about ways to
-				organize office files. In 1980, some of these records were transferred to the J.
-				Walter Thompson Company Archives, which was established in New York in 1979. Some of
-				the files remained active in the Archives until the records were transferred to Duke
-				University in 1987.</p>
-		</bioghist>
-		<scopecontent>
-			<head>Collection Overview</head>
-			<p>The Information Center Records span the years from the 1890s to 1987 with the bulk
-				dating from the 1940s to 1987. Reports, memoranda, clippings, financial papers, and
-				printed materials that relate to specific J. Walter Thompson Company accounts and
-				offices and to advertising strategies comprise the majority of the collection and
-				are found in the Vertical Files Series and Communications Committee Reports Series.
-				The Information Center Records provide information about a wide variety of J. Walter
-				Thompson accounts, specific details about its operation of domestic and
-				international offices, and an in-depth view of how specific products were evaluated
-				and promoted. The history of the J. Walter Thompson Company, the organization of
-				multinational advertising agencies, and advertising research and marketing are also
-				represented in this collection.</p>
-			<p> Particularly highlighted in the Vertical Files Series is information about the
-				T-plan and T-square, which documents the foundation upon which the J. Walter
-				Thompson Company sought to market its clients' products. Knowledge about how
-				particular products were studied and marketed are represented by product histories
-				and case studies in the Vertical files Series. Typical information about a product
-				includes its history, government standards, advertising and sales history,
-				advertising investment sales records, packaging and labeling, consumer research, and
-				surveys relating to the product.</p>
-			<p> Marketing research studies and media research reports are common types of data found
-				in the J. Walter Thompson domestic and international office records. For example,
-				New York office files contain reports titled <title render="doublequote"
-					linktype="simple">Advertising to Women</title> and <title render="doublequote"
-					linktype="simple">Advertising and Spanish Speaking Americans.</title> The United
-				Kingdom Files contain a report about the interests of children from four to twelve.
-				While records relating to employees are primarily located in the New York Office
-				files, the Chicago Office files include an Employee Attitude Survey (1969) completed
-				by Elrick and Lavidge, a marketing research company. The domestic and international
-				office files referred to above are located in the Vertical Files Series.</p>
-		</scopecontent>
-		<controlaccess>
-			<head>Subject Headings</head>
-			<p>These are searchable subject entries for this collection. Performing a search on
-				these subjects in the Duke University Libraries online catalog will bring up other
-				related research materials.</p>
-			<list type="simple">
-				<item><corpname>J. Walter Thompson Company</corpname></item>
-				<item>
-					<subject>Advertising agencies -- New York (N.Y.).</subject>
-				</item>
-				<item>
-					<subject>Advertising campaigns</subject>
-				</item>
-				<item>
-					<subject>Advertising -- Management</subject>
-				</item>
-				<item>
-					<subject>Advertising -- Research</subject>
-				</item>
-				<item>
-					<subject>Marketing research</subject>
-				</item>
-				<item>
-					<subject>Advertising -- Brand name products</subject>
-				</item>
-				<item>
-					<subject>Advertising agencies -- Canada</subject>
-				</item>
-				<item>
-					<subject>Advertising agencies -- Europe</subject>
-				</item>
-				<item>
-					<subject>Advertising agencies -- India</subject>
-				</item>
-				<item>
-					<subject>Advertising agencies -- South Africa</subject>
-				</item>
-				<item>
-					<subject>Advertising agencies -- Great Britain</subject>
-				</item>
-				<item>
-					<corpname>John W. Hartman Center for Sales, Advertising &amp; Marketing
-						History</corpname></item>
-			</list>
-		</controlaccess>
-
-		<dsc type="combined">
-			<head>Contents of Collection</head>
-			<c01 level="series">
-				<did>
-					<unittitle>Vertical Files, <unitdate normal="1890/1987" type="inclusive"
-							era="ce" calendar="gregorian"> 1890s-1987, </unitdate>
-						<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate>
-					</unittitle>
-				</did>
-				<scopecontent>
-					<p>Developed by the J. Walter Thompson Company as general reference files, they
-						remained active until the company records were transferred to Duke
-						University in <unitdate type="inclusive" era="ce" calendar="gregorian">
-							1987. </unitdate>Subdivided into three subseries: Accounts, History, and
-						Organization.</p>
-				</scopecontent>
+		</processinfo>
+	 </descgrp>
+	 <bioghist>
+		<head>Historical Note</head>
+		<p>The Information Center was founded by the J. Walter Thompson Company
+		  New York Office in 1918. The records contain several folders detailing efforts
+		  to reorganize and expand the Center's services in the mid-1950s. Included are
+		  reports describing the purpose of the Center personnel recruitment efforts, and
+		  readings about ways to organize office files. In 1980, some of these records
+		  were transferred to the J. Walter Thompson Company Archives, which was
+		  established in New York in 1979. Some of the files remained active in the
+		  Archives until the records were transferred to Duke University in 1987.</p>
+	 </bioghist>
+	 <scopecontent>
+		<head>Collection Overview</head>
+		<p>The Information Center Records span the years from the 1890s to 1987
+		  with the bulk dating from the 1940s to 1987. Reports, memoranda, clippings,
+		  financial papers, and printed materials that relate to specific J. Walter
+		  Thompson Company accounts and offices and to advertising strategies comprise
+		  the majority of the collection and are found in the Vertical Files Series and
+		  Communications Committee Reports Series. The Information Center Records provide
+		  information about a wide variety of J. Walter Thompson accounts, specific
+		  details about its operation of domestic and international offices, and an
+		  in-depth view of how specific products were evaluated and promoted. The history
+		  of the J. Walter Thompson Company, the organization of multinational
+		  advertising agencies, and advertising research and marketing are also
+		  represented in this collection.</p>
+		<p> Particularly highlighted in the Vertical Files Series is information
+		  about the T-plan and T-square, which documents the foundation upon which the J.
+		  Walter Thompson Company sought to market its clients' products. Knowledge about
+		  how particular products were studied and marketed are represented by product
+		  histories and case studies in the Vertical files Series. Typical information
+		  about a product includes its history, government standards, advertising and
+		  sales history, advertising investment sales records, packaging and labeling,
+		  consumer research, and surveys relating to the product.</p>
+		<p> Marketing research studies and media research reports are common
+		  types of data found in the J. Walter Thompson domestic and international office
+		  records. For example, New York office files contain reports titled
+		<title render="doublequote" linktype="simple">Advertising to Women</title> and
+		<title render="doublequote" linktype="simple">Advertising and Spanish Speaking
+		  Americans.</title> The United Kingdom Files contain a report about the
+		interests of children from four to twelve. While records relating to employees
+		are primarily located in the New York Office files, the Chicago Office files
+		include an Employee Attitude Survey (1969) completed by Elrick and Lavidge, a
+		marketing research company. The domestic and international office files
+		referred to above are located in the Vertical Files Series.</p>
+	 </scopecontent>
+	 <controlaccess>
+		<head>Subject Headings</head>
+		<p>These are searchable subject entries for this collection. Performing a
+		  search on these subjects in the Duke University Libraries online catalog will
+		  bring up other related research materials.</p>
+		<list type="simple">
+		  <item>J. Walter Thompson Company.</item>
+		  <item>
+			 <subject>Advertising agencies--New York (N.Y.).</subject> </item>
+		  <item>
+			 <subject>Advertising campaigns.</subject> </item>
+		  <item>
+			 <subject>Advertising--Management.</subject> </item>
+		  <item>
+			 <subject>Advertising--Research.</subject> </item>
+		  <item>
+			 <subject>Marketing research.</subject> </item>
+		  <item>
+			 <subject>Advertising--Brand name products.</subject> </item>
+		  <item>
+			 <subject>Advertising agencies</subject>--
+			 <geogname>Canada.</geogname> </item>
+		  <item>
+			 <subject>Advertising agencies</subject>--
+			 <geogname>Europe.</geogname> </item>
+		  <item>
+			 <subject>Advertising agencies</subject>--
+			 <geogname>India.</geogname> </item>
+		  <item>
+			 <subject>Advertising agencies</subject>--
+			 <geogname>South Africa.</geogname> </item>
+		  <item>
+			 <subject>Advertising agencies</subject>--
+			 <geogname>Great Britain.</geogname> </item>
+		  <item>
+			 <corpname>John W. Hartman Center for Sales, Advertising &amp;
+				Marketing History.</corpname></item>
+		</list>
+	 </controlaccess>
+	 
+	 <dsc type="combined">
+		<head>Contents of Collection</head>
+	
+		  <c01 level="series">
+			 <did>
+				<unittitle id="s1">Accounts,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1912-1987</unitdate> </unittitle>
+			 </did>
+			 <scopecontent>
+				<p>Contains reports, memoranda, case studies, clippings, and
+				  financial papers, chiefly redating to specific
+				  <corpname>J. Walter Thompson Company </corpname>accounts. Case
+				  studies can be found either undo the Case studies subsection or within the
+				  folder for the particular account, e.g.
+				  <corpname>Scott Paper Company. </corpname>The amount of material
+				  about specific accounts vary. For some, specific information about prizes,
+				  contests, and packaging used to promote specific products is included.
+				  Testimonial advertising developed to recruit well-known persons to endorse
+				  products and volunteer groups, who employed the
+				  <corpname>J. Walter Thompson Company </corpname>to promote their
+				  causes or concerns, are also represented.</p>
+			 </scopecontent>
+			 <arrangement>
+				<p>The subseries is subdivided into two categories: General
+				  Information and Specific Client Accounts. General Information includes case
+				  studies and lists at the beginning, followed by an alphabetical arrangement by
+				  topic. Specific Client Accounts are arranged alphabetically by client name or
+				  type of account (e.g. volunteer accounts).</p>
+			 </arrangement>
+			
 				<c02 level="subseries">
-					<did>
-						<unittitle>Accounts, <unitdate type="inclusive" era="ce"
-								calendar="gregorian"> 1912-1987.</unitdate>
+				<did>
+				<unittitle>General </unittitle>
+				</did>
+	
+					
+				
+				  
+				  <c03>
+					 <did>	<container type="box">1</container>
+					
+						<unittitle>General information,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1925-1960 </unitdate>
+						  </unittitle>
+					 </did>
+				  </c03>
+				  <c03>
+					 <did>
+						<unittitle>
+						  <title render="italic" linktype="simple">Encyclopedia of Advertising,</title>
+
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1924-1925</unitdate>
+						  </unittitle>
+					 </did>
+				  </c03>
+				  <c03>
+					 <did>
+						<unittitle>Indexes,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+					 </did>
+				  </c03>
+				  <c03>
+					 <did>
+						<unittitle>
+						  <persname>Kohl, Howard, </persname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1955-1961</unitdate>
+						  </unittitle>
+					 </did>
+				  </c03>
+				  <c03>
+					 <did>
+						<unittitle>Partial List of
+						  <corpname>J. Walter Thompson Company </corpname>Clients,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1920s</unitdate> </unittitle>
+					 </did>
+					 <scopecontent>
+						<p>(Clients:
+						  <corpname>Lever Brothers</corpname>/
+						  <corpname>Winchester Repeating Arms Company</corpname>/
+						  <corpname>Swift &amp; Company</corpname>/
+						  <corpname>Andrew Jergens Company</corpname>/
+						  <corpname>American Tobacco Company</corpname>/
+						  <corpname>Arbuclde Brothers</corpname>/
+						  <corpname>Pond's Extract Company</corpname>/
+						  <corpname>Irving National Bank</corpname>/
+						  <corpname>Libby, McNeil and Libby</corpname>/
+						  <corpname>Northam Warren Company</corpname>/
+						  <corpname>O'Sullivan Rubber Company</corpname>/
+						  <corpname>Aunt Jemima Mills Company</corpname>/
+						  <corpname>Julius Kayser &amp; Company</corpname>/
+						  <corpname>Tidewater Oil Company</corpname>/
+						  <corpname> The Charles William Stores</corpname>/
+						  <corpname>Charles W. Breneman &amp; Company</corpname>/
+						  <corpname> Odorono Company</corpname>/
+						  <corpname>G. Piel Company</corpname>/
+						  <corpname>Gruen Watch Manufacturing Company</corpname>/
+						  <corpname>Piel Brothers)</corpname> </p>
+					 </scopecontent>
+				  </c03>
+				  <c03>
+					 <did>
+						<unittitle>
+						  <subject>Coffee, </subject>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1912-1961</unitdate>
+						  </unittitle>
+					 </did>
+					 <scopecontent>
+						<p>(Clients:
+						  <corpname>Yuban</corpname>/
+						  <corpname>Arbuclde Brothers</corpname>/
+						  <corpname>Maxwell House</corpname>/
+						  <corpname>Chase &amp; Sanbom</corpname>)</p>
+					 </scopecontent>
+				  </c03>
+				  <c03>
+					 <did>
+						<unittitle>Fo-W,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1939-1959</unitdate>
+						  </unittitle>
+					 </did>
+					 <scopecontent>
+						<p>(Clients:
+						  <corpname>Foundation for Commercial Banks</corpname>/
+						  <corpname>Institute of Life Insurance</corpname>/
+						  <corpname>Mentholatum Company</corpname>/
+						  <corpname>New York Central Railroad</corpname>/
+						  <corpname> Northeast Airlines</corpname>/
+						  <corpname>Owens-Illinois</corpname>/
+						  <corpname>Pond's Extract Company</corpname>/
+						  <corpname>Jergens Lotion</corpname>/
+						  <corpname>Union Central Life Insurance Company</corpname>/
+						  <corpname>Woodbury's Facial Soap)</corpname> </p>
+					 </scopecontent>
+				  </c03>
+				  <c03>
+					 <did>
+						<unittitle>Miscellaneous,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1956-1960</unitdate>
+						  </unittitle>
+					 </did>
+				  </c03>
+			
+				<c03>
+				  <did>
+					 <unittitle>Lists:</unittitle>
+				  </did>
+				  <c04>
+					 <did>
+						<unittitle>General, 
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1978</unitdate>
+						  </unittitle>
+					 </did></c04>
+				  
+				  <c04>
+					 <did>
+						<unittitle>Additions and eliminations,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1947-1986</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04></c03>
+<c03><did><unittitle>Launches, <unitdate type="inclusive">circa 1984</unitdate></unittitle></did></c03>
+
+		
+				<c03>
+				  <did>
+					 <unittitle>Packages and Labels,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1923-1936</unitdate> </unittitle>
+				  </did>
+				  <scopecontent>
+					 <p>(Clients:
+						<corpname>Aunt Jemima</corpname>/
+						<corpname>Cream of Wheat</corpname>/
+						<corpname>Quaker</corpname>/
+						<corpname>Dolly Madison Baking Corporation</corpname>/
+						<corpname>William Freihofer Baking Company</corpname>/
+						<corpname>Hathaway Bakeries</corpname>/
+						<corpname>A.C. Krumm &amp; Son Macaroni Company</corpname>/
+						<corpname>Lever Brothers</corpname>/
+						<corpname>Fleischmann's Distilling Corporation</corpname>/
+						<corpname>Arbuckle Brothers</corpname>/
+						<corpname>Good Luck Pie Filling</corpname>/
+						<corpname>Cutex, Warren Company)</corpname> </p>
+				  </scopecontent>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>Packaging,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1928-1957</unitdate> </unittitle>
+				  </did>
+				  <scopecontent>
+					 <p>(Clients:
+						<corpname>General Cigar Company</corpname>/
+						<corpname>White Owl Cigars</corpname>/
+						<corpname>Pond's</corpname>/
+						<corpname>Aqua Velva</corpname>/
+						<corpname>Eastman Kodak Company</corpname>/
+						<corpname>Serpasil Elixir</corpname>/
+						<corpname>Good Luck Margarine)</corpname> </p>
+				  </scopecontent>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>Plans</unittitle>
+				  </did>
+				  <c04>
+					 <did>
+						<unittitle>T-Plan,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1974-1983, </unitdate>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">undated </unitdate> </unittitle>
+
+						<physdesc> <extent>(2 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>Plan and Data Record,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1918-1966 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(1 of 2 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>	<container type="box">2</container>
+						<unittitle>Plan and Data Record,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1918-1966 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(2 of 2 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+					
+						<unittitle>T-Square and New Plan and Data,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1941-1973 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(2 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <corpname>J. Walter Thompson Company </corpname>Planning
+						  Record,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1957-1964</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>English Slide Guide (T-Plan presentation),
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1972</unitdate> </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <subject>T-Plan:</subject> </unittitle>
+					 </did>
+					 <c05>
+						<did>
+						  <unittitle>
+							 <geogname>London </geogname>Office,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1944-1964</unitdate>
+							 </unittitle>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Guide to,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1982</unitdate> </unittitle>
+						</did>
+					 </c05>
+				  </c04>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>Prizes, Contests,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1922-1947</unitdate> </unittitle>
+				  </did>
+				  <scopecontent>
+					 <p>(Clients:
+						<corpname>Eastman Kodak Company</corpname>/
+						<corpname>Planter's Nut and Chocolate Company</corpname>/
+						<corpname>Lever Brothers</corpname>/
+						<corpname>Chase &amp; Sanborn</corpname>/
+						<corpname>Magic Baking Powder</corpname>/
+						<corpname>Corning Glass Works</corpname>/
+						<corpname>United States Playing Card Company</corpname>/
+						<corpname>A. &amp; M. Karaghensian</corpname>/
+						<corpname>Royal Baking Powder</corpname>/
+						<corpname>Standard Brands</corpname>/
+						<corpname>Penick and Ford)</corpname> </p>
+				  </scopecontent>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>Prizes, Contests, Examples of Contests Run by
+						Clients,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1923-1925</unitdate> </unittitle>
+				  </did>
+				  <scopecontent>
+					 <p>(Clients:
+						<corpname>Cream of Wheat Company</corpname>/
+						<corpname>Lux, Lever Brothers</corpname>/
+						<corpname>Royal Baking Powder</corpname>/
+						<corpname>Sun-Maid)</corpname> </p>
+				  </scopecontent>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>Prizes, contests:
+						<corpname>Fleischmann's Company, </corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1923-1934</unitdate> </unittitle>
+				  </did>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>Product Naming,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1919-1937:</unitdate> </unittitle>
+
+				  </did>
+				  <scopecontent>
+					 <p>(Clients:
+						<corpname>Woodbury's</corpname>/
+						<corpname>Jergens Company</corpname>/
+						<corpname>Winchester</corpname>/
+						<corpname>Pond's)</corpname> </p>
+				  </scopecontent>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>
+						<persname>Product naming, Stanley Resor, </persname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1913-1949</unitdate> </unittitle>
+				  </did>
+				  <scopecontent>
+					 <p>(Clients:
+						<corpname>Kdvinator</corpname>/
+						<corpname>Nash Motor Company</corpname>/
+						<corpname>Procter and Gamble</corpname>/
+						<corpname>Atbuclde Brothers</corpname>/
+						<corpname>Tide Water Oil Company</corpname>/
+						<corpname>Charles W. Breneman Company</corpname>/
+						<corpname>Penick and Ford)</corpname> </p>
+				  </scopecontent>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>Publications and clippings, miscellaneous,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1931-1984</unitdate> </unittitle>
+				  </did>
+				</c03>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>Accounts: Specific Clients</unittitle>
+				</did>
+				<c03>
+				  <did>
+					 <container type="box">3</container>
+					 <unittitle>
+						<corpname>American Gas Association, </corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1955-1984 </unitdate> </unittitle>
+
+					 <physdesc> <extent>(2 folders)</extent> </physdesc>
+				  </did>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>
+						<corpname>Eastman Kodak, </corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1938-1986 </unitdate> </unittitle>
+
+					 <physdesc> <extent>(2 folders)</extent> </physdesc>
+				  </did>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>
+						<corpname>Ford Motor Company:</corpname> </unittitle>
+				  </did>
+				  <c04>
+					 <did>
+						<unittitle>General, 
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1942-1985 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(3 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>Dealers,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1956-1985,</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				</c03>
+				<c03>
+				  <did>
+					 <container type="box">4</container>
+					 <unittitle>French
+						<corpname>(R. T. French Company),</corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian"> 1968</unitdate> </unittitle>
+				  </did>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>
+						<corpname>Indiana Bell Telephone Company,</corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian"> 1966</unitdate> </unittitle>
+				  </did>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>
+						<corpname>Kraft, </corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1904-1984</unitdate> </unittitle>
+				  </did>
+			
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Kraft's Miracle Whip Salad Dressing,</corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian"> 1938</unitdate> </unittitle>
+				  </did>
+				</c04>
+				<c04>
+				  <did>
+					 <unittitle>
+						<corpname>Kraft </corpname>product history:</unittitle>
+				  </did>
+				  <c05>
+					 <did>
+						<unittitle>Miracle Whip cheese spreads,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1952-1953</unitdate>
+						  </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Liquid dressings,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Mayonnaise,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Dinner (macaroni and cheese),
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Sliced natural cheese,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Miracle Whip,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Cracker Barrel,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>	<container type="box">5</container>
+						<unittitle>Deluxe Slices,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+					
+						<unittitle>Cheez Whiz,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Philadelphia Brand Cream Cheese,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Cheese spreads,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+					 </did>
+				  </c05>
+				</c04></c03>
+				<c03>
+				  <did>
+					 <unittitle>
+						<corpname>Lever Brothers</corpname> </unittitle>
+				  </did>
+				  <c04>
+					 <did>
+						<unittitle>General, 
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1916-1986 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(2 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <corpname>Lux: </corpname>Case history,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1923-1973</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <corpname>Lux </corpname>liquid: Case history,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1952-1956</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>Clippings,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1950-1986</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>Packaging,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1900-1970</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>M-W:
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1976-1984:</unitdate> </unittitle>
+
+				  </did>
+				  <scopecontent>
+					 <p>(Clients:
+						<corpname>Mexicana Airlines</corpname>/
+						<corpname>Mink International</corpname>/
+						<corpname>Orkin</corpname>/
+						<corpname>W.F. Young</corpname>)</p>
+				  </scopecontent>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>
+						<corpname>McDonnell Douglas</corpname> </unittitle>
+				  </did>
+				  <c04>
+					 <did>
+						<unittitle>General, 
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1958-1986</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<container type="box">6</container>
+						<unittitle>Clippings,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1958-1986</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>
+						<corpname>Oscar Mayer and Company, </corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1961-1986</unitdate> </unittitle>
+				  </did>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>
+						<corpname>President's Council on Youth Opportunity,
+						  </corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1967-1968</unitdate> </unittitle>
+				  </did>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>
+						<corpname>Quaker Oats Company:</corpname> </unittitle>
+				  </did>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1927-1986</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>Clippings,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1964-1986</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>
+						<title render="italic" linktype="simple">Reader's Digest:</title> </unittitle>
+				  </did>
+				  <c04>
+					 <did>
+						<unittitle>General, 
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1955-1984</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>Panels,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1962</unitdate> </unittitle>
+					 </did>
+				  </c04>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>
+						<corpname>Scott Paper Company, </corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1920-1986 </unitdate> </unittitle>
+
+					 <physdesc> <extent>(3 folders)</extent> </physdesc>
+				  </did>
+				</c03>
+				<c03>
+				  <did>	 <container type="box">7</container>
+					 <unittitle>
+						<corpname>Sears Roebuck and Company, </corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1961-1973 </unitdate>.</unittitle>
+
+				  </did>
+				</c03>
+				<c03>
+				  <did>
+				
+					 <unittitle>Testimonial Advertising,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1928-1977</unitdate> </unittitle>
+				  </did>
+				  <scopecontent>
+					 <p>(Clients:
+						<corpname>White Owl Cigars</corpname>/
+						<corpname>Lever Brothers</corpname>/
+						<corpname>Subert House Organ</corpname>/
+						<corpname>Pond's</corpname>/
+						<corpname>Royal Baking Powder</corpname>/
+						<corpname>Fleischmann's Yeast</corpname>/
+						<corpname>Chase &amp; Sanborn)</corpname> </p>
+				  </scopecontent>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>Trademarks and slogans,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1931-1979</unitdate> </unittitle>
+				  </did>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>
+						<corpname>United States Marine Corps, </corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1962-1987 </unitdate> </unittitle>
+
+					 <physdesc> <extent>(3 folders)</extent> </physdesc>
+				  </did>
+				</c03>
+<c03><did><unittitle>Volunteer, Public Service campaigns</unittitle></did>
+
+				<c04>
+				  <did>
+					 <unittitle>General,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1959-1985:</unitdate> </unittitle>
+
+				  </did>
+				  <scopecontent>
+					 <p>(Clients:
+						<corpname>Advertising Council</corpname>/
+						<corpname>Alliance to Save Energy</corpname>/
+						<corpname>ADDY Awards</corpname>/
+						<corpname>Bob Hope Heart Research Institute</corpname>/
+						<corpname>Big Apple Circus</corpname>/
+						<corpname> Boy Scouts of America</corpname>/
+						<corpname> Chicago Literacy Council and Charles Levy
+						  Circulating Company</corpname>/
+						<corpname>Statue of Liberty, Ellis Island Restoration
+						  Project</corpname>/
+						<corpname>United States Food and Drug
+						  Administration</corpname>/
+						<corpname>Harbor Festival '79</corpname>/
+						<corpname>Committee for Hand Gun Control</corpname>/
+						<corpname>Los Angdes Zoo</corpname>/
+						<corpname>Help for Retarded Children</corpname>/
+						<corpname>New York Jazz Museum</corpname>/
+						<corpname> Tuskegee Institute</corpname>/
+						<corpname>Salvation Army</corpname>/
+						<corpname>United Cerebral Palsy Association</corpname>/
+						<corpname> United Givers Fund</corpname>/
+						<corpname>United States Savings Bonds</corpname>/
+						<corpname>United Way</corpname>/
+						<corpname>United States Department of Energy)</corpname> </p>
+
+				  </scopecontent>
+				</c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <corpname>American Red Cross, </corpname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1985</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <corpname>Citizens Committee to Keep New York City
+							 Clean,</corpname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1959</unitdate> </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <corpname>Save Grand Central Station Committee, </corpname>
+
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1978</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>
+						<corpname>Warner Lambert Company, </corpname>
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1962-1990 </unitdate> </unittitle>
+
+					 <physdesc> <extent>(2 folders)</extent> </physdesc>
+				  </did>
+				</c03>
+			 </c02>
+		  </c01>
+		  <c01 level="series">
+			 <did>
+				<unittitle id="s2">History,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian">1934-1987.</unitdate> </unittitle>
+			 </did>
+			 <scopecontent>
+				<p>News releases, clippings, memoranda, and printed materials,
+				  listing
+				  <corpname>J. Walter Thompson Company </corpname>advertising
+				  campaigns that have won awards. Also includes information about consume pangs,
+				  used by the company to provide information about the middle class in the
+				  <geogname>United States </geogname>which represented the major
+				  market for its clients. Some material in the consumer panel folders contains
+				  reports from the
+				  <corpname>American Marketing Association </corpname>meeting in
+				  <date era="ce" calendar="gregorian">June 1944,</date> which had the theme,
+				  <emph render="doublequote">Mobilization for Market Expansion.</emph> Arranged
+				  alphabetically by folder title.</p>
+			 </scopecontent>
+			 <c02>
+				<did>
+				  <container type="box">8</container>
+				  <unittitle>Awards,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1987 </unitdate> </unittitle>
+				  <physdesc> <extent>(2 folders)</extent> </physdesc>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>
+					 <corpname>Consumer Purchase Panel, </corpname>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1934-1960 </unitdate> </unittitle>
+				  <physdesc> <extent>(2 folders)</extent> </physdesc>
+				</did>
+			 </c02>
+		  </c01>
+		  <c01 level="series">
+			 <did>
+				<unittitle id="s3">Organization,
+				  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1890s</unitdate>-1987 (bulk
+				  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1940s</unitdate>-1987.)</unittitle>
+			 </did>
+			 <scopecontent>
+				<p>Reports, clippings, market studies, media analyses, memoranda,
+				  personnel listings, and new business books, relating primarily to specific
+				  domestic and international
+				  <corpname>J. Walter Thompson Company </corpname>offices. The
+				  amount of materials about individual offices varies. New York Office Piles
+				  comprise the bulk of the series. Specifically highlighted are the New York
+				  Office's Media and Public Relations Departments; employee training and
+				  orientation programs; information about product account representatives; the
+				  reorganization of the Information Center; the Grocery Merchandising Committee,
+				  which studied the promotion of supermarket products; and data about Review
+				  Board procedures and policies. Also information about specific businesses
+				  affiliated with the
+				  <corpname>J. Walter Thompson Company </corpname>such as
+				  <corpname>Brouillard Communications, </corpname>and
+				  <corpname>Hill and Knowlton.</corpname> </p>
+			 </scopecontent>
+			 <c02>
+				
+				  <did>
+					 <container type="box">8</container>
+					 <unittitle>General, 
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1890s-1980s</unitdate>
 						</unittitle>
-					</did>
-					<scopecontent>
-						<p>Contains reports, memoranda, case studies, clippings, and financial
-							papers, chiefly redating to specific <corpname>J. Walter Thompson
-								Company </corpname>accounts. Case studies can be found either undo
-							the Case studies subsection or within the folder for the particular
-							account, e.g. <corpname>Scott Paper Company. </corpname>The amount of
-							material about specific accounts vary. For some, specific information
-							about prizes, contests, and packaging used to promote specific products
-							is included. Testimonial advertising developed to recruit well-known
-							persons to endorse products and volunteer groups, who employed the
-								<corpname>J. Walter Thompson Company </corpname>to promote their
-							causes or concerns, are also represented.</p>
-					</scopecontent>
-					<arrangement>
-						<p>The subseries is subdivided into two categories: General Information and
-							Specific Client Accounts. General Information includes case studies and
-							lists at the beginning, followed by an alphabetical arrangement by
-							topic. Specific Client Accounts are arranged alphabetically by client
-							name or type of account (e.g. volunteer accounts).</p>
-					</arrangement>
-					<c03>
-						<did>
-							<unittitle>Accounts: General Information</unittitle>
-						</did>
-						<c04>
-							<did>
-								<unittitle>Case Studies:</unittitle>
-							</did>
-							<c05>
-								<did>
-									<container type="box">1</container>
-									<unittitle>General information, <unitdate type="inclusive"
-											era="ce" calendar="gregorian">1925-1960 </unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<title render="italic" linktype="simple">Encyclopedia of
-											Advertising,</title>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1924-1925</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Indexes, <unitdate type="inclusive" era="ce"
-											calendar="gregorian"> 1957</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<persname>Kohl, Howard, </persname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1955-1961</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Partial List of <corpname>J. Walter Thompson Company
-										</corpname>Clients, <unitdate type="inclusive" era="ce"
-											calendar="gregorian"> 1920s</unitdate>
-									</unittitle>
-								</did>
-								<scopecontent>
-									<p>(Clients: <corpname>Lever Brothers</corpname>/
-											<corpname>Winchester Repeating Arms Company</corpname>/
-											<corpname>Swift &amp; Company</corpname>/
-											<corpname>Andrew Jergens Company</corpname>/
-											<corpname>American Tobacco Company</corpname>/
-											<corpname>Arbuclde Brothers</corpname>/ <corpname>Pond's
-											Extract Company</corpname>/ <corpname>Irving National
-											Bank</corpname>/ <corpname>Libby, McNeil and
-											Libby</corpname>/ <corpname>Northam Warren
-											Company</corpname>/ <corpname>O'Sullivan Rubber
-											Company</corpname>/ <corpname>Aunt Jemima Mills
-											Company</corpname>/ <corpname>Julius Kayser &amp;
-											Company</corpname>/ <corpname>Tidewater Oil
-											Company</corpname>/ <corpname> The Charles William
-											Stores</corpname>/ <corpname>Charles W. Breneman &amp;
-											Company</corpname>/ <corpname> Odorono
-											Company</corpname>/ <corpname>G. Piel
-										Company</corpname>/ <corpname>Gruen Watch Manufacturing
-											Company</corpname>/ <corpname>Piel Brothers)</corpname>
-									</p>
-								</scopecontent>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<subject>Coffee, </subject>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1912-1961</unitdate>
-									</unittitle>
-								</did>
-								<scopecontent>
-									<p>(Clients: <corpname>Yuban</corpname>/ <corpname>Arbuclde
-											Brothers</corpname>/ <corpname>Maxwell House</corpname>/
-											<corpname>Chase &amp; Sanbom</corpname>)</p>
-								</scopecontent>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Fo-W, <unitdate type="inclusive" era="ce"
-											calendar="gregorian">1939-1959</unitdate>
-									</unittitle>
-								</did>
-								<scopecontent>
-									<p>(Clients: <corpname>Foundation for Commercial
-											Banks</corpname>/ <corpname>Institute of Life
-											Insurance</corpname>/ <corpname>Mentholatum
-											Company</corpname>/ <corpname>New York Central
-											Railroad</corpname>/ <corpname> Northeast
-											Airlines</corpname>/
-										<corpname>Owens-Illinois</corpname>/ <corpname>Pond's
-											Extract Company</corpname>/ <corpname>Jergens
-											Lotion</corpname>/ <corpname>Union Central Life
-											Insurance Company</corpname>/ <corpname>Woodbury's
-											Facial Soap)</corpname>
-									</p>
-								</scopecontent>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Miscellaneous, <unitdate type="inclusive" era="ce"
-											calendar="gregorian">1956-1960</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Lists:</unittitle>
-							</did>
-							<c05>
-								<did>
-									<unittitle>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1969-1978</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Additions and eliminations, <unitdate
-											type="inclusive" era="ce" calendar="gregorian"
-											>1947-1986</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Packages and Labels, <unitdate type="inclusive" era="ce"
-										calendar="gregorian">1923-1936</unitdate>
-								</unittitle>
-							</did>
-							<scopecontent>
-								<p>(Clients: <corpname>Aunt Jemima</corpname>/ <corpname>Cream of
-										Wheat</corpname>/ <corpname>Quaker</corpname>/
-										<corpname>Dolly Madison Baking Corporation</corpname>/
-										<corpname>William Freihofer Baking Company</corpname>/
-										<corpname>Hathaway Bakeries</corpname>/ <corpname>A.C. Krumm
-										&amp; Son Macaroni Company</corpname>/ <corpname>Lever
-										Brothers</corpname>/ <corpname>Fleischmann's Distilling
-										Corporation</corpname>/ <corpname>Arbuckle
-										Brothers</corpname>/ <corpname>Good Luck Pie
-										Filling</corpname>/ <corpname>Cutex, Warren
-										Company)</corpname>
-								</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Packaging, <unitdate type="inclusive" era="ce"
-										calendar="gregorian">1928-1957</unitdate>
-								</unittitle>
-							</did>
-							<scopecontent>
-								<p>(Clients: <corpname>General Cigar Company</corpname>/
-										<corpname>White Owl Cigars</corpname>/
-										<corpname>Pond's</corpname>/ <corpname>Aqua
-									Velva</corpname>/ <corpname>Eastman Kodak Company</corpname>/
-										<corpname>Serpasil Elixir</corpname>/ <corpname>Good Luck
-										Margarine)</corpname>
-								</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Plans:</unittitle>
-							</did>
-							<c05>
-								<did>
-									<unittitle>(Including T-Plan), <unitdate type="inclusive"
-											era="ce" calendar="gregorian">1974-1983, </unitdate>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>undated </unitdate>
-									</unittitle>
-
-									<physdesc>
-										<extent>(2 folders)</extent>
-									</physdesc>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>(Including Plan and Data Record), <unitdate
-											type="inclusive" era="ce" calendar="gregorian">1918-1966
-										</unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(2 folders)</extent>
-									</physdesc>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>(Including Plan and Data Record), <unitdate
-											type="inclusive" era="ce" calendar="gregorian">1918-1966
-										</unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(Folder 1 of 2)</extent>
-									</physdesc>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<container type="box">2</container>
-									<unittitle>(Including T-Square and New Plan and Data), <unitdate
-											type="inclusive" era="ce" calendar="gregorian">1941-1973
-										</unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(Folder 2 of 2)</extent>
-									</physdesc>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<corpname>J. Walter Thompson Company </corpname>Planning
-										Record, <unitdate type="inclusive" era="ce"
-											calendar="gregorian">1957-1964</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>English Slide Guide (T-Plan presentation), <unitdate
-											type="inclusive" era="ce" calendar="gregorian">
-											1972</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<subject>T-Plan:</subject>
-									</unittitle>
-								</did>
-								<c06>
-									<did>
-										<unittitle>
-											<geogname>London </geogname>Office, <unitdate
-												type="inclusive" era="ce" calendar="gregorian"
-												>1944-1964</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Guide to, <unitdate type="inclusive" era="ce"
-												calendar="gregorian"> 1982</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-							</c05>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Prizes, Contests, <unitdate type="inclusive" era="ce"
-										calendar="gregorian">1922-1947</unitdate>
-								</unittitle>
-							</did>
-							<scopecontent>
-								<p>(Clients: <corpname>Eastman Kodak Company</corpname>/
-										<corpname>Planter's Nut and Chocolate Company</corpname>/
-										<corpname>Lever Brothers</corpname>/ <corpname>Chase &amp;
-										Sanborn</corpname>/ <corpname>Magic Baking
-									Powder</corpname>/ <corpname>Corning Glass Works</corpname>/
-										<corpname>United States Playing Card Company</corpname>/
-										<corpname>A. &amp; M. Karaghensian</corpname>/
-										<corpname>Royal Baking Powder</corpname>/ <corpname>Standard
-										Brands</corpname>/ <corpname>Penick and Ford)</corpname>
-								</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Prizes, Contests, Examples of Contests Run by Clients,
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1923-1925</unitdate>
-								</unittitle>
-							</did>
-							<scopecontent>
-								<p>(Clients: <corpname>Cream of Wheat Company</corpname>/
-										<corpname>Lux, Lever Brothers</corpname>/ <corpname>Royal
-										Baking Powder</corpname>/ <corpname>Sun-Maid)</corpname>
-								</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Prizes, contests: <corpname>Fleischmann's Company, </corpname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1923-1934</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Product Naming, <unitdate type="inclusive" era="ce"
-										calendar="gregorian">1919-1937:</unitdate>
-								</unittitle>
-
-							</did>
-							<scopecontent>
-								<p>(Clients: <corpname>Woodbury's</corpname>/ <corpname>Jergens
-										Company</corpname>/ <corpname>Winchester</corpname>/
-										<corpname>Pond's)</corpname>
-								</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<persname>Resor, Stanley, </persname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1913-1949</unitdate>
-								</unittitle>
-							</did>
-							<scopecontent>
-								<p>(Clients: <corpname>Kdvinator</corpname>/ <corpname>Nash Motor
-										Company</corpname>/ <corpname>Procter and Gamble</corpname>/
-										<corpname>Atbuclde Brothers</corpname>/ <corpname>Tide Water
-										Oil Company</corpname>/ <corpname>Charles W. Breneman
-										Company</corpname>/ <corpname>Penick and Ford)</corpname>
-								</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Publications and clippings, miscellaneous, <unitdate
-										type="inclusive" era="ce" calendar="gregorian"
-										>1931-1984</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>Accounts: Specific Clients</unittitle>
-						</did>
-						<c04>
-							<did>
-								<container type="box">3</container>
-								<unittitle>
-									<corpname>American Gas Association, </corpname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1955-1984 </unitdate>
-								</unittitle>
-
-								<physdesc>
-									<extent>(2 folders)</extent>
-								</physdesc>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>Eastman Kodak, </corpname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1938-1986 </unitdate>
-								</unittitle>
-
-								<physdesc>
-									<extent>(2 folders)</extent>
-								</physdesc>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>Ford Motor Company:</corpname>
-								</unittitle>
-							</did>
-							<c05>
-								<did>
-									<unittitle>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1942-1985 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(3 folders)</extent>
-									</physdesc>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Dealers, <unitdate type="inclusive" era="ce"
-											calendar="gregorian">1956-1985,</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-						</c04>
-						<c04>
-							<did>
-								<container type="box">4</container>
-								<unittitle>French <corpname>(R. T. French Company),</corpname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian">
-										1968</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>Indiana Bell Telephone Company,</corpname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian">
-										1966</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>Kraft, </corpname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1904-1984</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>Kraft's Miracle Whip Salad Dressing,</corpname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian">
-										1938</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>Kraft </corpname>product history:</unittitle>
-							</did>
-							<c05>
-								<did>
-									<unittitle>Miracle Whip cheese spreads, <unitdate
-											type="inclusive" era="ce" calendar="gregorian"
-											>1952-1953</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Liquid dressings, <unitdate type="inclusive" era="ce"
-											calendar="gregorian"> 1957</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Mayonnaise, <unitdate type="inclusive" era="ce"
-											calendar="gregorian"> 1957</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Dinner (macaroni and cheese), <unitdate
-											type="inclusive" era="ce" calendar="gregorian">
-											1957</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Sliced natural cheese, <unitdate type="inclusive"
-											era="ce" calendar="gregorian"> 1957</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Miracle Whip, <unitdate type="inclusive" era="ce"
-											calendar="gregorian"> 1957</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Cracker Barrel, <unitdate type="inclusive" era="ce"
-											calendar="gregorian"> 1957</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Deluxe Slices, <unitdate type="inclusive" era="ce"
-											calendar="gregorian"> 1957</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<container type="box">5</container>
-									<unittitle>Cheez Whiz, <unitdate type="inclusive" era="ce"
-											calendar="gregorian"> 1957</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Philadelphia Brand Cream Cheese, <unitdate
-											type="inclusive" era="ce" calendar="gregorian">
-											1957</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Cheese spreads, <unitdate type="inclusive" era="ce"
-											calendar="gregorian"> 1957</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>Lever Brothers</corpname>
-								</unittitle>
-							</did>
-							<c05>
-								<did>
-									<unittitle>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1916-1986 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(2 folders)</extent>
-									</physdesc>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<corpname>Lux: </corpname>Case history, <unitdate
-											type="inclusive" era="ce" calendar="gregorian"
-											>1923-1973</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<corpname>Lux </corpname>liquid: Case history, <unitdate
-											type="inclusive" era="ce" calendar="gregorian"
-											>1952-1956</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Clippings, <unitdate type="inclusive" era="ce"
-											calendar="gregorian">1950-1986</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Packaging, <unitdate type="inclusive" era="ce"
-											calendar="gregorian">1900-1970</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>M-W: <unitdate type="inclusive" era="ce"
-										calendar="gregorian">1976-1984:</unitdate>
-								</unittitle>
-
-							</did>
-							<scopecontent>
-								<p>(Clients: <corpname>Mexicana Airlines</corpname>/ <corpname>Mink
-										International</corpname>/ <corpname>Orkin</corpname>/
-										<corpname>W.F. Young</corpname>)</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>McDonnell Douglas:</corpname>
-								</unittitle>
-							</did>
-							<c05>
-								<did>
-									<unittitle>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1958-1986</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<container type="box">6</container>
-									<unittitle>Clippings, <unitdate type="inclusive" era="ce"
-											calendar="gregorian">1958-1986</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>Oscar Mayer and Company, </corpname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1961-1986</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>President's Council on Youth Opportunity, </corpname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1967-1968</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>Quaker Oats Company:</corpname>
-								</unittitle>
-							</did>
-							<c05>
-								<did>
-									<unittitle>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1927-1986</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Clippings, <unitdate type="inclusive" era="ce"
-											calendar="gregorian">1964-1986</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<title render="italic" linktype="simple">Reader's
-										Digest:</title>
-								</unittitle>
-							</did>
-							<c05>
-								<did>
-									<unittitle>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1955-1984</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Panels, <unitdate type="inclusive" era="ce"
-											calendar="gregorian"> 1962</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>Scott Paper Company, </corpname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1920-1986 </unitdate>
-								</unittitle>
-
-								<physdesc>
-									<extent>(3 folders)</extent>
-								</physdesc>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>Sears Roebuck and Company, </corpname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1961-1973 </unitdate>.</unittitle>
-
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<container type="box">7</container>
-								<unittitle>Testimonial Advertising, <unitdate type="inclusive"
-										era="ce" calendar="gregorian">1928-1977</unitdate>
-								</unittitle>
-							</did>
-							<scopecontent>
-								<p>(Clients: <corpname>White Owl Cigars</corpname>/ <corpname>Lever
-										Brothers</corpname>/ <corpname>Subert House
-									Organ</corpname>/ <corpname>Pond 's</corpname>/ <corpname>Royal
-										Baking Powder</corpname>/ <corpname>Fleischmann's
-										Yeast</corpname>/ <corpname>Chase &amp; Sanborn)</corpname>
-								</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Trademarks and slogans, <unitdate type="inclusive"
-										era="ce" calendar="gregorian">1931-1979</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>United States Marine Corps, </corpname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1962-1987 </unitdate>
-								</unittitle>
-
-								<physdesc>
-									<extent>(3 folders)</extent>
-								</physdesc>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Volunteer, <unitdate type="inclusive" era="ce"
-										calendar="gregorian">1959-1985:</unitdate>
-								</unittitle>
-
-							</did>
-							<scopecontent>
-								<p>(Clients: <corpname>Advertising Council</corpname>/
-										<corpname>Alliance to Save Energy</corpname>/ <corpname>ADDY
-										Awards</corpname>/ <corpname>Bob Hope Heart Research
-										Institute</corpname>/ <corpname>Big Apple Circus</corpname>/
-										<corpname> Boy Scouts of America</corpname>/ <corpname>
-										Chicago Literacy Council and Charles Levy Circulating
-										Company</corpname>/ <corpname>Statue of Liberty, Ellis
-										Island Restoration Project</corpname>/ <corpname>United
-										States Food and Drug Administration</corpname>/
-										<corpname>Harbor Festival '79</corpname>/
-										<corpname>Committee for Hand Gun Control</corpname>/
-										<corpname>Los Angdes Zoo</corpname>/ <corpname>Help for
-										Retarded Children</corpname>/ <corpname>New York Jazz
-										Museum</corpname>/ <corpname> Tuskegee Institute</corpname>/
-										<corpname>Salvation Army</corpname>/ <corpname>United
-										Cerebral Palsy Association</corpname>/ <corpname> United
-										Givers Fund</corpname>/ <corpname>United States Savings
-										Bonds</corpname>/ <corpname>United Way</corpname>/
-										<corpname>United States Department of Energy)</corpname>
-								</p>
-
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Volunteer:</unittitle>
-							</did>
-							<c05>
-								<did>
-									<unittitle>
-										<corpname>American Red Cross, </corpname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1965-1985</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<corpname>Citizens Committee to Keep New York City
-											Clean,</corpname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian">
-											1959</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<corpname>Save Grand Central Station Committee, </corpname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1975-1978</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<corpname>Warner Lambert Company, </corpname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1962-1990 </unitdate>
-								</unittitle>
-
-								<physdesc>
-									<extent>(2 folders)</extent>
-								</physdesc>
-							</did>
-						</c04>
-					</c03>
+				  </did>
 				</c02>
-				<c02 level="subseries">
-					<did>
-						<unittitle>History, <unitdate type="inclusive" era="ce" calendar="gregorian"
-								>1934-1987.</unitdate>
-						</unittitle>
-					</did>
-					<scopecontent>
-						<p>News releases, clippings, memoranda, and printed materials, listing
-								<corpname>J. Walter Thompson Company </corpname>advertising
-							campaigns that have won awards. Also includes information about consume
-							pangs, used by the company to provide information about the middle class
-							in the <geogname>United States </geogname>which represented the major
-							market for its clients. Some material in the consumer panel folders
-							contains reports from the <corpname>American Marketing Association
-							</corpname>meeting in <date era="ce" calendar="gregorian">June
-								1944,</date> which had the theme, <emph render="doublequote"
-								>Mobilization for Market Expansion.</emph> Arranged alphabetically
-							by folder title.</p>
-					</scopecontent>
-					<c03>
-						<did>
-							<container type="box">8</container>
-							<unittitle>Awards, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1967-1987 </unitdate>
-							</unittitle>
-							<physdesc>
-								<extent>(2 folders)</extent>
-							</physdesc>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>
-								<corpname>Consumer Purchase Panel, </corpname>
-								<unitdate type="inclusive" era="ce" calendar="gregorian">1934-1960
-								</unitdate>
-							</unittitle>
-							<physdesc>
-								<extent>(2 folders)</extent>
-							</physdesc>
-						</did>
-					</c03>
+				<c02>
+				  <did>
+					 <unittitle>General, 
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1952-1976</unitdate> </unittitle>
+				  </did>
 				</c02>
-				<c02 level="subseries">
-					<did>
-						<unittitle>Organization, <unitdate type="inclusive" era="ce"
-								calendar="gregorian"> 1890s</unitdate>-1987 (bulk <unitdate
-								type="inclusive" era="ce" calendar="gregorian">
-							1940s</unitdate>-1987.)</unittitle>
-					</did>
-					<scopecontent>
-						<p>Reports, clippings, market studies, media analyses, memoranda, personnel
-							listings, and new business books, relating primarily to specific
-							domestic and international <corpname>J. Walter Thompson Company
-							</corpname>offices. The amount of materials about individual offices
-							varies. New York Office Piles comprise the bulk of the subseries.
-							Specifically highlighted are the New York Office's Media and Public
-							Relations Departments; employee training and orientation programs;
-							information about product account representatives; the reorganization of
-							the Information Center; the Grocery Merchandising Committee, which
-							studied the promotion of supermarket products; and data about Review
-							Board procedures and policies. Also information about specific
-							businesses affiliated with the <corpname>J. Walter Thompson Company
-							</corpname>such as <corpname>Brouillard Communications, </corpname>and
-								<corpname>Hill and Knowlton.</corpname>
-						</p>
-					</scopecontent>
-					<arrangement>
-						<p>The first part of the subseries contains general information about the
-								<corpname>J. Walter Thompson Company </corpname>organization and
-							affiliates. The remainder is arranged alphabetically by topic.</p>
-					</arrangement>
-					<c03>
-						<did>
-							<unittitle>Organization: General Information</unittitle>
-						</did>
-						<c04>
-							<did>
-								<container type="box">8</container>
-								<unittitle>
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1890s-1980s</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1952-1976</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Lists, <unitdate type="inclusive" era="ce"
-										calendar="gregorian">1981-1985</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>
-									<title render="doublequote" linktype="simple">A Study of the
-										Reputation of the J. Walter Thompson. Company by Louis
-										Harris and Associates,</title>
-									<unitdate type="inclusive" era="ce" calendar="gregorian">
-										1969</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Affiliates, subsidiaries, and divisions:</unittitle>
-
-							</did>
-							<c05>
-								<did>
-									<unittitle>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1968-1983</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<container type="box">9</container>
-									<unittitle>
-										<corpname>Brouillard Communications:</corpname>
-									</unittitle>
-								</did>
-								<c06>
-									<did>
-										<unittitle>
-											<unitdate type="inclusive" era="ce" calendar="gregorian"
-												>1975-1985</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>
-											<title render="italic" linktype="simple">Communications
-												Watch,</title>
-											<unitdate type="inclusive" era="ce" calendar="gregorian"
-												>1981-1986</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<corpname>Hill and Knowlton, </corpname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1970-1986, </unitdate>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>undated </unitdate>
-									</unittitle>
-
-									<physdesc>
-										<extent>(2 folders)</extent>
-									</physdesc>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Hispania, <unitdate type="inclusive" era="ce"
-											calendar="gregorian">1980-1986</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<corpname>J. Walter Thompson Company:</corpname>
-									</unittitle>
-								</did>
-								<c06>
-									<did>
-										<unittitle>Direct Network, <unitdate type="inclusive"
-												era="ce" calendar="gregorian">1978-1985</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>
-											<subject>Healthcare, </subject>
-											<unitdate type="inclusive" era="ce" calendar="gregorian"
-												>1968-1986</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<corpname>Lord, Geller, Federico and Einstein, </corpname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1973-1986</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<corpname>Simmons Market Research Bureau, </corpname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1967-1985</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Survival Anglia, <unitdate type="inclusive" era="ce"
-											calendar="gregorian"> 1973</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Thompson recruitment, <unitdate type="inclusive"
-											era="ce" calendar="gregorian">1979-1987</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-						</c04>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>Organization: Alphabetical Arrangement</unittitle>
-						</did>
-						<c04>
-							<did>
-								<unittitle>Domestic:</unittitle>
-							</did>
-							<c05>
-								<did>
-									<container type="box">10</container>
-									<unittitle>
-										<geogname>Atlanta, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1971-1985</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Chicago, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1941-1986 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(3 folders)</extent>
-									</physdesc>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Detroit, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1919-1987</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Los Angeles, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1940-1983</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Los Angeles, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1965-1985</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>New York </geogname>Office:</unittitle>
-								</did>
-								<c06>
-									<did>
-										<unittitle>Advertising Services Department, <unitdate
-												type="inclusive" era="ce" calendar="gregorian"
-												>1920-1980</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Archives, <unitdate type="inclusive" era="ce"
-												calendar="gregorian">
-											1984</unitdate>1986</unittitle>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Art and architecture: Colonial Dining Room,
-												<unitdate type="inclusive" era="ce"
-												calendar="gregorian">1921-1982 </unitdate>
-										</unittitle>
-										<physdesc>
-											<extent>(2 folders)</extent>
-										</physdesc>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Broadcasting Department, <unitdate
-												type="inclusive" era="ce" calendar="gregorian"
-												>1949-1972</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Communications Forum, <unitdate type="inclusive"
-												era="ce" calendar="gregorian">1970-1971</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<container type="box">11</container>
-										<unittitle>Consumer behavior, <unitdate type="inclusive"
-												era="ce" calendar="gregorian">1929-1977</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Creative Department:</unittitle>
-									</did>
-									<c07>
-										<did>
-											<unittitle>
-												<unitdate type="inclusive" era="ce"
-												calendar="gregorian">1960-1986 </unitdate>
-											</unittitle>
-											<physdesc>
-												<extent>(2 folders)</extent>
-											</physdesc>
-										</did>
-									</c07>
-									<c07>
-										<did>
-											<unittitle>Creative assignments, <unitdate
-												type="inclusive" era="ce" calendar="gregorian"
-												>1960-1979 </unitdate>
-											</unittitle>
-											<physdesc>
-												<extent>(2 folders)</extent>
-											</physdesc>
-										</did>
-									</c07>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Fact books, <unitdate type="inclusive" era="ce"
-												calendar="gregorian">1957-1976 </unitdate>
-										</unittitle>
-										<physdesc>
-											<extent>(Folders 1-2 of 3)</extent>
-										</physdesc>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<container type="box">12</container>
-										<unittitle>Fact books, <unitdate type="inclusive" era="ce"
-												calendar="gregorian">1957-1976 </unitdate>
-										</unittitle>
-										<physdesc>
-											<extent>(Folder 3 of 3)</extent>
-										</physdesc>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Grocery Merchandising Committee, <unitdate
-												type="inclusive" era="ce" calendar="gregorian"
-												>1954-1957 </unitdate>
-										</unittitle>
-										<physdesc>
-											<extent>(2 folders)</extent>
-										</physdesc>
-									</did>
-									<scopecontent>
-										<p>(Clients: <corpname>Tender Leaf Tea</corpname>/
-												<corpname>Chun King</corpname>/ <corpname>Standard
-												Brands</corpname>/ <corpname> Royal Nuts</corpname>/
-												<corpname>Fleischmann's Yeast</corpname>/
-												<corpname>United States Brewers
-												Foundation</corpname>/ <corpname>Buitoni Foods
-												Corporation</corpname>/ <corpname>Sylvania Photolamp
-												Division</corpname>/ <corpname>Lever
-												Brothers</corpname>/ <corpname>Wool
-												Bureau</corpname>/ <corpname>Devoe and Raynolds
-												Paint</corpname>/ <corpname>Blue Surf</corpname>/
-												<corpname>Prepared Puddings and Pie
-												Fillings</corpname>/ <corpname>Florida Citrus
-												Commission</corpname>/ <corpname>Philco
-												Corporation</corpname>/ <corpname>Ward Baking
-												Company</corpname>/ <corpname>Nationwide
-												Insurance)</corpname>
-										</p>
-									</scopecontent>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Industrial and Professional Department, <unitdate
-												type="inclusive" era="ce" calendar="gregorian"
-												>1949-1965</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Information Center Records:</unittitle>
-									</did>
-									<c07>
-										<did>
-											<unittitle>Miscellaneous, <unitdate type="inclusive"
-												era="ce" calendar="gregorian">1916-1976</unitdate>
-											</unittitle>
-										</did>
-									</c07>
-									<c07>
-										<did>
-											<unittitle>
-												<persname>McCarty, Thad B.,
-												</persname>files:</unittitle>
-										</did>
-										<c08>
-											<did>
-												<unittitle>Library director applications and
-												interviews, <unitdate type="inclusive" era="ce"
-												calendar="gregorian">1953-1955</unitdate>
-												</unittitle>
-											</did>
-										</c08>
-										<c08>
-											<did>
-												<unittitle>Competitive ads files, <unitdate
-												type="inclusive" era="ce" calendar="gregorian"
-												>1954-1955</unitdate>
-												</unittitle>
-											</did>
-										</c08>
-										<c08>
-											<did>
-												<unittitle>Correspondence, <unitdate
-												type="inclusive" era="ce" calendar="gregorian"
-												>1953-1955</unitdate>
-												</unittitle>
-											</did>
-										</c08>
-										<c08>
-											<did>
-												<unittitle>Information Program Reorganization,
-												<unitdate type="inclusive" era="ce"
-												calendar="gregorian">1954-1955</unitdate>
-												</unittitle>
-											</did>
-										</c08>
-										<c08>
-											<did>
-												<unittitle>Information Program Reorganization,
-												<unitdate type="inclusive" era="ce"
-												calendar="gregorian"> 1956, </unitdate>
-												<unitdate type="inclusive" era="ce"
-												calendar="gregorian">undated</unitdate>
-												</unittitle>
-											</did>
-										</c08>
-										<c08>
-											<did>
-												<unittitle>
-												<corpname>J. Walter Thompson Company
-												</corpname>news excerpts, <unitdate
-												type="inclusive" era="ce" calendar="gregorian">
-												1955</unitdate>
-												</unittitle>
-											</did>
-										</c08>
-										<c08>
-											<did>
-												<unittitle>Organization of information files,
-												<unitdate type="inclusive" era="ce"
-												calendar="gregorian">1953-1955, </unitdate>
-												<unitdate type="inclusive" era="ce"
-												calendar="gregorian">undated</unitdate>
-												</unittitle>
-											</did>
-										</c08>
-										<c08>
-											<did>
-												<unittitle>Library portfolios: Library report,
-												<unitdate type="inclusive" era="ce"
-												calendar="gregorian"> 1955</unitdate>
-												</unittitle>
-											</did>
-										</c08>
-										<c08>
-											<did>
-												<unittitle>Review Board notes, <unitdate
-												type="inclusive" era="ce" calendar="gregorian">
-												1955</unitdate>
-												</unittitle>
-											</did>
-										</c08>
-										<c08>
-											<did>
-												<unittitle>Miscellaneous, <unitdate type="inclusive"
-												era="ce" calendar="gregorian">1951-1955, </unitdate>
-												<unitdate type="inclusive" era="ce"
-												calendar="gregorian">undated</unitdate>
-												</unittitle>
-											</did>
-										</c08>
-									</c07>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Media Department:</unittitle>
-									</did>
-									<c07>
-										<did>
-											<unittitle>
-												<unitdate type="inclusive" era="ce"
-												calendar="gregorian">1956-1986 </unitdate>
-											</unittitle>
-											<physdesc>
-												<extent>(3 folders)</extent>
-											</physdesc>
-										</did>
-									</c07>
-									<c07>
-										<did>
-											<unittitle>Media reports, <unitdate type="inclusive"
-												era="ce" calendar="gregorian">1965-1974
-												</unitdate>
-											</unittitle>
-											<physdesc>
-												<extent>(5 folders)</extent>
-											</physdesc>
-										</did>
-										<c08>
-											<did>
-												<unittitle>Prime Time Television Schedule, <unitdate
-												type="inclusive" era="ce" calendar="gregorian"
-												>1986-1987</unitdate>
-												</unittitle>
-											</did>
-										</c08>
-									</c07>
-									<c07>
-										<did>
-											<unittitle>Media research, <unitdate type="inclusive"
-												era="ce" calendar="gregorian">1970-1986
-												</unitdate>
-											</unittitle>
-											<physdesc>
-												<extent>(Folder 1 of 6)</extent>
-											</physdesc>
-										</did>
-									</c07>
-									<c07>
-										<did>
-											<container type="box">13</container>
-											<unittitle>Media research, <unitdate type="inclusive"
-												era="ce" calendar="gregorian">1970-1986
-												</unitdate>
-											</unittitle>
-											<physdesc>
-												<extent>(Folders 2-6 of 6)</extent>
-											</physdesc>
-										</did>
-									</c07>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Media Department: <title render="italic"
-												linktype="simple">Media Source Materials and Them to
-												Find Them,</title>
-											<unitdate type="inclusive" era="ce" calendar="gregorian"
-												> 1985</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Merchandising Department, <unitdate
-												type="inclusive" era="ce" calendar="gregorian"
-												>1933-1975 </unitdate>
-										</unittitle>
-										<physdesc>
-											<extent>(2 folders)</extent>
-										</physdesc>
-									</did>
-									<scopecontent>
-										<p>(Client: <corpname>Shell Oil Company)</corpname>
-										</p>
-									</scopecontent>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Public Relations Department:</unittitle>
-									</did>
-									<c07>
-										<did>
-											<unittitle>
-												<unitdate type="inclusive" era="ce"
-												calendar="gregorian">1929-1982 </unitdate>
-											</unittitle>
-											<physdesc>
-												<extent>(2 folders)</extent>
-											</physdesc>
-										</did>
-									</c07>
-									<c07>
-										<did>
-											<container type="box">14</container>
-											<unittitle>Orientation packet, <unitdate
-												type="inclusive" era="ce" calendar="gregorian">
-												1966</unitdate>1969</unittitle>
-										</did>
-									</c07>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Representatives:</unittitle>
-									</did>
-									<c07>
-										<did>
-											<unittitle>
-												<unitdate type="inclusive" era="ce"
-												calendar="gregorian">1946-1976 </unitdate>
-											</unittitle>
-											<physdesc>
-												<extent>(2 folders)</extent>
-											</physdesc>
-										</did>
-									</c07>
-									<c07>
-										<did>
-											<unittitle>Account management assignment, <unitdate
-												type="inclusive" era="ce" calendar="gregorian"
-												>1944-1987 </unitdate>
-											</unittitle>
-											<physdesc>
-												<extent>(4 folders)</extent>
-											</physdesc>
-										</did>
-									</c07>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Review Board, <unitdate type="inclusive" era="ce"
-												calendar="gregorian">1916-1972</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Staff, <unitdate type="inclusive" era="ce"
-												calendar="gregorian">1931-1979</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<container type="box">15</container>
-										<unittitle>Training: J. Walter Thompson Company Professional
-											Forum, <unitdate type="inclusive" era="ce"
-												calendar="gregorian">1960-1976 </unitdate>
-										</unittitle>
-										<physdesc>
-											<extent>(3 folders)</extent>
-										</physdesc>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Training: J. Walter Thompson Company Professional
-											Forum, <unitdate type="inclusive" era="ce"
-												calendar="gregorian">1963-1971</unitdate>
-										</unittitle>
-									</did>
-									<scopecontent>
-										<p>(Client: <corpname>Lever Brothers)</corpname>
-										</p>
-									</scopecontent>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Training programs, <unitdate type="inclusive"
-												era="ce" calendar="gregorian">1960-1984 </unitdate>
-										</unittitle>
-										<physdesc>
-											<extent>(2 folders)</extent>
-										</physdesc>
-									</did>
-								</c06>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>San Francisco, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1940-1985</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Finance:</unittitle>
-							</did>
-							<c05>
-								<did>
-									<unittitle>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1969-1985</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Clippings</unittitle>
-								</did>
-							</c05>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>International: General Information</unittitle>
-							</did>
-							<c05>
-								<did>
-									<unittitle>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1930-1986 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(Folder 1 of 4)</extent>
-									</physdesc>
-								</did>
-								<scopecontent>
-									<p>(Client: <corpname>S.C. Johnson and Son, </corpname>
-										<corpname>Brite Floor Wax)</corpname>
-									</p>
-								</scopecontent>
-							</c05>
-							<c05>
-								<did>
-									<container type="box">16</container>
-									<unittitle>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1930-1986 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(Folders 2-4 of 4)</extent>
-									</physdesc>
-								</did>
-								<scopecontent>
-									<p>(Client: <corpname>S.C. Johnson and Son, </corpname>
-										<corpname>Brite Floor Wax)</corpname>
-									</p>
-								</scopecontent>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Clippings, <unitdate type="inclusive" era="ce"
-											calendar="gregorian">1965-1985</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Lists, <unitdate type="inclusive" era="ce"
-											calendar="gregorian">1937-1985 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(2 folders)</extent>
-									</physdesc>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Press releases: <persname>Erskine, </persname>and
-										others, 1965</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Worldwide Public Relations Directory, <unitdate
-											type="inclusive" era="ce" calendar="gregorian"
-											>1976-1978</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Worldwide Research Directory, <unitdate
-											type="inclusive" era="ce" calendar="gregorian"
-											>1976-1977</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>International: Specific Offices:</unittitle>
-							</did>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Argentina, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1950-1977</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Australia, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1947-1984 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(1 vol., 2 folders)</extent>
-									</physdesc>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<container type="box">17</container>
-									<unittitle>
-										<geogname>Austria,</geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian">
-											1960</unitdate>1979</unittitle>
-
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Belgium,</geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian">
-											1974</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Brazil, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1944-1985 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(2 folders)</extent>
-									</physdesc>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Canada, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1930-1985 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(4 folders)</extent>
-									</physdesc>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>France, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1963-1985</unitdate>
-									</unittitle>
-								</did>
-								<scopecontent>
-									<p>(Clients: <corpname>Ford Motor Company</corpname>/
-											<corpname>Lefevre-Utile</corpname>/
-											<corpname>Burroughs</corpname>/ <corpname>Valstar
-											Beer</corpname>/ <corpname>Courtaulds)</corpname>
-									</p>
-								</scopecontent>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Germany, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1955-1984 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(Folder 1 of 2)</extent>
-									</physdesc>
-								</did>
-								<scopecontent>
-									<p>(Client: <corpname>Unilever)</corpname>
-									</p>
-								</scopecontent>
-							</c05>
-							<c05>
-								<did>
-									<container type="box">18</container>
-									<unittitle>
-										<geogname>Germany, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1955-1984 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(Folder 2 of 2)</extent>
-									</physdesc>
-								</did>
-								<scopecontent>
-									<p>(Client: <corpname>Unilever)</corpname>
-									</p>
-								</scopecontent>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>India, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1952-1987 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(2 folders)</extent>
-									</physdesc>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Italy,</geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian">
-											1966-1984</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Japan, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1965-1985</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Latin America,</geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian">
-											1968</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Mexico,</geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian">
-											1944-1985</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Middle East,</geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian">
-											1981</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Netherlands, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1965-1985</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Peru, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1957-1983</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>South Africa, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1952-1985 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(2 folders)</extent>
-									</physdesc>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>Spain, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1967-1985</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>
-										<geogname>United Kingdom, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1927-1985</unitdate>
-									</unittitle>
-								</did>
-								<scopecontent>
-									<p>(Clients: <corpname>Oxo and Fray Bentos</corpname>/
-											<corpname>Oxo cubes and Fray Bentos Conned
-											Beef</corpname>/ <corpname>The Wine and Spirit
-											Association of Great Britain</corpname>/ <corpname>The
-											Friends of Wine</corpname>/ <corpname>The Committee for
-											the Wines of France</corpname>/ <corpname>South West
-											African Persian Lamb</corpname>/ <corpname>English
-											Electric Refrigerators) </corpname>
-									</p>
-								</scopecontent>
-							</c05>
-							<c05>
-								<did>
-									<container type="box">19</container>
-									<unittitle>
-										<geogname>United Kingdom, </geogname>
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1948-1977 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(3 folders)</extent>
-									</physdesc>
-								</did>
-								<c06>
-									<did>
-										<unittitle>Clippings, <unitdate type="inclusive" era="ce"
-												calendar="gregorian">1962-1987</unitdate>
-										</unittitle>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<unittitle>Publications, <unitdate type="inclusive" era="ce"
-												calendar="gregorian">1965-1985
-											</unitdate></unittitle>
-										<physdesc><extent>(Folders 1-5 of 6)</extent></physdesc>
-									</did>
-								</c06>
-								<c06>
-									<did>
-										<container type="box">20</container>
-										<unittitle>Publications, <unitdate type="inclusive" era="ce"
-												calendar="gregorian">1965-1985
-											</unitdate></unittitle>
-										<physdesc><extent>(Folder 6 of 6)</extent></physdesc>
-									</did>
-								</c06>
-							</c05>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Staff:</unittitle>
-							</did>
-							<c05>
-								<did>
-									<unittitle>Company anniversary list, <unitdate type="inclusive"
-											era="ce" calendar="gregorian">1977-1979</unitdate>
-									</unittitle>
-								</did>
-							</c05>
-							<c05>
-								<did>
-									<unittitle>Directors, officers, vice-presidents, lists,
-											<unitdate type="inclusive" era="ce" calendar="gregorian"
-											>1955-1986 </unitdate>
-									</unittitle>
-									<physdesc>
-										<extent>(2 folders)</extent>
-									</physdesc>
-								</did>
-							</c05>
-						</c04>
-					</c03>
+				<c02>
+				  <did>
+					 <unittitle>Lists,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1981-1985</unitdate> </unittitle>
+				  </did>
 				</c02>
-			</c01>
-			<c01 level="series">
+				<c02>
+				  <did>
+					 <unittitle>
+						<title render="doublequote" linktype="simple">A Study of the Reputation of the
+						  J. Walter Thompson. Company by Louis Harris and Associates,</title>
+						<unitdate type="inclusive" era="ce" calendar="gregorian"> 1969</unitdate> </unittitle>
+				  </did>
+				</c02>
+				<c02>
+				  <did>
+					 <unittitle>Affiliates, subsidiaries, and divisions:</unittitle>
+
+				  </did>
+				  <c03>
+					 <did>
+						<unittitle>General, 
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1983</unitdate>
+						  </unittitle>
+					 </did>
+				  </c03>
+				  <c03>
+					 <did>
+						<container type="box">9</container>
+						<unittitle>
+						  <corpname>Brouillard Communications, </corpname>
+					
+			
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1975-1985</unitdate>
+							 </unittitle>
+						</did>
+					 </c03>
+					 <c03>
+						<did>
+						  <unittitle>
+							 <title render="italic" linktype="simple">Communications Watch,</title>
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1981-1986</unitdate>
+							 </unittitle>
+						</did>
+				
+				  </c03>
+				  <c03>
+					 <did>
+						<unittitle>
+						  <corpname>Hill and Knowlton, </corpname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1986, </unitdate>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">undated </unitdate> </unittitle>
+
+						<physdesc> <extent>(2 folders)</extent> </physdesc>
+					 </did>
+				  </c03>
+				  <c03>
+					 <did>
+						<unittitle>Hispania,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1980-1986</unitdate>
+						  </unittitle>
+					 </did>
+				  </c03>
+			
+					 <c03>
+						<did>
+						  <unittitle>JWT Direct Network,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1978-1985</unitdate>
+							 </unittitle>
+						</did>
+					 </c03>
+					 <c03>
+						<did>
+						  <unittitle>
+							 <subject>JWT Healthcare, </subject>
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1968-1986</unitdate>
+							 </unittitle>
+						</did>
+				
+				  </c03>
+				  <c03>
+					 <did>
+						<unittitle>
+						  <corpname>Lord, Geller, Federico and Einstein, </corpname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1973-1986</unitdate>
+						  </unittitle>
+					 </did>
+				  </c03>
+				  <c03>
+					 <did>
+						<unittitle>
+						  <corpname>Simmons Market Research Bureau, </corpname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1985</unitdate>
+						  </unittitle>
+					 </did>
+				  </c03>
+				  <c03>
+					 <did>
+						<unittitle>Survival Anglia,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1973</unitdate> </unittitle>
+					 </did>
+				  </c03>
+				  <c03>
+					 <did>
+						<unittitle>Thompson recruitment,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1979-1987</unitdate>
+						  </unittitle>
+					 </did>
+				  </c03>
+				</c02>
+	
+			 <c02>
 				<did>
-					<unittitle>Communications Committee Reports, <unitdate normal="1956/1959"
-							type="inclusive" era="ce" calendar="gregorian">1956-1959, </unitdate>
-						<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate>
-					</unittitle>
+				  <unittitle>Offices</unittitle>
 				</did>
-				<scopecontent>
-					<p>The purpose of the reports was to insure maximum use of studies and projects
-						of a broad general interest throughout the <corpname>J. Walter Thompson
-							Company </corpname>offices. Committees were organized in <geogname>New
-							York, </geogname>
-						<geogname>Detroit, </geogname>
-						<geogname>Chicago, </geogname>
-						<geogname>Los Angdes, </geogname>and <geogname>San Francisco </geogname>in
-							<date era="ce" calendar="gregorian"> 1957</date>. Each office was
-						responsible for collecting material from its own members and forwarding a
-						list of the Items to the central committee in the <geogname>New York
-						</geogname>Office. The reports consist of photo-offset copies and printed
-						material in which such topics as advertising techniques, research, media,
-						industries, and demographics are discussed. Some reports contain excerpts or
-						reprints of articles from external sources. The reports were arbitrarily
-						numbered at some point; they have been arranged in order by these numbers.
-						An information folder filed at the beginning of the series includes
-						statistics about how many times some of the reports circulated to domestic
-						and international offices. Some reports did not have obvious titles. In
-						those cases, the information folder was consulted and the names given for
-						the corresponding numbered report were listed below. Reports 25A and 26
-						Section I, Part B. are missing.</p>
+				<c03>
+				  <did>
+					 <unittitle>Domestic</unittitle>
+				  </did>
+				  <c04>
+					 <did>
+						<container type="box">10</container>
+						<unittitle>
+						  <geogname>Atlanta, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1971-1985</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Chicago, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1941-1986 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(3 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Detroit, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1919-1987</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Los Angeles, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1940-1983</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Los Angeles, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1985</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>New York </geogname>Office:</unittitle>
+					 </did>
+					 <c05>
+						<did>
+						  <unittitle>Advertising Services Department,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1920-1980</unitdate>
+							 </unittitle>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Archives,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">
+								1984</unitdate>1986</unittitle>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Art and architecture: Colonial Dining Room,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1921-1982 </unitdate>
+							 </unittitle>
+						  <physdesc> <extent>(2 folders)</extent> </physdesc>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Broadcasting Department,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1949-1972</unitdate>
+							 </unittitle>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Communications Forum,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1970-1971</unitdate>
+							 </unittitle>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <container type="box">11</container>
+						  <unittitle>Consumer behavior,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1929-1977</unitdate>
+							 </unittitle>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Creative Department</unittitle>
+						</did>
+						<c06>
+						  <did>
+							 <unittitle>General, 
+								<unitdate type="inclusive" era="ce" calendar="gregorian">1960-1986 </unitdate>
+								</unittitle>
+							 <physdesc> <extent>(2 folders)</extent> </physdesc>
+						  </did>
+						</c06>
+						<c06>
+						  <did>
+							 <unittitle>Creative assignments,
+								<unitdate type="inclusive" era="ce" calendar="gregorian">1960-1979 </unitdate>
+								</unittitle>
+							 <physdesc> <extent>(2 folders)</extent> </physdesc>
+						  </did>
+						</c06>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Fact books,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1957-1976 </unitdate>
+							 </unittitle>
+						  <physdesc> <extent>(Folders 1-2 of 3)</extent> </physdesc>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <container type="box">12</container>
+						  <unittitle>Fact books,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1957-1976 </unitdate>
+							 </unittitle>
+						  <physdesc> <extent>(Folder 3 of 3)</extent> </physdesc>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Grocery Merchandising Committee,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1954-1957 </unitdate>
+							 </unittitle>
+						  <physdesc> <extent>(2 folders)</extent> </physdesc>
+						</did>
+						<scopecontent>
+						  <p>(Clients:
+							 <corpname>Tender Leaf Tea</corpname>/
+							 <corpname>Chun King</corpname>/
+							 <corpname>Standard Brands</corpname>/
+							 <corpname> Royal Nuts</corpname>/
+							 <corpname>Fleischmann's Yeast</corpname>/
+							 <corpname>United States Brewers Foundation</corpname>/
+							 <corpname>Buitoni Foods Corporation</corpname>/
+							 <corpname>Sylvania Photolamp Division</corpname>/
+							 <corpname>Lever Brothers</corpname>/
+							 <corpname>Wool Bureau</corpname>/
+							 <corpname>Devoe and Raynolds Paint</corpname>/
+							 <corpname>Blue Surf</corpname>/
+							 <corpname>Prepared Puddings and Pie Fillings</corpname>/
+							 <corpname>Florida Citrus Commission</corpname>/
+							 <corpname>Philco Corporation</corpname>/
+							 <corpname>Ward Baking Company</corpname>/
+							 <corpname>Nationwide Insurance)</corpname> </p>
+						</scopecontent>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Industrial and Professional Department,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1949-1965</unitdate>
+							 </unittitle>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Information Center Records:</unittitle>
+						</did>
+						<c06>
+						  <did>
+							 <unittitle>Miscellaneous,
+								<unitdate type="inclusive" era="ce" calendar="gregorian">1916-1976</unitdate>
+								</unittitle>
+						  </did>
+						</c06></c05>
+						<c05>
+						  <did>
+							 <unittitle>
+								<persname>McCarty, Thad B.,
+								  </persname>files</unittitle>
+						  </did>
+						  <c06>
+							 <did>
+								<unittitle>Library director applications and
+								  interviews,
+								  <unitdate type="inclusive" era="ce" calendar="gregorian">1953-1955</unitdate>
+								  </unittitle>
+							 </did>
+						  </c06>
+						  <c06>
+							 <did>
+								<unittitle>Competitive ads files,
+								  <unitdate type="inclusive" era="ce" calendar="gregorian">1954-1955</unitdate>
+								  </unittitle>
+							 </did>
+						  </c06>
+						  <c06>
+							 <did>
+								<unittitle>Correspondence,
+								  <unitdate type="inclusive" era="ce" calendar="gregorian">1953-1955</unitdate>
+								  </unittitle>
+							 </did>
+						  </c06>
+						  <c06>
+							 <did>
+								<unittitle>Information Program Reorganization,
+								  <unitdate type="inclusive" era="ce" calendar="gregorian">1954-1955</unitdate>
+								  </unittitle>
+							 </did>
+						  </c06>
+						  <c06>
+							 <did>
+								<unittitle>Information Program Reorganization,
+								  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1956, </unitdate>
+								  <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate>
+								  </unittitle>
+							 </did>
+						  </c06>
+						  <c06>
+							 <did>
+								<unittitle>
+								  <corpname>J. Walter Thompson Company </corpname>news
+								  excerpts,
+								  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1955</unitdate>
+								  </unittitle>
+							 </did>
+						  </c06>
+						  <c06>
+							 <did>
+								<unittitle>Organization of information files,
+								  <unitdate type="inclusive" era="ce" calendar="gregorian">1953-1955, </unitdate>
+								  <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate>
+								  </unittitle>
+							 </did>
+						  </c06>
+						  <c06>
+							 <did>
+								<unittitle>Library portfolios: Library report,
+								  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1955</unitdate>
+								  </unittitle>
+							 </did>
+						  </c06>
+						  <c06>
+							 <did>
+								<unittitle>Review Board notes,
+								  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1955</unitdate>
+								  </unittitle>
+							 </did>
+						  </c06>
+						  <c06>
+							 <did>
+								<unittitle>Miscellaneous,
+								  <unitdate type="inclusive" era="ce" calendar="gregorian">1951-1955, </unitdate>
+								  <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate>
+								  </unittitle>
+							 </did>
+						  </c06>
+						</c05>
+				
+					 <c05>
+						<did>
+						  <unittitle>Media Department:</unittitle>
+						</did>
+						<c06>
+						  <did>
+							 <unittitle>General, 
+								<unitdate type="inclusive" era="ce" calendar="gregorian">1956-1986 </unitdate>
+								</unittitle>
+							 <physdesc> <extent>(1 of 3 folders)</extent> </physdesc>
+						  </did>
+						</c06>
+						<c06>
+						  <did><container type="box">13</container>
+							 <unittitle>General, 
+								<unitdate type="inclusive" era="ce" calendar="gregorian">1956-1986 </unitdate>
+								</unittitle>
+							 <physdesc> <extent>(2-3 of 3 folders)</extent> </physdesc>
+						  </did>
+						</c06>
+						<c06>
+						  <did>
+							 <unittitle>Media reports,
+								<unitdate type="inclusive" era="ce" calendar="gregorian">1965-1974 </unitdate>
+								</unittitle>
+							 <physdesc> <extent>(5 folders)</extent> </physdesc>
+						  </did>
+						  <c07>
+							 <did>
+								<unittitle>Prime Time Television Schedule,
+								  <unitdate type="inclusive" era="ce" calendar="gregorian">1986-1987</unitdate>
+								  </unittitle>
+							 </did>
+						  </c07>
+						</c06>
+						<c06>
+						  <did>
+							 <unittitle>Media research,
+								<unitdate type="inclusive" era="ce" calendar="gregorian">1970-1986 </unitdate>
+								</unittitle>
+							 <physdesc> <extent>(Folder 1 of 6)</extent> </physdesc>
+						  </did>
+						</c06>
+						<c06>
+						  <did>
+							 <container type="box">14</container>
+							 <unittitle>Media research,
+								<unitdate type="inclusive" era="ce" calendar="gregorian">1970-1986 </unitdate>
+								</unittitle>
+							 <physdesc> <extent>(Folders 2-6 of 6)</extent>
+								</physdesc>
+						  </did>
+						</c06>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>
+							 <title render="italic" linktype="simple">Media Source Materials and Them to
+								Find Them,</title>
+							 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1985</unitdate> </unittitle>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Merchandising Department,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1933-1975 </unitdate>
+							 </unittitle>
+						  <physdesc> <extent>(2 folders)</extent> </physdesc>
+						</did>
+						<scopecontent>
+						  <p>(Client:
+							 <corpname>Shell Oil Company)</corpname> </p>
+						</scopecontent>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Public Relations Department:</unittitle>
+						</did>
+						<c06>
+						  <did>
+							 <unittitle>
+								<unitdate type="inclusive" era="ce" calendar="gregorian">1929-1982 </unitdate>
+								</unittitle>
+							 <physdesc> <extent>(2 folders)</extent> </physdesc>
+						  </did>
+						</c06>
+						<c06>
+						  <did>
+							 <container type="box">15</container>
+							 <unittitle>Orientation packet,
+								<unitdate type="inclusive" era="ce" calendar="gregorian">
+								  1966</unitdate>1969</unittitle>
+						  </did>
+						</c06>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Representatives:</unittitle>
+						</did>
+						<c06>
+						  <did>
+							 <unittitle>
+								<unitdate type="inclusive" era="ce" calendar="gregorian">1946-1976 </unitdate>
+								</unittitle>
+							 <physdesc> <extent>(2 folders)</extent> </physdesc>
+						  </did>
+						</c06>
+						<c06>
+						  <did>
+							 <unittitle>Account management assignment,
+								<unitdate type="inclusive" era="ce" calendar="gregorian">1944-1987 </unitdate>
+								</unittitle>
+							 <physdesc> <extent>(4 folders)</extent> </physdesc>
+						  </did>
+						</c06>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Review Board,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1916-1972</unitdate>
+							 </unittitle>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Staff,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1931-1979</unitdate>
+							 </unittitle>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <container type="box">16</container>
+						  <unittitle>Training: J. Walter Thompson Company
+							 Professional Forum,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1976 </unitdate>
+							 </unittitle>
+						  <physdesc> <extent>(3 folders)</extent> </physdesc>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Training: J. Walter Thompson Company
+							 Professional Forum,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1963-1971</unitdate>
+							 </unittitle>
+						</did>
+						<scopecontent>
+						  <p>(Client:
+							 <corpname>Lever Brothers)</corpname> </p>
+						</scopecontent>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Training programs,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1960-1984 </unitdate>
+							 </unittitle>
+						  <physdesc> <extent>(2 folders)</extent> </physdesc>
+						</did>
+					 </c05>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>San Francisco, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1940-1985</unitdate>
+						  </unittitle>
+					 </did>
+			
+			
+				<c05>
+				  <did>
+					 <unittitle>Finance, 
+					
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1969-1985</unitdate>
+						  </unittitle>
+					 </did>
+				  </c05>
+				  <c05>
+					 <did>
+						<unittitle>Clippings</unittitle>
+					 </did>
+				  </c05>
+				</c04></c03>
+				<c03>
+				  <did>
+					 <unittitle>International</unittitle>
+				  </did>
+				  <c04>
+					 <did>
+						<unittitle>General, 
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1930-1986 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(Folder 1 of 4)</extent> </physdesc>
+					 </did>
+					 <scopecontent>
+						<p>(Client:
+						  <corpname>S.C. Johnson and Son, </corpname>
+						  <corpname>Brite Floor Wax)</corpname> </p>
+					 </scopecontent>
+				  </c04>
+				  <c04>
+					 <did>
+						<container type="box">17</container>
+						<unittitle>General, 
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1930-1986 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(Folders 2-4 of 4)</extent> </physdesc>
+					 </did>
+					 <scopecontent>
+						<p>(Client:
+						  <corpname>S.C. Johnson and Son, </corpname>
+						  <corpname>Brite Floor Wax)</corpname> </p>
+					 </scopecontent>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>Clippings,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1985</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>Lists,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1937-1985 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(2 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>Press releases:
+						  <persname>Erskine, </persname>and others, 1965</unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>Worldwide Public Relations Directory,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1976-1978</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>Worldwide Research Directory,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1976-1977</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				</c03>
+				<c03>
+				  <did>
+					 <unittitle>International: Specific Offices:</unittitle>
+				  </did>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Argentina, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1950-1977</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Australia, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1947-1984 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(1-2 of 3 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did><container type="box">18</container>
+						<unittitle>
+						  <geogname>Australia, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1947-1984 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(3 of 3 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						
+						<unittitle>
+						  <geogname>Austria,</geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1960</unitdate>1979</unittitle>
+
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Belgium,</geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1974</unitdate> </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Brazil, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1944-1985 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(2 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Canada, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1930-1985 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(4 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>France, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1963-1985</unitdate>
+						  </unittitle>
+					 </did>
+					 <scopecontent>
+						<p>(Clients:
+						  <corpname>Ford Motor Company</corpname>/
+						  <corpname>Lefevre-Utile</corpname>/
+						  <corpname>Burroughs</corpname>/
+						  <corpname>Valstar Beer</corpname>/
+						  <corpname>Courtaulds)</corpname> </p>
+					 </scopecontent>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Germany, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1955-1984 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(Folder 1 of 2)</extent> </physdesc>
+					 </did>
+					 <scopecontent>
+						<p>(Client:
+						  <corpname>Unilever)</corpname> </p>
+					 </scopecontent>
+				  </c04>
+				  <c04>
+					 <did>
+						<container type="box">19</container>
+						<unittitle>
+						  <geogname>Germany, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1955-1984 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(Folder 2 of 2)</extent> </physdesc>
+					 </did>
+					 <scopecontent>
+						<p>(Client:
+						  <corpname>Unilever)</corpname> </p>
+					 </scopecontent>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>India, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1952-1987 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(2 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Italy,</geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1966-1984</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Japan, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1985</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Latin America,</geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1968</unitdate> </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Mexico,</geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1944-1985</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Middle East,</geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian"> 1981</unitdate> </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Netherlands, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1985</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Peru, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1957-1983</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>South Africa, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1952-1985 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(2 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>Spain, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1985</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>
+						  <geogname>United Kingdom, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1927-1985</unitdate>
+						  </unittitle>
+					 </did>
+					 <scopecontent>
+						<p>(Clients:
+						  <corpname>Oxo and Fray Bentos</corpname>/
+						  <corpname>Oxo cubes and Fray Bentos Conned Beef</corpname>/
+
+						  <corpname>The Wine and Spirit Association of Great
+							 Britain</corpname>/
+						  <corpname>The Friends of Wine</corpname>/
+						  <corpname>The Committee for the Wines of France</corpname>/
+
+						  <corpname>South West African Persian Lamb</corpname>/
+						  <corpname>English Electric Refrigerators) </corpname> </p>
+					 </scopecontent>
+				  </c04>
+				  <c04>
+					 <did>
+						<container type="box">20</container>
+						<unittitle>
+						  <geogname>General, </geogname>
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1948-1977 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(4 folders)</extent> </physdesc>
+					 </did>
+					 <c05>
+						<did>
+						  <unittitle>Clippings,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1962-1987</unitdate>
+							 </unittitle>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <unittitle>Publications,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1985
+								</unitdate></unittitle>
+						  <physdesc><extent>(Folders 1-5 of 6)</extent></physdesc>
+						</did>
+					 </c05>
+					 <c05>
+						<did>
+						  <container type="box">21</container>
+						  <unittitle>Publications,
+							 <unitdate type="inclusive" era="ce" calendar="gregorian">1965-1985
+								</unitdate></unittitle>
+						  <physdesc><extent>(Folder 6 of 6)</extent></physdesc>
+						</did>
+				
+				  </c05>
+				</c04></c03>
+				<c03>
+				  <did>
+					 <unittitle>Staff:</unittitle>
+				  </did>
+				  <c04>
+					 <did>
+						<unittitle>Company anniversary list,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1977-1979</unitdate>
+						  </unittitle>
+					 </did>
+				  </c04>
+				  <c04>
+					 <did>
+						<unittitle>Directors, officers, vice-presidents, lists,
+						  <unitdate type="inclusive" era="ce" calendar="gregorian">1955-1986 </unitdate>
+						  </unittitle>
+						<physdesc> <extent>(2 folders)</extent> </physdesc>
+					 </did>
+				  </c04>
+				</c03>
+			 </c02>
+		  </c01>
+	
+		<c01 level="series">
+		  <did>
+			 <unittitle id="s4">Communications Committee Reports,
+				<unitdate normal="1956/1959" type="inclusive" era="ce" calendar="gregorian">1956-1959,
+				  </unitdate>
+				<unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+		  </did>
+		  <scopecontent>
+			 <p>The purpose of the reports was to insure maximum use of studies
+				and projects of a broad general interest throughout the
+				<corpname>J. Walter Thompson Company </corpname>offices. Committees
+				were organized in
+				<geogname>New York, </geogname>
+				<geogname>Detroit, </geogname>
+				<geogname>Chicago, </geogname>
+				<geogname>Los Angdes, </geogname>and
+				<geogname>San Francisco </geogname>in
+				<date era="ce" calendar="gregorian"> 1957</date>. Each office was responsible for collecting
+				material from its own members and forwarding a list of the Items to the central
+				committee in the
+				<geogname>New York </geogname>Office. The reports consist of
+				photo-offset copies and printed material in which such topics as advertising
+				techniques, research, media, industries, and demographics are discussed. Some
+				reports contain excerpts or reprints of articles from external sources. The
+				reports were arbitrarily numbered at some point; they have been arranged in
+				order by these numbers. An information folder filed at the beginning of the
+				series includes statistics about how many times some of the reports circulated
+				to domestic and international offices. Some reports did not have obvious
+				titles. In those cases, the information folder was consulted and the names
+				given for the corresponding numbered report were listed below. Reports 25A and
+				26 Section I, Part B. are missing.</p>
+		  </scopecontent>
+		  <c02>
+			 <did>
+				<unittitle>Information folder, <unitdate type="inclusive">1957-1959</unitdate></unittitle>
+			 </did></c02>
+			 <c02>
+				<did>
+				  <container type="box">21</container>
+				  <unittitle>No. 1, Copy Testing,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 2, Copy Reprints at Low Cost,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 3, Manual of Television Basics, Media Research
+					 Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 4, Consumer Product Test Marketing,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 5, Local Rating Service Standards for Lever
+					 Brothers Company,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 6, Magazine Circulation Distribution and Coverage,
+					 Media Research Department
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 7, Testing Relative Effectiveness of Sales
+					 Propositions,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 8, A Successful Technique for Determining a
+					 <emph render="doublequote">Brand Image</emph> Discussion, n.d</unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 9, The Market <emph render="doublequote">Promise</emph> of a New Product Discussion,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 10, A Technique For Measuring Consumer Attitudes
+					 Toward Specific Airline Features,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 11, A Technique In Testing A Copy Theme
+					 (Cigarettes),
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 12, A Technique To Determine Motivation Underlying
+					 Use of a Product,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 13, Well-Known Brand Names Tend To Get Higher
+					 <emph render="doublequote">Readership</emph> Ratings Than They Earn,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 14, A Technique To Determine The Personality. of a
+					 Business,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 15, Copy Testing With a Gift Offer (Make-Up
+					 Foundation),
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 16, A Technique For Determining Consumer Images Of
+					 Different Modes of Travel, n.d</unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 17, A Measurement of the Effectiveness of
+					 Television Advertising, n.d</unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 18, Sales Forecasting,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1956, April</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 19, National And Private Brand Competition in
+					 Super Market Merchandising, Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957, Feb.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 20, Product Testing, n.d</unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 21,
+					 <corpname>J. Walter Thompson</corpname>--Company Structure,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 22, Copy Testing With a Gift Offer (Picture
+					 Tubes),
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 23, Report On Newspapers As An Advertising Medium,
+					 Media Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957, June</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 24, Radio Study No.8--J. Walter Thompson Looks at
+					 Radio, Media Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957, June</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <container type="box">22</container>
+				  <unittitle>No. 25B, The Effectiveness of Repeated Advertisements,
+					 Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1956, June</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 25C, A Study Of Food Advertising Readership,
+					 Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1956, July</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 25D, Standard Brands, Royal Nuts,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1956, Oct.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 26, Manual of Television Basics, Media Research
+					 Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Jan. </unitdate> </unittitle>
+				  <physdesc> <extent>(3 folders)</extent> </physdesc>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 27, How to Increase Acceptability of Display
+					 Material To Grocery Chains and Chain Store Operators,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 28, Planning A Local Sales Contest For Ford,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957, July</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 29, Using the
+					 <corpname>J. Walter Thompson Company </corpname>Consumer Panel
+					 In Sales Promotion Activity,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957, May 3</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 30, How Many Dollars For Advertising,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1955</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 31, Advertising Budget Requirements
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957</unitdate>and
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1958, </unitdate>Media Research
+					 Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957, Aug.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 32, Report On Radio As An Advertising Medium,
+					 Media Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957, July</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 33, Ultru Color Demonstration In The J. Walter
+					 Thompson Company Television Workshop,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 34, Analysis Of Store Distributed Magazines
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1953</unitdate>through
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1957, </unitdate>Media Research
+					 Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957, Aug.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 35, Report On Magazines As An Advertising Medium,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957, Sept.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 36, The Effectiveness of Industrial Advertising,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957, Nov.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 37, A Marketing Profile of the Senior Citizen
+					 Group, Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957, May</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 38, Use Of Consumer Panel To Measure Influence of
+					 a Television Program On a Product's Sales,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, May</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 39, Retail Grocery Chain Buying Committee
+					 Deliberations, Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957, Oct.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <container type="box">23</container>
+				  <unittitle>No. 40, Studying the Over-all Effect of an Advertising
+					 Campaign, Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957, Sept.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 41, Report On Outdoor As An Advertising Medium,
+					 Media Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Jan.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 42,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1956-57 </unitdate>Gross
+					 Advertising Revenue, Selected List of Magazines, Media Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Feb.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 43, Circulation and Linage In Multiple Newspaper
+					 Markets,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Apr.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 44, Evaluation Of An Advertising Campaign,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Apr. 13</unitdate>
+					 </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 45, Current Analysis of the Grocery Store
+					 Distributed Magazines, Media Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Apr.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 46, The Changing Role Of The Advertising Agency,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, May</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 47, A Creative Man's Gloom At The J. Walter
+					 Thompson Company Consumer Pand Personality Profile Studies, Research
+					 Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, July</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 48, A Brief Resume Of The Drug Industry,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Aug.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 49, Analysis Of Opportunities And Practices In the
+					 Premium Industry, Marketing and Merchandising Services,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1958, </unitdate>Spring</unittitle>
+
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 50, Consumer Contests, Marketing and Merchandising
+					 Services,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, July</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 51, The Creation And Production Of Animated
+					 Television Commercials With A Side Reference To The Emily Tipp Bread Series,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 52, Trend Of Volume Discounts In Daily Newspaper
+					 Rates, Media Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Aug.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 53, Metro Area Television Home Ownership By State
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1958, </unitdate>Media Research
+					 Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, July</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 54, Principles of Television Network Audience
+					 Cumulation,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, July</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 55, Regional Food Advertiser General Television
+					 Announcement Buying Strategy, Media Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Sept.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. S6, Analysis of Split-Run Facilities Available in
+					 Magazines and Supplements, Media Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Sept.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 57, Summary of Neilsen Data on Television and
+					 Radio Audiences, Media Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, June</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 58, An Analysis of Syndicated Film By Spot
+					 Television Announcements,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Oct.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 59, J. Walter Thompson Company Looks At Video Tape
+					 And States Its Position,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 60, Magazine Advertising And the Housewife, Social
+					 Research,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1957, Oct.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 61, Television Terminology,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1956, Jan.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 62, The Portable Projector Television Commercial
+					 Testing System, Marketing Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959, June</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 63, Explanation of Broadcasting Ratings And Rating
+					 Services Available To J. Walter Thompson Company Media Research Section,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959, Apr.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 64A, Report On Newspapers As An Advertising
+					 Medium, Media Research,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959, March</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <container type="box">24</container>
+				  <unittitle>No. 64B, Report On Magazines As An Advertising Medium,
+					 Media Research,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959, March</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 64C, Report On Radio As An Advertising Medium,
+					 Media Research,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959, Apr.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 64D, Report On Television As An Advertising
+					 Medium,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959, March</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 64E, Report On Sunday Comics And Magazine
+					 Supplements As An Advertising Medium, Media Research,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959, March</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 64F, Report On Outdoor As An Advertising Medium,
+					 Media Research,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959, March</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 64G, Report On Theatre Advertising, Media
+					 Research,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959, March</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 65,
+					 <corpname>Eastman Kodak Company </corpname>Television Media
+					 Review, Media Research,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 66, Communicating With Retailas, Industrial and
+					 Professional Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959, Feb.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 67, The J. Walter Thompson Company Consumer Panel,
+					 Market Research,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">undated</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 68, Appraisal of Radio's Current Status And Guide
+					 To Its Future Use, Media and Programming Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959, Jan.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 69, Radio Listening Habits And Attitudes Of The
+					 United States Housewife, Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Nov.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 70, Advertising Budget Requirements
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1958</unitdate>and
+					 <unitdate type="inclusive" era="ce" calendar="gregorian"> 1959, </unitdate>Media Research
+					 Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Oct.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 71, Putting Copy Research In Perspective,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Sept.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 72, Evaluation of Network Television Circulation
+					 and Cost Trends, Media and Programming Departments,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1959, Feb.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 73, What 1,244 People Think Of Druggists, Prom
+					 American Druggist,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Dec.</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>No. 74, An Analysis Of Printed Advertising Rating
+					 Methods, Research Department,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1958, Feb.</unitdate> </unittitle>
+				</did>
+		
+		  </c02>
+		</c01>
+		<c01 level="series">
+		  <did>
+			 <unittitle id="s5">Oversize Materials</unittitle>
+		  </did>
+<c02><did><container type="box">OV1</container><unittitle>Accounts, <unitdate type="inclusive">1904-1984</unitdate></unittitle></did></c02>
+		  <c02>
+				<did>
+				  <unittitle>
+					 <corpname>Lever Brothers, </corpname>
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1940-1982</unitdate> </unittitle>
+				</did>
+			 </c02>
+			 <c02>
+				<did>
+				  <unittitle>Volunteer,
+					 <unitdate type="inclusive" era="ce" calendar="gregorian">1967-1971</unitdate> </unittitle>
+				</did>
+			 </c02>
+<c02><did><unittitle>Domestic--New York Office (1950-1957), International (1957-1983)</unittitle></did></c02>
+				<c02>
+				  <did>
+					 <unittitle>Domestic--<corpname>New York Office, </corpname>Training,
+						<unitdate type="inclusive" era="ce" calendar="gregorian">1964-1967</unitdate> </unittitle>
+				  </did>
+				</c02>
+
+
+			 <c02>
+				<did>
+				  <unittitle>History (1959-1983), Organization (1954-1983), Communications Committee Reports 21 and 36 (1959)</unittitle>
+				</did><scopecontent>
+				<p>[Report 21: J. Walter Thompson Company Structure; Report 36: The Effectiveness of Industrial Advertising]</p>
 				</scopecontent>
-				<c02 level="subseries">
-					<did>
-						<unittitle>Information folder:</unittitle>
-					</did>
-					<c03>
-						<did>
-							<container type="box">20</container>
-							<unittitle>No. 1, Copy Testing, <unitdate type="inclusive" era="ce"
-									calendar="gregorian"> 1957</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 2, Copy Reprints at Low Cost, <unitdate type="inclusive"
-									era="ce" calendar="gregorian">undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 3, Manual of Television Basics, Media Research
-								Department, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									> 1957</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 4, Consumer Product Test Marketing, <unitdate
-									type="inclusive" era="ce" calendar="gregorian"
-									>undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 5, Local Rating Service Standards for Lever Brothers
-								Company, <unitdate type="inclusive" era="ce" calendar="gregorian">
-									1957</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 6, Magazine Circulation Distribution and Coverage, Media
-								Research Department <unitdate type="inclusive" era="ce"
-									calendar="gregorian"> 1957</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 7, Testing Relative Effectiveness of Sales Propositions,
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-									>undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 8, A Successful Technique for Determining a <emph
-									render="doublequote">Brand Image</emph> Discussion,
-								n.d</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 9, The Market <emph render="doublequote">Promise</emph>
-								of a New Product Discussion, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 10, A Technique For Measuring Consumer Attitudes Toward
-								Specific Airline Features, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 11, A Technique In Testing A Copy Theme (Cigarettes),
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-									>undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 12, A Technique To Determine Motivation Underlying Use of
-								a Product, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 13, Well-Known Brand Names Tend To Get Higher <emph
-									render="doublequote">Readership</emph> Ratings Than They Earn,
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-									>undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 14, A Technique To Determine The Personality. of a
-								Business, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 15, Copy Testing With a Gift Offer (Make-Up Foundation),
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-									>undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 16, A Technique For Determining Consumer Images Of
-								Different Modes of Travel, n.d</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 17, A Measurement of the Effectiveness of Television
-								Advertising, n.d</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 18, Sales Forecasting, <unitdate type="inclusive"
-									era="ce" calendar="gregorian">1956, April</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 19, National And Private Brand Competition in Super
-								Market Merchandising, Research Department, <unitdate
-									type="inclusive" era="ce" calendar="gregorian">1957,
-									Feb.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 20, Product Testing, n.d</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 21, <corpname>J. Walter Thompson</corpname>--Company
-								Structure, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 22, Copy Testing With a Gift Offer (Picture Tubes),
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-									>undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 23, Report On Newspapers As An Advertising Medium, Media
-								Research Department, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1957, June</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 24, Radio Study No.8--J. Walter Thompson Looks at Radio,
-								Media Research Department, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1957, June</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<container type="box">21</container>
-							<unittitle>No. 25B, The Effectiveness of Repeated Advertisements,
-								Research Department, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1956, June</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 25C, A Study Of Food Advertising Readership, Research
-								Department, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1956, July</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 25D, Standard Brands, Royal Nuts, <unitdate
-									type="inclusive" era="ce" calendar="gregorian">1956,
-									Oct.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 26, Manual of Television Basics, Media Research
-								Department, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1958, Jan. </unitdate>
-							</unittitle>
-							<physdesc>
-								<extent>(3 folders)</extent>
-							</physdesc>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 27, How to Increase Acceptability of Display Material To
-								Grocery Chains and Chain Store Operators, <unitdate type="inclusive"
-									era="ce" calendar="gregorian">undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 28, Planning A Local Sales Contest For Ford, <unitdate
-									type="inclusive" era="ce" calendar="gregorian">1957,
-									July</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 29, Using the <corpname>J. Walter Thompson Company
-								</corpname>Consumer Panel In Sales Promotion Activity, <unitdate
-									type="inclusive" era="ce" calendar="gregorian">1957, May
-									3</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 30, How Many Dollars For Advertising, <unitdate
-									type="inclusive" era="ce" calendar="gregorian"> 1955</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 31, Advertising Budget Requirements <unitdate
-									type="inclusive" era="ce" calendar="gregorian">
-								1957</unitdate>and <unitdate type="inclusive" era="ce"
-									calendar="gregorian"> 1958, </unitdate>Media Research
-								Department, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1957, Aug.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 32, Report On Radio As An Advertising Medium, Media
-								Department, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1957, July</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 33, Ultru Color Demonstration In The J. Walter Thompson
-								Company Television Workshop, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 34, Analysis Of Store Distributed Magazines <unitdate
-									type="inclusive" era="ce" calendar="gregorian">
-								1953</unitdate>through <unitdate type="inclusive" era="ce"
-									calendar="gregorian"> 1957, </unitdate>Media Research
-								Department, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1957, Aug.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 35, Report On Magazines As An Advertising Medium,
-									<unitdate type="inclusive" era="ce" calendar="gregorian">1957,
-									Sept.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 36, The Effectiveness of Industrial Advertising,
-									<unitdate type="inclusive" era="ce" calendar="gregorian">1957,
-									Nov.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 37, A Marketing Profile of the Senior Citizen Group,
-								Research Department, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1957, May</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 38, Use Of Consumer Panel To Measure Influence of a
-								Television Program On a Product's Sales, <unitdate type="inclusive"
-									era="ce" calendar="gregorian">1958, May</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 39, Retail Grocery Chain Buying Committee Deliberations,
-								Research Department, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1957, Oct.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<container type="box">22</container>
-							<unittitle>No. 40, Studying the Over-all Effect of an Advertising
-								Campaign, Research Department, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1957, Sept.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 41, Report On Outdoor As An Advertising Medium, Media
-								Research Department, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1958, Jan.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 42, <unitdate type="inclusive" era="ce"
-									calendar="gregorian"> 1956-57 </unitdate>Gross Advertising
-								Revenue, Selected List of Magazines, Media Research Department,
-									<unitdate type="inclusive" era="ce" calendar="gregorian">1958,
-									Feb.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 43, Circulation and Linage In Multiple Newspaper Markets,
-									<unitdate type="inclusive" era="ce" calendar="gregorian">1958,
-									Apr.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 44, Evaluation Of An Advertising Campaign, <unitdate
-									type="inclusive" era="ce" calendar="gregorian">1958, Apr.
-									13</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 45, Current Analysis of the Grocery Store Distributed
-								Magazines, Media Research Department, <unitdate type="inclusive"
-									era="ce" calendar="gregorian">1958, Apr.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 46, The Changing Role Of The Advertising Agency,
-									<unitdate type="inclusive" era="ce" calendar="gregorian">1958,
-									May</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 47, A Creative Man's Gloom At The J. Walter Thompson
-								Company Consumer Pand Personality Profile Studies, Research
-								Department, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1958, July</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 48, A Brief Resume Of The Drug Industry, <unitdate
-									type="inclusive" era="ce" calendar="gregorian">1958,
-									Aug.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 49, Analysis Of Opportunities And Practices In the
-								Premium Industry, Marketing and Merchandising Services, <unitdate
-									type="inclusive" era="ce" calendar="gregorian"> 1958,
-								</unitdate>Spring</unittitle>
+				
+			 </c02>
+<c02><did><unittitle>Organization--United Kingdom, <unitdate type="inclusive">1953-1985</unitdate></unittitle></did></c02>
 
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 50, Consumer Contests, Marketing and Merchandising
-								Services, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1958, July</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 51, The Creation And Production Of Animated Television
-								Commercials With A Side Reference To The Emily Tipp Bread Series,
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-									>undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 52, Trend Of Volume Discounts In Daily Newspaper Rates,
-								Media Research Department, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1958, Aug.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 53, Metro Area Television Home Ownership By State
-									<unitdate type="inclusive" era="ce" calendar="gregorian"> 1958,
-								</unitdate>Media Research Department, <unitdate type="inclusive"
-									era="ce" calendar="gregorian">1958, July</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 54, Principles of Television Network Audience Cumulation,
-									<unitdate type="inclusive" era="ce" calendar="gregorian">1958,
-									July</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 55, Regional Food Advertiser General Television
-								Announcement Buying Strategy, Media Research Department, <unitdate
-									type="inclusive" era="ce" calendar="gregorian">1958,
-									Sept.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. S6, Analysis of Split-Run Facilities Available in
-								Magazines and Supplements, Media Research Department, <unitdate
-									type="inclusive" era="ce" calendar="gregorian">1958,
-									Sept.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 57, Summary of Neilsen Data on Television and Radio
-								Audiences, Media Research Department, <unitdate type="inclusive"
-									era="ce" calendar="gregorian">1958, June</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 58, An Analysis of Syndicated Film By Spot Television
-								Announcements, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1958, Oct.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 59, J. Walter Thompson Company Looks At Video Tape And
-								States Its Position, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 60, Magazine Advertising And the Housewife, Social
-								Research, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1957, Oct.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 61, Television Terminology, <unitdate type="inclusive"
-									era="ce" calendar="gregorian">1956, Jan.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 62, The Portable Projector Television Commercial Testing
-								System, Marketing Research Department, <unitdate type="inclusive"
-									era="ce" calendar="gregorian">1959, June</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 63, Explanation of Broadcasting Ratings And Rating
-								Services Available To J. Walter Thompson Company Media Research
-								Section, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1959, Apr.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 64A, Report On Newspapers As An Advertising Medium, Media
-								Research, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1959, March</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<container type="box">23</container>
-							<unittitle>No. 64B, Report On Magazines As An Advertising Medium, Media
-								Research, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1959, March</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 64C, Report On Radio As An Advertising Medium, Media
-								Research, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1959, Apr.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 64D, Report On Television As An Advertising Medium,
-									<unitdate type="inclusive" era="ce" calendar="gregorian">1959,
-									March</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 64E, Report On Sunday Comics And Magazine Supplements As
-								An Advertising Medium, Media Research, <unitdate type="inclusive"
-									era="ce" calendar="gregorian">1959, March</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 64F, Report On Outdoor As An Advertising Medium, Media
-								Research, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1959, March</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 64G, Report On Theatre Advertising, Media Research,
-									<unitdate type="inclusive" era="ce" calendar="gregorian">1959,
-									March</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 65, <corpname>Eastman Kodak Company </corpname>Television
-								Media Review, Media Research, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 66, Communicating With Retailas, Industrial and
-								Professional Department, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1959, Feb.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 67, The J. Walter Thompson Company Consumer Panel, Market
-								Research, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 68, Appraisal of Radio's Current Status And Guide To Its
-								Future Use, Media and Programming Department, <unitdate
-									type="inclusive" era="ce" calendar="gregorian">1959,
-									Jan.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 69, Radio Listening Habits And Attitudes Of The United
-								States Housewife, Research Department, <unitdate type="inclusive"
-									era="ce" calendar="gregorian">1958, Nov.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 70, Advertising Budget Requirements <unitdate
-									type="inclusive" era="ce" calendar="gregorian">
-								1958</unitdate>and <unitdate type="inclusive" era="ce"
-									calendar="gregorian"> 1959, </unitdate>Media Research
-								Department, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1958, Oct.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 71, Putting Copy Research In Perspective, <unitdate
-									type="inclusive" era="ce" calendar="gregorian">1958,
-									Sept.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 72, Evaluation of Network Television Circulation and Cost
-								Trends, Media and Programming Departments, <unitdate
-									type="inclusive" era="ce" calendar="gregorian">1959,
-									Feb.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 73, What 1,244 People Think Of Druggists, Prom American
-								Druggist, <unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1958, Dec.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>No. 74, An Analysis Of Printed Advertising Rating Methods,
-								Research Department, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1958, Feb.</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-				</c02>
-			</c01>
-			<c01 level="series">
-				<did>
-					<unittitle>Oversize Materials</unittitle>
-				</did>
-				<c02 level="subseries">
-					<did>
-						<unittitle>Vertical Files Series</unittitle>
-					</did>
-					<c03>
-						<did>
-							<container type="folder">1</container>
-							<unittitle>
-								<unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1926-1981</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<container type="folder">2</container>
-							<unittitle>Accounts, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<container type="folder">3</container>
-							<unittitle>Accounts: Prizes and Contests, <corpname>Fleishshmann's, </corpname>
-								<unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1923-1924</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<container type="box">OV1</container>
-							<unittitle>Accounts: <corpname>Lever Brothers, </corpname>
-								<unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1940-1982</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>Accounts: Volunteer, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1967-1971</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>History, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1959-1983</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<container type="folder">4</container>
-							<unittitle>History: Awards, <unitdate type="inclusive" era="ce"
-									calendar="gregorian"> 1984</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<container type="box">OV1</container>
-							<unittitle>Organization, <unitdate type="inclusive" era="ce"
-									calendar="gregorian">1954-1983</unitdate>
-							</unittitle>
-						</did>
-						<c04>
-							<did>
-								<unittitle>Domestic: <corpname>New York Office, </corpname>
-									<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1950-1957?</unitdate>
-								</unittitle>
 
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>Domestic: <corpname>New York Office, </corpname>Training,
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1964-1967</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>International, <unitdate type="inclusive" era="ce"
-										calendar="gregorian">1957-1983</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-					</c03>
-					<c03>
-						<did>
-							<container type="folder">5</container>
-							<unittitle>Organization: International, <geogname>India, </geogname>
-								<unitdate type="inclusive" era="ce" calendar="gregorian"
-									>undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<unittitle>Organization: International, <geogname>United Kingdom, </geogname>
-								<unitdate type="inclusive" era="ce" calendar="gregorian"
-									>undated</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-					<c03>
-						<did>
-							<container type="box">OV1</container>
-							<unittitle>Organization: International, <geogname>United Kingdom, </geogname>
-								<unitdate type="inclusive" era="ce" calendar="gregorian"
-									>1953-1985</unitdate>
-							</unittitle>
-						</did>
-					</c03>
-				</c02>
-				<c02 level="subseries">
-					<did>
-						<unittitle>Communications Committee Reports Series</unittitle>
-					</did>
-					<c03>
-						<did>
-							<container type="box">OV1</container>
-							<unittitle>Communications Committee Reports:</unittitle>
-						</did>
-						<c04>
-							<did>
-								<unittitle>Information Folder, <unitdate type="inclusive" era="ce"
-										calendar="gregorian"> 1958</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<container type="folder">6</container>
-								<unittitle>No. 2, Copy Reports at Low Cost, <unitdate
-										type="inclusive" era="ce" calendar="gregorian"
-										>undated</unitdate>
-								</unittitle>
-							</did>
-							<scopecontent>
-								<p>[Packaging and Labels for <corpname>Dietz Bread/Hathaway
-										Bakeries</corpname>; advertisements for <corpname>J. Walter
-										Thompson</corpname>, <corpname>Indiana Bell</corpname>,
-										<corpname>American Red Cross</corpname> and others]</p>
-							</scopecontent>
-						</c04>
-						<c04>
-							<did>
-								<container type="box">OV1</container>
-								<unittitle>No. 21, <corpname>J. Walter Thompson</corpname>--Company
-									Structure, <unitdate type="inclusive" era="ce"
-										calendar="gregorian">undated</unitdate>
-								</unittitle>
-							</did>
-						</c04>
-						<c04>
-							<did>
-								<unittitle>No. 36, The Effectiveness of Industrial Advertising,
-										<unitdate type="inclusive" era="ce" calendar="gregorian"
-										>1957, Nov.</unitdate>
-								</unittitle>
-
-							</did>
-						</c04>
-					</c03>
-				</c02>
-			</c01>
-		</dsc>
-	</archdesc>
+		</c01>
+	 </dsc>
+  </archdesc>
 </ead>

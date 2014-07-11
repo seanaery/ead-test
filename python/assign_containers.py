@@ -70,7 +70,7 @@ def file_filter(x):
     if not x.endswith('.xml'):
         return False
     invid = x[x.rfind('/')+1:-4]
-    outpath = '../4_finalized_EADs/toolkit/' + invid + '.xml'
+    outpath = '../4_finalized_EADs/' + invid + '.xml'
     if not os.path.exists(outpath):
         return True
     return False
@@ -90,7 +90,7 @@ for f in files:
             outpath = '../4_finalized_EADs/' + stem + '/' + invid + '.xml'
             break
     """
-    outpath = '../4_finalized_EADs/toolkit/' + invid + '.xml'
+    outpath = '../4_finalized_EADs/' + invid + '.xml'
 
     if os.path.exists(outpath):
         continue
@@ -99,7 +99,7 @@ for f in files:
     c01list = invroot.xpath('//ead:c01', namespaces=NSMAP)
     delver = Delver()
     for c01 in c01list:
-        title = c01.find('ead:did/ead:unittitle', namespaces=NSMAP).text.strip()
+        #title = c01.find('ead:did/ead:unittitle', namespaces=NSMAP).text.strip()
         #print title
         #delver.reset()    
         delver.delve(c01)

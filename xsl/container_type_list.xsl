@@ -1,4 +1,7 @@
-﻿<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+﻿<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+    xmlns:ead="urn:isbn:1-931666-22-9"
+    exclude-result-prefixes="ead"
+    version="2.0">
 
 <xsl:output method="text" omit-xml-declaration="yes" encoding="utf-8"/>
 
@@ -36,8 +39,8 @@
 <!-- Begin Data Rows -->
 
 
-    <xsl:for-each select="collection('file:/F:/SpeColl/xml/rbmscl?select=*.xml')//container">
-    <xsl:value-of select="ancestor::ead//eadid"/><xsl:value-of select="$tab"/>
+    <xsl:for-each select="collection('file:/c:/Users/nh48/Documents/GitHub/ead-test/3_processed_EADs/?select=*.xml')//ead:container">
+    <xsl:value-of select="ancestor::ead:ead//ead:eadid"/><xsl:value-of select="$tab"/>
     <xsl:value-of select="./@type"/><xsl:value-of select="$tab"/>
     <xsl:value-of select="./@label"/><xsl:value-of select="$tab"/>
     <xsl:value-of select="."/>

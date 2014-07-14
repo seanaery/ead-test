@@ -495,8 +495,9 @@
   <!-- END CONTROL ACCESS MUNGING -->
 
 
-  <!-- Removes 'content' tagging from all <p> tags at all levels. -->
- <xsl:template match="ead:archdesc//ead:p/ead:name|ead:archdesc//ead:p/ead:persname|ead:archdesc//ead:p/ead:corpname|ead:archdesc//ead:p/ead:famname|ead:archdesc//ead:p/ead:geogname|ead:archdesc//ead:p/ead:subject|ead:archdesc//ead:p/ead:genreform">
+  <!-- Removes 'content' tagging from all <p> tags at all levels. 
+  Added ead:date to list 7/4/2014 -->
+ <xsl:template match="ead:archdesc//ead:p/ead:name|ead:archdesc//ead:p/ead:persname|ead:archdesc//ead:p/ead:corpname|ead:archdesc//ead:p/ead:famname|ead:archdesc//ead:p/ead:geogname|ead:archdesc//ead:p/ead:subject|ead:archdesc//ead:p/ead:genreform|ead:archdesc//ead:p/ead:date">
     <xsl:value-of select="."/>
   </xsl:template>
 
@@ -518,8 +519,9 @@ DO WE REALLY WANT TO DO THIS?  Any chance we can preserve series-level?-->
 	<xsl:value-of select="."/>
 </xsl:template>
   
-<!-- Removes 'content tagging' from dsc unittitles.  This is unnecessary and inconsistently done in legacy EADs -->
-  <xsl:template match="ead:c01//ead:unittitle/ead:name|ead:c01//ead:unittitle/ead:persname|ead:c01//ead:unittitle/ead:famname|ead:c01//ead:unittitle/ead:corpname|ead:c01//ead:unittitle/ead:subject|ead:c01//ead:unittitle/ead:geogname|ead:c01//ead:unittitle/ead:genreform">
+<!-- Removes 'content tagging' from dsc unittitles.  This is unnecessary and inconsistently done in legacy EADs
+  Added ead:date to list 7/14/2014-->
+  <xsl:template match="ead:c01//ead:unittitle/ead:name|ead:c01//ead:unittitle/ead:persname|ead:c01//ead:unittitle/ead:famname|ead:c01//ead:unittitle/ead:corpname|ead:c01//ead:unittitle/ead:subject|ead:c01//ead:unittitle/ead:geogname|ead:c01//ead:unittitle/ead:genreform|ead:c01//ead:unittitle/ead:date">
     <xsl:value-of select="."/> 
   </xsl:template>  
   

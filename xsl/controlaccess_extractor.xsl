@@ -27,7 +27,10 @@
      
  
 <!-- Loads all ead files in directory and creates tabbed file of info -->
-    <xsl:for-each select="collection('file:/c:/Users/nh48/Documents/GitHub/ead-test/2_schema_valid_EADs/?select=*.xml')">
+    
+    <!-- <xsl:for-each select="collection('file:/c:/Users/nh48/Documents/GitHub/ead-test/2_schema_valid_EADs/?select=*.xml')"> -->
+        
+    <xsl:for-each select="collection('file:/c:/Users/nh48/Documents/GitHub/ead-test/3_processed_EADs/?select=*.xml')">
 
         <xsl:for-each select="//ead:controlaccess//ead:persname|
             //ead:controlaccess//ead:famname|

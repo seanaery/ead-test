@@ -1,22 +1,41 @@
 from lxml import etree
 from copy import deepcopy
-import glob
-import os
+import glob, os, csv
 
 NSMAP = {
     'ead' : 'urn:isbn:1-931666-22-9',
 }
 
-containers = []
 
+BOX_TYPES = ['Box', 'box', 'Oversize-Box', 'oversizebox', 'opaperfolder', 'oversizecabinet']
+
+XPATH_BOX_TYPES = '|'.join(['ead:container[@type="' + b + '"]' for b in BOX_TYPES])
+
+def get_container_inheritance_map():
+    fieldnames = ['container type',' occurrence', 'Inherit_Box_if_not_present?']
+    f = open('container_type_report.csv', 'rU')
+    reader = csv.DictReader(f, fieldnames)
+    cimap = {}
+    for r in reader:
+        ctype = r['container type']
+        yorn = r['Inherit_Box_if_not_present?']
+        if yorn == 'Yes':
+            cimap[ctype] = True
+        elif yorn == 'No':
+            cimap[ctype] = False
+        else:
+            continue
+    return cimap
 
 class Delver(object):
     
-    current_container = None
-    containers = []
+    def __init__(self, container_inheritance_map):
+        self.container_inheritance_map = container_inheritance_map
+        self.containers = []
+        self.current_box = None
 
     def reset(self):
-        self.current_container = None
+        self.current_box = None
 
     def delve(self, node, level = 1):
         """
@@ -28,26 +47,61 @@ class Delver(object):
         """
 
         thislevel = level + 1
-        nextlevel = thislevel + 1
+        #nextlevel = thislevel + 1
         is_leaf = False
-        children = node.xpath('ead:c0' + str(nextlevel), namespaces=NSMAP)
+        #xp = 'ead:c0' + str(nextlevel)
+        xp = 'ead:c0' + str(thislevel)
+        
+        children = node.xpath(xp, namespaces=NSMAP)
         if len(children) == 0:
             is_leaf = True
 
         xpath = 'ead:c0' + str(thislevel)
         subseries = node.xpath(xpath, namespaces=NSMAP)
-        c = node.find('ead:did/ead:container', namespaces=NSMAP)
-        boxnodes = node.xpath('ead:did/ead:container[@type="box"]', namespaces=NSMAP)
-        filenodes = node.xpath('ead:did/ead:container[@type="file"]', namespaces=NSMAP)
+        did = node.find('ead:did', namespaces=NSMAP)
+        if did is None:
+            for s in subseries:
+                self.delve(s, thislevel)
+            return
+    
+        #if len(containermap) > 1:
+        #    print containermap
 
-        if is_leaf and len(boxnodes) == 0 and self.current_container is not None:
-            self.containers.append((node, self.current_container))
+        
+        boxnodes = did.xpath(XPATH_BOX_TYPES, namespaces=NSMAP)
+        containerlist = did.xpath('ead:container', namespaces=NSMAP)
+
+        if is_leaf and len(boxnodes) == 0 and self.current_box is not None:
+            self.containers.append((node, self.current_box))
+
+            """
+            if len(othernodes) > 0:
+                for n in othernodes:
+                    ntype = n.get('type')
+                    if self.container_inheritance_map[ntype] and ntype != self.current_box.get('type'):
+                        self.containers.append((node, self.current_box))
+                        break
+            else:
+                self.containers.append((node, self.current_box))
+            if len(containerlist) == 1:
+                self.current_box = containerlist[0]
+            elif len(containerlist) > 1:
+                for c in containerlist:
+                    if c.get('type') in BOX_TYPES:
+                        self.current_box = c
+                        break
+            """
         elif len(boxnodes) == 1:
-            self.current_container = boxnodes[0]
-
+            self.current_box = boxnodes[0]
         """
-        if self.current_container is not None:
-            cstr = self.current_container.get('type') + ' ' + self.current_container.text
+        elif len(containerlist) > 1:
+            for c in containerlist:
+                if c.get('type') in BOX_TYPES:
+                    self.current_box = c
+                    break
+        
+        if self.current_box is not None:
+            cstr = self.current_box.get('type') + ' ' + self.current_box.text
             t = ' '.join(title[:10].split())
             print str(thislevel) + ',' + str(len(subseries)) + ',' + cstr + ' -' + t 
         else:    
@@ -57,6 +111,7 @@ class Delver(object):
         for s in subseries:
             self.delve(s, thislevel)
 
+container_inherits_box = get_container_inheritance_map()
 
 files = glob.glob('../3_processed_EADs/*.xml')
 INV_XML_PATH = '/Users/wsexton/Data/xml/ead'    
@@ -76,7 +131,8 @@ def file_filter(x):
     return False
 
 files = filter(file_filter, files)
-#files = filter(lambda x: x.endswith('baumol.xml'), files)
+#files = files[:10]
+files = filter(lambda x: x.endswith('whitener.xml') or x.endswith('matthews.xml'), files)
 
 for f in files:
     
@@ -97,7 +153,8 @@ for f in files:
                 
     invroot = etree.parse('../3_processed_EADs/' + invid + '.xml').getroot()
     c01list = invroot.xpath('//ead:c01', namespaces=NSMAP)
-    delver = Delver()
+    delver = Delver(container_inherits_box)
+    #delver.containers = []
     for c01 in c01list:
         #title = c01.find('ead:did/ead:unittitle', namespaces=NSMAP).text.strip()
         #print title
@@ -107,9 +164,22 @@ for f in files:
     for (component, container) in delver.containers:
         if container is None:
             continue
-        newcontainer = deepcopy(container)
+        boxnode = deepcopy(container)
+        newchildren = [boxnode]
+
         did = component.find('ead:did', namespaces=NSMAP)
-        did.append(newcontainer)
+        #did.append(boxnode)
+        #title = did.find('ead:unittitle/ead:title', namespaces=NSMAP)
+        #if title is not None and title.text == 'Mesa Educator,':
+        #    print etree.tostring(did)
+        othercontainers = did.xpath('ead:container[not(@type="box")]', namespaces=NSMAP)        
+        for other in othercontainers:
+            newchildren.append(deepcopy(other))
+            did.remove(other)
+        for newchild in newchildren:
+            did.append(newchild)
+        #if title is not None and title.text == 'Mesa Educator,':
+        #    print etree.tostring(did)
     
     c0x_WITH_NO_LEVEL = invroot.xpath(XPATH_c0x_WITH_NO_LEVEL, namespaces=NSMAP)
     for c in c0x_WITH_NO_LEVEL:

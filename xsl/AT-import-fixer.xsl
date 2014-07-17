@@ -589,6 +589,36 @@ DO WE REALLY WANT TO DO THIS?  Any chance we can preserve series-level?-->
     </xsl:element>
   </xsl:template>
 
+<!-- INDEX FIXES -->
+  
+  <!-- Normalize space on head and p tags in index -->
+ <xsl:template match="ead:index/ead:head">
+   <xsl:element name="head">
+     <xsl:value-of select="normalize-space(.)"/>
+   </xsl:element>   
+ </xsl:template>
+
+  <xsl:template match="ead:index/ead:p">
+    <xsl:element name="p">
+      <xsl:value-of select="normalize-space(.)"/>
+    </xsl:element>   
+  </xsl:template>
+
+  <!-- removes ptrgrp and consolidates multiple refs into single ref element separated with semicolons -->
+  <xsl:template match="ead:index/ead:indexentry/ead:ptrgrp">
+    <xsl:element name="ref">
+      <xsl:for-each select="ead:ref">
+        <xsl:value-of select="normalize-space(.)"/>
+        <xsl:choose>
+          <xsl:when test="position()=last()"><xsl:text>.</xsl:text></xsl:when>
+          <xsl:otherwise><xsl:text>; </xsl:text></xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+    </xsl:element>
+  </xsl:template>
+
+
+
 
   <!-- GENERAL UTILITIES -->
   

@@ -1,0 +1,2787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+   
+   
+   <eadheader findaidstatus="published" repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b">
+      
+      <eadid countrycode="US" mainagencycode="US-NcD" publicid="-//David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (us::ndd::::Michael Ivanovitch Rostovtzeff Papers)//EN" url="http://library.duke.edu/rubenstein/findingaids/rostov/">rostov</eadid>
+      
+      <filedesc>
+         
+         
+         <titlestmt>
+            
+            
+            <titleproper>Guide to the Michael Ivanovitch Rostovtzeff Papers, 1897-1968</titleproper>
+            
+            
+            <author>Daniel Daily assisted by Sallie Locke and Brent Johanson</author>
+         
+         
+         </titlestmt>
+         
+         
+         <publicationstmt>
+            
+            <publisher>David M. Rubenstein Rare Book &amp; Manuscript Library</publisher>
+            
+            <address>
+               
+               <addressline>Duke University</addressline>
+               
+               <addressline>Durham, NC 27708 U.S.A.</addressline>
+               
+               <addressline>919-660-5822</addressline>
+               
+               <addressline>special-collections@duke.edu</addressline>
+            
+            </address>
+            
+            <date>1993</date>
+         
+         </publicationstmt>
+         
+      
+      
+      </filedesc>
+      
+      <profiledesc>
+         
+         <creation>Machine-readable finding aid derived from Microsoft Word files. Date of source: unknown. Processed by: Daniel Daily assisted by Sallie Locke and Brent Johanson; Finding aid encoded by Daniel Pitti, University of California, Berkeley, and Stephen Miller, Duke University. David M. Rubenstein Rare Book &amp; Manuscript Library<date/>
+         
+         </creation>
+         
+         <langusage>English</langusage>
+         
+         <descrules>Describing Archives: A Content Standard</descrules>
+      
+      </profiledesc>
+      
+      <revisiondesc>
+         
+         <change>
+            
+            <date>2014</date>
+            
+            <item>Converted from dtd to schema and transformed with AT-import-fixer.xsl</item>
+         
+         </change>
+         
+         <change>
+            
+            
+            <date calendar="gregorian" era="ce" normal="2005">12-31-2005</date>
+            
+            
+            <item>PUBLIC "-//Duke University::David M. Rubenstein Rare Book &amp; Manuscript Library//TEXT (US::NDD::::Michael Ivanovitch Rostovtzeff Papers)//EN" "rostov.xml" converted from EAD 1.0 to 2002 by v1to02.xsl (sy2003-10-15).</item>
+            
+            
+            <item>Also, the top level of the finding aid (above the dsc) changed to conform to current Rubenstein Library and NC EAD standards as laid out in the Inventory Style Guide and in the NCEAD Best Practice Guidelines.  Within the dsc, dates for series were normalized. These changes were made by Michelle Belden.</item>
+            
+            
+            <item>Also, container TYPE and LABEL attribute values were standardized according to the Rubenstein Library EAD 2002 manual and the NCEAD eadlocal.ent by Ruth E. Bryan.</item>
+            
+            
+            <item>The tag list inside index was changed to indexentry by Ruth E. Bryan.</item>
+         
+         
+         </change>
+         
+         <change>
+            
+            
+            <date calendar="gregorian" era="ce">June 29, 1998</date>
+            
+            
+            <item>Updated to EAD Version 1.0 from EAD Beta by
+			 Stephen Miller</item>
+         
+         
+         </change>
+      
+      </revisiondesc>
+   
+   </eadheader>
+   
+   
+   
+   <archdesc level="collection">
+      
+      
+      <did>
+         
+         <origination label="Creator">
+            
+            
+            <persname>Rostovtzeff, Michael Ivanovitch,
+			 1870-1952</persname>
+         
+         
+         </origination>
+         
+         <unittitle label="Title">Michael Ivanovitch
+		  Rostovtzeff papers 		  <unitdate calendar="gregorian" era="ce" normal="1897/1968" type="inclusive">1897-1968</unitdate>
+         
+         
+         </unittitle>
+         
+         <physdesc label="Extent">
+            
+            
+            <extent>4.5 linear feet</extent>
+            
+            
+            <extent>Extent: 2,500 items</extent>
+         
+         
+         </physdesc>
+         
+         <repository label="Repository">
+            
+            
+            <corpname>David M. Rubenstein Rare Book &amp; Manuscript Library</corpname>
+         
+         
+         </repository>
+         
+         <langmaterial label="Language of Materials">English, Latin, French, German, Spanish or Castilian, Russian, and Italian.</langmaterial>
+         
+         <langmaterial>
+            
+            <language langcode="eng"/>
+            
+            <language langcode="lat"/>
+            
+            <language langcode="fre"/>
+            
+            <language langcode="ger"/>
+            
+            <language langcode="spa"/>
+            
+            <language langcode="rus"/>
+            
+            <language langcode="ita"/>
+         
+         </langmaterial>
+         
+         <unitid>RL.01112</unitid>
+         
+         <note label="Language of Materials">
+            
+            <p>Language: English, Latin, French, German, Spanish or Castilian, Russian, and Italian.</p>
+         
+         </note>
+      
+      </did>
+      
+      
+      <descgrp type="admininfo">
+         
+         
+         <head>Administrative Information</head>
+         
+         
+         <accessrestrict>
+            
+            
+            <head>Access Restrictions</head>
+            
+            
+            <p>Collection is open for research.</p>
+            
+            
+            <p>Researchers must register and agree to copyright and privacy laws before using this collection.</p>
+            
+            
+            <p>All or portions of this collection may be housed off-site in Duke University's Library Service Center. The library may require up to  48 hours to retrieve these materials for research use.</p>
+            
+            
+            <p>Please contact Research Services staff before visiting the David M. Rubenstein Rare Book &amp; Manuscript Library to use this collection.</p>
+         
+         
+         </accessrestrict>
+         
+         
+         <userestrict>
+            
+            
+            <head>Use Restrictions</head>
+            
+            
+            <p>The copyright interests in the Michael I.
+			 Rostovtzeff papers have not been transferred to Duke
+			 University. For further information, see the section on
+			 copyright in the Regulations and Procedures of the David M. Rubenstein Rare Book &amp; Manuscript Library. </p>
+         
+         
+         </userestrict>
+         
+         
+         <prefercite>
+            
+            
+            <head>Preferred Citation</head>
+            
+            
+            <p>[Identification of item], Michael Ivanovitch
+			 Rostovtzeff Papers, David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University.</p>
+         
+         
+         </prefercite>
+         
+         
+         <acqinfo>
+            
+            
+            <head>Provenance</head>
+            
+            
+            <p>The Michael I. Rostovtzeff Papers (1897-1968)
+			 were donated to the Rubenstein Library in 1992 by
+			 the American Society of Papyrologists.</p>
+         
+         
+         </acqinfo>
+         
+         
+         <processinfo>
+            
+            
+            <head>Processing Information</head>
+            
+            
+            <p>Processed by: Daniel Daily</p>
+            
+            
+            <p>Assisted by: Sallie Locke and Brent Johanson</p>
+            
+            
+            <p>Date Completed: Nov. 20, 1992</p>
+            
+            
+            <p>Encoded by: Daniel Pitti and Stephen Miller</p>
+         
+         
+         </processinfo>
+      
+      
+      </descgrp>
+      
+      
+      <bioghist>
+         
+         
+         <head>Biographical Note</head>
+         
+         
+         <chronlist>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1870, Nov. 10</date>
+               
+               
+               <event>Born, Zhitomir (the Ukraine), Russia
+				</event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1888</date>
+               
+               
+               <event>Graduated from the First Classical
+				Gymnasium, Kiev, Russia</event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1892</date>
+               
+               
+               <event>B.A., University of St. Petersburg
+				</event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1899</date>
+               
+               
+               <event>Master of Latin Literature, University of
+				St. Petersburg </event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1901</date>
+               
+               
+               <event>Married Sophie M. Kulezycki </event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1903</date>
+               
+               
+               <event>Doctor of Latin Literature, University of
+				St. Petersburg </event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1905-1918 </date>
+               
+               
+               <event>Member, Constitutional Democratic
+				Party</event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1916-1919</date>
+               
+               
+               <event>Member, Russian Academy of
+				Sciences</event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1918</date>
+               
+               
+               <event>Emigrated to Great Britain </event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1918-1920</date>
+               
+               
+               <event>Lecturer, Queen's College, Oxford
+				University </event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1920-1925</date>
+               
+               
+               <event>Professor of Ancient History, University
+				of Wisconsin, Madison, Wis. </event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1925-1939 </date>
+               
+               
+               <event>Sterling Professor of Ancient History,
+				Yale University</event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1926-1927</date>
+               
+               
+               <event>Published
+				<title xlink:type="simple" render="italic">A History of the Ancient
+				  World</title>
+               
+               
+               </event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1926</date>
+               
+               
+               <event>Published
+				<title xlink:type="simple" render="italic">The Social and Economic
+				  History of the Roman Empire</title>
+               
+               
+               </event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1928-1937</date>
+               
+               
+               <event>Director of the Yale University Expedition
+				at Dura-Europos </event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1938</date>
+               
+               
+               <event>Published
+				<title xlink:type="simple" render="italic">Dura-Europos and Its
+				  Art</title>
+               
+               
+               </event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1939</date>
+               
+               
+               <event>Appointed Director of Archaeological
+				Studies, Yale University</event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1941</date>
+               
+               
+               <event>Published
+				<title xlink:type="simple" render="italic">The Social and Economic
+				  History of the Hellenistic World</title>
+               
+               
+               </event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1944 </date>
+               
+               
+               <event>Appointed as the Sterling Professor of
+				Ancient History and Classical Archaeology, Emeritus
+				</event>
+            
+            
+            </chronitem>
+            
+            
+            <chronitem>
+               
+               
+               <date calendar="gregorian" era="ce">1952, Oct. 20</date>
+               
+               
+               <event>Died, New Haven, Conn.</event>
+            
+            
+            </chronitem>
+         
+         
+         </chronlist>
+         
+         
+         <p>Professor Rostovtzeff received honorary degrees
+		  from the University of Leipzig (1909), Oxford University
+		  (1919), University of Wisconsin (1924), Cambridge
+		  University (1934), Harvard University (1936), Athens
+		  University (1937), and the University of Chicago (1941). He
+		  was also a member of numerous national academies and
+		  learned societies, both in the United States and Europe.
+		  Included among these are Phi Beta Kappa, the American
+		  Academy of Arts and Sciences, the American Philological
+		  Society, La Pontificia Accademia Romana di Archeologia,
+		  Academie des Inscriptions et Belles Lettres, and the Polish
+		  Academy of Science. </p>
+      
+      
+      </bioghist>
+      
+      
+      <scopecontent>
+         
+         
+         <head>Collection Overview</head>
+         
+         
+         <p>The Michael I. Rostovtzeff Papers span the years
+		  1897 to 1968 with the bulk dated 1926 to 1954. The
+		  collection chiefly consists of the correspondence of
+		  Michael Rostovtzeff and C. Bradford Welles, a colleague of
+		  Rostovtzeff's at Yale University, with other scholars in the
+		  fields of ancient history, archaeology, and philology.
+		  Other materials include autobiographical writings by
+		  Rostovtzeff, photographs, financial papers, and clippings.
+		  The papers primarily reflect Michael Rostovtzeff's tenure as
+		  a faculty member of the Classics Department at Yale
+		  University. </p>
+         
+         
+         <p>The Papers of Michael I. Rostovtzeff provide
+		  information on the scholarly study of the ancient world
+		  during the first half of the twentieth century. In the
+		  Correspondence Series, letters from scholars in England,
+		  America, and Europe focus on matters of historical
+		  interpretation, archaeological work at Dura-Europos, and
+		  philological analysis. Notable scholars include Rene
+		  Mouterde, W. W. Tarn, Franz Cumont, Athur D. Nock, Vincenzo
+		  Arangio-Ruiz, Tadeusz Zielinski, Walter Otto, and Fritz
+		  Heichelheim. </p>
+         
+         
+         <p>The Biographical Materials Subseries contains
+		  Rostovtzeff's narrative of the Provisional Government's fall
+		  during the Russian Revolution of 1917, his opposition to
+		  Bolshevism, and his eventual emigration from Russia. The
+		  Correspondence Series also documents Rostovtzeff's
+		  assistance to European scholars seeking teaching and
+		  research positions in the United States during World War
+		  II. A number of letters between Rostovtzeff and Alvin
+		  Johnson, Director of the New School for Social Research,
+		  concern efforts by Johnson to identify refugee scholars for
+		  faculty positions at the New School for Social Research.
+		  </p>
+      
+      
+      </scopecontent>
+      
+      
+      <controlaccess>
+         
+         <head>Subject Headings</head>
+         
+         <persname>Rostovtzeff, Michael Ivanovitch, 1870-1952</persname>
+         
+         <persname>Welles, C. Bradford (Charles Bradford) 1901-</persname>
+         
+         <corpname>Yale University -- Faculty</corpname>
+         
+         <corpname>Yale University -- Dept. of Classics</corpname>
+         
+         <corpname>New School for Social Research (New York, N.Y.)</corpname>
+         
+         <persname>Johnson, Alvin Saunders, 1874-</persname>
+         
+         <persname>Heichelheim, Fritz M. (Fritz Moritz)</persname>
+         
+         <persname>Otto, Walter Gustav Albrecht, 1878-1941</persname>
+         
+         <persname>Arangio-Ruiz, Vincenzo, 1884-1964</persname>
+         
+         <persname>Mouterde, Rene, 1880-1961</persname>
+         
+         <persname>Nock, Arthur Darby, 1902-</persname>
+         
+         <persname>Cumont, Franz Valery Marie, 1868-1947</persname>
+         
+         <persname>Bickerman, E. J. (Elias Joseph), 1897-</persname>
+         
+         <persname>Tarn, W. W. (William Woodthorpe), 1869-1957</persname>
+         
+         <persname>Zielinski, Tadeusz, 1859-1944</persname>
+         
+         <subject>History, Ancient</subject>
+         
+         <subject>Excavations (Archaeology) -- Dura-Europos (Ancient City)</subject>
+         
+         <subject>Russia -- History -- Revolution, 1917-1921</subject>
+         
+         <subject>World War, 1939-1945 -- Refugees</subject>
+         
+         <subject>Refugees, Political -- 20th Century</subject>
+         
+         <geogname>Dura-Europos (Ancient City)</geogname>
+      
+      </controlaccess>
+      
+      
+      <dsc type="combined">
+         
+         
+         <head>Contents of Collection</head>
+         
+         
+         <c01 level="series">
+            
+            
+            <did>
+               
+               
+               <unittitle>Correspondence Series,
+				1918-1968, undated
+                  (bulk 1926-1954).
+               </unittitle>
+            
+            
+            </did>
+            
+            
+            <scopecontent>
+               
+               
+               <p>Divided into three subseries: Individuals,
+				Subjects, and Languages. Letters to and from an individual,
+				or letters pertaining to a subject may be located within
+				more than one subseries. Correspondence in English, Latin,
+				French, German, Spanish, Russian, and Italian is scattered
+				throughout the subseries. </p>
+            
+            
+            </scopecontent>
+            
+            
+            <c02 level="subseries">
+               
+               
+               <did>
+                  
+                  
+                  <unittitle>Correspondence: Individuals
+				  Subseries,
+				  1921-1968, undated
+                     (bulk 1926-1954).
+                  </unittitle>
+               
+               
+               </did>
+               
+               
+               <scopecontent>
+                  
+                  
+                  <p>Consists of letters to Rostovtzeff or copies
+				  of letters sent by him. Included are letters which did not
+				  originate from, nor were addressed to Professor Rostovtzeff,
+				  including a substantial number of letters either to or from
+
+				  C. Bradford Welles. Many
+				  of the letters pertain to Professor Rostovtzeff's teaching
+				  positions at
+				  Oxford University, the
+				  University of Wisconsin,
+					 and
+				  Yale University; his
+				  study of ancient history; and his work as Director of the
+				  Yale Expedition at
+				  Dura-Europos.
+                  </p>
+                  
+                  
+                  <arrangement>
+                     
+                     
+                     <p>Arranged alphabetically by correspondent,
+					 organization or society. Arranged chronologically under the
+					 correspondent when there is more than one letter to or from
+					 a correspondent. Following the A-Z arrangement are folders
+					 arranged alphabetically by surname. </p>
+                  
+                  
+                  </arrangement>
+               
+               
+               </scopecontent>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <container type="box">1</container>
+                     
+                     
+                     <unittitle>A:
+					 1934, Oct.-1955, June
+                     </unittitle>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>B-C:
+					 1937, Apr.-1947, July
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>D-F:
+					 1936, Dec.-1953, Jan., undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>G-J:
+					 1932, Feb.-1953, May , undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>K:
+					 1921, May-1954, Aug.
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>L:
+					 1936, Mar.-1948, Jan.
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>M:
+					 1925, Sept.-1954, Dec., undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>N-O:
+					 1934, Jan.-1960, May
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>P:
+					 1932, Jan.-1968, Mar.
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle> R-Sc:
+					 1920s, 1936, Sept.-1963, Dec., undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Se: 1930,
+					 Feb.-1965, Sept.
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Sh-Sn:
+					 1933, Jan.-1964, May, undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Soc:
+					 1936, Sept.-1964, Jan.
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Sok-Sz:
+					 1933, May-1965, Feb., undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>T-Z:
+					 1931, Mar.-1962, Oct.
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Arangio-Ruiz, Vicenzo,
+						
+                        1938, Feb.-1953, May
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Cumont, Franz, 
+                        1927, Feb.-1939, Oct.
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Heichelheim, Fritz M.,
+						
+                        1933, Jan.-1942, Sept.
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Mouterde, Rene, 
+                        1934, Nov.-July, 1960, undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Nock, Arthur and C. Bradford
+						Welles,
+                        1932, May-1963, Jan.
+                     </unittitle>
+                     
+                     
+                     <physdesc>
+                        
+                        
+                        <extent>(3 folders)
+					 </extent>
+                     
+                     
+                     </physdesc>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Otto, Walter, 
+                        1934, Nov.-1948, June, undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Rostovtzeff, Michael I.,
+						and Russian relatives,
+					 1918-1941, undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Rostovtzeff, Michael I.,
+						letters not sent to the addressees,
+					 1942, Sept.-1950, June, undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Rostovtzeff, Michael I.
+						to
+					 C. Bradford Welles, 
+                        1930, May-1946, Oct., undated
+                     </unittitle>
+                     
+                     
+                     <physdesc>
+                        
+                        
+                        <extent> (2
+					 folders)</extent>
+                     
+                     
+                     </physdesc>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Rostovtzeff, Sophie, 
+					 Sympathy letters to,
+					 1952, Oct.-1953, Jan., undated
+                     </unittitle>
+                     
+                     
+                     <physdesc>
+                        
+                        
+                        <extent> (2
+					 folders)</extent>
+                     
+                     
+                     </physdesc>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Rostovtzeff, Sophie  to
+
+					 C. Bradford Welles, 
+                        1944, Oct.-1954, June
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Schubart, Wilhelm, 
+                        1933, Jan.-1960, Aug., undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Welles, C. Bradford 
+					 and
+					 Mrs. F.S. Merrill, 
+                        1944, Sept.-1946, July
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Welles, C. Bradford 
+					 to
+					 Michael I. Rostovtzeff,
+						
+                        1930, Nov.-1946, July
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Welles, C. Bradford 
+					 and
+					 Mariano San Nicolo, 
+                        1933, Aug.-1955, May
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Welles, C. Bradford 
+					 and
+					 W. W. Tarn,
+                        1939, Feb.-1954, Dec., undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Welles, C. Bradford 
+					 and
+					 Toll, Nina,
+                        1932, Nov.-1936, July 2
+                     </unittitle>
+                  
+                  
+                     <container type="box">1</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <container type="box">2</container>
+                     
+                     
+                     <unittitle>Wilammitz to
+					 Michael I. Rostovtzeff,
+                        1926, May,-1930, July
+                     </unittitle>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Zielinski, Tadeusz, 
+                        1929, Apr.-1940, June
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+            
+            
+            </c02>
+            
+            
+            <c02 level="subseries">
+               
+               
+               <did>
+                  
+                  
+                  <unittitle>Correspondence: Subjects Subseries
+				  1918-1966, undated
+                     (bulk 1926-1950).
+                  </unittitle>
+               
+               
+               </did>
+               
+               
+               <scopecontent>
+                  
+                  
+                  <p>Includes correspondence concerning
+				  Rostovtzeff's contribution to
+				<title xlink:type="simple" render="italic">The Cambridge Ancient
+				  History.</title> Also contains other correspondence from
+				publishers in
+				England, as well as in
+				Germany and
+				France, concerning the
+				publication of Rostovtzeff's works. Correspondence from the
+				British publishers comment on the effects of
+				World War II upon publishing
+				and everyday life. </p>
+                  
+                  
+                  <p>The focus of a substantial number of letters
+				  is Professor Rostovtzeff's efforts to aid refugee European
+				  scholars in obtaining faculty positions in the
+				  United States during
+				  World War II.
+                  </p>
+                  
+                  
+                  <arrangement>
+                     
+                     
+                     <p>Arranged alphabetically. </p>
+                  
+                  
+                  </arrangement>
+               
+               
+               </scopecontent>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <container type="box">2</container>
+                     
+                     
+                     <unittitle>
+                        
+                        
+                        <title xlink:type="simple" render="italic"> The Cambridge
+						Ancient History,</title>
+                        1926, June-1933, Mar., undated
+                     </unittitle>
+                     
+                     
+                     <physdesc>
+                        
+                        
+                        <extent>(2 folders)
+					 </extent>
+                     
+                     
+                     </physdesc>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        The Clarendon Press, 
+                        1926, June-1942, Sept. undated
+                     </unittitle>
+                     
+                     
+                     <physdesc>
+                        
+                        
+                        <extent> (2
+					 folders)</extent>
+                     
+                     
+                     </physdesc>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Harvard University:
+					 Offer of an appointment as a university professor,
+					 1938
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Harvard University, The Dumbarton
+						Oaks Research Library and Collection, 
+                        1940, Aug.-1950, Nov.
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Princeton: Advisory
+					 Council to the Department of Classics,
+					 1947, July-1966, Dec.
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Publications: French
+					 correspondence,
+					 1923, Dec.-1939, Aug.
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Publications: German
+					 correspondence,
+					 1928, Apr.-1939, July
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Recommendations by
+					 Rostovtzeff, Michael I.,
+						
+                        1936, Nov.-1950, Jan. (Restricted)
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Refugee scholars:
+					 Bickerman, Elias, 
+                        1939, Apr.-1942, Jan.
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Refugee scholars: Curriculum
+					 vitae,
+					 1938-1941; n.d
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Refugee scholars:
+					 English, French, German, and
+						Italian languages, 
+                        1937-1942, undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Refugee scholars:
+					 Johnson, Alvin, 
+                        1940, Aug.-1941, Apr.
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Refugee scholars:
+					 Slavic, French, and Italian
+						languages, 
+                        1929-1943, undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>University appointments,
+					 1918, Apr.-1944, June.
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Yale Research Funds,
+					 1938, Aug.-1943, May
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+            
+            
+            </c02>
+            
+            
+            <c02 level="subseries">
+               
+               
+               <did>
+                  
+                  
+                  <unittitle>Correspondence: Languages Subseries,
+
+				  1920-1951
+                  </unittitle>
+               
+               
+               </did>
+               
+               
+               <scopecontent>
+                  
+                  
+                  <p>Primarily letters received by Rostovtzeff
+				  from scholars in
+				  Great Britain and
+				  Europe. Contains
+				  correspondence in English, French, German, Italian, Latin,
+				  Russian, and Spanish. Included are letters concerning
+				  Rostovtzeff's archaeological work at
+				   Dura-Europos and
+				  matters of historical interpretation and philological
+				  analysis. Included in the German correspondence are letters
+				  from scholars hoping to emigrate from
+				  Germany due to political
+				  changes after
+				  World War I or
+				  anti-semitism. A letter dated
+				  April 15, 1938 is written from a
+				  concentration camp in
+				  Germany and describes
+				  the conditions within the camp. In the Russian
+				  correspondence, the topics of the letters include
+				  humanitarian aid to people in
+				  Russia, censorship of
+				  mail, and archaeology.</p>
+                  
+                  
+                  <arrangement>
+                     
+                     
+                     <p>Arranged alphabetically by language and
+					 chronologically within each language. </p>
+                  
+                  
+                  </arrangement>
+               
+               
+               </scopecontent>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <container type="box">2</container>
+                     
+                     
+                     <unittitle>English,
+					 1921, Dec.-1951, Nov., undated
+                     </unittitle>
+                     
+                     
+                     <physdesc>
+                        
+                        
+                        <extent>(9
+					 folders)</extent>
+                     
+                     
+                     </physdesc>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>French, 1920, Nov.-1950, Feb., undated
+                     </unittitle>
+                     
+                     
+                     <physdesc>
+                        
+                        
+                        <extent>(4 folders)</extent>
+                     
+                     
+                     </physdesc>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>German,
+					 1926, May-1944, Jan.
+                     </unittitle>
+                     
+                     
+                     <physdesc>
+                        
+                        
+                        <extent>(3
+					 folders)</extent>
+                     
+                     
+                     </physdesc>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Italian,
+					 July, 1927-May, 1940, undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Latin,
+					 March, 1926-1939, 1930s
+                     </unittitle>
+                  
+                  
+                     <container type="box">2</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <container type="box">3</container>
+                     
+                     
+                     <unittitle>Russian,
+					 1920-1945, 1940s, undated
+                     </unittitle>
+                     
+                     
+                     <physdesc>
+                        
+                        
+                        <extent>(5
+					 folders)</extent>
+                     
+                     
+                     </physdesc>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Spanish,
+					 1940, Sept.-1946, Feb.
+                     </unittitle>
+                  
+                  
+                     <container type="box">3</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+            
+            
+            </c02>
+         
+         
+         </c01>
+         
+         
+         <c01 level="series">
+            
+            
+            <did>
+               
+               
+               <unittitle>Miscellaneous Series,
+				1897-1961, undated
+               </unittitle>
+            
+            
+            </did>
+            
+            
+            <scopecontent>
+               
+               
+               <p>Comprised of five subseries Biographical
+				Materials, Pictures, Writings, Financial Papers, and
+				General. Each subseries primarily documents Rostovtzeff's
+				professional affiliations.</p>
+            
+            
+            </scopecontent>
+            
+            
+            <c02 level="subseries">
+               
+               
+               <did>
+                  
+                  
+                  <unittitle> Biographical Materials Subseries,
+				  1918-1954 and undated
+                  </unittitle>
+               
+               
+               </did>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <container type="box">3</container>
+                     
+                     
+                     <unittitle>Awards and honors,
+					 1918-1951
+                     </unittitle>
+                     
+                     
+                     <physdesc>
+                        
+                        
+                        <extent>(2
+					 folders)</extent>
+                     
+                     
+                     </physdesc>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Autobiographical Writings,
+					 1940; undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">3</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Curriculum vitae and lists of
+					 publications,
+					 1951
+                     </unittitle>
+                  
+                  
+                     <container type="box">3</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Obituary notices, clippings,
+					 1952-1963
+                     </unittitle>
+                  
+                  
+                     <container type="box">3</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Obituary notices,
+					 1952-1954, undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">3</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+            
+            
+            </c02>
+            
+            
+            <c02 level="subseries">
+               
+               
+               <did>
+                  
+                  
+                  <unittitle>Pictures Subseries,
+				  1909-1941 and undated
+                  </unittitle>
+               
+               
+               </did>
+               
+               
+               <scopecontent>
+                  
+                  
+                  <p>Primarily black and white photographs.
+				  Subjects include
+				  Michael and Sophie Rostovtzeff,
+					 scenes in
+				  Russia, and
+				  archaeological sites, possibly
+				  Dura-Europos.
+                  </p>
+               
+               
+               </scopecontent>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <container type="box">3</container>
+                     
+                     
+                     <unittitle>
+                        Rostovtzeff, Michael I.,
+						
+                        1926-1933, undated
+                     </unittitle>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Rostovtzeff, Michael I.,
+						and colleagues,
+					 1931-1941, undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">3</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Rostovtzeff, Michael I.,
+						and
+					 Russia, 
+                        1909, undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">3</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>
+                        Rostovtzeff, Michael I. and
+						Sophie, 
+                        undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">3</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+            
+            
+            </c02>
+            
+            
+            <c02 level="subseries">
+               
+               
+               <did>
+                  
+                  
+                  <unittitle>Writings Subseries,
+				  1926-1961
+                  </unittitle>
+               
+               
+               </did>
+               
+               
+               <scopecontent>
+                  
+                  
+                  <p>Includes offprints, typed drafts, and
+				  clippings of reviews for
+				<title xlink:type="simple" render="italic">The Social and Economic
+				  History of the Roman Empire</title> and
+				<title xlink:type="simple" render="italic">The Social and Economic
+				  History of the Hellenistic World,</title> and a first
+				edition of
+				Samuel Eliot Morison's 
+                     <title xlink:type="simple" render="italic">The Scholar in
+				  America.</title>
+                  
+                  
+                  </p>
+                  
+                  
+                  <arrangement>
+                     
+                     
+                     <p>Arranged chronologically.</p>
+                  
+                  
+                  </arrangement>
+               
+               
+               </scopecontent>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <container type="box">3</container>
+                     
+                     
+                     <unittitle>
+                        1926-1961
+                     </unittitle>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+            
+            
+            </c02>
+            
+            
+            <c02 level="subseries">
+               
+               
+               <did>
+                  
+                  
+                  <unittitle>Financial Papers Subseries,
+				  1921-1932 and undated
+                  </unittitle>
+               
+               
+               </did>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <container type="box">3</container>
+                     
+                     
+                     <unittitle>Papyri and antiquities, accounts
+					 and purchases,
+					 1930-1932, undated
+                     </unittitle>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Publications, accounts and
+					 receipts relating to,
+					 1921-1932, undated
+                     </unittitle>
+                  
+                  
+                     <container type="box">3</container>
+                     
+                     
+                  </did>
+               
+               
+               </c03>
+            
+            
+            </c02>
+            
+            
+            <c02 level="subseries">
+               
+               
+               <did>
+                  
+                  
+                  <unittitle>General Subseries,
+				  1897-1952, undated
+                  </unittitle>
+               
+               
+               </did>
+               
+               
+               <scopecontent>
+                  
+                  
+                  <p>Includes notes for a lecture series and the
+				  preparation of a bibliography of Rostovtzeff's works.</p>
+                  
+                  
+                  <arrangement>
+                     
+                     
+                     <p>Arranged chronologically.</p>
+                  
+                  
+                  </arrangement>
+               
+               
+               </scopecontent>
+               
+               
+               <c03 level="file">
+                  
+                  
+                  <did>
+                     
+                     
+                     <container type="box">3</container>
+                     
+                     
+                     <unittitle>
+                        1897-1952
+                     </unittitle>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+            
+            
+            </c02>
+         
+         
+         </c01>
+         
+         
+         <c01 level="collection">
+            
+            
+            <did>
+               
+               
+               <unittitle>Oversized Materials</unittitle>
+            
+            
+            </did>
+            
+            
+            <c02 level="series">
+               
+               
+               <did>
+                  
+                  
+                  <container type="opaperfolder">OC:III:1</container>
+                  
+                  
+                  <unittitle>Correspondence Series</unittitle>
+               
+               
+               </did>
+               
+               
+               <c03 level="subseries">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Individuals Subseries,
+					 1927-1962
+                     </unittitle>
+                  
+                  
+                     <container type="opaperfolder">OC:III:1</container>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="subseries">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Subjects Subseries,
+					 1929-1950
+                     </unittitle>
+                  
+                  
+                     <container type="opaperfolder">OC:III:1</container>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+            
+            
+            </c02>
+            
+            
+            <c02 level="series">
+               
+               
+               <did>
+                  
+                  
+                  <unittitle>Miscellaneous Series </unittitle>
+               
+               
+               </did>
+               
+               
+               <c03 level="subseries">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Biographic Materials Subseries,
+					 1918-1953, undated
+                     </unittitle>
+                  
+                  
+                     <container type="opaperfolder">OC:III:1</container>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="subseries">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Writings Subseries,
+					 1941-1942, undated
+                     </unittitle>
+                  
+                  
+                     <container type="opaperfolder">OC:III:1</container>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="subseries">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>Financial Papers Subseries,
+					 1931
+                     </unittitle>
+                  
+                  
+                     <container type="opaperfolder">OC:III:1</container>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+               
+               
+               <c03 level="subseries">
+                  
+                  
+                  <did>
+                     
+                     
+                     <unittitle>General Subseries,
+					 1919, 1943, and undated
+                     </unittitle>
+                  
+                  
+                     <container type="opaperfolder">OC:III:1</container>
+                  
+                  
+                  </did>
+               
+               
+               </c03>
+            
+            
+            </c02>
+         
+         
+         </c01>
+      
+      
+      </dsc>
+   
+   
+   </archdesc>
+
+
+</ead>

@@ -169,7 +169,7 @@
     </xsl:choose>
   </xsl:template>
 
-  <!-- Removes all notestmt except for Aleph Number link -->
+  <!-- Removes all notestmt except for Aleph Number link.  This didn't work as expected, removed some Aleph num. notes-->
   <xsl:template match="ead:filedesc/ead:notestmt">
     <xsl:choose>
       <xsl:when test="contains(ead:note/ead:p,'Aleph')">

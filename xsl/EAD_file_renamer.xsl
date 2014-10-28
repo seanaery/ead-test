@@ -13,15 +13,12 @@
   <xsl:template match="@*|node()" name="identity">
     <!-- identity transform is default -->
  
- <!-- THIS DOES NOT WORK -->
-   
- <xsl:result-document href="{//ead:archdesc/ead:did/ead:unitid}.xml">
+
+ <xsl:result-document href="{normalize-space(//ead:eadid//text())}.xml">
    <xsl:copy>
    <xsl:apply-templates select="@*|node()"/>
    </xsl:copy>
- </xsl:result-document>
-      
- 
+</xsl:result-document>
 
 
    

@@ -18,7 +18,9 @@
         </xsl:copy>
     </xsl:template>
 
-
+<!-- Most issues fixed below are identified when batch-validating bulk EAD exports from ASpace -->
+	
+	
     <xsl:template match="@href[parent::ead:extref]|@href[parent::ead:archref]|@href[parent::ead:ref]|@href[parent::ead:bibref]">
         <xsl:attribute name="xlink:href">
             <xsl:value-of select="."/>
